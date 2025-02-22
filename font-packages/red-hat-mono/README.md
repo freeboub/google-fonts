@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/red-hat-mono)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/red-hat-mono)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/red-hat-mono)
 
 This package lets you use the [**Red Hat Mono**](https://fonts.google.com/specimen/Red+Hat+Mono) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -28,28 +27,25 @@ This font family contains [10 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/red-hat-mono expo-font expo-app-loading
+expo install @expo-google-fonts/red-hat-mono expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  RedHatMono_300Light,
-  RedHatMono_400Regular,
-  RedHatMono_500Medium,
-  RedHatMono_600SemiBold,
-  RedHatMono_700Bold,
-  RedHatMono_300Light_Italic,
-  RedHatMono_400Regular_Italic,
-  RedHatMono_500Medium_Italic,
-  RedHatMono_600SemiBold_Italic,
-  RedHatMono_700Bold_Italic,
-} from '@expo-google-fonts/red-hat-mono';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/red-hat-mono/useFonts';
+import { RedHatMono_300Light } from '@expo-google-fonts/red-hat-mono/300Light';
+import { RedHatMono_400Regular } from '@expo-google-fonts/red-hat-mono/400Regular';
+import { RedHatMono_500Medium } from '@expo-google-fonts/red-hat-mono/500Medium';
+import { RedHatMono_600SemiBold } from '@expo-google-fonts/red-hat-mono/600SemiBold';
+import { RedHatMono_700Bold } from '@expo-google-fonts/red-hat-mono/700Bold';
+import { RedHatMono_300Light_Italic } from '@expo-google-fonts/red-hat-mono/300Light_Italic';
+import { RedHatMono_400Regular_Italic } from '@expo-google-fonts/red-hat-mono/400Regular_Italic';
+import { RedHatMono_500Medium_Italic } from '@expo-google-fonts/red-hat-mono/500Medium_Italic';
+import { RedHatMono_600SemiBold_Italic } from '@expo-google-fonts/red-hat-mono/600SemiBold_Italic';
+import { RedHatMono_700Bold_Italic } from '@expo-google-fonts/red-hat-mono/700Bold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -69,7 +65,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

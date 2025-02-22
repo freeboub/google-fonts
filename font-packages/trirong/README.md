@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/trirong)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/trirong)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/trirong)
 
 This package lets you use the [**Trirong**](https://fonts.google.com/specimen/Trirong) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/trirong expo-font expo-app-loading
+expo install @expo-google-fonts/trirong expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Trirong_100Thin,
-  Trirong_100Thin_Italic,
-  Trirong_200ExtraLight,
-  Trirong_200ExtraLight_Italic,
-  Trirong_300Light,
-  Trirong_300Light_Italic,
-  Trirong_400Regular,
-  Trirong_400Regular_Italic,
-  Trirong_500Medium,
-  Trirong_500Medium_Italic,
-  Trirong_600SemiBold,
-  Trirong_600SemiBold_Italic,
-  Trirong_700Bold,
-  Trirong_700Bold_Italic,
-  Trirong_800ExtraBold,
-  Trirong_800ExtraBold_Italic,
-  Trirong_900Black,
-  Trirong_900Black_Italic,
-} from '@expo-google-fonts/trirong';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/trirong/useFonts';
+import { Trirong_100Thin } from '@expo-google-fonts/trirong/100Thin';
+import { Trirong_100Thin_Italic } from '@expo-google-fonts/trirong/100Thin_Italic';
+import { Trirong_200ExtraLight } from '@expo-google-fonts/trirong/200ExtraLight';
+import { Trirong_200ExtraLight_Italic } from '@expo-google-fonts/trirong/200ExtraLight_Italic';
+import { Trirong_300Light } from '@expo-google-fonts/trirong/300Light';
+import { Trirong_300Light_Italic } from '@expo-google-fonts/trirong/300Light_Italic';
+import { Trirong_400Regular } from '@expo-google-fonts/trirong/400Regular';
+import { Trirong_400Regular_Italic } from '@expo-google-fonts/trirong/400Regular_Italic';
+import { Trirong_500Medium } from '@expo-google-fonts/trirong/500Medium';
+import { Trirong_500Medium_Italic } from '@expo-google-fonts/trirong/500Medium_Italic';
+import { Trirong_600SemiBold } from '@expo-google-fonts/trirong/600SemiBold';
+import { Trirong_600SemiBold_Italic } from '@expo-google-fonts/trirong/600SemiBold_Italic';
+import { Trirong_700Bold } from '@expo-google-fonts/trirong/700Bold';
+import { Trirong_700Bold_Italic } from '@expo-google-fonts/trirong/700Bold_Italic';
+import { Trirong_800ExtraBold } from '@expo-google-fonts/trirong/800ExtraBold';
+import { Trirong_800ExtraBold_Italic } from '@expo-google-fonts/trirong/800ExtraBold_Italic';
+import { Trirong_900Black } from '@expo-google-fonts/trirong/900Black';
+import { Trirong_900Black_Italic } from '@expo-google-fonts/trirong/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

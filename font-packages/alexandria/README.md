@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/alexandria)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/alexandria)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/alexandria)
 
 This package lets you use the [**Alexandria**](https://fonts.google.com/specimen/Alexandria) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/alexandria expo-font expo-app-loading
+expo install @expo-google-fonts/alexandria expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Alexandria_100Thin,
-  Alexandria_200ExtraLight,
-  Alexandria_300Light,
-  Alexandria_400Regular,
-  Alexandria_500Medium,
-  Alexandria_600SemiBold,
-  Alexandria_700Bold,
-  Alexandria_800ExtraBold,
-  Alexandria_900Black,
-} from '@expo-google-fonts/alexandria';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/alexandria/useFonts';
+import { Alexandria_100Thin } from '@expo-google-fonts/alexandria/100Thin';
+import { Alexandria_200ExtraLight } from '@expo-google-fonts/alexandria/200ExtraLight';
+import { Alexandria_300Light } from '@expo-google-fonts/alexandria/300Light';
+import { Alexandria_400Regular } from '@expo-google-fonts/alexandria/400Regular';
+import { Alexandria_500Medium } from '@expo-google-fonts/alexandria/500Medium';
+import { Alexandria_600SemiBold } from '@expo-google-fonts/alexandria/600SemiBold';
+import { Alexandria_700Bold } from '@expo-google-fonts/alexandria/700Bold';
+import { Alexandria_800ExtraBold } from '@expo-google-fonts/alexandria/800ExtraBold';
+import { Alexandria_900Black } from '@expo-google-fonts/alexandria/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

@@ -2,14 +2,14 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Brygada1918_400Regular = require('./Brygada1918_400Regular.ttf');
-export const Brygada1918_500Medium = require('./Brygada1918_500Medium.ttf');
-export const Brygada1918_600SemiBold = require('./Brygada1918_600SemiBold.ttf');
-export const Brygada1918_700Bold = require('./Brygada1918_700Bold.ttf');
-export const Brygada1918_400Regular_Italic = require('./Brygada1918_400Regular_Italic.ttf');
-export const Brygada1918_500Medium_Italic = require('./Brygada1918_500Medium_Italic.ttf');
-export const Brygada1918_600SemiBold_Italic = require('./Brygada1918_600SemiBold_Italic.ttf');
-export const Brygada1918_700Bold_Italic = require('./Brygada1918_700Bold_Italic.ttf');
+export const Brygada1918_400Regular = require('./400Regular/Brygada1918_400Regular.ttf');
+export const Brygada1918_500Medium = require('./500Medium/Brygada1918_500Medium.ttf');
+export const Brygada1918_600SemiBold = require('./600SemiBold/Brygada1918_600SemiBold.ttf');
+export const Brygada1918_700Bold = require('./700Bold/Brygada1918_700Bold.ttf');
+export const Brygada1918_400Regular_Italic = require('./400Regular_Italic/Brygada1918_400Regular_Italic.ttf');
+export const Brygada1918_500Medium_Italic = require('./500Medium_Italic/Brygada1918_500Medium_Italic.ttf');
+export const Brygada1918_600SemiBold_Italic = require('./600SemiBold_Italic/Brygada1918_600SemiBold_Italic.ttf');
+export const Brygada1918_700Bold_Italic = require('./700Bold_Italic/Brygada1918_700Bold_Italic.ttf');

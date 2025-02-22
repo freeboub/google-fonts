@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const KarlaTamilInclined_400Regular = require('./KarlaTamilInclined_400Regular.ttf');
-export const KarlaTamilInclined_700Bold = require('./KarlaTamilInclined_700Bold.ttf');
+export const KarlaTamilInclined_400Regular = require('./400Regular/KarlaTamilInclined_400Regular.ttf');
+export const KarlaTamilInclined_700Bold = require('./700Bold/KarlaTamilInclined_700Bold.ttf');

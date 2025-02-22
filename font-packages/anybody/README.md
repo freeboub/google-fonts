@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/anybody)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/anybody)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/anybody)
 
 This package lets you use the [**Anybody**](https://fonts.google.com/specimen/Anybody) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/anybody expo-font expo-app-loading
+expo install @expo-google-fonts/anybody expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Anybody_100Thin,
-  Anybody_200ExtraLight,
-  Anybody_300Light,
-  Anybody_400Regular,
-  Anybody_500Medium,
-  Anybody_600SemiBold,
-  Anybody_700Bold,
-  Anybody_800ExtraBold,
-  Anybody_900Black,
-  Anybody_100Thin_Italic,
-  Anybody_200ExtraLight_Italic,
-  Anybody_300Light_Italic,
-  Anybody_400Regular_Italic,
-  Anybody_500Medium_Italic,
-  Anybody_600SemiBold_Italic,
-  Anybody_700Bold_Italic,
-  Anybody_800ExtraBold_Italic,
-  Anybody_900Black_Italic,
-} from '@expo-google-fonts/anybody';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/anybody/useFonts';
+import { Anybody_100Thin } from '@expo-google-fonts/anybody/100Thin';
+import { Anybody_200ExtraLight } from '@expo-google-fonts/anybody/200ExtraLight';
+import { Anybody_300Light } from '@expo-google-fonts/anybody/300Light';
+import { Anybody_400Regular } from '@expo-google-fonts/anybody/400Regular';
+import { Anybody_500Medium } from '@expo-google-fonts/anybody/500Medium';
+import { Anybody_600SemiBold } from '@expo-google-fonts/anybody/600SemiBold';
+import { Anybody_700Bold } from '@expo-google-fonts/anybody/700Bold';
+import { Anybody_800ExtraBold } from '@expo-google-fonts/anybody/800ExtraBold';
+import { Anybody_900Black } from '@expo-google-fonts/anybody/900Black';
+import { Anybody_100Thin_Italic } from '@expo-google-fonts/anybody/100Thin_Italic';
+import { Anybody_200ExtraLight_Italic } from '@expo-google-fonts/anybody/200ExtraLight_Italic';
+import { Anybody_300Light_Italic } from '@expo-google-fonts/anybody/300Light_Italic';
+import { Anybody_400Regular_Italic } from '@expo-google-fonts/anybody/400Regular_Italic';
+import { Anybody_500Medium_Italic } from '@expo-google-fonts/anybody/500Medium_Italic';
+import { Anybody_600SemiBold_Italic } from '@expo-google-fonts/anybody/600SemiBold_Italic';
+import { Anybody_700Bold_Italic } from '@expo-google-fonts/anybody/700Bold_Italic';
+import { Anybody_800ExtraBold_Italic } from '@expo-google-fonts/anybody/800ExtraBold_Italic';
+import { Anybody_900Black_Italic } from '@expo-google-fonts/anybody/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

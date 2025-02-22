@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Corinthia_400Regular = require('./Corinthia_400Regular.ttf');
-export const Corinthia_700Bold = require('./Corinthia_700Bold.ttf');
+export const Corinthia_400Regular = require('./400Regular/Corinthia_400Regular.ttf');
+export const Corinthia_700Bold = require('./700Bold/Corinthia_700Bold.ttf');

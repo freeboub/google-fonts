@@ -2,10 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const LondrinaSolid_100Thin = require('./LondrinaSolid_100Thin.ttf');
-export const LondrinaSolid_300Light = require('./LondrinaSolid_300Light.ttf');
-export const LondrinaSolid_400Regular = require('./LondrinaSolid_400Regular.ttf');
-export const LondrinaSolid_900Black = require('./LondrinaSolid_900Black.ttf');
+export const LondrinaSolid_100Thin = require('./100Thin/LondrinaSolid_100Thin.ttf');
+export const LondrinaSolid_300Light = require('./300Light/LondrinaSolid_300Light.ttf');
+export const LondrinaSolid_400Regular = require('./400Regular/LondrinaSolid_400Regular.ttf');
+export const LondrinaSolid_900Black = require('./900Black/LondrinaSolid_900Black.ttf');

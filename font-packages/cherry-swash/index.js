@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const CherrySwash_400Regular = require('./CherrySwash_400Regular.ttf');
-export const CherrySwash_700Bold = require('./CherrySwash_700Bold.ttf');
+export const CherrySwash_400Regular = require('./400Regular/CherrySwash_400Regular.ttf');
+export const CherrySwash_700Bold = require('./700Bold/CherrySwash_700Bold.ttf');

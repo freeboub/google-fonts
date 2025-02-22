@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/kalnia-glaze)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/kalnia-glaze)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/kalnia-glaze)
 
 This package lets you use the [**Kalnia Glaze**](https://fonts.google.com/specimen/Kalnia+Glaze) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -25,25 +24,22 @@ This font family contains [7 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/kalnia-glaze expo-font expo-app-loading
+expo install @expo-google-fonts/kalnia-glaze expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  KalniaGlaze_100Thin,
-  KalniaGlaze_200ExtraLight,
-  KalniaGlaze_300Light,
-  KalniaGlaze_400Regular,
-  KalniaGlaze_500Medium,
-  KalniaGlaze_600SemiBold,
-  KalniaGlaze_700Bold,
-} from '@expo-google-fonts/kalnia-glaze';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/kalnia-glaze/useFonts';
+import { KalniaGlaze_100Thin } from '@expo-google-fonts/kalnia-glaze/100Thin';
+import { KalniaGlaze_200ExtraLight } from '@expo-google-fonts/kalnia-glaze/200ExtraLight';
+import { KalniaGlaze_300Light } from '@expo-google-fonts/kalnia-glaze/300Light';
+import { KalniaGlaze_400Regular } from '@expo-google-fonts/kalnia-glaze/400Regular';
+import { KalniaGlaze_500Medium } from '@expo-google-fonts/kalnia-glaze/500Medium';
+import { KalniaGlaze_600SemiBold } from '@expo-google-fonts/kalnia-glaze/600SemiBold';
+import { KalniaGlaze_700Bold } from '@expo-google-fonts/kalnia-glaze/700Bold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -60,7 +56,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

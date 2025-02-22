@@ -2,10 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const EduQLDBeginner_400Regular = require('./EduQLDBeginner_400Regular.ttf');
-export const EduQLDBeginner_500Medium = require('./EduQLDBeginner_500Medium.ttf');
-export const EduQLDBeginner_600SemiBold = require('./EduQLDBeginner_600SemiBold.ttf');
-export const EduQLDBeginner_700Bold = require('./EduQLDBeginner_700Bold.ttf');
+export const EduQLDBeginner_400Regular = require('./400Regular/EduQLDBeginner_400Regular.ttf');
+export const EduQLDBeginner_500Medium = require('./500Medium/EduQLDBeginner_500Medium.ttf');
+export const EduQLDBeginner_600SemiBold = require('./600SemiBold/EduQLDBeginner_600SemiBold.ttf');
+export const EduQLDBeginner_700Bold = require('./700Bold/EduQLDBeginner_700Bold.ttf');

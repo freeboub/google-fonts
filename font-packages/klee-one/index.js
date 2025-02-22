@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const KleeOne_400Regular = require('./KleeOne_400Regular.ttf');
-export const KleeOne_600SemiBold = require('./KleeOne_600SemiBold.ttf');
+export const KleeOne_400Regular = require('./400Regular/KleeOne_400Regular.ttf');
+export const KleeOne_600SemiBold = require('./600SemiBold/KleeOne_600SemiBold.ttf');

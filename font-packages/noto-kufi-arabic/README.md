@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-kufi-arabic)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-kufi-arabic)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/noto-kufi-arabic)
 
 This package lets you use the [**Noto Kufi Arabic**](https://fonts.google.com/specimen/Noto+Kufi+Arabic) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/noto-kufi-arabic expo-font expo-app-loading
+expo install @expo-google-fonts/noto-kufi-arabic expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoKufiArabic_100Thin,
-  NotoKufiArabic_200ExtraLight,
-  NotoKufiArabic_300Light,
-  NotoKufiArabic_400Regular,
-  NotoKufiArabic_500Medium,
-  NotoKufiArabic_600SemiBold,
-  NotoKufiArabic_700Bold,
-  NotoKufiArabic_800ExtraBold,
-  NotoKufiArabic_900Black,
-} from '@expo-google-fonts/noto-kufi-arabic';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/noto-kufi-arabic/useFonts';
+import { NotoKufiArabic_100Thin } from '@expo-google-fonts/noto-kufi-arabic/100Thin';
+import { NotoKufiArabic_200ExtraLight } from '@expo-google-fonts/noto-kufi-arabic/200ExtraLight';
+import { NotoKufiArabic_300Light } from '@expo-google-fonts/noto-kufi-arabic/300Light';
+import { NotoKufiArabic_400Regular } from '@expo-google-fonts/noto-kufi-arabic/400Regular';
+import { NotoKufiArabic_500Medium } from '@expo-google-fonts/noto-kufi-arabic/500Medium';
+import { NotoKufiArabic_600SemiBold } from '@expo-google-fonts/noto-kufi-arabic/600SemiBold';
+import { NotoKufiArabic_700Bold } from '@expo-google-fonts/noto-kufi-arabic/700Bold';
+import { NotoKufiArabic_800ExtraBold } from '@expo-google-fonts/noto-kufi-arabic/800ExtraBold';
+import { NotoKufiArabic_900Black } from '@expo-google-fonts/noto-kufi-arabic/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

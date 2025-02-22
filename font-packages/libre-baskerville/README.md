@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/libre-baskerville)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/libre-baskerville)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/libre-baskerville)
 
 This package lets you use the [**Libre Baskerville**](https://fonts.google.com/specimen/Libre+Baskerville) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -21,21 +20,18 @@ This font family contains [3 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/libre-baskerville expo-font expo-app-loading
+expo install @expo-google-fonts/libre-baskerville expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  LibreBaskerville_400Regular,
-  LibreBaskerville_400Regular_Italic,
-  LibreBaskerville_700Bold,
-} from '@expo-google-fonts/libre-baskerville';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/libre-baskerville/useFonts';
+import { LibreBaskerville_400Regular } from '@expo-google-fonts/libre-baskerville/400Regular';
+import { LibreBaskerville_400Regular_Italic } from '@expo-google-fonts/libre-baskerville/400Regular_Italic';
+import { LibreBaskerville_700Bold } from '@expo-google-fonts/libre-baskerville/700Bold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -48,7 +44,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

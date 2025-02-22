@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const StardosStencil_400Regular = require('./StardosStencil_400Regular.ttf');
-export const StardosStencil_700Bold = require('./StardosStencil_700Bold.ttf');
+export const StardosStencil_400Regular = require('./400Regular/StardosStencil_400Regular.ttf');
+export const StardosStencil_700Bold = require('./700Bold/StardosStencil_700Bold.ttf');

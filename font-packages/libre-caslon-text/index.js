@@ -2,9 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const LibreCaslonText_400Regular = require('./LibreCaslonText_400Regular.ttf');
-export const LibreCaslonText_400Regular_Italic = require('./LibreCaslonText_400Regular_Italic.ttf');
-export const LibreCaslonText_700Bold = require('./LibreCaslonText_700Bold.ttf');
+export const LibreCaslonText_400Regular = require('./400Regular/LibreCaslonText_400Regular.ttf');
+export const LibreCaslonText_400Regular_Italic = require('./400Regular_Italic/LibreCaslonText_400Regular_Italic.ttf');
+export const LibreCaslonText_700Bold = require('./700Bold/LibreCaslonText_700Bold.ttf');

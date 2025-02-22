@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/playwrite-tz)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/playwrite-tz)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/playwrite-tz)
 
 This package lets you use the [**Playwrite TZ**](https://fonts.google.com/specimen/Playwrite+TZ) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -22,22 +21,19 @@ This font family contains [4 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/playwrite-tz expo-font expo-app-loading
+expo install @expo-google-fonts/playwrite-tz expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  PlaywriteTZ_100Thin,
-  PlaywriteTZ_200ExtraLight,
-  PlaywriteTZ_300Light,
-  PlaywriteTZ_400Regular,
-} from '@expo-google-fonts/playwrite-tz';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/playwrite-tz/useFonts';
+import { PlaywriteTZ_100Thin } from '@expo-google-fonts/playwrite-tz/100Thin';
+import { PlaywriteTZ_200ExtraLight } from '@expo-google-fonts/playwrite-tz/200ExtraLight';
+import { PlaywriteTZ_300Light } from '@expo-google-fonts/playwrite-tz/300Light';
+import { PlaywriteTZ_400Regular } from '@expo-google-fonts/playwrite-tz/400Regular';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -51,7 +47,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

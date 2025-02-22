@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/poppins)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/poppins)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/poppins)
 
 This package lets you use the [**Poppins**](https://fonts.google.com/specimen/Poppins) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/poppins expo-font expo-app-loading
+expo install @expo-google-fonts/poppins expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Poppins_100Thin,
-  Poppins_100Thin_Italic,
-  Poppins_200ExtraLight,
-  Poppins_200ExtraLight_Italic,
-  Poppins_300Light,
-  Poppins_300Light_Italic,
-  Poppins_400Regular,
-  Poppins_400Regular_Italic,
-  Poppins_500Medium,
-  Poppins_500Medium_Italic,
-  Poppins_600SemiBold,
-  Poppins_600SemiBold_Italic,
-  Poppins_700Bold,
-  Poppins_700Bold_Italic,
-  Poppins_800ExtraBold,
-  Poppins_800ExtraBold_Italic,
-  Poppins_900Black,
-  Poppins_900Black_Italic,
-} from '@expo-google-fonts/poppins';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/poppins/useFonts';
+import { Poppins_100Thin } from '@expo-google-fonts/poppins/100Thin';
+import { Poppins_100Thin_Italic } from '@expo-google-fonts/poppins/100Thin_Italic';
+import { Poppins_200ExtraLight } from '@expo-google-fonts/poppins/200ExtraLight';
+import { Poppins_200ExtraLight_Italic } from '@expo-google-fonts/poppins/200ExtraLight_Italic';
+import { Poppins_300Light } from '@expo-google-fonts/poppins/300Light';
+import { Poppins_300Light_Italic } from '@expo-google-fonts/poppins/300Light_Italic';
+import { Poppins_400Regular } from '@expo-google-fonts/poppins/400Regular';
+import { Poppins_400Regular_Italic } from '@expo-google-fonts/poppins/400Regular_Italic';
+import { Poppins_500Medium } from '@expo-google-fonts/poppins/500Medium';
+import { Poppins_500Medium_Italic } from '@expo-google-fonts/poppins/500Medium_Italic';
+import { Poppins_600SemiBold } from '@expo-google-fonts/poppins/600SemiBold';
+import { Poppins_600SemiBold_Italic } from '@expo-google-fonts/poppins/600SemiBold_Italic';
+import { Poppins_700Bold } from '@expo-google-fonts/poppins/700Bold';
+import { Poppins_700Bold_Italic } from '@expo-google-fonts/poppins/700Bold_Italic';
+import { Poppins_800ExtraBold } from '@expo-google-fonts/poppins/800ExtraBold';
+import { Poppins_800ExtraBold_Italic } from '@expo-google-fonts/poppins/800ExtraBold_Italic';
+import { Poppins_900Black } from '@expo-google-fonts/poppins/900Black';
+import { Poppins_900Black_Italic } from '@expo-google-fonts/poppins/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

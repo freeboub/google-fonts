@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/blinker)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/blinker)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/blinker)
 
 This package lets you use the [**Blinker**](https://fonts.google.com/specimen/Blinker) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -26,26 +25,23 @@ This font family contains [8 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/blinker expo-font expo-app-loading
+expo install @expo-google-fonts/blinker expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Blinker_100Thin,
-  Blinker_200ExtraLight,
-  Blinker_300Light,
-  Blinker_400Regular,
-  Blinker_600SemiBold,
-  Blinker_700Bold,
-  Blinker_800ExtraBold,
-  Blinker_900Black,
-} from '@expo-google-fonts/blinker';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/blinker/useFonts';
+import { Blinker_100Thin } from '@expo-google-fonts/blinker/100Thin';
+import { Blinker_200ExtraLight } from '@expo-google-fonts/blinker/200ExtraLight';
+import { Blinker_300Light } from '@expo-google-fonts/blinker/300Light';
+import { Blinker_400Regular } from '@expo-google-fonts/blinker/400Regular';
+import { Blinker_600SemiBold } from '@expo-google-fonts/blinker/600SemiBold';
+import { Blinker_700Bold } from '@expo-google-fonts/blinker/700Bold';
+import { Blinker_800ExtraBold } from '@expo-google-fonts/blinker/800ExtraBold';
+import { Blinker_900Black } from '@expo-google-fonts/blinker/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -63,7 +59,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

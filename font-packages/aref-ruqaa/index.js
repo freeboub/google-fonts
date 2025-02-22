@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const ArefRuqaa_400Regular = require('./ArefRuqaa_400Regular.ttf');
-export const ArefRuqaa_700Bold = require('./ArefRuqaa_700Bold.ttf');
+export const ArefRuqaa_400Regular = require('./400Regular/ArefRuqaa_400Regular.ttf');
+export const ArefRuqaa_700Bold = require('./700Bold/ArefRuqaa_700Bold.ttf');

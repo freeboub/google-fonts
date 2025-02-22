@@ -2,14 +2,14 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Lora_400Regular = require('./Lora_400Regular.ttf');
-export const Lora_500Medium = require('./Lora_500Medium.ttf');
-export const Lora_600SemiBold = require('./Lora_600SemiBold.ttf');
-export const Lora_700Bold = require('./Lora_700Bold.ttf');
-export const Lora_400Regular_Italic = require('./Lora_400Regular_Italic.ttf');
-export const Lora_500Medium_Italic = require('./Lora_500Medium_Italic.ttf');
-export const Lora_600SemiBold_Italic = require('./Lora_600SemiBold_Italic.ttf');
-export const Lora_700Bold_Italic = require('./Lora_700Bold_Italic.ttf');
+export const Lora_400Regular = require('./400Regular/Lora_400Regular.ttf');
+export const Lora_500Medium = require('./500Medium/Lora_500Medium.ttf');
+export const Lora_600SemiBold = require('./600SemiBold/Lora_600SemiBold.ttf');
+export const Lora_700Bold = require('./700Bold/Lora_700Bold.ttf');
+export const Lora_400Regular_Italic = require('./400Regular_Italic/Lora_400Regular_Italic.ttf');
+export const Lora_500Medium_Italic = require('./500Medium_Italic/Lora_500Medium_Italic.ttf');
+export const Lora_600SemiBold_Italic = require('./600SemiBold_Italic/Lora_600SemiBold_Italic.ttf');
+export const Lora_700Bold_Italic = require('./700Bold_Italic/Lora_700Bold_Italic.ttf');

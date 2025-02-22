@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/stix-two-text)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/stix-two-text)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/stix-two-text)
 
 This package lets you use the [**STIX Two Text**](https://fonts.google.com/specimen/STIX+Two+Text) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -26,26 +25,23 @@ This font family contains [8 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/stix-two-text expo-font expo-app-loading
+expo install @expo-google-fonts/stix-two-text expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  STIXTwoText_400Regular,
-  STIXTwoText_500Medium,
-  STIXTwoText_600SemiBold,
-  STIXTwoText_700Bold,
-  STIXTwoText_400Regular_Italic,
-  STIXTwoText_500Medium_Italic,
-  STIXTwoText_600SemiBold_Italic,
-  STIXTwoText_700Bold_Italic,
-} from '@expo-google-fonts/stix-two-text';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/stix-two-text/useFonts';
+import { STIXTwoText_400Regular } from '@expo-google-fonts/stix-two-text/400Regular';
+import { STIXTwoText_500Medium } from '@expo-google-fonts/stix-two-text/500Medium';
+import { STIXTwoText_600SemiBold } from '@expo-google-fonts/stix-two-text/600SemiBold';
+import { STIXTwoText_700Bold } from '@expo-google-fonts/stix-two-text/700Bold';
+import { STIXTwoText_400Regular_Italic } from '@expo-google-fonts/stix-two-text/400Regular_Italic';
+import { STIXTwoText_500Medium_Italic } from '@expo-google-fonts/stix-two-text/500Medium_Italic';
+import { STIXTwoText_600SemiBold_Italic } from '@expo-google-fonts/stix-two-text/600SemiBold_Italic';
+import { STIXTwoText_700Bold_Italic } from '@expo-google-fonts/stix-two-text/700Bold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -63,7 +59,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

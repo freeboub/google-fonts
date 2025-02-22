@@ -2,10 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const PlaywriteDKUloopet_100Thin = require('./PlaywriteDKUloopet_100Thin.ttf');
-export const PlaywriteDKUloopet_200ExtraLight = require('./PlaywriteDKUloopet_200ExtraLight.ttf');
-export const PlaywriteDKUloopet_300Light = require('./PlaywriteDKUloopet_300Light.ttf');
-export const PlaywriteDKUloopet_400Regular = require('./PlaywriteDKUloopet_400Regular.ttf');
+export const PlaywriteDKUloopet_100Thin = require('./100Thin/PlaywriteDKUloopet_100Thin.ttf');
+export const PlaywriteDKUloopet_200ExtraLight = require('./200ExtraLight/PlaywriteDKUloopet_200ExtraLight.ttf');
+export const PlaywriteDKUloopet_300Light = require('./300Light/PlaywriteDKUloopet_300Light.ttf');
+export const PlaywriteDKUloopet_400Regular = require('./400Regular/PlaywriteDKUloopet_400Regular.ttf');

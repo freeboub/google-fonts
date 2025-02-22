@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/playwrite-au-sa)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/playwrite-au-sa)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/playwrite-au-sa)
 
 This package lets you use the [**Playwrite AU SA**](https://fonts.google.com/specimen/Playwrite+AU+SA) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -22,22 +21,19 @@ This font family contains [4 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/playwrite-au-sa expo-font expo-app-loading
+expo install @expo-google-fonts/playwrite-au-sa expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  PlaywriteAUSA_100Thin,
-  PlaywriteAUSA_200ExtraLight,
-  PlaywriteAUSA_300Light,
-  PlaywriteAUSA_400Regular,
-} from '@expo-google-fonts/playwrite-au-sa';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/playwrite-au-sa/useFonts';
+import { PlaywriteAUSA_100Thin } from '@expo-google-fonts/playwrite-au-sa/100Thin';
+import { PlaywriteAUSA_200ExtraLight } from '@expo-google-fonts/playwrite-au-sa/200ExtraLight';
+import { PlaywriteAUSA_300Light } from '@expo-google-fonts/playwrite-au-sa/300Light';
+import { PlaywriteAUSA_400Regular } from '@expo-google-fonts/playwrite-au-sa/400Regular';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -51,7 +47,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

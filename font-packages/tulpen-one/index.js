@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const TulpenOne_400Regular = require('./TulpenOne_400Regular.ttf');
+export const TulpenOne_400Regular = require('./400Regular/TulpenOne_400Regular.ttf');

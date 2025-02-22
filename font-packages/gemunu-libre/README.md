@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/gemunu-libre)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/gemunu-libre)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/gemunu-libre)
 
 This package lets you use the [**Gemunu Libre**](https://fonts.google.com/specimen/Gemunu+Libre) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -25,25 +24,22 @@ This font family contains [7 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/gemunu-libre expo-font expo-app-loading
+expo install @expo-google-fonts/gemunu-libre expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  GemunuLibre_200ExtraLight,
-  GemunuLibre_300Light,
-  GemunuLibre_400Regular,
-  GemunuLibre_500Medium,
-  GemunuLibre_600SemiBold,
-  GemunuLibre_700Bold,
-  GemunuLibre_800ExtraBold,
-} from '@expo-google-fonts/gemunu-libre';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/gemunu-libre/useFonts';
+import { GemunuLibre_200ExtraLight } from '@expo-google-fonts/gemunu-libre/200ExtraLight';
+import { GemunuLibre_300Light } from '@expo-google-fonts/gemunu-libre/300Light';
+import { GemunuLibre_400Regular } from '@expo-google-fonts/gemunu-libre/400Regular';
+import { GemunuLibre_500Medium } from '@expo-google-fonts/gemunu-libre/500Medium';
+import { GemunuLibre_600SemiBold } from '@expo-google-fonts/gemunu-libre/600SemiBold';
+import { GemunuLibre_700Bold } from '@expo-google-fonts/gemunu-libre/700Bold';
+import { GemunuLibre_800ExtraBold } from '@expo-google-fonts/gemunu-libre/800ExtraBold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -60,7 +56,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

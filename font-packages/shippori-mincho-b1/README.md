@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/shippori-mincho-b1)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/shippori-mincho-b1)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/shippori-mincho-b1)
 
 This package lets you use the [**Shippori Mincho B1**](https://fonts.google.com/specimen/Shippori+Mincho+B1) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -23,23 +22,20 @@ This font family contains [5 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/shippori-mincho-b1 expo-font expo-app-loading
+expo install @expo-google-fonts/shippori-mincho-b1 expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  ShipporiMinchoB1_400Regular,
-  ShipporiMinchoB1_500Medium,
-  ShipporiMinchoB1_600SemiBold,
-  ShipporiMinchoB1_700Bold,
-  ShipporiMinchoB1_800ExtraBold,
-} from '@expo-google-fonts/shippori-mincho-b1';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/shippori-mincho-b1/useFonts';
+import { ShipporiMinchoB1_400Regular } from '@expo-google-fonts/shippori-mincho-b1/400Regular';
+import { ShipporiMinchoB1_500Medium } from '@expo-google-fonts/shippori-mincho-b1/500Medium';
+import { ShipporiMinchoB1_600SemiBold } from '@expo-google-fonts/shippori-mincho-b1/600SemiBold';
+import { ShipporiMinchoB1_700Bold } from '@expo-google-fonts/shippori-mincho-b1/700Bold';
+import { ShipporiMinchoB1_800ExtraBold } from '@expo-google-fonts/shippori-mincho-b1/800ExtraBold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -54,7 +50,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

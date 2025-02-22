@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const TiroDevanagariSanskrit_400Regular = require('./TiroDevanagariSanskrit_400Regular.ttf');
-export const TiroDevanagariSanskrit_400Regular_Italic = require('./TiroDevanagariSanskrit_400Regular_Italic.ttf');
+export const TiroDevanagariSanskrit_400Regular = require('./400Regular/TiroDevanagariSanskrit_400Regular.ttf');
+export const TiroDevanagariSanskrit_400Regular_Italic = require('./400Regular_Italic/TiroDevanagariSanskrit_400Regular_Italic.ttf');

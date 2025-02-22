@@ -2,10 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Kameron_400Regular = require('./Kameron_400Regular.ttf');
-export const Kameron_500Medium = require('./Kameron_500Medium.ttf');
-export const Kameron_600SemiBold = require('./Kameron_600SemiBold.ttf');
-export const Kameron_700Bold = require('./Kameron_700Bold.ttf');
+export const Kameron_400Regular = require('./400Regular/Kameron_400Regular.ttf');
+export const Kameron_500Medium = require('./500Medium/Kameron_500Medium.ttf');
+export const Kameron_600SemiBold = require('./600SemiBold/Kameron_600SemiBold.ttf');
+export const Kameron_700Bold = require('./700Bold/Kameron_700Bold.ttf');

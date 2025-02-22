@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/bitter)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/bitter)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/bitter)
 
 This package lets you use the [**Bitter**](https://fonts.google.com/specimen/Bitter) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/bitter expo-font expo-app-loading
+expo install @expo-google-fonts/bitter expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Bitter_100Thin,
-  Bitter_200ExtraLight,
-  Bitter_300Light,
-  Bitter_400Regular,
-  Bitter_500Medium,
-  Bitter_600SemiBold,
-  Bitter_700Bold,
-  Bitter_800ExtraBold,
-  Bitter_900Black,
-  Bitter_100Thin_Italic,
-  Bitter_200ExtraLight_Italic,
-  Bitter_300Light_Italic,
-  Bitter_400Regular_Italic,
-  Bitter_500Medium_Italic,
-  Bitter_600SemiBold_Italic,
-  Bitter_700Bold_Italic,
-  Bitter_800ExtraBold_Italic,
-  Bitter_900Black_Italic,
-} from '@expo-google-fonts/bitter';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/bitter/useFonts';
+import { Bitter_100Thin } from '@expo-google-fonts/bitter/100Thin';
+import { Bitter_200ExtraLight } from '@expo-google-fonts/bitter/200ExtraLight';
+import { Bitter_300Light } from '@expo-google-fonts/bitter/300Light';
+import { Bitter_400Regular } from '@expo-google-fonts/bitter/400Regular';
+import { Bitter_500Medium } from '@expo-google-fonts/bitter/500Medium';
+import { Bitter_600SemiBold } from '@expo-google-fonts/bitter/600SemiBold';
+import { Bitter_700Bold } from '@expo-google-fonts/bitter/700Bold';
+import { Bitter_800ExtraBold } from '@expo-google-fonts/bitter/800ExtraBold';
+import { Bitter_900Black } from '@expo-google-fonts/bitter/900Black';
+import { Bitter_100Thin_Italic } from '@expo-google-fonts/bitter/100Thin_Italic';
+import { Bitter_200ExtraLight_Italic } from '@expo-google-fonts/bitter/200ExtraLight_Italic';
+import { Bitter_300Light_Italic } from '@expo-google-fonts/bitter/300Light_Italic';
+import { Bitter_400Regular_Italic } from '@expo-google-fonts/bitter/400Regular_Italic';
+import { Bitter_500Medium_Italic } from '@expo-google-fonts/bitter/500Medium_Italic';
+import { Bitter_600SemiBold_Italic } from '@expo-google-fonts/bitter/600SemiBold_Italic';
+import { Bitter_700Bold_Italic } from '@expo-google-fonts/bitter/700Bold_Italic';
+import { Bitter_800ExtraBold_Italic } from '@expo-google-fonts/bitter/800ExtraBold_Italic';
+import { Bitter_900Black_Italic } from '@expo-google-fonts/bitter/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

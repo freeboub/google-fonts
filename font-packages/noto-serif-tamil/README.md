@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-serif-tamil)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-serif-tamil)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/noto-serif-tamil)
 
 This package lets you use the [**Noto Serif Tamil**](https://fonts.google.com/specimen/Noto+Serif+Tamil) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/noto-serif-tamil expo-font expo-app-loading
+expo install @expo-google-fonts/noto-serif-tamil expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSerifTamil_100Thin,
-  NotoSerifTamil_200ExtraLight,
-  NotoSerifTamil_300Light,
-  NotoSerifTamil_400Regular,
-  NotoSerifTamil_500Medium,
-  NotoSerifTamil_600SemiBold,
-  NotoSerifTamil_700Bold,
-  NotoSerifTamil_800ExtraBold,
-  NotoSerifTamil_900Black,
-  NotoSerifTamil_100Thin_Italic,
-  NotoSerifTamil_200ExtraLight_Italic,
-  NotoSerifTamil_300Light_Italic,
-  NotoSerifTamil_400Regular_Italic,
-  NotoSerifTamil_500Medium_Italic,
-  NotoSerifTamil_600SemiBold_Italic,
-  NotoSerifTamil_700Bold_Italic,
-  NotoSerifTamil_800ExtraBold_Italic,
-  NotoSerifTamil_900Black_Italic,
-} from '@expo-google-fonts/noto-serif-tamil';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/noto-serif-tamil/useFonts';
+import { NotoSerifTamil_100Thin } from '@expo-google-fonts/noto-serif-tamil/100Thin';
+import { NotoSerifTamil_200ExtraLight } from '@expo-google-fonts/noto-serif-tamil/200ExtraLight';
+import { NotoSerifTamil_300Light } from '@expo-google-fonts/noto-serif-tamil/300Light';
+import { NotoSerifTamil_400Regular } from '@expo-google-fonts/noto-serif-tamil/400Regular';
+import { NotoSerifTamil_500Medium } from '@expo-google-fonts/noto-serif-tamil/500Medium';
+import { NotoSerifTamil_600SemiBold } from '@expo-google-fonts/noto-serif-tamil/600SemiBold';
+import { NotoSerifTamil_700Bold } from '@expo-google-fonts/noto-serif-tamil/700Bold';
+import { NotoSerifTamil_800ExtraBold } from '@expo-google-fonts/noto-serif-tamil/800ExtraBold';
+import { NotoSerifTamil_900Black } from '@expo-google-fonts/noto-serif-tamil/900Black';
+import { NotoSerifTamil_100Thin_Italic } from '@expo-google-fonts/noto-serif-tamil/100Thin_Italic';
+import { NotoSerifTamil_200ExtraLight_Italic } from '@expo-google-fonts/noto-serif-tamil/200ExtraLight_Italic';
+import { NotoSerifTamil_300Light_Italic } from '@expo-google-fonts/noto-serif-tamil/300Light_Italic';
+import { NotoSerifTamil_400Regular_Italic } from '@expo-google-fonts/noto-serif-tamil/400Regular_Italic';
+import { NotoSerifTamil_500Medium_Italic } from '@expo-google-fonts/noto-serif-tamil/500Medium_Italic';
+import { NotoSerifTamil_600SemiBold_Italic } from '@expo-google-fonts/noto-serif-tamil/600SemiBold_Italic';
+import { NotoSerifTamil_700Bold_Italic } from '@expo-google-fonts/noto-serif-tamil/700Bold_Italic';
+import { NotoSerifTamil_800ExtraBold_Italic } from '@expo-google-fonts/noto-serif-tamil/800ExtraBold_Italic';
+import { NotoSerifTamil_900Black_Italic } from '@expo-google-fonts/noto-serif-tamil/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

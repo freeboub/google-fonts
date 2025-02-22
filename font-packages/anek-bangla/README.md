@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/anek-bangla)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/anek-bangla)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/anek-bangla)
 
 This package lets you use the [**Anek Bangla**](https://fonts.google.com/specimen/Anek+Bangla) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -26,26 +25,23 @@ This font family contains [8 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/anek-bangla expo-font expo-app-loading
+expo install @expo-google-fonts/anek-bangla expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  AnekBangla_100Thin,
-  AnekBangla_200ExtraLight,
-  AnekBangla_300Light,
-  AnekBangla_400Regular,
-  AnekBangla_500Medium,
-  AnekBangla_600SemiBold,
-  AnekBangla_700Bold,
-  AnekBangla_800ExtraBold,
-} from '@expo-google-fonts/anek-bangla';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/anek-bangla/useFonts';
+import { AnekBangla_100Thin } from '@expo-google-fonts/anek-bangla/100Thin';
+import { AnekBangla_200ExtraLight } from '@expo-google-fonts/anek-bangla/200ExtraLight';
+import { AnekBangla_300Light } from '@expo-google-fonts/anek-bangla/300Light';
+import { AnekBangla_400Regular } from '@expo-google-fonts/anek-bangla/400Regular';
+import { AnekBangla_500Medium } from '@expo-google-fonts/anek-bangla/500Medium';
+import { AnekBangla_600SemiBold } from '@expo-google-fonts/anek-bangla/600SemiBold';
+import { AnekBangla_700Bold } from '@expo-google-fonts/anek-bangla/700Bold';
+import { AnekBangla_800ExtraBold } from '@expo-google-fonts/anek-bangla/800ExtraBold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -63,7 +59,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

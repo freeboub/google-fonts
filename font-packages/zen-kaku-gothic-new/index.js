@@ -2,11 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const ZenKakuGothicNew_300Light = require('./ZenKakuGothicNew_300Light.ttf');
-export const ZenKakuGothicNew_400Regular = require('./ZenKakuGothicNew_400Regular.ttf');
-export const ZenKakuGothicNew_500Medium = require('./ZenKakuGothicNew_500Medium.ttf');
-export const ZenKakuGothicNew_700Bold = require('./ZenKakuGothicNew_700Bold.ttf');
-export const ZenKakuGothicNew_900Black = require('./ZenKakuGothicNew_900Black.ttf');
+export const ZenKakuGothicNew_300Light = require('./300Light/ZenKakuGothicNew_300Light.ttf');
+export const ZenKakuGothicNew_400Regular = require('./400Regular/ZenKakuGothicNew_400Regular.ttf');
+export const ZenKakuGothicNew_500Medium = require('./500Medium/ZenKakuGothicNew_500Medium.ttf');
+export const ZenKakuGothicNew_700Bold = require('./700Bold/ZenKakuGothicNew_700Bold.ttf');
+export const ZenKakuGothicNew_900Black = require('./900Black/ZenKakuGothicNew_900Black.ttf');

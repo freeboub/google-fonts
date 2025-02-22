@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/mona-sans)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/mona-sans)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/mona-sans)
 
 This package lets you use the [**Mona Sans**](https://fonts.google.com/specimen/Mona+Sans) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -34,34 +33,31 @@ This font family contains [16 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/mona-sans expo-font expo-app-loading
+expo install @expo-google-fonts/mona-sans expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  MonaSans_200ExtraLight,
-  MonaSans_300Light,
-  MonaSans_400Regular,
-  MonaSans_500Medium,
-  MonaSans_600SemiBold,
-  MonaSans_700Bold,
-  MonaSans_800ExtraBold,
-  MonaSans_900Black,
-  MonaSans_200ExtraLight_Italic,
-  MonaSans_300Light_Italic,
-  MonaSans_400Regular_Italic,
-  MonaSans_500Medium_Italic,
-  MonaSans_600SemiBold_Italic,
-  MonaSans_700Bold_Italic,
-  MonaSans_800ExtraBold_Italic,
-  MonaSans_900Black_Italic,
-} from '@expo-google-fonts/mona-sans';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/mona-sans/useFonts';
+import { MonaSans_200ExtraLight } from '@expo-google-fonts/mona-sans/200ExtraLight';
+import { MonaSans_300Light } from '@expo-google-fonts/mona-sans/300Light';
+import { MonaSans_400Regular } from '@expo-google-fonts/mona-sans/400Regular';
+import { MonaSans_500Medium } from '@expo-google-fonts/mona-sans/500Medium';
+import { MonaSans_600SemiBold } from '@expo-google-fonts/mona-sans/600SemiBold';
+import { MonaSans_700Bold } from '@expo-google-fonts/mona-sans/700Bold';
+import { MonaSans_800ExtraBold } from '@expo-google-fonts/mona-sans/800ExtraBold';
+import { MonaSans_900Black } from '@expo-google-fonts/mona-sans/900Black';
+import { MonaSans_200ExtraLight_Italic } from '@expo-google-fonts/mona-sans/200ExtraLight_Italic';
+import { MonaSans_300Light_Italic } from '@expo-google-fonts/mona-sans/300Light_Italic';
+import { MonaSans_400Regular_Italic } from '@expo-google-fonts/mona-sans/400Regular_Italic';
+import { MonaSans_500Medium_Italic } from '@expo-google-fonts/mona-sans/500Medium_Italic';
+import { MonaSans_600SemiBold_Italic } from '@expo-google-fonts/mona-sans/600SemiBold_Italic';
+import { MonaSans_700Bold_Italic } from '@expo-google-fonts/mona-sans/700Bold_Italic';
+import { MonaSans_800ExtraBold_Italic } from '@expo-google-fonts/mona-sans/800ExtraBold_Italic';
+import { MonaSans_900Black_Italic } from '@expo-google-fonts/mona-sans/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -87,7 +83,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

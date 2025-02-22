@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-serif-hentaigana)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-serif-hentaigana)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/noto-serif-hentaigana)
 
 This package lets you use the [**Noto Serif Hentaigana**](https://fonts.google.com/specimen/Noto+Serif+Hentaigana) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -26,26 +25,23 @@ This font family contains [8 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/noto-serif-hentaigana expo-font expo-app-loading
+expo install @expo-google-fonts/noto-serif-hentaigana expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSerifHentaigana_200ExtraLight,
-  NotoSerifHentaigana_300Light,
-  NotoSerifHentaigana_400Regular,
-  NotoSerifHentaigana_500Medium,
-  NotoSerifHentaigana_600SemiBold,
-  NotoSerifHentaigana_700Bold,
-  NotoSerifHentaigana_800ExtraBold,
-  NotoSerifHentaigana_900Black,
-} from '@expo-google-fonts/noto-serif-hentaigana';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/noto-serif-hentaigana/useFonts';
+import { NotoSerifHentaigana_200ExtraLight } from '@expo-google-fonts/noto-serif-hentaigana/200ExtraLight';
+import { NotoSerifHentaigana_300Light } from '@expo-google-fonts/noto-serif-hentaigana/300Light';
+import { NotoSerifHentaigana_400Regular } from '@expo-google-fonts/noto-serif-hentaigana/400Regular';
+import { NotoSerifHentaigana_500Medium } from '@expo-google-fonts/noto-serif-hentaigana/500Medium';
+import { NotoSerifHentaigana_600SemiBold } from '@expo-google-fonts/noto-serif-hentaigana/600SemiBold';
+import { NotoSerifHentaigana_700Bold } from '@expo-google-fonts/noto-serif-hentaigana/700Bold';
+import { NotoSerifHentaigana_800ExtraBold } from '@expo-google-fonts/noto-serif-hentaigana/800ExtraBold';
+import { NotoSerifHentaigana_900Black } from '@expo-google-fonts/noto-serif-hentaigana/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -63,7 +59,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

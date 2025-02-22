@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const BilboSwashCaps_400Regular = require('./BilboSwashCaps_400Regular.ttf');
+export const BilboSwashCaps_400Regular = require('./400Regular/BilboSwashCaps_400Regular.ttf');

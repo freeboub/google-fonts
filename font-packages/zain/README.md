@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/zain)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/zain)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/zain)
 
 This package lets you use the [**Zain**](https://fonts.google.com/specimen/Zain) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -26,26 +25,23 @@ This font family contains [8 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/zain expo-font expo-app-loading
+expo install @expo-google-fonts/zain expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Zain_200ExtraLight,
-  Zain_300Light,
-  Zain_300Light_Italic,
-  Zain_400Regular,
-  Zain_400Regular_Italic,
-  Zain_700Bold,
-  Zain_800ExtraBold,
-  Zain_900Black,
-} from '@expo-google-fonts/zain';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/zain/useFonts';
+import { Zain_200ExtraLight } from '@expo-google-fonts/zain/200ExtraLight';
+import { Zain_300Light } from '@expo-google-fonts/zain/300Light';
+import { Zain_300Light_Italic } from '@expo-google-fonts/zain/300Light_Italic';
+import { Zain_400Regular } from '@expo-google-fonts/zain/400Regular';
+import { Zain_400Regular_Italic } from '@expo-google-fonts/zain/400Regular_Italic';
+import { Zain_700Bold } from '@expo-google-fonts/zain/700Bold';
+import { Zain_800ExtraBold } from '@expo-google-fonts/zain/800ExtraBold';
+import { Zain_900Black } from '@expo-google-fonts/zain/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -63,7 +59,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const NanumPenScript_400Regular = require('./NanumPenScript_400Regular.ttf');
+export const NanumPenScript_400Regular = require('./400Regular/NanumPenScript_400Regular.ttf');

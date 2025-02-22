@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/pathway-extreme)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/pathway-extreme)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/pathway-extreme)
 
 This package lets you use the [**Pathway Extreme**](https://fonts.google.com/specimen/Pathway+Extreme) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/pathway-extreme expo-font expo-app-loading
+expo install @expo-google-fonts/pathway-extreme expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  PathwayExtreme_100Thin,
-  PathwayExtreme_200ExtraLight,
-  PathwayExtreme_300Light,
-  PathwayExtreme_400Regular,
-  PathwayExtreme_500Medium,
-  PathwayExtreme_600SemiBold,
-  PathwayExtreme_700Bold,
-  PathwayExtreme_800ExtraBold,
-  PathwayExtreme_900Black,
-  PathwayExtreme_100Thin_Italic,
-  PathwayExtreme_200ExtraLight_Italic,
-  PathwayExtreme_300Light_Italic,
-  PathwayExtreme_400Regular_Italic,
-  PathwayExtreme_500Medium_Italic,
-  PathwayExtreme_600SemiBold_Italic,
-  PathwayExtreme_700Bold_Italic,
-  PathwayExtreme_800ExtraBold_Italic,
-  PathwayExtreme_900Black_Italic,
-} from '@expo-google-fonts/pathway-extreme';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/pathway-extreme/useFonts';
+import { PathwayExtreme_100Thin } from '@expo-google-fonts/pathway-extreme/100Thin';
+import { PathwayExtreme_200ExtraLight } from '@expo-google-fonts/pathway-extreme/200ExtraLight';
+import { PathwayExtreme_300Light } from '@expo-google-fonts/pathway-extreme/300Light';
+import { PathwayExtreme_400Regular } from '@expo-google-fonts/pathway-extreme/400Regular';
+import { PathwayExtreme_500Medium } from '@expo-google-fonts/pathway-extreme/500Medium';
+import { PathwayExtreme_600SemiBold } from '@expo-google-fonts/pathway-extreme/600SemiBold';
+import { PathwayExtreme_700Bold } from '@expo-google-fonts/pathway-extreme/700Bold';
+import { PathwayExtreme_800ExtraBold } from '@expo-google-fonts/pathway-extreme/800ExtraBold';
+import { PathwayExtreme_900Black } from '@expo-google-fonts/pathway-extreme/900Black';
+import { PathwayExtreme_100Thin_Italic } from '@expo-google-fonts/pathway-extreme/100Thin_Italic';
+import { PathwayExtreme_200ExtraLight_Italic } from '@expo-google-fonts/pathway-extreme/200ExtraLight_Italic';
+import { PathwayExtreme_300Light_Italic } from '@expo-google-fonts/pathway-extreme/300Light_Italic';
+import { PathwayExtreme_400Regular_Italic } from '@expo-google-fonts/pathway-extreme/400Regular_Italic';
+import { PathwayExtreme_500Medium_Italic } from '@expo-google-fonts/pathway-extreme/500Medium_Italic';
+import { PathwayExtreme_600SemiBold_Italic } from '@expo-google-fonts/pathway-extreme/600SemiBold_Italic';
+import { PathwayExtreme_700Bold_Italic } from '@expo-google-fonts/pathway-extreme/700Bold_Italic';
+import { PathwayExtreme_800ExtraBold_Italic } from '@expo-google-fonts/pathway-extreme/800ExtraBold_Italic';
+import { PathwayExtreme_900Black_Italic } from '@expo-google-fonts/pathway-extreme/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

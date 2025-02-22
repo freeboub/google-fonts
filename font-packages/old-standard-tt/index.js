@@ -2,9 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const OldStandardTT_400Regular = require('./OldStandardTT_400Regular.ttf');
-export const OldStandardTT_400Regular_Italic = require('./OldStandardTT_400Regular_Italic.ttf');
-export const OldStandardTT_700Bold = require('./OldStandardTT_700Bold.ttf');
+export const OldStandardTT_400Regular = require('./400Regular/OldStandardTT_400Regular.ttf');
+export const OldStandardTT_400Regular_Italic = require('./400Regular_Italic/OldStandardTT_400Regular_Italic.ttf');
+export const OldStandardTT_700Bold = require('./700Bold/OldStandardTT_700Bold.ttf');

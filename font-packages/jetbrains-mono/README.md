@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/jetbrains-mono)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/jetbrains-mono)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/jetbrains-mono)
 
 This package lets you use the [**JetBrains Mono**](https://fonts.google.com/specimen/JetBrains+Mono) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -34,34 +33,31 @@ This font family contains [16 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/jetbrains-mono expo-font expo-app-loading
+expo install @expo-google-fonts/jetbrains-mono expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  JetBrainsMono_100Thin,
-  JetBrainsMono_200ExtraLight,
-  JetBrainsMono_300Light,
-  JetBrainsMono_400Regular,
-  JetBrainsMono_500Medium,
-  JetBrainsMono_600SemiBold,
-  JetBrainsMono_700Bold,
-  JetBrainsMono_800ExtraBold,
-  JetBrainsMono_100Thin_Italic,
-  JetBrainsMono_200ExtraLight_Italic,
-  JetBrainsMono_300Light_Italic,
-  JetBrainsMono_400Regular_Italic,
-  JetBrainsMono_500Medium_Italic,
-  JetBrainsMono_600SemiBold_Italic,
-  JetBrainsMono_700Bold_Italic,
-  JetBrainsMono_800ExtraBold_Italic,
-} from '@expo-google-fonts/jetbrains-mono';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/jetbrains-mono/useFonts';
+import { JetBrainsMono_100Thin } from '@expo-google-fonts/jetbrains-mono/100Thin';
+import { JetBrainsMono_200ExtraLight } from '@expo-google-fonts/jetbrains-mono/200ExtraLight';
+import { JetBrainsMono_300Light } from '@expo-google-fonts/jetbrains-mono/300Light';
+import { JetBrainsMono_400Regular } from '@expo-google-fonts/jetbrains-mono/400Regular';
+import { JetBrainsMono_500Medium } from '@expo-google-fonts/jetbrains-mono/500Medium';
+import { JetBrainsMono_600SemiBold } from '@expo-google-fonts/jetbrains-mono/600SemiBold';
+import { JetBrainsMono_700Bold } from '@expo-google-fonts/jetbrains-mono/700Bold';
+import { JetBrainsMono_800ExtraBold } from '@expo-google-fonts/jetbrains-mono/800ExtraBold';
+import { JetBrainsMono_100Thin_Italic } from '@expo-google-fonts/jetbrains-mono/100Thin_Italic';
+import { JetBrainsMono_200ExtraLight_Italic } from '@expo-google-fonts/jetbrains-mono/200ExtraLight_Italic';
+import { JetBrainsMono_300Light_Italic } from '@expo-google-fonts/jetbrains-mono/300Light_Italic';
+import { JetBrainsMono_400Regular_Italic } from '@expo-google-fonts/jetbrains-mono/400Regular_Italic';
+import { JetBrainsMono_500Medium_Italic } from '@expo-google-fonts/jetbrains-mono/500Medium_Italic';
+import { JetBrainsMono_600SemiBold_Italic } from '@expo-google-fonts/jetbrains-mono/600SemiBold_Italic';
+import { JetBrainsMono_700Bold_Italic } from '@expo-google-fonts/jetbrains-mono/700Bold_Italic';
+import { JetBrainsMono_800ExtraBold_Italic } from '@expo-google-fonts/jetbrains-mono/800ExtraBold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -87,7 +83,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

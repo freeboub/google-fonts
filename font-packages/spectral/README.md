@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/spectral)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/spectral)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/spectral)
 
 This package lets you use the [**Spectral**](https://fonts.google.com/specimen/Spectral) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -32,32 +31,29 @@ This font family contains [14 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/spectral expo-font expo-app-loading
+expo install @expo-google-fonts/spectral expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Spectral_200ExtraLight,
-  Spectral_200ExtraLight_Italic,
-  Spectral_300Light,
-  Spectral_300Light_Italic,
-  Spectral_400Regular,
-  Spectral_400Regular_Italic,
-  Spectral_500Medium,
-  Spectral_500Medium_Italic,
-  Spectral_600SemiBold,
-  Spectral_600SemiBold_Italic,
-  Spectral_700Bold,
-  Spectral_700Bold_Italic,
-  Spectral_800ExtraBold,
-  Spectral_800ExtraBold_Italic,
-} from '@expo-google-fonts/spectral';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/spectral/useFonts';
+import { Spectral_200ExtraLight } from '@expo-google-fonts/spectral/200ExtraLight';
+import { Spectral_200ExtraLight_Italic } from '@expo-google-fonts/spectral/200ExtraLight_Italic';
+import { Spectral_300Light } from '@expo-google-fonts/spectral/300Light';
+import { Spectral_300Light_Italic } from '@expo-google-fonts/spectral/300Light_Italic';
+import { Spectral_400Regular } from '@expo-google-fonts/spectral/400Regular';
+import { Spectral_400Regular_Italic } from '@expo-google-fonts/spectral/400Regular_Italic';
+import { Spectral_500Medium } from '@expo-google-fonts/spectral/500Medium';
+import { Spectral_500Medium_Italic } from '@expo-google-fonts/spectral/500Medium_Italic';
+import { Spectral_600SemiBold } from '@expo-google-fonts/spectral/600SemiBold';
+import { Spectral_600SemiBold_Italic } from '@expo-google-fonts/spectral/600SemiBold_Italic';
+import { Spectral_700Bold } from '@expo-google-fonts/spectral/700Bold';
+import { Spectral_700Bold_Italic } from '@expo-google-fonts/spectral/700Bold_Italic';
+import { Spectral_800ExtraBold } from '@expo-google-fonts/spectral/800ExtraBold';
+import { Spectral_800ExtraBold_Italic } from '@expo-google-fonts/spectral/800ExtraBold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -81,7 +77,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const LindenHill_400Regular = require('./LindenHill_400Regular.ttf');
-export const LindenHill_400Regular_Italic = require('./LindenHill_400Regular_Italic.ttf');
+export const LindenHill_400Regular = require('./400Regular/LindenHill_400Regular.ttf');
+export const LindenHill_400Regular_Italic = require('./400Regular_Italic/LindenHill_400Regular_Italic.ttf');

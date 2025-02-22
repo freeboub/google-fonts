@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-sans-bamum)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-sans-bamum)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/noto-sans-bamum)
 
 This package lets you use the [**Noto Sans Bamum**](https://fonts.google.com/specimen/Noto+Sans+Bamum) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -22,22 +21,19 @@ This font family contains [4 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/noto-sans-bamum expo-font expo-app-loading
+expo install @expo-google-fonts/noto-sans-bamum expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSansBamum_400Regular,
-  NotoSansBamum_500Medium,
-  NotoSansBamum_600SemiBold,
-  NotoSansBamum_700Bold,
-} from '@expo-google-fonts/noto-sans-bamum';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/noto-sans-bamum/useFonts';
+import { NotoSansBamum_400Regular } from '@expo-google-fonts/noto-sans-bamum/400Regular';
+import { NotoSansBamum_500Medium } from '@expo-google-fonts/noto-sans-bamum/500Medium';
+import { NotoSansBamum_600SemiBold } from '@expo-google-fonts/noto-sans-bamum/600SemiBold';
+import { NotoSansBamum_700Bold } from '@expo-google-fonts/noto-sans-bamum/700Bold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -51,7 +47,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

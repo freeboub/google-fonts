@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/lexend-giga)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/lexend-giga)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/lexend-giga)
 
 This package lets you use the [**Lexend Giga**](https://fonts.google.com/specimen/Lexend+Giga) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/lexend-giga expo-font expo-app-loading
+expo install @expo-google-fonts/lexend-giga expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  LexendGiga_100Thin,
-  LexendGiga_200ExtraLight,
-  LexendGiga_300Light,
-  LexendGiga_400Regular,
-  LexendGiga_500Medium,
-  LexendGiga_600SemiBold,
-  LexendGiga_700Bold,
-  LexendGiga_800ExtraBold,
-  LexendGiga_900Black,
-} from '@expo-google-fonts/lexend-giga';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/lexend-giga/useFonts';
+import { LexendGiga_100Thin } from '@expo-google-fonts/lexend-giga/100Thin';
+import { LexendGiga_200ExtraLight } from '@expo-google-fonts/lexend-giga/200ExtraLight';
+import { LexendGiga_300Light } from '@expo-google-fonts/lexend-giga/300Light';
+import { LexendGiga_400Regular } from '@expo-google-fonts/lexend-giga/400Regular';
+import { LexendGiga_500Medium } from '@expo-google-fonts/lexend-giga/500Medium';
+import { LexendGiga_600SemiBold } from '@expo-google-fonts/lexend-giga/600SemiBold';
+import { LexendGiga_700Bold } from '@expo-google-fonts/lexend-giga/700Bold';
+import { LexendGiga_800ExtraBold } from '@expo-google-fonts/lexend-giga/800ExtraBold';
+import { LexendGiga_900Black } from '@expo-google-fonts/lexend-giga/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

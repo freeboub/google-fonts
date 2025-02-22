@@ -2,11 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Tillana_400Regular = require('./Tillana_400Regular.ttf');
-export const Tillana_500Medium = require('./Tillana_500Medium.ttf');
-export const Tillana_600SemiBold = require('./Tillana_600SemiBold.ttf');
-export const Tillana_700Bold = require('./Tillana_700Bold.ttf');
-export const Tillana_800ExtraBold = require('./Tillana_800ExtraBold.ttf');
+export const Tillana_400Regular = require('./400Regular/Tillana_400Regular.ttf');
+export const Tillana_500Medium = require('./500Medium/Tillana_500Medium.ttf');
+export const Tillana_600SemiBold = require('./600SemiBold/Tillana_600SemiBold.ttf');
+export const Tillana_700Bold = require('./700Bold/Tillana_700Bold.ttf');
+export const Tillana_800ExtraBold = require('./800ExtraBold/Tillana_800ExtraBold.ttf');

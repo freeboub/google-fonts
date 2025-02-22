@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/gothic-a1)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/gothic-a1)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/gothic-a1)
 
 This package lets you use the [**Gothic A1**](https://fonts.google.com/specimen/Gothic+A1) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/gothic-a1 expo-font expo-app-loading
+expo install @expo-google-fonts/gothic-a1 expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  GothicA1_100Thin,
-  GothicA1_200ExtraLight,
-  GothicA1_300Light,
-  GothicA1_400Regular,
-  GothicA1_500Medium,
-  GothicA1_600SemiBold,
-  GothicA1_700Bold,
-  GothicA1_800ExtraBold,
-  GothicA1_900Black,
-} from '@expo-google-fonts/gothic-a1';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/gothic-a1/useFonts';
+import { GothicA1_100Thin } from '@expo-google-fonts/gothic-a1/100Thin';
+import { GothicA1_200ExtraLight } from '@expo-google-fonts/gothic-a1/200ExtraLight';
+import { GothicA1_300Light } from '@expo-google-fonts/gothic-a1/300Light';
+import { GothicA1_400Regular } from '@expo-google-fonts/gothic-a1/400Regular';
+import { GothicA1_500Medium } from '@expo-google-fonts/gothic-a1/500Medium';
+import { GothicA1_600SemiBold } from '@expo-google-fonts/gothic-a1/600SemiBold';
+import { GothicA1_700Bold } from '@expo-google-fonts/gothic-a1/700Bold';
+import { GothicA1_800ExtraBold } from '@expo-google-fonts/gothic-a1/800ExtraBold';
+import { GothicA1_900Black } from '@expo-google-fonts/gothic-a1/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

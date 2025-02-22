@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const FuzzyBubbles_400Regular = require('./FuzzyBubbles_400Regular.ttf');
-export const FuzzyBubbles_700Bold = require('./FuzzyBubbles_700Bold.ttf');
+export const FuzzyBubbles_400Regular = require('./400Regular/FuzzyBubbles_400Regular.ttf');
+export const FuzzyBubbles_700Bold = require('./700Bold/FuzzyBubbles_700Bold.ttf');

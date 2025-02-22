@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const BirthstoneBounce_400Regular = require('./BirthstoneBounce_400Regular.ttf');
-export const BirthstoneBounce_500Medium = require('./BirthstoneBounce_500Medium.ttf');
+export const BirthstoneBounce_400Regular = require('./400Regular/BirthstoneBounce_400Regular.ttf');
+export const BirthstoneBounce_500Medium = require('./500Medium/BirthstoneBounce_500Medium.ttf');

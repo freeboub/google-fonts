@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const UnifrakturCook_700Bold = require('./UnifrakturCook_700Bold.ttf');
+export const UnifrakturCook_700Bold = require('./700Bold/UnifrakturCook_700Bold.ttf');

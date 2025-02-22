@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Pavanam_400Regular = require('./Pavanam_400Regular.ttf');
+export const Pavanam_400Regular = require('./400Regular/Pavanam_400Regular.ttf');

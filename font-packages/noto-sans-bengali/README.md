@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-sans-bengali)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-sans-bengali)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/noto-sans-bengali)
 
 This package lets you use the [**Noto Sans Bengali**](https://fonts.google.com/specimen/Noto+Sans+Bengali) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/noto-sans-bengali expo-font expo-app-loading
+expo install @expo-google-fonts/noto-sans-bengali expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSansBengali_100Thin,
-  NotoSansBengali_200ExtraLight,
-  NotoSansBengali_300Light,
-  NotoSansBengali_400Regular,
-  NotoSansBengali_500Medium,
-  NotoSansBengali_600SemiBold,
-  NotoSansBengali_700Bold,
-  NotoSansBengali_800ExtraBold,
-  NotoSansBengali_900Black,
-} from '@expo-google-fonts/noto-sans-bengali';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/noto-sans-bengali/useFonts';
+import { NotoSansBengali_100Thin } from '@expo-google-fonts/noto-sans-bengali/100Thin';
+import { NotoSansBengali_200ExtraLight } from '@expo-google-fonts/noto-sans-bengali/200ExtraLight';
+import { NotoSansBengali_300Light } from '@expo-google-fonts/noto-sans-bengali/300Light';
+import { NotoSansBengali_400Regular } from '@expo-google-fonts/noto-sans-bengali/400Regular';
+import { NotoSansBengali_500Medium } from '@expo-google-fonts/noto-sans-bengali/500Medium';
+import { NotoSansBengali_600SemiBold } from '@expo-google-fonts/noto-sans-bengali/600SemiBold';
+import { NotoSansBengali_700Bold } from '@expo-google-fonts/noto-sans-bengali/700Bold';
+import { NotoSansBengali_800ExtraBold } from '@expo-google-fonts/noto-sans-bengali/800ExtraBold';
+import { NotoSansBengali_900Black } from '@expo-google-fonts/noto-sans-bengali/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

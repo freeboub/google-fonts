@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/archivo-narrow)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/archivo-narrow)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/archivo-narrow)
 
 This package lets you use the [**Archivo Narrow**](https://fonts.google.com/specimen/Archivo+Narrow) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -26,26 +25,23 @@ This font family contains [8 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/archivo-narrow expo-font expo-app-loading
+expo install @expo-google-fonts/archivo-narrow expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  ArchivoNarrow_400Regular,
-  ArchivoNarrow_500Medium,
-  ArchivoNarrow_600SemiBold,
-  ArchivoNarrow_700Bold,
-  ArchivoNarrow_400Regular_Italic,
-  ArchivoNarrow_500Medium_Italic,
-  ArchivoNarrow_600SemiBold_Italic,
-  ArchivoNarrow_700Bold_Italic,
-} from '@expo-google-fonts/archivo-narrow';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/archivo-narrow/useFonts';
+import { ArchivoNarrow_400Regular } from '@expo-google-fonts/archivo-narrow/400Regular';
+import { ArchivoNarrow_500Medium } from '@expo-google-fonts/archivo-narrow/500Medium';
+import { ArchivoNarrow_600SemiBold } from '@expo-google-fonts/archivo-narrow/600SemiBold';
+import { ArchivoNarrow_700Bold } from '@expo-google-fonts/archivo-narrow/700Bold';
+import { ArchivoNarrow_400Regular_Italic } from '@expo-google-fonts/archivo-narrow/400Regular_Italic';
+import { ArchivoNarrow_500Medium_Italic } from '@expo-google-fonts/archivo-narrow/500Medium_Italic';
+import { ArchivoNarrow_600SemiBold_Italic } from '@expo-google-fonts/archivo-narrow/600SemiBold_Italic';
+import { ArchivoNarrow_700Bold_Italic } from '@expo-google-fonts/archivo-narrow/700Bold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -63,7 +59,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

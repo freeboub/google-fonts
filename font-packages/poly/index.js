@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Poly_400Regular = require('./Poly_400Regular.ttf');
-export const Poly_400Regular_Italic = require('./Poly_400Regular_Italic.ttf');
+export const Poly_400Regular = require('./400Regular/Poly_400Regular.ttf');
+export const Poly_400Regular_Italic = require('./400Regular_Italic/Poly_400Regular_Italic.ttf');

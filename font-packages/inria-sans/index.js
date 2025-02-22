@@ -2,12 +2,12 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const InriaSans_300Light = require('./InriaSans_300Light.ttf');
-export const InriaSans_300Light_Italic = require('./InriaSans_300Light_Italic.ttf');
-export const InriaSans_400Regular = require('./InriaSans_400Regular.ttf');
-export const InriaSans_400Regular_Italic = require('./InriaSans_400Regular_Italic.ttf');
-export const InriaSans_700Bold = require('./InriaSans_700Bold.ttf');
-export const InriaSans_700Bold_Italic = require('./InriaSans_700Bold_Italic.ttf');
+export const InriaSans_300Light = require('./300Light/InriaSans_300Light.ttf');
+export const InriaSans_300Light_Italic = require('./300Light_Italic/InriaSans_300Light_Italic.ttf');
+export const InriaSans_400Regular = require('./400Regular/InriaSans_400Regular.ttf');
+export const InriaSans_400Regular_Italic = require('./400Regular_Italic/InriaSans_400Regular_Italic.ttf');
+export const InriaSans_700Bold = require('./700Bold/InriaSans_700Bold.ttf');
+export const InriaSans_700Bold_Italic = require('./700Bold_Italic/InriaSans_700Bold_Italic.ttf');

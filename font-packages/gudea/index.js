@@ -2,9 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Gudea_400Regular = require('./Gudea_400Regular.ttf');
-export const Gudea_400Regular_Italic = require('./Gudea_400Regular_Italic.ttf');
-export const Gudea_700Bold = require('./Gudea_700Bold.ttf');
+export const Gudea_400Regular = require('./400Regular/Gudea_400Regular.ttf');
+export const Gudea_400Regular_Italic = require('./400Regular_Italic/Gudea_400Regular_Italic.ttf');
+export const Gudea_700Bold = require('./700Bold/Gudea_700Bold.ttf');

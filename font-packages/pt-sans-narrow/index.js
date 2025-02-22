@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const PTSansNarrow_400Regular = require('./PTSansNarrow_400Regular.ttf');
-export const PTSansNarrow_700Bold = require('./PTSansNarrow_700Bold.ttf');
+export const PTSansNarrow_400Regular = require('./400Regular/PTSansNarrow_400Regular.ttf');
+export const PTSansNarrow_700Bold = require('./700Bold/PTSansNarrow_700Bold.ttf');

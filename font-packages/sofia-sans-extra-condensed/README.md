@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/sofia-sans-extra-condensed)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/sofia-sans-extra-condensed)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/sofia-sans-extra-condensed)
 
 This package lets you use the [**Sofia Sans Extra Condensed**](https://fonts.google.com/specimen/Sofia+Sans+Extra+Condensed) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/sofia-sans-extra-condensed expo-font expo-app-loading
+expo install @expo-google-fonts/sofia-sans-extra-condensed expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  SofiaSansExtraCondensed_100Thin,
-  SofiaSansExtraCondensed_200ExtraLight,
-  SofiaSansExtraCondensed_300Light,
-  SofiaSansExtraCondensed_400Regular,
-  SofiaSansExtraCondensed_500Medium,
-  SofiaSansExtraCondensed_600SemiBold,
-  SofiaSansExtraCondensed_700Bold,
-  SofiaSansExtraCondensed_800ExtraBold,
-  SofiaSansExtraCondensed_900Black,
-  SofiaSansExtraCondensed_100Thin_Italic,
-  SofiaSansExtraCondensed_200ExtraLight_Italic,
-  SofiaSansExtraCondensed_300Light_Italic,
-  SofiaSansExtraCondensed_400Regular_Italic,
-  SofiaSansExtraCondensed_500Medium_Italic,
-  SofiaSansExtraCondensed_600SemiBold_Italic,
-  SofiaSansExtraCondensed_700Bold_Italic,
-  SofiaSansExtraCondensed_800ExtraBold_Italic,
-  SofiaSansExtraCondensed_900Black_Italic,
-} from '@expo-google-fonts/sofia-sans-extra-condensed';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/sofia-sans-extra-condensed/useFonts';
+import { SofiaSansExtraCondensed_100Thin } from '@expo-google-fonts/sofia-sans-extra-condensed/100Thin';
+import { SofiaSansExtraCondensed_200ExtraLight } from '@expo-google-fonts/sofia-sans-extra-condensed/200ExtraLight';
+import { SofiaSansExtraCondensed_300Light } from '@expo-google-fonts/sofia-sans-extra-condensed/300Light';
+import { SofiaSansExtraCondensed_400Regular } from '@expo-google-fonts/sofia-sans-extra-condensed/400Regular';
+import { SofiaSansExtraCondensed_500Medium } from '@expo-google-fonts/sofia-sans-extra-condensed/500Medium';
+import { SofiaSansExtraCondensed_600SemiBold } from '@expo-google-fonts/sofia-sans-extra-condensed/600SemiBold';
+import { SofiaSansExtraCondensed_700Bold } from '@expo-google-fonts/sofia-sans-extra-condensed/700Bold';
+import { SofiaSansExtraCondensed_800ExtraBold } from '@expo-google-fonts/sofia-sans-extra-condensed/800ExtraBold';
+import { SofiaSansExtraCondensed_900Black } from '@expo-google-fonts/sofia-sans-extra-condensed/900Black';
+import { SofiaSansExtraCondensed_100Thin_Italic } from '@expo-google-fonts/sofia-sans-extra-condensed/100Thin_Italic';
+import { SofiaSansExtraCondensed_200ExtraLight_Italic } from '@expo-google-fonts/sofia-sans-extra-condensed/200ExtraLight_Italic';
+import { SofiaSansExtraCondensed_300Light_Italic } from '@expo-google-fonts/sofia-sans-extra-condensed/300Light_Italic';
+import { SofiaSansExtraCondensed_400Regular_Italic } from '@expo-google-fonts/sofia-sans-extra-condensed/400Regular_Italic';
+import { SofiaSansExtraCondensed_500Medium_Italic } from '@expo-google-fonts/sofia-sans-extra-condensed/500Medium_Italic';
+import { SofiaSansExtraCondensed_600SemiBold_Italic } from '@expo-google-fonts/sofia-sans-extra-condensed/600SemiBold_Italic';
+import { SofiaSansExtraCondensed_700Bold_Italic } from '@expo-google-fonts/sofia-sans-extra-condensed/700Bold_Italic';
+import { SofiaSansExtraCondensed_800ExtraBold_Italic } from '@expo-google-fonts/sofia-sans-extra-condensed/800ExtraBold_Italic';
+import { SofiaSansExtraCondensed_900Black_Italic } from '@expo-google-fonts/sofia-sans-extra-condensed/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

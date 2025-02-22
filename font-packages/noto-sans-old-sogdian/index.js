@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const NotoSansOldSogdian_400Regular = require('./NotoSansOldSogdian_400Regular.ttf');
+export const NotoSansOldSogdian_400Regular = require('./400Regular/NotoSansOldSogdian_400Regular.ttf');

@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/martian-mono)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/martian-mono)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/martian-mono)
 
 This package lets you use the [**Martian Mono**](https://fonts.google.com/specimen/Martian+Mono) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -26,26 +25,23 @@ This font family contains [8 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/martian-mono expo-font expo-app-loading
+expo install @expo-google-fonts/martian-mono expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  MartianMono_100Thin,
-  MartianMono_200ExtraLight,
-  MartianMono_300Light,
-  MartianMono_400Regular,
-  MartianMono_500Medium,
-  MartianMono_600SemiBold,
-  MartianMono_700Bold,
-  MartianMono_800ExtraBold,
-} from '@expo-google-fonts/martian-mono';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/martian-mono/useFonts';
+import { MartianMono_100Thin } from '@expo-google-fonts/martian-mono/100Thin';
+import { MartianMono_200ExtraLight } from '@expo-google-fonts/martian-mono/200ExtraLight';
+import { MartianMono_300Light } from '@expo-google-fonts/martian-mono/300Light';
+import { MartianMono_400Regular } from '@expo-google-fonts/martian-mono/400Regular';
+import { MartianMono_500Medium } from '@expo-google-fonts/martian-mono/500Medium';
+import { MartianMono_600SemiBold } from '@expo-google-fonts/martian-mono/600SemiBold';
+import { MartianMono_700Bold } from '@expo-google-fonts/martian-mono/700Bold';
+import { MartianMono_800ExtraBold } from '@expo-google-fonts/martian-mono/800ExtraBold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -63,7 +59,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

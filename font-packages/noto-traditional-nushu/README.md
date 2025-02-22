@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-traditional-nushu)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-traditional-nushu)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/noto-traditional-nushu)
 
 This package lets you use the [**Noto Traditional Nushu**](https://fonts.google.com/specimen/Noto+Traditional+Nushu) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -23,23 +22,20 @@ This font family contains [5 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/noto-traditional-nushu expo-font expo-app-loading
+expo install @expo-google-fonts/noto-traditional-nushu expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoTraditionalNushu_300Light,
-  NotoTraditionalNushu_400Regular,
-  NotoTraditionalNushu_500Medium,
-  NotoTraditionalNushu_600SemiBold,
-  NotoTraditionalNushu_700Bold,
-} from '@expo-google-fonts/noto-traditional-nushu';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/noto-traditional-nushu/useFonts';
+import { NotoTraditionalNushu_300Light } from '@expo-google-fonts/noto-traditional-nushu/300Light';
+import { NotoTraditionalNushu_400Regular } from '@expo-google-fonts/noto-traditional-nushu/400Regular';
+import { NotoTraditionalNushu_500Medium } from '@expo-google-fonts/noto-traditional-nushu/500Medium';
+import { NotoTraditionalNushu_600SemiBold } from '@expo-google-fonts/noto-traditional-nushu/600SemiBold';
+import { NotoTraditionalNushu_700Bold } from '@expo-google-fonts/noto-traditional-nushu/700Bold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -54,7 +50,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/roboto-serif)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/roboto-serif)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/roboto-serif)
 
 This package lets you use the [**Roboto Serif**](https://fonts.google.com/specimen/Roboto+Serif) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/roboto-serif expo-font expo-app-loading
+expo install @expo-google-fonts/roboto-serif expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  RobotoSerif_100Thin,
-  RobotoSerif_200ExtraLight,
-  RobotoSerif_300Light,
-  RobotoSerif_400Regular,
-  RobotoSerif_500Medium,
-  RobotoSerif_600SemiBold,
-  RobotoSerif_700Bold,
-  RobotoSerif_800ExtraBold,
-  RobotoSerif_900Black,
-  RobotoSerif_100Thin_Italic,
-  RobotoSerif_200ExtraLight_Italic,
-  RobotoSerif_300Light_Italic,
-  RobotoSerif_400Regular_Italic,
-  RobotoSerif_500Medium_Italic,
-  RobotoSerif_600SemiBold_Italic,
-  RobotoSerif_700Bold_Italic,
-  RobotoSerif_800ExtraBold_Italic,
-  RobotoSerif_900Black_Italic,
-} from '@expo-google-fonts/roboto-serif';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/roboto-serif/useFonts';
+import { RobotoSerif_100Thin } from '@expo-google-fonts/roboto-serif/100Thin';
+import { RobotoSerif_200ExtraLight } from '@expo-google-fonts/roboto-serif/200ExtraLight';
+import { RobotoSerif_300Light } from '@expo-google-fonts/roboto-serif/300Light';
+import { RobotoSerif_400Regular } from '@expo-google-fonts/roboto-serif/400Regular';
+import { RobotoSerif_500Medium } from '@expo-google-fonts/roboto-serif/500Medium';
+import { RobotoSerif_600SemiBold } from '@expo-google-fonts/roboto-serif/600SemiBold';
+import { RobotoSerif_700Bold } from '@expo-google-fonts/roboto-serif/700Bold';
+import { RobotoSerif_800ExtraBold } from '@expo-google-fonts/roboto-serif/800ExtraBold';
+import { RobotoSerif_900Black } from '@expo-google-fonts/roboto-serif/900Black';
+import { RobotoSerif_100Thin_Italic } from '@expo-google-fonts/roboto-serif/100Thin_Italic';
+import { RobotoSerif_200ExtraLight_Italic } from '@expo-google-fonts/roboto-serif/200ExtraLight_Italic';
+import { RobotoSerif_300Light_Italic } from '@expo-google-fonts/roboto-serif/300Light_Italic';
+import { RobotoSerif_400Regular_Italic } from '@expo-google-fonts/roboto-serif/400Regular_Italic';
+import { RobotoSerif_500Medium_Italic } from '@expo-google-fonts/roboto-serif/500Medium_Italic';
+import { RobotoSerif_600SemiBold_Italic } from '@expo-google-fonts/roboto-serif/600SemiBold_Italic';
+import { RobotoSerif_700Bold_Italic } from '@expo-google-fonts/roboto-serif/700Bold_Italic';
+import { RobotoSerif_800ExtraBold_Italic } from '@expo-google-fonts/roboto-serif/800ExtraBold_Italic';
+import { RobotoSerif_900Black_Italic } from '@expo-google-fonts/roboto-serif/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

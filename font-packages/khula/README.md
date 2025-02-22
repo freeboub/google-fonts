@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/khula)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/khula)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/khula)
 
 This package lets you use the [**Khula**](https://fonts.google.com/specimen/Khula) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -23,23 +22,20 @@ This font family contains [5 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/khula expo-font expo-app-loading
+expo install @expo-google-fonts/khula expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Khula_300Light,
-  Khula_400Regular,
-  Khula_600SemiBold,
-  Khula_700Bold,
-  Khula_800ExtraBold,
-} from '@expo-google-fonts/khula';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/khula/useFonts';
+import { Khula_300Light } from '@expo-google-fonts/khula/300Light';
+import { Khula_400Regular } from '@expo-google-fonts/khula/400Regular';
+import { Khula_600SemiBold } from '@expo-google-fonts/khula/600SemiBold';
+import { Khula_700Bold } from '@expo-google-fonts/khula/700Bold';
+import { Khula_800ExtraBold } from '@expo-google-fonts/khula/800ExtraBold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -54,7 +50,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-sans-sinhala)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-sans-sinhala)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/noto-sans-sinhala)
 
 This package lets you use the [**Noto Sans Sinhala**](https://fonts.google.com/specimen/Noto+Sans+Sinhala) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/noto-sans-sinhala expo-font expo-app-loading
+expo install @expo-google-fonts/noto-sans-sinhala expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSansSinhala_100Thin,
-  NotoSansSinhala_200ExtraLight,
-  NotoSansSinhala_300Light,
-  NotoSansSinhala_400Regular,
-  NotoSansSinhala_500Medium,
-  NotoSansSinhala_600SemiBold,
-  NotoSansSinhala_700Bold,
-  NotoSansSinhala_800ExtraBold,
-  NotoSansSinhala_900Black,
-} from '@expo-google-fonts/noto-sans-sinhala';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/noto-sans-sinhala/useFonts';
+import { NotoSansSinhala_100Thin } from '@expo-google-fonts/noto-sans-sinhala/100Thin';
+import { NotoSansSinhala_200ExtraLight } from '@expo-google-fonts/noto-sans-sinhala/200ExtraLight';
+import { NotoSansSinhala_300Light } from '@expo-google-fonts/noto-sans-sinhala/300Light';
+import { NotoSansSinhala_400Regular } from '@expo-google-fonts/noto-sans-sinhala/400Regular';
+import { NotoSansSinhala_500Medium } from '@expo-google-fonts/noto-sans-sinhala/500Medium';
+import { NotoSansSinhala_600SemiBold } from '@expo-google-fonts/noto-sans-sinhala/600SemiBold';
+import { NotoSansSinhala_700Bold } from '@expo-google-fonts/noto-sans-sinhala/700Bold';
+import { NotoSansSinhala_800ExtraBold } from '@expo-google-fonts/noto-sans-sinhala/800ExtraBold';
+import { NotoSansSinhala_900Black } from '@expo-google-fonts/noto-sans-sinhala/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

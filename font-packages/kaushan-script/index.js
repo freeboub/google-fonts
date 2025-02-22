@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const KaushanScript_400Regular = require('./KaushanScript_400Regular.ttf');
+export const KaushanScript_400Regular = require('./400Regular/KaushanScript_400Regular.ttf');

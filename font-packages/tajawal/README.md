@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/tajawal)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/tajawal)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/tajawal)
 
 This package lets you use the [**Tajawal**](https://fonts.google.com/specimen/Tajawal) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -25,25 +24,22 @@ This font family contains [7 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/tajawal expo-font expo-app-loading
+expo install @expo-google-fonts/tajawal expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Tajawal_200ExtraLight,
-  Tajawal_300Light,
-  Tajawal_400Regular,
-  Tajawal_500Medium,
-  Tajawal_700Bold,
-  Tajawal_800ExtraBold,
-  Tajawal_900Black,
-} from '@expo-google-fonts/tajawal';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/tajawal/useFonts';
+import { Tajawal_200ExtraLight } from '@expo-google-fonts/tajawal/200ExtraLight';
+import { Tajawal_300Light } from '@expo-google-fonts/tajawal/300Light';
+import { Tajawal_400Regular } from '@expo-google-fonts/tajawal/400Regular';
+import { Tajawal_500Medium } from '@expo-google-fonts/tajawal/500Medium';
+import { Tajawal_700Bold } from '@expo-google-fonts/tajawal/700Bold';
+import { Tajawal_800ExtraBold } from '@expo-google-fonts/tajawal/800ExtraBold';
+import { Tajawal_900Black } from '@expo-google-fonts/tajawal/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -60,7 +56,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

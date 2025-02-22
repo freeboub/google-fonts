@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-serif-khmer)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-serif-khmer)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/noto-serif-khmer)
 
 This package lets you use the [**Noto Serif Khmer**](https://fonts.google.com/specimen/Noto+Serif+Khmer) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/noto-serif-khmer expo-font expo-app-loading
+expo install @expo-google-fonts/noto-serif-khmer expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSerifKhmer_100Thin,
-  NotoSerifKhmer_200ExtraLight,
-  NotoSerifKhmer_300Light,
-  NotoSerifKhmer_400Regular,
-  NotoSerifKhmer_500Medium,
-  NotoSerifKhmer_600SemiBold,
-  NotoSerifKhmer_700Bold,
-  NotoSerifKhmer_800ExtraBold,
-  NotoSerifKhmer_900Black,
-} from '@expo-google-fonts/noto-serif-khmer';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/noto-serif-khmer/useFonts';
+import { NotoSerifKhmer_100Thin } from '@expo-google-fonts/noto-serif-khmer/100Thin';
+import { NotoSerifKhmer_200ExtraLight } from '@expo-google-fonts/noto-serif-khmer/200ExtraLight';
+import { NotoSerifKhmer_300Light } from '@expo-google-fonts/noto-serif-khmer/300Light';
+import { NotoSerifKhmer_400Regular } from '@expo-google-fonts/noto-serif-khmer/400Regular';
+import { NotoSerifKhmer_500Medium } from '@expo-google-fonts/noto-serif-khmer/500Medium';
+import { NotoSerifKhmer_600SemiBold } from '@expo-google-fonts/noto-serif-khmer/600SemiBold';
+import { NotoSerifKhmer_700Bold } from '@expo-google-fonts/noto-serif-khmer/700Bold';
+import { NotoSerifKhmer_800ExtraBold } from '@expo-google-fonts/noto-serif-khmer/800ExtraBold';
+import { NotoSerifKhmer_900Black } from '@expo-google-fonts/noto-serif-khmer/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

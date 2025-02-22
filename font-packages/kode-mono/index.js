@@ -2,10 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const KodeMono_400Regular = require('./KodeMono_400Regular.ttf');
-export const KodeMono_500Medium = require('./KodeMono_500Medium.ttf');
-export const KodeMono_600SemiBold = require('./KodeMono_600SemiBold.ttf');
-export const KodeMono_700Bold = require('./KodeMono_700Bold.ttf');
+export const KodeMono_400Regular = require('./400Regular/KodeMono_400Regular.ttf');
+export const KodeMono_500Medium = require('./500Medium/KodeMono_500Medium.ttf');
+export const KodeMono_600SemiBold = require('./600SemiBold/KodeMono_600SemiBold.ttf');
+export const KodeMono_700Bold = require('./700Bold/KodeMono_700Bold.ttf');

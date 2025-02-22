@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-sans-symbols)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-sans-symbols)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/noto-sans-symbols)
 
 This package lets you use the [**Noto Sans Symbols**](https://fonts.google.com/specimen/Noto+Sans+Symbols) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/noto-sans-symbols expo-font expo-app-loading
+expo install @expo-google-fonts/noto-sans-symbols expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSansSymbols_100Thin,
-  NotoSansSymbols_200ExtraLight,
-  NotoSansSymbols_300Light,
-  NotoSansSymbols_400Regular,
-  NotoSansSymbols_500Medium,
-  NotoSansSymbols_600SemiBold,
-  NotoSansSymbols_700Bold,
-  NotoSansSymbols_800ExtraBold,
-  NotoSansSymbols_900Black,
-} from '@expo-google-fonts/noto-sans-symbols';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/noto-sans-symbols/useFonts';
+import { NotoSansSymbols_100Thin } from '@expo-google-fonts/noto-sans-symbols/100Thin';
+import { NotoSansSymbols_200ExtraLight } from '@expo-google-fonts/noto-sans-symbols/200ExtraLight';
+import { NotoSansSymbols_300Light } from '@expo-google-fonts/noto-sans-symbols/300Light';
+import { NotoSansSymbols_400Regular } from '@expo-google-fonts/noto-sans-symbols/400Regular';
+import { NotoSansSymbols_500Medium } from '@expo-google-fonts/noto-sans-symbols/500Medium';
+import { NotoSansSymbols_600SemiBold } from '@expo-google-fonts/noto-sans-symbols/600SemiBold';
+import { NotoSansSymbols_700Bold } from '@expo-google-fonts/noto-sans-symbols/700Bold';
+import { NotoSansSymbols_800ExtraBold } from '@expo-google-fonts/noto-sans-symbols/800ExtraBold';
+import { NotoSansSymbols_900Black } from '@expo-google-fonts/noto-sans-symbols/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

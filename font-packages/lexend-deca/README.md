@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/lexend-deca)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/lexend-deca)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/lexend-deca)
 
 This package lets you use the [**Lexend Deca**](https://fonts.google.com/specimen/Lexend+Deca) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/lexend-deca expo-font expo-app-loading
+expo install @expo-google-fonts/lexend-deca expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  LexendDeca_100Thin,
-  LexendDeca_200ExtraLight,
-  LexendDeca_300Light,
-  LexendDeca_400Regular,
-  LexendDeca_500Medium,
-  LexendDeca_600SemiBold,
-  LexendDeca_700Bold,
-  LexendDeca_800ExtraBold,
-  LexendDeca_900Black,
-} from '@expo-google-fonts/lexend-deca';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/lexend-deca/useFonts';
+import { LexendDeca_100Thin } from '@expo-google-fonts/lexend-deca/100Thin';
+import { LexendDeca_200ExtraLight } from '@expo-google-fonts/lexend-deca/200ExtraLight';
+import { LexendDeca_300Light } from '@expo-google-fonts/lexend-deca/300Light';
+import { LexendDeca_400Regular } from '@expo-google-fonts/lexend-deca/400Regular';
+import { LexendDeca_500Medium } from '@expo-google-fonts/lexend-deca/500Medium';
+import { LexendDeca_600SemiBold } from '@expo-google-fonts/lexend-deca/600SemiBold';
+import { LexendDeca_700Bold } from '@expo-google-fonts/lexend-deca/700Bold';
+import { LexendDeca_800ExtraBold } from '@expo-google-fonts/lexend-deca/800ExtraBold';
+import { LexendDeca_900Black } from '@expo-google-fonts/lexend-deca/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

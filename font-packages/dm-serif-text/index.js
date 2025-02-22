@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const DMSerifText_400Regular = require('./DMSerifText_400Regular.ttf');
-export const DMSerifText_400Regular_Italic = require('./DMSerifText_400Regular_Italic.ttf');
+export const DMSerifText_400Regular = require('./400Regular/DMSerifText_400Regular.ttf');
+export const DMSerifText_400Regular_Italic = require('./400Regular_Italic/DMSerifText_400Regular_Italic.ttf');

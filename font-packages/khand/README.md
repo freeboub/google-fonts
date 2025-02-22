@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/khand)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/khand)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/khand)
 
 This package lets you use the [**Khand**](https://fonts.google.com/specimen/Khand) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -23,23 +22,20 @@ This font family contains [5 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/khand expo-font expo-app-loading
+expo install @expo-google-fonts/khand expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Khand_300Light,
-  Khand_400Regular,
-  Khand_500Medium,
-  Khand_600SemiBold,
-  Khand_700Bold,
-} from '@expo-google-fonts/khand';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/khand/useFonts';
+import { Khand_300Light } from '@expo-google-fonts/khand/300Light';
+import { Khand_400Regular } from '@expo-google-fonts/khand/400Regular';
+import { Khand_500Medium } from '@expo-google-fonts/khand/500Medium';
+import { Khand_600SemiBold } from '@expo-google-fonts/khand/600SemiBold';
+import { Khand_700Bold } from '@expo-google-fonts/khand/700Bold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -54,7 +50,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

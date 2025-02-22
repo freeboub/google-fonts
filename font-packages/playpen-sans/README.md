@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/playpen-sans)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/playpen-sans)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/playpen-sans)
 
 This package lets you use the [**Playpen Sans**](https://fonts.google.com/specimen/Playpen+Sans) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -26,26 +25,23 @@ This font family contains [8 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/playpen-sans expo-font expo-app-loading
+expo install @expo-google-fonts/playpen-sans expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  PlaypenSans_100Thin,
-  PlaypenSans_200ExtraLight,
-  PlaypenSans_300Light,
-  PlaypenSans_400Regular,
-  PlaypenSans_500Medium,
-  PlaypenSans_600SemiBold,
-  PlaypenSans_700Bold,
-  PlaypenSans_800ExtraBold,
-} from '@expo-google-fonts/playpen-sans';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/playpen-sans/useFonts';
+import { PlaypenSans_100Thin } from '@expo-google-fonts/playpen-sans/100Thin';
+import { PlaypenSans_200ExtraLight } from '@expo-google-fonts/playpen-sans/200ExtraLight';
+import { PlaypenSans_300Light } from '@expo-google-fonts/playpen-sans/300Light';
+import { PlaypenSans_400Regular } from '@expo-google-fonts/playpen-sans/400Regular';
+import { PlaypenSans_500Medium } from '@expo-google-fonts/playpen-sans/500Medium';
+import { PlaypenSans_600SemiBold } from '@expo-google-fonts/playpen-sans/600SemiBold';
+import { PlaypenSans_700Bold } from '@expo-google-fonts/playpen-sans/700Bold';
+import { PlaypenSans_800ExtraBold } from '@expo-google-fonts/playpen-sans/800ExtraBold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -63,7 +59,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Syncopate_400Regular = require('./Syncopate_400Regular.ttf');
-export const Syncopate_700Bold = require('./Syncopate_700Bold.ttf');
+export const Syncopate_400Regular = require('./400Regular/Syncopate_400Regular.ttf');
+export const Syncopate_700Bold = require('./700Bold/Syncopate_700Bold.ttf');

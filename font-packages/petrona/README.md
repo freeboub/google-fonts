@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/petrona)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/petrona)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/petrona)
 
 This package lets you use the [**Petrona**](https://fonts.google.com/specimen/Petrona) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/petrona expo-font expo-app-loading
+expo install @expo-google-fonts/petrona expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Petrona_100Thin,
-  Petrona_200ExtraLight,
-  Petrona_300Light,
-  Petrona_400Regular,
-  Petrona_500Medium,
-  Petrona_600SemiBold,
-  Petrona_700Bold,
-  Petrona_800ExtraBold,
-  Petrona_900Black,
-  Petrona_100Thin_Italic,
-  Petrona_200ExtraLight_Italic,
-  Petrona_300Light_Italic,
-  Petrona_400Regular_Italic,
-  Petrona_500Medium_Italic,
-  Petrona_600SemiBold_Italic,
-  Petrona_700Bold_Italic,
-  Petrona_800ExtraBold_Italic,
-  Petrona_900Black_Italic,
-} from '@expo-google-fonts/petrona';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/petrona/useFonts';
+import { Petrona_100Thin } from '@expo-google-fonts/petrona/100Thin';
+import { Petrona_200ExtraLight } from '@expo-google-fonts/petrona/200ExtraLight';
+import { Petrona_300Light } from '@expo-google-fonts/petrona/300Light';
+import { Petrona_400Regular } from '@expo-google-fonts/petrona/400Regular';
+import { Petrona_500Medium } from '@expo-google-fonts/petrona/500Medium';
+import { Petrona_600SemiBold } from '@expo-google-fonts/petrona/600SemiBold';
+import { Petrona_700Bold } from '@expo-google-fonts/petrona/700Bold';
+import { Petrona_800ExtraBold } from '@expo-google-fonts/petrona/800ExtraBold';
+import { Petrona_900Black } from '@expo-google-fonts/petrona/900Black';
+import { Petrona_100Thin_Italic } from '@expo-google-fonts/petrona/100Thin_Italic';
+import { Petrona_200ExtraLight_Italic } from '@expo-google-fonts/petrona/200ExtraLight_Italic';
+import { Petrona_300Light_Italic } from '@expo-google-fonts/petrona/300Light_Italic';
+import { Petrona_400Regular_Italic } from '@expo-google-fonts/petrona/400Regular_Italic';
+import { Petrona_500Medium_Italic } from '@expo-google-fonts/petrona/500Medium_Italic';
+import { Petrona_600SemiBold_Italic } from '@expo-google-fonts/petrona/600SemiBold_Italic';
+import { Petrona_700Bold_Italic } from '@expo-google-fonts/petrona/700Bold_Italic';
+import { Petrona_800ExtraBold_Italic } from '@expo-google-fonts/petrona/800ExtraBold_Italic';
+import { Petrona_900Black_Italic } from '@expo-google-fonts/petrona/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

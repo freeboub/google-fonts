@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/open-sans)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/open-sans)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/open-sans)
 
 This package lets you use the [**Open Sans**](https://fonts.google.com/specimen/Open+Sans) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -30,30 +29,27 @@ This font family contains [12 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/open-sans expo-font expo-app-loading
+expo install @expo-google-fonts/open-sans expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  OpenSans_300Light,
-  OpenSans_400Regular,
-  OpenSans_500Medium,
-  OpenSans_600SemiBold,
-  OpenSans_700Bold,
-  OpenSans_800ExtraBold,
-  OpenSans_300Light_Italic,
-  OpenSans_400Regular_Italic,
-  OpenSans_500Medium_Italic,
-  OpenSans_600SemiBold_Italic,
-  OpenSans_700Bold_Italic,
-  OpenSans_800ExtraBold_Italic,
-} from '@expo-google-fonts/open-sans';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/open-sans/useFonts';
+import { OpenSans_300Light } from '@expo-google-fonts/open-sans/300Light';
+import { OpenSans_400Regular } from '@expo-google-fonts/open-sans/400Regular';
+import { OpenSans_500Medium } from '@expo-google-fonts/open-sans/500Medium';
+import { OpenSans_600SemiBold } from '@expo-google-fonts/open-sans/600SemiBold';
+import { OpenSans_700Bold } from '@expo-google-fonts/open-sans/700Bold';
+import { OpenSans_800ExtraBold } from '@expo-google-fonts/open-sans/800ExtraBold';
+import { OpenSans_300Light_Italic } from '@expo-google-fonts/open-sans/300Light_Italic';
+import { OpenSans_400Regular_Italic } from '@expo-google-fonts/open-sans/400Regular_Italic';
+import { OpenSans_500Medium_Italic } from '@expo-google-fonts/open-sans/500Medium_Italic';
+import { OpenSans_600SemiBold_Italic } from '@expo-google-fonts/open-sans/600SemiBold_Italic';
+import { OpenSans_700Bold_Italic } from '@expo-google-fonts/open-sans/700Bold_Italic';
+import { OpenSans_800ExtraBold_Italic } from '@expo-google-fonts/open-sans/800ExtraBold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -75,7 +71,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

@@ -2,15 +2,15 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const BigShouldersStencilText_100Thin = require('./BigShouldersStencilText_100Thin.ttf');
-export const BigShouldersStencilText_200ExtraLight = require('./BigShouldersStencilText_200ExtraLight.ttf');
-export const BigShouldersStencilText_300Light = require('./BigShouldersStencilText_300Light.ttf');
-export const BigShouldersStencilText_400Regular = require('./BigShouldersStencilText_400Regular.ttf');
-export const BigShouldersStencilText_500Medium = require('./BigShouldersStencilText_500Medium.ttf');
-export const BigShouldersStencilText_600SemiBold = require('./BigShouldersStencilText_600SemiBold.ttf');
-export const BigShouldersStencilText_700Bold = require('./BigShouldersStencilText_700Bold.ttf');
-export const BigShouldersStencilText_800ExtraBold = require('./BigShouldersStencilText_800ExtraBold.ttf');
-export const BigShouldersStencilText_900Black = require('./BigShouldersStencilText_900Black.ttf');
+export const BigShouldersStencilText_100Thin = require('./100Thin/BigShouldersStencilText_100Thin.ttf');
+export const BigShouldersStencilText_200ExtraLight = require('./200ExtraLight/BigShouldersStencilText_200ExtraLight.ttf');
+export const BigShouldersStencilText_300Light = require('./300Light/BigShouldersStencilText_300Light.ttf');
+export const BigShouldersStencilText_400Regular = require('./400Regular/BigShouldersStencilText_400Regular.ttf');
+export const BigShouldersStencilText_500Medium = require('./500Medium/BigShouldersStencilText_500Medium.ttf');
+export const BigShouldersStencilText_600SemiBold = require('./600SemiBold/BigShouldersStencilText_600SemiBold.ttf');
+export const BigShouldersStencilText_700Bold = require('./700Bold/BigShouldersStencilText_700Bold.ttf');
+export const BigShouldersStencilText_800ExtraBold = require('./800ExtraBold/BigShouldersStencilText_800ExtraBold.ttf');
+export const BigShouldersStencilText_900Black = require('./900Black/BigShouldersStencilText_900Black.ttf');

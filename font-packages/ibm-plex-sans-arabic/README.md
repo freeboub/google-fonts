@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/ibm-plex-sans-arabic)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/ibm-plex-sans-arabic)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/ibm-plex-sans-arabic)
 
 This package lets you use the [**IBM Plex Sans Arabic**](https://fonts.google.com/specimen/IBM+Plex+Sans+Arabic) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -25,25 +24,22 @@ This font family contains [7 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/ibm-plex-sans-arabic expo-font expo-app-loading
+expo install @expo-google-fonts/ibm-plex-sans-arabic expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  IBMPlexSansArabic_100Thin,
-  IBMPlexSansArabic_200ExtraLight,
-  IBMPlexSansArabic_300Light,
-  IBMPlexSansArabic_400Regular,
-  IBMPlexSansArabic_500Medium,
-  IBMPlexSansArabic_600SemiBold,
-  IBMPlexSansArabic_700Bold,
-} from '@expo-google-fonts/ibm-plex-sans-arabic';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/ibm-plex-sans-arabic/useFonts';
+import { IBMPlexSansArabic_100Thin } from '@expo-google-fonts/ibm-plex-sans-arabic/100Thin';
+import { IBMPlexSansArabic_200ExtraLight } from '@expo-google-fonts/ibm-plex-sans-arabic/200ExtraLight';
+import { IBMPlexSansArabic_300Light } from '@expo-google-fonts/ibm-plex-sans-arabic/300Light';
+import { IBMPlexSansArabic_400Regular } from '@expo-google-fonts/ibm-plex-sans-arabic/400Regular';
+import { IBMPlexSansArabic_500Medium } from '@expo-google-fonts/ibm-plex-sans-arabic/500Medium';
+import { IBMPlexSansArabic_600SemiBold } from '@expo-google-fonts/ibm-plex-sans-arabic/600SemiBold';
+import { IBMPlexSansArabic_700Bold } from '@expo-google-fonts/ibm-plex-sans-arabic/700Bold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -60,7 +56,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

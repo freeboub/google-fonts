@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/linefont)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/linefont)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/linefont)
 
 This package lets you use the [**Linefont**](https://fonts.google.com/specimen/Linefont) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/linefont expo-font expo-app-loading
+expo install @expo-google-fonts/linefont expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Linefont_100Thin,
-  Linefont_200ExtraLight,
-  Linefont_300Light,
-  Linefont_400Regular,
-  Linefont_500Medium,
-  Linefont_600SemiBold,
-  Linefont_700Bold,
-  Linefont_800ExtraBold,
-  Linefont_900Black,
-} from '@expo-google-fonts/linefont';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/linefont/useFonts';
+import { Linefont_100Thin } from '@expo-google-fonts/linefont/100Thin';
+import { Linefont_200ExtraLight } from '@expo-google-fonts/linefont/200ExtraLight';
+import { Linefont_300Light } from '@expo-google-fonts/linefont/300Light';
+import { Linefont_400Regular } from '@expo-google-fonts/linefont/400Regular';
+import { Linefont_500Medium } from '@expo-google-fonts/linefont/500Medium';
+import { Linefont_600SemiBold } from '@expo-google-fonts/linefont/600SemiBold';
+import { Linefont_700Bold } from '@expo-google-fonts/linefont/700Bold';
+import { Linefont_800ExtraBold } from '@expo-google-fonts/linefont/800ExtraBold';
+import { Linefont_900Black } from '@expo-google-fonts/linefont/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

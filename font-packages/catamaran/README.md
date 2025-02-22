@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/catamaran)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/catamaran)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/catamaran)
 
 This package lets you use the [**Catamaran**](https://fonts.google.com/specimen/Catamaran) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/catamaran expo-font expo-app-loading
+expo install @expo-google-fonts/catamaran expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Catamaran_100Thin,
-  Catamaran_200ExtraLight,
-  Catamaran_300Light,
-  Catamaran_400Regular,
-  Catamaran_500Medium,
-  Catamaran_600SemiBold,
-  Catamaran_700Bold,
-  Catamaran_800ExtraBold,
-  Catamaran_900Black,
-} from '@expo-google-fonts/catamaran';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/catamaran/useFonts';
+import { Catamaran_100Thin } from '@expo-google-fonts/catamaran/100Thin';
+import { Catamaran_200ExtraLight } from '@expo-google-fonts/catamaran/200ExtraLight';
+import { Catamaran_300Light } from '@expo-google-fonts/catamaran/300Light';
+import { Catamaran_400Regular } from '@expo-google-fonts/catamaran/400Regular';
+import { Catamaran_500Medium } from '@expo-google-fonts/catamaran/500Medium';
+import { Catamaran_600SemiBold } from '@expo-google-fonts/catamaran/600SemiBold';
+import { Catamaran_700Bold } from '@expo-google-fonts/catamaran/700Bold';
+import { Catamaran_800ExtraBold } from '@expo-google-fonts/catamaran/800ExtraBold';
+import { Catamaran_900Black } from '@expo-google-fonts/catamaran/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/finlandica)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/finlandica)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/finlandica)
 
 This package lets you use the [**Finlandica**](https://fonts.google.com/specimen/Finlandica) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -26,26 +25,23 @@ This font family contains [8 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/finlandica expo-font expo-app-loading
+expo install @expo-google-fonts/finlandica expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Finlandica_400Regular,
-  Finlandica_500Medium,
-  Finlandica_600SemiBold,
-  Finlandica_700Bold,
-  Finlandica_400Regular_Italic,
-  Finlandica_500Medium_Italic,
-  Finlandica_600SemiBold_Italic,
-  Finlandica_700Bold_Italic,
-} from '@expo-google-fonts/finlandica';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/finlandica/useFonts';
+import { Finlandica_400Regular } from '@expo-google-fonts/finlandica/400Regular';
+import { Finlandica_500Medium } from '@expo-google-fonts/finlandica/500Medium';
+import { Finlandica_600SemiBold } from '@expo-google-fonts/finlandica/600SemiBold';
+import { Finlandica_700Bold } from '@expo-google-fonts/finlandica/700Bold';
+import { Finlandica_400Regular_Italic } from '@expo-google-fonts/finlandica/400Regular_Italic';
+import { Finlandica_500Medium_Italic } from '@expo-google-fonts/finlandica/500Medium_Italic';
+import { Finlandica_600SemiBold_Italic } from '@expo-google-fonts/finlandica/600SemiBold_Italic';
+import { Finlandica_700Bold_Italic } from '@expo-google-fonts/finlandica/700Bold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -63,7 +59,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/yanone-kaffeesatz)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/yanone-kaffeesatz)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/yanone-kaffeesatz)
 
 This package lets you use the [**Yanone Kaffeesatz**](https://fonts.google.com/specimen/Yanone+Kaffeesatz) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -24,24 +23,21 @@ This font family contains [6 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/yanone-kaffeesatz expo-font expo-app-loading
+expo install @expo-google-fonts/yanone-kaffeesatz expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  YanoneKaffeesatz_200ExtraLight,
-  YanoneKaffeesatz_300Light,
-  YanoneKaffeesatz_400Regular,
-  YanoneKaffeesatz_500Medium,
-  YanoneKaffeesatz_600SemiBold,
-  YanoneKaffeesatz_700Bold,
-} from '@expo-google-fonts/yanone-kaffeesatz';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/yanone-kaffeesatz/useFonts';
+import { YanoneKaffeesatz_200ExtraLight } from '@expo-google-fonts/yanone-kaffeesatz/200ExtraLight';
+import { YanoneKaffeesatz_300Light } from '@expo-google-fonts/yanone-kaffeesatz/300Light';
+import { YanoneKaffeesatz_400Regular } from '@expo-google-fonts/yanone-kaffeesatz/400Regular';
+import { YanoneKaffeesatz_500Medium } from '@expo-google-fonts/yanone-kaffeesatz/500Medium';
+import { YanoneKaffeesatz_600SemiBold } from '@expo-google-fonts/yanone-kaffeesatz/600SemiBold';
+import { YanoneKaffeesatz_700Bold } from '@expo-google-fonts/yanone-kaffeesatz/700Bold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -57,7 +53,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

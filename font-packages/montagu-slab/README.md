@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/montagu-slab)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/montagu-slab)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/montagu-slab)
 
 This package lets you use the [**Montagu Slab**](https://fonts.google.com/specimen/Montagu+Slab) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -25,25 +24,22 @@ This font family contains [7 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/montagu-slab expo-font expo-app-loading
+expo install @expo-google-fonts/montagu-slab expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  MontaguSlab_100Thin,
-  MontaguSlab_200ExtraLight,
-  MontaguSlab_300Light,
-  MontaguSlab_400Regular,
-  MontaguSlab_500Medium,
-  MontaguSlab_600SemiBold,
-  MontaguSlab_700Bold,
-} from '@expo-google-fonts/montagu-slab';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/montagu-slab/useFonts';
+import { MontaguSlab_100Thin } from '@expo-google-fonts/montagu-slab/100Thin';
+import { MontaguSlab_200ExtraLight } from '@expo-google-fonts/montagu-slab/200ExtraLight';
+import { MontaguSlab_300Light } from '@expo-google-fonts/montagu-slab/300Light';
+import { MontaguSlab_400Regular } from '@expo-google-fonts/montagu-slab/400Regular';
+import { MontaguSlab_500Medium } from '@expo-google-fonts/montagu-slab/500Medium';
+import { MontaguSlab_600SemiBold } from '@expo-google-fonts/montagu-slab/600SemiBold';
+import { MontaguSlab_700Bold } from '@expo-google-fonts/montagu-slab/700Bold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -60,7 +56,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

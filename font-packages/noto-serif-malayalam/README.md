@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-serif-malayalam)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-serif-malayalam)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/noto-serif-malayalam)
 
 This package lets you use the [**Noto Serif Malayalam**](https://fonts.google.com/specimen/Noto+Serif+Malayalam) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/noto-serif-malayalam expo-font expo-app-loading
+expo install @expo-google-fonts/noto-serif-malayalam expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSerifMalayalam_100Thin,
-  NotoSerifMalayalam_200ExtraLight,
-  NotoSerifMalayalam_300Light,
-  NotoSerifMalayalam_400Regular,
-  NotoSerifMalayalam_500Medium,
-  NotoSerifMalayalam_600SemiBold,
-  NotoSerifMalayalam_700Bold,
-  NotoSerifMalayalam_800ExtraBold,
-  NotoSerifMalayalam_900Black,
-} from '@expo-google-fonts/noto-serif-malayalam';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/noto-serif-malayalam/useFonts';
+import { NotoSerifMalayalam_100Thin } from '@expo-google-fonts/noto-serif-malayalam/100Thin';
+import { NotoSerifMalayalam_200ExtraLight } from '@expo-google-fonts/noto-serif-malayalam/200ExtraLight';
+import { NotoSerifMalayalam_300Light } from '@expo-google-fonts/noto-serif-malayalam/300Light';
+import { NotoSerifMalayalam_400Regular } from '@expo-google-fonts/noto-serif-malayalam/400Regular';
+import { NotoSerifMalayalam_500Medium } from '@expo-google-fonts/noto-serif-malayalam/500Medium';
+import { NotoSerifMalayalam_600SemiBold } from '@expo-google-fonts/noto-serif-malayalam/600SemiBold';
+import { NotoSerifMalayalam_700Bold } from '@expo-google-fonts/noto-serif-malayalam/700Bold';
+import { NotoSerifMalayalam_800ExtraBold } from '@expo-google-fonts/noto-serif-malayalam/800ExtraBold';
+import { NotoSerifMalayalam_900Black } from '@expo-google-fonts/noto-serif-malayalam/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

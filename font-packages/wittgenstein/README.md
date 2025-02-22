@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/wittgenstein)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/wittgenstein)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/wittgenstein)
 
 This package lets you use the [**Wittgenstein**](https://fonts.google.com/specimen/Wittgenstein) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -30,30 +29,27 @@ This font family contains [12 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/wittgenstein expo-font expo-app-loading
+expo install @expo-google-fonts/wittgenstein expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Wittgenstein_400Regular,
-  Wittgenstein_500Medium,
-  Wittgenstein_600SemiBold,
-  Wittgenstein_700Bold,
-  Wittgenstein_800ExtraBold,
-  Wittgenstein_900Black,
-  Wittgenstein_400Regular_Italic,
-  Wittgenstein_500Medium_Italic,
-  Wittgenstein_600SemiBold_Italic,
-  Wittgenstein_700Bold_Italic,
-  Wittgenstein_800ExtraBold_Italic,
-  Wittgenstein_900Black_Italic,
-} from '@expo-google-fonts/wittgenstein';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/wittgenstein/useFonts';
+import { Wittgenstein_400Regular } from '@expo-google-fonts/wittgenstein/400Regular';
+import { Wittgenstein_500Medium } from '@expo-google-fonts/wittgenstein/500Medium';
+import { Wittgenstein_600SemiBold } from '@expo-google-fonts/wittgenstein/600SemiBold';
+import { Wittgenstein_700Bold } from '@expo-google-fonts/wittgenstein/700Bold';
+import { Wittgenstein_800ExtraBold } from '@expo-google-fonts/wittgenstein/800ExtraBold';
+import { Wittgenstein_900Black } from '@expo-google-fonts/wittgenstein/900Black';
+import { Wittgenstein_400Regular_Italic } from '@expo-google-fonts/wittgenstein/400Regular_Italic';
+import { Wittgenstein_500Medium_Italic } from '@expo-google-fonts/wittgenstein/500Medium_Italic';
+import { Wittgenstein_600SemiBold_Italic } from '@expo-google-fonts/wittgenstein/600SemiBold_Italic';
+import { Wittgenstein_700Bold_Italic } from '@expo-google-fonts/wittgenstein/700Bold_Italic';
+import { Wittgenstein_800ExtraBold_Italic } from '@expo-google-fonts/wittgenstein/800ExtraBold_Italic';
+import { Wittgenstein_900Black_Italic } from '@expo-google-fonts/wittgenstein/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -75,7 +71,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

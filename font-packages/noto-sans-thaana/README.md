@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-sans-thaana)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-sans-thaana)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/noto-sans-thaana)
 
 This package lets you use the [**Noto Sans Thaana**](https://fonts.google.com/specimen/Noto+Sans+Thaana) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/noto-sans-thaana expo-font expo-app-loading
+expo install @expo-google-fonts/noto-sans-thaana expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSansThaana_100Thin,
-  NotoSansThaana_200ExtraLight,
-  NotoSansThaana_300Light,
-  NotoSansThaana_400Regular,
-  NotoSansThaana_500Medium,
-  NotoSansThaana_600SemiBold,
-  NotoSansThaana_700Bold,
-  NotoSansThaana_800ExtraBold,
-  NotoSansThaana_900Black,
-} from '@expo-google-fonts/noto-sans-thaana';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/noto-sans-thaana/useFonts';
+import { NotoSansThaana_100Thin } from '@expo-google-fonts/noto-sans-thaana/100Thin';
+import { NotoSansThaana_200ExtraLight } from '@expo-google-fonts/noto-sans-thaana/200ExtraLight';
+import { NotoSansThaana_300Light } from '@expo-google-fonts/noto-sans-thaana/300Light';
+import { NotoSansThaana_400Regular } from '@expo-google-fonts/noto-sans-thaana/400Regular';
+import { NotoSansThaana_500Medium } from '@expo-google-fonts/noto-sans-thaana/500Medium';
+import { NotoSansThaana_600SemiBold } from '@expo-google-fonts/noto-sans-thaana/600SemiBold';
+import { NotoSansThaana_700Bold } from '@expo-google-fonts/noto-sans-thaana/700Bold';
+import { NotoSansThaana_800ExtraBold } from '@expo-google-fonts/noto-sans-thaana/800ExtraBold';
+import { NotoSansThaana_900Black } from '@expo-google-fonts/noto-sans-thaana/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

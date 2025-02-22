@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/antonio)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/antonio)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/antonio)
 
 This package lets you use the [**Antonio**](https://fonts.google.com/specimen/Antonio) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -25,25 +24,22 @@ This font family contains [7 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/antonio expo-font expo-app-loading
+expo install @expo-google-fonts/antonio expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Antonio_100Thin,
-  Antonio_200ExtraLight,
-  Antonio_300Light,
-  Antonio_400Regular,
-  Antonio_500Medium,
-  Antonio_600SemiBold,
-  Antonio_700Bold,
-} from '@expo-google-fonts/antonio';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/antonio/useFonts';
+import { Antonio_100Thin } from '@expo-google-fonts/antonio/100Thin';
+import { Antonio_200ExtraLight } from '@expo-google-fonts/antonio/200ExtraLight';
+import { Antonio_300Light } from '@expo-google-fonts/antonio/300Light';
+import { Antonio_400Regular } from '@expo-google-fonts/antonio/400Regular';
+import { Antonio_500Medium } from '@expo-google-fonts/antonio/500Medium';
+import { Antonio_600SemiBold } from '@expo-google-fonts/antonio/600SemiBold';
+import { Antonio_700Bold } from '@expo-google-fonts/antonio/700Bold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -60,7 +56,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/manuale)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/manuale)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/manuale)
 
 This package lets you use the [**Manuale**](https://fonts.google.com/specimen/Manuale) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -30,30 +29,27 @@ This font family contains [12 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/manuale expo-font expo-app-loading
+expo install @expo-google-fonts/manuale expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Manuale_300Light,
-  Manuale_400Regular,
-  Manuale_500Medium,
-  Manuale_600SemiBold,
-  Manuale_700Bold,
-  Manuale_800ExtraBold,
-  Manuale_300Light_Italic,
-  Manuale_400Regular_Italic,
-  Manuale_500Medium_Italic,
-  Manuale_600SemiBold_Italic,
-  Manuale_700Bold_Italic,
-  Manuale_800ExtraBold_Italic,
-} from '@expo-google-fonts/manuale';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/manuale/useFonts';
+import { Manuale_300Light } from '@expo-google-fonts/manuale/300Light';
+import { Manuale_400Regular } from '@expo-google-fonts/manuale/400Regular';
+import { Manuale_500Medium } from '@expo-google-fonts/manuale/500Medium';
+import { Manuale_600SemiBold } from '@expo-google-fonts/manuale/600SemiBold';
+import { Manuale_700Bold } from '@expo-google-fonts/manuale/700Bold';
+import { Manuale_800ExtraBold } from '@expo-google-fonts/manuale/800ExtraBold';
+import { Manuale_300Light_Italic } from '@expo-google-fonts/manuale/300Light_Italic';
+import { Manuale_400Regular_Italic } from '@expo-google-fonts/manuale/400Regular_Italic';
+import { Manuale_500Medium_Italic } from '@expo-google-fonts/manuale/500Medium_Italic';
+import { Manuale_600SemiBold_Italic } from '@expo-google-fonts/manuale/600SemiBold_Italic';
+import { Manuale_700Bold_Italic } from '@expo-google-fonts/manuale/700Bold_Italic';
+import { Manuale_800ExtraBold_Italic } from '@expo-google-fonts/manuale/800ExtraBold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -75,7 +71,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

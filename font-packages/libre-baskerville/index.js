@@ -2,9 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const LibreBaskerville_400Regular = require('./LibreBaskerville_400Regular.ttf');
-export const LibreBaskerville_400Regular_Italic = require('./LibreBaskerville_400Regular_Italic.ttf');
-export const LibreBaskerville_700Bold = require('./LibreBaskerville_700Bold.ttf');
+export const LibreBaskerville_400Regular = require('./400Regular/LibreBaskerville_400Regular.ttf');
+export const LibreBaskerville_400Regular_Italic = require('./400Regular_Italic/LibreBaskerville_400Regular_Italic.ttf');
+export const LibreBaskerville_700Bold = require('./700Bold/LibreBaskerville_700Bold.ttf');

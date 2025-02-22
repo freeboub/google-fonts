@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/roboto)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/roboto)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/roboto)
 
 This package lets you use the [**Roboto**](https://fonts.google.com/specimen/Roboto) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/roboto expo-font expo-app-loading
+expo install @expo-google-fonts/roboto expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Roboto_100Thin,
-  Roboto_200ExtraLight,
-  Roboto_300Light,
-  Roboto_400Regular,
-  Roboto_500Medium,
-  Roboto_600SemiBold,
-  Roboto_700Bold,
-  Roboto_800ExtraBold,
-  Roboto_900Black,
-  Roboto_100Thin_Italic,
-  Roboto_200ExtraLight_Italic,
-  Roboto_300Light_Italic,
-  Roboto_400Regular_Italic,
-  Roboto_500Medium_Italic,
-  Roboto_600SemiBold_Italic,
-  Roboto_700Bold_Italic,
-  Roboto_800ExtraBold_Italic,
-  Roboto_900Black_Italic,
-} from '@expo-google-fonts/roboto';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/roboto/useFonts';
+import { Roboto_100Thin } from '@expo-google-fonts/roboto/100Thin';
+import { Roboto_200ExtraLight } from '@expo-google-fonts/roboto/200ExtraLight';
+import { Roboto_300Light } from '@expo-google-fonts/roboto/300Light';
+import { Roboto_400Regular } from '@expo-google-fonts/roboto/400Regular';
+import { Roboto_500Medium } from '@expo-google-fonts/roboto/500Medium';
+import { Roboto_600SemiBold } from '@expo-google-fonts/roboto/600SemiBold';
+import { Roboto_700Bold } from '@expo-google-fonts/roboto/700Bold';
+import { Roboto_800ExtraBold } from '@expo-google-fonts/roboto/800ExtraBold';
+import { Roboto_900Black } from '@expo-google-fonts/roboto/900Black';
+import { Roboto_100Thin_Italic } from '@expo-google-fonts/roboto/100Thin_Italic';
+import { Roboto_200ExtraLight_Italic } from '@expo-google-fonts/roboto/200ExtraLight_Italic';
+import { Roboto_300Light_Italic } from '@expo-google-fonts/roboto/300Light_Italic';
+import { Roboto_400Regular_Italic } from '@expo-google-fonts/roboto/400Regular_Italic';
+import { Roboto_500Medium_Italic } from '@expo-google-fonts/roboto/500Medium_Italic';
+import { Roboto_600SemiBold_Italic } from '@expo-google-fonts/roboto/600SemiBold_Italic';
+import { Roboto_700Bold_Italic } from '@expo-google-fonts/roboto/700Bold_Italic';
+import { Roboto_800ExtraBold_Italic } from '@expo-google-fonts/roboto/800ExtraBold_Italic';
+import { Roboto_900Black_Italic } from '@expo-google-fonts/roboto/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const RammettoOne_400Regular = require('./RammettoOne_400Regular.ttf');
+export const RammettoOne_400Regular = require('./400Regular/RammettoOne_400Regular.ttf');

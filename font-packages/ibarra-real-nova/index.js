@@ -2,14 +2,14 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const IbarraRealNova_400Regular = require('./IbarraRealNova_400Regular.ttf');
-export const IbarraRealNova_500Medium = require('./IbarraRealNova_500Medium.ttf');
-export const IbarraRealNova_600SemiBold = require('./IbarraRealNova_600SemiBold.ttf');
-export const IbarraRealNova_700Bold = require('./IbarraRealNova_700Bold.ttf');
-export const IbarraRealNova_400Regular_Italic = require('./IbarraRealNova_400Regular_Italic.ttf');
-export const IbarraRealNova_500Medium_Italic = require('./IbarraRealNova_500Medium_Italic.ttf');
-export const IbarraRealNova_600SemiBold_Italic = require('./IbarraRealNova_600SemiBold_Italic.ttf');
-export const IbarraRealNova_700Bold_Italic = require('./IbarraRealNova_700Bold_Italic.ttf');
+export const IbarraRealNova_400Regular = require('./400Regular/IbarraRealNova_400Regular.ttf');
+export const IbarraRealNova_500Medium = require('./500Medium/IbarraRealNova_500Medium.ttf');
+export const IbarraRealNova_600SemiBold = require('./600SemiBold/IbarraRealNova_600SemiBold.ttf');
+export const IbarraRealNova_700Bold = require('./700Bold/IbarraRealNova_700Bold.ttf');
+export const IbarraRealNova_400Regular_Italic = require('./400Regular_Italic/IbarraRealNova_400Regular_Italic.ttf');
+export const IbarraRealNova_500Medium_Italic = require('./500Medium_Italic/IbarraRealNova_500Medium_Italic.ttf');
+export const IbarraRealNova_600SemiBold_Italic = require('./600SemiBold_Italic/IbarraRealNova_600SemiBold_Italic.ttf');
+export const IbarraRealNova_700Bold_Italic = require('./700Bold_Italic/IbarraRealNova_700Bold_Italic.ttf');

@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/inter-tight)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/inter-tight)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/inter-tight)
 
 This package lets you use the [**Inter Tight**](https://fonts.google.com/specimen/Inter+Tight) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/inter-tight expo-font expo-app-loading
+expo install @expo-google-fonts/inter-tight expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  InterTight_100Thin,
-  InterTight_200ExtraLight,
-  InterTight_300Light,
-  InterTight_400Regular,
-  InterTight_500Medium,
-  InterTight_600SemiBold,
-  InterTight_700Bold,
-  InterTight_800ExtraBold,
-  InterTight_900Black,
-  InterTight_100Thin_Italic,
-  InterTight_200ExtraLight_Italic,
-  InterTight_300Light_Italic,
-  InterTight_400Regular_Italic,
-  InterTight_500Medium_Italic,
-  InterTight_600SemiBold_Italic,
-  InterTight_700Bold_Italic,
-  InterTight_800ExtraBold_Italic,
-  InterTight_900Black_Italic,
-} from '@expo-google-fonts/inter-tight';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/inter-tight/useFonts';
+import { InterTight_100Thin } from '@expo-google-fonts/inter-tight/100Thin';
+import { InterTight_200ExtraLight } from '@expo-google-fonts/inter-tight/200ExtraLight';
+import { InterTight_300Light } from '@expo-google-fonts/inter-tight/300Light';
+import { InterTight_400Regular } from '@expo-google-fonts/inter-tight/400Regular';
+import { InterTight_500Medium } from '@expo-google-fonts/inter-tight/500Medium';
+import { InterTight_600SemiBold } from '@expo-google-fonts/inter-tight/600SemiBold';
+import { InterTight_700Bold } from '@expo-google-fonts/inter-tight/700Bold';
+import { InterTight_800ExtraBold } from '@expo-google-fonts/inter-tight/800ExtraBold';
+import { InterTight_900Black } from '@expo-google-fonts/inter-tight/900Black';
+import { InterTight_100Thin_Italic } from '@expo-google-fonts/inter-tight/100Thin_Italic';
+import { InterTight_200ExtraLight_Italic } from '@expo-google-fonts/inter-tight/200ExtraLight_Italic';
+import { InterTight_300Light_Italic } from '@expo-google-fonts/inter-tight/300Light_Italic';
+import { InterTight_400Regular_Italic } from '@expo-google-fonts/inter-tight/400Regular_Italic';
+import { InterTight_500Medium_Italic } from '@expo-google-fonts/inter-tight/500Medium_Italic';
+import { InterTight_600SemiBold_Italic } from '@expo-google-fonts/inter-tight/600SemiBold_Italic';
+import { InterTight_700Bold_Italic } from '@expo-google-fonts/inter-tight/700Bold_Italic';
+import { InterTight_800ExtraBold_Italic } from '@expo-google-fonts/inter-tight/800ExtraBold_Italic';
+import { InterTight_900Black_Italic } from '@expo-google-fonts/inter-tight/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

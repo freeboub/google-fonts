@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/rethink-sans)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/rethink-sans)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/rethink-sans)
 
 This package lets you use the [**Rethink Sans**](https://fonts.google.com/specimen/Rethink+Sans) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -28,28 +27,25 @@ This font family contains [10 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/rethink-sans expo-font expo-app-loading
+expo install @expo-google-fonts/rethink-sans expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  RethinkSans_400Regular,
-  RethinkSans_500Medium,
-  RethinkSans_600SemiBold,
-  RethinkSans_700Bold,
-  RethinkSans_800ExtraBold,
-  RethinkSans_400Regular_Italic,
-  RethinkSans_500Medium_Italic,
-  RethinkSans_600SemiBold_Italic,
-  RethinkSans_700Bold_Italic,
-  RethinkSans_800ExtraBold_Italic,
-} from '@expo-google-fonts/rethink-sans';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/rethink-sans/useFonts';
+import { RethinkSans_400Regular } from '@expo-google-fonts/rethink-sans/400Regular';
+import { RethinkSans_500Medium } from '@expo-google-fonts/rethink-sans/500Medium';
+import { RethinkSans_600SemiBold } from '@expo-google-fonts/rethink-sans/600SemiBold';
+import { RethinkSans_700Bold } from '@expo-google-fonts/rethink-sans/700Bold';
+import { RethinkSans_800ExtraBold } from '@expo-google-fonts/rethink-sans/800ExtraBold';
+import { RethinkSans_400Regular_Italic } from '@expo-google-fonts/rethink-sans/400Regular_Italic';
+import { RethinkSans_500Medium_Italic } from '@expo-google-fonts/rethink-sans/500Medium_Italic';
+import { RethinkSans_600SemiBold_Italic } from '@expo-google-fonts/rethink-sans/600SemiBold_Italic';
+import { RethinkSans_700Bold_Italic } from '@expo-google-fonts/rethink-sans/700Bold_Italic';
+import { RethinkSans_800ExtraBold_Italic } from '@expo-google-fonts/rethink-sans/800ExtraBold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -69,7 +65,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

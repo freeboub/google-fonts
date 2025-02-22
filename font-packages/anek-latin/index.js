@@ -2,14 +2,14 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const AnekLatin_100Thin = require('./AnekLatin_100Thin.ttf');
-export const AnekLatin_200ExtraLight = require('./AnekLatin_200ExtraLight.ttf');
-export const AnekLatin_300Light = require('./AnekLatin_300Light.ttf');
-export const AnekLatin_400Regular = require('./AnekLatin_400Regular.ttf');
-export const AnekLatin_500Medium = require('./AnekLatin_500Medium.ttf');
-export const AnekLatin_600SemiBold = require('./AnekLatin_600SemiBold.ttf');
-export const AnekLatin_700Bold = require('./AnekLatin_700Bold.ttf');
-export const AnekLatin_800ExtraBold = require('./AnekLatin_800ExtraBold.ttf');
+export const AnekLatin_100Thin = require('./100Thin/AnekLatin_100Thin.ttf');
+export const AnekLatin_200ExtraLight = require('./200ExtraLight/AnekLatin_200ExtraLight.ttf');
+export const AnekLatin_300Light = require('./300Light/AnekLatin_300Light.ttf');
+export const AnekLatin_400Regular = require('./400Regular/AnekLatin_400Regular.ttf');
+export const AnekLatin_500Medium = require('./500Medium/AnekLatin_500Medium.ttf');
+export const AnekLatin_600SemiBold = require('./600SemiBold/AnekLatin_600SemiBold.ttf');
+export const AnekLatin_700Bold = require('./700Bold/AnekLatin_700Bold.ttf');
+export const AnekLatin_800ExtraBold = require('./800ExtraBold/AnekLatin_800ExtraBold.ttf');

@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Preahvihear_400Regular = require('./Preahvihear_400Regular.ttf');
+export const Preahvihear_400Regular = require('./400Regular/Preahvihear_400Regular.ttf');

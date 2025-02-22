@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-sans-ethiopic)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-sans-ethiopic)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/noto-sans-ethiopic)
 
 This package lets you use the [**Noto Sans Ethiopic**](https://fonts.google.com/specimen/Noto+Sans+Ethiopic) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/noto-sans-ethiopic expo-font expo-app-loading
+expo install @expo-google-fonts/noto-sans-ethiopic expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSansEthiopic_100Thin,
-  NotoSansEthiopic_200ExtraLight,
-  NotoSansEthiopic_300Light,
-  NotoSansEthiopic_400Regular,
-  NotoSansEthiopic_500Medium,
-  NotoSansEthiopic_600SemiBold,
-  NotoSansEthiopic_700Bold,
-  NotoSansEthiopic_800ExtraBold,
-  NotoSansEthiopic_900Black,
-} from '@expo-google-fonts/noto-sans-ethiopic';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/noto-sans-ethiopic/useFonts';
+import { NotoSansEthiopic_100Thin } from '@expo-google-fonts/noto-sans-ethiopic/100Thin';
+import { NotoSansEthiopic_200ExtraLight } from '@expo-google-fonts/noto-sans-ethiopic/200ExtraLight';
+import { NotoSansEthiopic_300Light } from '@expo-google-fonts/noto-sans-ethiopic/300Light';
+import { NotoSansEthiopic_400Regular } from '@expo-google-fonts/noto-sans-ethiopic/400Regular';
+import { NotoSansEthiopic_500Medium } from '@expo-google-fonts/noto-sans-ethiopic/500Medium';
+import { NotoSansEthiopic_600SemiBold } from '@expo-google-fonts/noto-sans-ethiopic/600SemiBold';
+import { NotoSansEthiopic_700Bold } from '@expo-google-fonts/noto-sans-ethiopic/700Bold';
+import { NotoSansEthiopic_800ExtraBold } from '@expo-google-fonts/noto-sans-ethiopic/800ExtraBold';
+import { NotoSansEthiopic_900Black } from '@expo-google-fonts/noto-sans-ethiopic/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

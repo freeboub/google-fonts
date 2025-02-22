@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/rajdhani)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/rajdhani)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/rajdhani)
 
 This package lets you use the [**Rajdhani**](https://fonts.google.com/specimen/Rajdhani) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -23,23 +22,20 @@ This font family contains [5 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/rajdhani expo-font expo-app-loading
+expo install @expo-google-fonts/rajdhani expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Rajdhani_300Light,
-  Rajdhani_400Regular,
-  Rajdhani_500Medium,
-  Rajdhani_600SemiBold,
-  Rajdhani_700Bold,
-} from '@expo-google-fonts/rajdhani';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/rajdhani/useFonts';
+import { Rajdhani_300Light } from '@expo-google-fonts/rajdhani/300Light';
+import { Rajdhani_400Regular } from '@expo-google-fonts/rajdhani/400Regular';
+import { Rajdhani_500Medium } from '@expo-google-fonts/rajdhani/500Medium';
+import { Rajdhani_600SemiBold } from '@expo-google-fonts/rajdhani/600SemiBold';
+import { Rajdhani_700Bold } from '@expo-google-fonts/rajdhani/700Bold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -54,7 +50,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/eb-garamond)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/eb-garamond)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/eb-garamond)
 
 This package lets you use the [**EB Garamond**](https://fonts.google.com/specimen/EB+Garamond) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -28,28 +27,25 @@ This font family contains [10 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/eb-garamond expo-font expo-app-loading
+expo install @expo-google-fonts/eb-garamond expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  EBGaramond_400Regular,
-  EBGaramond_500Medium,
-  EBGaramond_600SemiBold,
-  EBGaramond_700Bold,
-  EBGaramond_800ExtraBold,
-  EBGaramond_400Regular_Italic,
-  EBGaramond_500Medium_Italic,
-  EBGaramond_600SemiBold_Italic,
-  EBGaramond_700Bold_Italic,
-  EBGaramond_800ExtraBold_Italic,
-} from '@expo-google-fonts/eb-garamond';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/eb-garamond/useFonts';
+import { EBGaramond_400Regular } from '@expo-google-fonts/eb-garamond/400Regular';
+import { EBGaramond_500Medium } from '@expo-google-fonts/eb-garamond/500Medium';
+import { EBGaramond_600SemiBold } from '@expo-google-fonts/eb-garamond/600SemiBold';
+import { EBGaramond_700Bold } from '@expo-google-fonts/eb-garamond/700Bold';
+import { EBGaramond_800ExtraBold } from '@expo-google-fonts/eb-garamond/800ExtraBold';
+import { EBGaramond_400Regular_Italic } from '@expo-google-fonts/eb-garamond/400Regular_Italic';
+import { EBGaramond_500Medium_Italic } from '@expo-google-fonts/eb-garamond/500Medium_Italic';
+import { EBGaramond_600SemiBold_Italic } from '@expo-google-fonts/eb-garamond/600SemiBold_Italic';
+import { EBGaramond_700Bold_Italic } from '@expo-google-fonts/eb-garamond/700Bold_Italic';
+import { EBGaramond_800ExtraBold_Italic } from '@expo-google-fonts/eb-garamond/800ExtraBold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -69,7 +65,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

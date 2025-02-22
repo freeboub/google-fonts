@@ -2,10 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Cantarell_400Regular = require('./Cantarell_400Regular.ttf');
-export const Cantarell_400Regular_Italic = require('./Cantarell_400Regular_Italic.ttf');
-export const Cantarell_700Bold = require('./Cantarell_700Bold.ttf');
-export const Cantarell_700Bold_Italic = require('./Cantarell_700Bold_Italic.ttf');
+export const Cantarell_400Regular = require('./400Regular/Cantarell_400Regular.ttf');
+export const Cantarell_400Regular_Italic = require('./400Regular_Italic/Cantarell_400Regular_Italic.ttf');
+export const Cantarell_700Bold = require('./700Bold/Cantarell_700Bold.ttf');
+export const Cantarell_700Bold_Italic = require('./700Bold_Italic/Cantarell_700Bold_Italic.ttf');

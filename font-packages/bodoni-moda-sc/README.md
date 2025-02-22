@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/bodoni-moda-sc)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/bodoni-moda-sc)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/bodoni-moda-sc)
 
 This package lets you use the [**Bodoni Moda SC**](https://fonts.google.com/specimen/Bodoni+Moda+SC) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -30,30 +29,27 @@ This font family contains [12 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/bodoni-moda-sc expo-font expo-app-loading
+expo install @expo-google-fonts/bodoni-moda-sc expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  BodoniModaSC_400Regular,
-  BodoniModaSC_500Medium,
-  BodoniModaSC_600SemiBold,
-  BodoniModaSC_700Bold,
-  BodoniModaSC_800ExtraBold,
-  BodoniModaSC_900Black,
-  BodoniModaSC_400Regular_Italic,
-  BodoniModaSC_500Medium_Italic,
-  BodoniModaSC_600SemiBold_Italic,
-  BodoniModaSC_700Bold_Italic,
-  BodoniModaSC_800ExtraBold_Italic,
-  BodoniModaSC_900Black_Italic,
-} from '@expo-google-fonts/bodoni-moda-sc';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/bodoni-moda-sc/useFonts';
+import { BodoniModaSC_400Regular } from '@expo-google-fonts/bodoni-moda-sc/400Regular';
+import { BodoniModaSC_500Medium } from '@expo-google-fonts/bodoni-moda-sc/500Medium';
+import { BodoniModaSC_600SemiBold } from '@expo-google-fonts/bodoni-moda-sc/600SemiBold';
+import { BodoniModaSC_700Bold } from '@expo-google-fonts/bodoni-moda-sc/700Bold';
+import { BodoniModaSC_800ExtraBold } from '@expo-google-fonts/bodoni-moda-sc/800ExtraBold';
+import { BodoniModaSC_900Black } from '@expo-google-fonts/bodoni-moda-sc/900Black';
+import { BodoniModaSC_400Regular_Italic } from '@expo-google-fonts/bodoni-moda-sc/400Regular_Italic';
+import { BodoniModaSC_500Medium_Italic } from '@expo-google-fonts/bodoni-moda-sc/500Medium_Italic';
+import { BodoniModaSC_600SemiBold_Italic } from '@expo-google-fonts/bodoni-moda-sc/600SemiBold_Italic';
+import { BodoniModaSC_700Bold_Italic } from '@expo-google-fonts/bodoni-moda-sc/700Bold_Italic';
+import { BodoniModaSC_800ExtraBold_Italic } from '@expo-google-fonts/bodoni-moda-sc/800ExtraBold_Italic';
+import { BodoniModaSC_900Black_Italic } from '@expo-google-fonts/bodoni-moda-sc/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -75,7 +71,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

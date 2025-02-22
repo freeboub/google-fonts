@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/ibm-plex-sans-condensed)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/ibm-plex-sans-condensed)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/ibm-plex-sans-condensed)
 
 This package lets you use the [**IBM Plex Sans Condensed**](https://fonts.google.com/specimen/IBM+Plex+Sans+Condensed) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -32,32 +31,29 @@ This font family contains [14 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/ibm-plex-sans-condensed expo-font expo-app-loading
+expo install @expo-google-fonts/ibm-plex-sans-condensed expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  IBMPlexSansCondensed_100Thin,
-  IBMPlexSansCondensed_100Thin_Italic,
-  IBMPlexSansCondensed_200ExtraLight,
-  IBMPlexSansCondensed_200ExtraLight_Italic,
-  IBMPlexSansCondensed_300Light,
-  IBMPlexSansCondensed_300Light_Italic,
-  IBMPlexSansCondensed_400Regular,
-  IBMPlexSansCondensed_400Regular_Italic,
-  IBMPlexSansCondensed_500Medium,
-  IBMPlexSansCondensed_500Medium_Italic,
-  IBMPlexSansCondensed_600SemiBold,
-  IBMPlexSansCondensed_600SemiBold_Italic,
-  IBMPlexSansCondensed_700Bold,
-  IBMPlexSansCondensed_700Bold_Italic,
-} from '@expo-google-fonts/ibm-plex-sans-condensed';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/ibm-plex-sans-condensed/useFonts';
+import { IBMPlexSansCondensed_100Thin } from '@expo-google-fonts/ibm-plex-sans-condensed/100Thin';
+import { IBMPlexSansCondensed_100Thin_Italic } from '@expo-google-fonts/ibm-plex-sans-condensed/100Thin_Italic';
+import { IBMPlexSansCondensed_200ExtraLight } from '@expo-google-fonts/ibm-plex-sans-condensed/200ExtraLight';
+import { IBMPlexSansCondensed_200ExtraLight_Italic } from '@expo-google-fonts/ibm-plex-sans-condensed/200ExtraLight_Italic';
+import { IBMPlexSansCondensed_300Light } from '@expo-google-fonts/ibm-plex-sans-condensed/300Light';
+import { IBMPlexSansCondensed_300Light_Italic } from '@expo-google-fonts/ibm-plex-sans-condensed/300Light_Italic';
+import { IBMPlexSansCondensed_400Regular } from '@expo-google-fonts/ibm-plex-sans-condensed/400Regular';
+import { IBMPlexSansCondensed_400Regular_Italic } from '@expo-google-fonts/ibm-plex-sans-condensed/400Regular_Italic';
+import { IBMPlexSansCondensed_500Medium } from '@expo-google-fonts/ibm-plex-sans-condensed/500Medium';
+import { IBMPlexSansCondensed_500Medium_Italic } from '@expo-google-fonts/ibm-plex-sans-condensed/500Medium_Italic';
+import { IBMPlexSansCondensed_600SemiBold } from '@expo-google-fonts/ibm-plex-sans-condensed/600SemiBold';
+import { IBMPlexSansCondensed_600SemiBold_Italic } from '@expo-google-fonts/ibm-plex-sans-condensed/600SemiBold_Italic';
+import { IBMPlexSansCondensed_700Bold } from '@expo-google-fonts/ibm-plex-sans-condensed/700Bold';
+import { IBMPlexSansCondensed_700Bold_Italic } from '@expo-google-fonts/ibm-plex-sans-condensed/700Bold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -81,7 +77,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

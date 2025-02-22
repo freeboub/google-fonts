@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/asap)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/asap)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/asap)
 
 This package lets you use the [**Asap**](https://fonts.google.com/specimen/Asap) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/asap expo-font expo-app-loading
+expo install @expo-google-fonts/asap expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Asap_100Thin,
-  Asap_200ExtraLight,
-  Asap_300Light,
-  Asap_400Regular,
-  Asap_500Medium,
-  Asap_600SemiBold,
-  Asap_700Bold,
-  Asap_800ExtraBold,
-  Asap_900Black,
-  Asap_100Thin_Italic,
-  Asap_200ExtraLight_Italic,
-  Asap_300Light_Italic,
-  Asap_400Regular_Italic,
-  Asap_500Medium_Italic,
-  Asap_600SemiBold_Italic,
-  Asap_700Bold_Italic,
-  Asap_800ExtraBold_Italic,
-  Asap_900Black_Italic,
-} from '@expo-google-fonts/asap';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/asap/useFonts';
+import { Asap_100Thin } from '@expo-google-fonts/asap/100Thin';
+import { Asap_200ExtraLight } from '@expo-google-fonts/asap/200ExtraLight';
+import { Asap_300Light } from '@expo-google-fonts/asap/300Light';
+import { Asap_400Regular } from '@expo-google-fonts/asap/400Regular';
+import { Asap_500Medium } from '@expo-google-fonts/asap/500Medium';
+import { Asap_600SemiBold } from '@expo-google-fonts/asap/600SemiBold';
+import { Asap_700Bold } from '@expo-google-fonts/asap/700Bold';
+import { Asap_800ExtraBold } from '@expo-google-fonts/asap/800ExtraBold';
+import { Asap_900Black } from '@expo-google-fonts/asap/900Black';
+import { Asap_100Thin_Italic } from '@expo-google-fonts/asap/100Thin_Italic';
+import { Asap_200ExtraLight_Italic } from '@expo-google-fonts/asap/200ExtraLight_Italic';
+import { Asap_300Light_Italic } from '@expo-google-fonts/asap/300Light_Italic';
+import { Asap_400Regular_Italic } from '@expo-google-fonts/asap/400Regular_Italic';
+import { Asap_500Medium_Italic } from '@expo-google-fonts/asap/500Medium_Italic';
+import { Asap_600SemiBold_Italic } from '@expo-google-fonts/asap/600SemiBold_Italic';
+import { Asap_700Bold_Italic } from '@expo-google-fonts/asap/700Bold_Italic';
+import { Asap_800ExtraBold_Italic } from '@expo-google-fonts/asap/800ExtraBold_Italic';
+import { Asap_900Black_Italic } from '@expo-google-fonts/asap/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

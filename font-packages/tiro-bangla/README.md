@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/tiro-bangla)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/tiro-bangla)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/tiro-bangla)
 
 This package lets you use the [**Tiro Bangla**](https://fonts.google.com/specimen/Tiro+Bangla) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -20,20 +19,17 @@ This font family contains [2 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/tiro-bangla expo-font expo-app-loading
+expo install @expo-google-fonts/tiro-bangla expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  TiroBangla_400Regular,
-  TiroBangla_400Regular_Italic,
-} from '@expo-google-fonts/tiro-bangla';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/tiro-bangla/useFonts';
+import { TiroBangla_400Regular } from '@expo-google-fonts/tiro-bangla/400Regular';
+import { TiroBangla_400Regular_Italic } from '@expo-google-fonts/tiro-bangla/400Regular_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -45,7 +41,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

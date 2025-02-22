@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/namdhinggo)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/namdhinggo)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/namdhinggo)
 
 This package lets you use the [**Namdhinggo**](https://fonts.google.com/specimen/Namdhinggo) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -23,23 +22,20 @@ This font family contains [5 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/namdhinggo expo-font expo-app-loading
+expo install @expo-google-fonts/namdhinggo expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Namdhinggo_400Regular,
-  Namdhinggo_500Medium,
-  Namdhinggo_600SemiBold,
-  Namdhinggo_700Bold,
-  Namdhinggo_800ExtraBold,
-} from '@expo-google-fonts/namdhinggo';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/namdhinggo/useFonts';
+import { Namdhinggo_400Regular } from '@expo-google-fonts/namdhinggo/400Regular';
+import { Namdhinggo_500Medium } from '@expo-google-fonts/namdhinggo/500Medium';
+import { Namdhinggo_600SemiBold } from '@expo-google-fonts/namdhinggo/600SemiBold';
+import { Namdhinggo_700Bold } from '@expo-google-fonts/namdhinggo/700Bold';
+import { Namdhinggo_800ExtraBold } from '@expo-google-fonts/namdhinggo/800ExtraBold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -54,7 +50,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

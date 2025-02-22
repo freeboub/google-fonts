@@ -2,9 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Tienne_400Regular = require('./Tienne_400Regular.ttf');
-export const Tienne_700Bold = require('./Tienne_700Bold.ttf');
-export const Tienne_900Black = require('./Tienne_900Black.ttf');
+export const Tienne_400Regular = require('./400Regular/Tienne_400Regular.ttf');
+export const Tienne_700Bold = require('./700Bold/Tienne_700Bold.ttf');
+export const Tienne_900Black = require('./900Black/Tienne_900Black.ttf');

@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/montserrat-alternates)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/montserrat-alternates)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/montserrat-alternates)
 
 This package lets you use the [**Montserrat Alternates**](https://fonts.google.com/specimen/Montserrat+Alternates) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/montserrat-alternates expo-font expo-app-loading
+expo install @expo-google-fonts/montserrat-alternates expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  MontserratAlternates_100Thin,
-  MontserratAlternates_100Thin_Italic,
-  MontserratAlternates_200ExtraLight,
-  MontserratAlternates_200ExtraLight_Italic,
-  MontserratAlternates_300Light,
-  MontserratAlternates_300Light_Italic,
-  MontserratAlternates_400Regular,
-  MontserratAlternates_400Regular_Italic,
-  MontserratAlternates_500Medium,
-  MontserratAlternates_500Medium_Italic,
-  MontserratAlternates_600SemiBold,
-  MontserratAlternates_600SemiBold_Italic,
-  MontserratAlternates_700Bold,
-  MontserratAlternates_700Bold_Italic,
-  MontserratAlternates_800ExtraBold,
-  MontserratAlternates_800ExtraBold_Italic,
-  MontserratAlternates_900Black,
-  MontserratAlternates_900Black_Italic,
-} from '@expo-google-fonts/montserrat-alternates';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/montserrat-alternates/useFonts';
+import { MontserratAlternates_100Thin } from '@expo-google-fonts/montserrat-alternates/100Thin';
+import { MontserratAlternates_100Thin_Italic } from '@expo-google-fonts/montserrat-alternates/100Thin_Italic';
+import { MontserratAlternates_200ExtraLight } from '@expo-google-fonts/montserrat-alternates/200ExtraLight';
+import { MontserratAlternates_200ExtraLight_Italic } from '@expo-google-fonts/montserrat-alternates/200ExtraLight_Italic';
+import { MontserratAlternates_300Light } from '@expo-google-fonts/montserrat-alternates/300Light';
+import { MontserratAlternates_300Light_Italic } from '@expo-google-fonts/montserrat-alternates/300Light_Italic';
+import { MontserratAlternates_400Regular } from '@expo-google-fonts/montserrat-alternates/400Regular';
+import { MontserratAlternates_400Regular_Italic } from '@expo-google-fonts/montserrat-alternates/400Regular_Italic';
+import { MontserratAlternates_500Medium } from '@expo-google-fonts/montserrat-alternates/500Medium';
+import { MontserratAlternates_500Medium_Italic } from '@expo-google-fonts/montserrat-alternates/500Medium_Italic';
+import { MontserratAlternates_600SemiBold } from '@expo-google-fonts/montserrat-alternates/600SemiBold';
+import { MontserratAlternates_600SemiBold_Italic } from '@expo-google-fonts/montserrat-alternates/600SemiBold_Italic';
+import { MontserratAlternates_700Bold } from '@expo-google-fonts/montserrat-alternates/700Bold';
+import { MontserratAlternates_700Bold_Italic } from '@expo-google-fonts/montserrat-alternates/700Bold_Italic';
+import { MontserratAlternates_800ExtraBold } from '@expo-google-fonts/montserrat-alternates/800ExtraBold';
+import { MontserratAlternates_800ExtraBold_Italic } from '@expo-google-fonts/montserrat-alternates/800ExtraBold_Italic';
+import { MontserratAlternates_900Black } from '@expo-google-fonts/montserrat-alternates/900Black';
+import { MontserratAlternates_900Black_Italic } from '@expo-google-fonts/montserrat-alternates/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/truculenta)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/truculenta)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/truculenta)
 
 This package lets you use the [**Truculenta**](https://fonts.google.com/specimen/Truculenta) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/truculenta expo-font expo-app-loading
+expo install @expo-google-fonts/truculenta expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Truculenta_100Thin,
-  Truculenta_200ExtraLight,
-  Truculenta_300Light,
-  Truculenta_400Regular,
-  Truculenta_500Medium,
-  Truculenta_600SemiBold,
-  Truculenta_700Bold,
-  Truculenta_800ExtraBold,
-  Truculenta_900Black,
-} from '@expo-google-fonts/truculenta';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/truculenta/useFonts';
+import { Truculenta_100Thin } from '@expo-google-fonts/truculenta/100Thin';
+import { Truculenta_200ExtraLight } from '@expo-google-fonts/truculenta/200ExtraLight';
+import { Truculenta_300Light } from '@expo-google-fonts/truculenta/300Light';
+import { Truculenta_400Regular } from '@expo-google-fonts/truculenta/400Regular';
+import { Truculenta_500Medium } from '@expo-google-fonts/truculenta/500Medium';
+import { Truculenta_600SemiBold } from '@expo-google-fonts/truculenta/600SemiBold';
+import { Truculenta_700Bold } from '@expo-google-fonts/truculenta/700Bold';
+import { Truculenta_800ExtraBold } from '@expo-google-fonts/truculenta/800ExtraBold';
+import { Truculenta_900Black } from '@expo-google-fonts/truculenta/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

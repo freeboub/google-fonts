@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Molengo_400Regular = require('./Molengo_400Regular.ttf');
+export const Molengo_400Regular = require('./400Regular/Molengo_400Regular.ttf');

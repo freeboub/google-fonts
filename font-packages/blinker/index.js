@@ -2,14 +2,14 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Blinker_100Thin = require('./Blinker_100Thin.ttf');
-export const Blinker_200ExtraLight = require('./Blinker_200ExtraLight.ttf');
-export const Blinker_300Light = require('./Blinker_300Light.ttf');
-export const Blinker_400Regular = require('./Blinker_400Regular.ttf');
-export const Blinker_600SemiBold = require('./Blinker_600SemiBold.ttf');
-export const Blinker_700Bold = require('./Blinker_700Bold.ttf');
-export const Blinker_800ExtraBold = require('./Blinker_800ExtraBold.ttf');
-export const Blinker_900Black = require('./Blinker_900Black.ttf');
+export const Blinker_100Thin = require('./100Thin/Blinker_100Thin.ttf');
+export const Blinker_200ExtraLight = require('./200ExtraLight/Blinker_200ExtraLight.ttf');
+export const Blinker_300Light = require('./300Light/Blinker_300Light.ttf');
+export const Blinker_400Regular = require('./400Regular/Blinker_400Regular.ttf');
+export const Blinker_600SemiBold = require('./600SemiBold/Blinker_600SemiBold.ttf');
+export const Blinker_700Bold = require('./700Bold/Blinker_700Bold.ttf');
+export const Blinker_800ExtraBold = require('./800ExtraBold/Blinker_800ExtraBold.ttf');
+export const Blinker_900Black = require('./900Black/Blinker_900Black.ttf');

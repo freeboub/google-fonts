@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/source-code-pro)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/source-code-pro)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/source-code-pro)
 
 This package lets you use the [**Source Code Pro**](https://fonts.google.com/specimen/Source+Code+Pro) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -34,34 +33,31 @@ This font family contains [16 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/source-code-pro expo-font expo-app-loading
+expo install @expo-google-fonts/source-code-pro expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  SourceCodePro_200ExtraLight,
-  SourceCodePro_300Light,
-  SourceCodePro_400Regular,
-  SourceCodePro_500Medium,
-  SourceCodePro_600SemiBold,
-  SourceCodePro_700Bold,
-  SourceCodePro_800ExtraBold,
-  SourceCodePro_900Black,
-  SourceCodePro_200ExtraLight_Italic,
-  SourceCodePro_300Light_Italic,
-  SourceCodePro_400Regular_Italic,
-  SourceCodePro_500Medium_Italic,
-  SourceCodePro_600SemiBold_Italic,
-  SourceCodePro_700Bold_Italic,
-  SourceCodePro_800ExtraBold_Italic,
-  SourceCodePro_900Black_Italic,
-} from '@expo-google-fonts/source-code-pro';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/source-code-pro/useFonts';
+import { SourceCodePro_200ExtraLight } from '@expo-google-fonts/source-code-pro/200ExtraLight';
+import { SourceCodePro_300Light } from '@expo-google-fonts/source-code-pro/300Light';
+import { SourceCodePro_400Regular } from '@expo-google-fonts/source-code-pro/400Regular';
+import { SourceCodePro_500Medium } from '@expo-google-fonts/source-code-pro/500Medium';
+import { SourceCodePro_600SemiBold } from '@expo-google-fonts/source-code-pro/600SemiBold';
+import { SourceCodePro_700Bold } from '@expo-google-fonts/source-code-pro/700Bold';
+import { SourceCodePro_800ExtraBold } from '@expo-google-fonts/source-code-pro/800ExtraBold';
+import { SourceCodePro_900Black } from '@expo-google-fonts/source-code-pro/900Black';
+import { SourceCodePro_200ExtraLight_Italic } from '@expo-google-fonts/source-code-pro/200ExtraLight_Italic';
+import { SourceCodePro_300Light_Italic } from '@expo-google-fonts/source-code-pro/300Light_Italic';
+import { SourceCodePro_400Regular_Italic } from '@expo-google-fonts/source-code-pro/400Regular_Italic';
+import { SourceCodePro_500Medium_Italic } from '@expo-google-fonts/source-code-pro/500Medium_Italic';
+import { SourceCodePro_600SemiBold_Italic } from '@expo-google-fonts/source-code-pro/600SemiBold_Italic';
+import { SourceCodePro_700Bold_Italic } from '@expo-google-fonts/source-code-pro/700Bold_Italic';
+import { SourceCodePro_800ExtraBold_Italic } from '@expo-google-fonts/source-code-pro/800ExtraBold_Italic';
+import { SourceCodePro_900Black_Italic } from '@expo-google-fonts/source-code-pro/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -87,7 +83,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/akshar)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/akshar)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/akshar)
 
 This package lets you use the [**Akshar**](https://fonts.google.com/specimen/Akshar) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -23,23 +22,20 @@ This font family contains [5 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/akshar expo-font expo-app-loading
+expo install @expo-google-fonts/akshar expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Akshar_300Light,
-  Akshar_400Regular,
-  Akshar_500Medium,
-  Akshar_600SemiBold,
-  Akshar_700Bold,
-} from '@expo-google-fonts/akshar';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/akshar/useFonts';
+import { Akshar_300Light } from '@expo-google-fonts/akshar/300Light';
+import { Akshar_400Regular } from '@expo-google-fonts/akshar/400Regular';
+import { Akshar_500Medium } from '@expo-google-fonts/akshar/500Medium';
+import { Akshar_600SemiBold } from '@expo-google-fonts/akshar/600SemiBold';
+import { Akshar_700Bold } from '@expo-google-fonts/akshar/700Bold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -54,7 +50,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

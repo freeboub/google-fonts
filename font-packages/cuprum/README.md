@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/cuprum)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/cuprum)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/cuprum)
 
 This package lets you use the [**Cuprum**](https://fonts.google.com/specimen/Cuprum) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -26,26 +25,23 @@ This font family contains [8 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/cuprum expo-font expo-app-loading
+expo install @expo-google-fonts/cuprum expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Cuprum_400Regular,
-  Cuprum_500Medium,
-  Cuprum_600SemiBold,
-  Cuprum_700Bold,
-  Cuprum_400Regular_Italic,
-  Cuprum_500Medium_Italic,
-  Cuprum_600SemiBold_Italic,
-  Cuprum_700Bold_Italic,
-} from '@expo-google-fonts/cuprum';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/cuprum/useFonts';
+import { Cuprum_400Regular } from '@expo-google-fonts/cuprum/400Regular';
+import { Cuprum_500Medium } from '@expo-google-fonts/cuprum/500Medium';
+import { Cuprum_600SemiBold } from '@expo-google-fonts/cuprum/600SemiBold';
+import { Cuprum_700Bold } from '@expo-google-fonts/cuprum/700Bold';
+import { Cuprum_400Regular_Italic } from '@expo-google-fonts/cuprum/400Regular_Italic';
+import { Cuprum_500Medium_Italic } from '@expo-google-fonts/cuprum/500Medium_Italic';
+import { Cuprum_600SemiBold_Italic } from '@expo-google-fonts/cuprum/600SemiBold_Italic';
+import { Cuprum_700Bold_Italic } from '@expo-google-fonts/cuprum/700Bold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -63,7 +59,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

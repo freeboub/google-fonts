@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const FragmentMono_400Regular = require('./FragmentMono_400Regular.ttf');
-export const FragmentMono_400Regular_Italic = require('./FragmentMono_400Regular_Italic.ttf');
+export const FragmentMono_400Regular = require('./400Regular/FragmentMono_400Regular.ttf');
+export const FragmentMono_400Regular_Italic = require('./400Regular_Italic/FragmentMono_400Regular_Italic.ttf');

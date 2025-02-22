@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/rokkitt)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/rokkitt)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/rokkitt)
 
 This package lets you use the [**Rokkitt**](https://fonts.google.com/specimen/Rokkitt) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/rokkitt expo-font expo-app-loading
+expo install @expo-google-fonts/rokkitt expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Rokkitt_100Thin,
-  Rokkitt_200ExtraLight,
-  Rokkitt_300Light,
-  Rokkitt_400Regular,
-  Rokkitt_500Medium,
-  Rokkitt_600SemiBold,
-  Rokkitt_700Bold,
-  Rokkitt_800ExtraBold,
-  Rokkitt_900Black,
-  Rokkitt_100Thin_Italic,
-  Rokkitt_200ExtraLight_Italic,
-  Rokkitt_300Light_Italic,
-  Rokkitt_400Regular_Italic,
-  Rokkitt_500Medium_Italic,
-  Rokkitt_600SemiBold_Italic,
-  Rokkitt_700Bold_Italic,
-  Rokkitt_800ExtraBold_Italic,
-  Rokkitt_900Black_Italic,
-} from '@expo-google-fonts/rokkitt';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/rokkitt/useFonts';
+import { Rokkitt_100Thin } from '@expo-google-fonts/rokkitt/100Thin';
+import { Rokkitt_200ExtraLight } from '@expo-google-fonts/rokkitt/200ExtraLight';
+import { Rokkitt_300Light } from '@expo-google-fonts/rokkitt/300Light';
+import { Rokkitt_400Regular } from '@expo-google-fonts/rokkitt/400Regular';
+import { Rokkitt_500Medium } from '@expo-google-fonts/rokkitt/500Medium';
+import { Rokkitt_600SemiBold } from '@expo-google-fonts/rokkitt/600SemiBold';
+import { Rokkitt_700Bold } from '@expo-google-fonts/rokkitt/700Bold';
+import { Rokkitt_800ExtraBold } from '@expo-google-fonts/rokkitt/800ExtraBold';
+import { Rokkitt_900Black } from '@expo-google-fonts/rokkitt/900Black';
+import { Rokkitt_100Thin_Italic } from '@expo-google-fonts/rokkitt/100Thin_Italic';
+import { Rokkitt_200ExtraLight_Italic } from '@expo-google-fonts/rokkitt/200ExtraLight_Italic';
+import { Rokkitt_300Light_Italic } from '@expo-google-fonts/rokkitt/300Light_Italic';
+import { Rokkitt_400Regular_Italic } from '@expo-google-fonts/rokkitt/400Regular_Italic';
+import { Rokkitt_500Medium_Italic } from '@expo-google-fonts/rokkitt/500Medium_Italic';
+import { Rokkitt_600SemiBold_Italic } from '@expo-google-fonts/rokkitt/600SemiBold_Italic';
+import { Rokkitt_700Bold_Italic } from '@expo-google-fonts/rokkitt/700Bold_Italic';
+import { Rokkitt_800ExtraBold_Italic } from '@expo-google-fonts/rokkitt/800ExtraBold_Italic';
+import { Rokkitt_900Black_Italic } from '@expo-google-fonts/rokkitt/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

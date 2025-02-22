@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Lugrasimo_400Regular = require('./Lugrasimo_400Regular.ttf');
+export const Lugrasimo_400Regular = require('./400Regular/Lugrasimo_400Regular.ttf');

@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/sarpanch)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/sarpanch)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/sarpanch)
 
 This package lets you use the [**Sarpanch**](https://fonts.google.com/specimen/Sarpanch) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -24,24 +23,21 @@ This font family contains [6 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/sarpanch expo-font expo-app-loading
+expo install @expo-google-fonts/sarpanch expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Sarpanch_400Regular,
-  Sarpanch_500Medium,
-  Sarpanch_600SemiBold,
-  Sarpanch_700Bold,
-  Sarpanch_800ExtraBold,
-  Sarpanch_900Black,
-} from '@expo-google-fonts/sarpanch';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/sarpanch/useFonts';
+import { Sarpanch_400Regular } from '@expo-google-fonts/sarpanch/400Regular';
+import { Sarpanch_500Medium } from '@expo-google-fonts/sarpanch/500Medium';
+import { Sarpanch_600SemiBold } from '@expo-google-fonts/sarpanch/600SemiBold';
+import { Sarpanch_700Bold } from '@expo-google-fonts/sarpanch/700Bold';
+import { Sarpanch_800ExtraBold } from '@expo-google-fonts/sarpanch/800ExtraBold';
+import { Sarpanch_900Black } from '@expo-google-fonts/sarpanch/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -57,7 +53,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

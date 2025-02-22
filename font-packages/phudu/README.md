@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/phudu)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/phudu)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/phudu)
 
 This package lets you use the [**Phudu**](https://fonts.google.com/specimen/Phudu) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -25,25 +24,22 @@ This font family contains [7 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/phudu expo-font expo-app-loading
+expo install @expo-google-fonts/phudu expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Phudu_300Light,
-  Phudu_400Regular,
-  Phudu_500Medium,
-  Phudu_600SemiBold,
-  Phudu_700Bold,
-  Phudu_800ExtraBold,
-  Phudu_900Black,
-} from '@expo-google-fonts/phudu';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/phudu/useFonts';
+import { Phudu_300Light } from '@expo-google-fonts/phudu/300Light';
+import { Phudu_400Regular } from '@expo-google-fonts/phudu/400Regular';
+import { Phudu_500Medium } from '@expo-google-fonts/phudu/500Medium';
+import { Phudu_600SemiBold } from '@expo-google-fonts/phudu/600SemiBold';
+import { Phudu_700Bold } from '@expo-google-fonts/phudu/700Bold';
+import { Phudu_800ExtraBold } from '@expo-google-fonts/phudu/800ExtraBold';
+import { Phudu_900Black } from '@expo-google-fonts/phudu/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -60,7 +56,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

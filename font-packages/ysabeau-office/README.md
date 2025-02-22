@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/ysabeau-office)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/ysabeau-office)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/ysabeau-office)
 
 This package lets you use the [**Ysabeau Office**](https://fonts.google.com/specimen/Ysabeau+Office) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/ysabeau-office expo-font expo-app-loading
+expo install @expo-google-fonts/ysabeau-office expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  YsabeauOffice_100Thin,
-  YsabeauOffice_200ExtraLight,
-  YsabeauOffice_300Light,
-  YsabeauOffice_400Regular,
-  YsabeauOffice_500Medium,
-  YsabeauOffice_600SemiBold,
-  YsabeauOffice_700Bold,
-  YsabeauOffice_800ExtraBold,
-  YsabeauOffice_900Black,
-  YsabeauOffice_100Thin_Italic,
-  YsabeauOffice_200ExtraLight_Italic,
-  YsabeauOffice_300Light_Italic,
-  YsabeauOffice_400Regular_Italic,
-  YsabeauOffice_500Medium_Italic,
-  YsabeauOffice_600SemiBold_Italic,
-  YsabeauOffice_700Bold_Italic,
-  YsabeauOffice_800ExtraBold_Italic,
-  YsabeauOffice_900Black_Italic,
-} from '@expo-google-fonts/ysabeau-office';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/ysabeau-office/useFonts';
+import { YsabeauOffice_100Thin } from '@expo-google-fonts/ysabeau-office/100Thin';
+import { YsabeauOffice_200ExtraLight } from '@expo-google-fonts/ysabeau-office/200ExtraLight';
+import { YsabeauOffice_300Light } from '@expo-google-fonts/ysabeau-office/300Light';
+import { YsabeauOffice_400Regular } from '@expo-google-fonts/ysabeau-office/400Regular';
+import { YsabeauOffice_500Medium } from '@expo-google-fonts/ysabeau-office/500Medium';
+import { YsabeauOffice_600SemiBold } from '@expo-google-fonts/ysabeau-office/600SemiBold';
+import { YsabeauOffice_700Bold } from '@expo-google-fonts/ysabeau-office/700Bold';
+import { YsabeauOffice_800ExtraBold } from '@expo-google-fonts/ysabeau-office/800ExtraBold';
+import { YsabeauOffice_900Black } from '@expo-google-fonts/ysabeau-office/900Black';
+import { YsabeauOffice_100Thin_Italic } from '@expo-google-fonts/ysabeau-office/100Thin_Italic';
+import { YsabeauOffice_200ExtraLight_Italic } from '@expo-google-fonts/ysabeau-office/200ExtraLight_Italic';
+import { YsabeauOffice_300Light_Italic } from '@expo-google-fonts/ysabeau-office/300Light_Italic';
+import { YsabeauOffice_400Regular_Italic } from '@expo-google-fonts/ysabeau-office/400Regular_Italic';
+import { YsabeauOffice_500Medium_Italic } from '@expo-google-fonts/ysabeau-office/500Medium_Italic';
+import { YsabeauOffice_600SemiBold_Italic } from '@expo-google-fonts/ysabeau-office/600SemiBold_Italic';
+import { YsabeauOffice_700Bold_Italic } from '@expo-google-fonts/ysabeau-office/700Bold_Italic';
+import { YsabeauOffice_800ExtraBold_Italic } from '@expo-google-fonts/ysabeau-office/800ExtraBold_Italic';
+import { YsabeauOffice_900Black_Italic } from '@expo-google-fonts/ysabeau-office/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

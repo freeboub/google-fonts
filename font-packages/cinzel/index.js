@@ -2,12 +2,12 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Cinzel_400Regular = require('./Cinzel_400Regular.ttf');
-export const Cinzel_500Medium = require('./Cinzel_500Medium.ttf');
-export const Cinzel_600SemiBold = require('./Cinzel_600SemiBold.ttf');
-export const Cinzel_700Bold = require('./Cinzel_700Bold.ttf');
-export const Cinzel_800ExtraBold = require('./Cinzel_800ExtraBold.ttf');
-export const Cinzel_900Black = require('./Cinzel_900Black.ttf');
+export const Cinzel_400Regular = require('./400Regular/Cinzel_400Regular.ttf');
+export const Cinzel_500Medium = require('./500Medium/Cinzel_500Medium.ttf');
+export const Cinzel_600SemiBold = require('./600SemiBold/Cinzel_600SemiBold.ttf');
+export const Cinzel_700Bold = require('./700Bold/Cinzel_700Bold.ttf');
+export const Cinzel_800ExtraBold = require('./800ExtraBold/Cinzel_800ExtraBold.ttf');
+export const Cinzel_900Black = require('./900Black/Cinzel_900Black.ttf');

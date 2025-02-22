@@ -2,11 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const HindMadurai_300Light = require('./HindMadurai_300Light.ttf');
-export const HindMadurai_400Regular = require('./HindMadurai_400Regular.ttf');
-export const HindMadurai_500Medium = require('./HindMadurai_500Medium.ttf');
-export const HindMadurai_600SemiBold = require('./HindMadurai_600SemiBold.ttf');
-export const HindMadurai_700Bold = require('./HindMadurai_700Bold.ttf');
+export const HindMadurai_300Light = require('./300Light/HindMadurai_300Light.ttf');
+export const HindMadurai_400Regular = require('./400Regular/HindMadurai_400Regular.ttf');
+export const HindMadurai_500Medium = require('./500Medium/HindMadurai_500Medium.ttf');
+export const HindMadurai_600SemiBold = require('./600SemiBold/HindMadurai_600SemiBold.ttf');
+export const HindMadurai_700Bold = require('./700Bold/HindMadurai_700Bold.ttf');

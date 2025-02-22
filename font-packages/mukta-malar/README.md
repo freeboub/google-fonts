@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/mukta-malar)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/mukta-malar)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/mukta-malar)
 
 This package lets you use the [**Mukta Malar**](https://fonts.google.com/specimen/Mukta+Malar) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -25,25 +24,22 @@ This font family contains [7 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/mukta-malar expo-font expo-app-loading
+expo install @expo-google-fonts/mukta-malar expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  MuktaMalar_200ExtraLight,
-  MuktaMalar_300Light,
-  MuktaMalar_400Regular,
-  MuktaMalar_500Medium,
-  MuktaMalar_600SemiBold,
-  MuktaMalar_700Bold,
-  MuktaMalar_800ExtraBold,
-} from '@expo-google-fonts/mukta-malar';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/mukta-malar/useFonts';
+import { MuktaMalar_200ExtraLight } from '@expo-google-fonts/mukta-malar/200ExtraLight';
+import { MuktaMalar_300Light } from '@expo-google-fonts/mukta-malar/300Light';
+import { MuktaMalar_400Regular } from '@expo-google-fonts/mukta-malar/400Regular';
+import { MuktaMalar_500Medium } from '@expo-google-fonts/mukta-malar/500Medium';
+import { MuktaMalar_600SemiBold } from '@expo-google-fonts/mukta-malar/600SemiBold';
+import { MuktaMalar_700Bold } from '@expo-google-fonts/mukta-malar/700Bold';
+import { MuktaMalar_800ExtraBold } from '@expo-google-fonts/mukta-malar/800ExtraBold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -60,7 +56,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

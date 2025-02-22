@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Artifika_400Regular = require('./Artifika_400Regular.ttf');
+export const Artifika_400Regular = require('./400Regular/Artifika_400Regular.ttf');

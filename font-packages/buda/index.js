@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Buda_300Light = require('./Buda_300Light.ttf');
+export const Buda_300Light = require('./300Light/Buda_300Light.ttf');

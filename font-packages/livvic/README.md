@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/livvic)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/livvic)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/livvic)
 
 This package lets you use the [**Livvic**](https://fonts.google.com/specimen/Livvic) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -34,34 +33,31 @@ This font family contains [16 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/livvic expo-font expo-app-loading
+expo install @expo-google-fonts/livvic expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Livvic_100Thin,
-  Livvic_100Thin_Italic,
-  Livvic_200ExtraLight,
-  Livvic_200ExtraLight_Italic,
-  Livvic_300Light,
-  Livvic_300Light_Italic,
-  Livvic_400Regular,
-  Livvic_400Regular_Italic,
-  Livvic_500Medium,
-  Livvic_500Medium_Italic,
-  Livvic_600SemiBold,
-  Livvic_600SemiBold_Italic,
-  Livvic_700Bold,
-  Livvic_700Bold_Italic,
-  Livvic_900Black,
-  Livvic_900Black_Italic,
-} from '@expo-google-fonts/livvic';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/livvic/useFonts';
+import { Livvic_100Thin } from '@expo-google-fonts/livvic/100Thin';
+import { Livvic_100Thin_Italic } from '@expo-google-fonts/livvic/100Thin_Italic';
+import { Livvic_200ExtraLight } from '@expo-google-fonts/livvic/200ExtraLight';
+import { Livvic_200ExtraLight_Italic } from '@expo-google-fonts/livvic/200ExtraLight_Italic';
+import { Livvic_300Light } from '@expo-google-fonts/livvic/300Light';
+import { Livvic_300Light_Italic } from '@expo-google-fonts/livvic/300Light_Italic';
+import { Livvic_400Regular } from '@expo-google-fonts/livvic/400Regular';
+import { Livvic_400Regular_Italic } from '@expo-google-fonts/livvic/400Regular_Italic';
+import { Livvic_500Medium } from '@expo-google-fonts/livvic/500Medium';
+import { Livvic_500Medium_Italic } from '@expo-google-fonts/livvic/500Medium_Italic';
+import { Livvic_600SemiBold } from '@expo-google-fonts/livvic/600SemiBold';
+import { Livvic_600SemiBold_Italic } from '@expo-google-fonts/livvic/600SemiBold_Italic';
+import { Livvic_700Bold } from '@expo-google-fonts/livvic/700Bold';
+import { Livvic_700Bold_Italic } from '@expo-google-fonts/livvic/700Bold_Italic';
+import { Livvic_900Black } from '@expo-google-fonts/livvic/900Black';
+import { Livvic_900Black_Italic } from '@expo-google-fonts/livvic/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -87,7 +83,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

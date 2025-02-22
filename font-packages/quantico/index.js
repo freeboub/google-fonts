@@ -2,10 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Quantico_400Regular = require('./Quantico_400Regular.ttf');
-export const Quantico_400Regular_Italic = require('./Quantico_400Regular_Italic.ttf');
-export const Quantico_700Bold = require('./Quantico_700Bold.ttf');
-export const Quantico_700Bold_Italic = require('./Quantico_700Bold_Italic.ttf');
+export const Quantico_400Regular = require('./400Regular/Quantico_400Regular.ttf');
+export const Quantico_400Regular_Italic = require('./400Regular_Italic/Quantico_400Regular_Italic.ttf');
+export const Quantico_700Bold = require('./700Bold/Quantico_700Bold.ttf');
+export const Quantico_700Bold_Italic = require('./700Bold_Italic/Quantico_700Bold_Italic.ttf');

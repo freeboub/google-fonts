@@ -2,9 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Lekton_400Regular = require('./Lekton_400Regular.ttf');
-export const Lekton_400Regular_Italic = require('./Lekton_400Regular_Italic.ttf');
-export const Lekton_700Bold = require('./Lekton_700Bold.ttf');
+export const Lekton_400Regular = require('./400Regular/Lekton_400Regular.ttf');
+export const Lekton_400Regular_Italic = require('./400Regular_Italic/Lekton_400Regular_Italic.ttf');
+export const Lekton_700Bold = require('./700Bold/Lekton_700Bold.ttf');

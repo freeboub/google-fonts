@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const GoudyBookletter1911_400Regular = require('./GoudyBookletter1911_400Regular.ttf');
+export const GoudyBookletter1911_400Regular = require('./400Regular/GoudyBookletter1911_400Regular.ttf');

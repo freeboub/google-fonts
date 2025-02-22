@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const KronaOne_400Regular = require('./KronaOne_400Regular.ttf');
+export const KronaOne_400Regular = require('./400Regular/KronaOne_400Regular.ttf');

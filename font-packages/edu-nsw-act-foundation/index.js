@@ -2,10 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const EduNSWACTFoundation_400Regular = require('./EduNSWACTFoundation_400Regular.ttf');
-export const EduNSWACTFoundation_500Medium = require('./EduNSWACTFoundation_500Medium.ttf');
-export const EduNSWACTFoundation_600SemiBold = require('./EduNSWACTFoundation_600SemiBold.ttf');
-export const EduNSWACTFoundation_700Bold = require('./EduNSWACTFoundation_700Bold.ttf');
+export const EduNSWACTFoundation_400Regular = require('./400Regular/EduNSWACTFoundation_400Regular.ttf');
+export const EduNSWACTFoundation_500Medium = require('./500Medium/EduNSWACTFoundation_500Medium.ttf');
+export const EduNSWACTFoundation_600SemiBold = require('./600SemiBold/EduNSWACTFoundation_600SemiBold.ttf');
+export const EduNSWACTFoundation_700Bold = require('./700Bold/EduNSWACTFoundation_700Bold.ttf');

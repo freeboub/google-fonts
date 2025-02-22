@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/sofia-sans-condensed)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/sofia-sans-condensed)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/sofia-sans-condensed)
 
 This package lets you use the [**Sofia Sans Condensed**](https://fonts.google.com/specimen/Sofia+Sans+Condensed) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/sofia-sans-condensed expo-font expo-app-loading
+expo install @expo-google-fonts/sofia-sans-condensed expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  SofiaSansCondensed_100Thin,
-  SofiaSansCondensed_200ExtraLight,
-  SofiaSansCondensed_300Light,
-  SofiaSansCondensed_400Regular,
-  SofiaSansCondensed_500Medium,
-  SofiaSansCondensed_600SemiBold,
-  SofiaSansCondensed_700Bold,
-  SofiaSansCondensed_800ExtraBold,
-  SofiaSansCondensed_900Black,
-  SofiaSansCondensed_100Thin_Italic,
-  SofiaSansCondensed_200ExtraLight_Italic,
-  SofiaSansCondensed_300Light_Italic,
-  SofiaSansCondensed_400Regular_Italic,
-  SofiaSansCondensed_500Medium_Italic,
-  SofiaSansCondensed_600SemiBold_Italic,
-  SofiaSansCondensed_700Bold_Italic,
-  SofiaSansCondensed_800ExtraBold_Italic,
-  SofiaSansCondensed_900Black_Italic,
-} from '@expo-google-fonts/sofia-sans-condensed';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/sofia-sans-condensed/useFonts';
+import { SofiaSansCondensed_100Thin } from '@expo-google-fonts/sofia-sans-condensed/100Thin';
+import { SofiaSansCondensed_200ExtraLight } from '@expo-google-fonts/sofia-sans-condensed/200ExtraLight';
+import { SofiaSansCondensed_300Light } from '@expo-google-fonts/sofia-sans-condensed/300Light';
+import { SofiaSansCondensed_400Regular } from '@expo-google-fonts/sofia-sans-condensed/400Regular';
+import { SofiaSansCondensed_500Medium } from '@expo-google-fonts/sofia-sans-condensed/500Medium';
+import { SofiaSansCondensed_600SemiBold } from '@expo-google-fonts/sofia-sans-condensed/600SemiBold';
+import { SofiaSansCondensed_700Bold } from '@expo-google-fonts/sofia-sans-condensed/700Bold';
+import { SofiaSansCondensed_800ExtraBold } from '@expo-google-fonts/sofia-sans-condensed/800ExtraBold';
+import { SofiaSansCondensed_900Black } from '@expo-google-fonts/sofia-sans-condensed/900Black';
+import { SofiaSansCondensed_100Thin_Italic } from '@expo-google-fonts/sofia-sans-condensed/100Thin_Italic';
+import { SofiaSansCondensed_200ExtraLight_Italic } from '@expo-google-fonts/sofia-sans-condensed/200ExtraLight_Italic';
+import { SofiaSansCondensed_300Light_Italic } from '@expo-google-fonts/sofia-sans-condensed/300Light_Italic';
+import { SofiaSansCondensed_400Regular_Italic } from '@expo-google-fonts/sofia-sans-condensed/400Regular_Italic';
+import { SofiaSansCondensed_500Medium_Italic } from '@expo-google-fonts/sofia-sans-condensed/500Medium_Italic';
+import { SofiaSansCondensed_600SemiBold_Italic } from '@expo-google-fonts/sofia-sans-condensed/600SemiBold_Italic';
+import { SofiaSansCondensed_700Bold_Italic } from '@expo-google-fonts/sofia-sans-condensed/700Bold_Italic';
+import { SofiaSansCondensed_800ExtraBold_Italic } from '@expo-google-fonts/sofia-sans-condensed/800ExtraBold_Italic';
+import { SofiaSansCondensed_900Black_Italic } from '@expo-google-fonts/sofia-sans-condensed/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

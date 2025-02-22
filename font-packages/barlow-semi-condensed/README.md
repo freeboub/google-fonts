@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/barlow-semi-condensed)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/barlow-semi-condensed)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/barlow-semi-condensed)
 
 This package lets you use the [**Barlow Semi Condensed**](https://fonts.google.com/specimen/Barlow+Semi+Condensed) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/barlow-semi-condensed expo-font expo-app-loading
+expo install @expo-google-fonts/barlow-semi-condensed expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  BarlowSemiCondensed_100Thin,
-  BarlowSemiCondensed_100Thin_Italic,
-  BarlowSemiCondensed_200ExtraLight,
-  BarlowSemiCondensed_200ExtraLight_Italic,
-  BarlowSemiCondensed_300Light,
-  BarlowSemiCondensed_300Light_Italic,
-  BarlowSemiCondensed_400Regular,
-  BarlowSemiCondensed_400Regular_Italic,
-  BarlowSemiCondensed_500Medium,
-  BarlowSemiCondensed_500Medium_Italic,
-  BarlowSemiCondensed_600SemiBold,
-  BarlowSemiCondensed_600SemiBold_Italic,
-  BarlowSemiCondensed_700Bold,
-  BarlowSemiCondensed_700Bold_Italic,
-  BarlowSemiCondensed_800ExtraBold,
-  BarlowSemiCondensed_800ExtraBold_Italic,
-  BarlowSemiCondensed_900Black,
-  BarlowSemiCondensed_900Black_Italic,
-} from '@expo-google-fonts/barlow-semi-condensed';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/barlow-semi-condensed/useFonts';
+import { BarlowSemiCondensed_100Thin } from '@expo-google-fonts/barlow-semi-condensed/100Thin';
+import { BarlowSemiCondensed_100Thin_Italic } from '@expo-google-fonts/barlow-semi-condensed/100Thin_Italic';
+import { BarlowSemiCondensed_200ExtraLight } from '@expo-google-fonts/barlow-semi-condensed/200ExtraLight';
+import { BarlowSemiCondensed_200ExtraLight_Italic } from '@expo-google-fonts/barlow-semi-condensed/200ExtraLight_Italic';
+import { BarlowSemiCondensed_300Light } from '@expo-google-fonts/barlow-semi-condensed/300Light';
+import { BarlowSemiCondensed_300Light_Italic } from '@expo-google-fonts/barlow-semi-condensed/300Light_Italic';
+import { BarlowSemiCondensed_400Regular } from '@expo-google-fonts/barlow-semi-condensed/400Regular';
+import { BarlowSemiCondensed_400Regular_Italic } from '@expo-google-fonts/barlow-semi-condensed/400Regular_Italic';
+import { BarlowSemiCondensed_500Medium } from '@expo-google-fonts/barlow-semi-condensed/500Medium';
+import { BarlowSemiCondensed_500Medium_Italic } from '@expo-google-fonts/barlow-semi-condensed/500Medium_Italic';
+import { BarlowSemiCondensed_600SemiBold } from '@expo-google-fonts/barlow-semi-condensed/600SemiBold';
+import { BarlowSemiCondensed_600SemiBold_Italic } from '@expo-google-fonts/barlow-semi-condensed/600SemiBold_Italic';
+import { BarlowSemiCondensed_700Bold } from '@expo-google-fonts/barlow-semi-condensed/700Bold';
+import { BarlowSemiCondensed_700Bold_Italic } from '@expo-google-fonts/barlow-semi-condensed/700Bold_Italic';
+import { BarlowSemiCondensed_800ExtraBold } from '@expo-google-fonts/barlow-semi-condensed/800ExtraBold';
+import { BarlowSemiCondensed_800ExtraBold_Italic } from '@expo-google-fonts/barlow-semi-condensed/800ExtraBold_Italic';
+import { BarlowSemiCondensed_900Black } from '@expo-google-fonts/barlow-semi-condensed/900Black';
+import { BarlowSemiCondensed_900Black_Italic } from '@expo-google-fonts/barlow-semi-condensed/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

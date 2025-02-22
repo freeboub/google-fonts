@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const SyneTactile_400Regular = require('./SyneTactile_400Regular.ttf');
+export const SyneTactile_400Regular = require('./400Regular/SyneTactile_400Regular.ttf');

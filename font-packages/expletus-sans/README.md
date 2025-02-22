@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/expletus-sans)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/expletus-sans)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/expletus-sans)
 
 This package lets you use the [**Expletus Sans**](https://fonts.google.com/specimen/Expletus+Sans) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -26,26 +25,23 @@ This font family contains [8 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/expletus-sans expo-font expo-app-loading
+expo install @expo-google-fonts/expletus-sans expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  ExpletusSans_400Regular,
-  ExpletusSans_500Medium,
-  ExpletusSans_600SemiBold,
-  ExpletusSans_700Bold,
-  ExpletusSans_400Regular_Italic,
-  ExpletusSans_500Medium_Italic,
-  ExpletusSans_600SemiBold_Italic,
-  ExpletusSans_700Bold_Italic,
-} from '@expo-google-fonts/expletus-sans';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/expletus-sans/useFonts';
+import { ExpletusSans_400Regular } from '@expo-google-fonts/expletus-sans/400Regular';
+import { ExpletusSans_500Medium } from '@expo-google-fonts/expletus-sans/500Medium';
+import { ExpletusSans_600SemiBold } from '@expo-google-fonts/expletus-sans/600SemiBold';
+import { ExpletusSans_700Bold } from '@expo-google-fonts/expletus-sans/700Bold';
+import { ExpletusSans_400Regular_Italic } from '@expo-google-fonts/expletus-sans/400Regular_Italic';
+import { ExpletusSans_500Medium_Italic } from '@expo-google-fonts/expletus-sans/500Medium_Italic';
+import { ExpletusSans_600SemiBold_Italic } from '@expo-google-fonts/expletus-sans/600SemiBold_Italic';
+import { ExpletusSans_700Bold_Italic } from '@expo-google-fonts/expletus-sans/700Bold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -63,7 +59,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

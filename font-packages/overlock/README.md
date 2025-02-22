@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/overlock)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/overlock)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/overlock)
 
 This package lets you use the [**Overlock**](https://fonts.google.com/specimen/Overlock) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -24,24 +23,21 @@ This font family contains [6 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/overlock expo-font expo-app-loading
+expo install @expo-google-fonts/overlock expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Overlock_400Regular,
-  Overlock_400Regular_Italic,
-  Overlock_700Bold,
-  Overlock_700Bold_Italic,
-  Overlock_900Black,
-  Overlock_900Black_Italic,
-} from '@expo-google-fonts/overlock';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/overlock/useFonts';
+import { Overlock_400Regular } from '@expo-google-fonts/overlock/400Regular';
+import { Overlock_400Regular_Italic } from '@expo-google-fonts/overlock/400Regular_Italic';
+import { Overlock_700Bold } from '@expo-google-fonts/overlock/700Bold';
+import { Overlock_700Bold_Italic } from '@expo-google-fonts/overlock/700Bold_Italic';
+import { Overlock_900Black } from '@expo-google-fonts/overlock/900Black';
+import { Overlock_900Black_Italic } from '@expo-google-fonts/overlock/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -57,7 +53,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/ubuntu)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/ubuntu)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/ubuntu)
 
 This package lets you use the [**Ubuntu**](https://fonts.google.com/specimen/Ubuntu) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -26,26 +25,23 @@ This font family contains [8 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/ubuntu expo-font expo-app-loading
+expo install @expo-google-fonts/ubuntu expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Ubuntu_300Light,
-  Ubuntu_300Light_Italic,
-  Ubuntu_400Regular,
-  Ubuntu_400Regular_Italic,
-  Ubuntu_500Medium,
-  Ubuntu_500Medium_Italic,
-  Ubuntu_700Bold,
-  Ubuntu_700Bold_Italic,
-} from '@expo-google-fonts/ubuntu';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/ubuntu/useFonts';
+import { Ubuntu_300Light } from '@expo-google-fonts/ubuntu/300Light';
+import { Ubuntu_300Light_Italic } from '@expo-google-fonts/ubuntu/300Light_Italic';
+import { Ubuntu_400Regular } from '@expo-google-fonts/ubuntu/400Regular';
+import { Ubuntu_400Regular_Italic } from '@expo-google-fonts/ubuntu/400Regular_Italic';
+import { Ubuntu_500Medium } from '@expo-google-fonts/ubuntu/500Medium';
+import { Ubuntu_500Medium_Italic } from '@expo-google-fonts/ubuntu/500Medium_Italic';
+import { Ubuntu_700Bold } from '@expo-google-fonts/ubuntu/700Bold';
+import { Ubuntu_700Bold_Italic } from '@expo-google-fonts/ubuntu/700Bold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -63,7 +59,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

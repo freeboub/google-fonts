@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Fuggles_400Regular = require('./Fuggles_400Regular.ttf');
+export const Fuggles_400Regular = require('./400Regular/Fuggles_400Regular.ttf');

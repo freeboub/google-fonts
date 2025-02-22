@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/league-spartan)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/league-spartan)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/league-spartan)
 
 This package lets you use the [**League Spartan**](https://fonts.google.com/specimen/League+Spartan) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/league-spartan expo-font expo-app-loading
+expo install @expo-google-fonts/league-spartan expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  LeagueSpartan_100Thin,
-  LeagueSpartan_200ExtraLight,
-  LeagueSpartan_300Light,
-  LeagueSpartan_400Regular,
-  LeagueSpartan_500Medium,
-  LeagueSpartan_600SemiBold,
-  LeagueSpartan_700Bold,
-  LeagueSpartan_800ExtraBold,
-  LeagueSpartan_900Black,
-} from '@expo-google-fonts/league-spartan';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/league-spartan/useFonts';
+import { LeagueSpartan_100Thin } from '@expo-google-fonts/league-spartan/100Thin';
+import { LeagueSpartan_200ExtraLight } from '@expo-google-fonts/league-spartan/200ExtraLight';
+import { LeagueSpartan_300Light } from '@expo-google-fonts/league-spartan/300Light';
+import { LeagueSpartan_400Regular } from '@expo-google-fonts/league-spartan/400Regular';
+import { LeagueSpartan_500Medium } from '@expo-google-fonts/league-spartan/500Medium';
+import { LeagueSpartan_600SemiBold } from '@expo-google-fonts/league-spartan/600SemiBold';
+import { LeagueSpartan_700Bold } from '@expo-google-fonts/league-spartan/700Bold';
+import { LeagueSpartan_800ExtraBold } from '@expo-google-fonts/league-spartan/800ExtraBold';
+import { LeagueSpartan_900Black } from '@expo-google-fonts/league-spartan/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

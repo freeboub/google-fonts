@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/vazirmatn)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/vazirmatn)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/vazirmatn)
 
 This package lets you use the [**Vazirmatn**](https://fonts.google.com/specimen/Vazirmatn) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/vazirmatn expo-font expo-app-loading
+expo install @expo-google-fonts/vazirmatn expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Vazirmatn_100Thin,
-  Vazirmatn_200ExtraLight,
-  Vazirmatn_300Light,
-  Vazirmatn_400Regular,
-  Vazirmatn_500Medium,
-  Vazirmatn_600SemiBold,
-  Vazirmatn_700Bold,
-  Vazirmatn_800ExtraBold,
-  Vazirmatn_900Black,
-} from '@expo-google-fonts/vazirmatn';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/vazirmatn/useFonts';
+import { Vazirmatn_100Thin } from '@expo-google-fonts/vazirmatn/100Thin';
+import { Vazirmatn_200ExtraLight } from '@expo-google-fonts/vazirmatn/200ExtraLight';
+import { Vazirmatn_300Light } from '@expo-google-fonts/vazirmatn/300Light';
+import { Vazirmatn_400Regular } from '@expo-google-fonts/vazirmatn/400Regular';
+import { Vazirmatn_500Medium } from '@expo-google-fonts/vazirmatn/500Medium';
+import { Vazirmatn_600SemiBold } from '@expo-google-fonts/vazirmatn/600SemiBold';
+import { Vazirmatn_700Bold } from '@expo-google-fonts/vazirmatn/700Bold';
+import { Vazirmatn_800ExtraBold } from '@expo-google-fonts/vazirmatn/800ExtraBold';
+import { Vazirmatn_900Black } from '@expo-google-fonts/vazirmatn/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

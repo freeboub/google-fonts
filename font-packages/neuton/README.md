@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/neuton)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/neuton)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/neuton)
 
 This package lets you use the [**Neuton**](https://fonts.google.com/specimen/Neuton) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -24,24 +23,21 @@ This font family contains [6 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/neuton expo-font expo-app-loading
+expo install @expo-google-fonts/neuton expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Neuton_200ExtraLight,
-  Neuton_300Light,
-  Neuton_400Regular,
-  Neuton_400Regular_Italic,
-  Neuton_700Bold,
-  Neuton_800ExtraBold,
-} from '@expo-google-fonts/neuton';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/neuton/useFonts';
+import { Neuton_200ExtraLight } from '@expo-google-fonts/neuton/200ExtraLight';
+import { Neuton_300Light } from '@expo-google-fonts/neuton/300Light';
+import { Neuton_400Regular } from '@expo-google-fonts/neuton/400Regular';
+import { Neuton_400Regular_Italic } from '@expo-google-fonts/neuton/400Regular_Italic';
+import { Neuton_700Bold } from '@expo-google-fonts/neuton/700Bold';
+import { Neuton_800ExtraBold } from '@expo-google-fonts/neuton/800ExtraBold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -57,7 +53,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

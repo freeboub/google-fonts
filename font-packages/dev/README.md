@@ -16,7 +16,7 @@ you can important any font variant from any font family from `@expo-google-fonts
 #### Install the package
 
 ```js
-expo install @expo-google-fonts/dev expo-font expo-app-loading
+expo install @expo-google-fonts/dev expo-font
 ```
 
 #### In your app

@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/krub)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/krub)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/krub)
 
 This package lets you use the [**Krub**](https://fonts.google.com/specimen/Krub) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -30,30 +29,27 @@ This font family contains [12 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/krub expo-font expo-app-loading
+expo install @expo-google-fonts/krub expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Krub_200ExtraLight,
-  Krub_200ExtraLight_Italic,
-  Krub_300Light,
-  Krub_300Light_Italic,
-  Krub_400Regular,
-  Krub_400Regular_Italic,
-  Krub_500Medium,
-  Krub_500Medium_Italic,
-  Krub_600SemiBold,
-  Krub_600SemiBold_Italic,
-  Krub_700Bold,
-  Krub_700Bold_Italic,
-} from '@expo-google-fonts/krub';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/krub/useFonts';
+import { Krub_200ExtraLight } from '@expo-google-fonts/krub/200ExtraLight';
+import { Krub_200ExtraLight_Italic } from '@expo-google-fonts/krub/200ExtraLight_Italic';
+import { Krub_300Light } from '@expo-google-fonts/krub/300Light';
+import { Krub_300Light_Italic } from '@expo-google-fonts/krub/300Light_Italic';
+import { Krub_400Regular } from '@expo-google-fonts/krub/400Regular';
+import { Krub_400Regular_Italic } from '@expo-google-fonts/krub/400Regular_Italic';
+import { Krub_500Medium } from '@expo-google-fonts/krub/500Medium';
+import { Krub_500Medium_Italic } from '@expo-google-fonts/krub/500Medium_Italic';
+import { Krub_600SemiBold } from '@expo-google-fonts/krub/600SemiBold';
+import { Krub_600SemiBold_Italic } from '@expo-google-fonts/krub/600SemiBold_Italic';
+import { Krub_700Bold } from '@expo-google-fonts/krub/700Bold';
+import { Krub_700Bold_Italic } from '@expo-google-fonts/krub/700Bold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -75,7 +71,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

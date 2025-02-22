@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-sans-malayalam)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-sans-malayalam)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/noto-sans-malayalam)
 
 This package lets you use the [**Noto Sans Malayalam**](https://fonts.google.com/specimen/Noto+Sans+Malayalam) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/noto-sans-malayalam expo-font expo-app-loading
+expo install @expo-google-fonts/noto-sans-malayalam expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSansMalayalam_100Thin,
-  NotoSansMalayalam_200ExtraLight,
-  NotoSansMalayalam_300Light,
-  NotoSansMalayalam_400Regular,
-  NotoSansMalayalam_500Medium,
-  NotoSansMalayalam_600SemiBold,
-  NotoSansMalayalam_700Bold,
-  NotoSansMalayalam_800ExtraBold,
-  NotoSansMalayalam_900Black,
-} from '@expo-google-fonts/noto-sans-malayalam';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/noto-sans-malayalam/useFonts';
+import { NotoSansMalayalam_100Thin } from '@expo-google-fonts/noto-sans-malayalam/100Thin';
+import { NotoSansMalayalam_200ExtraLight } from '@expo-google-fonts/noto-sans-malayalam/200ExtraLight';
+import { NotoSansMalayalam_300Light } from '@expo-google-fonts/noto-sans-malayalam/300Light';
+import { NotoSansMalayalam_400Regular } from '@expo-google-fonts/noto-sans-malayalam/400Regular';
+import { NotoSansMalayalam_500Medium } from '@expo-google-fonts/noto-sans-malayalam/500Medium';
+import { NotoSansMalayalam_600SemiBold } from '@expo-google-fonts/noto-sans-malayalam/600SemiBold';
+import { NotoSansMalayalam_700Bold } from '@expo-google-fonts/noto-sans-malayalam/700Bold';
+import { NotoSansMalayalam_800ExtraBold } from '@expo-google-fonts/noto-sans-malayalam/800ExtraBold';
+import { NotoSansMalayalam_900Black } from '@expo-google-fonts/noto-sans-malayalam/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

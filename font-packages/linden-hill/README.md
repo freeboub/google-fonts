@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/linden-hill)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/linden-hill)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/linden-hill)
 
 This package lets you use the [**Linden Hill**](https://fonts.google.com/specimen/Linden+Hill) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -20,20 +19,17 @@ This font family contains [2 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/linden-hill expo-font expo-app-loading
+expo install @expo-google-fonts/linden-hill expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  LindenHill_400Regular,
-  LindenHill_400Regular_Italic,
-} from '@expo-google-fonts/linden-hill';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/linden-hill/useFonts';
+import { LindenHill_400Regular } from '@expo-google-fonts/linden-hill/400Regular';
+import { LindenHill_400Regular_Italic } from '@expo-google-fonts/linden-hill/400Regular_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -45,7 +41,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const DrSugiyama_400Regular = require('./DrSugiyama_400Regular.ttf');
+export const DrSugiyama_400Regular = require('./400Regular/DrSugiyama_400Regular.ttf');

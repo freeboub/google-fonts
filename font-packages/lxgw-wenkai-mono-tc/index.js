@@ -2,9 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const LXGWWenKaiMonoTC_300Light = require('./LXGWWenKaiMonoTC_300Light.ttf');
-export const LXGWWenKaiMonoTC_400Regular = require('./LXGWWenKaiMonoTC_400Regular.ttf');
-export const LXGWWenKaiMonoTC_700Bold = require('./LXGWWenKaiMonoTC_700Bold.ttf');
+export const LXGWWenKaiMonoTC_300Light = require('./300Light/LXGWWenKaiMonoTC_300Light.ttf');
+export const LXGWWenKaiMonoTC_400Regular = require('./400Regular/LXGWWenKaiMonoTC_400Regular.ttf');
+export const LXGWWenKaiMonoTC_700Bold = require('./700Bold/LXGWWenKaiMonoTC_700Bold.ttf');

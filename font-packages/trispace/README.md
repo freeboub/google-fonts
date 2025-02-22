@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/trispace)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/trispace)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/trispace)
 
 This package lets you use the [**Trispace**](https://fonts.google.com/specimen/Trispace) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -26,26 +25,23 @@ This font family contains [8 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/trispace expo-font expo-app-loading
+expo install @expo-google-fonts/trispace expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Trispace_100Thin,
-  Trispace_200ExtraLight,
-  Trispace_300Light,
-  Trispace_400Regular,
-  Trispace_500Medium,
-  Trispace_600SemiBold,
-  Trispace_700Bold,
-  Trispace_800ExtraBold,
-} from '@expo-google-fonts/trispace';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/trispace/useFonts';
+import { Trispace_100Thin } from '@expo-google-fonts/trispace/100Thin';
+import { Trispace_200ExtraLight } from '@expo-google-fonts/trispace/200ExtraLight';
+import { Trispace_300Light } from '@expo-google-fonts/trispace/300Light';
+import { Trispace_400Regular } from '@expo-google-fonts/trispace/400Regular';
+import { Trispace_500Medium } from '@expo-google-fonts/trispace/500Medium';
+import { Trispace_600SemiBold } from '@expo-google-fonts/trispace/600SemiBold';
+import { Trispace_700Bold } from '@expo-google-fonts/trispace/700Bold';
+import { Trispace_800ExtraBold } from '@expo-google-fonts/trispace/800ExtraBold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -63,7 +59,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

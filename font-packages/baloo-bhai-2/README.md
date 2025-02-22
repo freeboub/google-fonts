@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/baloo-bhai-2)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/baloo-bhai-2)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/baloo-bhai-2)
 
 This package lets you use the [**Baloo Bhai 2**](https://fonts.google.com/specimen/Baloo+Bhai+2) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -23,23 +22,20 @@ This font family contains [5 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/baloo-bhai-2 expo-font expo-app-loading
+expo install @expo-google-fonts/baloo-bhai-2 expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  BalooBhai2_400Regular,
-  BalooBhai2_500Medium,
-  BalooBhai2_600SemiBold,
-  BalooBhai2_700Bold,
-  BalooBhai2_800ExtraBold,
-} from '@expo-google-fonts/baloo-bhai-2';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/baloo-bhai-2/useFonts';
+import { BalooBhai2_400Regular } from '@expo-google-fonts/baloo-bhai-2/400Regular';
+import { BalooBhai2_500Medium } from '@expo-google-fonts/baloo-bhai-2/500Medium';
+import { BalooBhai2_600SemiBold } from '@expo-google-fonts/baloo-bhai-2/600SemiBold';
+import { BalooBhai2_700Bold } from '@expo-google-fonts/baloo-bhai-2/700Bold';
+import { BalooBhai2_800ExtraBold } from '@expo-google-fonts/baloo-bhai-2/800ExtraBold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -54,7 +50,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

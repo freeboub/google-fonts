@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-sans-hebrew)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-sans-hebrew)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/noto-sans-hebrew)
 
 This package lets you use the [**Noto Sans Hebrew**](https://fonts.google.com/specimen/Noto+Sans+Hebrew) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/noto-sans-hebrew expo-font expo-app-loading
+expo install @expo-google-fonts/noto-sans-hebrew expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSansHebrew_100Thin,
-  NotoSansHebrew_200ExtraLight,
-  NotoSansHebrew_300Light,
-  NotoSansHebrew_400Regular,
-  NotoSansHebrew_500Medium,
-  NotoSansHebrew_600SemiBold,
-  NotoSansHebrew_700Bold,
-  NotoSansHebrew_800ExtraBold,
-  NotoSansHebrew_900Black,
-} from '@expo-google-fonts/noto-sans-hebrew';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/noto-sans-hebrew/useFonts';
+import { NotoSansHebrew_100Thin } from '@expo-google-fonts/noto-sans-hebrew/100Thin';
+import { NotoSansHebrew_200ExtraLight } from '@expo-google-fonts/noto-sans-hebrew/200ExtraLight';
+import { NotoSansHebrew_300Light } from '@expo-google-fonts/noto-sans-hebrew/300Light';
+import { NotoSansHebrew_400Regular } from '@expo-google-fonts/noto-sans-hebrew/400Regular';
+import { NotoSansHebrew_500Medium } from '@expo-google-fonts/noto-sans-hebrew/500Medium';
+import { NotoSansHebrew_600SemiBold } from '@expo-google-fonts/noto-sans-hebrew/600SemiBold';
+import { NotoSansHebrew_700Bold } from '@expo-google-fonts/noto-sans-hebrew/700Bold';
+import { NotoSansHebrew_800ExtraBold } from '@expo-google-fonts/noto-sans-hebrew/800ExtraBold';
+import { NotoSansHebrew_900Black } from '@expo-google-fonts/noto-sans-hebrew/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

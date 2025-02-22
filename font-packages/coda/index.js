@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Coda_400Regular = require('./Coda_400Regular.ttf');
-export const Coda_800ExtraBold = require('./Coda_800ExtraBold.ttf');
+export const Coda_400Regular = require('./400Regular/Coda_400Regular.ttf');
+export const Coda_800ExtraBold = require('./800ExtraBold/Coda_800ExtraBold.ttf');

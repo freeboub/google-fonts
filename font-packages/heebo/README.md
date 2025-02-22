@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/heebo)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/heebo)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/heebo)
 
 This package lets you use the [**Heebo**](https://fonts.google.com/specimen/Heebo) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/heebo expo-font expo-app-loading
+expo install @expo-google-fonts/heebo expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Heebo_100Thin,
-  Heebo_200ExtraLight,
-  Heebo_300Light,
-  Heebo_400Regular,
-  Heebo_500Medium,
-  Heebo_600SemiBold,
-  Heebo_700Bold,
-  Heebo_800ExtraBold,
-  Heebo_900Black,
-} from '@expo-google-fonts/heebo';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/heebo/useFonts';
+import { Heebo_100Thin } from '@expo-google-fonts/heebo/100Thin';
+import { Heebo_200ExtraLight } from '@expo-google-fonts/heebo/200ExtraLight';
+import { Heebo_300Light } from '@expo-google-fonts/heebo/300Light';
+import { Heebo_400Regular } from '@expo-google-fonts/heebo/400Regular';
+import { Heebo_500Medium } from '@expo-google-fonts/heebo/500Medium';
+import { Heebo_600SemiBold } from '@expo-google-fonts/heebo/600SemiBold';
+import { Heebo_700Bold } from '@expo-google-fonts/heebo/700Bold';
+import { Heebo_800ExtraBold } from '@expo-google-fonts/heebo/800ExtraBold';
+import { Heebo_900Black } from '@expo-google-fonts/heebo/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

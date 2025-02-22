@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const ClimateCrisis_400Regular = require('./ClimateCrisis_400Regular.ttf');
+export const ClimateCrisis_400Regular = require('./400Regular/ClimateCrisis_400Regular.ttf');

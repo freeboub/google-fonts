@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/jacques-francois-shadow)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/jacques-francois-shadow)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/jacques-francois-shadow)
 
 This package lets you use the [**Jacques Francois Shadow**](https://fonts.google.com/specimen/Jacques+Francois+Shadow) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -19,19 +18,16 @@ This font family contains [1 style](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/jacques-francois-shadow expo-font expo-app-loading
+expo install @expo-google-fonts/jacques-francois-shadow expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  JacquesFrancoisShadow_400Regular,
-} from '@expo-google-fonts/jacques-francois-shadow';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/jacques-francois-shadow/useFonts';
+import { JacquesFrancoisShadow_400Regular } from '@expo-google-fonts/jacques-francois-shadow/400Regular';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -42,7 +38,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

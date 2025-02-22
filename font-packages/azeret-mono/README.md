@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/azeret-mono)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/azeret-mono)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/azeret-mono)
 
 This package lets you use the [**Azeret Mono**](https://fonts.google.com/specimen/Azeret+Mono) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/azeret-mono expo-font expo-app-loading
+expo install @expo-google-fonts/azeret-mono expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  AzeretMono_100Thin,
-  AzeretMono_200ExtraLight,
-  AzeretMono_300Light,
-  AzeretMono_400Regular,
-  AzeretMono_500Medium,
-  AzeretMono_600SemiBold,
-  AzeretMono_700Bold,
-  AzeretMono_800ExtraBold,
-  AzeretMono_900Black,
-  AzeretMono_100Thin_Italic,
-  AzeretMono_200ExtraLight_Italic,
-  AzeretMono_300Light_Italic,
-  AzeretMono_400Regular_Italic,
-  AzeretMono_500Medium_Italic,
-  AzeretMono_600SemiBold_Italic,
-  AzeretMono_700Bold_Italic,
-  AzeretMono_800ExtraBold_Italic,
-  AzeretMono_900Black_Italic,
-} from '@expo-google-fonts/azeret-mono';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/azeret-mono/useFonts';
+import { AzeretMono_100Thin } from '@expo-google-fonts/azeret-mono/100Thin';
+import { AzeretMono_200ExtraLight } from '@expo-google-fonts/azeret-mono/200ExtraLight';
+import { AzeretMono_300Light } from '@expo-google-fonts/azeret-mono/300Light';
+import { AzeretMono_400Regular } from '@expo-google-fonts/azeret-mono/400Regular';
+import { AzeretMono_500Medium } from '@expo-google-fonts/azeret-mono/500Medium';
+import { AzeretMono_600SemiBold } from '@expo-google-fonts/azeret-mono/600SemiBold';
+import { AzeretMono_700Bold } from '@expo-google-fonts/azeret-mono/700Bold';
+import { AzeretMono_800ExtraBold } from '@expo-google-fonts/azeret-mono/800ExtraBold';
+import { AzeretMono_900Black } from '@expo-google-fonts/azeret-mono/900Black';
+import { AzeretMono_100Thin_Italic } from '@expo-google-fonts/azeret-mono/100Thin_Italic';
+import { AzeretMono_200ExtraLight_Italic } from '@expo-google-fonts/azeret-mono/200ExtraLight_Italic';
+import { AzeretMono_300Light_Italic } from '@expo-google-fonts/azeret-mono/300Light_Italic';
+import { AzeretMono_400Regular_Italic } from '@expo-google-fonts/azeret-mono/400Regular_Italic';
+import { AzeretMono_500Medium_Italic } from '@expo-google-fonts/azeret-mono/500Medium_Italic';
+import { AzeretMono_600SemiBold_Italic } from '@expo-google-fonts/azeret-mono/600SemiBold_Italic';
+import { AzeretMono_700Bold_Italic } from '@expo-google-fonts/azeret-mono/700Bold_Italic';
+import { AzeretMono_800ExtraBold_Italic } from '@expo-google-fonts/azeret-mono/800ExtraBold_Italic';
+import { AzeretMono_900Black_Italic } from '@expo-google-fonts/azeret-mono/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

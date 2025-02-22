@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const FjordOne_400Regular = require('./FjordOne_400Regular.ttf');
+export const FjordOne_400Regular = require('./400Regular/FjordOne_400Regular.ttf');

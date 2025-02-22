@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/ysabeau-infant)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/ysabeau-infant)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/ysabeau-infant)
 
 This package lets you use the [**Ysabeau Infant**](https://fonts.google.com/specimen/Ysabeau+Infant) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/ysabeau-infant expo-font expo-app-loading
+expo install @expo-google-fonts/ysabeau-infant expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  YsabeauInfant_100Thin,
-  YsabeauInfant_200ExtraLight,
-  YsabeauInfant_300Light,
-  YsabeauInfant_400Regular,
-  YsabeauInfant_500Medium,
-  YsabeauInfant_600SemiBold,
-  YsabeauInfant_700Bold,
-  YsabeauInfant_800ExtraBold,
-  YsabeauInfant_900Black,
-  YsabeauInfant_100Thin_Italic,
-  YsabeauInfant_200ExtraLight_Italic,
-  YsabeauInfant_300Light_Italic,
-  YsabeauInfant_400Regular_Italic,
-  YsabeauInfant_500Medium_Italic,
-  YsabeauInfant_600SemiBold_Italic,
-  YsabeauInfant_700Bold_Italic,
-  YsabeauInfant_800ExtraBold_Italic,
-  YsabeauInfant_900Black_Italic,
-} from '@expo-google-fonts/ysabeau-infant';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/ysabeau-infant/useFonts';
+import { YsabeauInfant_100Thin } from '@expo-google-fonts/ysabeau-infant/100Thin';
+import { YsabeauInfant_200ExtraLight } from '@expo-google-fonts/ysabeau-infant/200ExtraLight';
+import { YsabeauInfant_300Light } from '@expo-google-fonts/ysabeau-infant/300Light';
+import { YsabeauInfant_400Regular } from '@expo-google-fonts/ysabeau-infant/400Regular';
+import { YsabeauInfant_500Medium } from '@expo-google-fonts/ysabeau-infant/500Medium';
+import { YsabeauInfant_600SemiBold } from '@expo-google-fonts/ysabeau-infant/600SemiBold';
+import { YsabeauInfant_700Bold } from '@expo-google-fonts/ysabeau-infant/700Bold';
+import { YsabeauInfant_800ExtraBold } from '@expo-google-fonts/ysabeau-infant/800ExtraBold';
+import { YsabeauInfant_900Black } from '@expo-google-fonts/ysabeau-infant/900Black';
+import { YsabeauInfant_100Thin_Italic } from '@expo-google-fonts/ysabeau-infant/100Thin_Italic';
+import { YsabeauInfant_200ExtraLight_Italic } from '@expo-google-fonts/ysabeau-infant/200ExtraLight_Italic';
+import { YsabeauInfant_300Light_Italic } from '@expo-google-fonts/ysabeau-infant/300Light_Italic';
+import { YsabeauInfant_400Regular_Italic } from '@expo-google-fonts/ysabeau-infant/400Regular_Italic';
+import { YsabeauInfant_500Medium_Italic } from '@expo-google-fonts/ysabeau-infant/500Medium_Italic';
+import { YsabeauInfant_600SemiBold_Italic } from '@expo-google-fonts/ysabeau-infant/600SemiBold_Italic';
+import { YsabeauInfant_700Bold_Italic } from '@expo-google-fonts/ysabeau-infant/700Bold_Italic';
+import { YsabeauInfant_800ExtraBold_Italic } from '@expo-google-fonts/ysabeau-infant/800ExtraBold_Italic';
+import { YsabeauInfant_900Black_Italic } from '@expo-google-fonts/ysabeau-infant/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

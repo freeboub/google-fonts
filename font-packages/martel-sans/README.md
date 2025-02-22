@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/martel-sans)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/martel-sans)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/martel-sans)
 
 This package lets you use the [**Martel Sans**](https://fonts.google.com/specimen/Martel+Sans) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -25,25 +24,22 @@ This font family contains [7 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/martel-sans expo-font expo-app-loading
+expo install @expo-google-fonts/martel-sans expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  MartelSans_200ExtraLight,
-  MartelSans_300Light,
-  MartelSans_400Regular,
-  MartelSans_600SemiBold,
-  MartelSans_700Bold,
-  MartelSans_800ExtraBold,
-  MartelSans_900Black,
-} from '@expo-google-fonts/martel-sans';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/martel-sans/useFonts';
+import { MartelSans_200ExtraLight } from '@expo-google-fonts/martel-sans/200ExtraLight';
+import { MartelSans_300Light } from '@expo-google-fonts/martel-sans/300Light';
+import { MartelSans_400Regular } from '@expo-google-fonts/martel-sans/400Regular';
+import { MartelSans_600SemiBold } from '@expo-google-fonts/martel-sans/600SemiBold';
+import { MartelSans_700Bold } from '@expo-google-fonts/martel-sans/700Bold';
+import { MartelSans_800ExtraBold } from '@expo-google-fonts/martel-sans/800ExtraBold';
+import { MartelSans_900Black } from '@expo-google-fonts/martel-sans/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -60,7 +56,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

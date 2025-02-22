@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/gantari)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/gantari)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/gantari)
 
 This package lets you use the [**Gantari**](https://fonts.google.com/specimen/Gantari) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/gantari expo-font expo-app-loading
+expo install @expo-google-fonts/gantari expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Gantari_100Thin,
-  Gantari_200ExtraLight,
-  Gantari_300Light,
-  Gantari_400Regular,
-  Gantari_500Medium,
-  Gantari_600SemiBold,
-  Gantari_700Bold,
-  Gantari_800ExtraBold,
-  Gantari_900Black,
-  Gantari_100Thin_Italic,
-  Gantari_200ExtraLight_Italic,
-  Gantari_300Light_Italic,
-  Gantari_400Regular_Italic,
-  Gantari_500Medium_Italic,
-  Gantari_600SemiBold_Italic,
-  Gantari_700Bold_Italic,
-  Gantari_800ExtraBold_Italic,
-  Gantari_900Black_Italic,
-} from '@expo-google-fonts/gantari';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/gantari/useFonts';
+import { Gantari_100Thin } from '@expo-google-fonts/gantari/100Thin';
+import { Gantari_200ExtraLight } from '@expo-google-fonts/gantari/200ExtraLight';
+import { Gantari_300Light } from '@expo-google-fonts/gantari/300Light';
+import { Gantari_400Regular } from '@expo-google-fonts/gantari/400Regular';
+import { Gantari_500Medium } from '@expo-google-fonts/gantari/500Medium';
+import { Gantari_600SemiBold } from '@expo-google-fonts/gantari/600SemiBold';
+import { Gantari_700Bold } from '@expo-google-fonts/gantari/700Bold';
+import { Gantari_800ExtraBold } from '@expo-google-fonts/gantari/800ExtraBold';
+import { Gantari_900Black } from '@expo-google-fonts/gantari/900Black';
+import { Gantari_100Thin_Italic } from '@expo-google-fonts/gantari/100Thin_Italic';
+import { Gantari_200ExtraLight_Italic } from '@expo-google-fonts/gantari/200ExtraLight_Italic';
+import { Gantari_300Light_Italic } from '@expo-google-fonts/gantari/300Light_Italic';
+import { Gantari_400Regular_Italic } from '@expo-google-fonts/gantari/400Regular_Italic';
+import { Gantari_500Medium_Italic } from '@expo-google-fonts/gantari/500Medium_Italic';
+import { Gantari_600SemiBold_Italic } from '@expo-google-fonts/gantari/600SemiBold_Italic';
+import { Gantari_700Bold_Italic } from '@expo-google-fonts/gantari/700Bold_Italic';
+import { Gantari_800ExtraBold_Italic } from '@expo-google-fonts/gantari/800ExtraBold_Italic';
+import { Gantari_900Black_Italic } from '@expo-google-fonts/gantari/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

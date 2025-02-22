@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/b612)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/b612)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/b612)
 
 This package lets you use the [**B612**](https://fonts.google.com/specimen/B612) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -22,22 +21,19 @@ This font family contains [4 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/b612 expo-font expo-app-loading
+expo install @expo-google-fonts/b612 expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  B612_400Regular,
-  B612_400Regular_Italic,
-  B612_700Bold,
-  B612_700Bold_Italic,
-} from '@expo-google-fonts/b612';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/b612/useFonts';
+import { B612_400Regular } from '@expo-google-fonts/b612/400Regular';
+import { B612_400Regular_Italic } from '@expo-google-fonts/b612/400Regular_Italic';
+import { B612_700Bold } from '@expo-google-fonts/b612/700Bold';
+import { B612_700Bold_Italic } from '@expo-google-fonts/b612/700Bold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -51,7 +47,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

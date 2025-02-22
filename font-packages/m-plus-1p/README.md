@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/m-plus-1p)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/m-plus-1p)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/m-plus-1p)
 
 This package lets you use the [**M PLUS 1p**](https://fonts.google.com/specimen/M+PLUS+1p) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -25,25 +24,22 @@ This font family contains [7 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/m-plus-1p expo-font expo-app-loading
+expo install @expo-google-fonts/m-plus-1p expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  MPLUS1p_100Thin,
-  MPLUS1p_300Light,
-  MPLUS1p_400Regular,
-  MPLUS1p_500Medium,
-  MPLUS1p_700Bold,
-  MPLUS1p_800ExtraBold,
-  MPLUS1p_900Black,
-} from '@expo-google-fonts/m-plus-1p';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/m-plus-1p/useFonts';
+import { MPLUS1p_100Thin } from '@expo-google-fonts/m-plus-1p/100Thin';
+import { MPLUS1p_300Light } from '@expo-google-fonts/m-plus-1p/300Light';
+import { MPLUS1p_400Regular } from '@expo-google-fonts/m-plus-1p/400Regular';
+import { MPLUS1p_500Medium } from '@expo-google-fonts/m-plus-1p/500Medium';
+import { MPLUS1p_700Bold } from '@expo-google-fonts/m-plus-1p/700Bold';
+import { MPLUS1p_800ExtraBold } from '@expo-google-fonts/m-plus-1p/800ExtraBold';
+import { MPLUS1p_900Black } from '@expo-google-fonts/m-plus-1p/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -60,7 +56,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

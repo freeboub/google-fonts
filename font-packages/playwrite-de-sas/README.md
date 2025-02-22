@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/playwrite-de-sas)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/playwrite-de-sas)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/playwrite-de-sas)
 
 This package lets you use the [**Playwrite DE SAS**](https://fonts.google.com/specimen/Playwrite+DE+SAS) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -22,22 +21,19 @@ This font family contains [4 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/playwrite-de-sas expo-font expo-app-loading
+expo install @expo-google-fonts/playwrite-de-sas expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  PlaywriteDESAS_100Thin,
-  PlaywriteDESAS_200ExtraLight,
-  PlaywriteDESAS_300Light,
-  PlaywriteDESAS_400Regular,
-} from '@expo-google-fonts/playwrite-de-sas';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/playwrite-de-sas/useFonts';
+import { PlaywriteDESAS_100Thin } from '@expo-google-fonts/playwrite-de-sas/100Thin';
+import { PlaywriteDESAS_200ExtraLight } from '@expo-google-fonts/playwrite-de-sas/200ExtraLight';
+import { PlaywriteDESAS_300Light } from '@expo-google-fonts/playwrite-de-sas/300Light';
+import { PlaywriteDESAS_400Regular } from '@expo-google-fonts/playwrite-de-sas/400Regular';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -51,7 +47,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

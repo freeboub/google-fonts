@@ -2,11 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Varta_300Light = require('./Varta_300Light.ttf');
-export const Varta_400Regular = require('./Varta_400Regular.ttf');
-export const Varta_500Medium = require('./Varta_500Medium.ttf');
-export const Varta_600SemiBold = require('./Varta_600SemiBold.ttf');
-export const Varta_700Bold = require('./Varta_700Bold.ttf');
+export const Varta_300Light = require('./300Light/Varta_300Light.ttf');
+export const Varta_400Regular = require('./400Regular/Varta_400Regular.ttf');
+export const Varta_500Medium = require('./500Medium/Varta_500Medium.ttf');
+export const Varta_600SemiBold = require('./600SemiBold/Varta_600SemiBold.ttf');
+export const Varta_700Bold = require('./700Bold/Varta_700Bold.ttf');

@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/dm-sans)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/dm-sans)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/dm-sans)
 
 This package lets you use the [**DM Sans**](https://fonts.google.com/specimen/DM+Sans) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/dm-sans expo-font expo-app-loading
+expo install @expo-google-fonts/dm-sans expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  DMSans_100Thin,
-  DMSans_200ExtraLight,
-  DMSans_300Light,
-  DMSans_400Regular,
-  DMSans_500Medium,
-  DMSans_600SemiBold,
-  DMSans_700Bold,
-  DMSans_800ExtraBold,
-  DMSans_900Black,
-  DMSans_100Thin_Italic,
-  DMSans_200ExtraLight_Italic,
-  DMSans_300Light_Italic,
-  DMSans_400Regular_Italic,
-  DMSans_500Medium_Italic,
-  DMSans_600SemiBold_Italic,
-  DMSans_700Bold_Italic,
-  DMSans_800ExtraBold_Italic,
-  DMSans_900Black_Italic,
-} from '@expo-google-fonts/dm-sans';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/dm-sans/useFonts';
+import { DMSans_100Thin } from '@expo-google-fonts/dm-sans/100Thin';
+import { DMSans_200ExtraLight } from '@expo-google-fonts/dm-sans/200ExtraLight';
+import { DMSans_300Light } from '@expo-google-fonts/dm-sans/300Light';
+import { DMSans_400Regular } from '@expo-google-fonts/dm-sans/400Regular';
+import { DMSans_500Medium } from '@expo-google-fonts/dm-sans/500Medium';
+import { DMSans_600SemiBold } from '@expo-google-fonts/dm-sans/600SemiBold';
+import { DMSans_700Bold } from '@expo-google-fonts/dm-sans/700Bold';
+import { DMSans_800ExtraBold } from '@expo-google-fonts/dm-sans/800ExtraBold';
+import { DMSans_900Black } from '@expo-google-fonts/dm-sans/900Black';
+import { DMSans_100Thin_Italic } from '@expo-google-fonts/dm-sans/100Thin_Italic';
+import { DMSans_200ExtraLight_Italic } from '@expo-google-fonts/dm-sans/200ExtraLight_Italic';
+import { DMSans_300Light_Italic } from '@expo-google-fonts/dm-sans/300Light_Italic';
+import { DMSans_400Regular_Italic } from '@expo-google-fonts/dm-sans/400Regular_Italic';
+import { DMSans_500Medium_Italic } from '@expo-google-fonts/dm-sans/500Medium_Italic';
+import { DMSans_600SemiBold_Italic } from '@expo-google-fonts/dm-sans/600SemiBold_Italic';
+import { DMSans_700Bold_Italic } from '@expo-google-fonts/dm-sans/700Bold_Italic';
+import { DMSans_800ExtraBold_Italic } from '@expo-google-fonts/dm-sans/800ExtraBold_Italic';
+import { DMSans_900Black_Italic } from '@expo-google-fonts/dm-sans/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

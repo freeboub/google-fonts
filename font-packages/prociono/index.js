@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Prociono_400Regular = require('./Prociono_400Regular.ttf');
+export const Prociono_400Regular = require('./400Regular/Prociono_400Regular.ttf');

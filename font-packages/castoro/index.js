@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Castoro_400Regular = require('./Castoro_400Regular.ttf');
-export const Castoro_400Regular_Italic = require('./Castoro_400Regular_Italic.ttf');
+export const Castoro_400Regular = require('./400Regular/Castoro_400Regular.ttf');
+export const Castoro_400Regular_Italic = require('./400Regular_Italic/Castoro_400Regular_Italic.ttf');

@@ -2,9 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Judson_400Regular = require('./Judson_400Regular.ttf');
-export const Judson_400Regular_Italic = require('./Judson_400Regular_Italic.ttf');
-export const Judson_700Bold = require('./Judson_700Bold.ttf');
+export const Judson_400Regular = require('./400Regular/Judson_400Regular.ttf');
+export const Judson_400Regular_Italic = require('./400Regular_Italic/Judson_400Regular_Italic.ttf');
+export const Judson_700Bold = require('./700Bold/Judson_700Bold.ttf');

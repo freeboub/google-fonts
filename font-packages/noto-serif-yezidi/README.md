@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-serif-yezidi)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-serif-yezidi)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/noto-serif-yezidi)
 
 This package lets you use the [**Noto Serif Yezidi**](https://fonts.google.com/specimen/Noto+Serif+Yezidi) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -22,22 +21,19 @@ This font family contains [4 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/noto-serif-yezidi expo-font expo-app-loading
+expo install @expo-google-fonts/noto-serif-yezidi expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSerifYezidi_400Regular,
-  NotoSerifYezidi_500Medium,
-  NotoSerifYezidi_600SemiBold,
-  NotoSerifYezidi_700Bold,
-} from '@expo-google-fonts/noto-serif-yezidi';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/noto-serif-yezidi/useFonts';
+import { NotoSerifYezidi_400Regular } from '@expo-google-fonts/noto-serif-yezidi/400Regular';
+import { NotoSerifYezidi_500Medium } from '@expo-google-fonts/noto-serif-yezidi/500Medium';
+import { NotoSerifYezidi_600SemiBold } from '@expo-google-fonts/noto-serif-yezidi/600SemiBold';
+import { NotoSerifYezidi_700Bold } from '@expo-google-fonts/noto-serif-yezidi/700Bold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -51,7 +47,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

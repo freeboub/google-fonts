@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/advent-pro)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/advent-pro)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/advent-pro)
 
 This package lets you use the [**Advent Pro**](https://fonts.google.com/specimen/Advent+Pro) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/advent-pro expo-font expo-app-loading
+expo install @expo-google-fonts/advent-pro expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  AdventPro_100Thin,
-  AdventPro_200ExtraLight,
-  AdventPro_300Light,
-  AdventPro_400Regular,
-  AdventPro_500Medium,
-  AdventPro_600SemiBold,
-  AdventPro_700Bold,
-  AdventPro_800ExtraBold,
-  AdventPro_900Black,
-  AdventPro_100Thin_Italic,
-  AdventPro_200ExtraLight_Italic,
-  AdventPro_300Light_Italic,
-  AdventPro_400Regular_Italic,
-  AdventPro_500Medium_Italic,
-  AdventPro_600SemiBold_Italic,
-  AdventPro_700Bold_Italic,
-  AdventPro_800ExtraBold_Italic,
-  AdventPro_900Black_Italic,
-} from '@expo-google-fonts/advent-pro';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/advent-pro/useFonts';
+import { AdventPro_100Thin } from '@expo-google-fonts/advent-pro/100Thin';
+import { AdventPro_200ExtraLight } from '@expo-google-fonts/advent-pro/200ExtraLight';
+import { AdventPro_300Light } from '@expo-google-fonts/advent-pro/300Light';
+import { AdventPro_400Regular } from '@expo-google-fonts/advent-pro/400Regular';
+import { AdventPro_500Medium } from '@expo-google-fonts/advent-pro/500Medium';
+import { AdventPro_600SemiBold } from '@expo-google-fonts/advent-pro/600SemiBold';
+import { AdventPro_700Bold } from '@expo-google-fonts/advent-pro/700Bold';
+import { AdventPro_800ExtraBold } from '@expo-google-fonts/advent-pro/800ExtraBold';
+import { AdventPro_900Black } from '@expo-google-fonts/advent-pro/900Black';
+import { AdventPro_100Thin_Italic } from '@expo-google-fonts/advent-pro/100Thin_Italic';
+import { AdventPro_200ExtraLight_Italic } from '@expo-google-fonts/advent-pro/200ExtraLight_Italic';
+import { AdventPro_300Light_Italic } from '@expo-google-fonts/advent-pro/300Light_Italic';
+import { AdventPro_400Regular_Italic } from '@expo-google-fonts/advent-pro/400Regular_Italic';
+import { AdventPro_500Medium_Italic } from '@expo-google-fonts/advent-pro/500Medium_Italic';
+import { AdventPro_600SemiBold_Italic } from '@expo-google-fonts/advent-pro/600SemiBold_Italic';
+import { AdventPro_700Bold_Italic } from '@expo-google-fonts/advent-pro/700Bold_Italic';
+import { AdventPro_800ExtraBold_Italic } from '@expo-google-fonts/advent-pro/800ExtraBold_Italic';
+import { AdventPro_900Black_Italic } from '@expo-google-fonts/advent-pro/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

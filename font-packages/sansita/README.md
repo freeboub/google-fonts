@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/sansita)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/sansita)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/sansita)
 
 This package lets you use the [**Sansita**](https://fonts.google.com/specimen/Sansita) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -26,26 +25,23 @@ This font family contains [8 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/sansita expo-font expo-app-loading
+expo install @expo-google-fonts/sansita expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Sansita_400Regular,
-  Sansita_400Regular_Italic,
-  Sansita_700Bold,
-  Sansita_700Bold_Italic,
-  Sansita_800ExtraBold,
-  Sansita_800ExtraBold_Italic,
-  Sansita_900Black,
-  Sansita_900Black_Italic,
-} from '@expo-google-fonts/sansita';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/sansita/useFonts';
+import { Sansita_400Regular } from '@expo-google-fonts/sansita/400Regular';
+import { Sansita_400Regular_Italic } from '@expo-google-fonts/sansita/400Regular_Italic';
+import { Sansita_700Bold } from '@expo-google-fonts/sansita/700Bold';
+import { Sansita_700Bold_Italic } from '@expo-google-fonts/sansita/700Bold_Italic';
+import { Sansita_800ExtraBold } from '@expo-google-fonts/sansita/800ExtraBold';
+import { Sansita_800ExtraBold_Italic } from '@expo-google-fonts/sansita/800ExtraBold_Italic';
+import { Sansita_900Black } from '@expo-google-fonts/sansita/900Black';
+import { Sansita_900Black_Italic } from '@expo-google-fonts/sansita/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -63,7 +59,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

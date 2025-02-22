@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/stick-no-bills)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/stick-no-bills)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/stick-no-bills)
 
 This package lets you use the [**Stick No Bills**](https://fonts.google.com/specimen/Stick+No+Bills) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -25,25 +24,22 @@ This font family contains [7 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/stick-no-bills expo-font expo-app-loading
+expo install @expo-google-fonts/stick-no-bills expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  StickNoBills_200ExtraLight,
-  StickNoBills_300Light,
-  StickNoBills_400Regular,
-  StickNoBills_500Medium,
-  StickNoBills_600SemiBold,
-  StickNoBills_700Bold,
-  StickNoBills_800ExtraBold,
-} from '@expo-google-fonts/stick-no-bills';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/stick-no-bills/useFonts';
+import { StickNoBills_200ExtraLight } from '@expo-google-fonts/stick-no-bills/200ExtraLight';
+import { StickNoBills_300Light } from '@expo-google-fonts/stick-no-bills/300Light';
+import { StickNoBills_400Regular } from '@expo-google-fonts/stick-no-bills/400Regular';
+import { StickNoBills_500Medium } from '@expo-google-fonts/stick-no-bills/500Medium';
+import { StickNoBills_600SemiBold } from '@expo-google-fonts/stick-no-bills/600SemiBold';
+import { StickNoBills_700Bold } from '@expo-google-fonts/stick-no-bills/700Bold';
+import { StickNoBills_800ExtraBold } from '@expo-google-fonts/stick-no-bills/800ExtraBold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -60,7 +56,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

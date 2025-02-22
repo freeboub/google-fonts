@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Ribeye_400Regular = require('./Ribeye_400Regular.ttf');
+export const Ribeye_400Regular = require('./400Regular/Ribeye_400Regular.ttf');

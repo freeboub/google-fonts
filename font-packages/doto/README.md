@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/doto)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/doto)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/doto)
 
 This package lets you use the [**Doto**](https://fonts.google.com/specimen/Doto) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/doto expo-font expo-app-loading
+expo install @expo-google-fonts/doto expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Doto_100Thin,
-  Doto_200ExtraLight,
-  Doto_300Light,
-  Doto_400Regular,
-  Doto_500Medium,
-  Doto_600SemiBold,
-  Doto_700Bold,
-  Doto_800ExtraBold,
-  Doto_900Black,
-} from '@expo-google-fonts/doto';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/doto/useFonts';
+import { Doto_100Thin } from '@expo-google-fonts/doto/100Thin';
+import { Doto_200ExtraLight } from '@expo-google-fonts/doto/200ExtraLight';
+import { Doto_300Light } from '@expo-google-fonts/doto/300Light';
+import { Doto_400Regular } from '@expo-google-fonts/doto/400Regular';
+import { Doto_500Medium } from '@expo-google-fonts/doto/500Medium';
+import { Doto_600SemiBold } from '@expo-google-fonts/doto/600SemiBold';
+import { Doto_700Bold } from '@expo-google-fonts/doto/700Bold';
+import { Doto_800ExtraBold } from '@expo-google-fonts/doto/800ExtraBold';
+import { Doto_900Black } from '@expo-google-fonts/doto/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

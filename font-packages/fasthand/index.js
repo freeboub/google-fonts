@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Fasthand_400Regular = require('./Fasthand_400Regular.ttf');
+export const Fasthand_400Regular = require('./400Regular/Fasthand_400Regular.ttf');

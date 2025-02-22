@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/hubot-sans)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/hubot-sans)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/hubot-sans)
 
 This package lets you use the [**Hubot Sans**](https://fonts.google.com/specimen/Hubot+Sans) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -34,34 +33,31 @@ This font family contains [16 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/hubot-sans expo-font expo-app-loading
+expo install @expo-google-fonts/hubot-sans expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  HubotSans_200ExtraLight,
-  HubotSans_300Light,
-  HubotSans_400Regular,
-  HubotSans_500Medium,
-  HubotSans_600SemiBold,
-  HubotSans_700Bold,
-  HubotSans_800ExtraBold,
-  HubotSans_900Black,
-  HubotSans_200ExtraLight_Italic,
-  HubotSans_300Light_Italic,
-  HubotSans_400Regular_Italic,
-  HubotSans_500Medium_Italic,
-  HubotSans_600SemiBold_Italic,
-  HubotSans_700Bold_Italic,
-  HubotSans_800ExtraBold_Italic,
-  HubotSans_900Black_Italic,
-} from '@expo-google-fonts/hubot-sans';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/hubot-sans/useFonts';
+import { HubotSans_200ExtraLight } from '@expo-google-fonts/hubot-sans/200ExtraLight';
+import { HubotSans_300Light } from '@expo-google-fonts/hubot-sans/300Light';
+import { HubotSans_400Regular } from '@expo-google-fonts/hubot-sans/400Regular';
+import { HubotSans_500Medium } from '@expo-google-fonts/hubot-sans/500Medium';
+import { HubotSans_600SemiBold } from '@expo-google-fonts/hubot-sans/600SemiBold';
+import { HubotSans_700Bold } from '@expo-google-fonts/hubot-sans/700Bold';
+import { HubotSans_800ExtraBold } from '@expo-google-fonts/hubot-sans/800ExtraBold';
+import { HubotSans_900Black } from '@expo-google-fonts/hubot-sans/900Black';
+import { HubotSans_200ExtraLight_Italic } from '@expo-google-fonts/hubot-sans/200ExtraLight_Italic';
+import { HubotSans_300Light_Italic } from '@expo-google-fonts/hubot-sans/300Light_Italic';
+import { HubotSans_400Regular_Italic } from '@expo-google-fonts/hubot-sans/400Regular_Italic';
+import { HubotSans_500Medium_Italic } from '@expo-google-fonts/hubot-sans/500Medium_Italic';
+import { HubotSans_600SemiBold_Italic } from '@expo-google-fonts/hubot-sans/600SemiBold_Italic';
+import { HubotSans_700Bold_Italic } from '@expo-google-fonts/hubot-sans/700Bold_Italic';
+import { HubotSans_800ExtraBold_Italic } from '@expo-google-fonts/hubot-sans/800ExtraBold_Italic';
+import { HubotSans_900Black_Italic } from '@expo-google-fonts/hubot-sans/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -87,7 +83,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

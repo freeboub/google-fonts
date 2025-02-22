@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/titillium-web)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/titillium-web)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/titillium-web)
 
 This package lets you use the [**Titillium Web**](https://fonts.google.com/specimen/Titillium+Web) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -29,29 +28,26 @@ This font family contains [11 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/titillium-web expo-font expo-app-loading
+expo install @expo-google-fonts/titillium-web expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  TitilliumWeb_200ExtraLight,
-  TitilliumWeb_200ExtraLight_Italic,
-  TitilliumWeb_300Light,
-  TitilliumWeb_300Light_Italic,
-  TitilliumWeb_400Regular,
-  TitilliumWeb_400Regular_Italic,
-  TitilliumWeb_600SemiBold,
-  TitilliumWeb_600SemiBold_Italic,
-  TitilliumWeb_700Bold,
-  TitilliumWeb_700Bold_Italic,
-  TitilliumWeb_900Black,
-} from '@expo-google-fonts/titillium-web';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/titillium-web/useFonts';
+import { TitilliumWeb_200ExtraLight } from '@expo-google-fonts/titillium-web/200ExtraLight';
+import { TitilliumWeb_200ExtraLight_Italic } from '@expo-google-fonts/titillium-web/200ExtraLight_Italic';
+import { TitilliumWeb_300Light } from '@expo-google-fonts/titillium-web/300Light';
+import { TitilliumWeb_300Light_Italic } from '@expo-google-fonts/titillium-web/300Light_Italic';
+import { TitilliumWeb_400Regular } from '@expo-google-fonts/titillium-web/400Regular';
+import { TitilliumWeb_400Regular_Italic } from '@expo-google-fonts/titillium-web/400Regular_Italic';
+import { TitilliumWeb_600SemiBold } from '@expo-google-fonts/titillium-web/600SemiBold';
+import { TitilliumWeb_600SemiBold_Italic } from '@expo-google-fonts/titillium-web/600SemiBold_Italic';
+import { TitilliumWeb_700Bold } from '@expo-google-fonts/titillium-web/700Bold';
+import { TitilliumWeb_700Bold_Italic } from '@expo-google-fonts/titillium-web/700Bold_Italic';
+import { TitilliumWeb_900Black } from '@expo-google-fonts/titillium-web/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -72,7 +68,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

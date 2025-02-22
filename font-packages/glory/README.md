@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/glory)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/glory)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/glory)
 
 This package lets you use the [**Glory**](https://fonts.google.com/specimen/Glory) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -34,34 +33,31 @@ This font family contains [16 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/glory expo-font expo-app-loading
+expo install @expo-google-fonts/glory expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Glory_100Thin,
-  Glory_200ExtraLight,
-  Glory_300Light,
-  Glory_400Regular,
-  Glory_500Medium,
-  Glory_600SemiBold,
-  Glory_700Bold,
-  Glory_800ExtraBold,
-  Glory_100Thin_Italic,
-  Glory_200ExtraLight_Italic,
-  Glory_300Light_Italic,
-  Glory_400Regular_Italic,
-  Glory_500Medium_Italic,
-  Glory_600SemiBold_Italic,
-  Glory_700Bold_Italic,
-  Glory_800ExtraBold_Italic,
-} from '@expo-google-fonts/glory';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/glory/useFonts';
+import { Glory_100Thin } from '@expo-google-fonts/glory/100Thin';
+import { Glory_200ExtraLight } from '@expo-google-fonts/glory/200ExtraLight';
+import { Glory_300Light } from '@expo-google-fonts/glory/300Light';
+import { Glory_400Regular } from '@expo-google-fonts/glory/400Regular';
+import { Glory_500Medium } from '@expo-google-fonts/glory/500Medium';
+import { Glory_600SemiBold } from '@expo-google-fonts/glory/600SemiBold';
+import { Glory_700Bold } from '@expo-google-fonts/glory/700Bold';
+import { Glory_800ExtraBold } from '@expo-google-fonts/glory/800ExtraBold';
+import { Glory_100Thin_Italic } from '@expo-google-fonts/glory/100Thin_Italic';
+import { Glory_200ExtraLight_Italic } from '@expo-google-fonts/glory/200ExtraLight_Italic';
+import { Glory_300Light_Italic } from '@expo-google-fonts/glory/300Light_Italic';
+import { Glory_400Regular_Italic } from '@expo-google-fonts/glory/400Regular_Italic';
+import { Glory_500Medium_Italic } from '@expo-google-fonts/glory/500Medium_Italic';
+import { Glory_600SemiBold_Italic } from '@expo-google-fonts/glory/600SemiBold_Italic';
+import { Glory_700Bold_Italic } from '@expo-google-fonts/glory/700Bold_Italic';
+import { Glory_800ExtraBold_Italic } from '@expo-google-fonts/glory/800ExtraBold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -87,7 +83,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

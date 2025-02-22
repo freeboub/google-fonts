@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Mina_400Regular = require('./Mina_400Regular.ttf');
-export const Mina_700Bold = require('./Mina_700Bold.ttf');
+export const Mina_400Regular = require('./400Regular/Mina_400Regular.ttf');
+export const Mina_700Bold = require('./700Bold/Mina_700Bold.ttf');

@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/nunito)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/nunito)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/nunito)
 
 This package lets you use the [**Nunito**](https://fonts.google.com/specimen/Nunito) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -34,34 +33,31 @@ This font family contains [16 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/nunito expo-font expo-app-loading
+expo install @expo-google-fonts/nunito expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Nunito_200ExtraLight,
-  Nunito_300Light,
-  Nunito_400Regular,
-  Nunito_500Medium,
-  Nunito_600SemiBold,
-  Nunito_700Bold,
-  Nunito_800ExtraBold,
-  Nunito_900Black,
-  Nunito_200ExtraLight_Italic,
-  Nunito_300Light_Italic,
-  Nunito_400Regular_Italic,
-  Nunito_500Medium_Italic,
-  Nunito_600SemiBold_Italic,
-  Nunito_700Bold_Italic,
-  Nunito_800ExtraBold_Italic,
-  Nunito_900Black_Italic,
-} from '@expo-google-fonts/nunito';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/nunito/useFonts';
+import { Nunito_200ExtraLight } from '@expo-google-fonts/nunito/200ExtraLight';
+import { Nunito_300Light } from '@expo-google-fonts/nunito/300Light';
+import { Nunito_400Regular } from '@expo-google-fonts/nunito/400Regular';
+import { Nunito_500Medium } from '@expo-google-fonts/nunito/500Medium';
+import { Nunito_600SemiBold } from '@expo-google-fonts/nunito/600SemiBold';
+import { Nunito_700Bold } from '@expo-google-fonts/nunito/700Bold';
+import { Nunito_800ExtraBold } from '@expo-google-fonts/nunito/800ExtraBold';
+import { Nunito_900Black } from '@expo-google-fonts/nunito/900Black';
+import { Nunito_200ExtraLight_Italic } from '@expo-google-fonts/nunito/200ExtraLight_Italic';
+import { Nunito_300Light_Italic } from '@expo-google-fonts/nunito/300Light_Italic';
+import { Nunito_400Regular_Italic } from '@expo-google-fonts/nunito/400Regular_Italic';
+import { Nunito_500Medium_Italic } from '@expo-google-fonts/nunito/500Medium_Italic';
+import { Nunito_600SemiBold_Italic } from '@expo-google-fonts/nunito/600SemiBold_Italic';
+import { Nunito_700Bold_Italic } from '@expo-google-fonts/nunito/700Bold_Italic';
+import { Nunito_800ExtraBold_Italic } from '@expo-google-fonts/nunito/800ExtraBold_Italic';
+import { Nunito_900Black_Italic } from '@expo-google-fonts/nunito/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -87,7 +83,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

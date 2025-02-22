@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-rashi-hebrew)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-rashi-hebrew)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/noto-rashi-hebrew)
 
 This package lets you use the [**Noto Rashi Hebrew**](https://fonts.google.com/specimen/Noto+Rashi+Hebrew) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/noto-rashi-hebrew expo-font expo-app-loading
+expo install @expo-google-fonts/noto-rashi-hebrew expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoRashiHebrew_100Thin,
-  NotoRashiHebrew_200ExtraLight,
-  NotoRashiHebrew_300Light,
-  NotoRashiHebrew_400Regular,
-  NotoRashiHebrew_500Medium,
-  NotoRashiHebrew_600SemiBold,
-  NotoRashiHebrew_700Bold,
-  NotoRashiHebrew_800ExtraBold,
-  NotoRashiHebrew_900Black,
-} from '@expo-google-fonts/noto-rashi-hebrew';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/noto-rashi-hebrew/useFonts';
+import { NotoRashiHebrew_100Thin } from '@expo-google-fonts/noto-rashi-hebrew/100Thin';
+import { NotoRashiHebrew_200ExtraLight } from '@expo-google-fonts/noto-rashi-hebrew/200ExtraLight';
+import { NotoRashiHebrew_300Light } from '@expo-google-fonts/noto-rashi-hebrew/300Light';
+import { NotoRashiHebrew_400Regular } from '@expo-google-fonts/noto-rashi-hebrew/400Regular';
+import { NotoRashiHebrew_500Medium } from '@expo-google-fonts/noto-rashi-hebrew/500Medium';
+import { NotoRashiHebrew_600SemiBold } from '@expo-google-fonts/noto-rashi-hebrew/600SemiBold';
+import { NotoRashiHebrew_700Bold } from '@expo-google-fonts/noto-rashi-hebrew/700Bold';
+import { NotoRashiHebrew_800ExtraBold } from '@expo-google-fonts/noto-rashi-hebrew/800ExtraBold';
+import { NotoRashiHebrew_900Black } from '@expo-google-fonts/noto-rashi-hebrew/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

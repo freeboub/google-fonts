@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const NotoZnamennyMusicalNotation_400Regular = require('./NotoZnamennyMusicalNotation_400Regular.ttf');
+export const NotoZnamennyMusicalNotation_400Regular = require('./400Regular/NotoZnamennyMusicalNotation_400Regular.ttf');

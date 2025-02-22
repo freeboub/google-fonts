@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/georama)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/georama)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/georama)
 
 This package lets you use the [**Georama**](https://fonts.google.com/specimen/Georama) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/georama expo-font expo-app-loading
+expo install @expo-google-fonts/georama expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Georama_100Thin,
-  Georama_200ExtraLight,
-  Georama_300Light,
-  Georama_400Regular,
-  Georama_500Medium,
-  Georama_600SemiBold,
-  Georama_700Bold,
-  Georama_800ExtraBold,
-  Georama_900Black,
-  Georama_100Thin_Italic,
-  Georama_200ExtraLight_Italic,
-  Georama_300Light_Italic,
-  Georama_400Regular_Italic,
-  Georama_500Medium_Italic,
-  Georama_600SemiBold_Italic,
-  Georama_700Bold_Italic,
-  Georama_800ExtraBold_Italic,
-  Georama_900Black_Italic,
-} from '@expo-google-fonts/georama';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/georama/useFonts';
+import { Georama_100Thin } from '@expo-google-fonts/georama/100Thin';
+import { Georama_200ExtraLight } from '@expo-google-fonts/georama/200ExtraLight';
+import { Georama_300Light } from '@expo-google-fonts/georama/300Light';
+import { Georama_400Regular } from '@expo-google-fonts/georama/400Regular';
+import { Georama_500Medium } from '@expo-google-fonts/georama/500Medium';
+import { Georama_600SemiBold } from '@expo-google-fonts/georama/600SemiBold';
+import { Georama_700Bold } from '@expo-google-fonts/georama/700Bold';
+import { Georama_800ExtraBold } from '@expo-google-fonts/georama/800ExtraBold';
+import { Georama_900Black } from '@expo-google-fonts/georama/900Black';
+import { Georama_100Thin_Italic } from '@expo-google-fonts/georama/100Thin_Italic';
+import { Georama_200ExtraLight_Italic } from '@expo-google-fonts/georama/200ExtraLight_Italic';
+import { Georama_300Light_Italic } from '@expo-google-fonts/georama/300Light_Italic';
+import { Georama_400Regular_Italic } from '@expo-google-fonts/georama/400Regular_Italic';
+import { Georama_500Medium_Italic } from '@expo-google-fonts/georama/500Medium_Italic';
+import { Georama_600SemiBold_Italic } from '@expo-google-fonts/georama/600SemiBold_Italic';
+import { Georama_700Bold_Italic } from '@expo-google-fonts/georama/700Bold_Italic';
+import { Georama_800ExtraBold_Italic } from '@expo-google-fonts/georama/800ExtraBold_Italic';
+import { Georama_900Black_Italic } from '@expo-google-fonts/georama/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

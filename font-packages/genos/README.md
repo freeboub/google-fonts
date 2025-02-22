@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/genos)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/genos)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/genos)
 
 This package lets you use the [**Genos**](https://fonts.google.com/specimen/Genos) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/genos expo-font expo-app-loading
+expo install @expo-google-fonts/genos expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Genos_100Thin,
-  Genos_200ExtraLight,
-  Genos_300Light,
-  Genos_400Regular,
-  Genos_500Medium,
-  Genos_600SemiBold,
-  Genos_700Bold,
-  Genos_800ExtraBold,
-  Genos_900Black,
-  Genos_100Thin_Italic,
-  Genos_200ExtraLight_Italic,
-  Genos_300Light_Italic,
-  Genos_400Regular_Italic,
-  Genos_500Medium_Italic,
-  Genos_600SemiBold_Italic,
-  Genos_700Bold_Italic,
-  Genos_800ExtraBold_Italic,
-  Genos_900Black_Italic,
-} from '@expo-google-fonts/genos';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/genos/useFonts';
+import { Genos_100Thin } from '@expo-google-fonts/genos/100Thin';
+import { Genos_200ExtraLight } from '@expo-google-fonts/genos/200ExtraLight';
+import { Genos_300Light } from '@expo-google-fonts/genos/300Light';
+import { Genos_400Regular } from '@expo-google-fonts/genos/400Regular';
+import { Genos_500Medium } from '@expo-google-fonts/genos/500Medium';
+import { Genos_600SemiBold } from '@expo-google-fonts/genos/600SemiBold';
+import { Genos_700Bold } from '@expo-google-fonts/genos/700Bold';
+import { Genos_800ExtraBold } from '@expo-google-fonts/genos/800ExtraBold';
+import { Genos_900Black } from '@expo-google-fonts/genos/900Black';
+import { Genos_100Thin_Italic } from '@expo-google-fonts/genos/100Thin_Italic';
+import { Genos_200ExtraLight_Italic } from '@expo-google-fonts/genos/200ExtraLight_Italic';
+import { Genos_300Light_Italic } from '@expo-google-fonts/genos/300Light_Italic';
+import { Genos_400Regular_Italic } from '@expo-google-fonts/genos/400Regular_Italic';
+import { Genos_500Medium_Italic } from '@expo-google-fonts/genos/500Medium_Italic';
+import { Genos_600SemiBold_Italic } from '@expo-google-fonts/genos/600SemiBold_Italic';
+import { Genos_700Bold_Italic } from '@expo-google-fonts/genos/700Bold_Italic';
+import { Genos_800ExtraBold_Italic } from '@expo-google-fonts/genos/800ExtraBold_Italic';
+import { Genos_900Black_Italic } from '@expo-google-fonts/genos/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

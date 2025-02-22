@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-sans-thai-looped)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-sans-thai-looped)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/noto-sans-thai-looped)
 
 This package lets you use the [**Noto Sans Thai Looped**](https://fonts.google.com/specimen/Noto+Sans+Thai+Looped) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/noto-sans-thai-looped expo-font expo-app-loading
+expo install @expo-google-fonts/noto-sans-thai-looped expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSansThaiLooped_100Thin,
-  NotoSansThaiLooped_200ExtraLight,
-  NotoSansThaiLooped_300Light,
-  NotoSansThaiLooped_400Regular,
-  NotoSansThaiLooped_500Medium,
-  NotoSansThaiLooped_600SemiBold,
-  NotoSansThaiLooped_700Bold,
-  NotoSansThaiLooped_800ExtraBold,
-  NotoSansThaiLooped_900Black,
-} from '@expo-google-fonts/noto-sans-thai-looped';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/noto-sans-thai-looped/useFonts';
+import { NotoSansThaiLooped_100Thin } from '@expo-google-fonts/noto-sans-thai-looped/100Thin';
+import { NotoSansThaiLooped_200ExtraLight } from '@expo-google-fonts/noto-sans-thai-looped/200ExtraLight';
+import { NotoSansThaiLooped_300Light } from '@expo-google-fonts/noto-sans-thai-looped/300Light';
+import { NotoSansThaiLooped_400Regular } from '@expo-google-fonts/noto-sans-thai-looped/400Regular';
+import { NotoSansThaiLooped_500Medium } from '@expo-google-fonts/noto-sans-thai-looped/500Medium';
+import { NotoSansThaiLooped_600SemiBold } from '@expo-google-fonts/noto-sans-thai-looped/600SemiBold';
+import { NotoSansThaiLooped_700Bold } from '@expo-google-fonts/noto-sans-thai-looped/700Bold';
+import { NotoSansThaiLooped_800ExtraBold } from '@expo-google-fonts/noto-sans-thai-looped/800ExtraBold';
+import { NotoSansThaiLooped_900Black } from '@expo-google-fonts/noto-sans-thai-looped/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

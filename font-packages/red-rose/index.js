@@ -2,11 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const RedRose_300Light = require('./RedRose_300Light.ttf');
-export const RedRose_400Regular = require('./RedRose_400Regular.ttf');
-export const RedRose_500Medium = require('./RedRose_500Medium.ttf');
-export const RedRose_600SemiBold = require('./RedRose_600SemiBold.ttf');
-export const RedRose_700Bold = require('./RedRose_700Bold.ttf');
+export const RedRose_300Light = require('./300Light/RedRose_300Light.ttf');
+export const RedRose_400Regular = require('./400Regular/RedRose_400Regular.ttf');
+export const RedRose_500Medium = require('./500Medium/RedRose_500Medium.ttf');
+export const RedRose_600SemiBold = require('./600SemiBold/RedRose_600SemiBold.ttf');
+export const RedRose_700Bold = require('./700Bold/RedRose_700Bold.ttf');

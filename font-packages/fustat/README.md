@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/fustat)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/fustat)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/fustat)
 
 This package lets you use the [**Fustat**](https://fonts.google.com/specimen/Fustat) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -25,25 +24,22 @@ This font family contains [7 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/fustat expo-font expo-app-loading
+expo install @expo-google-fonts/fustat expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Fustat_200ExtraLight,
-  Fustat_300Light,
-  Fustat_400Regular,
-  Fustat_500Medium,
-  Fustat_600SemiBold,
-  Fustat_700Bold,
-  Fustat_800ExtraBold,
-} from '@expo-google-fonts/fustat';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/fustat/useFonts';
+import { Fustat_200ExtraLight } from '@expo-google-fonts/fustat/200ExtraLight';
+import { Fustat_300Light } from '@expo-google-fonts/fustat/300Light';
+import { Fustat_400Regular } from '@expo-google-fonts/fustat/400Regular';
+import { Fustat_500Medium } from '@expo-google-fonts/fustat/500Medium';
+import { Fustat_600SemiBold } from '@expo-google-fonts/fustat/600SemiBold';
+import { Fustat_700Bold } from '@expo-google-fonts/fustat/700Bold';
+import { Fustat_800ExtraBold } from '@expo-google-fonts/fustat/800ExtraBold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -60,7 +56,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

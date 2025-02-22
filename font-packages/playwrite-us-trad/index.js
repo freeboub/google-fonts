@@ -2,10 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const PlaywriteUSTrad_100Thin = require('./PlaywriteUSTrad_100Thin.ttf');
-export const PlaywriteUSTrad_200ExtraLight = require('./PlaywriteUSTrad_200ExtraLight.ttf');
-export const PlaywriteUSTrad_300Light = require('./PlaywriteUSTrad_300Light.ttf');
-export const PlaywriteUSTrad_400Regular = require('./PlaywriteUSTrad_400Regular.ttf');
+export const PlaywriteUSTrad_100Thin = require('./100Thin/PlaywriteUSTrad_100Thin.ttf');
+export const PlaywriteUSTrad_200ExtraLight = require('./200ExtraLight/PlaywriteUSTrad_200ExtraLight.ttf');
+export const PlaywriteUSTrad_300Light = require('./300Light/PlaywriteUSTrad_300Light.ttf');
+export const PlaywriteUSTrad_400Regular = require('./400Regular/PlaywriteUSTrad_400Regular.ttf');

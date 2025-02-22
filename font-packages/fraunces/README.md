@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/fraunces)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/fraunces)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/fraunces)
 
 This package lets you use the [**Fraunces**](https://fonts.google.com/specimen/Fraunces) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/fraunces expo-font expo-app-loading
+expo install @expo-google-fonts/fraunces expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Fraunces_100Thin,
-  Fraunces_200ExtraLight,
-  Fraunces_300Light,
-  Fraunces_400Regular,
-  Fraunces_500Medium,
-  Fraunces_600SemiBold,
-  Fraunces_700Bold,
-  Fraunces_800ExtraBold,
-  Fraunces_900Black,
-  Fraunces_100Thin_Italic,
-  Fraunces_200ExtraLight_Italic,
-  Fraunces_300Light_Italic,
-  Fraunces_400Regular_Italic,
-  Fraunces_500Medium_Italic,
-  Fraunces_600SemiBold_Italic,
-  Fraunces_700Bold_Italic,
-  Fraunces_800ExtraBold_Italic,
-  Fraunces_900Black_Italic,
-} from '@expo-google-fonts/fraunces';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/fraunces/useFonts';
+import { Fraunces_100Thin } from '@expo-google-fonts/fraunces/100Thin';
+import { Fraunces_200ExtraLight } from '@expo-google-fonts/fraunces/200ExtraLight';
+import { Fraunces_300Light } from '@expo-google-fonts/fraunces/300Light';
+import { Fraunces_400Regular } from '@expo-google-fonts/fraunces/400Regular';
+import { Fraunces_500Medium } from '@expo-google-fonts/fraunces/500Medium';
+import { Fraunces_600SemiBold } from '@expo-google-fonts/fraunces/600SemiBold';
+import { Fraunces_700Bold } from '@expo-google-fonts/fraunces/700Bold';
+import { Fraunces_800ExtraBold } from '@expo-google-fonts/fraunces/800ExtraBold';
+import { Fraunces_900Black } from '@expo-google-fonts/fraunces/900Black';
+import { Fraunces_100Thin_Italic } from '@expo-google-fonts/fraunces/100Thin_Italic';
+import { Fraunces_200ExtraLight_Italic } from '@expo-google-fonts/fraunces/200ExtraLight_Italic';
+import { Fraunces_300Light_Italic } from '@expo-google-fonts/fraunces/300Light_Italic';
+import { Fraunces_400Regular_Italic } from '@expo-google-fonts/fraunces/400Regular_Italic';
+import { Fraunces_500Medium_Italic } from '@expo-google-fonts/fraunces/500Medium_Italic';
+import { Fraunces_600SemiBold_Italic } from '@expo-google-fonts/fraunces/600SemiBold_Italic';
+import { Fraunces_700Bold_Italic } from '@expo-google-fonts/fraunces/700Bold_Italic';
+import { Fraunces_800ExtraBold_Italic } from '@expo-google-fonts/fraunces/800ExtraBold_Italic';
+import { Fraunces_900Black_Italic } from '@expo-google-fonts/fraunces/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

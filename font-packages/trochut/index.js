@@ -2,9 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Trochut_400Regular = require('./Trochut_400Regular.ttf');
-export const Trochut_400Regular_Italic = require('./Trochut_400Regular_Italic.ttf');
-export const Trochut_700Bold = require('./Trochut_700Bold.ttf');
+export const Trochut_400Regular = require('./400Regular/Trochut_400Regular.ttf');
+export const Trochut_400Regular_Italic = require('./400Regular_Italic/Trochut_400Regular_Italic.ttf');
+export const Trochut_700Bold = require('./700Bold/Trochut_700Bold.ttf');

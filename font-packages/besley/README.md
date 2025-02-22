@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/besley)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/besley)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/besley)
 
 This package lets you use the [**Besley**](https://fonts.google.com/specimen/Besley) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -30,30 +29,27 @@ This font family contains [12 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/besley expo-font expo-app-loading
+expo install @expo-google-fonts/besley expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Besley_400Regular,
-  Besley_500Medium,
-  Besley_600SemiBold,
-  Besley_700Bold,
-  Besley_800ExtraBold,
-  Besley_900Black,
-  Besley_400Regular_Italic,
-  Besley_500Medium_Italic,
-  Besley_600SemiBold_Italic,
-  Besley_700Bold_Italic,
-  Besley_800ExtraBold_Italic,
-  Besley_900Black_Italic,
-} from '@expo-google-fonts/besley';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/besley/useFonts';
+import { Besley_400Regular } from '@expo-google-fonts/besley/400Regular';
+import { Besley_500Medium } from '@expo-google-fonts/besley/500Medium';
+import { Besley_600SemiBold } from '@expo-google-fonts/besley/600SemiBold';
+import { Besley_700Bold } from '@expo-google-fonts/besley/700Bold';
+import { Besley_800ExtraBold } from '@expo-google-fonts/besley/800ExtraBold';
+import { Besley_900Black } from '@expo-google-fonts/besley/900Black';
+import { Besley_400Regular_Italic } from '@expo-google-fonts/besley/400Regular_Italic';
+import { Besley_500Medium_Italic } from '@expo-google-fonts/besley/500Medium_Italic';
+import { Besley_600SemiBold_Italic } from '@expo-google-fonts/besley/600SemiBold_Italic';
+import { Besley_700Bold_Italic } from '@expo-google-fonts/besley/700Bold_Italic';
+import { Besley_800ExtraBold_Italic } from '@expo-google-fonts/besley/800ExtraBold_Italic';
+import { Besley_900Black_Italic } from '@expo-google-fonts/besley/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -75,7 +71,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const ShadowsIntoLightTwo_400Regular = require('./ShadowsIntoLightTwo_400Regular.ttf');
+export const ShadowsIntoLightTwo_400Regular = require('./400Regular/ShadowsIntoLightTwo_400Regular.ttf');

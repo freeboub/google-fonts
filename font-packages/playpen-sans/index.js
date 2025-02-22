@@ -2,14 +2,14 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const PlaypenSans_100Thin = require('./PlaypenSans_100Thin.ttf');
-export const PlaypenSans_200ExtraLight = require('./PlaypenSans_200ExtraLight.ttf');
-export const PlaypenSans_300Light = require('./PlaypenSans_300Light.ttf');
-export const PlaypenSans_400Regular = require('./PlaypenSans_400Regular.ttf');
-export const PlaypenSans_500Medium = require('./PlaypenSans_500Medium.ttf');
-export const PlaypenSans_600SemiBold = require('./PlaypenSans_600SemiBold.ttf');
-export const PlaypenSans_700Bold = require('./PlaypenSans_700Bold.ttf');
-export const PlaypenSans_800ExtraBold = require('./PlaypenSans_800ExtraBold.ttf');
+export const PlaypenSans_100Thin = require('./100Thin/PlaypenSans_100Thin.ttf');
+export const PlaypenSans_200ExtraLight = require('./200ExtraLight/PlaypenSans_200ExtraLight.ttf');
+export const PlaypenSans_300Light = require('./300Light/PlaypenSans_300Light.ttf');
+export const PlaypenSans_400Regular = require('./400Regular/PlaypenSans_400Regular.ttf');
+export const PlaypenSans_500Medium = require('./500Medium/PlaypenSans_500Medium.ttf');
+export const PlaypenSans_600SemiBold = require('./600SemiBold/PlaypenSans_600SemiBold.ttf');
+export const PlaypenSans_700Bold = require('./700Bold/PlaypenSans_700Bold.ttf');
+export const PlaypenSans_800ExtraBold = require('./800ExtraBold/PlaypenSans_800ExtraBold.ttf');

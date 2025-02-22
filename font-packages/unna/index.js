@@ -2,10 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Unna_400Regular = require('./Unna_400Regular.ttf');
-export const Unna_400Regular_Italic = require('./Unna_400Regular_Italic.ttf');
-export const Unna_700Bold = require('./Unna_700Bold.ttf');
-export const Unna_700Bold_Italic = require('./Unna_700Bold_Italic.ttf');
+export const Unna_400Regular = require('./400Regular/Unna_400Regular.ttf');
+export const Unna_400Regular_Italic = require('./400Regular_Italic/Unna_400Regular_Italic.ttf');
+export const Unna_700Bold = require('./700Bold/Unna_700Bold.ttf');
+export const Unna_700Bold_Italic = require('./700Bold_Italic/Unna_700Bold_Italic.ttf');

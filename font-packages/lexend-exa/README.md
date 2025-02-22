@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/lexend-exa)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/lexend-exa)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/lexend-exa)
 
 This package lets you use the [**Lexend Exa**](https://fonts.google.com/specimen/Lexend+Exa) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/lexend-exa expo-font expo-app-loading
+expo install @expo-google-fonts/lexend-exa expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  LexendExa_100Thin,
-  LexendExa_200ExtraLight,
-  LexendExa_300Light,
-  LexendExa_400Regular,
-  LexendExa_500Medium,
-  LexendExa_600SemiBold,
-  LexendExa_700Bold,
-  LexendExa_800ExtraBold,
-  LexendExa_900Black,
-} from '@expo-google-fonts/lexend-exa';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/lexend-exa/useFonts';
+import { LexendExa_100Thin } from '@expo-google-fonts/lexend-exa/100Thin';
+import { LexendExa_200ExtraLight } from '@expo-google-fonts/lexend-exa/200ExtraLight';
+import { LexendExa_300Light } from '@expo-google-fonts/lexend-exa/300Light';
+import { LexendExa_400Regular } from '@expo-google-fonts/lexend-exa/400Regular';
+import { LexendExa_500Medium } from '@expo-google-fonts/lexend-exa/500Medium';
+import { LexendExa_600SemiBold } from '@expo-google-fonts/lexend-exa/600SemiBold';
+import { LexendExa_700Bold } from '@expo-google-fonts/lexend-exa/700Bold';
+import { LexendExa_800ExtraBold } from '@expo-google-fonts/lexend-exa/800ExtraBold';
+import { LexendExa_900Black } from '@expo-google-fonts/lexend-exa/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/reddit-mono)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/reddit-mono)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/reddit-mono)
 
 This package lets you use the [**Reddit Mono**](https://fonts.google.com/specimen/Reddit+Mono) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -26,26 +25,23 @@ This font family contains [8 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/reddit-mono expo-font expo-app-loading
+expo install @expo-google-fonts/reddit-mono expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  RedditMono_200ExtraLight,
-  RedditMono_300Light,
-  RedditMono_400Regular,
-  RedditMono_500Medium,
-  RedditMono_600SemiBold,
-  RedditMono_700Bold,
-  RedditMono_800ExtraBold,
-  RedditMono_900Black,
-} from '@expo-google-fonts/reddit-mono';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/reddit-mono/useFonts';
+import { RedditMono_200ExtraLight } from '@expo-google-fonts/reddit-mono/200ExtraLight';
+import { RedditMono_300Light } from '@expo-google-fonts/reddit-mono/300Light';
+import { RedditMono_400Regular } from '@expo-google-fonts/reddit-mono/400Regular';
+import { RedditMono_500Medium } from '@expo-google-fonts/reddit-mono/500Medium';
+import { RedditMono_600SemiBold } from '@expo-google-fonts/reddit-mono/600SemiBold';
+import { RedditMono_700Bold } from '@expo-google-fonts/reddit-mono/700Bold';
+import { RedditMono_800ExtraBold } from '@expo-google-fonts/reddit-mono/800ExtraBold';
+import { RedditMono_900Black } from '@expo-google-fonts/reddit-mono/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -63,7 +59,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

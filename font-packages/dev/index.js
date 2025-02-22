@@ -2,7 +2,6 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
 export const Shafarik_400Regular =
   'https://fonts.gstatic.com/s/shafarik/v3/RWmLoKaF7PojpZXlW52sbsHKqLkD.ttf';
 export const Monomakh_400Regular =

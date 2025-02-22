@@ -2,11 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Khula_300Light = require('./Khula_300Light.ttf');
-export const Khula_400Regular = require('./Khula_400Regular.ttf');
-export const Khula_600SemiBold = require('./Khula_600SemiBold.ttf');
-export const Khula_700Bold = require('./Khula_700Bold.ttf');
-export const Khula_800ExtraBold = require('./Khula_800ExtraBold.ttf');
+export const Khula_300Light = require('./300Light/Khula_300Light.ttf');
+export const Khula_400Regular = require('./400Regular/Khula_400Regular.ttf');
+export const Khula_600SemiBold = require('./600SemiBold/Khula_600SemiBold.ttf');
+export const Khula_700Bold = require('./700Bold/Khula_700Bold.ttf');
+export const Khula_800ExtraBold = require('./800ExtraBold/Khula_800ExtraBold.ttf');

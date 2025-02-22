@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/elsie-swash-caps)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/elsie-swash-caps)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/elsie-swash-caps)
 
 This package lets you use the [**Elsie Swash Caps**](https://fonts.google.com/specimen/Elsie+Swash+Caps) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -20,20 +19,17 @@ This font family contains [2 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/elsie-swash-caps expo-font expo-app-loading
+expo install @expo-google-fonts/elsie-swash-caps expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  ElsieSwashCaps_400Regular,
-  ElsieSwashCaps_900Black,
-} from '@expo-google-fonts/elsie-swash-caps';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/elsie-swash-caps/useFonts';
+import { ElsieSwashCaps_400Regular } from '@expo-google-fonts/elsie-swash-caps/400Regular';
+import { ElsieSwashCaps_900Black } from '@expo-google-fonts/elsie-swash-caps/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -45,7 +41,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

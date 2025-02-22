@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/m-plus-1)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/m-plus-1)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/m-plus-1)
 
 This package lets you use the [**M PLUS 1**](https://fonts.google.com/specimen/M+PLUS+1) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/m-plus-1 expo-font expo-app-loading
+expo install @expo-google-fonts/m-plus-1 expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  MPLUS1_100Thin,
-  MPLUS1_200ExtraLight,
-  MPLUS1_300Light,
-  MPLUS1_400Regular,
-  MPLUS1_500Medium,
-  MPLUS1_600SemiBold,
-  MPLUS1_700Bold,
-  MPLUS1_800ExtraBold,
-  MPLUS1_900Black,
-} from '@expo-google-fonts/m-plus-1';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/m-plus-1/useFonts';
+import { MPLUS1_100Thin } from '@expo-google-fonts/m-plus-1/100Thin';
+import { MPLUS1_200ExtraLight } from '@expo-google-fonts/m-plus-1/200ExtraLight';
+import { MPLUS1_300Light } from '@expo-google-fonts/m-plus-1/300Light';
+import { MPLUS1_400Regular } from '@expo-google-fonts/m-plus-1/400Regular';
+import { MPLUS1_500Medium } from '@expo-google-fonts/m-plus-1/500Medium';
+import { MPLUS1_600SemiBold } from '@expo-google-fonts/m-plus-1/600SemiBold';
+import { MPLUS1_700Bold } from '@expo-google-fonts/m-plus-1/700Bold';
+import { MPLUS1_800ExtraBold } from '@expo-google-fonts/m-plus-1/800ExtraBold';
+import { MPLUS1_900Black } from '@expo-google-fonts/m-plus-1/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

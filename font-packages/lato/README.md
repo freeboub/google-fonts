@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/lato)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/lato)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/lato)
 
 This package lets you use the [**Lato**](https://fonts.google.com/specimen/Lato) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -28,28 +27,25 @@ This font family contains [10 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/lato expo-font expo-app-loading
+expo install @expo-google-fonts/lato expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Lato_100Thin,
-  Lato_100Thin_Italic,
-  Lato_300Light,
-  Lato_300Light_Italic,
-  Lato_400Regular,
-  Lato_400Regular_Italic,
-  Lato_700Bold,
-  Lato_700Bold_Italic,
-  Lato_900Black,
-  Lato_900Black_Italic,
-} from '@expo-google-fonts/lato';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/lato/useFonts';
+import { Lato_100Thin } from '@expo-google-fonts/lato/100Thin';
+import { Lato_100Thin_Italic } from '@expo-google-fonts/lato/100Thin_Italic';
+import { Lato_300Light } from '@expo-google-fonts/lato/300Light';
+import { Lato_300Light_Italic } from '@expo-google-fonts/lato/300Light_Italic';
+import { Lato_400Regular } from '@expo-google-fonts/lato/400Regular';
+import { Lato_400Regular_Italic } from '@expo-google-fonts/lato/400Regular_Italic';
+import { Lato_700Bold } from '@expo-google-fonts/lato/700Bold';
+import { Lato_700Bold_Italic } from '@expo-google-fonts/lato/700Bold_Italic';
+import { Lato_900Black } from '@expo-google-fonts/lato/900Black';
+import { Lato_900Black_Italic } from '@expo-google-fonts/lato/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -69,7 +65,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

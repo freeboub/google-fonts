@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/platypi)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/platypi)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/platypi)
 
 This package lets you use the [**Platypi**](https://fonts.google.com/specimen/Platypi) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -30,30 +29,27 @@ This font family contains [12 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/platypi expo-font expo-app-loading
+expo install @expo-google-fonts/platypi expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Platypi_300Light,
-  Platypi_400Regular,
-  Platypi_500Medium,
-  Platypi_600SemiBold,
-  Platypi_700Bold,
-  Platypi_800ExtraBold,
-  Platypi_300Light_Italic,
-  Platypi_400Regular_Italic,
-  Platypi_500Medium_Italic,
-  Platypi_600SemiBold_Italic,
-  Platypi_700Bold_Italic,
-  Platypi_800ExtraBold_Italic,
-} from '@expo-google-fonts/platypi';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/platypi/useFonts';
+import { Platypi_300Light } from '@expo-google-fonts/platypi/300Light';
+import { Platypi_400Regular } from '@expo-google-fonts/platypi/400Regular';
+import { Platypi_500Medium } from '@expo-google-fonts/platypi/500Medium';
+import { Platypi_600SemiBold } from '@expo-google-fonts/platypi/600SemiBold';
+import { Platypi_700Bold } from '@expo-google-fonts/platypi/700Bold';
+import { Platypi_800ExtraBold } from '@expo-google-fonts/platypi/800ExtraBold';
+import { Platypi_300Light_Italic } from '@expo-google-fonts/platypi/300Light_Italic';
+import { Platypi_400Regular_Italic } from '@expo-google-fonts/platypi/400Regular_Italic';
+import { Platypi_500Medium_Italic } from '@expo-google-fonts/platypi/500Medium_Italic';
+import { Platypi_600SemiBold_Italic } from '@expo-google-fonts/platypi/600SemiBold_Italic';
+import { Platypi_700Bold_Italic } from '@expo-google-fonts/platypi/700Bold_Italic';
+import { Platypi_800ExtraBold_Italic } from '@expo-google-fonts/platypi/800ExtraBold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -75,7 +71,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

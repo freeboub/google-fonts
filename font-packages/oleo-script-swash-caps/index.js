@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const OleoScriptSwashCaps_400Regular = require('./OleoScriptSwashCaps_400Regular.ttf');
-export const OleoScriptSwashCaps_700Bold = require('./OleoScriptSwashCaps_700Bold.ttf');
+export const OleoScriptSwashCaps_400Regular = require('./400Regular/OleoScriptSwashCaps_400Regular.ttf');
+export const OleoScriptSwashCaps_700Bold = require('./700Bold/OleoScriptSwashCaps_700Bold.ttf');

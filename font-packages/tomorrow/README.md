@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/tomorrow)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/tomorrow)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/tomorrow)
 
 This package lets you use the [**Tomorrow**](https://fonts.google.com/specimen/Tomorrow) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/tomorrow expo-font expo-app-loading
+expo install @expo-google-fonts/tomorrow expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Tomorrow_100Thin,
-  Tomorrow_100Thin_Italic,
-  Tomorrow_200ExtraLight,
-  Tomorrow_200ExtraLight_Italic,
-  Tomorrow_300Light,
-  Tomorrow_300Light_Italic,
-  Tomorrow_400Regular,
-  Tomorrow_400Regular_Italic,
-  Tomorrow_500Medium,
-  Tomorrow_500Medium_Italic,
-  Tomorrow_600SemiBold,
-  Tomorrow_600SemiBold_Italic,
-  Tomorrow_700Bold,
-  Tomorrow_700Bold_Italic,
-  Tomorrow_800ExtraBold,
-  Tomorrow_800ExtraBold_Italic,
-  Tomorrow_900Black,
-  Tomorrow_900Black_Italic,
-} from '@expo-google-fonts/tomorrow';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/tomorrow/useFonts';
+import { Tomorrow_100Thin } from '@expo-google-fonts/tomorrow/100Thin';
+import { Tomorrow_100Thin_Italic } from '@expo-google-fonts/tomorrow/100Thin_Italic';
+import { Tomorrow_200ExtraLight } from '@expo-google-fonts/tomorrow/200ExtraLight';
+import { Tomorrow_200ExtraLight_Italic } from '@expo-google-fonts/tomorrow/200ExtraLight_Italic';
+import { Tomorrow_300Light } from '@expo-google-fonts/tomorrow/300Light';
+import { Tomorrow_300Light_Italic } from '@expo-google-fonts/tomorrow/300Light_Italic';
+import { Tomorrow_400Regular } from '@expo-google-fonts/tomorrow/400Regular';
+import { Tomorrow_400Regular_Italic } from '@expo-google-fonts/tomorrow/400Regular_Italic';
+import { Tomorrow_500Medium } from '@expo-google-fonts/tomorrow/500Medium';
+import { Tomorrow_500Medium_Italic } from '@expo-google-fonts/tomorrow/500Medium_Italic';
+import { Tomorrow_600SemiBold } from '@expo-google-fonts/tomorrow/600SemiBold';
+import { Tomorrow_600SemiBold_Italic } from '@expo-google-fonts/tomorrow/600SemiBold_Italic';
+import { Tomorrow_700Bold } from '@expo-google-fonts/tomorrow/700Bold';
+import { Tomorrow_700Bold_Italic } from '@expo-google-fonts/tomorrow/700Bold_Italic';
+import { Tomorrow_800ExtraBold } from '@expo-google-fonts/tomorrow/800ExtraBold';
+import { Tomorrow_800ExtraBold_Italic } from '@expo-google-fonts/tomorrow/800ExtraBold_Italic';
+import { Tomorrow_900Black } from '@expo-google-fonts/tomorrow/900Black';
+import { Tomorrow_900Black_Italic } from '@expo-google-fonts/tomorrow/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

@@ -2,10 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const EduTASBeginner_400Regular = require('./EduTASBeginner_400Regular.ttf');
-export const EduTASBeginner_500Medium = require('./EduTASBeginner_500Medium.ttf');
-export const EduTASBeginner_600SemiBold = require('./EduTASBeginner_600SemiBold.ttf');
-export const EduTASBeginner_700Bold = require('./EduTASBeginner_700Bold.ttf');
+export const EduTASBeginner_400Regular = require('./400Regular/EduTASBeginner_400Regular.ttf');
+export const EduTASBeginner_500Medium = require('./500Medium/EduTASBeginner_500Medium.ttf');
+export const EduTASBeginner_600SemiBold = require('./600SemiBold/EduTASBeginner_600SemiBold.ttf');
+export const EduTASBeginner_700Bold = require('./700Bold/EduTASBeginner_700Bold.ttf');

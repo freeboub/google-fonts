@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/grandstander)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/grandstander)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/grandstander)
 
 This package lets you use the [**Grandstander**](https://fonts.google.com/specimen/Grandstander) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/grandstander expo-font expo-app-loading
+expo install @expo-google-fonts/grandstander expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Grandstander_100Thin,
-  Grandstander_200ExtraLight,
-  Grandstander_300Light,
-  Grandstander_400Regular,
-  Grandstander_500Medium,
-  Grandstander_600SemiBold,
-  Grandstander_700Bold,
-  Grandstander_800ExtraBold,
-  Grandstander_900Black,
-  Grandstander_100Thin_Italic,
-  Grandstander_200ExtraLight_Italic,
-  Grandstander_300Light_Italic,
-  Grandstander_400Regular_Italic,
-  Grandstander_500Medium_Italic,
-  Grandstander_600SemiBold_Italic,
-  Grandstander_700Bold_Italic,
-  Grandstander_800ExtraBold_Italic,
-  Grandstander_900Black_Italic,
-} from '@expo-google-fonts/grandstander';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/grandstander/useFonts';
+import { Grandstander_100Thin } from '@expo-google-fonts/grandstander/100Thin';
+import { Grandstander_200ExtraLight } from '@expo-google-fonts/grandstander/200ExtraLight';
+import { Grandstander_300Light } from '@expo-google-fonts/grandstander/300Light';
+import { Grandstander_400Regular } from '@expo-google-fonts/grandstander/400Regular';
+import { Grandstander_500Medium } from '@expo-google-fonts/grandstander/500Medium';
+import { Grandstander_600SemiBold } from '@expo-google-fonts/grandstander/600SemiBold';
+import { Grandstander_700Bold } from '@expo-google-fonts/grandstander/700Bold';
+import { Grandstander_800ExtraBold } from '@expo-google-fonts/grandstander/800ExtraBold';
+import { Grandstander_900Black } from '@expo-google-fonts/grandstander/900Black';
+import { Grandstander_100Thin_Italic } from '@expo-google-fonts/grandstander/100Thin_Italic';
+import { Grandstander_200ExtraLight_Italic } from '@expo-google-fonts/grandstander/200ExtraLight_Italic';
+import { Grandstander_300Light_Italic } from '@expo-google-fonts/grandstander/300Light_Italic';
+import { Grandstander_400Regular_Italic } from '@expo-google-fonts/grandstander/400Regular_Italic';
+import { Grandstander_500Medium_Italic } from '@expo-google-fonts/grandstander/500Medium_Italic';
+import { Grandstander_600SemiBold_Italic } from '@expo-google-fonts/grandstander/600SemiBold_Italic';
+import { Grandstander_700Bold_Italic } from '@expo-google-fonts/grandstander/700Bold_Italic';
+import { Grandstander_800ExtraBold_Italic } from '@expo-google-fonts/grandstander/800ExtraBold_Italic';
+import { Grandstander_900Black_Italic } from '@expo-google-fonts/grandstander/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

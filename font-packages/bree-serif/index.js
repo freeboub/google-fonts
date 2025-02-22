@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const BreeSerif_400Regular = require('./BreeSerif_400Regular.ttf');
+export const BreeSerif_400Regular = require('./400Regular/BreeSerif_400Regular.ttf');

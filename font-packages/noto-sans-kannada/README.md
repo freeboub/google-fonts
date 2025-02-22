@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-sans-kannada)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-sans-kannada)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/noto-sans-kannada)
 
 This package lets you use the [**Noto Sans Kannada**](https://fonts.google.com/specimen/Noto+Sans+Kannada) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/noto-sans-kannada expo-font expo-app-loading
+expo install @expo-google-fonts/noto-sans-kannada expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSansKannada_100Thin,
-  NotoSansKannada_200ExtraLight,
-  NotoSansKannada_300Light,
-  NotoSansKannada_400Regular,
-  NotoSansKannada_500Medium,
-  NotoSansKannada_600SemiBold,
-  NotoSansKannada_700Bold,
-  NotoSansKannada_800ExtraBold,
-  NotoSansKannada_900Black,
-} from '@expo-google-fonts/noto-sans-kannada';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/noto-sans-kannada/useFonts';
+import { NotoSansKannada_100Thin } from '@expo-google-fonts/noto-sans-kannada/100Thin';
+import { NotoSansKannada_200ExtraLight } from '@expo-google-fonts/noto-sans-kannada/200ExtraLight';
+import { NotoSansKannada_300Light } from '@expo-google-fonts/noto-sans-kannada/300Light';
+import { NotoSansKannada_400Regular } from '@expo-google-fonts/noto-sans-kannada/400Regular';
+import { NotoSansKannada_500Medium } from '@expo-google-fonts/noto-sans-kannada/500Medium';
+import { NotoSansKannada_600SemiBold } from '@expo-google-fonts/noto-sans-kannada/600SemiBold';
+import { NotoSansKannada_700Bold } from '@expo-google-fonts/noto-sans-kannada/700Bold';
+import { NotoSansKannada_800ExtraBold } from '@expo-google-fonts/noto-sans-kannada/800ExtraBold';
+import { NotoSansKannada_900Black } from '@expo-google-fonts/noto-sans-kannada/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

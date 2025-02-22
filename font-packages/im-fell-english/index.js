@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const IMFellEnglish_400Regular = require('./IMFellEnglish_400Regular.ttf');
-export const IMFellEnglish_400Regular_Italic = require('./IMFellEnglish_400Regular_Italic.ttf');
+export const IMFellEnglish_400Regular = require('./400Regular/IMFellEnglish_400Regular.ttf');
+export const IMFellEnglish_400Regular_Italic = require('./400Regular_Italic/IMFellEnglish_400Regular_Italic.ttf');

@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Rakkas_400Regular = require('./Rakkas_400Regular.ttf');
+export const Rakkas_400Regular = require('./400Regular/Rakkas_400Regular.ttf');

@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/radio-canada)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/radio-canada)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/radio-canada)
 
 This package lets you use the [**Radio Canada**](https://fonts.google.com/specimen/Radio+Canada) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -28,28 +27,25 @@ This font family contains [10 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/radio-canada expo-font expo-app-loading
+expo install @expo-google-fonts/radio-canada expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  RadioCanada_300Light,
-  RadioCanada_400Regular,
-  RadioCanada_500Medium,
-  RadioCanada_600SemiBold,
-  RadioCanada_700Bold,
-  RadioCanada_300Light_Italic,
-  RadioCanada_400Regular_Italic,
-  RadioCanada_500Medium_Italic,
-  RadioCanada_600SemiBold_Italic,
-  RadioCanada_700Bold_Italic,
-} from '@expo-google-fonts/radio-canada';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/radio-canada/useFonts';
+import { RadioCanada_300Light } from '@expo-google-fonts/radio-canada/300Light';
+import { RadioCanada_400Regular } from '@expo-google-fonts/radio-canada/400Regular';
+import { RadioCanada_500Medium } from '@expo-google-fonts/radio-canada/500Medium';
+import { RadioCanada_600SemiBold } from '@expo-google-fonts/radio-canada/600SemiBold';
+import { RadioCanada_700Bold } from '@expo-google-fonts/radio-canada/700Bold';
+import { RadioCanada_300Light_Italic } from '@expo-google-fonts/radio-canada/300Light_Italic';
+import { RadioCanada_400Regular_Italic } from '@expo-google-fonts/radio-canada/400Regular_Italic';
+import { RadioCanada_500Medium_Italic } from '@expo-google-fonts/radio-canada/500Medium_Italic';
+import { RadioCanada_600SemiBold_Italic } from '@expo-google-fonts/radio-canada/600SemiBold_Italic';
+import { RadioCanada_700Bold_Italic } from '@expo-google-fonts/radio-canada/700Bold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -69,7 +65,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

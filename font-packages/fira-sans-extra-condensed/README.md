@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/fira-sans-extra-condensed)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/fira-sans-extra-condensed)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/fira-sans-extra-condensed)
 
 This package lets you use the [**Fira Sans Extra Condensed**](https://fonts.google.com/specimen/Fira+Sans+Extra+Condensed) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/fira-sans-extra-condensed expo-font expo-app-loading
+expo install @expo-google-fonts/fira-sans-extra-condensed expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  FiraSansExtraCondensed_100Thin,
-  FiraSansExtraCondensed_100Thin_Italic,
-  FiraSansExtraCondensed_200ExtraLight,
-  FiraSansExtraCondensed_200ExtraLight_Italic,
-  FiraSansExtraCondensed_300Light,
-  FiraSansExtraCondensed_300Light_Italic,
-  FiraSansExtraCondensed_400Regular,
-  FiraSansExtraCondensed_400Regular_Italic,
-  FiraSansExtraCondensed_500Medium,
-  FiraSansExtraCondensed_500Medium_Italic,
-  FiraSansExtraCondensed_600SemiBold,
-  FiraSansExtraCondensed_600SemiBold_Italic,
-  FiraSansExtraCondensed_700Bold,
-  FiraSansExtraCondensed_700Bold_Italic,
-  FiraSansExtraCondensed_800ExtraBold,
-  FiraSansExtraCondensed_800ExtraBold_Italic,
-  FiraSansExtraCondensed_900Black,
-  FiraSansExtraCondensed_900Black_Italic,
-} from '@expo-google-fonts/fira-sans-extra-condensed';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/fira-sans-extra-condensed/useFonts';
+import { FiraSansExtraCondensed_100Thin } from '@expo-google-fonts/fira-sans-extra-condensed/100Thin';
+import { FiraSansExtraCondensed_100Thin_Italic } from '@expo-google-fonts/fira-sans-extra-condensed/100Thin_Italic';
+import { FiraSansExtraCondensed_200ExtraLight } from '@expo-google-fonts/fira-sans-extra-condensed/200ExtraLight';
+import { FiraSansExtraCondensed_200ExtraLight_Italic } from '@expo-google-fonts/fira-sans-extra-condensed/200ExtraLight_Italic';
+import { FiraSansExtraCondensed_300Light } from '@expo-google-fonts/fira-sans-extra-condensed/300Light';
+import { FiraSansExtraCondensed_300Light_Italic } from '@expo-google-fonts/fira-sans-extra-condensed/300Light_Italic';
+import { FiraSansExtraCondensed_400Regular } from '@expo-google-fonts/fira-sans-extra-condensed/400Regular';
+import { FiraSansExtraCondensed_400Regular_Italic } from '@expo-google-fonts/fira-sans-extra-condensed/400Regular_Italic';
+import { FiraSansExtraCondensed_500Medium } from '@expo-google-fonts/fira-sans-extra-condensed/500Medium';
+import { FiraSansExtraCondensed_500Medium_Italic } from '@expo-google-fonts/fira-sans-extra-condensed/500Medium_Italic';
+import { FiraSansExtraCondensed_600SemiBold } from '@expo-google-fonts/fira-sans-extra-condensed/600SemiBold';
+import { FiraSansExtraCondensed_600SemiBold_Italic } from '@expo-google-fonts/fira-sans-extra-condensed/600SemiBold_Italic';
+import { FiraSansExtraCondensed_700Bold } from '@expo-google-fonts/fira-sans-extra-condensed/700Bold';
+import { FiraSansExtraCondensed_700Bold_Italic } from '@expo-google-fonts/fira-sans-extra-condensed/700Bold_Italic';
+import { FiraSansExtraCondensed_800ExtraBold } from '@expo-google-fonts/fira-sans-extra-condensed/800ExtraBold';
+import { FiraSansExtraCondensed_800ExtraBold_Italic } from '@expo-google-fonts/fira-sans-extra-condensed/800ExtraBold_Italic';
+import { FiraSansExtraCondensed_900Black } from '@expo-google-fonts/fira-sans-extra-condensed/900Black';
+import { FiraSansExtraCondensed_900Black_Italic } from '@expo-google-fonts/fira-sans-extra-condensed/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

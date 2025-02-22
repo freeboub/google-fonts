@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Cagliostro_400Regular = require('./Cagliostro_400Regular.ttf');
+export const Cagliostro_400Regular = require('./400Regular/Cagliostro_400Regular.ttf');

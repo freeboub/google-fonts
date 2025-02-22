@@ -2,15 +2,15 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const BigShouldersText_100Thin = require('./BigShouldersText_100Thin.ttf');
-export const BigShouldersText_200ExtraLight = require('./BigShouldersText_200ExtraLight.ttf');
-export const BigShouldersText_300Light = require('./BigShouldersText_300Light.ttf');
-export const BigShouldersText_400Regular = require('./BigShouldersText_400Regular.ttf');
-export const BigShouldersText_500Medium = require('./BigShouldersText_500Medium.ttf');
-export const BigShouldersText_600SemiBold = require('./BigShouldersText_600SemiBold.ttf');
-export const BigShouldersText_700Bold = require('./BigShouldersText_700Bold.ttf');
-export const BigShouldersText_800ExtraBold = require('./BigShouldersText_800ExtraBold.ttf');
-export const BigShouldersText_900Black = require('./BigShouldersText_900Black.ttf');
+export const BigShouldersText_100Thin = require('./100Thin/BigShouldersText_100Thin.ttf');
+export const BigShouldersText_200ExtraLight = require('./200ExtraLight/BigShouldersText_200ExtraLight.ttf');
+export const BigShouldersText_300Light = require('./300Light/BigShouldersText_300Light.ttf');
+export const BigShouldersText_400Regular = require('./400Regular/BigShouldersText_400Regular.ttf');
+export const BigShouldersText_500Medium = require('./500Medium/BigShouldersText_500Medium.ttf');
+export const BigShouldersText_600SemiBold = require('./600SemiBold/BigShouldersText_600SemiBold.ttf');
+export const BigShouldersText_700Bold = require('./700Bold/BigShouldersText_700Bold.ttf');
+export const BigShouldersText_800ExtraBold = require('./800ExtraBold/BigShouldersText_800ExtraBold.ttf');
+export const BigShouldersText_900Black = require('./900Black/BigShouldersText_900Black.ttf');

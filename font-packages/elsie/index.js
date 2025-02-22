@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Elsie_400Regular = require('./Elsie_400Regular.ttf');
-export const Elsie_900Black = require('./Elsie_900Black.ttf');
+export const Elsie_400Regular = require('./400Regular/Elsie_400Regular.ttf');
+export const Elsie_900Black = require('./900Black/Elsie_900Black.ttf');

@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/atma)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/atma)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/atma)
 
 This package lets you use the [**Atma**](https://fonts.google.com/specimen/Atma) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -23,23 +22,20 @@ This font family contains [5 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/atma expo-font expo-app-loading
+expo install @expo-google-fonts/atma expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Atma_300Light,
-  Atma_400Regular,
-  Atma_500Medium,
-  Atma_600SemiBold,
-  Atma_700Bold,
-} from '@expo-google-fonts/atma';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/atma/useFonts';
+import { Atma_300Light } from '@expo-google-fonts/atma/300Light';
+import { Atma_400Regular } from '@expo-google-fonts/atma/400Regular';
+import { Atma_500Medium } from '@expo-google-fonts/atma/500Medium';
+import { Atma_600SemiBold } from '@expo-google-fonts/atma/600SemiBold';
+import { Atma_700Bold } from '@expo-google-fonts/atma/700Bold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -54,7 +50,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

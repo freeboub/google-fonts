@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/anek-malayalam)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/anek-malayalam)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/anek-malayalam)
 
 This package lets you use the [**Anek Malayalam**](https://fonts.google.com/specimen/Anek+Malayalam) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -26,26 +25,23 @@ This font family contains [8 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/anek-malayalam expo-font expo-app-loading
+expo install @expo-google-fonts/anek-malayalam expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  AnekMalayalam_100Thin,
-  AnekMalayalam_200ExtraLight,
-  AnekMalayalam_300Light,
-  AnekMalayalam_400Regular,
-  AnekMalayalam_500Medium,
-  AnekMalayalam_600SemiBold,
-  AnekMalayalam_700Bold,
-  AnekMalayalam_800ExtraBold,
-} from '@expo-google-fonts/anek-malayalam';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/anek-malayalam/useFonts';
+import { AnekMalayalam_100Thin } from '@expo-google-fonts/anek-malayalam/100Thin';
+import { AnekMalayalam_200ExtraLight } from '@expo-google-fonts/anek-malayalam/200ExtraLight';
+import { AnekMalayalam_300Light } from '@expo-google-fonts/anek-malayalam/300Light';
+import { AnekMalayalam_400Regular } from '@expo-google-fonts/anek-malayalam/400Regular';
+import { AnekMalayalam_500Medium } from '@expo-google-fonts/anek-malayalam/500Medium';
+import { AnekMalayalam_600SemiBold } from '@expo-google-fonts/anek-malayalam/600SemiBold';
+import { AnekMalayalam_700Bold } from '@expo-google-fonts/anek-malayalam/700Bold';
+import { AnekMalayalam_800ExtraBold } from '@expo-google-fonts/anek-malayalam/800ExtraBold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -63,7 +59,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

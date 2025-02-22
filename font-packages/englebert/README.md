@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/englebert)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/englebert)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/englebert)
 
 This package lets you use the [**Englebert**](https://fonts.google.com/specimen/Englebert) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -19,16 +18,16 @@ This font family contains [1 style](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/englebert expo-font expo-app-loading
+expo install @expo-google-fonts/englebert expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import { useFonts, Englebert_400Regular } from '@expo-google-fonts/englebert';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/englebert/useFonts';
+import { Englebert_400Regular } from '@expo-google-fonts/englebert/400Regular';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -39,7 +38,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

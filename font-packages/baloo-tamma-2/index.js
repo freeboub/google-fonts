@@ -2,11 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const BalooTamma2_400Regular = require('./BalooTamma2_400Regular.ttf');
-export const BalooTamma2_500Medium = require('./BalooTamma2_500Medium.ttf');
-export const BalooTamma2_600SemiBold = require('./BalooTamma2_600SemiBold.ttf');
-export const BalooTamma2_700Bold = require('./BalooTamma2_700Bold.ttf');
-export const BalooTamma2_800ExtraBold = require('./BalooTamma2_800ExtraBold.ttf');
+export const BalooTamma2_400Regular = require('./400Regular/BalooTamma2_400Regular.ttf');
+export const BalooTamma2_500Medium = require('./500Medium/BalooTamma2_500Medium.ttf');
+export const BalooTamma2_600SemiBold = require('./600SemiBold/BalooTamma2_600SemiBold.ttf');
+export const BalooTamma2_700Bold = require('./700Bold/BalooTamma2_700Bold.ttf');
+export const BalooTamma2_800ExtraBold = require('./800ExtraBold/BalooTamma2_800ExtraBold.ttf');

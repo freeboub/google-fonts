@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/istok-web)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/istok-web)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/istok-web)
 
 This package lets you use the [**Istok Web**](https://fonts.google.com/specimen/Istok+Web) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -22,22 +21,19 @@ This font family contains [4 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/istok-web expo-font expo-app-loading
+expo install @expo-google-fonts/istok-web expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  IstokWeb_400Regular,
-  IstokWeb_400Regular_Italic,
-  IstokWeb_700Bold,
-  IstokWeb_700Bold_Italic,
-} from '@expo-google-fonts/istok-web';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/istok-web/useFonts';
+import { IstokWeb_400Regular } from '@expo-google-fonts/istok-web/400Regular';
+import { IstokWeb_400Regular_Italic } from '@expo-google-fonts/istok-web/400Regular_Italic';
+import { IstokWeb_700Bold } from '@expo-google-fonts/istok-web/700Bold';
+import { IstokWeb_700Bold_Italic } from '@expo-google-fonts/istok-web/700Bold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -51,7 +47,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

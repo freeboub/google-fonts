@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/kulim-park)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/kulim-park)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/kulim-park)
 
 This package lets you use the [**Kulim Park**](https://fonts.google.com/specimen/Kulim+Park) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -28,28 +27,25 @@ This font family contains [10 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/kulim-park expo-font expo-app-loading
+expo install @expo-google-fonts/kulim-park expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  KulimPark_200ExtraLight,
-  KulimPark_200ExtraLight_Italic,
-  KulimPark_300Light,
-  KulimPark_300Light_Italic,
-  KulimPark_400Regular,
-  KulimPark_400Regular_Italic,
-  KulimPark_600SemiBold,
-  KulimPark_600SemiBold_Italic,
-  KulimPark_700Bold,
-  KulimPark_700Bold_Italic,
-} from '@expo-google-fonts/kulim-park';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/kulim-park/useFonts';
+import { KulimPark_200ExtraLight } from '@expo-google-fonts/kulim-park/200ExtraLight';
+import { KulimPark_200ExtraLight_Italic } from '@expo-google-fonts/kulim-park/200ExtraLight_Italic';
+import { KulimPark_300Light } from '@expo-google-fonts/kulim-park/300Light';
+import { KulimPark_300Light_Italic } from '@expo-google-fonts/kulim-park/300Light_Italic';
+import { KulimPark_400Regular } from '@expo-google-fonts/kulim-park/400Regular';
+import { KulimPark_400Regular_Italic } from '@expo-google-fonts/kulim-park/400Regular_Italic';
+import { KulimPark_600SemiBold } from '@expo-google-fonts/kulim-park/600SemiBold';
+import { KulimPark_600SemiBold_Italic } from '@expo-google-fonts/kulim-park/600SemiBold_Italic';
+import { KulimPark_700Bold } from '@expo-google-fonts/kulim-park/700Bold';
+import { KulimPark_700Bold_Italic } from '@expo-google-fonts/kulim-park/700Bold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -69,7 +65,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

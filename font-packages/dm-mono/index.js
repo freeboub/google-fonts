@@ -2,12 +2,12 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const DMMono_300Light = require('./DMMono_300Light.ttf');
-export const DMMono_300Light_Italic = require('./DMMono_300Light_Italic.ttf');
-export const DMMono_400Regular = require('./DMMono_400Regular.ttf');
-export const DMMono_400Regular_Italic = require('./DMMono_400Regular_Italic.ttf');
-export const DMMono_500Medium = require('./DMMono_500Medium.ttf');
-export const DMMono_500Medium_Italic = require('./DMMono_500Medium_Italic.ttf');
+export const DMMono_300Light = require('./300Light/DMMono_300Light.ttf');
+export const DMMono_300Light_Italic = require('./300Light_Italic/DMMono_300Light_Italic.ttf');
+export const DMMono_400Regular = require('./400Regular/DMMono_400Regular.ttf');
+export const DMMono_400Regular_Italic = require('./400Regular_Italic/DMMono_400Regular_Italic.ttf');
+export const DMMono_500Medium = require('./500Medium/DMMono_500Medium.ttf');
+export const DMMono_500Medium_Italic = require('./500Medium_Italic/DMMono_500Medium_Italic.ttf');

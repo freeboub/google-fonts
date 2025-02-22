@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/ibm-plex-serif)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/ibm-plex-serif)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/ibm-plex-serif)
 
 This package lets you use the [**IBM Plex Serif**](https://fonts.google.com/specimen/IBM+Plex+Serif) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -32,32 +31,29 @@ This font family contains [14 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/ibm-plex-serif expo-font expo-app-loading
+expo install @expo-google-fonts/ibm-plex-serif expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  IBMPlexSerif_100Thin,
-  IBMPlexSerif_100Thin_Italic,
-  IBMPlexSerif_200ExtraLight,
-  IBMPlexSerif_200ExtraLight_Italic,
-  IBMPlexSerif_300Light,
-  IBMPlexSerif_300Light_Italic,
-  IBMPlexSerif_400Regular,
-  IBMPlexSerif_400Regular_Italic,
-  IBMPlexSerif_500Medium,
-  IBMPlexSerif_500Medium_Italic,
-  IBMPlexSerif_600SemiBold,
-  IBMPlexSerif_600SemiBold_Italic,
-  IBMPlexSerif_700Bold,
-  IBMPlexSerif_700Bold_Italic,
-} from '@expo-google-fonts/ibm-plex-serif';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/ibm-plex-serif/useFonts';
+import { IBMPlexSerif_100Thin } from '@expo-google-fonts/ibm-plex-serif/100Thin';
+import { IBMPlexSerif_100Thin_Italic } from '@expo-google-fonts/ibm-plex-serif/100Thin_Italic';
+import { IBMPlexSerif_200ExtraLight } from '@expo-google-fonts/ibm-plex-serif/200ExtraLight';
+import { IBMPlexSerif_200ExtraLight_Italic } from '@expo-google-fonts/ibm-plex-serif/200ExtraLight_Italic';
+import { IBMPlexSerif_300Light } from '@expo-google-fonts/ibm-plex-serif/300Light';
+import { IBMPlexSerif_300Light_Italic } from '@expo-google-fonts/ibm-plex-serif/300Light_Italic';
+import { IBMPlexSerif_400Regular } from '@expo-google-fonts/ibm-plex-serif/400Regular';
+import { IBMPlexSerif_400Regular_Italic } from '@expo-google-fonts/ibm-plex-serif/400Regular_Italic';
+import { IBMPlexSerif_500Medium } from '@expo-google-fonts/ibm-plex-serif/500Medium';
+import { IBMPlexSerif_500Medium_Italic } from '@expo-google-fonts/ibm-plex-serif/500Medium_Italic';
+import { IBMPlexSerif_600SemiBold } from '@expo-google-fonts/ibm-plex-serif/600SemiBold';
+import { IBMPlexSerif_600SemiBold_Italic } from '@expo-google-fonts/ibm-plex-serif/600SemiBold_Italic';
+import { IBMPlexSerif_700Bold } from '@expo-google-fonts/ibm-plex-serif/700Bold';
+import { IBMPlexSerif_700Bold_Italic } from '@expo-google-fonts/ibm-plex-serif/700Bold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -81,7 +77,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

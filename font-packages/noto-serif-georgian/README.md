@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-serif-georgian)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-serif-georgian)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/noto-serif-georgian)
 
 This package lets you use the [**Noto Serif Georgian**](https://fonts.google.com/specimen/Noto+Serif+Georgian) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/noto-serif-georgian expo-font expo-app-loading
+expo install @expo-google-fonts/noto-serif-georgian expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSerifGeorgian_100Thin,
-  NotoSerifGeorgian_200ExtraLight,
-  NotoSerifGeorgian_300Light,
-  NotoSerifGeorgian_400Regular,
-  NotoSerifGeorgian_500Medium,
-  NotoSerifGeorgian_600SemiBold,
-  NotoSerifGeorgian_700Bold,
-  NotoSerifGeorgian_800ExtraBold,
-  NotoSerifGeorgian_900Black,
-} from '@expo-google-fonts/noto-serif-georgian';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/noto-serif-georgian/useFonts';
+import { NotoSerifGeorgian_100Thin } from '@expo-google-fonts/noto-serif-georgian/100Thin';
+import { NotoSerifGeorgian_200ExtraLight } from '@expo-google-fonts/noto-serif-georgian/200ExtraLight';
+import { NotoSerifGeorgian_300Light } from '@expo-google-fonts/noto-serif-georgian/300Light';
+import { NotoSerifGeorgian_400Regular } from '@expo-google-fonts/noto-serif-georgian/400Regular';
+import { NotoSerifGeorgian_500Medium } from '@expo-google-fonts/noto-serif-georgian/500Medium';
+import { NotoSerifGeorgian_600SemiBold } from '@expo-google-fonts/noto-serif-georgian/600SemiBold';
+import { NotoSerifGeorgian_700Bold } from '@expo-google-fonts/noto-serif-georgian/700Bold';
+import { NotoSerifGeorgian_800ExtraBold } from '@expo-google-fonts/noto-serif-georgian/800ExtraBold';
+import { NotoSerifGeorgian_900Black } from '@expo-google-fonts/noto-serif-georgian/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

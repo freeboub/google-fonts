@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/nobile)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/nobile)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/nobile)
 
 This package lets you use the [**Nobile**](https://fonts.google.com/specimen/Nobile) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -24,24 +23,21 @@ This font family contains [6 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/nobile expo-font expo-app-loading
+expo install @expo-google-fonts/nobile expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Nobile_400Regular,
-  Nobile_400Regular_Italic,
-  Nobile_500Medium,
-  Nobile_500Medium_Italic,
-  Nobile_700Bold,
-  Nobile_700Bold_Italic,
-} from '@expo-google-fonts/nobile';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/nobile/useFonts';
+import { Nobile_400Regular } from '@expo-google-fonts/nobile/400Regular';
+import { Nobile_400Regular_Italic } from '@expo-google-fonts/nobile/400Regular_Italic';
+import { Nobile_500Medium } from '@expo-google-fonts/nobile/500Medium';
+import { Nobile_500Medium_Italic } from '@expo-google-fonts/nobile/500Medium_Italic';
+import { Nobile_700Bold } from '@expo-google-fonts/nobile/700Bold';
+import { Nobile_700Bold_Italic } from '@expo-google-fonts/nobile/700Bold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -57,7 +53,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

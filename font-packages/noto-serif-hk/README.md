@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-serif-hk)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-serif-hk)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/noto-serif-hk)
 
 This package lets you use the [**Noto Serif HK**](https://fonts.google.com/specimen/Noto+Serif+HK) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -26,26 +25,23 @@ This font family contains [8 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/noto-serif-hk expo-font expo-app-loading
+expo install @expo-google-fonts/noto-serif-hk expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSerifHK_200ExtraLight,
-  NotoSerifHK_300Light,
-  NotoSerifHK_400Regular,
-  NotoSerifHK_500Medium,
-  NotoSerifHK_600SemiBold,
-  NotoSerifHK_700Bold,
-  NotoSerifHK_800ExtraBold,
-  NotoSerifHK_900Black,
-} from '@expo-google-fonts/noto-serif-hk';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/noto-serif-hk/useFonts';
+import { NotoSerifHK_200ExtraLight } from '@expo-google-fonts/noto-serif-hk/200ExtraLight';
+import { NotoSerifHK_300Light } from '@expo-google-fonts/noto-serif-hk/300Light';
+import { NotoSerifHK_400Regular } from '@expo-google-fonts/noto-serif-hk/400Regular';
+import { NotoSerifHK_500Medium } from '@expo-google-fonts/noto-serif-hk/500Medium';
+import { NotoSerifHK_600SemiBold } from '@expo-google-fonts/noto-serif-hk/600SemiBold';
+import { NotoSerifHK_700Bold } from '@expo-google-fonts/noto-serif-hk/700Bold';
+import { NotoSerifHK_800ExtraBold } from '@expo-google-fonts/noto-serif-hk/800ExtraBold';
+import { NotoSerifHK_900Black } from '@expo-google-fonts/noto-serif-hk/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -63,7 +59,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

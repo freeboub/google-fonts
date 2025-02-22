@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/cormorant)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/cormorant)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/cormorant)
 
 This package lets you use the [**Cormorant**](https://fonts.google.com/specimen/Cormorant) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -28,28 +27,25 @@ This font family contains [10 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/cormorant expo-font expo-app-loading
+expo install @expo-google-fonts/cormorant expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Cormorant_300Light,
-  Cormorant_400Regular,
-  Cormorant_500Medium,
-  Cormorant_600SemiBold,
-  Cormorant_700Bold,
-  Cormorant_300Light_Italic,
-  Cormorant_400Regular_Italic,
-  Cormorant_500Medium_Italic,
-  Cormorant_600SemiBold_Italic,
-  Cormorant_700Bold_Italic,
-} from '@expo-google-fonts/cormorant';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/cormorant/useFonts';
+import { Cormorant_300Light } from '@expo-google-fonts/cormorant/300Light';
+import { Cormorant_400Regular } from '@expo-google-fonts/cormorant/400Regular';
+import { Cormorant_500Medium } from '@expo-google-fonts/cormorant/500Medium';
+import { Cormorant_600SemiBold } from '@expo-google-fonts/cormorant/600SemiBold';
+import { Cormorant_700Bold } from '@expo-google-fonts/cormorant/700Bold';
+import { Cormorant_300Light_Italic } from '@expo-google-fonts/cormorant/300Light_Italic';
+import { Cormorant_400Regular_Italic } from '@expo-google-fonts/cormorant/400Regular_Italic';
+import { Cormorant_500Medium_Italic } from '@expo-google-fonts/cormorant/500Medium_Italic';
+import { Cormorant_600SemiBold_Italic } from '@expo-google-fonts/cormorant/600SemiBold_Italic';
+import { Cormorant_700Bold_Italic } from '@expo-google-fonts/cormorant/700Bold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -69,7 +65,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

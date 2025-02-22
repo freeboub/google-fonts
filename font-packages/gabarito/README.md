@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/gabarito)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/gabarito)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/gabarito)
 
 This package lets you use the [**Gabarito**](https://fonts.google.com/specimen/Gabarito) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -24,24 +23,21 @@ This font family contains [6 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/gabarito expo-font expo-app-loading
+expo install @expo-google-fonts/gabarito expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Gabarito_400Regular,
-  Gabarito_500Medium,
-  Gabarito_600SemiBold,
-  Gabarito_700Bold,
-  Gabarito_800ExtraBold,
-  Gabarito_900Black,
-} from '@expo-google-fonts/gabarito';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/gabarito/useFonts';
+import { Gabarito_400Regular } from '@expo-google-fonts/gabarito/400Regular';
+import { Gabarito_500Medium } from '@expo-google-fonts/gabarito/500Medium';
+import { Gabarito_600SemiBold } from '@expo-google-fonts/gabarito/600SemiBold';
+import { Gabarito_700Bold } from '@expo-google-fonts/gabarito/700Bold';
+import { Gabarito_800ExtraBold } from '@expo-google-fonts/gabarito/800ExtraBold';
+import { Gabarito_900Black } from '@expo-google-fonts/gabarito/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -57,7 +53,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

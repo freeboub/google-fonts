@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/miriam-libre)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/miriam-libre)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/miriam-libre)
 
 This package lets you use the [**Miriam Libre**](https://fonts.google.com/specimen/Miriam+Libre) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -22,22 +21,19 @@ This font family contains [4 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/miriam-libre expo-font expo-app-loading
+expo install @expo-google-fonts/miriam-libre expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  MiriamLibre_400Regular,
-  MiriamLibre_500Medium,
-  MiriamLibre_600SemiBold,
-  MiriamLibre_700Bold,
-} from '@expo-google-fonts/miriam-libre';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/miriam-libre/useFonts';
+import { MiriamLibre_400Regular } from '@expo-google-fonts/miriam-libre/400Regular';
+import { MiriamLibre_500Medium } from '@expo-google-fonts/miriam-libre/500Medium';
+import { MiriamLibre_600SemiBold } from '@expo-google-fonts/miriam-libre/600SemiBold';
+import { MiriamLibre_700Bold } from '@expo-google-fonts/miriam-libre/700Bold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -51,7 +47,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const SixtyfourConvergence_400Regular = require('./SixtyfourConvergence_400Regular.ttf');
+export const SixtyfourConvergence_400Regular = require('./400Regular/SixtyfourConvergence_400Regular.ttf');

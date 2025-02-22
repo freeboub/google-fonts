@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const PlaywriteATGuides_400Regular = require('./PlaywriteATGuides_400Regular.ttf');
-export const PlaywriteATGuides_400Regular_Italic = require('./PlaywriteATGuides_400Regular_Italic.ttf');
+export const PlaywriteATGuides_400Regular = require('./400Regular/PlaywriteATGuides_400Regular.ttf');
+export const PlaywriteATGuides_400Regular_Italic = require('./400Regular_Italic/PlaywriteATGuides_400Regular_Italic.ttf');

@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-sans-tamil)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-sans-tamil)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/noto-sans-tamil)
 
 This package lets you use the [**Noto Sans Tamil**](https://fonts.google.com/specimen/Noto+Sans+Tamil) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/noto-sans-tamil expo-font expo-app-loading
+expo install @expo-google-fonts/noto-sans-tamil expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSansTamil_100Thin,
-  NotoSansTamil_200ExtraLight,
-  NotoSansTamil_300Light,
-  NotoSansTamil_400Regular,
-  NotoSansTamil_500Medium,
-  NotoSansTamil_600SemiBold,
-  NotoSansTamil_700Bold,
-  NotoSansTamil_800ExtraBold,
-  NotoSansTamil_900Black,
-} from '@expo-google-fonts/noto-sans-tamil';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/noto-sans-tamil/useFonts';
+import { NotoSansTamil_100Thin } from '@expo-google-fonts/noto-sans-tamil/100Thin';
+import { NotoSansTamil_200ExtraLight } from '@expo-google-fonts/noto-sans-tamil/200ExtraLight';
+import { NotoSansTamil_300Light } from '@expo-google-fonts/noto-sans-tamil/300Light';
+import { NotoSansTamil_400Regular } from '@expo-google-fonts/noto-sans-tamil/400Regular';
+import { NotoSansTamil_500Medium } from '@expo-google-fonts/noto-sans-tamil/500Medium';
+import { NotoSansTamil_600SemiBold } from '@expo-google-fonts/noto-sans-tamil/600SemiBold';
+import { NotoSansTamil_700Bold } from '@expo-google-fonts/noto-sans-tamil/700Bold';
+import { NotoSansTamil_800ExtraBold } from '@expo-google-fonts/noto-sans-tamil/800ExtraBold';
+import { NotoSansTamil_900Black } from '@expo-google-fonts/noto-sans-tamil/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

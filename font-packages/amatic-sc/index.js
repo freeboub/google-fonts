@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const AmaticSC_400Regular = require('./AmaticSC_400Regular.ttf');
-export const AmaticSC_700Bold = require('./AmaticSC_700Bold.ttf');
+export const AmaticSC_400Regular = require('./400Regular/AmaticSC_400Regular.ttf');
+export const AmaticSC_700Bold = require('./700Bold/AmaticSC_700Bold.ttf');

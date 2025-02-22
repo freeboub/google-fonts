@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/hanken-grotesk)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/hanken-grotesk)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/hanken-grotesk)
 
 This package lets you use the [**Hanken Grotesk**](https://fonts.google.com/specimen/Hanken+Grotesk) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/hanken-grotesk expo-font expo-app-loading
+expo install @expo-google-fonts/hanken-grotesk expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  HankenGrotesk_100Thin,
-  HankenGrotesk_200ExtraLight,
-  HankenGrotesk_300Light,
-  HankenGrotesk_400Regular,
-  HankenGrotesk_500Medium,
-  HankenGrotesk_600SemiBold,
-  HankenGrotesk_700Bold,
-  HankenGrotesk_800ExtraBold,
-  HankenGrotesk_900Black,
-  HankenGrotesk_100Thin_Italic,
-  HankenGrotesk_200ExtraLight_Italic,
-  HankenGrotesk_300Light_Italic,
-  HankenGrotesk_400Regular_Italic,
-  HankenGrotesk_500Medium_Italic,
-  HankenGrotesk_600SemiBold_Italic,
-  HankenGrotesk_700Bold_Italic,
-  HankenGrotesk_800ExtraBold_Italic,
-  HankenGrotesk_900Black_Italic,
-} from '@expo-google-fonts/hanken-grotesk';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/hanken-grotesk/useFonts';
+import { HankenGrotesk_100Thin } from '@expo-google-fonts/hanken-grotesk/100Thin';
+import { HankenGrotesk_200ExtraLight } from '@expo-google-fonts/hanken-grotesk/200ExtraLight';
+import { HankenGrotesk_300Light } from '@expo-google-fonts/hanken-grotesk/300Light';
+import { HankenGrotesk_400Regular } from '@expo-google-fonts/hanken-grotesk/400Regular';
+import { HankenGrotesk_500Medium } from '@expo-google-fonts/hanken-grotesk/500Medium';
+import { HankenGrotesk_600SemiBold } from '@expo-google-fonts/hanken-grotesk/600SemiBold';
+import { HankenGrotesk_700Bold } from '@expo-google-fonts/hanken-grotesk/700Bold';
+import { HankenGrotesk_800ExtraBold } from '@expo-google-fonts/hanken-grotesk/800ExtraBold';
+import { HankenGrotesk_900Black } from '@expo-google-fonts/hanken-grotesk/900Black';
+import { HankenGrotesk_100Thin_Italic } from '@expo-google-fonts/hanken-grotesk/100Thin_Italic';
+import { HankenGrotesk_200ExtraLight_Italic } from '@expo-google-fonts/hanken-grotesk/200ExtraLight_Italic';
+import { HankenGrotesk_300Light_Italic } from '@expo-google-fonts/hanken-grotesk/300Light_Italic';
+import { HankenGrotesk_400Regular_Italic } from '@expo-google-fonts/hanken-grotesk/400Regular_Italic';
+import { HankenGrotesk_500Medium_Italic } from '@expo-google-fonts/hanken-grotesk/500Medium_Italic';
+import { HankenGrotesk_600SemiBold_Italic } from '@expo-google-fonts/hanken-grotesk/600SemiBold_Italic';
+import { HankenGrotesk_700Bold_Italic } from '@expo-google-fonts/hanken-grotesk/700Bold_Italic';
+import { HankenGrotesk_800ExtraBold_Italic } from '@expo-google-fonts/hanken-grotesk/800ExtraBold_Italic';
+import { HankenGrotesk_900Black_Italic } from '@expo-google-fonts/hanken-grotesk/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

@@ -2,10 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Puritan_400Regular = require('./Puritan_400Regular.ttf');
-export const Puritan_400Regular_Italic = require('./Puritan_400Regular_Italic.ttf');
-export const Puritan_700Bold = require('./Puritan_700Bold.ttf');
-export const Puritan_700Bold_Italic = require('./Puritan_700Bold_Italic.ttf');
+export const Puritan_400Regular = require('./400Regular/Puritan_400Regular.ttf');
+export const Puritan_400Regular_Italic = require('./400Regular_Italic/Puritan_400Regular_Italic.ttf');
+export const Puritan_700Bold = require('./700Bold/Puritan_700Bold.ttf');
+export const Puritan_700Bold_Italic = require('./700Bold_Italic/Puritan_700Bold_Italic.ttf');

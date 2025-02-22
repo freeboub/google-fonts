@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Unkempt_400Regular = require('./Unkempt_400Regular.ttf');
-export const Unkempt_700Bold = require('./Unkempt_700Bold.ttf');
+export const Unkempt_400Regular = require('./400Regular/Unkempt_400Regular.ttf');
+export const Unkempt_700Bold = require('./700Bold/Unkempt_700Bold.ttf');

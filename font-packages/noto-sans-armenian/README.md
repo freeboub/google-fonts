@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-sans-armenian)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-sans-armenian)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/noto-sans-armenian)
 
 This package lets you use the [**Noto Sans Armenian**](https://fonts.google.com/specimen/Noto+Sans+Armenian) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/noto-sans-armenian expo-font expo-app-loading
+expo install @expo-google-fonts/noto-sans-armenian expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSansArmenian_100Thin,
-  NotoSansArmenian_200ExtraLight,
-  NotoSansArmenian_300Light,
-  NotoSansArmenian_400Regular,
-  NotoSansArmenian_500Medium,
-  NotoSansArmenian_600SemiBold,
-  NotoSansArmenian_700Bold,
-  NotoSansArmenian_800ExtraBold,
-  NotoSansArmenian_900Black,
-} from '@expo-google-fonts/noto-sans-armenian';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/noto-sans-armenian/useFonts';
+import { NotoSansArmenian_100Thin } from '@expo-google-fonts/noto-sans-armenian/100Thin';
+import { NotoSansArmenian_200ExtraLight } from '@expo-google-fonts/noto-sans-armenian/200ExtraLight';
+import { NotoSansArmenian_300Light } from '@expo-google-fonts/noto-sans-armenian/300Light';
+import { NotoSansArmenian_400Regular } from '@expo-google-fonts/noto-sans-armenian/400Regular';
+import { NotoSansArmenian_500Medium } from '@expo-google-fonts/noto-sans-armenian/500Medium';
+import { NotoSansArmenian_600SemiBold } from '@expo-google-fonts/noto-sans-armenian/600SemiBold';
+import { NotoSansArmenian_700Bold } from '@expo-google-fonts/noto-sans-armenian/700Bold';
+import { NotoSansArmenian_800ExtraBold } from '@expo-google-fonts/noto-sans-armenian/800ExtraBold';
+import { NotoSansArmenian_900Black } from '@expo-google-fonts/noto-sans-armenian/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

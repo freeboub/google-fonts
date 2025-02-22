@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/piazzolla)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/piazzolla)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/piazzolla)
 
 This package lets you use the [**Piazzolla**](https://fonts.google.com/specimen/Piazzolla) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/piazzolla expo-font expo-app-loading
+expo install @expo-google-fonts/piazzolla expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Piazzolla_100Thin,
-  Piazzolla_200ExtraLight,
-  Piazzolla_300Light,
-  Piazzolla_400Regular,
-  Piazzolla_500Medium,
-  Piazzolla_600SemiBold,
-  Piazzolla_700Bold,
-  Piazzolla_800ExtraBold,
-  Piazzolla_900Black,
-  Piazzolla_100Thin_Italic,
-  Piazzolla_200ExtraLight_Italic,
-  Piazzolla_300Light_Italic,
-  Piazzolla_400Regular_Italic,
-  Piazzolla_500Medium_Italic,
-  Piazzolla_600SemiBold_Italic,
-  Piazzolla_700Bold_Italic,
-  Piazzolla_800ExtraBold_Italic,
-  Piazzolla_900Black_Italic,
-} from '@expo-google-fonts/piazzolla';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/piazzolla/useFonts';
+import { Piazzolla_100Thin } from '@expo-google-fonts/piazzolla/100Thin';
+import { Piazzolla_200ExtraLight } from '@expo-google-fonts/piazzolla/200ExtraLight';
+import { Piazzolla_300Light } from '@expo-google-fonts/piazzolla/300Light';
+import { Piazzolla_400Regular } from '@expo-google-fonts/piazzolla/400Regular';
+import { Piazzolla_500Medium } from '@expo-google-fonts/piazzolla/500Medium';
+import { Piazzolla_600SemiBold } from '@expo-google-fonts/piazzolla/600SemiBold';
+import { Piazzolla_700Bold } from '@expo-google-fonts/piazzolla/700Bold';
+import { Piazzolla_800ExtraBold } from '@expo-google-fonts/piazzolla/800ExtraBold';
+import { Piazzolla_900Black } from '@expo-google-fonts/piazzolla/900Black';
+import { Piazzolla_100Thin_Italic } from '@expo-google-fonts/piazzolla/100Thin_Italic';
+import { Piazzolla_200ExtraLight_Italic } from '@expo-google-fonts/piazzolla/200ExtraLight_Italic';
+import { Piazzolla_300Light_Italic } from '@expo-google-fonts/piazzolla/300Light_Italic';
+import { Piazzolla_400Regular_Italic } from '@expo-google-fonts/piazzolla/400Regular_Italic';
+import { Piazzolla_500Medium_Italic } from '@expo-google-fonts/piazzolla/500Medium_Italic';
+import { Piazzolla_600SemiBold_Italic } from '@expo-google-fonts/piazzolla/600SemiBold_Italic';
+import { Piazzolla_700Bold_Italic } from '@expo-google-fonts/piazzolla/700Bold_Italic';
+import { Piazzolla_800ExtraBold_Italic } from '@expo-google-fonts/piazzolla/800ExtraBold_Italic';
+import { Piazzolla_900Black_Italic } from '@expo-google-fonts/piazzolla/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

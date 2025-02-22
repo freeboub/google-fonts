@@ -2,12 +2,12 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Nobile_400Regular = require('./Nobile_400Regular.ttf');
-export const Nobile_400Regular_Italic = require('./Nobile_400Regular_Italic.ttf');
-export const Nobile_500Medium = require('./Nobile_500Medium.ttf');
-export const Nobile_500Medium_Italic = require('./Nobile_500Medium_Italic.ttf');
-export const Nobile_700Bold = require('./Nobile_700Bold.ttf');
-export const Nobile_700Bold_Italic = require('./Nobile_700Bold_Italic.ttf');
+export const Nobile_400Regular = require('./400Regular/Nobile_400Regular.ttf');
+export const Nobile_400Regular_Italic = require('./400Regular_Italic/Nobile_400Regular_Italic.ttf');
+export const Nobile_500Medium = require('./500Medium/Nobile_500Medium.ttf');
+export const Nobile_500Medium_Italic = require('./500Medium_Italic/Nobile_500Medium_Italic.ttf');
+export const Nobile_700Bold = require('./700Bold/Nobile_700Bold.ttf');
+export const Nobile_700Bold_Italic = require('./700Bold_Italic/Nobile_700Bold_Italic.ttf');

@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/urbanist)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/urbanist)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/urbanist)
 
 This package lets you use the [**Urbanist**](https://fonts.google.com/specimen/Urbanist) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/urbanist expo-font expo-app-loading
+expo install @expo-google-fonts/urbanist expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Urbanist_100Thin,
-  Urbanist_200ExtraLight,
-  Urbanist_300Light,
-  Urbanist_400Regular,
-  Urbanist_500Medium,
-  Urbanist_600SemiBold,
-  Urbanist_700Bold,
-  Urbanist_800ExtraBold,
-  Urbanist_900Black,
-  Urbanist_100Thin_Italic,
-  Urbanist_200ExtraLight_Italic,
-  Urbanist_300Light_Italic,
-  Urbanist_400Regular_Italic,
-  Urbanist_500Medium_Italic,
-  Urbanist_600SemiBold_Italic,
-  Urbanist_700Bold_Italic,
-  Urbanist_800ExtraBold_Italic,
-  Urbanist_900Black_Italic,
-} from '@expo-google-fonts/urbanist';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/urbanist/useFonts';
+import { Urbanist_100Thin } from '@expo-google-fonts/urbanist/100Thin';
+import { Urbanist_200ExtraLight } from '@expo-google-fonts/urbanist/200ExtraLight';
+import { Urbanist_300Light } from '@expo-google-fonts/urbanist/300Light';
+import { Urbanist_400Regular } from '@expo-google-fonts/urbanist/400Regular';
+import { Urbanist_500Medium } from '@expo-google-fonts/urbanist/500Medium';
+import { Urbanist_600SemiBold } from '@expo-google-fonts/urbanist/600SemiBold';
+import { Urbanist_700Bold } from '@expo-google-fonts/urbanist/700Bold';
+import { Urbanist_800ExtraBold } from '@expo-google-fonts/urbanist/800ExtraBold';
+import { Urbanist_900Black } from '@expo-google-fonts/urbanist/900Black';
+import { Urbanist_100Thin_Italic } from '@expo-google-fonts/urbanist/100Thin_Italic';
+import { Urbanist_200ExtraLight_Italic } from '@expo-google-fonts/urbanist/200ExtraLight_Italic';
+import { Urbanist_300Light_Italic } from '@expo-google-fonts/urbanist/300Light_Italic';
+import { Urbanist_400Regular_Italic } from '@expo-google-fonts/urbanist/400Regular_Italic';
+import { Urbanist_500Medium_Italic } from '@expo-google-fonts/urbanist/500Medium_Italic';
+import { Urbanist_600SemiBold_Italic } from '@expo-google-fonts/urbanist/600SemiBold_Italic';
+import { Urbanist_700Bold_Italic } from '@expo-google-fonts/urbanist/700Bold_Italic';
+import { Urbanist_800ExtraBold_Italic } from '@expo-google-fonts/urbanist/800ExtraBold_Italic';
+import { Urbanist_900Black_Italic } from '@expo-google-fonts/urbanist/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

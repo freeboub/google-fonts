@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/pridi)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/pridi)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/pridi)
 
 This package lets you use the [**Pridi**](https://fonts.google.com/specimen/Pridi) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -24,24 +23,21 @@ This font family contains [6 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/pridi expo-font expo-app-loading
+expo install @expo-google-fonts/pridi expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Pridi_200ExtraLight,
-  Pridi_300Light,
-  Pridi_400Regular,
-  Pridi_500Medium,
-  Pridi_600SemiBold,
-  Pridi_700Bold,
-} from '@expo-google-fonts/pridi';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/pridi/useFonts';
+import { Pridi_200ExtraLight } from '@expo-google-fonts/pridi/200ExtraLight';
+import { Pridi_300Light } from '@expo-google-fonts/pridi/300Light';
+import { Pridi_400Regular } from '@expo-google-fonts/pridi/400Regular';
+import { Pridi_500Medium } from '@expo-google-fonts/pridi/500Medium';
+import { Pridi_600SemiBold } from '@expo-google-fonts/pridi/600SemiBold';
+import { Pridi_700Bold } from '@expo-google-fonts/pridi/700Bold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -57,7 +53,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

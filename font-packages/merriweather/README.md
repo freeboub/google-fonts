@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/merriweather)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/merriweather)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/merriweather)
 
 This package lets you use the [**Merriweather**](https://fonts.google.com/specimen/Merriweather) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -26,26 +25,23 @@ This font family contains [8 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/merriweather expo-font expo-app-loading
+expo install @expo-google-fonts/merriweather expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Merriweather_300Light,
-  Merriweather_300Light_Italic,
-  Merriweather_400Regular,
-  Merriweather_400Regular_Italic,
-  Merriweather_700Bold,
-  Merriweather_700Bold_Italic,
-  Merriweather_900Black,
-  Merriweather_900Black_Italic,
-} from '@expo-google-fonts/merriweather';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/merriweather/useFonts';
+import { Merriweather_300Light } from '@expo-google-fonts/merriweather/300Light';
+import { Merriweather_300Light_Italic } from '@expo-google-fonts/merriweather/300Light_Italic';
+import { Merriweather_400Regular } from '@expo-google-fonts/merriweather/400Regular';
+import { Merriweather_400Regular_Italic } from '@expo-google-fonts/merriweather/400Regular_Italic';
+import { Merriweather_700Bold } from '@expo-google-fonts/merriweather/700Bold';
+import { Merriweather_700Bold_Italic } from '@expo-google-fonts/merriweather/700Bold_Italic';
+import { Merriweather_900Black } from '@expo-google-fonts/merriweather/900Black';
+import { Merriweather_900Black_Italic } from '@expo-google-fonts/merriweather/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -63,7 +59,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

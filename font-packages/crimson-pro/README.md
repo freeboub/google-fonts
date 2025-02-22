@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/crimson-pro)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/crimson-pro)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/crimson-pro)
 
 This package lets you use the [**Crimson Pro**](https://fonts.google.com/specimen/Crimson+Pro) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -34,34 +33,31 @@ This font family contains [16 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/crimson-pro expo-font expo-app-loading
+expo install @expo-google-fonts/crimson-pro expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  CrimsonPro_200ExtraLight,
-  CrimsonPro_300Light,
-  CrimsonPro_400Regular,
-  CrimsonPro_500Medium,
-  CrimsonPro_600SemiBold,
-  CrimsonPro_700Bold,
-  CrimsonPro_800ExtraBold,
-  CrimsonPro_900Black,
-  CrimsonPro_200ExtraLight_Italic,
-  CrimsonPro_300Light_Italic,
-  CrimsonPro_400Regular_Italic,
-  CrimsonPro_500Medium_Italic,
-  CrimsonPro_600SemiBold_Italic,
-  CrimsonPro_700Bold_Italic,
-  CrimsonPro_800ExtraBold_Italic,
-  CrimsonPro_900Black_Italic,
-} from '@expo-google-fonts/crimson-pro';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/crimson-pro/useFonts';
+import { CrimsonPro_200ExtraLight } from '@expo-google-fonts/crimson-pro/200ExtraLight';
+import { CrimsonPro_300Light } from '@expo-google-fonts/crimson-pro/300Light';
+import { CrimsonPro_400Regular } from '@expo-google-fonts/crimson-pro/400Regular';
+import { CrimsonPro_500Medium } from '@expo-google-fonts/crimson-pro/500Medium';
+import { CrimsonPro_600SemiBold } from '@expo-google-fonts/crimson-pro/600SemiBold';
+import { CrimsonPro_700Bold } from '@expo-google-fonts/crimson-pro/700Bold';
+import { CrimsonPro_800ExtraBold } from '@expo-google-fonts/crimson-pro/800ExtraBold';
+import { CrimsonPro_900Black } from '@expo-google-fonts/crimson-pro/900Black';
+import { CrimsonPro_200ExtraLight_Italic } from '@expo-google-fonts/crimson-pro/200ExtraLight_Italic';
+import { CrimsonPro_300Light_Italic } from '@expo-google-fonts/crimson-pro/300Light_Italic';
+import { CrimsonPro_400Regular_Italic } from '@expo-google-fonts/crimson-pro/400Regular_Italic';
+import { CrimsonPro_500Medium_Italic } from '@expo-google-fonts/crimson-pro/500Medium_Italic';
+import { CrimsonPro_600SemiBold_Italic } from '@expo-google-fonts/crimson-pro/600SemiBold_Italic';
+import { CrimsonPro_700Bold_Italic } from '@expo-google-fonts/crimson-pro/700Bold_Italic';
+import { CrimsonPro_800ExtraBold_Italic } from '@expo-google-fonts/crimson-pro/800ExtraBold_Italic';
+import { CrimsonPro_900Black_Italic } from '@expo-google-fonts/crimson-pro/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -87,7 +83,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

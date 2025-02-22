@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const DeliusUnicase_400Regular = require('./DeliusUnicase_400Regular.ttf');
-export const DeliusUnicase_700Bold = require('./DeliusUnicase_700Bold.ttf');
+export const DeliusUnicase_400Regular = require('./400Regular/DeliusUnicase_400Regular.ttf');
+export const DeliusUnicase_700Bold = require('./700Bold/DeliusUnicase_700Bold.ttf');

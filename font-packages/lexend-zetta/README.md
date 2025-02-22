@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/lexend-zetta)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/lexend-zetta)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/lexend-zetta)
 
 This package lets you use the [**Lexend Zetta**](https://fonts.google.com/specimen/Lexend+Zetta) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/lexend-zetta expo-font expo-app-loading
+expo install @expo-google-fonts/lexend-zetta expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  LexendZetta_100Thin,
-  LexendZetta_200ExtraLight,
-  LexendZetta_300Light,
-  LexendZetta_400Regular,
-  LexendZetta_500Medium,
-  LexendZetta_600SemiBold,
-  LexendZetta_700Bold,
-  LexendZetta_800ExtraBold,
-  LexendZetta_900Black,
-} from '@expo-google-fonts/lexend-zetta';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/lexend-zetta/useFonts';
+import { LexendZetta_100Thin } from '@expo-google-fonts/lexend-zetta/100Thin';
+import { LexendZetta_200ExtraLight } from '@expo-google-fonts/lexend-zetta/200ExtraLight';
+import { LexendZetta_300Light } from '@expo-google-fonts/lexend-zetta/300Light';
+import { LexendZetta_400Regular } from '@expo-google-fonts/lexend-zetta/400Regular';
+import { LexendZetta_500Medium } from '@expo-google-fonts/lexend-zetta/500Medium';
+import { LexendZetta_600SemiBold } from '@expo-google-fonts/lexend-zetta/600SemiBold';
+import { LexendZetta_700Bold } from '@expo-google-fonts/lexend-zetta/700Bold';
+import { LexendZetta_800ExtraBold } from '@expo-google-fonts/lexend-zetta/800ExtraBold';
+import { LexendZetta_900Black } from '@expo-google-fonts/lexend-zetta/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

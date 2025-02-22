@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-sans-adlam-unjoined)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-sans-adlam-unjoined)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/noto-sans-adlam-unjoined)
 
 This package lets you use the [**Noto Sans Adlam Unjoined**](https://fonts.google.com/specimen/Noto+Sans+Adlam+Unjoined) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -22,22 +21,19 @@ This font family contains [4 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/noto-sans-adlam-unjoined expo-font expo-app-loading
+expo install @expo-google-fonts/noto-sans-adlam-unjoined expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSansAdlamUnjoined_400Regular,
-  NotoSansAdlamUnjoined_500Medium,
-  NotoSansAdlamUnjoined_600SemiBold,
-  NotoSansAdlamUnjoined_700Bold,
-} from '@expo-google-fonts/noto-sans-adlam-unjoined';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/noto-sans-adlam-unjoined/useFonts';
+import { NotoSansAdlamUnjoined_400Regular } from '@expo-google-fonts/noto-sans-adlam-unjoined/400Regular';
+import { NotoSansAdlamUnjoined_500Medium } from '@expo-google-fonts/noto-sans-adlam-unjoined/500Medium';
+import { NotoSansAdlamUnjoined_600SemiBold } from '@expo-google-fonts/noto-sans-adlam-unjoined/600SemiBold';
+import { NotoSansAdlamUnjoined_700Bold } from '@expo-google-fonts/noto-sans-adlam-unjoined/700Bold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -51,7 +47,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

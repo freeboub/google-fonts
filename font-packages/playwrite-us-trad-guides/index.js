@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const PlaywriteUSTradGuides_400Regular = require('./PlaywriteUSTradGuides_400Regular.ttf');
+export const PlaywriteUSTradGuides_400Regular = require('./400Regular/PlaywriteUSTradGuides_400Regular.ttf');

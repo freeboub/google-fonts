@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/texturina)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/texturina)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/texturina)
 
 This package lets you use the [**Texturina**](https://fonts.google.com/specimen/Texturina) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/texturina expo-font expo-app-loading
+expo install @expo-google-fonts/texturina expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Texturina_100Thin,
-  Texturina_200ExtraLight,
-  Texturina_300Light,
-  Texturina_400Regular,
-  Texturina_500Medium,
-  Texturina_600SemiBold,
-  Texturina_700Bold,
-  Texturina_800ExtraBold,
-  Texturina_900Black,
-  Texturina_100Thin_Italic,
-  Texturina_200ExtraLight_Italic,
-  Texturina_300Light_Italic,
-  Texturina_400Regular_Italic,
-  Texturina_500Medium_Italic,
-  Texturina_600SemiBold_Italic,
-  Texturina_700Bold_Italic,
-  Texturina_800ExtraBold_Italic,
-  Texturina_900Black_Italic,
-} from '@expo-google-fonts/texturina';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/texturina/useFonts';
+import { Texturina_100Thin } from '@expo-google-fonts/texturina/100Thin';
+import { Texturina_200ExtraLight } from '@expo-google-fonts/texturina/200ExtraLight';
+import { Texturina_300Light } from '@expo-google-fonts/texturina/300Light';
+import { Texturina_400Regular } from '@expo-google-fonts/texturina/400Regular';
+import { Texturina_500Medium } from '@expo-google-fonts/texturina/500Medium';
+import { Texturina_600SemiBold } from '@expo-google-fonts/texturina/600SemiBold';
+import { Texturina_700Bold } from '@expo-google-fonts/texturina/700Bold';
+import { Texturina_800ExtraBold } from '@expo-google-fonts/texturina/800ExtraBold';
+import { Texturina_900Black } from '@expo-google-fonts/texturina/900Black';
+import { Texturina_100Thin_Italic } from '@expo-google-fonts/texturina/100Thin_Italic';
+import { Texturina_200ExtraLight_Italic } from '@expo-google-fonts/texturina/200ExtraLight_Italic';
+import { Texturina_300Light_Italic } from '@expo-google-fonts/texturina/300Light_Italic';
+import { Texturina_400Regular_Italic } from '@expo-google-fonts/texturina/400Regular_Italic';
+import { Texturina_500Medium_Italic } from '@expo-google-fonts/texturina/500Medium_Italic';
+import { Texturina_600SemiBold_Italic } from '@expo-google-fonts/texturina/600SemiBold_Italic';
+import { Texturina_700Bold_Italic } from '@expo-google-fonts/texturina/700Bold_Italic';
+import { Texturina_800ExtraBold_Italic } from '@expo-google-fonts/texturina/800ExtraBold_Italic';
+import { Texturina_900Black_Italic } from '@expo-google-fonts/texturina/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

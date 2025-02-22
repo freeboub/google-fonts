@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/suse)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/suse)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/suse)
 
 This package lets you use the [**SUSE**](https://fonts.google.com/specimen/SUSE) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -26,26 +25,23 @@ This font family contains [8 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/suse expo-font expo-app-loading
+expo install @expo-google-fonts/suse expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  SUSE_100Thin,
-  SUSE_200ExtraLight,
-  SUSE_300Light,
-  SUSE_400Regular,
-  SUSE_500Medium,
-  SUSE_600SemiBold,
-  SUSE_700Bold,
-  SUSE_800ExtraBold,
-} from '@expo-google-fonts/suse';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/suse/useFonts';
+import { SUSE_100Thin } from '@expo-google-fonts/suse/100Thin';
+import { SUSE_200ExtraLight } from '@expo-google-fonts/suse/200ExtraLight';
+import { SUSE_300Light } from '@expo-google-fonts/suse/300Light';
+import { SUSE_400Regular } from '@expo-google-fonts/suse/400Regular';
+import { SUSE_500Medium } from '@expo-google-fonts/suse/500Medium';
+import { SUSE_600SemiBold } from '@expo-google-fonts/suse/600SemiBold';
+import { SUSE_700Bold } from '@expo-google-fonts/suse/700Bold';
+import { SUSE_800ExtraBold } from '@expo-google-fonts/suse/800ExtraBold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -63,7 +59,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

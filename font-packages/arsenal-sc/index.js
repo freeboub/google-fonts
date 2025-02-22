@@ -2,10 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const ArsenalSC_400Regular = require('./ArsenalSC_400Regular.ttf');
-export const ArsenalSC_400Regular_Italic = require('./ArsenalSC_400Regular_Italic.ttf');
-export const ArsenalSC_700Bold = require('./ArsenalSC_700Bold.ttf');
-export const ArsenalSC_700Bold_Italic = require('./ArsenalSC_700Bold_Italic.ttf');
+export const ArsenalSC_400Regular = require('./400Regular/ArsenalSC_400Regular.ttf');
+export const ArsenalSC_400Regular_Italic = require('./400Regular_Italic/ArsenalSC_400Regular_Italic.ttf');
+export const ArsenalSC_700Bold = require('./700Bold/ArsenalSC_700Bold.ttf');
+export const ArsenalSC_700Bold_Italic = require('./700Bold_Italic/ArsenalSC_700Bold_Italic.ttf');

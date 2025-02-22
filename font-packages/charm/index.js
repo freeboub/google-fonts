@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Charm_400Regular = require('./Charm_400Regular.ttf');
-export const Charm_700Bold = require('./Charm_700Bold.ttf');
+export const Charm_400Regular = require('./400Regular/Charm_400Regular.ttf');
+export const Charm_700Bold = require('./700Bold/Charm_700Bold.ttf');

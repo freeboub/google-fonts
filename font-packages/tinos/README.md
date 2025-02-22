@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/tinos)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/tinos)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/tinos)
 
 This package lets you use the [**Tinos**](https://fonts.google.com/specimen/Tinos) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -22,22 +21,19 @@ This font family contains [4 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/tinos expo-font expo-app-loading
+expo install @expo-google-fonts/tinos expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Tinos_400Regular,
-  Tinos_400Regular_Italic,
-  Tinos_700Bold,
-  Tinos_700Bold_Italic,
-} from '@expo-google-fonts/tinos';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/tinos/useFonts';
+import { Tinos_400Regular } from '@expo-google-fonts/tinos/400Regular';
+import { Tinos_400Regular_Italic } from '@expo-google-fonts/tinos/400Regular_Italic';
+import { Tinos_700Bold } from '@expo-google-fonts/tinos/700Bold';
+import { Tinos_700Bold_Italic } from '@expo-google-fonts/tinos/700Bold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -51,7 +47,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

@@ -2,14 +2,14 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const RadioCanadaBig_400Regular = require('./RadioCanadaBig_400Regular.ttf');
-export const RadioCanadaBig_500Medium = require('./RadioCanadaBig_500Medium.ttf');
-export const RadioCanadaBig_600SemiBold = require('./RadioCanadaBig_600SemiBold.ttf');
-export const RadioCanadaBig_700Bold = require('./RadioCanadaBig_700Bold.ttf');
-export const RadioCanadaBig_400Regular_Italic = require('./RadioCanadaBig_400Regular_Italic.ttf');
-export const RadioCanadaBig_500Medium_Italic = require('./RadioCanadaBig_500Medium_Italic.ttf');
-export const RadioCanadaBig_600SemiBold_Italic = require('./RadioCanadaBig_600SemiBold_Italic.ttf');
-export const RadioCanadaBig_700Bold_Italic = require('./RadioCanadaBig_700Bold_Italic.ttf');
+export const RadioCanadaBig_400Regular = require('./400Regular/RadioCanadaBig_400Regular.ttf');
+export const RadioCanadaBig_500Medium = require('./500Medium/RadioCanadaBig_500Medium.ttf');
+export const RadioCanadaBig_600SemiBold = require('./600SemiBold/RadioCanadaBig_600SemiBold.ttf');
+export const RadioCanadaBig_700Bold = require('./700Bold/RadioCanadaBig_700Bold.ttf');
+export const RadioCanadaBig_400Regular_Italic = require('./400Regular_Italic/RadioCanadaBig_400Regular_Italic.ttf');
+export const RadioCanadaBig_500Medium_Italic = require('./500Medium_Italic/RadioCanadaBig_500Medium_Italic.ttf');
+export const RadioCanadaBig_600SemiBold_Italic = require('./600SemiBold_Italic/RadioCanadaBig_600SemiBold_Italic.ttf');
+export const RadioCanadaBig_700Bold_Italic = require('./700Bold_Italic/RadioCanadaBig_700Bold_Italic.ttf');

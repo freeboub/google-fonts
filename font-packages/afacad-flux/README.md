@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/afacad-flux)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/afacad-flux)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/afacad-flux)
 
 This package lets you use the [**Afacad Flux**](https://fonts.google.com/specimen/Afacad+Flux) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/afacad-flux expo-font expo-app-loading
+expo install @expo-google-fonts/afacad-flux expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  AfacadFlux_100Thin,
-  AfacadFlux_200ExtraLight,
-  AfacadFlux_300Light,
-  AfacadFlux_400Regular,
-  AfacadFlux_500Medium,
-  AfacadFlux_600SemiBold,
-  AfacadFlux_700Bold,
-  AfacadFlux_800ExtraBold,
-  AfacadFlux_900Black,
-} from '@expo-google-fonts/afacad-flux';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/afacad-flux/useFonts';
+import { AfacadFlux_100Thin } from '@expo-google-fonts/afacad-flux/100Thin';
+import { AfacadFlux_200ExtraLight } from '@expo-google-fonts/afacad-flux/200ExtraLight';
+import { AfacadFlux_300Light } from '@expo-google-fonts/afacad-flux/300Light';
+import { AfacadFlux_400Regular } from '@expo-google-fonts/afacad-flux/400Regular';
+import { AfacadFlux_500Medium } from '@expo-google-fonts/afacad-flux/500Medium';
+import { AfacadFlux_600SemiBold } from '@expo-google-fonts/afacad-flux/600SemiBold';
+import { AfacadFlux_700Bold } from '@expo-google-fonts/afacad-flux/700Bold';
+import { AfacadFlux_800ExtraBold } from '@expo-google-fonts/afacad-flux/800ExtraBold';
+import { AfacadFlux_900Black } from '@expo-google-fonts/afacad-flux/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

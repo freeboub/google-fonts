@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Italianno_400Regular = require('./Italianno_400Regular.ttf');
+export const Italianno_400Regular = require('./400Regular/Italianno_400Regular.ttf');

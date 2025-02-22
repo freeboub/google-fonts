@@ -2,10 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const ReemKufiFun_400Regular = require('./ReemKufiFun_400Regular.ttf');
-export const ReemKufiFun_500Medium = require('./ReemKufiFun_500Medium.ttf');
-export const ReemKufiFun_600SemiBold = require('./ReemKufiFun_600SemiBold.ttf');
-export const ReemKufiFun_700Bold = require('./ReemKufiFun_700Bold.ttf');
+export const ReemKufiFun_400Regular = require('./400Regular/ReemKufiFun_400Regular.ttf');
+export const ReemKufiFun_500Medium = require('./500Medium/ReemKufiFun_500Medium.ttf');
+export const ReemKufiFun_600SemiBold = require('./600SemiBold/ReemKufiFun_600SemiBold.ttf');
+export const ReemKufiFun_700Bold = require('./700Bold/ReemKufiFun_700Bold.ttf');

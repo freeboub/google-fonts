@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Megrim_400Regular = require('./Megrim_400Regular.ttf');
+export const Megrim_400Regular = require('./400Regular/Megrim_400Regular.ttf');

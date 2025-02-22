@@ -2,10 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const PalanquinDark_400Regular = require('./PalanquinDark_400Regular.ttf');
-export const PalanquinDark_500Medium = require('./PalanquinDark_500Medium.ttf');
-export const PalanquinDark_600SemiBold = require('./PalanquinDark_600SemiBold.ttf');
-export const PalanquinDark_700Bold = require('./PalanquinDark_700Bold.ttf');
+export const PalanquinDark_400Regular = require('./400Regular/PalanquinDark_400Regular.ttf');
+export const PalanquinDark_500Medium = require('./500Medium/PalanquinDark_500Medium.ttf');
+export const PalanquinDark_600SemiBold = require('./600SemiBold/PalanquinDark_600SemiBold.ttf');
+export const PalanquinDark_700Bold = require('./700Bold/PalanquinDark_700Bold.ttf');

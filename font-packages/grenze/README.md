@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/grenze)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/grenze)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/grenze)
 
 This package lets you use the [**Grenze**](https://fonts.google.com/specimen/Grenze) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/grenze expo-font expo-app-loading
+expo install @expo-google-fonts/grenze expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Grenze_100Thin,
-  Grenze_100Thin_Italic,
-  Grenze_200ExtraLight,
-  Grenze_200ExtraLight_Italic,
-  Grenze_300Light,
-  Grenze_300Light_Italic,
-  Grenze_400Regular,
-  Grenze_400Regular_Italic,
-  Grenze_500Medium,
-  Grenze_500Medium_Italic,
-  Grenze_600SemiBold,
-  Grenze_600SemiBold_Italic,
-  Grenze_700Bold,
-  Grenze_700Bold_Italic,
-  Grenze_800ExtraBold,
-  Grenze_800ExtraBold_Italic,
-  Grenze_900Black,
-  Grenze_900Black_Italic,
-} from '@expo-google-fonts/grenze';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/grenze/useFonts';
+import { Grenze_100Thin } from '@expo-google-fonts/grenze/100Thin';
+import { Grenze_100Thin_Italic } from '@expo-google-fonts/grenze/100Thin_Italic';
+import { Grenze_200ExtraLight } from '@expo-google-fonts/grenze/200ExtraLight';
+import { Grenze_200ExtraLight_Italic } from '@expo-google-fonts/grenze/200ExtraLight_Italic';
+import { Grenze_300Light } from '@expo-google-fonts/grenze/300Light';
+import { Grenze_300Light_Italic } from '@expo-google-fonts/grenze/300Light_Italic';
+import { Grenze_400Regular } from '@expo-google-fonts/grenze/400Regular';
+import { Grenze_400Regular_Italic } from '@expo-google-fonts/grenze/400Regular_Italic';
+import { Grenze_500Medium } from '@expo-google-fonts/grenze/500Medium';
+import { Grenze_500Medium_Italic } from '@expo-google-fonts/grenze/500Medium_Italic';
+import { Grenze_600SemiBold } from '@expo-google-fonts/grenze/600SemiBold';
+import { Grenze_600SemiBold_Italic } from '@expo-google-fonts/grenze/600SemiBold_Italic';
+import { Grenze_700Bold } from '@expo-google-fonts/grenze/700Bold';
+import { Grenze_700Bold_Italic } from '@expo-google-fonts/grenze/700Bold_Italic';
+import { Grenze_800ExtraBold } from '@expo-google-fonts/grenze/800ExtraBold';
+import { Grenze_800ExtraBold_Italic } from '@expo-google-fonts/grenze/800ExtraBold_Italic';
+import { Grenze_900Black } from '@expo-google-fonts/grenze/900Black';
+import { Grenze_900Black_Italic } from '@expo-google-fonts/grenze/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

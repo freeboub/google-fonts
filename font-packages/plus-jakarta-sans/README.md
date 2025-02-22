@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/plus-jakarta-sans)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/plus-jakarta-sans)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/plus-jakarta-sans)
 
 This package lets you use the [**Plus Jakarta Sans**](https://fonts.google.com/specimen/Plus+Jakarta+Sans) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -32,32 +31,29 @@ This font family contains [14 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/plus-jakarta-sans expo-font expo-app-loading
+expo install @expo-google-fonts/plus-jakarta-sans expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  PlusJakartaSans_200ExtraLight,
-  PlusJakartaSans_300Light,
-  PlusJakartaSans_400Regular,
-  PlusJakartaSans_500Medium,
-  PlusJakartaSans_600SemiBold,
-  PlusJakartaSans_700Bold,
-  PlusJakartaSans_800ExtraBold,
-  PlusJakartaSans_200ExtraLight_Italic,
-  PlusJakartaSans_300Light_Italic,
-  PlusJakartaSans_400Regular_Italic,
-  PlusJakartaSans_500Medium_Italic,
-  PlusJakartaSans_600SemiBold_Italic,
-  PlusJakartaSans_700Bold_Italic,
-  PlusJakartaSans_800ExtraBold_Italic,
-} from '@expo-google-fonts/plus-jakarta-sans';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/plus-jakarta-sans/useFonts';
+import { PlusJakartaSans_200ExtraLight } from '@expo-google-fonts/plus-jakarta-sans/200ExtraLight';
+import { PlusJakartaSans_300Light } from '@expo-google-fonts/plus-jakarta-sans/300Light';
+import { PlusJakartaSans_400Regular } from '@expo-google-fonts/plus-jakarta-sans/400Regular';
+import { PlusJakartaSans_500Medium } from '@expo-google-fonts/plus-jakarta-sans/500Medium';
+import { PlusJakartaSans_600SemiBold } from '@expo-google-fonts/plus-jakarta-sans/600SemiBold';
+import { PlusJakartaSans_700Bold } from '@expo-google-fonts/plus-jakarta-sans/700Bold';
+import { PlusJakartaSans_800ExtraBold } from '@expo-google-fonts/plus-jakarta-sans/800ExtraBold';
+import { PlusJakartaSans_200ExtraLight_Italic } from '@expo-google-fonts/plus-jakarta-sans/200ExtraLight_Italic';
+import { PlusJakartaSans_300Light_Italic } from '@expo-google-fonts/plus-jakarta-sans/300Light_Italic';
+import { PlusJakartaSans_400Regular_Italic } from '@expo-google-fonts/plus-jakarta-sans/400Regular_Italic';
+import { PlusJakartaSans_500Medium_Italic } from '@expo-google-fonts/plus-jakarta-sans/500Medium_Italic';
+import { PlusJakartaSans_600SemiBold_Italic } from '@expo-google-fonts/plus-jakarta-sans/600SemiBold_Italic';
+import { PlusJakartaSans_700Bold_Italic } from '@expo-google-fonts/plus-jakarta-sans/700Bold_Italic';
+import { PlusJakartaSans_800ExtraBold_Italic } from '@expo-google-fonts/plus-jakarta-sans/800ExtraBold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -81,7 +77,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

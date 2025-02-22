@@ -2,11 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Teko_300Light = require('./Teko_300Light.ttf');
-export const Teko_400Regular = require('./Teko_400Regular.ttf');
-export const Teko_500Medium = require('./Teko_500Medium.ttf');
-export const Teko_600SemiBold = require('./Teko_600SemiBold.ttf');
-export const Teko_700Bold = require('./Teko_700Bold.ttf');
+export const Teko_300Light = require('./300Light/Teko_300Light.ttf');
+export const Teko_400Regular = require('./400Regular/Teko_400Regular.ttf');
+export const Teko_500Medium = require('./500Medium/Teko_500Medium.ttf');
+export const Teko_600SemiBold = require('./600SemiBold/Teko_600SemiBold.ttf');
+export const Teko_700Bold = require('./700Bold/Teko_700Bold.ttf');

@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-sans-thai)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-sans-thai)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/noto-sans-thai)
 
 This package lets you use the [**Noto Sans Thai**](https://fonts.google.com/specimen/Noto+Sans+Thai) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/noto-sans-thai expo-font expo-app-loading
+expo install @expo-google-fonts/noto-sans-thai expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSansThai_100Thin,
-  NotoSansThai_200ExtraLight,
-  NotoSansThai_300Light,
-  NotoSansThai_400Regular,
-  NotoSansThai_500Medium,
-  NotoSansThai_600SemiBold,
-  NotoSansThai_700Bold,
-  NotoSansThai_800ExtraBold,
-  NotoSansThai_900Black,
-} from '@expo-google-fonts/noto-sans-thai';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/noto-sans-thai/useFonts';
+import { NotoSansThai_100Thin } from '@expo-google-fonts/noto-sans-thai/100Thin';
+import { NotoSansThai_200ExtraLight } from '@expo-google-fonts/noto-sans-thai/200ExtraLight';
+import { NotoSansThai_300Light } from '@expo-google-fonts/noto-sans-thai/300Light';
+import { NotoSansThai_400Regular } from '@expo-google-fonts/noto-sans-thai/400Regular';
+import { NotoSansThai_500Medium } from '@expo-google-fonts/noto-sans-thai/500Medium';
+import { NotoSansThai_600SemiBold } from '@expo-google-fonts/noto-sans-thai/600SemiBold';
+import { NotoSansThai_700Bold } from '@expo-google-fonts/noto-sans-thai/700Bold';
+import { NotoSansThai_800ExtraBold } from '@expo-google-fonts/noto-sans-thai/800ExtraBold';
+import { NotoSansThai_900Black } from '@expo-google-fonts/noto-sans-thai/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

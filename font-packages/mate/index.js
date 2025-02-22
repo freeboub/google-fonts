@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Mate_400Regular = require('./Mate_400Regular.ttf');
-export const Mate_400Regular_Italic = require('./Mate_400Regular_Italic.ttf');
+export const Mate_400Regular = require('./400Regular/Mate_400Regular.ttf');
+export const Mate_400Regular_Italic = require('./400Regular_Italic/Mate_400Regular_Italic.ttf');

@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/exo-2)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/exo-2)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/exo-2)
 
 This package lets you use the [**Exo 2**](https://fonts.google.com/specimen/Exo+2) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/exo-2 expo-font expo-app-loading
+expo install @expo-google-fonts/exo-2 expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Exo2_100Thin,
-  Exo2_200ExtraLight,
-  Exo2_300Light,
-  Exo2_400Regular,
-  Exo2_500Medium,
-  Exo2_600SemiBold,
-  Exo2_700Bold,
-  Exo2_800ExtraBold,
-  Exo2_900Black,
-  Exo2_100Thin_Italic,
-  Exo2_200ExtraLight_Italic,
-  Exo2_300Light_Italic,
-  Exo2_400Regular_Italic,
-  Exo2_500Medium_Italic,
-  Exo2_600SemiBold_Italic,
-  Exo2_700Bold_Italic,
-  Exo2_800ExtraBold_Italic,
-  Exo2_900Black_Italic,
-} from '@expo-google-fonts/exo-2';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/exo-2/useFonts';
+import { Exo2_100Thin } from '@expo-google-fonts/exo-2/100Thin';
+import { Exo2_200ExtraLight } from '@expo-google-fonts/exo-2/200ExtraLight';
+import { Exo2_300Light } from '@expo-google-fonts/exo-2/300Light';
+import { Exo2_400Regular } from '@expo-google-fonts/exo-2/400Regular';
+import { Exo2_500Medium } from '@expo-google-fonts/exo-2/500Medium';
+import { Exo2_600SemiBold } from '@expo-google-fonts/exo-2/600SemiBold';
+import { Exo2_700Bold } from '@expo-google-fonts/exo-2/700Bold';
+import { Exo2_800ExtraBold } from '@expo-google-fonts/exo-2/800ExtraBold';
+import { Exo2_900Black } from '@expo-google-fonts/exo-2/900Black';
+import { Exo2_100Thin_Italic } from '@expo-google-fonts/exo-2/100Thin_Italic';
+import { Exo2_200ExtraLight_Italic } from '@expo-google-fonts/exo-2/200ExtraLight_Italic';
+import { Exo2_300Light_Italic } from '@expo-google-fonts/exo-2/300Light_Italic';
+import { Exo2_400Regular_Italic } from '@expo-google-fonts/exo-2/400Regular_Italic';
+import { Exo2_500Medium_Italic } from '@expo-google-fonts/exo-2/500Medium_Italic';
+import { Exo2_600SemiBold_Italic } from '@expo-google-fonts/exo-2/600SemiBold_Italic';
+import { Exo2_700Bold_Italic } from '@expo-google-fonts/exo-2/700Bold_Italic';
+import { Exo2_800ExtraBold_Italic } from '@expo-google-fonts/exo-2/800ExtraBold_Italic';
+import { Exo2_900Black_Italic } from '@expo-google-fonts/exo-2/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

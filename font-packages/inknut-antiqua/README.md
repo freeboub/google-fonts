@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/inknut-antiqua)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/inknut-antiqua)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/inknut-antiqua)
 
 This package lets you use the [**Inknut Antiqua**](https://fonts.google.com/specimen/Inknut+Antiqua) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -25,25 +24,22 @@ This font family contains [7 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/inknut-antiqua expo-font expo-app-loading
+expo install @expo-google-fonts/inknut-antiqua expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  InknutAntiqua_300Light,
-  InknutAntiqua_400Regular,
-  InknutAntiqua_500Medium,
-  InknutAntiqua_600SemiBold,
-  InknutAntiqua_700Bold,
-  InknutAntiqua_800ExtraBold,
-  InknutAntiqua_900Black,
-} from '@expo-google-fonts/inknut-antiqua';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/inknut-antiqua/useFonts';
+import { InknutAntiqua_300Light } from '@expo-google-fonts/inknut-antiqua/300Light';
+import { InknutAntiqua_400Regular } from '@expo-google-fonts/inknut-antiqua/400Regular';
+import { InknutAntiqua_500Medium } from '@expo-google-fonts/inknut-antiqua/500Medium';
+import { InknutAntiqua_600SemiBold } from '@expo-google-fonts/inknut-antiqua/600SemiBold';
+import { InknutAntiqua_700Bold } from '@expo-google-fonts/inknut-antiqua/700Bold';
+import { InknutAntiqua_800ExtraBold } from '@expo-google-fonts/inknut-antiqua/800ExtraBold';
+import { InknutAntiqua_900Black } from '@expo-google-fonts/inknut-antiqua/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -60,7 +56,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

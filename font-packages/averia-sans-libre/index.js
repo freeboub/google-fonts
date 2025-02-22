@@ -2,12 +2,12 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const AveriaSansLibre_300Light = require('./AveriaSansLibre_300Light.ttf');
-export const AveriaSansLibre_300Light_Italic = require('./AveriaSansLibre_300Light_Italic.ttf');
-export const AveriaSansLibre_400Regular = require('./AveriaSansLibre_400Regular.ttf');
-export const AveriaSansLibre_400Regular_Italic = require('./AveriaSansLibre_400Regular_Italic.ttf');
-export const AveriaSansLibre_700Bold = require('./AveriaSansLibre_700Bold.ttf');
-export const AveriaSansLibre_700Bold_Italic = require('./AveriaSansLibre_700Bold_Italic.ttf');
+export const AveriaSansLibre_300Light = require('./300Light/AveriaSansLibre_300Light.ttf');
+export const AveriaSansLibre_300Light_Italic = require('./300Light_Italic/AveriaSansLibre_300Light_Italic.ttf');
+export const AveriaSansLibre_400Regular = require('./400Regular/AveriaSansLibre_400Regular.ttf');
+export const AveriaSansLibre_400Regular_Italic = require('./400Regular_Italic/AveriaSansLibre_400Regular_Italic.ttf');
+export const AveriaSansLibre_700Bold = require('./700Bold/AveriaSansLibre_700Bold.ttf');
+export const AveriaSansLibre_700Bold_Italic = require('./700Bold_Italic/AveriaSansLibre_700Bold_Italic.ttf');

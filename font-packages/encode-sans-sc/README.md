@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/encode-sans-sc)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/encode-sans-sc)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/encode-sans-sc)
 
 This package lets you use the [**Encode Sans SC**](https://fonts.google.com/specimen/Encode+Sans+SC) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/encode-sans-sc expo-font expo-app-loading
+expo install @expo-google-fonts/encode-sans-sc expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  EncodeSansSC_100Thin,
-  EncodeSansSC_200ExtraLight,
-  EncodeSansSC_300Light,
-  EncodeSansSC_400Regular,
-  EncodeSansSC_500Medium,
-  EncodeSansSC_600SemiBold,
-  EncodeSansSC_700Bold,
-  EncodeSansSC_800ExtraBold,
-  EncodeSansSC_900Black,
-} from '@expo-google-fonts/encode-sans-sc';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/encode-sans-sc/useFonts';
+import { EncodeSansSC_100Thin } from '@expo-google-fonts/encode-sans-sc/100Thin';
+import { EncodeSansSC_200ExtraLight } from '@expo-google-fonts/encode-sans-sc/200ExtraLight';
+import { EncodeSansSC_300Light } from '@expo-google-fonts/encode-sans-sc/300Light';
+import { EncodeSansSC_400Regular } from '@expo-google-fonts/encode-sans-sc/400Regular';
+import { EncodeSansSC_500Medium } from '@expo-google-fonts/encode-sans-sc/500Medium';
+import { EncodeSansSC_600SemiBold } from '@expo-google-fonts/encode-sans-sc/600SemiBold';
+import { EncodeSansSC_700Bold } from '@expo-google-fonts/encode-sans-sc/700Bold';
+import { EncodeSansSC_800ExtraBold } from '@expo-google-fonts/encode-sans-sc/800ExtraBold';
+import { EncodeSansSC_900Black } from '@expo-google-fonts/encode-sans-sc/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

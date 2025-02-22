@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/barlow-condensed)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/barlow-condensed)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/barlow-condensed)
 
 This package lets you use the [**Barlow Condensed**](https://fonts.google.com/specimen/Barlow+Condensed) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/barlow-condensed expo-font expo-app-loading
+expo install @expo-google-fonts/barlow-condensed expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  BarlowCondensed_100Thin,
-  BarlowCondensed_100Thin_Italic,
-  BarlowCondensed_200ExtraLight,
-  BarlowCondensed_200ExtraLight_Italic,
-  BarlowCondensed_300Light,
-  BarlowCondensed_300Light_Italic,
-  BarlowCondensed_400Regular,
-  BarlowCondensed_400Regular_Italic,
-  BarlowCondensed_500Medium,
-  BarlowCondensed_500Medium_Italic,
-  BarlowCondensed_600SemiBold,
-  BarlowCondensed_600SemiBold_Italic,
-  BarlowCondensed_700Bold,
-  BarlowCondensed_700Bold_Italic,
-  BarlowCondensed_800ExtraBold,
-  BarlowCondensed_800ExtraBold_Italic,
-  BarlowCondensed_900Black,
-  BarlowCondensed_900Black_Italic,
-} from '@expo-google-fonts/barlow-condensed';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/barlow-condensed/useFonts';
+import { BarlowCondensed_100Thin } from '@expo-google-fonts/barlow-condensed/100Thin';
+import { BarlowCondensed_100Thin_Italic } from '@expo-google-fonts/barlow-condensed/100Thin_Italic';
+import { BarlowCondensed_200ExtraLight } from '@expo-google-fonts/barlow-condensed/200ExtraLight';
+import { BarlowCondensed_200ExtraLight_Italic } from '@expo-google-fonts/barlow-condensed/200ExtraLight_Italic';
+import { BarlowCondensed_300Light } from '@expo-google-fonts/barlow-condensed/300Light';
+import { BarlowCondensed_300Light_Italic } from '@expo-google-fonts/barlow-condensed/300Light_Italic';
+import { BarlowCondensed_400Regular } from '@expo-google-fonts/barlow-condensed/400Regular';
+import { BarlowCondensed_400Regular_Italic } from '@expo-google-fonts/barlow-condensed/400Regular_Italic';
+import { BarlowCondensed_500Medium } from '@expo-google-fonts/barlow-condensed/500Medium';
+import { BarlowCondensed_500Medium_Italic } from '@expo-google-fonts/barlow-condensed/500Medium_Italic';
+import { BarlowCondensed_600SemiBold } from '@expo-google-fonts/barlow-condensed/600SemiBold';
+import { BarlowCondensed_600SemiBold_Italic } from '@expo-google-fonts/barlow-condensed/600SemiBold_Italic';
+import { BarlowCondensed_700Bold } from '@expo-google-fonts/barlow-condensed/700Bold';
+import { BarlowCondensed_700Bold_Italic } from '@expo-google-fonts/barlow-condensed/700Bold_Italic';
+import { BarlowCondensed_800ExtraBold } from '@expo-google-fonts/barlow-condensed/800ExtraBold';
+import { BarlowCondensed_800ExtraBold_Italic } from '@expo-google-fonts/barlow-condensed/800ExtraBold_Italic';
+import { BarlowCondensed_900Black } from '@expo-google-fonts/barlow-condensed/900Black';
+import { BarlowCondensed_900Black_Italic } from '@expo-google-fonts/barlow-condensed/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

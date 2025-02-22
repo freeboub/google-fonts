@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-serif-kr)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-serif-kr)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/noto-serif-kr)
 
 This package lets you use the [**Noto Serif KR**](https://fonts.google.com/specimen/Noto+Serif+KR) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -26,26 +25,23 @@ This font family contains [8 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/noto-serif-kr expo-font expo-app-loading
+expo install @expo-google-fonts/noto-serif-kr expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSerifKR_200ExtraLight,
-  NotoSerifKR_300Light,
-  NotoSerifKR_400Regular,
-  NotoSerifKR_500Medium,
-  NotoSerifKR_600SemiBold,
-  NotoSerifKR_700Bold,
-  NotoSerifKR_800ExtraBold,
-  NotoSerifKR_900Black,
-} from '@expo-google-fonts/noto-serif-kr';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/noto-serif-kr/useFonts';
+import { NotoSerifKR_200ExtraLight } from '@expo-google-fonts/noto-serif-kr/200ExtraLight';
+import { NotoSerifKR_300Light } from '@expo-google-fonts/noto-serif-kr/300Light';
+import { NotoSerifKR_400Regular } from '@expo-google-fonts/noto-serif-kr/400Regular';
+import { NotoSerifKR_500Medium } from '@expo-google-fonts/noto-serif-kr/500Medium';
+import { NotoSerifKR_600SemiBold } from '@expo-google-fonts/noto-serif-kr/600SemiBold';
+import { NotoSerifKR_700Bold } from '@expo-google-fonts/noto-serif-kr/700Bold';
+import { NotoSerifKR_800ExtraBold } from '@expo-google-fonts/noto-serif-kr/800ExtraBold';
+import { NotoSerifKR_900Black } from '@expo-google-fonts/noto-serif-kr/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -63,7 +59,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/anek-latin)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/anek-latin)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/anek-latin)
 
 This package lets you use the [**Anek Latin**](https://fonts.google.com/specimen/Anek+Latin) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -26,26 +25,23 @@ This font family contains [8 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/anek-latin expo-font expo-app-loading
+expo install @expo-google-fonts/anek-latin expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  AnekLatin_100Thin,
-  AnekLatin_200ExtraLight,
-  AnekLatin_300Light,
-  AnekLatin_400Regular,
-  AnekLatin_500Medium,
-  AnekLatin_600SemiBold,
-  AnekLatin_700Bold,
-  AnekLatin_800ExtraBold,
-} from '@expo-google-fonts/anek-latin';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/anek-latin/useFonts';
+import { AnekLatin_100Thin } from '@expo-google-fonts/anek-latin/100Thin';
+import { AnekLatin_200ExtraLight } from '@expo-google-fonts/anek-latin/200ExtraLight';
+import { AnekLatin_300Light } from '@expo-google-fonts/anek-latin/300Light';
+import { AnekLatin_400Regular } from '@expo-google-fonts/anek-latin/400Regular';
+import { AnekLatin_500Medium } from '@expo-google-fonts/anek-latin/500Medium';
+import { AnekLatin_600SemiBold } from '@expo-google-fonts/anek-latin/600SemiBold';
+import { AnekLatin_700Bold } from '@expo-google-fonts/anek-latin/700Bold';
+import { AnekLatin_800ExtraBold } from '@expo-google-fonts/anek-latin/800ExtraBold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -63,7 +59,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

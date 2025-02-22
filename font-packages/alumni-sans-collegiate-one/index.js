@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const AlumniSansCollegiateOne_400Regular = require('./AlumniSansCollegiateOne_400Regular.ttf');
-export const AlumniSansCollegiateOne_400Regular_Italic = require('./AlumniSansCollegiateOne_400Regular_Italic.ttf');
+export const AlumniSansCollegiateOne_400Regular = require('./400Regular/AlumniSansCollegiateOne_400Regular.ttf');
+export const AlumniSansCollegiateOne_400Regular_Italic = require('./400Regular_Italic/AlumniSansCollegiateOne_400Regular_Italic.ttf');

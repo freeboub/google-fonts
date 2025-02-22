@@ -2,10 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Share_400Regular = require('./Share_400Regular.ttf');
-export const Share_400Regular_Italic = require('./Share_400Regular_Italic.ttf');
-export const Share_700Bold = require('./Share_700Bold.ttf');
-export const Share_700Bold_Italic = require('./Share_700Bold_Italic.ttf');
+export const Share_400Regular = require('./400Regular/Share_400Regular.ttf');
+export const Share_400Regular_Italic = require('./400Regular_Italic/Share_400Regular_Italic.ttf');
+export const Share_700Bold = require('./700Bold/Share_700Bold.ttf');
+export const Share_700Bold_Italic = require('./700Bold_Italic/Share_700Bold_Italic.ttf');

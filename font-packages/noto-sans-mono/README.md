@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-sans-mono)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-sans-mono)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/noto-sans-mono)
 
 This package lets you use the [**Noto Sans Mono**](https://fonts.google.com/specimen/Noto+Sans+Mono) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/noto-sans-mono expo-font expo-app-loading
+expo install @expo-google-fonts/noto-sans-mono expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSansMono_100Thin,
-  NotoSansMono_200ExtraLight,
-  NotoSansMono_300Light,
-  NotoSansMono_400Regular,
-  NotoSansMono_500Medium,
-  NotoSansMono_600SemiBold,
-  NotoSansMono_700Bold,
-  NotoSansMono_800ExtraBold,
-  NotoSansMono_900Black,
-} from '@expo-google-fonts/noto-sans-mono';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/noto-sans-mono/useFonts';
+import { NotoSansMono_100Thin } from '@expo-google-fonts/noto-sans-mono/100Thin';
+import { NotoSansMono_200ExtraLight } from '@expo-google-fonts/noto-sans-mono/200ExtraLight';
+import { NotoSansMono_300Light } from '@expo-google-fonts/noto-sans-mono/300Light';
+import { NotoSansMono_400Regular } from '@expo-google-fonts/noto-sans-mono/400Regular';
+import { NotoSansMono_500Medium } from '@expo-google-fonts/noto-sans-mono/500Medium';
+import { NotoSansMono_600SemiBold } from '@expo-google-fonts/noto-sans-mono/600SemiBold';
+import { NotoSansMono_700Bold } from '@expo-google-fonts/noto-sans-mono/700Bold';
+import { NotoSansMono_800ExtraBold } from '@expo-google-fonts/noto-sans-mono/800ExtraBold';
+import { NotoSansMono_900Black } from '@expo-google-fonts/noto-sans-mono/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

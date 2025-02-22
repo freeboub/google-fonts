@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const ShortStack_400Regular = require('./ShortStack_400Regular.ttf');
+export const ShortStack_400Regular = require('./400Regular/ShortStack_400Regular.ttf');

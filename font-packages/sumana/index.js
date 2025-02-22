@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Sumana_400Regular = require('./Sumana_400Regular.ttf');
-export const Sumana_700Bold = require('./Sumana_700Bold.ttf');
+export const Sumana_400Regular = require('./400Regular/Sumana_400Regular.ttf');
+export const Sumana_700Bold = require('./700Bold/Sumana_700Bold.ttf');

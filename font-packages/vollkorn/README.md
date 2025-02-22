@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/vollkorn)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/vollkorn)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/vollkorn)
 
 This package lets you use the [**Vollkorn**](https://fonts.google.com/specimen/Vollkorn) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -30,30 +29,27 @@ This font family contains [12 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/vollkorn expo-font expo-app-loading
+expo install @expo-google-fonts/vollkorn expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Vollkorn_400Regular,
-  Vollkorn_500Medium,
-  Vollkorn_600SemiBold,
-  Vollkorn_700Bold,
-  Vollkorn_800ExtraBold,
-  Vollkorn_900Black,
-  Vollkorn_400Regular_Italic,
-  Vollkorn_500Medium_Italic,
-  Vollkorn_600SemiBold_Italic,
-  Vollkorn_700Bold_Italic,
-  Vollkorn_800ExtraBold_Italic,
-  Vollkorn_900Black_Italic,
-} from '@expo-google-fonts/vollkorn';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/vollkorn/useFonts';
+import { Vollkorn_400Regular } from '@expo-google-fonts/vollkorn/400Regular';
+import { Vollkorn_500Medium } from '@expo-google-fonts/vollkorn/500Medium';
+import { Vollkorn_600SemiBold } from '@expo-google-fonts/vollkorn/600SemiBold';
+import { Vollkorn_700Bold } from '@expo-google-fonts/vollkorn/700Bold';
+import { Vollkorn_800ExtraBold } from '@expo-google-fonts/vollkorn/800ExtraBold';
+import { Vollkorn_900Black } from '@expo-google-fonts/vollkorn/900Black';
+import { Vollkorn_400Regular_Italic } from '@expo-google-fonts/vollkorn/400Regular_Italic';
+import { Vollkorn_500Medium_Italic } from '@expo-google-fonts/vollkorn/500Medium_Italic';
+import { Vollkorn_600SemiBold_Italic } from '@expo-google-fonts/vollkorn/600SemiBold_Italic';
+import { Vollkorn_700Bold_Italic } from '@expo-google-fonts/vollkorn/700Bold_Italic';
+import { Vollkorn_800ExtraBold_Italic } from '@expo-google-fonts/vollkorn/800ExtraBold_Italic';
+import { Vollkorn_900Black_Italic } from '@expo-google-fonts/vollkorn/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -75,7 +71,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

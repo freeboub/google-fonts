@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/newsreader)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/newsreader)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/newsreader)
 
 This package lets you use the [**Newsreader**](https://fonts.google.com/specimen/Newsreader) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -32,32 +31,29 @@ This font family contains [14 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/newsreader expo-font expo-app-loading
+expo install @expo-google-fonts/newsreader expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Newsreader_200ExtraLight,
-  Newsreader_300Light,
-  Newsreader_400Regular,
-  Newsreader_500Medium,
-  Newsreader_600SemiBold,
-  Newsreader_700Bold,
-  Newsreader_800ExtraBold,
-  Newsreader_200ExtraLight_Italic,
-  Newsreader_300Light_Italic,
-  Newsreader_400Regular_Italic,
-  Newsreader_500Medium_Italic,
-  Newsreader_600SemiBold_Italic,
-  Newsreader_700Bold_Italic,
-  Newsreader_800ExtraBold_Italic,
-} from '@expo-google-fonts/newsreader';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/newsreader/useFonts';
+import { Newsreader_200ExtraLight } from '@expo-google-fonts/newsreader/200ExtraLight';
+import { Newsreader_300Light } from '@expo-google-fonts/newsreader/300Light';
+import { Newsreader_400Regular } from '@expo-google-fonts/newsreader/400Regular';
+import { Newsreader_500Medium } from '@expo-google-fonts/newsreader/500Medium';
+import { Newsreader_600SemiBold } from '@expo-google-fonts/newsreader/600SemiBold';
+import { Newsreader_700Bold } from '@expo-google-fonts/newsreader/700Bold';
+import { Newsreader_800ExtraBold } from '@expo-google-fonts/newsreader/800ExtraBold';
+import { Newsreader_200ExtraLight_Italic } from '@expo-google-fonts/newsreader/200ExtraLight_Italic';
+import { Newsreader_300Light_Italic } from '@expo-google-fonts/newsreader/300Light_Italic';
+import { Newsreader_400Regular_Italic } from '@expo-google-fonts/newsreader/400Regular_Italic';
+import { Newsreader_500Medium_Italic } from '@expo-google-fonts/newsreader/500Medium_Italic';
+import { Newsreader_600SemiBold_Italic } from '@expo-google-fonts/newsreader/600SemiBold_Italic';
+import { Newsreader_700Bold_Italic } from '@expo-google-fonts/newsreader/700Bold_Italic';
+import { Newsreader_800ExtraBold_Italic } from '@expo-google-fonts/newsreader/800ExtraBold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -81,7 +77,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

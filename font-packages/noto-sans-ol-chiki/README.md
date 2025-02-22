@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-sans-ol-chiki)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-sans-ol-chiki)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/noto-sans-ol-chiki)
 
 This package lets you use the [**Noto Sans Ol Chiki**](https://fonts.google.com/specimen/Noto+Sans+Ol+Chiki) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -22,22 +21,19 @@ This font family contains [4 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/noto-sans-ol-chiki expo-font expo-app-loading
+expo install @expo-google-fonts/noto-sans-ol-chiki expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSansOlChiki_400Regular,
-  NotoSansOlChiki_500Medium,
-  NotoSansOlChiki_600SemiBold,
-  NotoSansOlChiki_700Bold,
-} from '@expo-google-fonts/noto-sans-ol-chiki';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/noto-sans-ol-chiki/useFonts';
+import { NotoSansOlChiki_400Regular } from '@expo-google-fonts/noto-sans-ol-chiki/400Regular';
+import { NotoSansOlChiki_500Medium } from '@expo-google-fonts/noto-sans-ol-chiki/500Medium';
+import { NotoSansOlChiki_600SemiBold } from '@expo-google-fonts/noto-sans-ol-chiki/600SemiBold';
+import { NotoSansOlChiki_700Bold } from '@expo-google-fonts/noto-sans-ol-chiki/700Bold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -51,7 +47,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

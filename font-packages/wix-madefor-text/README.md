@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/wix-madefor-text)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/wix-madefor-text)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/wix-madefor-text)
 
 This package lets you use the [**Wix Madefor Text**](https://fonts.google.com/specimen/Wix+Madefor+Text) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -28,28 +27,25 @@ This font family contains [10 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/wix-madefor-text expo-font expo-app-loading
+expo install @expo-google-fonts/wix-madefor-text expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  WixMadeforText_400Regular,
-  WixMadeforText_400Regular_Italic,
-  WixMadeforText_500Medium,
-  WixMadeforText_500Medium_Italic,
-  WixMadeforText_600SemiBold,
-  WixMadeforText_600SemiBold_Italic,
-  WixMadeforText_700Bold,
-  WixMadeforText_700Bold_Italic,
-  WixMadeforText_800ExtraBold,
-  WixMadeforText_800ExtraBold_Italic,
-} from '@expo-google-fonts/wix-madefor-text';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/wix-madefor-text/useFonts';
+import { WixMadeforText_400Regular } from '@expo-google-fonts/wix-madefor-text/400Regular';
+import { WixMadeforText_400Regular_Italic } from '@expo-google-fonts/wix-madefor-text/400Regular_Italic';
+import { WixMadeforText_500Medium } from '@expo-google-fonts/wix-madefor-text/500Medium';
+import { WixMadeforText_500Medium_Italic } from '@expo-google-fonts/wix-madefor-text/500Medium_Italic';
+import { WixMadeforText_600SemiBold } from '@expo-google-fonts/wix-madefor-text/600SemiBold';
+import { WixMadeforText_600SemiBold_Italic } from '@expo-google-fonts/wix-madefor-text/600SemiBold_Italic';
+import { WixMadeforText_700Bold } from '@expo-google-fonts/wix-madefor-text/700Bold';
+import { WixMadeforText_700Bold_Italic } from '@expo-google-fonts/wix-madefor-text/700Bold_Italic';
+import { WixMadeforText_800ExtraBold } from '@expo-google-fonts/wix-madefor-text/800ExtraBold';
+import { WixMadeforText_800ExtraBold_Italic } from '@expo-google-fonts/wix-madefor-text/800ExtraBold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -69,7 +65,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

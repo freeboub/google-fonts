@@ -2,10 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const NotoSansSundanese_400Regular = require('./NotoSansSundanese_400Regular.ttf');
-export const NotoSansSundanese_500Medium = require('./NotoSansSundanese_500Medium.ttf');
-export const NotoSansSundanese_600SemiBold = require('./NotoSansSundanese_600SemiBold.ttf');
-export const NotoSansSundanese_700Bold = require('./NotoSansSundanese_700Bold.ttf');
+export const NotoSansSundanese_400Regular = require('./400Regular/NotoSansSundanese_400Regular.ttf');
+export const NotoSansSundanese_500Medium = require('./500Medium/NotoSansSundanese_500Medium.ttf');
+export const NotoSansSundanese_600SemiBold = require('./600SemiBold/NotoSansSundanese_600SemiBold.ttf');
+export const NotoSansSundanese_700Bold = require('./700Bold/NotoSansSundanese_700Bold.ttf');

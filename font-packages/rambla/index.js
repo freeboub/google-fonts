@@ -2,10 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Rambla_400Regular = require('./Rambla_400Regular.ttf');
-export const Rambla_400Regular_Italic = require('./Rambla_400Regular_Italic.ttf');
-export const Rambla_700Bold = require('./Rambla_700Bold.ttf');
-export const Rambla_700Bold_Italic = require('./Rambla_700Bold_Italic.ttf');
+export const Rambla_400Regular = require('./400Regular/Rambla_400Regular.ttf');
+export const Rambla_400Regular_Italic = require('./400Regular_Italic/Rambla_400Regular_Italic.ttf');
+export const Rambla_700Bold = require('./700Bold/Rambla_700Bold.ttf');
+export const Rambla_700Bold_Italic = require('./700Bold_Italic/Rambla_700Bold_Italic.ttf');

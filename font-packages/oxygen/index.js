@@ -2,9 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Oxygen_300Light = require('./Oxygen_300Light.ttf');
-export const Oxygen_400Regular = require('./Oxygen_400Regular.ttf');
-export const Oxygen_700Bold = require('./Oxygen_700Bold.ttf');
+export const Oxygen_300Light = require('./300Light/Oxygen_300Light.ttf');
+export const Oxygen_400Regular = require('./400Regular/Oxygen_400Regular.ttf');
+export const Oxygen_700Bold = require('./700Bold/Oxygen_700Bold.ttf');

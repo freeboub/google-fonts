@@ -2,9 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const NanumMyeongjo_400Regular = require('./NanumMyeongjo_400Regular.ttf');
-export const NanumMyeongjo_700Bold = require('./NanumMyeongjo_700Bold.ttf');
-export const NanumMyeongjo_800ExtraBold = require('./NanumMyeongjo_800ExtraBold.ttf');
+export const NanumMyeongjo_400Regular = require('./400Regular/NanumMyeongjo_400Regular.ttf');
+export const NanumMyeongjo_700Bold = require('./700Bold/NanumMyeongjo_700Bold.ttf');
+export const NanumMyeongjo_800ExtraBold = require('./800ExtraBold/NanumMyeongjo_800ExtraBold.ttf');

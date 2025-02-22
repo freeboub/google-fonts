@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const GowunBatang_400Regular = require('./GowunBatang_400Regular.ttf');
-export const GowunBatang_700Bold = require('./GowunBatang_700Bold.ttf');
+export const GowunBatang_400Regular = require('./400Regular/GowunBatang_400Regular.ttf');
+export const GowunBatang_700Bold = require('./700Bold/GowunBatang_700Bold.ttf');

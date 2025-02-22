@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/inconsolata)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/inconsolata)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/inconsolata)
 
 This package lets you use the [**Inconsolata**](https://fonts.google.com/specimen/Inconsolata) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -26,26 +25,23 @@ This font family contains [8 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/inconsolata expo-font expo-app-loading
+expo install @expo-google-fonts/inconsolata expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Inconsolata_200ExtraLight,
-  Inconsolata_300Light,
-  Inconsolata_400Regular,
-  Inconsolata_500Medium,
-  Inconsolata_600SemiBold,
-  Inconsolata_700Bold,
-  Inconsolata_800ExtraBold,
-  Inconsolata_900Black,
-} from '@expo-google-fonts/inconsolata';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/inconsolata/useFonts';
+import { Inconsolata_200ExtraLight } from '@expo-google-fonts/inconsolata/200ExtraLight';
+import { Inconsolata_300Light } from '@expo-google-fonts/inconsolata/300Light';
+import { Inconsolata_400Regular } from '@expo-google-fonts/inconsolata/400Regular';
+import { Inconsolata_500Medium } from '@expo-google-fonts/inconsolata/500Medium';
+import { Inconsolata_600SemiBold } from '@expo-google-fonts/inconsolata/600SemiBold';
+import { Inconsolata_700Bold } from '@expo-google-fonts/inconsolata/700Bold';
+import { Inconsolata_800ExtraBold } from '@expo-google-fonts/inconsolata/800ExtraBold';
+import { Inconsolata_900Black } from '@expo-google-fonts/inconsolata/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -63,7 +59,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/tiro-devanagari-hindi)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/tiro-devanagari-hindi)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/tiro-devanagari-hindi)
 
 This package lets you use the [**Tiro Devanagari Hindi**](https://fonts.google.com/specimen/Tiro+Devanagari+Hindi) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -20,20 +19,17 @@ This font family contains [2 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/tiro-devanagari-hindi expo-font expo-app-loading
+expo install @expo-google-fonts/tiro-devanagari-hindi expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  TiroDevanagariHindi_400Regular,
-  TiroDevanagariHindi_400Regular_Italic,
-} from '@expo-google-fonts/tiro-devanagari-hindi';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/tiro-devanagari-hindi/useFonts';
+import { TiroDevanagariHindi_400Regular } from '@expo-google-fonts/tiro-devanagari-hindi/400Regular';
+import { TiroDevanagariHindi_400Regular_Italic } from '@expo-google-fonts/tiro-devanagari-hindi/400Regular_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -45,7 +41,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

@@ -2,14 +2,14 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Arimo_400Regular = require('./Arimo_400Regular.ttf');
-export const Arimo_500Medium = require('./Arimo_500Medium.ttf');
-export const Arimo_600SemiBold = require('./Arimo_600SemiBold.ttf');
-export const Arimo_700Bold = require('./Arimo_700Bold.ttf');
-export const Arimo_400Regular_Italic = require('./Arimo_400Regular_Italic.ttf');
-export const Arimo_500Medium_Italic = require('./Arimo_500Medium_Italic.ttf');
-export const Arimo_600SemiBold_Italic = require('./Arimo_600SemiBold_Italic.ttf');
-export const Arimo_700Bold_Italic = require('./Arimo_700Bold_Italic.ttf');
+export const Arimo_400Regular = require('./400Regular/Arimo_400Regular.ttf');
+export const Arimo_500Medium = require('./500Medium/Arimo_500Medium.ttf');
+export const Arimo_600SemiBold = require('./600SemiBold/Arimo_600SemiBold.ttf');
+export const Arimo_700Bold = require('./700Bold/Arimo_700Bold.ttf');
+export const Arimo_400Regular_Italic = require('./400Regular_Italic/Arimo_400Regular_Italic.ttf');
+export const Arimo_500Medium_Italic = require('./500Medium_Italic/Arimo_500Medium_Italic.ttf');
+export const Arimo_600SemiBold_Italic = require('./600SemiBold_Italic/Arimo_600SemiBold_Italic.ttf');
+export const Arimo_700Bold_Italic = require('./700Bold_Italic/Arimo_700Bold_Italic.ttf');

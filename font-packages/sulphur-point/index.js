@@ -2,9 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const SulphurPoint_300Light = require('./SulphurPoint_300Light.ttf');
-export const SulphurPoint_400Regular = require('./SulphurPoint_400Regular.ttf');
-export const SulphurPoint_700Bold = require('./SulphurPoint_700Bold.ttf');
+export const SulphurPoint_300Light = require('./300Light/SulphurPoint_300Light.ttf');
+export const SulphurPoint_400Regular = require('./400Regular/SulphurPoint_400Regular.ttf');
+export const SulphurPoint_700Bold = require('./700Bold/SulphurPoint_700Bold.ttf');

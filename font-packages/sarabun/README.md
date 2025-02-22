@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/sarabun)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/sarabun)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/sarabun)
 
 This package lets you use the [**Sarabun**](https://fonts.google.com/specimen/Sarabun) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -34,34 +33,31 @@ This font family contains [16 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/sarabun expo-font expo-app-loading
+expo install @expo-google-fonts/sarabun expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Sarabun_100Thin,
-  Sarabun_100Thin_Italic,
-  Sarabun_200ExtraLight,
-  Sarabun_200ExtraLight_Italic,
-  Sarabun_300Light,
-  Sarabun_300Light_Italic,
-  Sarabun_400Regular,
-  Sarabun_400Regular_Italic,
-  Sarabun_500Medium,
-  Sarabun_500Medium_Italic,
-  Sarabun_600SemiBold,
-  Sarabun_600SemiBold_Italic,
-  Sarabun_700Bold,
-  Sarabun_700Bold_Italic,
-  Sarabun_800ExtraBold,
-  Sarabun_800ExtraBold_Italic,
-} from '@expo-google-fonts/sarabun';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/sarabun/useFonts';
+import { Sarabun_100Thin } from '@expo-google-fonts/sarabun/100Thin';
+import { Sarabun_100Thin_Italic } from '@expo-google-fonts/sarabun/100Thin_Italic';
+import { Sarabun_200ExtraLight } from '@expo-google-fonts/sarabun/200ExtraLight';
+import { Sarabun_200ExtraLight_Italic } from '@expo-google-fonts/sarabun/200ExtraLight_Italic';
+import { Sarabun_300Light } from '@expo-google-fonts/sarabun/300Light';
+import { Sarabun_300Light_Italic } from '@expo-google-fonts/sarabun/300Light_Italic';
+import { Sarabun_400Regular } from '@expo-google-fonts/sarabun/400Regular';
+import { Sarabun_400Regular_Italic } from '@expo-google-fonts/sarabun/400Regular_Italic';
+import { Sarabun_500Medium } from '@expo-google-fonts/sarabun/500Medium';
+import { Sarabun_500Medium_Italic } from '@expo-google-fonts/sarabun/500Medium_Italic';
+import { Sarabun_600SemiBold } from '@expo-google-fonts/sarabun/600SemiBold';
+import { Sarabun_600SemiBold_Italic } from '@expo-google-fonts/sarabun/600SemiBold_Italic';
+import { Sarabun_700Bold } from '@expo-google-fonts/sarabun/700Bold';
+import { Sarabun_700Bold_Italic } from '@expo-google-fonts/sarabun/700Bold_Italic';
+import { Sarabun_800ExtraBold } from '@expo-google-fonts/sarabun/800ExtraBold';
+import { Sarabun_800ExtraBold_Italic } from '@expo-google-fonts/sarabun/800ExtraBold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -87,7 +83,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

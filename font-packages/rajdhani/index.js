@@ -2,11 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Rajdhani_300Light = require('./Rajdhani_300Light.ttf');
-export const Rajdhani_400Regular = require('./Rajdhani_400Regular.ttf');
-export const Rajdhani_500Medium = require('./Rajdhani_500Medium.ttf');
-export const Rajdhani_600SemiBold = require('./Rajdhani_600SemiBold.ttf');
-export const Rajdhani_700Bold = require('./Rajdhani_700Bold.ttf');
+export const Rajdhani_300Light = require('./300Light/Rajdhani_300Light.ttf');
+export const Rajdhani_400Regular = require('./400Regular/Rajdhani_400Regular.ttf');
+export const Rajdhani_500Medium = require('./500Medium/Rajdhani_500Medium.ttf');
+export const Rajdhani_600SemiBold = require('./600SemiBold/Rajdhani_600SemiBold.ttf');
+export const Rajdhani_700Bold = require('./700Bold/Rajdhani_700Bold.ttf');

@@ -2,10 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Thasadith_400Regular = require('./Thasadith_400Regular.ttf');
-export const Thasadith_400Regular_Italic = require('./Thasadith_400Regular_Italic.ttf');
-export const Thasadith_700Bold = require('./Thasadith_700Bold.ttf');
-export const Thasadith_700Bold_Italic = require('./Thasadith_700Bold_Italic.ttf');
+export const Thasadith_400Regular = require('./400Regular/Thasadith_400Regular.ttf');
+export const Thasadith_400Regular_Italic = require('./400Regular_Italic/Thasadith_400Regular_Italic.ttf');
+export const Thasadith_700Bold = require('./700Bold/Thasadith_700Bold.ttf');
+export const Thasadith_700Bold_Italic = require('./700Bold_Italic/Thasadith_700Bold_Italic.ttf');

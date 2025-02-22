@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/playwrite-at)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/playwrite-at)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/playwrite-at)
 
 This package lets you use the [**Playwrite AT**](https://fonts.google.com/specimen/Playwrite+AT) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -26,26 +25,23 @@ This font family contains [8 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/playwrite-at expo-font expo-app-loading
+expo install @expo-google-fonts/playwrite-at expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  PlaywriteAT_100Thin,
-  PlaywriteAT_200ExtraLight,
-  PlaywriteAT_300Light,
-  PlaywriteAT_400Regular,
-  PlaywriteAT_100Thin_Italic,
-  PlaywriteAT_200ExtraLight_Italic,
-  PlaywriteAT_300Light_Italic,
-  PlaywriteAT_400Regular_Italic,
-} from '@expo-google-fonts/playwrite-at';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/playwrite-at/useFonts';
+import { PlaywriteAT_100Thin } from '@expo-google-fonts/playwrite-at/100Thin';
+import { PlaywriteAT_200ExtraLight } from '@expo-google-fonts/playwrite-at/200ExtraLight';
+import { PlaywriteAT_300Light } from '@expo-google-fonts/playwrite-at/300Light';
+import { PlaywriteAT_400Regular } from '@expo-google-fonts/playwrite-at/400Regular';
+import { PlaywriteAT_100Thin_Italic } from '@expo-google-fonts/playwrite-at/100Thin_Italic';
+import { PlaywriteAT_200ExtraLight_Italic } from '@expo-google-fonts/playwrite-at/200ExtraLight_Italic';
+import { PlaywriteAT_300Light_Italic } from '@expo-google-fonts/playwrite-at/300Light_Italic';
+import { PlaywriteAT_400Regular_Italic } from '@expo-google-fonts/playwrite-at/400Regular_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -63,7 +59,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

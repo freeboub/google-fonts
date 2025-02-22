@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/source-sans-3)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/source-sans-3)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/source-sans-3)
 
 This package lets you use the [**Source Sans 3**](https://fonts.google.com/specimen/Source+Sans+3) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -34,34 +33,31 @@ This font family contains [16 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/source-sans-3 expo-font expo-app-loading
+expo install @expo-google-fonts/source-sans-3 expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  SourceSans3_200ExtraLight,
-  SourceSans3_300Light,
-  SourceSans3_400Regular,
-  SourceSans3_500Medium,
-  SourceSans3_600SemiBold,
-  SourceSans3_700Bold,
-  SourceSans3_800ExtraBold,
-  SourceSans3_900Black,
-  SourceSans3_200ExtraLight_Italic,
-  SourceSans3_300Light_Italic,
-  SourceSans3_400Regular_Italic,
-  SourceSans3_500Medium_Italic,
-  SourceSans3_600SemiBold_Italic,
-  SourceSans3_700Bold_Italic,
-  SourceSans3_800ExtraBold_Italic,
-  SourceSans3_900Black_Italic,
-} from '@expo-google-fonts/source-sans-3';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/source-sans-3/useFonts';
+import { SourceSans3_200ExtraLight } from '@expo-google-fonts/source-sans-3/200ExtraLight';
+import { SourceSans3_300Light } from '@expo-google-fonts/source-sans-3/300Light';
+import { SourceSans3_400Regular } from '@expo-google-fonts/source-sans-3/400Regular';
+import { SourceSans3_500Medium } from '@expo-google-fonts/source-sans-3/500Medium';
+import { SourceSans3_600SemiBold } from '@expo-google-fonts/source-sans-3/600SemiBold';
+import { SourceSans3_700Bold } from '@expo-google-fonts/source-sans-3/700Bold';
+import { SourceSans3_800ExtraBold } from '@expo-google-fonts/source-sans-3/800ExtraBold';
+import { SourceSans3_900Black } from '@expo-google-fonts/source-sans-3/900Black';
+import { SourceSans3_200ExtraLight_Italic } from '@expo-google-fonts/source-sans-3/200ExtraLight_Italic';
+import { SourceSans3_300Light_Italic } from '@expo-google-fonts/source-sans-3/300Light_Italic';
+import { SourceSans3_400Regular_Italic } from '@expo-google-fonts/source-sans-3/400Regular_Italic';
+import { SourceSans3_500Medium_Italic } from '@expo-google-fonts/source-sans-3/500Medium_Italic';
+import { SourceSans3_600SemiBold_Italic } from '@expo-google-fonts/source-sans-3/600SemiBold_Italic';
+import { SourceSans3_700Bold_Italic } from '@expo-google-fonts/source-sans-3/700Bold_Italic';
+import { SourceSans3_800ExtraBold_Italic } from '@expo-google-fonts/source-sans-3/800ExtraBold_Italic';
+import { SourceSans3_900Black_Italic } from '@expo-google-fonts/source-sans-3/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -87,7 +83,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

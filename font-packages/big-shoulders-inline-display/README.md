@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/big-shoulders-inline-display)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/big-shoulders-inline-display)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/big-shoulders-inline-display)
 
 This package lets you use the [**Big Shoulders Inline Display**](https://fonts.google.com/specimen/Big+Shoulders+Inline+Display) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/big-shoulders-inline-display expo-font expo-app-loading
+expo install @expo-google-fonts/big-shoulders-inline-display expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  BigShouldersInlineDisplay_100Thin,
-  BigShouldersInlineDisplay_200ExtraLight,
-  BigShouldersInlineDisplay_300Light,
-  BigShouldersInlineDisplay_400Regular,
-  BigShouldersInlineDisplay_500Medium,
-  BigShouldersInlineDisplay_600SemiBold,
-  BigShouldersInlineDisplay_700Bold,
-  BigShouldersInlineDisplay_800ExtraBold,
-  BigShouldersInlineDisplay_900Black,
-} from '@expo-google-fonts/big-shoulders-inline-display';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/big-shoulders-inline-display/useFonts';
+import { BigShouldersInlineDisplay_100Thin } from '@expo-google-fonts/big-shoulders-inline-display/100Thin';
+import { BigShouldersInlineDisplay_200ExtraLight } from '@expo-google-fonts/big-shoulders-inline-display/200ExtraLight';
+import { BigShouldersInlineDisplay_300Light } from '@expo-google-fonts/big-shoulders-inline-display/300Light';
+import { BigShouldersInlineDisplay_400Regular } from '@expo-google-fonts/big-shoulders-inline-display/400Regular';
+import { BigShouldersInlineDisplay_500Medium } from '@expo-google-fonts/big-shoulders-inline-display/500Medium';
+import { BigShouldersInlineDisplay_600SemiBold } from '@expo-google-fonts/big-shoulders-inline-display/600SemiBold';
+import { BigShouldersInlineDisplay_700Bold } from '@expo-google-fonts/big-shoulders-inline-display/700Bold';
+import { BigShouldersInlineDisplay_800ExtraBold } from '@expo-google-fonts/big-shoulders-inline-display/800ExtraBold';
+import { BigShouldersInlineDisplay_900Black } from '@expo-google-fonts/big-shoulders-inline-display/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

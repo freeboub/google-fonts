@@ -2,10 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const NotoSerifVithkuqi_400Regular = require('./NotoSerifVithkuqi_400Regular.ttf');
-export const NotoSerifVithkuqi_500Medium = require('./NotoSerifVithkuqi_500Medium.ttf');
-export const NotoSerifVithkuqi_600SemiBold = require('./NotoSerifVithkuqi_600SemiBold.ttf');
-export const NotoSerifVithkuqi_700Bold = require('./NotoSerifVithkuqi_700Bold.ttf');
+export const NotoSerifVithkuqi_400Regular = require('./400Regular/NotoSerifVithkuqi_400Regular.ttf');
+export const NotoSerifVithkuqi_500Medium = require('./500Medium/NotoSerifVithkuqi_500Medium.ttf');
+export const NotoSerifVithkuqi_600SemiBold = require('./600SemiBold/NotoSerifVithkuqi_600SemiBold.ttf');
+export const NotoSerifVithkuqi_700Bold = require('./700Bold/NotoSerifVithkuqi_700Bold.ttf');

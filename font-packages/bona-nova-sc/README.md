@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/bona-nova-sc)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/bona-nova-sc)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/bona-nova-sc)
 
 This package lets you use the [**Bona Nova SC**](https://fonts.google.com/specimen/Bona+Nova+SC) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -21,21 +20,18 @@ This font family contains [3 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/bona-nova-sc expo-font expo-app-loading
+expo install @expo-google-fonts/bona-nova-sc expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  BonaNovaSC_400Regular,
-  BonaNovaSC_400Regular_Italic,
-  BonaNovaSC_700Bold,
-} from '@expo-google-fonts/bona-nova-sc';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/bona-nova-sc/useFonts';
+import { BonaNovaSC_400Regular } from '@expo-google-fonts/bona-nova-sc/400Regular';
+import { BonaNovaSC_400Regular_Italic } from '@expo-google-fonts/bona-nova-sc/400Regular_Italic';
+import { BonaNovaSC_700Bold } from '@expo-google-fonts/bona-nova-sc/700Bold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -48,7 +44,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

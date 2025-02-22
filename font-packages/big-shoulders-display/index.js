@@ -2,15 +2,15 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const BigShouldersDisplay_100Thin = require('./BigShouldersDisplay_100Thin.ttf');
-export const BigShouldersDisplay_200ExtraLight = require('./BigShouldersDisplay_200ExtraLight.ttf');
-export const BigShouldersDisplay_300Light = require('./BigShouldersDisplay_300Light.ttf');
-export const BigShouldersDisplay_400Regular = require('./BigShouldersDisplay_400Regular.ttf');
-export const BigShouldersDisplay_500Medium = require('./BigShouldersDisplay_500Medium.ttf');
-export const BigShouldersDisplay_600SemiBold = require('./BigShouldersDisplay_600SemiBold.ttf');
-export const BigShouldersDisplay_700Bold = require('./BigShouldersDisplay_700Bold.ttf');
-export const BigShouldersDisplay_800ExtraBold = require('./BigShouldersDisplay_800ExtraBold.ttf');
-export const BigShouldersDisplay_900Black = require('./BigShouldersDisplay_900Black.ttf');
+export const BigShouldersDisplay_100Thin = require('./100Thin/BigShouldersDisplay_100Thin.ttf');
+export const BigShouldersDisplay_200ExtraLight = require('./200ExtraLight/BigShouldersDisplay_200ExtraLight.ttf');
+export const BigShouldersDisplay_300Light = require('./300Light/BigShouldersDisplay_300Light.ttf');
+export const BigShouldersDisplay_400Regular = require('./400Regular/BigShouldersDisplay_400Regular.ttf');
+export const BigShouldersDisplay_500Medium = require('./500Medium/BigShouldersDisplay_500Medium.ttf');
+export const BigShouldersDisplay_600SemiBold = require('./600SemiBold/BigShouldersDisplay_600SemiBold.ttf');
+export const BigShouldersDisplay_700Bold = require('./700Bold/BigShouldersDisplay_700Bold.ttf');
+export const BigShouldersDisplay_800ExtraBold = require('./800ExtraBold/BigShouldersDisplay_800ExtraBold.ttf');
+export const BigShouldersDisplay_900Black = require('./900Black/BigShouldersDisplay_900Black.ttf');

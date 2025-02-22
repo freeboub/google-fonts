@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const PinyonScript_400Regular = require('./PinyonScript_400Regular.ttf');
+export const PinyonScript_400Regular = require('./400Regular/PinyonScript_400Regular.ttf');

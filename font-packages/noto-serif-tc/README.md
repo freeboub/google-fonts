@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-serif-tc)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-serif-tc)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/noto-serif-tc)
 
 This package lets you use the [**Noto Serif TC**](https://fonts.google.com/specimen/Noto+Serif+TC) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -26,26 +25,23 @@ This font family contains [8 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/noto-serif-tc expo-font expo-app-loading
+expo install @expo-google-fonts/noto-serif-tc expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSerifTC_200ExtraLight,
-  NotoSerifTC_300Light,
-  NotoSerifTC_400Regular,
-  NotoSerifTC_500Medium,
-  NotoSerifTC_600SemiBold,
-  NotoSerifTC_700Bold,
-  NotoSerifTC_800ExtraBold,
-  NotoSerifTC_900Black,
-} from '@expo-google-fonts/noto-serif-tc';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/noto-serif-tc/useFonts';
+import { NotoSerifTC_200ExtraLight } from '@expo-google-fonts/noto-serif-tc/200ExtraLight';
+import { NotoSerifTC_300Light } from '@expo-google-fonts/noto-serif-tc/300Light';
+import { NotoSerifTC_400Regular } from '@expo-google-fonts/noto-serif-tc/400Regular';
+import { NotoSerifTC_500Medium } from '@expo-google-fonts/noto-serif-tc/500Medium';
+import { NotoSerifTC_600SemiBold } from '@expo-google-fonts/noto-serif-tc/600SemiBold';
+import { NotoSerifTC_700Bold } from '@expo-google-fonts/noto-serif-tc/700Bold';
+import { NotoSerifTC_800ExtraBold } from '@expo-google-fonts/noto-serif-tc/800ExtraBold';
+import { NotoSerifTC_900Black } from '@expo-google-fonts/noto-serif-tc/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -63,7 +59,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

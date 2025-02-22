@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/playfair-display-sc)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/playfair-display-sc)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/playfair-display-sc)
 
 This package lets you use the [**Playfair Display SC**](https://fonts.google.com/specimen/Playfair+Display+SC) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -24,24 +23,21 @@ This font family contains [6 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/playfair-display-sc expo-font expo-app-loading
+expo install @expo-google-fonts/playfair-display-sc expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  PlayfairDisplaySC_400Regular,
-  PlayfairDisplaySC_400Regular_Italic,
-  PlayfairDisplaySC_700Bold,
-  PlayfairDisplaySC_700Bold_Italic,
-  PlayfairDisplaySC_900Black,
-  PlayfairDisplaySC_900Black_Italic,
-} from '@expo-google-fonts/playfair-display-sc';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/playfair-display-sc/useFonts';
+import { PlayfairDisplaySC_400Regular } from '@expo-google-fonts/playfair-display-sc/400Regular';
+import { PlayfairDisplaySC_400Regular_Italic } from '@expo-google-fonts/playfair-display-sc/400Regular_Italic';
+import { PlayfairDisplaySC_700Bold } from '@expo-google-fonts/playfair-display-sc/700Bold';
+import { PlayfairDisplaySC_700Bold_Italic } from '@expo-google-fonts/playfair-display-sc/700Bold_Italic';
+import { PlayfairDisplaySC_900Black } from '@expo-google-fonts/playfair-display-sc/900Black';
+import { PlayfairDisplaySC_900Black_Italic } from '@expo-google-fonts/playfair-display-sc/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -57,7 +53,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

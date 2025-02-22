@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/inria-sans)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/inria-sans)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/inria-sans)
 
 This package lets you use the [**Inria Sans**](https://fonts.google.com/specimen/Inria+Sans) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -24,24 +23,21 @@ This font family contains [6 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/inria-sans expo-font expo-app-loading
+expo install @expo-google-fonts/inria-sans expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  InriaSans_300Light,
-  InriaSans_300Light_Italic,
-  InriaSans_400Regular,
-  InriaSans_400Regular_Italic,
-  InriaSans_700Bold,
-  InriaSans_700Bold_Italic,
-} from '@expo-google-fonts/inria-sans';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/inria-sans/useFonts';
+import { InriaSans_300Light } from '@expo-google-fonts/inria-sans/300Light';
+import { InriaSans_300Light_Italic } from '@expo-google-fonts/inria-sans/300Light_Italic';
+import { InriaSans_400Regular } from '@expo-google-fonts/inria-sans/400Regular';
+import { InriaSans_400Regular_Italic } from '@expo-google-fonts/inria-sans/400Regular_Italic';
+import { InriaSans_700Bold } from '@expo-google-fonts/inria-sans/700Bold';
+import { InriaSans_700Bold_Italic } from '@expo-google-fonts/inria-sans/700Bold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -57,7 +53,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

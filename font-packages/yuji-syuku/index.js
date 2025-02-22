@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const YujiSyuku_400Regular = require('./YujiSyuku_400Regular.ttf');
+export const YujiSyuku_400Regular = require('./400Regular/YujiSyuku_400Regular.ttf');

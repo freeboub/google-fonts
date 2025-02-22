@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/lexend-peta)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/lexend-peta)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/lexend-peta)
 
 This package lets you use the [**Lexend Peta**](https://fonts.google.com/specimen/Lexend+Peta) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/lexend-peta expo-font expo-app-loading
+expo install @expo-google-fonts/lexend-peta expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  LexendPeta_100Thin,
-  LexendPeta_200ExtraLight,
-  LexendPeta_300Light,
-  LexendPeta_400Regular,
-  LexendPeta_500Medium,
-  LexendPeta_600SemiBold,
-  LexendPeta_700Bold,
-  LexendPeta_800ExtraBold,
-  LexendPeta_900Black,
-} from '@expo-google-fonts/lexend-peta';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/lexend-peta/useFonts';
+import { LexendPeta_100Thin } from '@expo-google-fonts/lexend-peta/100Thin';
+import { LexendPeta_200ExtraLight } from '@expo-google-fonts/lexend-peta/200ExtraLight';
+import { LexendPeta_300Light } from '@expo-google-fonts/lexend-peta/300Light';
+import { LexendPeta_400Regular } from '@expo-google-fonts/lexend-peta/400Regular';
+import { LexendPeta_500Medium } from '@expo-google-fonts/lexend-peta/500Medium';
+import { LexendPeta_600SemiBold } from '@expo-google-fonts/lexend-peta/600SemiBold';
+import { LexendPeta_700Bold } from '@expo-google-fonts/lexend-peta/700Bold';
+import { LexendPeta_800ExtraBold } from '@expo-google-fonts/lexend-peta/800ExtraBold';
+import { LexendPeta_900Black } from '@expo-google-fonts/lexend-peta/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

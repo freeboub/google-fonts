@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Oregano_400Regular = require('./Oregano_400Regular.ttf');
-export const Oregano_400Regular_Italic = require('./Oregano_400Regular_Italic.ttf');
+export const Oregano_400Regular = require('./400Regular/Oregano_400Regular.ttf');
+export const Oregano_400Regular_Italic = require('./400Regular_Italic/Oregano_400Regular_Italic.ttf');

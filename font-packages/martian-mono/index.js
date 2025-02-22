@@ -2,14 +2,14 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const MartianMono_100Thin = require('./MartianMono_100Thin.ttf');
-export const MartianMono_200ExtraLight = require('./MartianMono_200ExtraLight.ttf');
-export const MartianMono_300Light = require('./MartianMono_300Light.ttf');
-export const MartianMono_400Regular = require('./MartianMono_400Regular.ttf');
-export const MartianMono_500Medium = require('./MartianMono_500Medium.ttf');
-export const MartianMono_600SemiBold = require('./MartianMono_600SemiBold.ttf');
-export const MartianMono_700Bold = require('./MartianMono_700Bold.ttf');
-export const MartianMono_800ExtraBold = require('./MartianMono_800ExtraBold.ttf');
+export const MartianMono_100Thin = require('./100Thin/MartianMono_100Thin.ttf');
+export const MartianMono_200ExtraLight = require('./200ExtraLight/MartianMono_200ExtraLight.ttf');
+export const MartianMono_300Light = require('./300Light/MartianMono_300Light.ttf');
+export const MartianMono_400Regular = require('./400Regular/MartianMono_400Regular.ttf');
+export const MartianMono_500Medium = require('./500Medium/MartianMono_500Medium.ttf');
+export const MartianMono_600SemiBold = require('./600SemiBold/MartianMono_600SemiBold.ttf');
+export const MartianMono_700Bold = require('./700Bold/MartianMono_700Bold.ttf');
+export const MartianMono_800ExtraBold = require('./800ExtraBold/MartianMono_800ExtraBold.ttf');

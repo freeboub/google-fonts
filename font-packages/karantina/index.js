@@ -2,9 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Karantina_300Light = require('./Karantina_300Light.ttf');
-export const Karantina_400Regular = require('./Karantina_400Regular.ttf');
-export const Karantina_700Bold = require('./Karantina_700Bold.ttf');
+export const Karantina_300Light = require('./300Light/Karantina_300Light.ttf');
+export const Karantina_400Regular = require('./400Regular/Karantina_400Regular.ttf');
+export const Karantina_700Bold = require('./700Bold/Karantina_700Bold.ttf');

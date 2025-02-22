@@ -2,11 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Jura_300Light = require('./Jura_300Light.ttf');
-export const Jura_400Regular = require('./Jura_400Regular.ttf');
-export const Jura_500Medium = require('./Jura_500Medium.ttf');
-export const Jura_600SemiBold = require('./Jura_600SemiBold.ttf');
-export const Jura_700Bold = require('./Jura_700Bold.ttf');
+export const Jura_300Light = require('./300Light/Jura_300Light.ttf');
+export const Jura_400Regular = require('./400Regular/Jura_400Regular.ttf');
+export const Jura_500Medium = require('./500Medium/Jura_500Medium.ttf');
+export const Jura_600SemiBold = require('./600SemiBold/Jura_600SemiBold.ttf');
+export const Jura_700Bold = require('./700Bold/Jura_700Bold.ttf');

@@ -2,10 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const GentiumBookPlus_400Regular = require('./GentiumBookPlus_400Regular.ttf');
-export const GentiumBookPlus_400Regular_Italic = require('./GentiumBookPlus_400Regular_Italic.ttf');
-export const GentiumBookPlus_700Bold = require('./GentiumBookPlus_700Bold.ttf');
-export const GentiumBookPlus_700Bold_Italic = require('./GentiumBookPlus_700Bold_Italic.ttf');
+export const GentiumBookPlus_400Regular = require('./400Regular/GentiumBookPlus_400Regular.ttf');
+export const GentiumBookPlus_400Regular_Italic = require('./400Regular_Italic/GentiumBookPlus_400Regular_Italic.ttf');
+export const GentiumBookPlus_700Bold = require('./700Bold/GentiumBookPlus_700Bold.ttf');
+export const GentiumBookPlus_700Bold_Italic = require('./700Bold_Italic/GentiumBookPlus_700Bold_Italic.ttf');

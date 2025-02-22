@@ -2,10 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const GFSNeohellenic_400Regular = require('./GFSNeohellenic_400Regular.ttf');
-export const GFSNeohellenic_400Regular_Italic = require('./GFSNeohellenic_400Regular_Italic.ttf');
-export const GFSNeohellenic_700Bold = require('./GFSNeohellenic_700Bold.ttf');
-export const GFSNeohellenic_700Bold_Italic = require('./GFSNeohellenic_700Bold_Italic.ttf');
+export const GFSNeohellenic_400Regular = require('./400Regular/GFSNeohellenic_400Regular.ttf');
+export const GFSNeohellenic_400Regular_Italic = require('./400Regular_Italic/GFSNeohellenic_400Regular_Italic.ttf');
+export const GFSNeohellenic_700Bold = require('./700Bold/GFSNeohellenic_700Bold.ttf');
+export const GFSNeohellenic_700Bold_Italic = require('./700Bold_Italic/GFSNeohellenic_700Bold_Italic.ttf');

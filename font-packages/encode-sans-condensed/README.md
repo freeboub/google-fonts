@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/encode-sans-condensed)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/encode-sans-condensed)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/encode-sans-condensed)
 
 This package lets you use the [**Encode Sans Condensed**](https://fonts.google.com/specimen/Encode+Sans+Condensed) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/encode-sans-condensed expo-font expo-app-loading
+expo install @expo-google-fonts/encode-sans-condensed expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  EncodeSansCondensed_100Thin,
-  EncodeSansCondensed_200ExtraLight,
-  EncodeSansCondensed_300Light,
-  EncodeSansCondensed_400Regular,
-  EncodeSansCondensed_500Medium,
-  EncodeSansCondensed_600SemiBold,
-  EncodeSansCondensed_700Bold,
-  EncodeSansCondensed_800ExtraBold,
-  EncodeSansCondensed_900Black,
-} from '@expo-google-fonts/encode-sans-condensed';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/encode-sans-condensed/useFonts';
+import { EncodeSansCondensed_100Thin } from '@expo-google-fonts/encode-sans-condensed/100Thin';
+import { EncodeSansCondensed_200ExtraLight } from '@expo-google-fonts/encode-sans-condensed/200ExtraLight';
+import { EncodeSansCondensed_300Light } from '@expo-google-fonts/encode-sans-condensed/300Light';
+import { EncodeSansCondensed_400Regular } from '@expo-google-fonts/encode-sans-condensed/400Regular';
+import { EncodeSansCondensed_500Medium } from '@expo-google-fonts/encode-sans-condensed/500Medium';
+import { EncodeSansCondensed_600SemiBold } from '@expo-google-fonts/encode-sans-condensed/600SemiBold';
+import { EncodeSansCondensed_700Bold } from '@expo-google-fonts/encode-sans-condensed/700Bold';
+import { EncodeSansCondensed_800ExtraBold } from '@expo-google-fonts/encode-sans-condensed/800ExtraBold';
+import { EncodeSansCondensed_900Black } from '@expo-google-fonts/encode-sans-condensed/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

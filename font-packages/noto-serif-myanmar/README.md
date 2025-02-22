@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-serif-myanmar)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-serif-myanmar)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/noto-serif-myanmar)
 
 This package lets you use the [**Noto Serif Myanmar**](https://fonts.google.com/specimen/Noto+Serif+Myanmar) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/noto-serif-myanmar expo-font expo-app-loading
+expo install @expo-google-fonts/noto-serif-myanmar expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSerifMyanmar_100Thin,
-  NotoSerifMyanmar_200ExtraLight,
-  NotoSerifMyanmar_300Light,
-  NotoSerifMyanmar_400Regular,
-  NotoSerifMyanmar_500Medium,
-  NotoSerifMyanmar_600SemiBold,
-  NotoSerifMyanmar_700Bold,
-  NotoSerifMyanmar_800ExtraBold,
-  NotoSerifMyanmar_900Black,
-} from '@expo-google-fonts/noto-serif-myanmar';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/noto-serif-myanmar/useFonts';
+import { NotoSerifMyanmar_100Thin } from '@expo-google-fonts/noto-serif-myanmar/100Thin';
+import { NotoSerifMyanmar_200ExtraLight } from '@expo-google-fonts/noto-serif-myanmar/200ExtraLight';
+import { NotoSerifMyanmar_300Light } from '@expo-google-fonts/noto-serif-myanmar/300Light';
+import { NotoSerifMyanmar_400Regular } from '@expo-google-fonts/noto-serif-myanmar/400Regular';
+import { NotoSerifMyanmar_500Medium } from '@expo-google-fonts/noto-serif-myanmar/500Medium';
+import { NotoSerifMyanmar_600SemiBold } from '@expo-google-fonts/noto-serif-myanmar/600SemiBold';
+import { NotoSerifMyanmar_700Bold } from '@expo-google-fonts/noto-serif-myanmar/700Bold';
+import { NotoSerifMyanmar_800ExtraBold } from '@expo-google-fonts/noto-serif-myanmar/800ExtraBold';
+import { NotoSerifMyanmar_900Black } from '@expo-google-fonts/noto-serif-myanmar/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

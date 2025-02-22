@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/jura)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/jura)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/jura)
 
 This package lets you use the [**Jura**](https://fonts.google.com/specimen/Jura) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -23,23 +22,20 @@ This font family contains [5 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/jura expo-font expo-app-loading
+expo install @expo-google-fonts/jura expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Jura_300Light,
-  Jura_400Regular,
-  Jura_500Medium,
-  Jura_600SemiBold,
-  Jura_700Bold,
-} from '@expo-google-fonts/jura';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/jura/useFonts';
+import { Jura_300Light } from '@expo-google-fonts/jura/300Light';
+import { Jura_400Regular } from '@expo-google-fonts/jura/400Regular';
+import { Jura_500Medium } from '@expo-google-fonts/jura/500Medium';
+import { Jura_600SemiBold } from '@expo-google-fonts/jura/600SemiBold';
+import { Jura_700Bold } from '@expo-google-fonts/jura/700Bold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -54,7 +50,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

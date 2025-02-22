@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-serif-display)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-serif-display)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/noto-serif-display)
 
 This package lets you use the [**Noto Serif Display**](https://fonts.google.com/specimen/Noto+Serif+Display) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/noto-serif-display expo-font expo-app-loading
+expo install @expo-google-fonts/noto-serif-display expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSerifDisplay_100Thin,
-  NotoSerifDisplay_200ExtraLight,
-  NotoSerifDisplay_300Light,
-  NotoSerifDisplay_400Regular,
-  NotoSerifDisplay_500Medium,
-  NotoSerifDisplay_600SemiBold,
-  NotoSerifDisplay_700Bold,
-  NotoSerifDisplay_800ExtraBold,
-  NotoSerifDisplay_900Black,
-  NotoSerifDisplay_100Thin_Italic,
-  NotoSerifDisplay_200ExtraLight_Italic,
-  NotoSerifDisplay_300Light_Italic,
-  NotoSerifDisplay_400Regular_Italic,
-  NotoSerifDisplay_500Medium_Italic,
-  NotoSerifDisplay_600SemiBold_Italic,
-  NotoSerifDisplay_700Bold_Italic,
-  NotoSerifDisplay_800ExtraBold_Italic,
-  NotoSerifDisplay_900Black_Italic,
-} from '@expo-google-fonts/noto-serif-display';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/noto-serif-display/useFonts';
+import { NotoSerifDisplay_100Thin } from '@expo-google-fonts/noto-serif-display/100Thin';
+import { NotoSerifDisplay_200ExtraLight } from '@expo-google-fonts/noto-serif-display/200ExtraLight';
+import { NotoSerifDisplay_300Light } from '@expo-google-fonts/noto-serif-display/300Light';
+import { NotoSerifDisplay_400Regular } from '@expo-google-fonts/noto-serif-display/400Regular';
+import { NotoSerifDisplay_500Medium } from '@expo-google-fonts/noto-serif-display/500Medium';
+import { NotoSerifDisplay_600SemiBold } from '@expo-google-fonts/noto-serif-display/600SemiBold';
+import { NotoSerifDisplay_700Bold } from '@expo-google-fonts/noto-serif-display/700Bold';
+import { NotoSerifDisplay_800ExtraBold } from '@expo-google-fonts/noto-serif-display/800ExtraBold';
+import { NotoSerifDisplay_900Black } from '@expo-google-fonts/noto-serif-display/900Black';
+import { NotoSerifDisplay_100Thin_Italic } from '@expo-google-fonts/noto-serif-display/100Thin_Italic';
+import { NotoSerifDisplay_200ExtraLight_Italic } from '@expo-google-fonts/noto-serif-display/200ExtraLight_Italic';
+import { NotoSerifDisplay_300Light_Italic } from '@expo-google-fonts/noto-serif-display/300Light_Italic';
+import { NotoSerifDisplay_400Regular_Italic } from '@expo-google-fonts/noto-serif-display/400Regular_Italic';
+import { NotoSerifDisplay_500Medium_Italic } from '@expo-google-fonts/noto-serif-display/500Medium_Italic';
+import { NotoSerifDisplay_600SemiBold_Italic } from '@expo-google-fonts/noto-serif-display/600SemiBold_Italic';
+import { NotoSerifDisplay_700Bold_Italic } from '@expo-google-fonts/noto-serif-display/700Bold_Italic';
+import { NotoSerifDisplay_800ExtraBold_Italic } from '@expo-google-fonts/noto-serif-display/800ExtraBold_Italic';
+import { NotoSerifDisplay_900Black_Italic } from '@expo-google-fonts/noto-serif-display/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

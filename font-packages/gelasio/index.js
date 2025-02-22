@@ -2,14 +2,14 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Gelasio_400Regular = require('./Gelasio_400Regular.ttf');
-export const Gelasio_500Medium = require('./Gelasio_500Medium.ttf');
-export const Gelasio_600SemiBold = require('./Gelasio_600SemiBold.ttf');
-export const Gelasio_700Bold = require('./Gelasio_700Bold.ttf');
-export const Gelasio_400Regular_Italic = require('./Gelasio_400Regular_Italic.ttf');
-export const Gelasio_500Medium_Italic = require('./Gelasio_500Medium_Italic.ttf');
-export const Gelasio_600SemiBold_Italic = require('./Gelasio_600SemiBold_Italic.ttf');
-export const Gelasio_700Bold_Italic = require('./Gelasio_700Bold_Italic.ttf');
+export const Gelasio_400Regular = require('./400Regular/Gelasio_400Regular.ttf');
+export const Gelasio_500Medium = require('./500Medium/Gelasio_500Medium.ttf');
+export const Gelasio_600SemiBold = require('./600SemiBold/Gelasio_600SemiBold.ttf');
+export const Gelasio_700Bold = require('./700Bold/Gelasio_700Bold.ttf');
+export const Gelasio_400Regular_Italic = require('./400Regular_Italic/Gelasio_400Regular_Italic.ttf');
+export const Gelasio_500Medium_Italic = require('./500Medium_Italic/Gelasio_500Medium_Italic.ttf');
+export const Gelasio_600SemiBold_Italic = require('./600SemiBold_Italic/Gelasio_600SemiBold_Italic.ttf');
+export const Gelasio_700Bold_Italic = require('./700Bold_Italic/Gelasio_700Bold_Italic.ttf');

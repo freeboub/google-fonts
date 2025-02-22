@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Glegoo_400Regular = require('./Glegoo_400Regular.ttf');
-export const Glegoo_700Bold = require('./Glegoo_700Bold.ttf');
+export const Glegoo_400Regular = require('./400Regular/Glegoo_400Regular.ttf');
+export const Glegoo_700Bold = require('./700Bold/Glegoo_700Bold.ttf');

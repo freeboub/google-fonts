@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const TiltWarp_400Regular = require('./TiltWarp_400Regular.ttf');
+export const TiltWarp_400Regular = require('./400Regular/TiltWarp_400Regular.ttf');

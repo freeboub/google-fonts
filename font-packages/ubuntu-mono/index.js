@@ -2,10 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const UbuntuMono_400Regular = require('./UbuntuMono_400Regular.ttf');
-export const UbuntuMono_400Regular_Italic = require('./UbuntuMono_400Regular_Italic.ttf');
-export const UbuntuMono_700Bold = require('./UbuntuMono_700Bold.ttf');
-export const UbuntuMono_700Bold_Italic = require('./UbuntuMono_700Bold_Italic.ttf');
+export const UbuntuMono_400Regular = require('./400Regular/UbuntuMono_400Regular.ttf');
+export const UbuntuMono_400Regular_Italic = require('./400Regular_Italic/UbuntuMono_400Regular_Italic.ttf');
+export const UbuntuMono_700Bold = require('./700Bold/UbuntuMono_700Bold.ttf');
+export const UbuntuMono_700Bold_Italic = require('./700Bold_Italic/UbuntuMono_700Bold_Italic.ttf');

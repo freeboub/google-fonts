@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/geist-mono)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/geist-mono)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/geist-mono)
 
 This package lets you use the [**Geist Mono**](https://fonts.google.com/specimen/Geist+Mono) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/geist-mono expo-font expo-app-loading
+expo install @expo-google-fonts/geist-mono expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  GeistMono_100Thin,
-  GeistMono_200ExtraLight,
-  GeistMono_300Light,
-  GeistMono_400Regular,
-  GeistMono_500Medium,
-  GeistMono_600SemiBold,
-  GeistMono_700Bold,
-  GeistMono_800ExtraBold,
-  GeistMono_900Black,
-} from '@expo-google-fonts/geist-mono';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/geist-mono/useFonts';
+import { GeistMono_100Thin } from '@expo-google-fonts/geist-mono/100Thin';
+import { GeistMono_200ExtraLight } from '@expo-google-fonts/geist-mono/200ExtraLight';
+import { GeistMono_300Light } from '@expo-google-fonts/geist-mono/300Light';
+import { GeistMono_400Regular } from '@expo-google-fonts/geist-mono/400Regular';
+import { GeistMono_500Medium } from '@expo-google-fonts/geist-mono/500Medium';
+import { GeistMono_600SemiBold } from '@expo-google-fonts/geist-mono/600SemiBold';
+import { GeistMono_700Bold } from '@expo-google-fonts/geist-mono/700Bold';
+import { GeistMono_800ExtraBold } from '@expo-google-fonts/geist-mono/800ExtraBold';
+import { GeistMono_900Black } from '@expo-google-fonts/geist-mono/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

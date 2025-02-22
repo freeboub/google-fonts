@@ -2,14 +2,14 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const LibreBodoni_400Regular = require('./LibreBodoni_400Regular.ttf');
-export const LibreBodoni_500Medium = require('./LibreBodoni_500Medium.ttf');
-export const LibreBodoni_600SemiBold = require('./LibreBodoni_600SemiBold.ttf');
-export const LibreBodoni_700Bold = require('./LibreBodoni_700Bold.ttf');
-export const LibreBodoni_400Regular_Italic = require('./LibreBodoni_400Regular_Italic.ttf');
-export const LibreBodoni_500Medium_Italic = require('./LibreBodoni_500Medium_Italic.ttf');
-export const LibreBodoni_600SemiBold_Italic = require('./LibreBodoni_600SemiBold_Italic.ttf');
-export const LibreBodoni_700Bold_Italic = require('./LibreBodoni_700Bold_Italic.ttf');
+export const LibreBodoni_400Regular = require('./400Regular/LibreBodoni_400Regular.ttf');
+export const LibreBodoni_500Medium = require('./500Medium/LibreBodoni_500Medium.ttf');
+export const LibreBodoni_600SemiBold = require('./600SemiBold/LibreBodoni_600SemiBold.ttf');
+export const LibreBodoni_700Bold = require('./700Bold/LibreBodoni_700Bold.ttf');
+export const LibreBodoni_400Regular_Italic = require('./400Regular_Italic/LibreBodoni_400Regular_Italic.ttf');
+export const LibreBodoni_500Medium_Italic = require('./500Medium_Italic/LibreBodoni_500Medium_Italic.ttf');
+export const LibreBodoni_600SemiBold_Italic = require('./600SemiBold_Italic/LibreBodoni_600SemiBold_Italic.ttf');
+export const LibreBodoni_700Bold_Italic = require('./700Bold_Italic/LibreBodoni_700Bold_Italic.ttf');

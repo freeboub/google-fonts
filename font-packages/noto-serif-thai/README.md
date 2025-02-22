@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-serif-thai)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-serif-thai)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/noto-serif-thai)
 
 This package lets you use the [**Noto Serif Thai**](https://fonts.google.com/specimen/Noto+Serif+Thai) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/noto-serif-thai expo-font expo-app-loading
+expo install @expo-google-fonts/noto-serif-thai expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  NotoSerifThai_100Thin,
-  NotoSerifThai_200ExtraLight,
-  NotoSerifThai_300Light,
-  NotoSerifThai_400Regular,
-  NotoSerifThai_500Medium,
-  NotoSerifThai_600SemiBold,
-  NotoSerifThai_700Bold,
-  NotoSerifThai_800ExtraBold,
-  NotoSerifThai_900Black,
-} from '@expo-google-fonts/noto-serif-thai';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/noto-serif-thai/useFonts';
+import { NotoSerifThai_100Thin } from '@expo-google-fonts/noto-serif-thai/100Thin';
+import { NotoSerifThai_200ExtraLight } from '@expo-google-fonts/noto-serif-thai/200ExtraLight';
+import { NotoSerifThai_300Light } from '@expo-google-fonts/noto-serif-thai/300Light';
+import { NotoSerifThai_400Regular } from '@expo-google-fonts/noto-serif-thai/400Regular';
+import { NotoSerifThai_500Medium } from '@expo-google-fonts/noto-serif-thai/500Medium';
+import { NotoSerifThai_600SemiBold } from '@expo-google-fonts/noto-serif-thai/600SemiBold';
+import { NotoSerifThai_700Bold } from '@expo-google-fonts/noto-serif-thai/700Bold';
+import { NotoSerifThai_800ExtraBold } from '@expo-google-fonts/noto-serif-thai/800ExtraBold';
+import { NotoSerifThai_900Black } from '@expo-google-fonts/noto-serif-thai/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

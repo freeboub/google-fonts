@@ -2,7 +2,6 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
 export const Shafarik_400Regular: string;
 export const Monomakh_400Regular: string;
 export const Pochaevsk_400Regular: string;

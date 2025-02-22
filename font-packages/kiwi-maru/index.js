@@ -2,9 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const KiwiMaru_300Light = require('./KiwiMaru_300Light.ttf');
-export const KiwiMaru_400Regular = require('./KiwiMaru_400Regular.ttf');
-export const KiwiMaru_500Medium = require('./KiwiMaru_500Medium.ttf');
+export const KiwiMaru_300Light = require('./300Light/KiwiMaru_300Light.ttf');
+export const KiwiMaru_400Regular = require('./400Regular/KiwiMaru_400Regular.ttf');
+export const KiwiMaru_500Medium = require('./500Medium/KiwiMaru_500Medium.ttf');

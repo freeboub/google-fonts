@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const RubikWetPaint_400Regular = require('./RubikWetPaint_400Regular.ttf');
+export const RubikWetPaint_400Regular = require('./400Regular/RubikWetPaint_400Regular.ttf');

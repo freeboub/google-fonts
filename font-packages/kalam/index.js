@@ -2,9 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Kalam_300Light = require('./Kalam_300Light.ttf');
-export const Kalam_400Regular = require('./Kalam_400Regular.ttf');
-export const Kalam_700Bold = require('./Kalam_700Bold.ttf');
+export const Kalam_300Light = require('./300Light/Kalam_300Light.ttf');
+export const Kalam_400Regular = require('./400Regular/Kalam_400Regular.ttf');
+export const Kalam_700Bold = require('./700Bold/Kalam_700Bold.ttf');

@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Milonga_400Regular = require('./Milonga_400Regular.ttf');
+export const Milonga_400Regular = require('./400Regular/Milonga_400Regular.ttf');

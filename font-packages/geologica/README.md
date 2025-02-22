@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/geologica)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/geologica)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/geologica)
 
 This package lets you use the [**Geologica**](https://fonts.google.com/specimen/Geologica) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/geologica expo-font expo-app-loading
+expo install @expo-google-fonts/geologica expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Geologica_100Thin,
-  Geologica_200ExtraLight,
-  Geologica_300Light,
-  Geologica_400Regular,
-  Geologica_500Medium,
-  Geologica_600SemiBold,
-  Geologica_700Bold,
-  Geologica_800ExtraBold,
-  Geologica_900Black,
-} from '@expo-google-fonts/geologica';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/geologica/useFonts';
+import { Geologica_100Thin } from '@expo-google-fonts/geologica/100Thin';
+import { Geologica_200ExtraLight } from '@expo-google-fonts/geologica/200ExtraLight';
+import { Geologica_300Light } from '@expo-google-fonts/geologica/300Light';
+import { Geologica_400Regular } from '@expo-google-fonts/geologica/400Regular';
+import { Geologica_500Medium } from '@expo-google-fonts/geologica/500Medium';
+import { Geologica_600SemiBold } from '@expo-google-fonts/geologica/600SemiBold';
+import { Geologica_700Bold } from '@expo-google-fonts/geologica/700Bold';
+import { Geologica_800ExtraBold } from '@expo-google-fonts/geologica/800ExtraBold';
+import { Geologica_900Black } from '@expo-google-fonts/geologica/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

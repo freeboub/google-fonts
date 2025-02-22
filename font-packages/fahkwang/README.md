@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/fahkwang)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/fahkwang)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/fahkwang)
 
 This package lets you use the [**Fahkwang**](https://fonts.google.com/specimen/Fahkwang) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -30,30 +29,27 @@ This font family contains [12 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/fahkwang expo-font expo-app-loading
+expo install @expo-google-fonts/fahkwang expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Fahkwang_200ExtraLight,
-  Fahkwang_200ExtraLight_Italic,
-  Fahkwang_300Light,
-  Fahkwang_300Light_Italic,
-  Fahkwang_400Regular,
-  Fahkwang_400Regular_Italic,
-  Fahkwang_500Medium,
-  Fahkwang_500Medium_Italic,
-  Fahkwang_600SemiBold,
-  Fahkwang_600SemiBold_Italic,
-  Fahkwang_700Bold,
-  Fahkwang_700Bold_Italic,
-} from '@expo-google-fonts/fahkwang';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/fahkwang/useFonts';
+import { Fahkwang_200ExtraLight } from '@expo-google-fonts/fahkwang/200ExtraLight';
+import { Fahkwang_200ExtraLight_Italic } from '@expo-google-fonts/fahkwang/200ExtraLight_Italic';
+import { Fahkwang_300Light } from '@expo-google-fonts/fahkwang/300Light';
+import { Fahkwang_300Light_Italic } from '@expo-google-fonts/fahkwang/300Light_Italic';
+import { Fahkwang_400Regular } from '@expo-google-fonts/fahkwang/400Regular';
+import { Fahkwang_400Regular_Italic } from '@expo-google-fonts/fahkwang/400Regular_Italic';
+import { Fahkwang_500Medium } from '@expo-google-fonts/fahkwang/500Medium';
+import { Fahkwang_500Medium_Italic } from '@expo-google-fonts/fahkwang/500Medium_Italic';
+import { Fahkwang_600SemiBold } from '@expo-google-fonts/fahkwang/600SemiBold';
+import { Fahkwang_600SemiBold_Italic } from '@expo-google-fonts/fahkwang/600SemiBold_Italic';
+import { Fahkwang_700Bold } from '@expo-google-fonts/fahkwang/700Bold';
+import { Fahkwang_700Bold_Italic } from '@expo-google-fonts/fahkwang/700Bold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -75,7 +71,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

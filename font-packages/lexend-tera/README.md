@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/lexend-tera)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/lexend-tera)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/lexend-tera)
 
 This package lets you use the [**Lexend Tera**](https://fonts.google.com/specimen/Lexend+Tera) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/lexend-tera expo-font expo-app-loading
+expo install @expo-google-fonts/lexend-tera expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  LexendTera_100Thin,
-  LexendTera_200ExtraLight,
-  LexendTera_300Light,
-  LexendTera_400Regular,
-  LexendTera_500Medium,
-  LexendTera_600SemiBold,
-  LexendTera_700Bold,
-  LexendTera_800ExtraBold,
-  LexendTera_900Black,
-} from '@expo-google-fonts/lexend-tera';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/lexend-tera/useFonts';
+import { LexendTera_100Thin } from '@expo-google-fonts/lexend-tera/100Thin';
+import { LexendTera_200ExtraLight } from '@expo-google-fonts/lexend-tera/200ExtraLight';
+import { LexendTera_300Light } from '@expo-google-fonts/lexend-tera/300Light';
+import { LexendTera_400Regular } from '@expo-google-fonts/lexend-tera/400Regular';
+import { LexendTera_500Medium } from '@expo-google-fonts/lexend-tera/500Medium';
+import { LexendTera_600SemiBold } from '@expo-google-fonts/lexend-tera/600SemiBold';
+import { LexendTera_700Bold } from '@expo-google-fonts/lexend-tera/700Bold';
+import { LexendTera_800ExtraBold } from '@expo-google-fonts/lexend-tera/800ExtraBold';
+import { LexendTera_900Black } from '@expo-google-fonts/lexend-tera/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

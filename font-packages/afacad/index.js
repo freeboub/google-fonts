@@ -2,14 +2,14 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Afacad_400Regular = require('./Afacad_400Regular.ttf');
-export const Afacad_500Medium = require('./Afacad_500Medium.ttf');
-export const Afacad_600SemiBold = require('./Afacad_600SemiBold.ttf');
-export const Afacad_700Bold = require('./Afacad_700Bold.ttf');
-export const Afacad_400Regular_Italic = require('./Afacad_400Regular_Italic.ttf');
-export const Afacad_500Medium_Italic = require('./Afacad_500Medium_Italic.ttf');
-export const Afacad_600SemiBold_Italic = require('./Afacad_600SemiBold_Italic.ttf');
-export const Afacad_700Bold_Italic = require('./Afacad_700Bold_Italic.ttf');
+export const Afacad_400Regular = require('./400Regular/Afacad_400Regular.ttf');
+export const Afacad_500Medium = require('./500Medium/Afacad_500Medium.ttf');
+export const Afacad_600SemiBold = require('./600SemiBold/Afacad_600SemiBold.ttf');
+export const Afacad_700Bold = require('./700Bold/Afacad_700Bold.ttf');
+export const Afacad_400Regular_Italic = require('./400Regular_Italic/Afacad_400Regular_Italic.ttf');
+export const Afacad_500Medium_Italic = require('./500Medium_Italic/Afacad_500Medium_Italic.ttf');
+export const Afacad_600SemiBold_Italic = require('./600SemiBold_Italic/Afacad_600SemiBold_Italic.ttf');
+export const Afacad_700Bold_Italic = require('./700Bold_Italic/Afacad_700Bold_Italic.ttf');

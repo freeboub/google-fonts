@@ -2,10 +2,10 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Volkhov_400Regular = require('./Volkhov_400Regular.ttf');
-export const Volkhov_400Regular_Italic = require('./Volkhov_400Regular_Italic.ttf');
-export const Volkhov_700Bold = require('./Volkhov_700Bold.ttf');
-export const Volkhov_700Bold_Italic = require('./Volkhov_700Bold_Italic.ttf');
+export const Volkhov_400Regular = require('./400Regular/Volkhov_400Regular.ttf');
+export const Volkhov_400Regular_Italic = require('./400Regular_Italic/Volkhov_400Regular_Italic.ttf');
+export const Volkhov_700Bold = require('./700Bold/Volkhov_700Bold.ttf');
+export const Volkhov_700Bold_Italic = require('./700Bold_Italic/Volkhov_700Bold_Italic.ttf');

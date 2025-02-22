@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/literata)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/literata)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/literata)
 
 This package lets you use the [**Literata**](https://fonts.google.com/specimen/Literata) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -34,34 +33,31 @@ This font family contains [16 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/literata expo-font expo-app-loading
+expo install @expo-google-fonts/literata expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Literata_200ExtraLight,
-  Literata_300Light,
-  Literata_400Regular,
-  Literata_500Medium,
-  Literata_600SemiBold,
-  Literata_700Bold,
-  Literata_800ExtraBold,
-  Literata_900Black,
-  Literata_200ExtraLight_Italic,
-  Literata_300Light_Italic,
-  Literata_400Regular_Italic,
-  Literata_500Medium_Italic,
-  Literata_600SemiBold_Italic,
-  Literata_700Bold_Italic,
-  Literata_800ExtraBold_Italic,
-  Literata_900Black_Italic,
-} from '@expo-google-fonts/literata';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/literata/useFonts';
+import { Literata_200ExtraLight } from '@expo-google-fonts/literata/200ExtraLight';
+import { Literata_300Light } from '@expo-google-fonts/literata/300Light';
+import { Literata_400Regular } from '@expo-google-fonts/literata/400Regular';
+import { Literata_500Medium } from '@expo-google-fonts/literata/500Medium';
+import { Literata_600SemiBold } from '@expo-google-fonts/literata/600SemiBold';
+import { Literata_700Bold } from '@expo-google-fonts/literata/700Bold';
+import { Literata_800ExtraBold } from '@expo-google-fonts/literata/800ExtraBold';
+import { Literata_900Black } from '@expo-google-fonts/literata/900Black';
+import { Literata_200ExtraLight_Italic } from '@expo-google-fonts/literata/200ExtraLight_Italic';
+import { Literata_300Light_Italic } from '@expo-google-fonts/literata/300Light_Italic';
+import { Literata_400Regular_Italic } from '@expo-google-fonts/literata/400Regular_Italic';
+import { Literata_500Medium_Italic } from '@expo-google-fonts/literata/500Medium_Italic';
+import { Literata_600SemiBold_Italic } from '@expo-google-fonts/literata/600SemiBold_Italic';
+import { Literata_700Bold_Italic } from '@expo-google-fonts/literata/700Bold_Italic';
+import { Literata_800ExtraBold_Italic } from '@expo-google-fonts/literata/800ExtraBold_Italic';
+import { Literata_900Black_Italic } from '@expo-google-fonts/literata/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -87,7 +83,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

@@ -2,9 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const BonaNovaSC_400Regular = require('./BonaNovaSC_400Regular.ttf');
-export const BonaNovaSC_400Regular_Italic = require('./BonaNovaSC_400Regular_Italic.ttf');
-export const BonaNovaSC_700Bold = require('./BonaNovaSC_700Bold.ttf');
+export const BonaNovaSC_400Regular = require('./400Regular/BonaNovaSC_400Regular.ttf');
+export const BonaNovaSC_400Regular_Italic = require('./400Regular_Italic/BonaNovaSC_400Regular_Italic.ttf');
+export const BonaNovaSC_700Bold = require('./700Bold/BonaNovaSC_700Bold.ttf');

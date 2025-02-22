@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/ibm-plex-sans-devanagari)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/ibm-plex-sans-devanagari)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/ibm-plex-sans-devanagari)
 
 This package lets you use the [**IBM Plex Sans Devanagari**](https://fonts.google.com/specimen/IBM+Plex+Sans+Devanagari) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -25,25 +24,22 @@ This font family contains [7 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/ibm-plex-sans-devanagari expo-font expo-app-loading
+expo install @expo-google-fonts/ibm-plex-sans-devanagari expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  IBMPlexSansDevanagari_100Thin,
-  IBMPlexSansDevanagari_200ExtraLight,
-  IBMPlexSansDevanagari_300Light,
-  IBMPlexSansDevanagari_400Regular,
-  IBMPlexSansDevanagari_500Medium,
-  IBMPlexSansDevanagari_600SemiBold,
-  IBMPlexSansDevanagari_700Bold,
-} from '@expo-google-fonts/ibm-plex-sans-devanagari';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/ibm-plex-sans-devanagari/useFonts';
+import { IBMPlexSansDevanagari_100Thin } from '@expo-google-fonts/ibm-plex-sans-devanagari/100Thin';
+import { IBMPlexSansDevanagari_200ExtraLight } from '@expo-google-fonts/ibm-plex-sans-devanagari/200ExtraLight';
+import { IBMPlexSansDevanagari_300Light } from '@expo-google-fonts/ibm-plex-sans-devanagari/300Light';
+import { IBMPlexSansDevanagari_400Regular } from '@expo-google-fonts/ibm-plex-sans-devanagari/400Regular';
+import { IBMPlexSansDevanagari_500Medium } from '@expo-google-fonts/ibm-plex-sans-devanagari/500Medium';
+import { IBMPlexSansDevanagari_600SemiBold } from '@expo-google-fonts/ibm-plex-sans-devanagari/600SemiBold';
+import { IBMPlexSansDevanagari_700Bold } from '@expo-google-fonts/ibm-plex-sans-devanagari/700Bold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -60,7 +56,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

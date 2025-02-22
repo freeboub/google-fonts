@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/sedan)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/sedan)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/sedan)
 
 This package lets you use the [**Sedan**](https://fonts.google.com/specimen/Sedan) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -20,16 +19,17 @@ This font family contains [2 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/sedan expo-font expo-app-loading
+expo install @expo-google-fonts/sedan expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import { useFonts, Sedan_400Regular, Sedan_400Regular_Italic } from '@expo-google-fonts/sedan';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/sedan/useFonts';
+import { Sedan_400Regular } from '@expo-google-fonts/sedan/400Regular';
+import { Sedan_400Regular_Italic } from '@expo-google-fonts/sedan/400Regular_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -41,7 +41,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

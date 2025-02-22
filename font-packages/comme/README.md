@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/comme)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/comme)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/comme)
 
 This package lets you use the [**Comme**](https://fonts.google.com/specimen/Comme) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/comme expo-font expo-app-loading
+expo install @expo-google-fonts/comme expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Comme_100Thin,
-  Comme_200ExtraLight,
-  Comme_300Light,
-  Comme_400Regular,
-  Comme_500Medium,
-  Comme_600SemiBold,
-  Comme_700Bold,
-  Comme_800ExtraBold,
-  Comme_900Black,
-} from '@expo-google-fonts/comme';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/comme/useFonts';
+import { Comme_100Thin } from '@expo-google-fonts/comme/100Thin';
+import { Comme_200ExtraLight } from '@expo-google-fonts/comme/200ExtraLight';
+import { Comme_300Light } from '@expo-google-fonts/comme/300Light';
+import { Comme_400Regular } from '@expo-google-fonts/comme/400Regular';
+import { Comme_500Medium } from '@expo-google-fonts/comme/500Medium';
+import { Comme_600SemiBold } from '@expo-google-fonts/comme/600SemiBold';
+import { Comme_700Bold } from '@expo-google-fonts/comme/700Bold';
+import { Comme_800ExtraBold } from '@expo-google-fonts/comme/800ExtraBold';
+import { Comme_900Black } from '@expo-google-fonts/comme/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

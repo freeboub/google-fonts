@@ -2,14 +2,14 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const AnekKannada_100Thin = require('./AnekKannada_100Thin.ttf');
-export const AnekKannada_200ExtraLight = require('./AnekKannada_200ExtraLight.ttf');
-export const AnekKannada_300Light = require('./AnekKannada_300Light.ttf');
-export const AnekKannada_400Regular = require('./AnekKannada_400Regular.ttf');
-export const AnekKannada_500Medium = require('./AnekKannada_500Medium.ttf');
-export const AnekKannada_600SemiBold = require('./AnekKannada_600SemiBold.ttf');
-export const AnekKannada_700Bold = require('./AnekKannada_700Bold.ttf');
-export const AnekKannada_800ExtraBold = require('./AnekKannada_800ExtraBold.ttf');
+export const AnekKannada_100Thin = require('./100Thin/AnekKannada_100Thin.ttf');
+export const AnekKannada_200ExtraLight = require('./200ExtraLight/AnekKannada_200ExtraLight.ttf');
+export const AnekKannada_300Light = require('./300Light/AnekKannada_300Light.ttf');
+export const AnekKannada_400Regular = require('./400Regular/AnekKannada_400Regular.ttf');
+export const AnekKannada_500Medium = require('./500Medium/AnekKannada_500Medium.ttf');
+export const AnekKannada_600SemiBold = require('./600SemiBold/AnekKannada_600SemiBold.ttf');
+export const AnekKannada_700Bold = require('./700Bold/AnekKannada_700Bold.ttf');
+export const AnekKannada_800ExtraBold = require('./800ExtraBold/AnekKannada_800ExtraBold.ttf');

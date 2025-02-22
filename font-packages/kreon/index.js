@@ -2,11 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Kreon_300Light = require('./Kreon_300Light.ttf');
-export const Kreon_400Regular = require('./Kreon_400Regular.ttf');
-export const Kreon_500Medium = require('./Kreon_500Medium.ttf');
-export const Kreon_600SemiBold = require('./Kreon_600SemiBold.ttf');
-export const Kreon_700Bold = require('./Kreon_700Bold.ttf');
+export const Kreon_300Light = require('./300Light/Kreon_300Light.ttf');
+export const Kreon_400Regular = require('./400Regular/Kreon_400Regular.ttf');
+export const Kreon_500Medium = require('./500Medium/Kreon_500Medium.ttf');
+export const Kreon_600SemiBold = require('./600SemiBold/Kreon_600SemiBold.ttf');
+export const Kreon_700Bold = require('./700Bold/Kreon_700Bold.ttf');

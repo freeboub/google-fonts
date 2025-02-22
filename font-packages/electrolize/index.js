@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Electrolize_400Regular = require('./Electrolize_400Regular.ttf');
+export const Electrolize_400Regular = require('./400Regular/Electrolize_400Regular.ttf');

@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/saira-semi-condensed)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/saira-semi-condensed)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/saira-semi-condensed)
 
 This package lets you use the [**Saira Semi Condensed**](https://fonts.google.com/specimen/Saira+Semi+Condensed) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -27,27 +26,24 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/saira-semi-condensed expo-font expo-app-loading
+expo install @expo-google-fonts/saira-semi-condensed expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  SairaSemiCondensed_100Thin,
-  SairaSemiCondensed_200ExtraLight,
-  SairaSemiCondensed_300Light,
-  SairaSemiCondensed_400Regular,
-  SairaSemiCondensed_500Medium,
-  SairaSemiCondensed_600SemiBold,
-  SairaSemiCondensed_700Bold,
-  SairaSemiCondensed_800ExtraBold,
-  SairaSemiCondensed_900Black,
-} from '@expo-google-fonts/saira-semi-condensed';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/saira-semi-condensed/useFonts';
+import { SairaSemiCondensed_100Thin } from '@expo-google-fonts/saira-semi-condensed/100Thin';
+import { SairaSemiCondensed_200ExtraLight } from '@expo-google-fonts/saira-semi-condensed/200ExtraLight';
+import { SairaSemiCondensed_300Light } from '@expo-google-fonts/saira-semi-condensed/300Light';
+import { SairaSemiCondensed_400Regular } from '@expo-google-fonts/saira-semi-condensed/400Regular';
+import { SairaSemiCondensed_500Medium } from '@expo-google-fonts/saira-semi-condensed/500Medium';
+import { SairaSemiCondensed_600SemiBold } from '@expo-google-fonts/saira-semi-condensed/600SemiBold';
+import { SairaSemiCondensed_700Bold } from '@expo-google-fonts/saira-semi-condensed/700Bold';
+import { SairaSemiCondensed_800ExtraBold } from '@expo-google-fonts/saira-semi-condensed/800ExtraBold';
+import { SairaSemiCondensed_900Black } from '@expo-google-fonts/saira-semi-condensed/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -66,7 +62,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

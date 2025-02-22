@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/cinzel)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/cinzel)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/cinzel)
 
 This package lets you use the [**Cinzel**](https://fonts.google.com/specimen/Cinzel) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -24,24 +23,21 @@ This font family contains [6 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/cinzel expo-font expo-app-loading
+expo install @expo-google-fonts/cinzel expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Cinzel_400Regular,
-  Cinzel_500Medium,
-  Cinzel_600SemiBold,
-  Cinzel_700Bold,
-  Cinzel_800ExtraBold,
-  Cinzel_900Black,
-} from '@expo-google-fonts/cinzel';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/cinzel/useFonts';
+import { Cinzel_400Regular } from '@expo-google-fonts/cinzel/400Regular';
+import { Cinzel_500Medium } from '@expo-google-fonts/cinzel/500Medium';
+import { Cinzel_600SemiBold } from '@expo-google-fonts/cinzel/600SemiBold';
+import { Cinzel_700Bold } from '@expo-google-fonts/cinzel/700Bold';
+import { Cinzel_800ExtraBold } from '@expo-google-fonts/cinzel/800ExtraBold';
+import { Cinzel_900Black } from '@expo-google-fonts/cinzel/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -57,7 +53,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

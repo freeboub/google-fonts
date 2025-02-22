@@ -2,9 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const KaiseiOpti_400Regular = require('./KaiseiOpti_400Regular.ttf');
-export const KaiseiOpti_500Medium = require('./KaiseiOpti_500Medium.ttf');
-export const KaiseiOpti_700Bold = require('./KaiseiOpti_700Bold.ttf');
+export const KaiseiOpti_400Regular = require('./400Regular/KaiseiOpti_400Regular.ttf');
+export const KaiseiOpti_500Medium = require('./500Medium/KaiseiOpti_500Medium.ttf');
+export const KaiseiOpti_700Bold = require('./700Bold/KaiseiOpti_700Bold.ttf');

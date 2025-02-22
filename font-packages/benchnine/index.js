@@ -2,9 +2,9 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const BenchNine_300Light = require('./BenchNine_300Light.ttf');
-export const BenchNine_400Regular = require('./BenchNine_400Regular.ttf');
-export const BenchNine_700Bold = require('./BenchNine_700Bold.ttf');
+export const BenchNine_300Light = require('./300Light/BenchNine_300Light.ttf');
+export const BenchNine_400Regular = require('./400Regular/BenchNine_400Regular.ttf');
+export const BenchNine_700Bold = require('./700Bold/BenchNine_700Bold.ttf');

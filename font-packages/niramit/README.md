@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/niramit)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/niramit)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/niramit)
 
 This package lets you use the [**Niramit**](https://fonts.google.com/specimen/Niramit) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -30,30 +29,27 @@ This font family contains [12 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/niramit expo-font expo-app-loading
+expo install @expo-google-fonts/niramit expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Niramit_200ExtraLight,
-  Niramit_200ExtraLight_Italic,
-  Niramit_300Light,
-  Niramit_300Light_Italic,
-  Niramit_400Regular,
-  Niramit_400Regular_Italic,
-  Niramit_500Medium,
-  Niramit_500Medium_Italic,
-  Niramit_600SemiBold,
-  Niramit_600SemiBold_Italic,
-  Niramit_700Bold,
-  Niramit_700Bold_Italic,
-} from '@expo-google-fonts/niramit';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/niramit/useFonts';
+import { Niramit_200ExtraLight } from '@expo-google-fonts/niramit/200ExtraLight';
+import { Niramit_200ExtraLight_Italic } from '@expo-google-fonts/niramit/200ExtraLight_Italic';
+import { Niramit_300Light } from '@expo-google-fonts/niramit/300Light';
+import { Niramit_300Light_Italic } from '@expo-google-fonts/niramit/300Light_Italic';
+import { Niramit_400Regular } from '@expo-google-fonts/niramit/400Regular';
+import { Niramit_400Regular_Italic } from '@expo-google-fonts/niramit/400Regular_Italic';
+import { Niramit_500Medium } from '@expo-google-fonts/niramit/500Medium';
+import { Niramit_500Medium_Italic } from '@expo-google-fonts/niramit/500Medium_Italic';
+import { Niramit_600SemiBold } from '@expo-google-fonts/niramit/600SemiBold';
+import { Niramit_600SemiBold_Italic } from '@expo-google-fonts/niramit/600SemiBold_Italic';
+import { Niramit_700Bold } from '@expo-google-fonts/niramit/700Bold';
+import { Niramit_700Bold_Italic } from '@expo-google-fonts/niramit/700Bold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -75,7 +71,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const LondrinaSketch_400Regular = require('./LondrinaSketch_400Regular.ttf');
+export const LondrinaSketch_400Regular = require('./400Regular/LondrinaSketch_400Regular.ttf');

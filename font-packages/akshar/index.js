@@ -2,11 +2,11 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Akshar_300Light = require('./Akshar_300Light.ttf');
-export const Akshar_400Regular = require('./Akshar_400Regular.ttf');
-export const Akshar_500Medium = require('./Akshar_500Medium.ttf');
-export const Akshar_600SemiBold = require('./Akshar_600SemiBold.ttf');
-export const Akshar_700Bold = require('./Akshar_700Bold.ttf');
+export const Akshar_300Light = require('./300Light/Akshar_300Light.ttf');
+export const Akshar_400Regular = require('./400Regular/Akshar_400Regular.ttf');
+export const Akshar_500Medium = require('./500Medium/Akshar_500Medium.ttf');
+export const Akshar_600SemiBold = require('./600SemiBold/Akshar_600SemiBold.ttf');
+export const Akshar_700Bold = require('./700Bold/Akshar_700Bold.ttf');

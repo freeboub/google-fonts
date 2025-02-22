@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const NotoSansDuployan_400Regular = require('./NotoSansDuployan_400Regular.ttf');
-export const NotoSansDuployan_700Bold = require('./NotoSansDuployan_700Bold.ttf');
+export const NotoSansDuployan_400Regular = require('./400Regular/NotoSansDuployan_400Regular.ttf');
+export const NotoSansDuployan_700Bold = require('./700Bold/NotoSansDuployan_700Bold.ttf');

@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Quattrocento_400Regular = require('./Quattrocento_400Regular.ttf');
-export const Quattrocento_700Bold = require('./Quattrocento_700Bold.ttf');
+export const Quattrocento_400Regular = require('./400Regular/Quattrocento_400Regular.ttf');
+export const Quattrocento_700Bold = require('./700Bold/Quattrocento_700Bold.ttf');

@@ -2,8 +2,8 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const ChauPhilomeneOne_400Regular = require('./ChauPhilomeneOne_400Regular.ttf');
-export const ChauPhilomeneOne_400Regular_Italic = require('./ChauPhilomeneOne_400Regular_Italic.ttf');
+export const ChauPhilomeneOne_400Regular = require('./400Regular/ChauPhilomeneOne_400Regular.ttf');
+export const ChauPhilomeneOne_400Regular_Italic = require('./400Regular_Italic/ChauPhilomeneOne_400Regular_Italic.ttf');

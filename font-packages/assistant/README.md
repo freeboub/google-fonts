@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/assistant)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/assistant)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/assistant)
 
 This package lets you use the [**Assistant**](https://fonts.google.com/specimen/Assistant) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -25,25 +24,22 @@ This font family contains [7 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/assistant expo-font expo-app-loading
+expo install @expo-google-fonts/assistant expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  Assistant_200ExtraLight,
-  Assistant_300Light,
-  Assistant_400Regular,
-  Assistant_500Medium,
-  Assistant_600SemiBold,
-  Assistant_700Bold,
-  Assistant_800ExtraBold,
-} from '@expo-google-fonts/assistant';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/assistant/useFonts';
+import { Assistant_200ExtraLight } from '@expo-google-fonts/assistant/200ExtraLight';
+import { Assistant_300Light } from '@expo-google-fonts/assistant/300Light';
+import { Assistant_400Regular } from '@expo-google-fonts/assistant/400Regular';
+import { Assistant_500Medium } from '@expo-google-fonts/assistant/500Medium';
+import { Assistant_600SemiBold } from '@expo-google-fonts/assistant/600SemiBold';
+import { Assistant_700Bold } from '@expo-google-fonts/assistant/700Bold';
+import { Assistant_800ExtraBold } from '@expo-google-fonts/assistant/800ExtraBold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -60,7 +56,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

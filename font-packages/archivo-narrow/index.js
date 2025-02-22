@@ -2,14 +2,14 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const ArchivoNarrow_400Regular = require('./ArchivoNarrow_400Regular.ttf');
-export const ArchivoNarrow_500Medium = require('./ArchivoNarrow_500Medium.ttf');
-export const ArchivoNarrow_600SemiBold = require('./ArchivoNarrow_600SemiBold.ttf');
-export const ArchivoNarrow_700Bold = require('./ArchivoNarrow_700Bold.ttf');
-export const ArchivoNarrow_400Regular_Italic = require('./ArchivoNarrow_400Regular_Italic.ttf');
-export const ArchivoNarrow_500Medium_Italic = require('./ArchivoNarrow_500Medium_Italic.ttf');
-export const ArchivoNarrow_600SemiBold_Italic = require('./ArchivoNarrow_600SemiBold_Italic.ttf');
-export const ArchivoNarrow_700Bold_Italic = require('./ArchivoNarrow_700Bold_Italic.ttf');
+export const ArchivoNarrow_400Regular = require('./400Regular/ArchivoNarrow_400Regular.ttf');
+export const ArchivoNarrow_500Medium = require('./500Medium/ArchivoNarrow_500Medium.ttf');
+export const ArchivoNarrow_600SemiBold = require('./600SemiBold/ArchivoNarrow_600SemiBold.ttf');
+export const ArchivoNarrow_700Bold = require('./700Bold/ArchivoNarrow_700Bold.ttf');
+export const ArchivoNarrow_400Regular_Italic = require('./400Regular_Italic/ArchivoNarrow_400Regular_Italic.ttf');
+export const ArchivoNarrow_500Medium_Italic = require('./500Medium_Italic/ArchivoNarrow_500Medium_Italic.ttf');
+export const ArchivoNarrow_600SemiBold_Italic = require('./600SemiBold_Italic/ArchivoNarrow_600SemiBold_Italic.ttf');
+export const ArchivoNarrow_700Bold_Italic = require('./700Bold_Italic/ArchivoNarrow_700Bold_Italic.ttf');

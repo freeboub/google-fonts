@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/fira-sans)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/fira-sans)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/fira-sans)
 
 This package lets you use the [**Fira Sans**](https://fonts.google.com/specimen/Fira+Sans) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -36,36 +35,33 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/fira-sans expo-font expo-app-loading
+expo install @expo-google-fonts/fira-sans expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  FiraSans_100Thin,
-  FiraSans_100Thin_Italic,
-  FiraSans_200ExtraLight,
-  FiraSans_200ExtraLight_Italic,
-  FiraSans_300Light,
-  FiraSans_300Light_Italic,
-  FiraSans_400Regular,
-  FiraSans_400Regular_Italic,
-  FiraSans_500Medium,
-  FiraSans_500Medium_Italic,
-  FiraSans_600SemiBold,
-  FiraSans_600SemiBold_Italic,
-  FiraSans_700Bold,
-  FiraSans_700Bold_Italic,
-  FiraSans_800ExtraBold,
-  FiraSans_800ExtraBold_Italic,
-  FiraSans_900Black,
-  FiraSans_900Black_Italic,
-} from '@expo-google-fonts/fira-sans';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/fira-sans/useFonts';
+import { FiraSans_100Thin } from '@expo-google-fonts/fira-sans/100Thin';
+import { FiraSans_100Thin_Italic } from '@expo-google-fonts/fira-sans/100Thin_Italic';
+import { FiraSans_200ExtraLight } from '@expo-google-fonts/fira-sans/200ExtraLight';
+import { FiraSans_200ExtraLight_Italic } from '@expo-google-fonts/fira-sans/200ExtraLight_Italic';
+import { FiraSans_300Light } from '@expo-google-fonts/fira-sans/300Light';
+import { FiraSans_300Light_Italic } from '@expo-google-fonts/fira-sans/300Light_Italic';
+import { FiraSans_400Regular } from '@expo-google-fonts/fira-sans/400Regular';
+import { FiraSans_400Regular_Italic } from '@expo-google-fonts/fira-sans/400Regular_Italic';
+import { FiraSans_500Medium } from '@expo-google-fonts/fira-sans/500Medium';
+import { FiraSans_500Medium_Italic } from '@expo-google-fonts/fira-sans/500Medium_Italic';
+import { FiraSans_600SemiBold } from '@expo-google-fonts/fira-sans/600SemiBold';
+import { FiraSans_600SemiBold_Italic } from '@expo-google-fonts/fira-sans/600SemiBold_Italic';
+import { FiraSans_700Bold } from '@expo-google-fonts/fira-sans/700Bold';
+import { FiraSans_700Bold_Italic } from '@expo-google-fonts/fira-sans/700Bold_Italic';
+import { FiraSans_800ExtraBold } from '@expo-google-fonts/fira-sans/800ExtraBold';
+import { FiraSans_800ExtraBold_Italic } from '@expo-google-fonts/fira-sans/800ExtraBold_Italic';
+import { FiraSans_900Black } from '@expo-google-fonts/fira-sans/900Black';
+import { FiraSans_900Black_Italic } from '@expo-google-fonts/fira-sans/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -93,7 +89,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

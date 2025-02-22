@@ -2,7 +2,7 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Knewave_400Regular = require('./Knewave_400Regular.ttf');
+export const Knewave_400Regular = require('./400Regular/Knewave_400Regular.ttf');

@@ -3,7 +3,6 @@
 ![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/anek-gurmukhi)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
 ![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/anek-gurmukhi)
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/anek-gurmukhi)
 
 This package lets you use the [**Anek Gurmukhi**](https://fonts.google.com/specimen/Anek+Gurmukhi) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -26,26 +25,23 @@ This font family contains [8 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/anek-gurmukhi expo-font expo-app-loading
+expo install @expo-google-fonts/anek-gurmukhi expo-font
 ```
 
 Now add code like this to your project
 ```js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import { Text, View, StyleSheet } from 'react-native';
-import AppLoading from 'expo-app-loading';
-import {
-  useFonts,
-  AnekGurmukhi_100Thin,
-  AnekGurmukhi_200ExtraLight,
-  AnekGurmukhi_300Light,
-  AnekGurmukhi_400Regular,
-  AnekGurmukhi_500Medium,
-  AnekGurmukhi_600SemiBold,
-  AnekGurmukhi_700Bold,
-  AnekGurmukhi_800ExtraBold,
-} from '@expo-google-fonts/anek-gurmukhi';
+import { Text, View } from 'react-native';
+import { useFonts } from '@expo-google-fonts/anek-gurmukhi/useFonts';
+import { AnekGurmukhi_100Thin } from '@expo-google-fonts/anek-gurmukhi/100Thin';
+import { AnekGurmukhi_200ExtraLight } from '@expo-google-fonts/anek-gurmukhi/200ExtraLight';
+import { AnekGurmukhi_300Light } from '@expo-google-fonts/anek-gurmukhi/300Light';
+import { AnekGurmukhi_400Regular } from '@expo-google-fonts/anek-gurmukhi/400Regular';
+import { AnekGurmukhi_500Medium } from '@expo-google-fonts/anek-gurmukhi/500Medium';
+import { AnekGurmukhi_600SemiBold } from '@expo-google-fonts/anek-gurmukhi/600SemiBold';
+import { AnekGurmukhi_700Bold } from '@expo-google-fonts/anek-gurmukhi/700Bold';
+import { AnekGurmukhi_800ExtraBold } from '@expo-google-fonts/anek-gurmukhi/800ExtraBold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -63,7 +59,7 @@ export default () => {
   let paddingVertical = 6;
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    return undefined;
   } else {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>

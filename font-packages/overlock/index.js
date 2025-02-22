@@ -2,12 +2,12 @@
 /// Do not edit by hand unless you know what you are doing
 ///
 
-export { useFonts } from './useFonts';
+export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
-export const Overlock_400Regular = require('./Overlock_400Regular.ttf');
-export const Overlock_400Regular_Italic = require('./Overlock_400Regular_Italic.ttf');
-export const Overlock_700Bold = require('./Overlock_700Bold.ttf');
-export const Overlock_700Bold_Italic = require('./Overlock_700Bold_Italic.ttf');
-export const Overlock_900Black = require('./Overlock_900Black.ttf');
-export const Overlock_900Black_Italic = require('./Overlock_900Black_Italic.ttf');
+export const Overlock_400Regular = require('./400Regular/Overlock_400Regular.ttf');
+export const Overlock_400Regular_Italic = require('./400Regular_Italic/Overlock_400Regular_Italic.ttf');
+export const Overlock_700Bold = require('./700Bold/Overlock_700Bold.ttf');
+export const Overlock_700Bold_Italic = require('./700Bold_Italic/Overlock_700Bold_Italic.ttf');
+export const Overlock_900Black = require('./900Black/Overlock_900Black.ttf');
+export const Overlock_900Black_Italic = require('./900Black_Italic/Overlock_900Black_Italic.ttf');
