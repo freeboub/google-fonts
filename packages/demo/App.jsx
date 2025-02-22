@@ -48,14 +48,12 @@ import {
   Oswald_700Bold,
   Raleway_400Regular_Italic,
   Inter_400Regular,
-  Inter_700Bold,
   Poppins_600SemiBold_Italic,
   font42dotSans_400Regular,
 } from '@expo-google-fonts/dev';
-import * as GoogleFonts from '@expo-google-fonts/dev';
-// import { useWindowDimensions } from 'react-native-use-dimensions';
 
-let SegmentHeight = 55;
+import { Inter_700Bold } from '@expo-google-fonts/inter';
+
 let SegmentSize = 7;
 
 let FontVariants = {
@@ -157,14 +155,9 @@ const width = Dimensions.get('window').width;
 const height = Dimensions.get('window').height;
 
 export default function App() {
-  // let n = Math.ceil(height / SegmentHeight);
   let n = SegmentSize;
   let [s, setS] = useState(0);
   let listOfVariants = SegmentGroups[s];
-  // let [listOfVariants, setListOfVariants] = useState([]);
-  // useEffect(() => {
-  //   setListOfVariants(SegmentGroups[s]);
-  // }, []);
   let [fontsLoaded] = useFonts({
     ...FontVariants,
   });
@@ -193,7 +186,6 @@ export default function App() {
   return (
     <TouchableWithoutFeedback
       onPress={() => {
-        console.log('tap');
         setS((s + 1) % SegmentGroups.length);
         slideOut();
       }}>

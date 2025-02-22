@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@expo-google-fonts/dev": "../../font-packages/dev",
+    "@expo-google-fonts/inter": "../../font-packages/inter",
     "expo": "^52.0.35",
     "expo-font": "~13.0.3",
     "react": "18.3.1",
