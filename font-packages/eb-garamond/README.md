@@ -180,10 +180,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![EBGaramond_400Regular](./EBGaramond_400Regular.ttf.png)|![EBGaramond_500Medium](./EBGaramond_500Medium.ttf.png)|![EBGaramond_600SemiBold](./EBGaramond_600SemiBold.ttf.png)||
-|![EBGaramond_700Bold](./EBGaramond_700Bold.ttf.png)|![EBGaramond_800ExtraBold](./EBGaramond_800ExtraBold.ttf.png)|![EBGaramond_400Regular_Italic](./EBGaramond_400Regular_Italic.ttf.png)||
-|![EBGaramond_500Medium_Italic](./EBGaramond_500Medium_Italic.ttf.png)|![EBGaramond_600SemiBold_Italic](./EBGaramond_600SemiBold_Italic.ttf.png)|![EBGaramond_700Bold_Italic](./EBGaramond_700Bold_Italic.ttf.png)||
-|![EBGaramond_800ExtraBold_Italic](./EBGaramond_800ExtraBold_Italic.ttf.png)||||
+|![EBGaramond_400Regular](.//400Regular/EBGaramond_400Regular.ttf.png)|![EBGaramond_500Medium](.//500Medium/EBGaramond_500Medium.ttf.png)|![EBGaramond_600SemiBold](.//600SemiBold/EBGaramond_600SemiBold.ttf.png)||
+|![EBGaramond_700Bold](.//700Bold/EBGaramond_700Bold.ttf.png)|![EBGaramond_800ExtraBold](.//800ExtraBold/EBGaramond_800ExtraBold.ttf.png)|![EBGaramond_400Regular_Italic](.//400Regular_Italic/EBGaramond_400Regular_Italic.ttf.png)||
+|![EBGaramond_500Medium_Italic](.//500Medium_Italic/EBGaramond_500Medium_Italic.ttf.png)|![EBGaramond_600SemiBold_Italic](.//600SemiBold_Italic/EBGaramond_600SemiBold_Italic.ttf.png)|![EBGaramond_700Bold_Italic](.//700Bold_Italic/EBGaramond_700Bold_Italic.ttf.png)||
+|![EBGaramond_800ExtraBold_Italic](.//800ExtraBold_Italic/EBGaramond_800ExtraBold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

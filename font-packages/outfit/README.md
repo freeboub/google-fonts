@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Outfit_100Thin](./Outfit_100Thin.ttf.png)|![Outfit_200ExtraLight](./Outfit_200ExtraLight.ttf.png)|![Outfit_300Light](./Outfit_300Light.ttf.png)||
-|![Outfit_400Regular](./Outfit_400Regular.ttf.png)|![Outfit_500Medium](./Outfit_500Medium.ttf.png)|![Outfit_600SemiBold](./Outfit_600SemiBold.ttf.png)||
-|![Outfit_700Bold](./Outfit_700Bold.ttf.png)|![Outfit_800ExtraBold](./Outfit_800ExtraBold.ttf.png)|![Outfit_900Black](./Outfit_900Black.ttf.png)||
+|![Outfit_100Thin](.//100Thin/Outfit_100Thin.ttf.png)|![Outfit_200ExtraLight](.//200ExtraLight/Outfit_200ExtraLight.ttf.png)|![Outfit_300Light](.//300Light/Outfit_300Light.ttf.png)||
+|![Outfit_400Regular](.//400Regular/Outfit_400Regular.ttf.png)|![Outfit_500Medium](.//500Medium/Outfit_500Medium.ttf.png)|![Outfit_600SemiBold](.//600SemiBold/Outfit_600SemiBold.ttf.png)||
+|![Outfit_700Bold](.//700Bold/Outfit_700Bold.ttf.png)|![Outfit_800ExtraBold](.//800ExtraBold/Outfit_800ExtraBold.ttf.png)|![Outfit_900Black](.//900Black/Outfit_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

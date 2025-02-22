@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansCherokee_100Thin](./NotoSansCherokee_100Thin.ttf.png)|![NotoSansCherokee_200ExtraLight](./NotoSansCherokee_200ExtraLight.ttf.png)|![NotoSansCherokee_300Light](./NotoSansCherokee_300Light.ttf.png)||
-|![NotoSansCherokee_400Regular](./NotoSansCherokee_400Regular.ttf.png)|![NotoSansCherokee_500Medium](./NotoSansCherokee_500Medium.ttf.png)|![NotoSansCherokee_600SemiBold](./NotoSansCherokee_600SemiBold.ttf.png)||
-|![NotoSansCherokee_700Bold](./NotoSansCherokee_700Bold.ttf.png)|![NotoSansCherokee_800ExtraBold](./NotoSansCherokee_800ExtraBold.ttf.png)|![NotoSansCherokee_900Black](./NotoSansCherokee_900Black.ttf.png)||
+|![NotoSansCherokee_100Thin](.//100Thin/NotoSansCherokee_100Thin.ttf.png)|![NotoSansCherokee_200ExtraLight](.//200ExtraLight/NotoSansCherokee_200ExtraLight.ttf.png)|![NotoSansCherokee_300Light](.//300Light/NotoSansCherokee_300Light.ttf.png)||
+|![NotoSansCherokee_400Regular](.//400Regular/NotoSansCherokee_400Regular.ttf.png)|![NotoSansCherokee_500Medium](.//500Medium/NotoSansCherokee_500Medium.ttf.png)|![NotoSansCherokee_600SemiBold](.//600SemiBold/NotoSansCherokee_600SemiBold.ttf.png)||
+|![NotoSansCherokee_700Bold](.//700Bold/NotoSansCherokee_700Bold.ttf.png)|![NotoSansCherokee_800ExtraBold](.//800ExtraBold/NotoSansCherokee_800ExtraBold.ttf.png)|![NotoSansCherokee_900Black](.//900Black/NotoSansCherokee_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

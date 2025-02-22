@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![GreyQo_400Regular](./GreyQo_400Regular.ttf.png)||||
+|![GreyQo_400Regular](.//400Regular/GreyQo_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

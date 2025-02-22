@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![UbuntuMono_400Regular](./UbuntuMono_400Regular.ttf.png)|![UbuntuMono_400Regular_Italic](./UbuntuMono_400Regular_Italic.ttf.png)|![UbuntuMono_700Bold](./UbuntuMono_700Bold.ttf.png)||
-|![UbuntuMono_700Bold_Italic](./UbuntuMono_700Bold_Italic.ttf.png)||||
+|![UbuntuMono_400Regular](.//400Regular/UbuntuMono_400Regular.ttf.png)|![UbuntuMono_400Regular_Italic](.//400Regular_Italic/UbuntuMono_400Regular_Italic.ttf.png)|![UbuntuMono_700Bold](.//700Bold/UbuntuMono_700Bold.ttf.png)||
+|![UbuntuMono_700Bold_Italic](.//700Bold_Italic/UbuntuMono_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

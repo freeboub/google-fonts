@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BigShouldersText_100Thin](./BigShouldersText_100Thin.ttf.png)|![BigShouldersText_200ExtraLight](./BigShouldersText_200ExtraLight.ttf.png)|![BigShouldersText_300Light](./BigShouldersText_300Light.ttf.png)||
-|![BigShouldersText_400Regular](./BigShouldersText_400Regular.ttf.png)|![BigShouldersText_500Medium](./BigShouldersText_500Medium.ttf.png)|![BigShouldersText_600SemiBold](./BigShouldersText_600SemiBold.ttf.png)||
-|![BigShouldersText_700Bold](./BigShouldersText_700Bold.ttf.png)|![BigShouldersText_800ExtraBold](./BigShouldersText_800ExtraBold.ttf.png)|![BigShouldersText_900Black](./BigShouldersText_900Black.ttf.png)||
+|![BigShouldersText_100Thin](.//100Thin/BigShouldersText_100Thin.ttf.png)|![BigShouldersText_200ExtraLight](.//200ExtraLight/BigShouldersText_200ExtraLight.ttf.png)|![BigShouldersText_300Light](.//300Light/BigShouldersText_300Light.ttf.png)||
+|![BigShouldersText_400Regular](.//400Regular/BigShouldersText_400Regular.ttf.png)|![BigShouldersText_500Medium](.//500Medium/BigShouldersText_500Medium.ttf.png)|![BigShouldersText_600SemiBold](.//600SemiBold/BigShouldersText_600SemiBold.ttf.png)||
+|![BigShouldersText_700Bold](.//700Bold/BigShouldersText_700Bold.ttf.png)|![BigShouldersText_800ExtraBold](.//800ExtraBold/BigShouldersText_800ExtraBold.ttf.png)|![BigShouldersText_900Black](.//900Black/BigShouldersText_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

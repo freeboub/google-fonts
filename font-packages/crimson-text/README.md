@@ -128,8 +128,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![CrimsonText_400Regular](./CrimsonText_400Regular.ttf.png)|![CrimsonText_400Regular_Italic](./CrimsonText_400Regular_Italic.ttf.png)|![CrimsonText_600SemiBold](./CrimsonText_600SemiBold.ttf.png)||
-|![CrimsonText_600SemiBold_Italic](./CrimsonText_600SemiBold_Italic.ttf.png)|![CrimsonText_700Bold](./CrimsonText_700Bold.ttf.png)|![CrimsonText_700Bold_Italic](./CrimsonText_700Bold_Italic.ttf.png)||
+|![CrimsonText_400Regular](.//400Regular/CrimsonText_400Regular.ttf.png)|![CrimsonText_400Regular_Italic](.//400Regular_Italic/CrimsonText_400Regular_Italic.ttf.png)|![CrimsonText_600SemiBold](.//600SemiBold/CrimsonText_600SemiBold.ttf.png)||
+|![CrimsonText_600SemiBold_Italic](.//600SemiBold_Italic/CrimsonText_600SemiBold_Italic.ttf.png)|![CrimsonText_700Bold](.//700Bold/CrimsonText_700Bold.ttf.png)|![CrimsonText_700Bold_Italic](.//700Bold_Italic/CrimsonText_700Bold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

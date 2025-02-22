@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![GildaDisplay_400Regular](./GildaDisplay_400Regular.ttf.png)||||
+|![GildaDisplay_400Regular](.//400Regular/GildaDisplay_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

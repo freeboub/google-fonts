@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Chokokutai_400Regular](./Chokokutai_400Regular.ttf.png)||||
+|![Chokokutai_400Regular](.//400Regular/Chokokutai_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

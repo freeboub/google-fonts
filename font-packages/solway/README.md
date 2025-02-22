@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Solway_300Light](./Solway_300Light.ttf.png)|![Solway_400Regular](./Solway_400Regular.ttf.png)|![Solway_500Medium](./Solway_500Medium.ttf.png)||
-|![Solway_700Bold](./Solway_700Bold.ttf.png)|![Solway_800ExtraBold](./Solway_800ExtraBold.ttf.png)|||
+|![Solway_300Light](.//300Light/Solway_300Light.ttf.png)|![Solway_400Regular](.//400Regular/Solway_400Regular.ttf.png)|![Solway_500Medium](.//500Medium/Solway_500Medium.ttf.png)||
+|![Solway_700Bold](.//700Bold/Solway_700Bold.ttf.png)|![Solway_800ExtraBold](.//800ExtraBold/Solway_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

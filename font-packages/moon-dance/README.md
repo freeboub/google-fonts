@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MoonDance_400Regular](./MoonDance_400Regular.ttf.png)||||
+|![MoonDance_400Regular](.//400Regular/MoonDance_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Fresca_400Regular](./Fresca_400Regular.ttf.png)||||
+|![Fresca_400Regular](.//400Regular/Fresca_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

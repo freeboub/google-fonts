@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Strait_400Regular](./Strait_400Regular.ttf.png)||||
+|![Strait_400Regular](.//400Regular/Strait_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

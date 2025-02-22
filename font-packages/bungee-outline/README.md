@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BungeeOutline_400Regular](./BungeeOutline_400Regular.ttf.png)||||
+|![BungeeOutline_400Regular](.//400Regular/BungeeOutline_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -128,8 +128,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BellotaText_300Light](./BellotaText_300Light.ttf.png)|![BellotaText_300Light_Italic](./BellotaText_300Light_Italic.ttf.png)|![BellotaText_400Regular](./BellotaText_400Regular.ttf.png)||
-|![BellotaText_400Regular_Italic](./BellotaText_400Regular_Italic.ttf.png)|![BellotaText_700Bold](./BellotaText_700Bold.ttf.png)|![BellotaText_700Bold_Italic](./BellotaText_700Bold_Italic.ttf.png)||
+|![BellotaText_300Light](.//300Light/BellotaText_300Light.ttf.png)|![BellotaText_300Light_Italic](.//300Light_Italic/BellotaText_300Light_Italic.ttf.png)|![BellotaText_400Regular](.//400Regular/BellotaText_400Regular.ttf.png)||
+|![BellotaText_400Regular_Italic](.//400Regular_Italic/BellotaText_400Regular_Italic.ttf.png)|![BellotaText_700Bold](.//700Bold/BellotaText_700Bold.ttf.png)|![BellotaText_700Bold_Italic](.//700Bold_Italic/BellotaText_700Bold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Khmer_400Regular](./Khmer_400Regular.ttf.png)||||
+|![Khmer_400Regular](.//400Regular/Khmer_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

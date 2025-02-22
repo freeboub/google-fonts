@@ -128,8 +128,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![TurretRoad_200ExtraLight](./TurretRoad_200ExtraLight.ttf.png)|![TurretRoad_300Light](./TurretRoad_300Light.ttf.png)|![TurretRoad_400Regular](./TurretRoad_400Regular.ttf.png)||
-|![TurretRoad_500Medium](./TurretRoad_500Medium.ttf.png)|![TurretRoad_700Bold](./TurretRoad_700Bold.ttf.png)|![TurretRoad_800ExtraBold](./TurretRoad_800ExtraBold.ttf.png)||
+|![TurretRoad_200ExtraLight](.//200ExtraLight/TurretRoad_200ExtraLight.ttf.png)|![TurretRoad_300Light](.//300Light/TurretRoad_300Light.ttf.png)|![TurretRoad_400Regular](.//400Regular/TurretRoad_400Regular.ttf.png)||
+|![TurretRoad_500Medium](.//500Medium/TurretRoad_500Medium.ttf.png)|![TurretRoad_700Bold](.//700Bold/TurretRoad_700Bold.ttf.png)|![TurretRoad_800ExtraBold](.//800ExtraBold/TurretRoad_800ExtraBold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

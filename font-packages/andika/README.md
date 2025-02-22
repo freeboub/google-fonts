@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Andika_400Regular](./Andika_400Regular.ttf.png)|![Andika_400Regular_Italic](./Andika_400Regular_Italic.ttf.png)|![Andika_700Bold](./Andika_700Bold.ttf.png)||
-|![Andika_700Bold_Italic](./Andika_700Bold_Italic.ttf.png)||||
+|![Andika_400Regular](.//400Regular/Andika_400Regular.ttf.png)|![Andika_400Regular_Italic](.//400Regular_Italic/Andika_400Regular_Italic.ttf.png)|![Andika_700Bold](.//700Bold/Andika_700Bold.ttf.png)||
+|![Andika_700Bold_Italic](.//700Bold_Italic/Andika_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

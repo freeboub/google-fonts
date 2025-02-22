@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifTamil_100Thin](./NotoSerifTamil_100Thin.ttf.png)|![NotoSerifTamil_200ExtraLight](./NotoSerifTamil_200ExtraLight.ttf.png)|![NotoSerifTamil_300Light](./NotoSerifTamil_300Light.ttf.png)||
-|![NotoSerifTamil_400Regular](./NotoSerifTamil_400Regular.ttf.png)|![NotoSerifTamil_500Medium](./NotoSerifTamil_500Medium.ttf.png)|![NotoSerifTamil_600SemiBold](./NotoSerifTamil_600SemiBold.ttf.png)||
-|![NotoSerifTamil_700Bold](./NotoSerifTamil_700Bold.ttf.png)|![NotoSerifTamil_800ExtraBold](./NotoSerifTamil_800ExtraBold.ttf.png)|![NotoSerifTamil_900Black](./NotoSerifTamil_900Black.ttf.png)||
-|![NotoSerifTamil_100Thin_Italic](./NotoSerifTamil_100Thin_Italic.ttf.png)|![NotoSerifTamil_200ExtraLight_Italic](./NotoSerifTamil_200ExtraLight_Italic.ttf.png)|![NotoSerifTamil_300Light_Italic](./NotoSerifTamil_300Light_Italic.ttf.png)||
-|![NotoSerifTamil_400Regular_Italic](./NotoSerifTamil_400Regular_Italic.ttf.png)|![NotoSerifTamil_500Medium_Italic](./NotoSerifTamil_500Medium_Italic.ttf.png)|![NotoSerifTamil_600SemiBold_Italic](./NotoSerifTamil_600SemiBold_Italic.ttf.png)||
-|![NotoSerifTamil_700Bold_Italic](./NotoSerifTamil_700Bold_Italic.ttf.png)|![NotoSerifTamil_800ExtraBold_Italic](./NotoSerifTamil_800ExtraBold_Italic.ttf.png)|![NotoSerifTamil_900Black_Italic](./NotoSerifTamil_900Black_Italic.ttf.png)||
+|![NotoSerifTamil_100Thin](.//100Thin/NotoSerifTamil_100Thin.ttf.png)|![NotoSerifTamil_200ExtraLight](.//200ExtraLight/NotoSerifTamil_200ExtraLight.ttf.png)|![NotoSerifTamil_300Light](.//300Light/NotoSerifTamil_300Light.ttf.png)||
+|![NotoSerifTamil_400Regular](.//400Regular/NotoSerifTamil_400Regular.ttf.png)|![NotoSerifTamil_500Medium](.//500Medium/NotoSerifTamil_500Medium.ttf.png)|![NotoSerifTamil_600SemiBold](.//600SemiBold/NotoSerifTamil_600SemiBold.ttf.png)||
+|![NotoSerifTamil_700Bold](.//700Bold/NotoSerifTamil_700Bold.ttf.png)|![NotoSerifTamil_800ExtraBold](.//800ExtraBold/NotoSerifTamil_800ExtraBold.ttf.png)|![NotoSerifTamil_900Black](.//900Black/NotoSerifTamil_900Black.ttf.png)||
+|![NotoSerifTamil_100Thin_Italic](.//100Thin_Italic/NotoSerifTamil_100Thin_Italic.ttf.png)|![NotoSerifTamil_200ExtraLight_Italic](.//200ExtraLight_Italic/NotoSerifTamil_200ExtraLight_Italic.ttf.png)|![NotoSerifTamil_300Light_Italic](.//300Light_Italic/NotoSerifTamil_300Light_Italic.ttf.png)||
+|![NotoSerifTamil_400Regular_Italic](.//400Regular_Italic/NotoSerifTamil_400Regular_Italic.ttf.png)|![NotoSerifTamil_500Medium_Italic](.//500Medium_Italic/NotoSerifTamil_500Medium_Italic.ttf.png)|![NotoSerifTamil_600SemiBold_Italic](.//600SemiBold_Italic/NotoSerifTamil_600SemiBold_Italic.ttf.png)||
+|![NotoSerifTamil_700Bold_Italic](.//700Bold_Italic/NotoSerifTamil_700Bold_Italic.ttf.png)|![NotoSerifTamil_800ExtraBold_Italic](.//800ExtraBold_Italic/NotoSerifTamil_800ExtraBold_Italic.ttf.png)|![NotoSerifTamil_900Black_Italic](.//900Black_Italic/NotoSerifTamil_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

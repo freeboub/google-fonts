@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PTSansCaption_400Regular](./PTSansCaption_400Regular.ttf.png)|![PTSansCaption_700Bold](./PTSansCaption_700Bold.ttf.png)|||
+|![PTSansCaption_400Regular](.//400Regular/PTSansCaption_400Regular.ttf.png)|![PTSansCaption_700Bold](.//700Bold/PTSansCaption_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

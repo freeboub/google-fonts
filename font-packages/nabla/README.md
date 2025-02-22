@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Nabla_400Regular](./Nabla_400Regular.ttf.png)||||
+|![Nabla_400Regular](.//400Regular/Nabla_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

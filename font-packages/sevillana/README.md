@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Sevillana_400Regular](./Sevillana_400Regular.ttf.png)||||
+|![Sevillana_400Regular](.//400Regular/Sevillana_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

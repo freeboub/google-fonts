@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![EduQLDBeginner_400Regular](./EduQLDBeginner_400Regular.ttf.png)|![EduQLDBeginner_500Medium](./EduQLDBeginner_500Medium.ttf.png)|![EduQLDBeginner_600SemiBold](./EduQLDBeginner_600SemiBold.ttf.png)||
-|![EduQLDBeginner_700Bold](./EduQLDBeginner_700Bold.ttf.png)||||
+|![EduQLDBeginner_400Regular](.//400Regular/EduQLDBeginner_400Regular.ttf.png)|![EduQLDBeginner_500Medium](.//500Medium/EduQLDBeginner_500Medium.ttf.png)|![EduQLDBeginner_600SemiBold](.//600SemiBold/EduQLDBeginner_600SemiBold.ttf.png)||
+|![EduQLDBeginner_700Bold](.//700Bold/EduQLDBeginner_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

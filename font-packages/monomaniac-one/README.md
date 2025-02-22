@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MonomaniacOne_400Regular](./MonomaniacOne_400Regular.ttf.png)||||
+|![MonomaniacOne_400Regular](.//400Regular/MonomaniacOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

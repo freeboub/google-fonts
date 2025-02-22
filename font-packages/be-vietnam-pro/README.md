@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BeVietnamPro_100Thin](./BeVietnamPro_100Thin.ttf.png)|![BeVietnamPro_100Thin_Italic](./BeVietnamPro_100Thin_Italic.ttf.png)|![BeVietnamPro_200ExtraLight](./BeVietnamPro_200ExtraLight.ttf.png)||
-|![BeVietnamPro_200ExtraLight_Italic](./BeVietnamPro_200ExtraLight_Italic.ttf.png)|![BeVietnamPro_300Light](./BeVietnamPro_300Light.ttf.png)|![BeVietnamPro_300Light_Italic](./BeVietnamPro_300Light_Italic.ttf.png)||
-|![BeVietnamPro_400Regular](./BeVietnamPro_400Regular.ttf.png)|![BeVietnamPro_400Regular_Italic](./BeVietnamPro_400Regular_Italic.ttf.png)|![BeVietnamPro_500Medium](./BeVietnamPro_500Medium.ttf.png)||
-|![BeVietnamPro_500Medium_Italic](./BeVietnamPro_500Medium_Italic.ttf.png)|![BeVietnamPro_600SemiBold](./BeVietnamPro_600SemiBold.ttf.png)|![BeVietnamPro_600SemiBold_Italic](./BeVietnamPro_600SemiBold_Italic.ttf.png)||
-|![BeVietnamPro_700Bold](./BeVietnamPro_700Bold.ttf.png)|![BeVietnamPro_700Bold_Italic](./BeVietnamPro_700Bold_Italic.ttf.png)|![BeVietnamPro_800ExtraBold](./BeVietnamPro_800ExtraBold.ttf.png)||
-|![BeVietnamPro_800ExtraBold_Italic](./BeVietnamPro_800ExtraBold_Italic.ttf.png)|![BeVietnamPro_900Black](./BeVietnamPro_900Black.ttf.png)|![BeVietnamPro_900Black_Italic](./BeVietnamPro_900Black_Italic.ttf.png)||
+|![BeVietnamPro_100Thin](.//100Thin/BeVietnamPro_100Thin.ttf.png)|![BeVietnamPro_100Thin_Italic](.//100Thin_Italic/BeVietnamPro_100Thin_Italic.ttf.png)|![BeVietnamPro_200ExtraLight](.//200ExtraLight/BeVietnamPro_200ExtraLight.ttf.png)||
+|![BeVietnamPro_200ExtraLight_Italic](.//200ExtraLight_Italic/BeVietnamPro_200ExtraLight_Italic.ttf.png)|![BeVietnamPro_300Light](.//300Light/BeVietnamPro_300Light.ttf.png)|![BeVietnamPro_300Light_Italic](.//300Light_Italic/BeVietnamPro_300Light_Italic.ttf.png)||
+|![BeVietnamPro_400Regular](.//400Regular/BeVietnamPro_400Regular.ttf.png)|![BeVietnamPro_400Regular_Italic](.//400Regular_Italic/BeVietnamPro_400Regular_Italic.ttf.png)|![BeVietnamPro_500Medium](.//500Medium/BeVietnamPro_500Medium.ttf.png)||
+|![BeVietnamPro_500Medium_Italic](.//500Medium_Italic/BeVietnamPro_500Medium_Italic.ttf.png)|![BeVietnamPro_600SemiBold](.//600SemiBold/BeVietnamPro_600SemiBold.ttf.png)|![BeVietnamPro_600SemiBold_Italic](.//600SemiBold_Italic/BeVietnamPro_600SemiBold_Italic.ttf.png)||
+|![BeVietnamPro_700Bold](.//700Bold/BeVietnamPro_700Bold.ttf.png)|![BeVietnamPro_700Bold_Italic](.//700Bold_Italic/BeVietnamPro_700Bold_Italic.ttf.png)|![BeVietnamPro_800ExtraBold](.//800ExtraBold/BeVietnamPro_800ExtraBold.ttf.png)||
+|![BeVietnamPro_800ExtraBold_Italic](.//800ExtraBold_Italic/BeVietnamPro_800ExtraBold_Italic.ttf.png)|![BeVietnamPro_900Black](.//900Black/BeVietnamPro_900Black.ttf.png)|![BeVietnamPro_900Black_Italic](.//900Black_Italic/BeVietnamPro_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

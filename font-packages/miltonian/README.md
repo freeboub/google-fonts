@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Miltonian_400Regular](./Miltonian_400Regular.ttf.png)||||
+|![Miltonian_400Regular](.//400Regular/Miltonian_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

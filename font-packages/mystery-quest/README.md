@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MysteryQuest_400Regular](./MysteryQuest_400Regular.ttf.png)||||
+|![MysteryQuest_400Regular](.//400Regular/MysteryQuest_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

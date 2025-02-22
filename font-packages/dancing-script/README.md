@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![DancingScript_400Regular](./DancingScript_400Regular.ttf.png)|![DancingScript_500Medium](./DancingScript_500Medium.ttf.png)|![DancingScript_600SemiBold](./DancingScript_600SemiBold.ttf.png)||
-|![DancingScript_700Bold](./DancingScript_700Bold.ttf.png)||||
+|![DancingScript_400Regular](.//400Regular/DancingScript_400Regular.ttf.png)|![DancingScript_500Medium](.//500Medium/DancingScript_500Medium.ttf.png)|![DancingScript_600SemiBold](.//600SemiBold/DancingScript_600SemiBold.ttf.png)||
+|![DancingScript_700Bold](.//700Bold/DancingScript_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

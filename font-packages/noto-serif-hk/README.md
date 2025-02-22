@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifHK_200ExtraLight](./NotoSerifHK_200ExtraLight.ttf.png)|![NotoSerifHK_300Light](./NotoSerifHK_300Light.ttf.png)|![NotoSerifHK_400Regular](./NotoSerifHK_400Regular.ttf.png)||
-|![NotoSerifHK_500Medium](./NotoSerifHK_500Medium.ttf.png)|![NotoSerifHK_600SemiBold](./NotoSerifHK_600SemiBold.ttf.png)|![NotoSerifHK_700Bold](./NotoSerifHK_700Bold.ttf.png)||
-|![NotoSerifHK_800ExtraBold](./NotoSerifHK_800ExtraBold.ttf.png)|![NotoSerifHK_900Black](./NotoSerifHK_900Black.ttf.png)|||
+|![NotoSerifHK_200ExtraLight](.//200ExtraLight/NotoSerifHK_200ExtraLight.ttf.png)|![NotoSerifHK_300Light](.//300Light/NotoSerifHK_300Light.ttf.png)|![NotoSerifHK_400Regular](.//400Regular/NotoSerifHK_400Regular.ttf.png)||
+|![NotoSerifHK_500Medium](.//500Medium/NotoSerifHK_500Medium.ttf.png)|![NotoSerifHK_600SemiBold](.//600SemiBold/NotoSerifHK_600SemiBold.ttf.png)|![NotoSerifHK_700Bold](.//700Bold/NotoSerifHK_700Bold.ttf.png)||
+|![NotoSerifHK_800ExtraBold](.//800ExtraBold/NotoSerifHK_800ExtraBold.ttf.png)|![NotoSerifHK_900Black](.//900Black/NotoSerifHK_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

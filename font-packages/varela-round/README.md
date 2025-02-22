@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![VarelaRound_400Regular](./VarelaRound_400Regular.ttf.png)||||
+|![VarelaRound_400Regular](.//400Regular/VarelaRound_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

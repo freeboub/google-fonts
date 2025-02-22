@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Adamina_400Regular](./Adamina_400Regular.ttf.png)||||
+|![Adamina_400Regular](.//400Regular/Adamina_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

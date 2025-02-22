@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Yomogi_400Regular](./Yomogi_400Regular.ttf.png)||||
+|![Yomogi_400Regular](.//400Regular/Yomogi_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

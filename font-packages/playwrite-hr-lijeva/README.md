@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PlaywriteHRLijeva_100Thin](./PlaywriteHRLijeva_100Thin.ttf.png)|![PlaywriteHRLijeva_200ExtraLight](./PlaywriteHRLijeva_200ExtraLight.ttf.png)|![PlaywriteHRLijeva_300Light](./PlaywriteHRLijeva_300Light.ttf.png)||
-|![PlaywriteHRLijeva_400Regular](./PlaywriteHRLijeva_400Regular.ttf.png)||||
+|![PlaywriteHRLijeva_100Thin](.//100Thin/PlaywriteHRLijeva_100Thin.ttf.png)|![PlaywriteHRLijeva_200ExtraLight](.//200ExtraLight/PlaywriteHRLijeva_200ExtraLight.ttf.png)|![PlaywriteHRLijeva_300Light](.//300Light/PlaywriteHRLijeva_300Light.ttf.png)||
+|![PlaywriteHRLijeva_400Regular](.//400Regular/PlaywriteHRLijeva_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

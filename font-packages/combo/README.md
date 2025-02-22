@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Combo_400Regular](./Combo_400Regular.ttf.png)||||
+|![Combo_400Regular](.//400Regular/Combo_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

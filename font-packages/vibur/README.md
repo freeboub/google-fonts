@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Vibur_400Regular](./Vibur_400Regular.ttf.png)||||
+|![Vibur_400Regular](.//400Regular/Vibur_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

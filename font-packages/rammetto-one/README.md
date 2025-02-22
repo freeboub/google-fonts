@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RammettoOne_400Regular](./RammettoOne_400Regular.ttf.png)||||
+|![RammettoOne_400Regular](.//400Regular/RammettoOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

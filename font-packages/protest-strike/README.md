@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ProtestStrike_400Regular](./ProtestStrike_400Regular.ttf.png)||||
+|![ProtestStrike_400Regular](.//400Regular/ProtestStrike_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

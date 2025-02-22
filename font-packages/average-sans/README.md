@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AverageSans_400Regular](./AverageSans_400Regular.ttf.png)||||
+|![AverageSans_400Regular](.//400Regular/AverageSans_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

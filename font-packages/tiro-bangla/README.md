@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![TiroBangla_400Regular](./TiroBangla_400Regular.ttf.png)|![TiroBangla_400Regular_Italic](./TiroBangla_400Regular_Italic.ttf.png)|||
+|![TiroBangla_400Regular](.//400Regular/TiroBangla_400Regular.ttf.png)|![TiroBangla_400Regular_Italic](.//400Regular_Italic/TiroBangla_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

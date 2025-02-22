@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Explora_400Regular](./Explora_400Regular.ttf.png)||||
+|![Explora_400Regular](.//400Regular/Explora_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

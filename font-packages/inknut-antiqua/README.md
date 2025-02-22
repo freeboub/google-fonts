@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![InknutAntiqua_300Light](./InknutAntiqua_300Light.ttf.png)|![InknutAntiqua_400Regular](./InknutAntiqua_400Regular.ttf.png)|![InknutAntiqua_500Medium](./InknutAntiqua_500Medium.ttf.png)||
-|![InknutAntiqua_600SemiBold](./InknutAntiqua_600SemiBold.ttf.png)|![InknutAntiqua_700Bold](./InknutAntiqua_700Bold.ttf.png)|![InknutAntiqua_800ExtraBold](./InknutAntiqua_800ExtraBold.ttf.png)||
-|![InknutAntiqua_900Black](./InknutAntiqua_900Black.ttf.png)||||
+|![InknutAntiqua_300Light](.//300Light/InknutAntiqua_300Light.ttf.png)|![InknutAntiqua_400Regular](.//400Regular/InknutAntiqua_400Regular.ttf.png)|![InknutAntiqua_500Medium](.//500Medium/InknutAntiqua_500Medium.ttf.png)||
+|![InknutAntiqua_600SemiBold](.//600SemiBold/InknutAntiqua_600SemiBold.ttf.png)|![InknutAntiqua_700Bold](.//700Bold/InknutAntiqua_700Bold.ttf.png)|![InknutAntiqua_800ExtraBold](.//800ExtraBold/InknutAntiqua_800ExtraBold.ttf.png)||
+|![InknutAntiqua_900Black](.//900Black/InknutAntiqua_900Black.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

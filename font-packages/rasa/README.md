@@ -180,10 +180,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Rasa_300Light](./Rasa_300Light.ttf.png)|![Rasa_400Regular](./Rasa_400Regular.ttf.png)|![Rasa_500Medium](./Rasa_500Medium.ttf.png)||
-|![Rasa_600SemiBold](./Rasa_600SemiBold.ttf.png)|![Rasa_700Bold](./Rasa_700Bold.ttf.png)|![Rasa_300Light_Italic](./Rasa_300Light_Italic.ttf.png)||
-|![Rasa_400Regular_Italic](./Rasa_400Regular_Italic.ttf.png)|![Rasa_500Medium_Italic](./Rasa_500Medium_Italic.ttf.png)|![Rasa_600SemiBold_Italic](./Rasa_600SemiBold_Italic.ttf.png)||
-|![Rasa_700Bold_Italic](./Rasa_700Bold_Italic.ttf.png)||||
+|![Rasa_300Light](.//300Light/Rasa_300Light.ttf.png)|![Rasa_400Regular](.//400Regular/Rasa_400Regular.ttf.png)|![Rasa_500Medium](.//500Medium/Rasa_500Medium.ttf.png)||
+|![Rasa_600SemiBold](.//600SemiBold/Rasa_600SemiBold.ttf.png)|![Rasa_700Bold](.//700Bold/Rasa_700Bold.ttf.png)|![Rasa_300Light_Italic](.//300Light_Italic/Rasa_300Light_Italic.ttf.png)||
+|![Rasa_400Regular_Italic](.//400Regular_Italic/Rasa_400Regular_Italic.ttf.png)|![Rasa_500Medium_Italic](.//500Medium_Italic/Rasa_500Medium_Italic.ttf.png)|![Rasa_600SemiBold_Italic](.//600SemiBold_Italic/Rasa_600SemiBold_Italic.ttf.png)||
+|![Rasa_700Bold_Italic](.//700Bold_Italic/Rasa_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

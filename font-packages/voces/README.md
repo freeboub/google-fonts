@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Voces_400Regular](./Voces_400Regular.ttf.png)||||
+|![Voces_400Regular](.//400Regular/Voces_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

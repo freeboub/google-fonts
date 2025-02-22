@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PlaywriteGBSGuides_400Regular](./PlaywriteGBSGuides_400Regular.ttf.png)|![PlaywriteGBSGuides_400Regular_Italic](./PlaywriteGBSGuides_400Regular_Italic.ttf.png)|||
+|![PlaywriteGBSGuides_400Regular](.//400Regular/PlaywriteGBSGuides_400Regular.ttf.png)|![PlaywriteGBSGuides_400Regular_Italic](.//400Regular_Italic/PlaywriteGBSGuides_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

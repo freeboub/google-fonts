@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Quantico_400Regular](./Quantico_400Regular.ttf.png)|![Quantico_400Regular_Italic](./Quantico_400Regular_Italic.ttf.png)|![Quantico_700Bold](./Quantico_700Bold.ttf.png)||
-|![Quantico_700Bold_Italic](./Quantico_700Bold_Italic.ttf.png)||||
+|![Quantico_400Regular](.//400Regular/Quantico_400Regular.ttf.png)|![Quantico_400Regular_Italic](.//400Regular_Italic/Quantico_400Regular_Italic.ttf.png)|![Quantico_700Bold](.//700Bold/Quantico_700Bold.ttf.png)||
+|![Quantico_700Bold_Italic](.//700Bold_Italic/Quantico_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

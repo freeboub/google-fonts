@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![HeadlandOne_400Regular](./HeadlandOne_400Regular.ttf.png)||||
+|![HeadlandOne_400Regular](.//400Regular/HeadlandOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

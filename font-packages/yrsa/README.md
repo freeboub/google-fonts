@@ -180,10 +180,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Yrsa_300Light](./Yrsa_300Light.ttf.png)|![Yrsa_400Regular](./Yrsa_400Regular.ttf.png)|![Yrsa_500Medium](./Yrsa_500Medium.ttf.png)||
-|![Yrsa_600SemiBold](./Yrsa_600SemiBold.ttf.png)|![Yrsa_700Bold](./Yrsa_700Bold.ttf.png)|![Yrsa_300Light_Italic](./Yrsa_300Light_Italic.ttf.png)||
-|![Yrsa_400Regular_Italic](./Yrsa_400Regular_Italic.ttf.png)|![Yrsa_500Medium_Italic](./Yrsa_500Medium_Italic.ttf.png)|![Yrsa_600SemiBold_Italic](./Yrsa_600SemiBold_Italic.ttf.png)||
-|![Yrsa_700Bold_Italic](./Yrsa_700Bold_Italic.ttf.png)||||
+|![Yrsa_300Light](.//300Light/Yrsa_300Light.ttf.png)|![Yrsa_400Regular](.//400Regular/Yrsa_400Regular.ttf.png)|![Yrsa_500Medium](.//500Medium/Yrsa_500Medium.ttf.png)||
+|![Yrsa_600SemiBold](.//600SemiBold/Yrsa_600SemiBold.ttf.png)|![Yrsa_700Bold](.//700Bold/Yrsa_700Bold.ttf.png)|![Yrsa_300Light_Italic](.//300Light_Italic/Yrsa_300Light_Italic.ttf.png)||
+|![Yrsa_400Regular_Italic](.//400Regular_Italic/Yrsa_400Regular_Italic.ttf.png)|![Yrsa_500Medium_Italic](.//500Medium_Italic/Yrsa_500Medium_Italic.ttf.png)|![Yrsa_600SemiBold_Italic](.//600SemiBold_Italic/Yrsa_600SemiBold_Italic.ttf.png)||
+|![Yrsa_700Bold_Italic](.//700Bold_Italic/Yrsa_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

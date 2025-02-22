@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RedRose_300Light](./RedRose_300Light.ttf.png)|![RedRose_400Regular](./RedRose_400Regular.ttf.png)|![RedRose_500Medium](./RedRose_500Medium.ttf.png)||
-|![RedRose_600SemiBold](./RedRose_600SemiBold.ttf.png)|![RedRose_700Bold](./RedRose_700Bold.ttf.png)|||
+|![RedRose_300Light](.//300Light/RedRose_300Light.ttf.png)|![RedRose_400Regular](.//400Regular/RedRose_400Regular.ttf.png)|![RedRose_500Medium](.//500Medium/RedRose_500Medium.ttf.png)||
+|![RedRose_600SemiBold](.//600SemiBold/RedRose_600SemiBold.ttf.png)|![RedRose_700Bold](.//700Bold/RedRose_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

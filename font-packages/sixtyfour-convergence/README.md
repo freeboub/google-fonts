@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SixtyfourConvergence_400Regular](./SixtyfourConvergence_400Regular.ttf.png)||||
+|![SixtyfourConvergence_400Regular](.//400Regular/SixtyfourConvergence_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

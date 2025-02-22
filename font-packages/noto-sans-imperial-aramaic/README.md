@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansImperialAramaic_400Regular](./NotoSansImperialAramaic_400Regular.ttf.png)||||
+|![NotoSansImperialAramaic_400Regular](.//400Regular/NotoSansImperialAramaic_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

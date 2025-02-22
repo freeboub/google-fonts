@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MuktaMahee_200ExtraLight](./MuktaMahee_200ExtraLight.ttf.png)|![MuktaMahee_300Light](./MuktaMahee_300Light.ttf.png)|![MuktaMahee_400Regular](./MuktaMahee_400Regular.ttf.png)||
-|![MuktaMahee_500Medium](./MuktaMahee_500Medium.ttf.png)|![MuktaMahee_600SemiBold](./MuktaMahee_600SemiBold.ttf.png)|![MuktaMahee_700Bold](./MuktaMahee_700Bold.ttf.png)||
-|![MuktaMahee_800ExtraBold](./MuktaMahee_800ExtraBold.ttf.png)||||
+|![MuktaMahee_200ExtraLight](.//200ExtraLight/MuktaMahee_200ExtraLight.ttf.png)|![MuktaMahee_300Light](.//300Light/MuktaMahee_300Light.ttf.png)|![MuktaMahee_400Regular](.//400Regular/MuktaMahee_400Regular.ttf.png)||
+|![MuktaMahee_500Medium](.//500Medium/MuktaMahee_500Medium.ttf.png)|![MuktaMahee_600SemiBold](.//600SemiBold/MuktaMahee_600SemiBold.ttf.png)|![MuktaMahee_700Bold](.//700Bold/MuktaMahee_700Bold.ttf.png)||
+|![MuktaMahee_800ExtraBold](.//800ExtraBold/MuktaMahee_800ExtraBold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PlaywriteAT_100Thin](./PlaywriteAT_100Thin.ttf.png)|![PlaywriteAT_200ExtraLight](./PlaywriteAT_200ExtraLight.ttf.png)|![PlaywriteAT_300Light](./PlaywriteAT_300Light.ttf.png)||
-|![PlaywriteAT_400Regular](./PlaywriteAT_400Regular.ttf.png)|![PlaywriteAT_100Thin_Italic](./PlaywriteAT_100Thin_Italic.ttf.png)|![PlaywriteAT_200ExtraLight_Italic](./PlaywriteAT_200ExtraLight_Italic.ttf.png)||
-|![PlaywriteAT_300Light_Italic](./PlaywriteAT_300Light_Italic.ttf.png)|![PlaywriteAT_400Regular_Italic](./PlaywriteAT_400Regular_Italic.ttf.png)|||
+|![PlaywriteAT_100Thin](.//100Thin/PlaywriteAT_100Thin.ttf.png)|![PlaywriteAT_200ExtraLight](.//200ExtraLight/PlaywriteAT_200ExtraLight.ttf.png)|![PlaywriteAT_300Light](.//300Light/PlaywriteAT_300Light.ttf.png)||
+|![PlaywriteAT_400Regular](.//400Regular/PlaywriteAT_400Regular.ttf.png)|![PlaywriteAT_100Thin_Italic](.//100Thin_Italic/PlaywriteAT_100Thin_Italic.ttf.png)|![PlaywriteAT_200ExtraLight_Italic](.//200ExtraLight_Italic/PlaywriteAT_200ExtraLight_Italic.ttf.png)||
+|![PlaywriteAT_300Light_Italic](.//300Light_Italic/PlaywriteAT_300Light_Italic.ttf.png)|![PlaywriteAT_400Regular_Italic](.//400Regular_Italic/PlaywriteAT_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

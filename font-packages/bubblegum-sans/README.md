@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BubblegumSans_400Regular](./BubblegumSans_400Regular.ttf.png)||||
+|![BubblegumSans_400Regular](.//400Regular/BubblegumSans_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

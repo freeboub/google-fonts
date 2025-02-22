@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansTamil_100Thin](./NotoSansTamil_100Thin.ttf.png)|![NotoSansTamil_200ExtraLight](./NotoSansTamil_200ExtraLight.ttf.png)|![NotoSansTamil_300Light](./NotoSansTamil_300Light.ttf.png)||
-|![NotoSansTamil_400Regular](./NotoSansTamil_400Regular.ttf.png)|![NotoSansTamil_500Medium](./NotoSansTamil_500Medium.ttf.png)|![NotoSansTamil_600SemiBold](./NotoSansTamil_600SemiBold.ttf.png)||
-|![NotoSansTamil_700Bold](./NotoSansTamil_700Bold.ttf.png)|![NotoSansTamil_800ExtraBold](./NotoSansTamil_800ExtraBold.ttf.png)|![NotoSansTamil_900Black](./NotoSansTamil_900Black.ttf.png)||
+|![NotoSansTamil_100Thin](.//100Thin/NotoSansTamil_100Thin.ttf.png)|![NotoSansTamil_200ExtraLight](.//200ExtraLight/NotoSansTamil_200ExtraLight.ttf.png)|![NotoSansTamil_300Light](.//300Light/NotoSansTamil_300Light.ttf.png)||
+|![NotoSansTamil_400Regular](.//400Regular/NotoSansTamil_400Regular.ttf.png)|![NotoSansTamil_500Medium](.//500Medium/NotoSansTamil_500Medium.ttf.png)|![NotoSansTamil_600SemiBold](.//600SemiBold/NotoSansTamil_600SemiBold.ttf.png)||
+|![NotoSansTamil_700Bold](.//700Bold/NotoSansTamil_700Bold.ttf.png)|![NotoSansTamil_800ExtraBold](.//800ExtraBold/NotoSansTamil_800ExtraBold.ttf.png)|![NotoSansTamil_900Black](.//900Black/NotoSansTamil_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

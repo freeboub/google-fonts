@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KleeOne_400Regular](./KleeOne_400Regular.ttf.png)|![KleeOne_600SemiBold](./KleeOne_600SemiBold.ttf.png)|||
+|![KleeOne_400Regular](.//400Regular/KleeOne_400Regular.ttf.png)|![KleeOne_600SemiBold](.//600SemiBold/KleeOne_600SemiBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

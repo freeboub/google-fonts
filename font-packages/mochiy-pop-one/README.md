@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MochiyPopOne_400Regular](./MochiyPopOne_400Regular.ttf.png)||||
+|![MochiyPopOne_400Regular](.//400Regular/MochiyPopOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

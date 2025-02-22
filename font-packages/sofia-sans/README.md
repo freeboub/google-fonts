@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SofiaSans_100Thin](./SofiaSans_100Thin.ttf.png)|![SofiaSans_200ExtraLight](./SofiaSans_200ExtraLight.ttf.png)|![SofiaSans_300Light](./SofiaSans_300Light.ttf.png)||
-|![SofiaSans_400Regular](./SofiaSans_400Regular.ttf.png)|![SofiaSans_500Medium](./SofiaSans_500Medium.ttf.png)|![SofiaSans_600SemiBold](./SofiaSans_600SemiBold.ttf.png)||
-|![SofiaSans_700Bold](./SofiaSans_700Bold.ttf.png)|![SofiaSans_800ExtraBold](./SofiaSans_800ExtraBold.ttf.png)|![SofiaSans_900Black](./SofiaSans_900Black.ttf.png)||
-|![SofiaSans_100Thin_Italic](./SofiaSans_100Thin_Italic.ttf.png)|![SofiaSans_200ExtraLight_Italic](./SofiaSans_200ExtraLight_Italic.ttf.png)|![SofiaSans_300Light_Italic](./SofiaSans_300Light_Italic.ttf.png)||
-|![SofiaSans_400Regular_Italic](./SofiaSans_400Regular_Italic.ttf.png)|![SofiaSans_500Medium_Italic](./SofiaSans_500Medium_Italic.ttf.png)|![SofiaSans_600SemiBold_Italic](./SofiaSans_600SemiBold_Italic.ttf.png)||
-|![SofiaSans_700Bold_Italic](./SofiaSans_700Bold_Italic.ttf.png)|![SofiaSans_800ExtraBold_Italic](./SofiaSans_800ExtraBold_Italic.ttf.png)|![SofiaSans_900Black_Italic](./SofiaSans_900Black_Italic.ttf.png)||
+|![SofiaSans_100Thin](.//100Thin/SofiaSans_100Thin.ttf.png)|![SofiaSans_200ExtraLight](.//200ExtraLight/SofiaSans_200ExtraLight.ttf.png)|![SofiaSans_300Light](.//300Light/SofiaSans_300Light.ttf.png)||
+|![SofiaSans_400Regular](.//400Regular/SofiaSans_400Regular.ttf.png)|![SofiaSans_500Medium](.//500Medium/SofiaSans_500Medium.ttf.png)|![SofiaSans_600SemiBold](.//600SemiBold/SofiaSans_600SemiBold.ttf.png)||
+|![SofiaSans_700Bold](.//700Bold/SofiaSans_700Bold.ttf.png)|![SofiaSans_800ExtraBold](.//800ExtraBold/SofiaSans_800ExtraBold.ttf.png)|![SofiaSans_900Black](.//900Black/SofiaSans_900Black.ttf.png)||
+|![SofiaSans_100Thin_Italic](.//100Thin_Italic/SofiaSans_100Thin_Italic.ttf.png)|![SofiaSans_200ExtraLight_Italic](.//200ExtraLight_Italic/SofiaSans_200ExtraLight_Italic.ttf.png)|![SofiaSans_300Light_Italic](.//300Light_Italic/SofiaSans_300Light_Italic.ttf.png)||
+|![SofiaSans_400Regular_Italic](.//400Regular_Italic/SofiaSans_400Regular_Italic.ttf.png)|![SofiaSans_500Medium_Italic](.//500Medium_Italic/SofiaSans_500Medium_Italic.ttf.png)|![SofiaSans_600SemiBold_Italic](.//600SemiBold_Italic/SofiaSans_600SemiBold_Italic.ttf.png)||
+|![SofiaSans_700Bold_Italic](.//700Bold_Italic/SofiaSans_700Bold_Italic.ttf.png)|![SofiaSans_800ExtraBold_Italic](.//800ExtraBold_Italic/SofiaSans_800ExtraBold_Italic.ttf.png)|![SofiaSans_900Black_Italic](.//900Black_Italic/SofiaSans_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

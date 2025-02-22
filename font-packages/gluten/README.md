@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Gluten_100Thin](./Gluten_100Thin.ttf.png)|![Gluten_200ExtraLight](./Gluten_200ExtraLight.ttf.png)|![Gluten_300Light](./Gluten_300Light.ttf.png)||
-|![Gluten_400Regular](./Gluten_400Regular.ttf.png)|![Gluten_500Medium](./Gluten_500Medium.ttf.png)|![Gluten_600SemiBold](./Gluten_600SemiBold.ttf.png)||
-|![Gluten_700Bold](./Gluten_700Bold.ttf.png)|![Gluten_800ExtraBold](./Gluten_800ExtraBold.ttf.png)|![Gluten_900Black](./Gluten_900Black.ttf.png)||
+|![Gluten_100Thin](.//100Thin/Gluten_100Thin.ttf.png)|![Gluten_200ExtraLight](.//200ExtraLight/Gluten_200ExtraLight.ttf.png)|![Gluten_300Light](.//300Light/Gluten_300Light.ttf.png)||
+|![Gluten_400Regular](.//400Regular/Gluten_400Regular.ttf.png)|![Gluten_500Medium](.//500Medium/Gluten_500Medium.ttf.png)|![Gluten_600SemiBold](.//600SemiBold/Gluten_600SemiBold.ttf.png)||
+|![Gluten_700Bold](.//700Bold/Gluten_700Bold.ttf.png)|![Gluten_800ExtraBold](.//800ExtraBold/Gluten_800ExtraBold.ttf.png)|![Gluten_900Black](.//900Black/Gluten_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

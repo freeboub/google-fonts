@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AoboshiOne_400Regular](./AoboshiOne_400Regular.ttf.png)||||
+|![AoboshiOne_400Regular](.//400Regular/AoboshiOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

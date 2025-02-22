@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansSiddham_400Regular](./NotoSansSiddham_400Regular.ttf.png)||||
+|![NotoSansSiddham_400Regular](.//400Regular/NotoSansSiddham_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

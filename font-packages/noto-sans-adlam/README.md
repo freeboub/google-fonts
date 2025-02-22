@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansAdlam_400Regular](./NotoSansAdlam_400Regular.ttf.png)|![NotoSansAdlam_500Medium](./NotoSansAdlam_500Medium.ttf.png)|![NotoSansAdlam_600SemiBold](./NotoSansAdlam_600SemiBold.ttf.png)||
-|![NotoSansAdlam_700Bold](./NotoSansAdlam_700Bold.ttf.png)||||
+|![NotoSansAdlam_400Regular](.//400Regular/NotoSansAdlam_400Regular.ttf.png)|![NotoSansAdlam_500Medium](.//500Medium/NotoSansAdlam_500Medium.ttf.png)|![NotoSansAdlam_600SemiBold](.//600SemiBold/NotoSansAdlam_600SemiBold.ttf.png)||
+|![NotoSansAdlam_700Bold](.//700Bold/NotoSansAdlam_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

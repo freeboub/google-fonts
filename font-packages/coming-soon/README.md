@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ComingSoon_400Regular](./ComingSoon_400Regular.ttf.png)||||
+|![ComingSoon_400Regular](.//400Regular/ComingSoon_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

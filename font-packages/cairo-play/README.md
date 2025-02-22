@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![CairoPlay_200ExtraLight](./CairoPlay_200ExtraLight.ttf.png)|![CairoPlay_300Light](./CairoPlay_300Light.ttf.png)|![CairoPlay_400Regular](./CairoPlay_400Regular.ttf.png)||
-|![CairoPlay_500Medium](./CairoPlay_500Medium.ttf.png)|![CairoPlay_600SemiBold](./CairoPlay_600SemiBold.ttf.png)|![CairoPlay_700Bold](./CairoPlay_700Bold.ttf.png)||
-|![CairoPlay_800ExtraBold](./CairoPlay_800ExtraBold.ttf.png)|![CairoPlay_900Black](./CairoPlay_900Black.ttf.png)|||
+|![CairoPlay_200ExtraLight](.//200ExtraLight/CairoPlay_200ExtraLight.ttf.png)|![CairoPlay_300Light](.//300Light/CairoPlay_300Light.ttf.png)|![CairoPlay_400Regular](.//400Regular/CairoPlay_400Regular.ttf.png)||
+|![CairoPlay_500Medium](.//500Medium/CairoPlay_500Medium.ttf.png)|![CairoPlay_600SemiBold](.//600SemiBold/CairoPlay_600SemiBold.ttf.png)|![CairoPlay_700Bold](.//700Bold/CairoPlay_700Bold.ttf.png)||
+|![CairoPlay_800ExtraBold](.//800ExtraBold/CairoPlay_800ExtraBold.ttf.png)|![CairoPlay_900Black](.//900Black/CairoPlay_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Yarndings12_400Regular](./Yarndings12_400Regular.ttf.png)||||
+|![Yarndings12_400Regular](.//400Regular/Yarndings12_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

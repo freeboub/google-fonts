@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Unkempt_400Regular](./Unkempt_400Regular.ttf.png)|![Unkempt_700Bold](./Unkempt_700Bold.ttf.png)|||
+|![Unkempt_400Regular](.//400Regular/Unkempt_400Regular.ttf.png)|![Unkempt_700Bold](.//700Bold/Unkempt_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

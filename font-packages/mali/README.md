@@ -206,10 +206,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Mali_200ExtraLight](./Mali_200ExtraLight.ttf.png)|![Mali_200ExtraLight_Italic](./Mali_200ExtraLight_Italic.ttf.png)|![Mali_300Light](./Mali_300Light.ttf.png)||
-|![Mali_300Light_Italic](./Mali_300Light_Italic.ttf.png)|![Mali_400Regular](./Mali_400Regular.ttf.png)|![Mali_400Regular_Italic](./Mali_400Regular_Italic.ttf.png)||
-|![Mali_500Medium](./Mali_500Medium.ttf.png)|![Mali_500Medium_Italic](./Mali_500Medium_Italic.ttf.png)|![Mali_600SemiBold](./Mali_600SemiBold.ttf.png)||
-|![Mali_600SemiBold_Italic](./Mali_600SemiBold_Italic.ttf.png)|![Mali_700Bold](./Mali_700Bold.ttf.png)|![Mali_700Bold_Italic](./Mali_700Bold_Italic.ttf.png)||
+|![Mali_200ExtraLight](.//200ExtraLight/Mali_200ExtraLight.ttf.png)|![Mali_200ExtraLight_Italic](.//200ExtraLight_Italic/Mali_200ExtraLight_Italic.ttf.png)|![Mali_300Light](.//300Light/Mali_300Light.ttf.png)||
+|![Mali_300Light_Italic](.//300Light_Italic/Mali_300Light_Italic.ttf.png)|![Mali_400Regular](.//400Regular/Mali_400Regular.ttf.png)|![Mali_400Regular_Italic](.//400Regular_Italic/Mali_400Regular_Italic.ttf.png)||
+|![Mali_500Medium](.//500Medium/Mali_500Medium.ttf.png)|![Mali_500Medium_Italic](.//500Medium_Italic/Mali_500Medium_Italic.ttf.png)|![Mali_600SemiBold](.//600SemiBold/Mali_600SemiBold.ttf.png)||
+|![Mali_600SemiBold_Italic](.//600SemiBold_Italic/Mali_600SemiBold_Italic.ttf.png)|![Mali_700Bold](.//700Bold/Mali_700Bold.ttf.png)|![Mali_700Bold_Italic](.//700Bold_Italic/Mali_700Bold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

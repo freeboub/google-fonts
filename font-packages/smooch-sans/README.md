@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SmoochSans_100Thin](./SmoochSans_100Thin.ttf.png)|![SmoochSans_200ExtraLight](./SmoochSans_200ExtraLight.ttf.png)|![SmoochSans_300Light](./SmoochSans_300Light.ttf.png)||
-|![SmoochSans_400Regular](./SmoochSans_400Regular.ttf.png)|![SmoochSans_500Medium](./SmoochSans_500Medium.ttf.png)|![SmoochSans_600SemiBold](./SmoochSans_600SemiBold.ttf.png)||
-|![SmoochSans_700Bold](./SmoochSans_700Bold.ttf.png)|![SmoochSans_800ExtraBold](./SmoochSans_800ExtraBold.ttf.png)|![SmoochSans_900Black](./SmoochSans_900Black.ttf.png)||
+|![SmoochSans_100Thin](.//100Thin/SmoochSans_100Thin.ttf.png)|![SmoochSans_200ExtraLight](.//200ExtraLight/SmoochSans_200ExtraLight.ttf.png)|![SmoochSans_300Light](.//300Light/SmoochSans_300Light.ttf.png)||
+|![SmoochSans_400Regular](.//400Regular/SmoochSans_400Regular.ttf.png)|![SmoochSans_500Medium](.//500Medium/SmoochSans_500Medium.ttf.png)|![SmoochSans_600SemiBold](.//600SemiBold/SmoochSans_600SemiBold.ttf.png)||
+|![SmoochSans_700Bold](.//700Bold/SmoochSans_700Bold.ttf.png)|![SmoochSans_800ExtraBold](.//800ExtraBold/SmoochSans_800ExtraBold.ttf.png)|![SmoochSans_900Black](.//900Black/SmoochSans_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

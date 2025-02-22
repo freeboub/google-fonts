@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Copse_400Regular](./Copse_400Regular.ttf.png)||||
+|![Copse_400Regular](.//400Regular/Copse_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

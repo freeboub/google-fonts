@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![YsabeauSC_100Thin](./YsabeauSC_100Thin.ttf.png)|![YsabeauSC_200ExtraLight](./YsabeauSC_200ExtraLight.ttf.png)|![YsabeauSC_300Light](./YsabeauSC_300Light.ttf.png)||
-|![YsabeauSC_400Regular](./YsabeauSC_400Regular.ttf.png)|![YsabeauSC_500Medium](./YsabeauSC_500Medium.ttf.png)|![YsabeauSC_600SemiBold](./YsabeauSC_600SemiBold.ttf.png)||
-|![YsabeauSC_700Bold](./YsabeauSC_700Bold.ttf.png)|![YsabeauSC_800ExtraBold](./YsabeauSC_800ExtraBold.ttf.png)|![YsabeauSC_900Black](./YsabeauSC_900Black.ttf.png)||
+|![YsabeauSC_100Thin](.//100Thin/YsabeauSC_100Thin.ttf.png)|![YsabeauSC_200ExtraLight](.//200ExtraLight/YsabeauSC_200ExtraLight.ttf.png)|![YsabeauSC_300Light](.//300Light/YsabeauSC_300Light.ttf.png)||
+|![YsabeauSC_400Regular](.//400Regular/YsabeauSC_400Regular.ttf.png)|![YsabeauSC_500Medium](.//500Medium/YsabeauSC_500Medium.ttf.png)|![YsabeauSC_600SemiBold](.//600SemiBold/YsabeauSC_600SemiBold.ttf.png)||
+|![YsabeauSC_700Bold](.//700Bold/YsabeauSC_700Bold.ttf.png)|![YsabeauSC_800ExtraBold](.//800ExtraBold/YsabeauSC_800ExtraBold.ttf.png)|![YsabeauSC_900Black](.//900Black/YsabeauSC_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

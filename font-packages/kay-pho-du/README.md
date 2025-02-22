@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KayPhoDu_400Regular](./KayPhoDu_400Regular.ttf.png)|![KayPhoDu_500Medium](./KayPhoDu_500Medium.ttf.png)|![KayPhoDu_600SemiBold](./KayPhoDu_600SemiBold.ttf.png)||
-|![KayPhoDu_700Bold](./KayPhoDu_700Bold.ttf.png)||||
+|![KayPhoDu_400Regular](.//400Regular/KayPhoDu_400Regular.ttf.png)|![KayPhoDu_500Medium](.//500Medium/KayPhoDu_500Medium.ttf.png)|![KayPhoDu_600SemiBold](.//600SemiBold/KayPhoDu_600SemiBold.ttf.png)||
+|![KayPhoDu_700Bold](.//700Bold/KayPhoDu_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

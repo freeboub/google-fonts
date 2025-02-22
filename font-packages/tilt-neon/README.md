@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![TiltNeon_400Regular](./TiltNeon_400Regular.ttf.png)||||
+|![TiltNeon_400Regular](.//400Regular/TiltNeon_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

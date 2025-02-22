@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BioRhymeExpanded_200ExtraLight](./BioRhymeExpanded_200ExtraLight.ttf.png)|![BioRhymeExpanded_300Light](./BioRhymeExpanded_300Light.ttf.png)|![BioRhymeExpanded_400Regular](./BioRhymeExpanded_400Regular.ttf.png)||
-|![BioRhymeExpanded_700Bold](./BioRhymeExpanded_700Bold.ttf.png)|![BioRhymeExpanded_800ExtraBold](./BioRhymeExpanded_800ExtraBold.ttf.png)|||
+|![BioRhymeExpanded_200ExtraLight](.//200ExtraLight/BioRhymeExpanded_200ExtraLight.ttf.png)|![BioRhymeExpanded_300Light](.//300Light/BioRhymeExpanded_300Light.ttf.png)|![BioRhymeExpanded_400Regular](.//400Regular/BioRhymeExpanded_400Regular.ttf.png)||
+|![BioRhymeExpanded_700Bold](.//700Bold/BioRhymeExpanded_700Bold.ttf.png)|![BioRhymeExpanded_800ExtraBold](.//800ExtraBold/BioRhymeExpanded_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

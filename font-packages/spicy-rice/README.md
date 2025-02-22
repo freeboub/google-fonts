@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SpicyRice_400Regular](./SpicyRice_400Regular.ttf.png)||||
+|![SpicyRice_400Regular](.//400Regular/SpicyRice_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![McLaren_400Regular](./McLaren_400Regular.ttf.png)||||
+|![McLaren_400Regular](.//400Regular/McLaren_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

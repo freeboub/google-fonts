@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AdventPro_100Thin](./AdventPro_100Thin.ttf.png)|![AdventPro_200ExtraLight](./AdventPro_200ExtraLight.ttf.png)|![AdventPro_300Light](./AdventPro_300Light.ttf.png)||
-|![AdventPro_400Regular](./AdventPro_400Regular.ttf.png)|![AdventPro_500Medium](./AdventPro_500Medium.ttf.png)|![AdventPro_600SemiBold](./AdventPro_600SemiBold.ttf.png)||
-|![AdventPro_700Bold](./AdventPro_700Bold.ttf.png)|![AdventPro_800ExtraBold](./AdventPro_800ExtraBold.ttf.png)|![AdventPro_900Black](./AdventPro_900Black.ttf.png)||
-|![AdventPro_100Thin_Italic](./AdventPro_100Thin_Italic.ttf.png)|![AdventPro_200ExtraLight_Italic](./AdventPro_200ExtraLight_Italic.ttf.png)|![AdventPro_300Light_Italic](./AdventPro_300Light_Italic.ttf.png)||
-|![AdventPro_400Regular_Italic](./AdventPro_400Regular_Italic.ttf.png)|![AdventPro_500Medium_Italic](./AdventPro_500Medium_Italic.ttf.png)|![AdventPro_600SemiBold_Italic](./AdventPro_600SemiBold_Italic.ttf.png)||
-|![AdventPro_700Bold_Italic](./AdventPro_700Bold_Italic.ttf.png)|![AdventPro_800ExtraBold_Italic](./AdventPro_800ExtraBold_Italic.ttf.png)|![AdventPro_900Black_Italic](./AdventPro_900Black_Italic.ttf.png)||
+|![AdventPro_100Thin](.//100Thin/AdventPro_100Thin.ttf.png)|![AdventPro_200ExtraLight](.//200ExtraLight/AdventPro_200ExtraLight.ttf.png)|![AdventPro_300Light](.//300Light/AdventPro_300Light.ttf.png)||
+|![AdventPro_400Regular](.//400Regular/AdventPro_400Regular.ttf.png)|![AdventPro_500Medium](.//500Medium/AdventPro_500Medium.ttf.png)|![AdventPro_600SemiBold](.//600SemiBold/AdventPro_600SemiBold.ttf.png)||
+|![AdventPro_700Bold](.//700Bold/AdventPro_700Bold.ttf.png)|![AdventPro_800ExtraBold](.//800ExtraBold/AdventPro_800ExtraBold.ttf.png)|![AdventPro_900Black](.//900Black/AdventPro_900Black.ttf.png)||
+|![AdventPro_100Thin_Italic](.//100Thin_Italic/AdventPro_100Thin_Italic.ttf.png)|![AdventPro_200ExtraLight_Italic](.//200ExtraLight_Italic/AdventPro_200ExtraLight_Italic.ttf.png)|![AdventPro_300Light_Italic](.//300Light_Italic/AdventPro_300Light_Italic.ttf.png)||
+|![AdventPro_400Regular_Italic](.//400Regular_Italic/AdventPro_400Regular_Italic.ttf.png)|![AdventPro_500Medium_Italic](.//500Medium_Italic/AdventPro_500Medium_Italic.ttf.png)|![AdventPro_600SemiBold_Italic](.//600SemiBold_Italic/AdventPro_600SemiBold_Italic.ttf.png)||
+|![AdventPro_700Bold_Italic](.//700Bold_Italic/AdventPro_700Bold_Italic.ttf.png)|![AdventPro_800ExtraBold_Italic](.//800ExtraBold_Italic/AdventPro_800ExtraBold_Italic.ttf.png)|![AdventPro_900Black_Italic](.//900Black_Italic/AdventPro_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

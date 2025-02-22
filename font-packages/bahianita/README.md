@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Bahianita_400Regular](./Bahianita_400Regular.ttf.png)||||
+|![Bahianita_400Regular](.//400Regular/Bahianita_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

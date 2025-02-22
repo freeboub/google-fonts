@@ -89,7 +89,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Trochut_400Regular](./Trochut_400Regular.ttf.png)|![Trochut_400Regular_Italic](./Trochut_400Regular_Italic.ttf.png)|![Trochut_700Bold](./Trochut_700Bold.ttf.png)||
+|![Trochut_400Regular](.//400Regular/Trochut_400Regular.ttf.png)|![Trochut_400Regular_Italic](.//400Regular_Italic/Trochut_400Regular_Italic.ttf.png)|![Trochut_700Bold](.//700Bold/Trochut_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

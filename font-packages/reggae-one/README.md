@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ReggaeOne_400Regular](./ReggaeOne_400Regular.ttf.png)||||
+|![ReggaeOne_400Regular](.//400Regular/ReggaeOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

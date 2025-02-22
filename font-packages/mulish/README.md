@@ -258,12 +258,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Mulish_200ExtraLight](./Mulish_200ExtraLight.ttf.png)|![Mulish_300Light](./Mulish_300Light.ttf.png)|![Mulish_400Regular](./Mulish_400Regular.ttf.png)||
-|![Mulish_500Medium](./Mulish_500Medium.ttf.png)|![Mulish_600SemiBold](./Mulish_600SemiBold.ttf.png)|![Mulish_700Bold](./Mulish_700Bold.ttf.png)||
-|![Mulish_800ExtraBold](./Mulish_800ExtraBold.ttf.png)|![Mulish_900Black](./Mulish_900Black.ttf.png)|![Mulish_200ExtraLight_Italic](./Mulish_200ExtraLight_Italic.ttf.png)||
-|![Mulish_300Light_Italic](./Mulish_300Light_Italic.ttf.png)|![Mulish_400Regular_Italic](./Mulish_400Regular_Italic.ttf.png)|![Mulish_500Medium_Italic](./Mulish_500Medium_Italic.ttf.png)||
-|![Mulish_600SemiBold_Italic](./Mulish_600SemiBold_Italic.ttf.png)|![Mulish_700Bold_Italic](./Mulish_700Bold_Italic.ttf.png)|![Mulish_800ExtraBold_Italic](./Mulish_800ExtraBold_Italic.ttf.png)||
-|![Mulish_900Black_Italic](./Mulish_900Black_Italic.ttf.png)||||
+|![Mulish_200ExtraLight](.//200ExtraLight/Mulish_200ExtraLight.ttf.png)|![Mulish_300Light](.//300Light/Mulish_300Light.ttf.png)|![Mulish_400Regular](.//400Regular/Mulish_400Regular.ttf.png)||
+|![Mulish_500Medium](.//500Medium/Mulish_500Medium.ttf.png)|![Mulish_600SemiBold](.//600SemiBold/Mulish_600SemiBold.ttf.png)|![Mulish_700Bold](.//700Bold/Mulish_700Bold.ttf.png)||
+|![Mulish_800ExtraBold](.//800ExtraBold/Mulish_800ExtraBold.ttf.png)|![Mulish_900Black](.//900Black/Mulish_900Black.ttf.png)|![Mulish_200ExtraLight_Italic](.//200ExtraLight_Italic/Mulish_200ExtraLight_Italic.ttf.png)||
+|![Mulish_300Light_Italic](.//300Light_Italic/Mulish_300Light_Italic.ttf.png)|![Mulish_400Regular_Italic](.//400Regular_Italic/Mulish_400Regular_Italic.ttf.png)|![Mulish_500Medium_Italic](.//500Medium_Italic/Mulish_500Medium_Italic.ttf.png)||
+|![Mulish_600SemiBold_Italic](.//600SemiBold_Italic/Mulish_600SemiBold_Italic.ttf.png)|![Mulish_700Bold_Italic](.//700Bold_Italic/Mulish_700Bold_Italic.ttf.png)|![Mulish_800ExtraBold_Italic](.//800ExtraBold_Italic/Mulish_800ExtraBold_Italic.ttf.png)||
+|![Mulish_900Black_Italic](.//900Black_Italic/Mulish_900Black_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

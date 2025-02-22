@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Inika_400Regular](./Inika_400Regular.ttf.png)|![Inika_700Bold](./Inika_700Bold.ttf.png)|||
+|![Inika_400Regular](.//400Regular/Inika_400Regular.ttf.png)|![Inika_700Bold](.//700Bold/Inika_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

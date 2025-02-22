@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Macondo_400Regular](./Macondo_400Regular.ttf.png)||||
+|![Macondo_400Regular](.//400Regular/Macondo_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Wavefont_100Thin](./Wavefont_100Thin.ttf.png)|![Wavefont_200ExtraLight](./Wavefont_200ExtraLight.ttf.png)|![Wavefont_300Light](./Wavefont_300Light.ttf.png)||
-|![Wavefont_400Regular](./Wavefont_400Regular.ttf.png)|![Wavefont_500Medium](./Wavefont_500Medium.ttf.png)|![Wavefont_600SemiBold](./Wavefont_600SemiBold.ttf.png)||
-|![Wavefont_700Bold](./Wavefont_700Bold.ttf.png)|![Wavefont_800ExtraBold](./Wavefont_800ExtraBold.ttf.png)|![Wavefont_900Black](./Wavefont_900Black.ttf.png)||
+|![Wavefont_100Thin](.//100Thin/Wavefont_100Thin.ttf.png)|![Wavefont_200ExtraLight](.//200ExtraLight/Wavefont_200ExtraLight.ttf.png)|![Wavefont_300Light](.//300Light/Wavefont_300Light.ttf.png)||
+|![Wavefont_400Regular](.//400Regular/Wavefont_400Regular.ttf.png)|![Wavefont_500Medium](.//500Medium/Wavefont_500Medium.ttf.png)|![Wavefont_600SemiBold](.//600SemiBold/Wavefont_600SemiBold.ttf.png)||
+|![Wavefont_700Bold](.//700Bold/Wavefont_700Bold.ttf.png)|![Wavefont_800ExtraBold](.//800ExtraBold/Wavefont_800ExtraBold.ttf.png)|![Wavefont_900Black](.//900Black/Wavefont_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

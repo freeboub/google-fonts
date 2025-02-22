@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SquarePeg_400Regular](./SquarePeg_400Regular.ttf.png)||||
+|![SquarePeg_400Regular](.//400Regular/SquarePeg_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

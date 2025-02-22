@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![YsabeauInfant_100Thin](./YsabeauInfant_100Thin.ttf.png)|![YsabeauInfant_200ExtraLight](./YsabeauInfant_200ExtraLight.ttf.png)|![YsabeauInfant_300Light](./YsabeauInfant_300Light.ttf.png)||
-|![YsabeauInfant_400Regular](./YsabeauInfant_400Regular.ttf.png)|![YsabeauInfant_500Medium](./YsabeauInfant_500Medium.ttf.png)|![YsabeauInfant_600SemiBold](./YsabeauInfant_600SemiBold.ttf.png)||
-|![YsabeauInfant_700Bold](./YsabeauInfant_700Bold.ttf.png)|![YsabeauInfant_800ExtraBold](./YsabeauInfant_800ExtraBold.ttf.png)|![YsabeauInfant_900Black](./YsabeauInfant_900Black.ttf.png)||
-|![YsabeauInfant_100Thin_Italic](./YsabeauInfant_100Thin_Italic.ttf.png)|![YsabeauInfant_200ExtraLight_Italic](./YsabeauInfant_200ExtraLight_Italic.ttf.png)|![YsabeauInfant_300Light_Italic](./YsabeauInfant_300Light_Italic.ttf.png)||
-|![YsabeauInfant_400Regular_Italic](./YsabeauInfant_400Regular_Italic.ttf.png)|![YsabeauInfant_500Medium_Italic](./YsabeauInfant_500Medium_Italic.ttf.png)|![YsabeauInfant_600SemiBold_Italic](./YsabeauInfant_600SemiBold_Italic.ttf.png)||
-|![YsabeauInfant_700Bold_Italic](./YsabeauInfant_700Bold_Italic.ttf.png)|![YsabeauInfant_800ExtraBold_Italic](./YsabeauInfant_800ExtraBold_Italic.ttf.png)|![YsabeauInfant_900Black_Italic](./YsabeauInfant_900Black_Italic.ttf.png)||
+|![YsabeauInfant_100Thin](.//100Thin/YsabeauInfant_100Thin.ttf.png)|![YsabeauInfant_200ExtraLight](.//200ExtraLight/YsabeauInfant_200ExtraLight.ttf.png)|![YsabeauInfant_300Light](.//300Light/YsabeauInfant_300Light.ttf.png)||
+|![YsabeauInfant_400Regular](.//400Regular/YsabeauInfant_400Regular.ttf.png)|![YsabeauInfant_500Medium](.//500Medium/YsabeauInfant_500Medium.ttf.png)|![YsabeauInfant_600SemiBold](.//600SemiBold/YsabeauInfant_600SemiBold.ttf.png)||
+|![YsabeauInfant_700Bold](.//700Bold/YsabeauInfant_700Bold.ttf.png)|![YsabeauInfant_800ExtraBold](.//800ExtraBold/YsabeauInfant_800ExtraBold.ttf.png)|![YsabeauInfant_900Black](.//900Black/YsabeauInfant_900Black.ttf.png)||
+|![YsabeauInfant_100Thin_Italic](.//100Thin_Italic/YsabeauInfant_100Thin_Italic.ttf.png)|![YsabeauInfant_200ExtraLight_Italic](.//200ExtraLight_Italic/YsabeauInfant_200ExtraLight_Italic.ttf.png)|![YsabeauInfant_300Light_Italic](.//300Light_Italic/YsabeauInfant_300Light_Italic.ttf.png)||
+|![YsabeauInfant_400Regular_Italic](.//400Regular_Italic/YsabeauInfant_400Regular_Italic.ttf.png)|![YsabeauInfant_500Medium_Italic](.//500Medium_Italic/YsabeauInfant_500Medium_Italic.ttf.png)|![YsabeauInfant_600SemiBold_Italic](.//600SemiBold_Italic/YsabeauInfant_600SemiBold_Italic.ttf.png)||
+|![YsabeauInfant_700Bold_Italic](.//700Bold_Italic/YsabeauInfant_700Bold_Italic.ttf.png)|![YsabeauInfant_800ExtraBold_Italic](.//800ExtraBold_Italic/YsabeauInfant_800ExtraBold_Italic.ttf.png)|![YsabeauInfant_900Black_Italic](.//900Black_Italic/YsabeauInfant_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

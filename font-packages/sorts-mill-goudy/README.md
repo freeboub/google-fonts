@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SortsMillGoudy_400Regular](./SortsMillGoudy_400Regular.ttf.png)|![SortsMillGoudy_400Regular_Italic](./SortsMillGoudy_400Regular_Italic.ttf.png)|||
+|![SortsMillGoudy_400Regular](.//400Regular/SortsMillGoudy_400Regular.ttf.png)|![SortsMillGoudy_400Regular_Italic](.//400Regular_Italic/SortsMillGoudy_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

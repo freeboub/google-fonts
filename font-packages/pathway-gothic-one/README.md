@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PathwayGothicOne_400Regular](./PathwayGothicOne_400Regular.ttf.png)||||
+|![PathwayGothicOne_400Regular](.//400Regular/PathwayGothicOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

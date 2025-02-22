@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Monofett_400Regular](./Monofett_400Regular.ttf.png)||||
+|![Monofett_400Regular](.//400Regular/Monofett_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

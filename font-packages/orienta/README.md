@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Orienta_400Regular](./Orienta_400Regular.ttf.png)||||
+|![Orienta_400Regular](.//400Regular/Orienta_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![FreckleFace_400Regular](./FreckleFace_400Regular.ttf.png)||||
+|![FreckleFace_400Regular](.//400Regular/FreckleFace_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

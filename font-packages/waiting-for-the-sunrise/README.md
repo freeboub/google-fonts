@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![WaitingfortheSunrise_400Regular](./WaitingfortheSunrise_400Regular.ttf.png)||||
+|![WaitingfortheSunrise_400Regular](.//400Regular/WaitingfortheSunrise_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

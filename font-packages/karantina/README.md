@@ -89,7 +89,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Karantina_300Light](./Karantina_300Light.ttf.png)|![Karantina_400Regular](./Karantina_400Regular.ttf.png)|![Karantina_700Bold](./Karantina_700Bold.ttf.png)||
+|![Karantina_300Light](.//300Light/Karantina_300Light.ttf.png)|![Karantina_400Regular](.//400Regular/Karantina_400Regular.ttf.png)|![Karantina_700Bold](.//700Bold/Karantina_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

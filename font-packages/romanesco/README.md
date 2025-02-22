@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Romanesco_400Regular](./Romanesco_400Regular.ttf.png)||||
+|![Romanesco_400Regular](.//400Regular/Romanesco_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -258,12 +258,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![HubotSans_200ExtraLight](./HubotSans_200ExtraLight.ttf.png)|![HubotSans_300Light](./HubotSans_300Light.ttf.png)|![HubotSans_400Regular](./HubotSans_400Regular.ttf.png)||
-|![HubotSans_500Medium](./HubotSans_500Medium.ttf.png)|![HubotSans_600SemiBold](./HubotSans_600SemiBold.ttf.png)|![HubotSans_700Bold](./HubotSans_700Bold.ttf.png)||
-|![HubotSans_800ExtraBold](./HubotSans_800ExtraBold.ttf.png)|![HubotSans_900Black](./HubotSans_900Black.ttf.png)|![HubotSans_200ExtraLight_Italic](./HubotSans_200ExtraLight_Italic.ttf.png)||
-|![HubotSans_300Light_Italic](./HubotSans_300Light_Italic.ttf.png)|![HubotSans_400Regular_Italic](./HubotSans_400Regular_Italic.ttf.png)|![HubotSans_500Medium_Italic](./HubotSans_500Medium_Italic.ttf.png)||
-|![HubotSans_600SemiBold_Italic](./HubotSans_600SemiBold_Italic.ttf.png)|![HubotSans_700Bold_Italic](./HubotSans_700Bold_Italic.ttf.png)|![HubotSans_800ExtraBold_Italic](./HubotSans_800ExtraBold_Italic.ttf.png)||
-|![HubotSans_900Black_Italic](./HubotSans_900Black_Italic.ttf.png)||||
+|![HubotSans_200ExtraLight](.//200ExtraLight/HubotSans_200ExtraLight.ttf.png)|![HubotSans_300Light](.//300Light/HubotSans_300Light.ttf.png)|![HubotSans_400Regular](.//400Regular/HubotSans_400Regular.ttf.png)||
+|![HubotSans_500Medium](.//500Medium/HubotSans_500Medium.ttf.png)|![HubotSans_600SemiBold](.//600SemiBold/HubotSans_600SemiBold.ttf.png)|![HubotSans_700Bold](.//700Bold/HubotSans_700Bold.ttf.png)||
+|![HubotSans_800ExtraBold](.//800ExtraBold/HubotSans_800ExtraBold.ttf.png)|![HubotSans_900Black](.//900Black/HubotSans_900Black.ttf.png)|![HubotSans_200ExtraLight_Italic](.//200ExtraLight_Italic/HubotSans_200ExtraLight_Italic.ttf.png)||
+|![HubotSans_300Light_Italic](.//300Light_Italic/HubotSans_300Light_Italic.ttf.png)|![HubotSans_400Regular_Italic](.//400Regular_Italic/HubotSans_400Regular_Italic.ttf.png)|![HubotSans_500Medium_Italic](.//500Medium_Italic/HubotSans_500Medium_Italic.ttf.png)||
+|![HubotSans_600SemiBold_Italic](.//600SemiBold_Italic/HubotSans_600SemiBold_Italic.ttf.png)|![HubotSans_700Bold_Italic](.//700Bold_Italic/HubotSans_700Bold_Italic.ttf.png)|![HubotSans_800ExtraBold_Italic](.//800ExtraBold_Italic/HubotSans_800ExtraBold_Italic.ttf.png)||
+|![HubotSans_900Black_Italic](.//900Black_Italic/HubotSans_900Black_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

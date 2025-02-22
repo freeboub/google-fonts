@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![EricaOne_400Regular](./EricaOne_400Regular.ttf.png)||||
+|![EricaOne_400Regular](.//400Regular/EricaOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

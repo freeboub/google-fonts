@@ -258,12 +258,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Literata_200ExtraLight](./Literata_200ExtraLight.ttf.png)|![Literata_300Light](./Literata_300Light.ttf.png)|![Literata_400Regular](./Literata_400Regular.ttf.png)||
-|![Literata_500Medium](./Literata_500Medium.ttf.png)|![Literata_600SemiBold](./Literata_600SemiBold.ttf.png)|![Literata_700Bold](./Literata_700Bold.ttf.png)||
-|![Literata_800ExtraBold](./Literata_800ExtraBold.ttf.png)|![Literata_900Black](./Literata_900Black.ttf.png)|![Literata_200ExtraLight_Italic](./Literata_200ExtraLight_Italic.ttf.png)||
-|![Literata_300Light_Italic](./Literata_300Light_Italic.ttf.png)|![Literata_400Regular_Italic](./Literata_400Regular_Italic.ttf.png)|![Literata_500Medium_Italic](./Literata_500Medium_Italic.ttf.png)||
-|![Literata_600SemiBold_Italic](./Literata_600SemiBold_Italic.ttf.png)|![Literata_700Bold_Italic](./Literata_700Bold_Italic.ttf.png)|![Literata_800ExtraBold_Italic](./Literata_800ExtraBold_Italic.ttf.png)||
-|![Literata_900Black_Italic](./Literata_900Black_Italic.ttf.png)||||
+|![Literata_200ExtraLight](.//200ExtraLight/Literata_200ExtraLight.ttf.png)|![Literata_300Light](.//300Light/Literata_300Light.ttf.png)|![Literata_400Regular](.//400Regular/Literata_400Regular.ttf.png)||
+|![Literata_500Medium](.//500Medium/Literata_500Medium.ttf.png)|![Literata_600SemiBold](.//600SemiBold/Literata_600SemiBold.ttf.png)|![Literata_700Bold](.//700Bold/Literata_700Bold.ttf.png)||
+|![Literata_800ExtraBold](.//800ExtraBold/Literata_800ExtraBold.ttf.png)|![Literata_900Black](.//900Black/Literata_900Black.ttf.png)|![Literata_200ExtraLight_Italic](.//200ExtraLight_Italic/Literata_200ExtraLight_Italic.ttf.png)||
+|![Literata_300Light_Italic](.//300Light_Italic/Literata_300Light_Italic.ttf.png)|![Literata_400Regular_Italic](.//400Regular_Italic/Literata_400Regular_Italic.ttf.png)|![Literata_500Medium_Italic](.//500Medium_Italic/Literata_500Medium_Italic.ttf.png)||
+|![Literata_600SemiBold_Italic](.//600SemiBold_Italic/Literata_600SemiBold_Italic.ttf.png)|![Literata_700Bold_Italic](.//700Bold_Italic/Literata_700Bold_Italic.ttf.png)|![Literata_800ExtraBold_Italic](.//800ExtraBold_Italic/Literata_800ExtraBold_Italic.ttf.png)||
+|![Literata_900Black_Italic](.//900Black_Italic/Literata_900Black_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

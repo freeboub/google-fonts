@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LeagueScript_400Regular](./LeagueScript_400Regular.ttf.png)||||
+|![LeagueScript_400Regular](.//400Regular/LeagueScript_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

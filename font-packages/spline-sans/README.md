@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SplineSans_300Light](./SplineSans_300Light.ttf.png)|![SplineSans_400Regular](./SplineSans_400Regular.ttf.png)|![SplineSans_500Medium](./SplineSans_500Medium.ttf.png)||
-|![SplineSans_600SemiBold](./SplineSans_600SemiBold.ttf.png)|![SplineSans_700Bold](./SplineSans_700Bold.ttf.png)|||
+|![SplineSans_300Light](.//300Light/SplineSans_300Light.ttf.png)|![SplineSans_400Regular](.//400Regular/SplineSans_400Regular.ttf.png)|![SplineSans_500Medium](.//500Medium/SplineSans_500Medium.ttf.png)||
+|![SplineSans_600SemiBold](.//600SemiBold/SplineSans_600SemiBold.ttf.png)|![SplineSans_700Bold](.//700Bold/SplineSans_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

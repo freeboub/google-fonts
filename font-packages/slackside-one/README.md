@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SlacksideOne_400Regular](./SlacksideOne_400Regular.ttf.png)||||
+|![SlacksideOne_400Regular](.//400Regular/SlacksideOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

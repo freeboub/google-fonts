@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Truculenta_100Thin](./Truculenta_100Thin.ttf.png)|![Truculenta_200ExtraLight](./Truculenta_200ExtraLight.ttf.png)|![Truculenta_300Light](./Truculenta_300Light.ttf.png)||
-|![Truculenta_400Regular](./Truculenta_400Regular.ttf.png)|![Truculenta_500Medium](./Truculenta_500Medium.ttf.png)|![Truculenta_600SemiBold](./Truculenta_600SemiBold.ttf.png)||
-|![Truculenta_700Bold](./Truculenta_700Bold.ttf.png)|![Truculenta_800ExtraBold](./Truculenta_800ExtraBold.ttf.png)|![Truculenta_900Black](./Truculenta_900Black.ttf.png)||
+|![Truculenta_100Thin](.//100Thin/Truculenta_100Thin.ttf.png)|![Truculenta_200ExtraLight](.//200ExtraLight/Truculenta_200ExtraLight.ttf.png)|![Truculenta_300Light](.//300Light/Truculenta_300Light.ttf.png)||
+|![Truculenta_400Regular](.//400Regular/Truculenta_400Regular.ttf.png)|![Truculenta_500Medium](.//500Medium/Truculenta_500Medium.ttf.png)|![Truculenta_600SemiBold](.//600SemiBold/Truculenta_600SemiBold.ttf.png)||
+|![Truculenta_700Bold](.//700Bold/Truculenta_700Bold.ttf.png)|![Truculenta_800ExtraBold](.//800ExtraBold/Truculenta_800ExtraBold.ttf.png)|![Truculenta_900Black](.//900Black/Truculenta_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

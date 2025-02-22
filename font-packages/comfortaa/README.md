@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Comfortaa_300Light](./Comfortaa_300Light.ttf.png)|![Comfortaa_400Regular](./Comfortaa_400Regular.ttf.png)|![Comfortaa_500Medium](./Comfortaa_500Medium.ttf.png)||
-|![Comfortaa_600SemiBold](./Comfortaa_600SemiBold.ttf.png)|![Comfortaa_700Bold](./Comfortaa_700Bold.ttf.png)|||
+|![Comfortaa_300Light](.//300Light/Comfortaa_300Light.ttf.png)|![Comfortaa_400Regular](.//400Regular/Comfortaa_400Regular.ttf.png)|![Comfortaa_500Medium](.//500Medium/Comfortaa_500Medium.ttf.png)||
+|![Comfortaa_600SemiBold](.//600SemiBold/Comfortaa_600SemiBold.ttf.png)|![Comfortaa_700Bold](.//700Bold/Comfortaa_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

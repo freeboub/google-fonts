@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Tomorrow_100Thin](./Tomorrow_100Thin.ttf.png)|![Tomorrow_100Thin_Italic](./Tomorrow_100Thin_Italic.ttf.png)|![Tomorrow_200ExtraLight](./Tomorrow_200ExtraLight.ttf.png)||
-|![Tomorrow_200ExtraLight_Italic](./Tomorrow_200ExtraLight_Italic.ttf.png)|![Tomorrow_300Light](./Tomorrow_300Light.ttf.png)|![Tomorrow_300Light_Italic](./Tomorrow_300Light_Italic.ttf.png)||
-|![Tomorrow_400Regular](./Tomorrow_400Regular.ttf.png)|![Tomorrow_400Regular_Italic](./Tomorrow_400Regular_Italic.ttf.png)|![Tomorrow_500Medium](./Tomorrow_500Medium.ttf.png)||
-|![Tomorrow_500Medium_Italic](./Tomorrow_500Medium_Italic.ttf.png)|![Tomorrow_600SemiBold](./Tomorrow_600SemiBold.ttf.png)|![Tomorrow_600SemiBold_Italic](./Tomorrow_600SemiBold_Italic.ttf.png)||
-|![Tomorrow_700Bold](./Tomorrow_700Bold.ttf.png)|![Tomorrow_700Bold_Italic](./Tomorrow_700Bold_Italic.ttf.png)|![Tomorrow_800ExtraBold](./Tomorrow_800ExtraBold.ttf.png)||
-|![Tomorrow_800ExtraBold_Italic](./Tomorrow_800ExtraBold_Italic.ttf.png)|![Tomorrow_900Black](./Tomorrow_900Black.ttf.png)|![Tomorrow_900Black_Italic](./Tomorrow_900Black_Italic.ttf.png)||
+|![Tomorrow_100Thin](.//100Thin/Tomorrow_100Thin.ttf.png)|![Tomorrow_100Thin_Italic](.//100Thin_Italic/Tomorrow_100Thin_Italic.ttf.png)|![Tomorrow_200ExtraLight](.//200ExtraLight/Tomorrow_200ExtraLight.ttf.png)||
+|![Tomorrow_200ExtraLight_Italic](.//200ExtraLight_Italic/Tomorrow_200ExtraLight_Italic.ttf.png)|![Tomorrow_300Light](.//300Light/Tomorrow_300Light.ttf.png)|![Tomorrow_300Light_Italic](.//300Light_Italic/Tomorrow_300Light_Italic.ttf.png)||
+|![Tomorrow_400Regular](.//400Regular/Tomorrow_400Regular.ttf.png)|![Tomorrow_400Regular_Italic](.//400Regular_Italic/Tomorrow_400Regular_Italic.ttf.png)|![Tomorrow_500Medium](.//500Medium/Tomorrow_500Medium.ttf.png)||
+|![Tomorrow_500Medium_Italic](.//500Medium_Italic/Tomorrow_500Medium_Italic.ttf.png)|![Tomorrow_600SemiBold](.//600SemiBold/Tomorrow_600SemiBold.ttf.png)|![Tomorrow_600SemiBold_Italic](.//600SemiBold_Italic/Tomorrow_600SemiBold_Italic.ttf.png)||
+|![Tomorrow_700Bold](.//700Bold/Tomorrow_700Bold.ttf.png)|![Tomorrow_700Bold_Italic](.//700Bold_Italic/Tomorrow_700Bold_Italic.ttf.png)|![Tomorrow_800ExtraBold](.//800ExtraBold/Tomorrow_800ExtraBold.ttf.png)||
+|![Tomorrow_800ExtraBold_Italic](.//800ExtraBold_Italic/Tomorrow_800ExtraBold_Italic.ttf.png)|![Tomorrow_900Black](.//900Black/Tomorrow_900Black.ttf.png)|![Tomorrow_900Black_Italic](.//900Black_Italic/Tomorrow_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

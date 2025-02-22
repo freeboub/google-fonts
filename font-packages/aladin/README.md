@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Aladin_400Regular](./Aladin_400Regular.ttf.png)||||
+|![Aladin_400Regular](.//400Regular/Aladin_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

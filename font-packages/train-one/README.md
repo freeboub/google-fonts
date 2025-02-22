@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![TrainOne_400Regular](./TrainOne_400Regular.ttf.png)||||
+|![TrainOne_400Regular](.//400Regular/TrainOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

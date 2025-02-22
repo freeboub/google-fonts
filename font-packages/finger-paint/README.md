@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![FingerPaint_400Regular](./FingerPaint_400Regular.ttf.png)||||
+|![FingerPaint_400Regular](.//400Regular/FingerPaint_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

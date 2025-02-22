@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MarkoOne_400Regular](./MarkoOne_400Regular.ttf.png)||||
+|![MarkoOne_400Regular](.//400Regular/MarkoOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

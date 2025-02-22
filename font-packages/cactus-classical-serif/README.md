@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![CactusClassicalSerif_400Regular](./CactusClassicalSerif_400Regular.ttf.png)||||
+|![CactusClassicalSerif_400Regular](.//400Regular/CactusClassicalSerif_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

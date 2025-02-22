@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![TextMeOne_400Regular](./TextMeOne_400Regular.ttf.png)||||
+|![TextMeOne_400Regular](.//400Regular/TextMeOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

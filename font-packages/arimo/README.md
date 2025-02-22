@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Arimo_400Regular](./Arimo_400Regular.ttf.png)|![Arimo_500Medium](./Arimo_500Medium.ttf.png)|![Arimo_600SemiBold](./Arimo_600SemiBold.ttf.png)||
-|![Arimo_700Bold](./Arimo_700Bold.ttf.png)|![Arimo_400Regular_Italic](./Arimo_400Regular_Italic.ttf.png)|![Arimo_500Medium_Italic](./Arimo_500Medium_Italic.ttf.png)||
-|![Arimo_600SemiBold_Italic](./Arimo_600SemiBold_Italic.ttf.png)|![Arimo_700Bold_Italic](./Arimo_700Bold_Italic.ttf.png)|||
+|![Arimo_400Regular](.//400Regular/Arimo_400Regular.ttf.png)|![Arimo_500Medium](.//500Medium/Arimo_500Medium.ttf.png)|![Arimo_600SemiBold](.//600SemiBold/Arimo_600SemiBold.ttf.png)||
+|![Arimo_700Bold](.//700Bold/Arimo_700Bold.ttf.png)|![Arimo_400Regular_Italic](.//400Regular_Italic/Arimo_400Regular_Italic.ttf.png)|![Arimo_500Medium_Italic](.//500Medium_Italic/Arimo_500Medium_Italic.ttf.png)||
+|![Arimo_600SemiBold_Italic](.//600SemiBold_Italic/Arimo_600SemiBold_Italic.ttf.png)|![Arimo_700Bold_Italic](.//700Bold_Italic/Arimo_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

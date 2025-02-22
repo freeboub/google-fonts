@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Narnoor_400Regular](./Narnoor_400Regular.ttf.png)|![Narnoor_500Medium](./Narnoor_500Medium.ttf.png)|![Narnoor_600SemiBold](./Narnoor_600SemiBold.ttf.png)||
-|![Narnoor_700Bold](./Narnoor_700Bold.ttf.png)|![Narnoor_800ExtraBold](./Narnoor_800ExtraBold.ttf.png)|||
+|![Narnoor_400Regular](.//400Regular/Narnoor_400Regular.ttf.png)|![Narnoor_500Medium](.//500Medium/Narnoor_500Medium.ttf.png)|![Narnoor_600SemiBold](.//600SemiBold/Narnoor_600SemiBold.ttf.png)||
+|![Narnoor_700Bold](.//700Bold/Narnoor_700Bold.ttf.png)|![Narnoor_800ExtraBold](.//800ExtraBold/Narnoor_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

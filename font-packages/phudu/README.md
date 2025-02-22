@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Phudu_300Light](./Phudu_300Light.ttf.png)|![Phudu_400Regular](./Phudu_400Regular.ttf.png)|![Phudu_500Medium](./Phudu_500Medium.ttf.png)||
-|![Phudu_600SemiBold](./Phudu_600SemiBold.ttf.png)|![Phudu_700Bold](./Phudu_700Bold.ttf.png)|![Phudu_800ExtraBold](./Phudu_800ExtraBold.ttf.png)||
-|![Phudu_900Black](./Phudu_900Black.ttf.png)||||
+|![Phudu_300Light](.//300Light/Phudu_300Light.ttf.png)|![Phudu_400Regular](.//400Regular/Phudu_400Regular.ttf.png)|![Phudu_500Medium](.//500Medium/Phudu_500Medium.ttf.png)||
+|![Phudu_600SemiBold](.//600SemiBold/Phudu_600SemiBold.ttf.png)|![Phudu_700Bold](.//700Bold/Phudu_700Bold.ttf.png)|![Phudu_800ExtraBold](.//800ExtraBold/Phudu_800ExtraBold.ttf.png)||
+|![Phudu_900Black](.//900Black/Phudu_900Black.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Lusitana_400Regular](./Lusitana_400Regular.ttf.png)|![Lusitana_700Bold](./Lusitana_700Bold.ttf.png)|||
+|![Lusitana_400Regular](.//400Regular/Lusitana_400Regular.ttf.png)|![Lusitana_700Bold](.//700Bold/Lusitana_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

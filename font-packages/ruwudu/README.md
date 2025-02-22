@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Ruwudu_400Regular](./Ruwudu_400Regular.ttf.png)|![Ruwudu_500Medium](./Ruwudu_500Medium.ttf.png)|![Ruwudu_600SemiBold](./Ruwudu_600SemiBold.ttf.png)||
-|![Ruwudu_700Bold](./Ruwudu_700Bold.ttf.png)||||
+|![Ruwudu_400Regular](.//400Regular/Ruwudu_400Regular.ttf.png)|![Ruwudu_500Medium](.//500Medium/Ruwudu_500Medium.ttf.png)|![Ruwudu_600SemiBold](.//600SemiBold/Ruwudu_600SemiBold.ttf.png)||
+|![Ruwudu_700Bold](.//700Bold/Ruwudu_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

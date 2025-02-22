@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KdamThmorPro_400Regular](./KdamThmorPro_400Regular.ttf.png)||||
+|![KdamThmorPro_400Regular](.//400Regular/KdamThmorPro_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

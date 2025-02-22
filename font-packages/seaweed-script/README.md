@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SeaweedScript_400Regular](./SeaweedScript_400Regular.ttf.png)||||
+|![SeaweedScript_400Regular](.//400Regular/SeaweedScript_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

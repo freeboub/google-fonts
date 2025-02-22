@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SUSE_100Thin](./SUSE_100Thin.ttf.png)|![SUSE_200ExtraLight](./SUSE_200ExtraLight.ttf.png)|![SUSE_300Light](./SUSE_300Light.ttf.png)||
-|![SUSE_400Regular](./SUSE_400Regular.ttf.png)|![SUSE_500Medium](./SUSE_500Medium.ttf.png)|![SUSE_600SemiBold](./SUSE_600SemiBold.ttf.png)||
-|![SUSE_700Bold](./SUSE_700Bold.ttf.png)|![SUSE_800ExtraBold](./SUSE_800ExtraBold.ttf.png)|||
+|![SUSE_100Thin](.//100Thin/SUSE_100Thin.ttf.png)|![SUSE_200ExtraLight](.//200ExtraLight/SUSE_200ExtraLight.ttf.png)|![SUSE_300Light](.//300Light/SUSE_300Light.ttf.png)||
+|![SUSE_400Regular](.//400Regular/SUSE_400Regular.ttf.png)|![SUSE_500Medium](.//500Medium/SUSE_500Medium.ttf.png)|![SUSE_600SemiBold](.//600SemiBold/SUSE_600SemiBold.ttf.png)||
+|![SUSE_700Bold](.//700Bold/SUSE_700Bold.ttf.png)|![SUSE_800ExtraBold](.//800ExtraBold/SUSE_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

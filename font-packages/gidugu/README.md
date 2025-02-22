@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Gidugu_400Regular](./Gidugu_400Regular.ttf.png)||||
+|![Gidugu_400Regular](.//400Regular/Gidugu_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

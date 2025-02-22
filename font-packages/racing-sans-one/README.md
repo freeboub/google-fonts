@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RacingSansOne_400Regular](./RacingSansOne_400Regular.ttf.png)||||
+|![RacingSansOne_400Regular](.//400Regular/RacingSansOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

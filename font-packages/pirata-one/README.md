@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PirataOne_400Regular](./PirataOne_400Regular.ttf.png)||||
+|![PirataOne_400Regular](.//400Regular/PirataOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

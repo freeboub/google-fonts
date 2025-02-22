@@ -232,11 +232,11 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RobotoMono_100Thin](./RobotoMono_100Thin.ttf.png)|![RobotoMono_200ExtraLight](./RobotoMono_200ExtraLight.ttf.png)|![RobotoMono_300Light](./RobotoMono_300Light.ttf.png)||
-|![RobotoMono_400Regular](./RobotoMono_400Regular.ttf.png)|![RobotoMono_500Medium](./RobotoMono_500Medium.ttf.png)|![RobotoMono_600SemiBold](./RobotoMono_600SemiBold.ttf.png)||
-|![RobotoMono_700Bold](./RobotoMono_700Bold.ttf.png)|![RobotoMono_100Thin_Italic](./RobotoMono_100Thin_Italic.ttf.png)|![RobotoMono_200ExtraLight_Italic](./RobotoMono_200ExtraLight_Italic.ttf.png)||
-|![RobotoMono_300Light_Italic](./RobotoMono_300Light_Italic.ttf.png)|![RobotoMono_400Regular_Italic](./RobotoMono_400Regular_Italic.ttf.png)|![RobotoMono_500Medium_Italic](./RobotoMono_500Medium_Italic.ttf.png)||
-|![RobotoMono_600SemiBold_Italic](./RobotoMono_600SemiBold_Italic.ttf.png)|![RobotoMono_700Bold_Italic](./RobotoMono_700Bold_Italic.ttf.png)|||
+|![RobotoMono_100Thin](.//100Thin/RobotoMono_100Thin.ttf.png)|![RobotoMono_200ExtraLight](.//200ExtraLight/RobotoMono_200ExtraLight.ttf.png)|![RobotoMono_300Light](.//300Light/RobotoMono_300Light.ttf.png)||
+|![RobotoMono_400Regular](.//400Regular/RobotoMono_400Regular.ttf.png)|![RobotoMono_500Medium](.//500Medium/RobotoMono_500Medium.ttf.png)|![RobotoMono_600SemiBold](.//600SemiBold/RobotoMono_600SemiBold.ttf.png)||
+|![RobotoMono_700Bold](.//700Bold/RobotoMono_700Bold.ttf.png)|![RobotoMono_100Thin_Italic](.//100Thin_Italic/RobotoMono_100Thin_Italic.ttf.png)|![RobotoMono_200ExtraLight_Italic](.//200ExtraLight_Italic/RobotoMono_200ExtraLight_Italic.ttf.png)||
+|![RobotoMono_300Light_Italic](.//300Light_Italic/RobotoMono_300Light_Italic.ttf.png)|![RobotoMono_400Regular_Italic](.//400Regular_Italic/RobotoMono_400Regular_Italic.ttf.png)|![RobotoMono_500Medium_Italic](.//500Medium_Italic/RobotoMono_500Medium_Italic.ttf.png)||
+|![RobotoMono_600SemiBold_Italic](.//600SemiBold_Italic/RobotoMono_600SemiBold_Italic.ttf.png)|![RobotoMono_700Bold_Italic](.//700Bold_Italic/RobotoMono_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

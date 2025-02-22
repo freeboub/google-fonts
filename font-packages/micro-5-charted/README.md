@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Micro5Charted_400Regular](./Micro5Charted_400Regular.ttf.png)||||
+|![Micro5Charted_400Regular](.//400Regular/Micro5Charted_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

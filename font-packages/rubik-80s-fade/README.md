@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Rubik80sFade_400Regular](./Rubik80sFade_400Regular.ttf.png)||||
+|![Rubik80sFade_400Regular](.//400Regular/Rubik80sFade_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

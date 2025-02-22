@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Namdhinggo_400Regular](./Namdhinggo_400Regular.ttf.png)|![Namdhinggo_500Medium](./Namdhinggo_500Medium.ttf.png)|![Namdhinggo_600SemiBold](./Namdhinggo_600SemiBold.ttf.png)||
-|![Namdhinggo_700Bold](./Namdhinggo_700Bold.ttf.png)|![Namdhinggo_800ExtraBold](./Namdhinggo_800ExtraBold.ttf.png)|||
+|![Namdhinggo_400Regular](.//400Regular/Namdhinggo_400Regular.ttf.png)|![Namdhinggo_500Medium](.//500Medium/Namdhinggo_500Medium.ttf.png)|![Namdhinggo_600SemiBold](.//600SemiBold/Namdhinggo_600SemiBold.ttf.png)||
+|![Namdhinggo_700Bold](.//700Bold/Namdhinggo_700Bold.ttf.png)|![Namdhinggo_800ExtraBold](.//800ExtraBold/Namdhinggo_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

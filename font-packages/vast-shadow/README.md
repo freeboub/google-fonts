@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![VastShadow_400Regular](./VastShadow_400Regular.ttf.png)||||
+|![VastShadow_400Regular](.//400Regular/VastShadow_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

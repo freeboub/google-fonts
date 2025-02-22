@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ArefRuqaa_400Regular](./ArefRuqaa_400Regular.ttf.png)|![ArefRuqaa_700Bold](./ArefRuqaa_700Bold.ttf.png)|||
+|![ArefRuqaa_400Regular](.//400Regular/ArefRuqaa_400Regular.ttf.png)|![ArefRuqaa_700Bold](.//700Bold/ArefRuqaa_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

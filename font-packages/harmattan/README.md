@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Harmattan_400Regular](./Harmattan_400Regular.ttf.png)|![Harmattan_500Medium](./Harmattan_500Medium.ttf.png)|![Harmattan_600SemiBold](./Harmattan_600SemiBold.ttf.png)||
-|![Harmattan_700Bold](./Harmattan_700Bold.ttf.png)||||
+|![Harmattan_400Regular](.//400Regular/Harmattan_400Regular.ttf.png)|![Harmattan_500Medium](.//500Medium/Harmattan_500Medium.ttf.png)|![Harmattan_600SemiBold](.//600SemiBold/Harmattan_600SemiBold.ttf.png)||
+|![Harmattan_700Bold](.//700Bold/Harmattan_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

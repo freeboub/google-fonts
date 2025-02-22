@@ -258,12 +258,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SourceSans3_200ExtraLight](./SourceSans3_200ExtraLight.ttf.png)|![SourceSans3_300Light](./SourceSans3_300Light.ttf.png)|![SourceSans3_400Regular](./SourceSans3_400Regular.ttf.png)||
-|![SourceSans3_500Medium](./SourceSans3_500Medium.ttf.png)|![SourceSans3_600SemiBold](./SourceSans3_600SemiBold.ttf.png)|![SourceSans3_700Bold](./SourceSans3_700Bold.ttf.png)||
-|![SourceSans3_800ExtraBold](./SourceSans3_800ExtraBold.ttf.png)|![SourceSans3_900Black](./SourceSans3_900Black.ttf.png)|![SourceSans3_200ExtraLight_Italic](./SourceSans3_200ExtraLight_Italic.ttf.png)||
-|![SourceSans3_300Light_Italic](./SourceSans3_300Light_Italic.ttf.png)|![SourceSans3_400Regular_Italic](./SourceSans3_400Regular_Italic.ttf.png)|![SourceSans3_500Medium_Italic](./SourceSans3_500Medium_Italic.ttf.png)||
-|![SourceSans3_600SemiBold_Italic](./SourceSans3_600SemiBold_Italic.ttf.png)|![SourceSans3_700Bold_Italic](./SourceSans3_700Bold_Italic.ttf.png)|![SourceSans3_800ExtraBold_Italic](./SourceSans3_800ExtraBold_Italic.ttf.png)||
-|![SourceSans3_900Black_Italic](./SourceSans3_900Black_Italic.ttf.png)||||
+|![SourceSans3_200ExtraLight](.//200ExtraLight/SourceSans3_200ExtraLight.ttf.png)|![SourceSans3_300Light](.//300Light/SourceSans3_300Light.ttf.png)|![SourceSans3_400Regular](.//400Regular/SourceSans3_400Regular.ttf.png)||
+|![SourceSans3_500Medium](.//500Medium/SourceSans3_500Medium.ttf.png)|![SourceSans3_600SemiBold](.//600SemiBold/SourceSans3_600SemiBold.ttf.png)|![SourceSans3_700Bold](.//700Bold/SourceSans3_700Bold.ttf.png)||
+|![SourceSans3_800ExtraBold](.//800ExtraBold/SourceSans3_800ExtraBold.ttf.png)|![SourceSans3_900Black](.//900Black/SourceSans3_900Black.ttf.png)|![SourceSans3_200ExtraLight_Italic](.//200ExtraLight_Italic/SourceSans3_200ExtraLight_Italic.ttf.png)||
+|![SourceSans3_300Light_Italic](.//300Light_Italic/SourceSans3_300Light_Italic.ttf.png)|![SourceSans3_400Regular_Italic](.//400Regular_Italic/SourceSans3_400Regular_Italic.ttf.png)|![SourceSans3_500Medium_Italic](.//500Medium_Italic/SourceSans3_500Medium_Italic.ttf.png)||
+|![SourceSans3_600SemiBold_Italic](.//600SemiBold_Italic/SourceSans3_600SemiBold_Italic.ttf.png)|![SourceSans3_700Bold_Italic](.//700Bold_Italic/SourceSans3_700Bold_Italic.ttf.png)|![SourceSans3_800ExtraBold_Italic](.//800ExtraBold_Italic/SourceSans3_800ExtraBold_Italic.ttf.png)||
+|![SourceSans3_900Black_Italic](.//900Black_Italic/SourceSans3_900Black_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

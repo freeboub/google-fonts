@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Esteban_400Regular](./Esteban_400Regular.ttf.png)||||
+|![Esteban_400Regular](.//400Regular/Esteban_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

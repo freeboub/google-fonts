@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Antonio_100Thin](./Antonio_100Thin.ttf.png)|![Antonio_200ExtraLight](./Antonio_200ExtraLight.ttf.png)|![Antonio_300Light](./Antonio_300Light.ttf.png)||
-|![Antonio_400Regular](./Antonio_400Regular.ttf.png)|![Antonio_500Medium](./Antonio_500Medium.ttf.png)|![Antonio_600SemiBold](./Antonio_600SemiBold.ttf.png)||
-|![Antonio_700Bold](./Antonio_700Bold.ttf.png)||||
+|![Antonio_100Thin](.//100Thin/Antonio_100Thin.ttf.png)|![Antonio_200ExtraLight](.//200ExtraLight/Antonio_200ExtraLight.ttf.png)|![Antonio_300Light](.//300Light/Antonio_300Light.ttf.png)||
+|![Antonio_400Regular](.//400Regular/Antonio_400Regular.ttf.png)|![Antonio_500Medium](.//500Medium/Antonio_500Medium.ttf.png)|![Antonio_600SemiBold](.//600SemiBold/Antonio_600SemiBold.ttf.png)||
+|![Antonio_700Bold](.//700Bold/Antonio_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

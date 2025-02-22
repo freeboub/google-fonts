@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansSinhala_100Thin](./NotoSansSinhala_100Thin.ttf.png)|![NotoSansSinhala_200ExtraLight](./NotoSansSinhala_200ExtraLight.ttf.png)|![NotoSansSinhala_300Light](./NotoSansSinhala_300Light.ttf.png)||
-|![NotoSansSinhala_400Regular](./NotoSansSinhala_400Regular.ttf.png)|![NotoSansSinhala_500Medium](./NotoSansSinhala_500Medium.ttf.png)|![NotoSansSinhala_600SemiBold](./NotoSansSinhala_600SemiBold.ttf.png)||
-|![NotoSansSinhala_700Bold](./NotoSansSinhala_700Bold.ttf.png)|![NotoSansSinhala_800ExtraBold](./NotoSansSinhala_800ExtraBold.ttf.png)|![NotoSansSinhala_900Black](./NotoSansSinhala_900Black.ttf.png)||
+|![NotoSansSinhala_100Thin](.//100Thin/NotoSansSinhala_100Thin.ttf.png)|![NotoSansSinhala_200ExtraLight](.//200ExtraLight/NotoSansSinhala_200ExtraLight.ttf.png)|![NotoSansSinhala_300Light](.//300Light/NotoSansSinhala_300Light.ttf.png)||
+|![NotoSansSinhala_400Regular](.//400Regular/NotoSansSinhala_400Regular.ttf.png)|![NotoSansSinhala_500Medium](.//500Medium/NotoSansSinhala_500Medium.ttf.png)|![NotoSansSinhala_600SemiBold](.//600SemiBold/NotoSansSinhala_600SemiBold.ttf.png)||
+|![NotoSansSinhala_700Bold](.//700Bold/NotoSansSinhala_700Bold.ttf.png)|![NotoSansSinhala_800ExtraBold](.//800ExtraBold/NotoSansSinhala_800ExtraBold.ttf.png)|![NotoSansSinhala_900Black](.//900Black/NotoSansSinhala_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

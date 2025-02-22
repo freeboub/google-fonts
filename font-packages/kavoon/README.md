@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Kavoon_400Regular](./Kavoon_400Regular.ttf.png)||||
+|![Kavoon_400Regular](.//400Regular/Kavoon_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

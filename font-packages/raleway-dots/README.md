@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RalewayDots_400Regular](./RalewayDots_400Regular.ttf.png)||||
+|![RalewayDots_400Regular](.//400Regular/RalewayDots_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![DawningofaNewDay_400Regular](./DawningofaNewDay_400Regular.ttf.png)||||
+|![DawningofaNewDay_400Regular](.//400Regular/DawningofaNewDay_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

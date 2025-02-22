@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Cagliostro_400Regular](./Cagliostro_400Regular.ttf.png)||||
+|![Cagliostro_400Regular](.//400Regular/Cagliostro_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

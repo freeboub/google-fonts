@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![CherryBombOne_400Regular](./CherryBombOne_400Regular.ttf.png)||||
+|![CherryBombOne_400Regular](.//400Regular/CherryBombOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

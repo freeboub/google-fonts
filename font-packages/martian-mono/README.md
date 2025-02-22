@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MartianMono_100Thin](./MartianMono_100Thin.ttf.png)|![MartianMono_200ExtraLight](./MartianMono_200ExtraLight.ttf.png)|![MartianMono_300Light](./MartianMono_300Light.ttf.png)||
-|![MartianMono_400Regular](./MartianMono_400Regular.ttf.png)|![MartianMono_500Medium](./MartianMono_500Medium.ttf.png)|![MartianMono_600SemiBold](./MartianMono_600SemiBold.ttf.png)||
-|![MartianMono_700Bold](./MartianMono_700Bold.ttf.png)|![MartianMono_800ExtraBold](./MartianMono_800ExtraBold.ttf.png)|||
+|![MartianMono_100Thin](.//100Thin/MartianMono_100Thin.ttf.png)|![MartianMono_200ExtraLight](.//200ExtraLight/MartianMono_200ExtraLight.ttf.png)|![MartianMono_300Light](.//300Light/MartianMono_300Light.ttf.png)||
+|![MartianMono_400Regular](.//400Regular/MartianMono_400Regular.ttf.png)|![MartianMono_500Medium](.//500Medium/MartianMono_500Medium.ttf.png)|![MartianMono_600SemiBold](.//600SemiBold/MartianMono_600SemiBold.ttf.png)||
+|![MartianMono_700Bold](.//700Bold/MartianMono_700Bold.ttf.png)|![MartianMono_800ExtraBold](.//800ExtraBold/MartianMono_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

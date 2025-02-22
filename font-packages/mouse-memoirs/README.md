@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MouseMemoirs_400Regular](./MouseMemoirs_400Regular.ttf.png)||||
+|![MouseMemoirs_400Regular](.//400Regular/MouseMemoirs_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

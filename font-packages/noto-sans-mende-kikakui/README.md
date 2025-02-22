@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansMendeKikakui_400Regular](./NotoSansMendeKikakui_400Regular.ttf.png)||||
+|![NotoSansMendeKikakui_400Regular](.//400Regular/NotoSansMendeKikakui_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

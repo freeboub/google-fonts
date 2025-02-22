@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ShortStack_400Regular](./ShortStack_400Regular.ttf.png)||||
+|![ShortStack_400Regular](.//400Regular/ShortStack_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

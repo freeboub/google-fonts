@@ -180,10 +180,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![CormorantInfant_300Light](./CormorantInfant_300Light.ttf.png)|![CormorantInfant_300Light_Italic](./CormorantInfant_300Light_Italic.ttf.png)|![CormorantInfant_400Regular](./CormorantInfant_400Regular.ttf.png)||
-|![CormorantInfant_400Regular_Italic](./CormorantInfant_400Regular_Italic.ttf.png)|![CormorantInfant_500Medium](./CormorantInfant_500Medium.ttf.png)|![CormorantInfant_500Medium_Italic](./CormorantInfant_500Medium_Italic.ttf.png)||
-|![CormorantInfant_600SemiBold](./CormorantInfant_600SemiBold.ttf.png)|![CormorantInfant_600SemiBold_Italic](./CormorantInfant_600SemiBold_Italic.ttf.png)|![CormorantInfant_700Bold](./CormorantInfant_700Bold.ttf.png)||
-|![CormorantInfant_700Bold_Italic](./CormorantInfant_700Bold_Italic.ttf.png)||||
+|![CormorantInfant_300Light](.//300Light/CormorantInfant_300Light.ttf.png)|![CormorantInfant_300Light_Italic](.//300Light_Italic/CormorantInfant_300Light_Italic.ttf.png)|![CormorantInfant_400Regular](.//400Regular/CormorantInfant_400Regular.ttf.png)||
+|![CormorantInfant_400Regular_Italic](.//400Regular_Italic/CormorantInfant_400Regular_Italic.ttf.png)|![CormorantInfant_500Medium](.//500Medium/CormorantInfant_500Medium.ttf.png)|![CormorantInfant_500Medium_Italic](.//500Medium_Italic/CormorantInfant_500Medium_Italic.ttf.png)||
+|![CormorantInfant_600SemiBold](.//600SemiBold/CormorantInfant_600SemiBold.ttf.png)|![CormorantInfant_600SemiBold_Italic](.//600SemiBold_Italic/CormorantInfant_600SemiBold_Italic.ttf.png)|![CormorantInfant_700Bold](.//700Bold/CormorantInfant_700Bold.ttf.png)||
+|![CormorantInfant_700Bold_Italic](.//700Bold_Italic/CormorantInfant_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

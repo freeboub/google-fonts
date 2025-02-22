@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Sigmar_400Regular](./Sigmar_400Regular.ttf.png)||||
+|![Sigmar_400Regular](.//400Regular/Sigmar_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

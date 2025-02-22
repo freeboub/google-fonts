@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Ephesis_400Regular](./Ephesis_400Regular.ttf.png)||||
+|![Ephesis_400Regular](.//400Regular/Ephesis_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

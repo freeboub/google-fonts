@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Fruktur_400Regular](./Fruktur_400Regular.ttf.png)|![Fruktur_400Regular_Italic](./Fruktur_400Regular_Italic.ttf.png)|||
+|![Fruktur_400Regular](.//400Regular/Fruktur_400Regular.ttf.png)|![Fruktur_400Regular_Italic](.//400Regular_Italic/Fruktur_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

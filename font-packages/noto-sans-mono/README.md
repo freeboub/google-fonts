@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansMono_100Thin](./NotoSansMono_100Thin.ttf.png)|![NotoSansMono_200ExtraLight](./NotoSansMono_200ExtraLight.ttf.png)|![NotoSansMono_300Light](./NotoSansMono_300Light.ttf.png)||
-|![NotoSansMono_400Regular](./NotoSansMono_400Regular.ttf.png)|![NotoSansMono_500Medium](./NotoSansMono_500Medium.ttf.png)|![NotoSansMono_600SemiBold](./NotoSansMono_600SemiBold.ttf.png)||
-|![NotoSansMono_700Bold](./NotoSansMono_700Bold.ttf.png)|![NotoSansMono_800ExtraBold](./NotoSansMono_800ExtraBold.ttf.png)|![NotoSansMono_900Black](./NotoSansMono_900Black.ttf.png)||
+|![NotoSansMono_100Thin](.//100Thin/NotoSansMono_100Thin.ttf.png)|![NotoSansMono_200ExtraLight](.//200ExtraLight/NotoSansMono_200ExtraLight.ttf.png)|![NotoSansMono_300Light](.//300Light/NotoSansMono_300Light.ttf.png)||
+|![NotoSansMono_400Regular](.//400Regular/NotoSansMono_400Regular.ttf.png)|![NotoSansMono_500Medium](.//500Medium/NotoSansMono_500Medium.ttf.png)|![NotoSansMono_600SemiBold](.//600SemiBold/NotoSansMono_600SemiBold.ttf.png)||
+|![NotoSansMono_700Bold](.//700Bold/NotoSansMono_700Bold.ttf.png)|![NotoSansMono_800ExtraBold](.//800ExtraBold/NotoSansMono_800ExtraBold.ttf.png)|![NotoSansMono_900Black](.//900Black/NotoSansMono_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

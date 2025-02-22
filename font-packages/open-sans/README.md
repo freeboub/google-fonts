@@ -206,10 +206,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![OpenSans_300Light](./OpenSans_300Light.ttf.png)|![OpenSans_400Regular](./OpenSans_400Regular.ttf.png)|![OpenSans_500Medium](./OpenSans_500Medium.ttf.png)||
-|![OpenSans_600SemiBold](./OpenSans_600SemiBold.ttf.png)|![OpenSans_700Bold](./OpenSans_700Bold.ttf.png)|![OpenSans_800ExtraBold](./OpenSans_800ExtraBold.ttf.png)||
-|![OpenSans_300Light_Italic](./OpenSans_300Light_Italic.ttf.png)|![OpenSans_400Regular_Italic](./OpenSans_400Regular_Italic.ttf.png)|![OpenSans_500Medium_Italic](./OpenSans_500Medium_Italic.ttf.png)||
-|![OpenSans_600SemiBold_Italic](./OpenSans_600SemiBold_Italic.ttf.png)|![OpenSans_700Bold_Italic](./OpenSans_700Bold_Italic.ttf.png)|![OpenSans_800ExtraBold_Italic](./OpenSans_800ExtraBold_Italic.ttf.png)||
+|![OpenSans_300Light](.//300Light/OpenSans_300Light.ttf.png)|![OpenSans_400Regular](.//400Regular/OpenSans_400Regular.ttf.png)|![OpenSans_500Medium](.//500Medium/OpenSans_500Medium.ttf.png)||
+|![OpenSans_600SemiBold](.//600SemiBold/OpenSans_600SemiBold.ttf.png)|![OpenSans_700Bold](.//700Bold/OpenSans_700Bold.ttf.png)|![OpenSans_800ExtraBold](.//800ExtraBold/OpenSans_800ExtraBold.ttf.png)||
+|![OpenSans_300Light_Italic](.//300Light_Italic/OpenSans_300Light_Italic.ttf.png)|![OpenSans_400Regular_Italic](.//400Regular_Italic/OpenSans_400Regular_Italic.ttf.png)|![OpenSans_500Medium_Italic](.//500Medium_Italic/OpenSans_500Medium_Italic.ttf.png)||
+|![OpenSans_600SemiBold_Italic](.//600SemiBold_Italic/OpenSans_600SemiBold_Italic.ttf.png)|![OpenSans_700Bold_Italic](.//700Bold_Italic/OpenSans_700Bold_Italic.ttf.png)|![OpenSans_800ExtraBold_Italic](.//800ExtraBold_Italic/OpenSans_800ExtraBold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

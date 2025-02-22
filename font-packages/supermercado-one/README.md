@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SupermercadoOne_400Regular](./SupermercadoOne_400Regular.ttf.png)||||
+|![SupermercadoOne_400Regular](.//400Regular/SupermercadoOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

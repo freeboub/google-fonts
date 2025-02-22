@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Ojuju_200ExtraLight](./Ojuju_200ExtraLight.ttf.png)|![Ojuju_300Light](./Ojuju_300Light.ttf.png)|![Ojuju_400Regular](./Ojuju_400Regular.ttf.png)||
-|![Ojuju_500Medium](./Ojuju_500Medium.ttf.png)|![Ojuju_600SemiBold](./Ojuju_600SemiBold.ttf.png)|![Ojuju_700Bold](./Ojuju_700Bold.ttf.png)||
-|![Ojuju_800ExtraBold](./Ojuju_800ExtraBold.ttf.png)||||
+|![Ojuju_200ExtraLight](.//200ExtraLight/Ojuju_200ExtraLight.ttf.png)|![Ojuju_300Light](.//300Light/Ojuju_300Light.ttf.png)|![Ojuju_400Regular](.//400Regular/Ojuju_400Regular.ttf.png)||
+|![Ojuju_500Medium](.//500Medium/Ojuju_500Medium.ttf.png)|![Ojuju_600SemiBold](.//600SemiBold/Ojuju_600SemiBold.ttf.png)|![Ojuju_700Bold](.//700Bold/Ojuju_700Bold.ttf.png)||
+|![Ojuju_800ExtraBold](.//800ExtraBold/Ojuju_800ExtraBold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

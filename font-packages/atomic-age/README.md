@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AtomicAge_400Regular](./AtomicAge_400Regular.ttf.png)||||
+|![AtomicAge_400Regular](.//400Regular/AtomicAge_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

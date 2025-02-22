@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Farsan_400Regular](./Farsan_400Regular.ttf.png)||||
+|![Farsan_400Regular](.//400Regular/Farsan_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

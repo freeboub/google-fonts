@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![YujiMai_400Regular](./YujiMai_400Regular.ttf.png)||||
+|![YujiMai_400Regular](.//400Regular/YujiMai_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

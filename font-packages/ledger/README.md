@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Ledger_400Regular](./Ledger_400Regular.ttf.png)||||
+|![Ledger_400Regular](.//400Regular/Ledger_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

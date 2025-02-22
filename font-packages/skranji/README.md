@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Skranji_400Regular](./Skranji_400Regular.ttf.png)|![Skranji_700Bold](./Skranji_700Bold.ttf.png)|||
+|![Skranji_400Regular](.//400Regular/Skranji_400Regular.ttf.png)|![Skranji_700Bold](.//700Bold/Skranji_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Puritan_400Regular](./Puritan_400Regular.ttf.png)|![Puritan_400Regular_Italic](./Puritan_400Regular_Italic.ttf.png)|![Puritan_700Bold](./Puritan_700Bold.ttf.png)||
-|![Puritan_700Bold_Italic](./Puritan_700Bold_Italic.ttf.png)||||
+|![Puritan_400Regular](.//400Regular/Puritan_400Regular.ttf.png)|![Puritan_400Regular_Italic](.//400Regular_Italic/Puritan_400Regular_Italic.ttf.png)|![Puritan_700Bold](.//700Bold/Puritan_700Bold.ttf.png)||
+|![Puritan_700Bold_Italic](.//700Bold_Italic/Puritan_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KiteOne_400Regular](./KiteOne_400Regular.ttf.png)||||
+|![KiteOne_400Regular](.//400Regular/KiteOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

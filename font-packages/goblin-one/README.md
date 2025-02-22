@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![GoblinOne_400Regular](./GoblinOne_400Regular.ttf.png)||||
+|![GoblinOne_400Regular](.//400Regular/GoblinOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

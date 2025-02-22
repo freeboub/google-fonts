@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifGeorgian_100Thin](./NotoSerifGeorgian_100Thin.ttf.png)|![NotoSerifGeorgian_200ExtraLight](./NotoSerifGeorgian_200ExtraLight.ttf.png)|![NotoSerifGeorgian_300Light](./NotoSerifGeorgian_300Light.ttf.png)||
-|![NotoSerifGeorgian_400Regular](./NotoSerifGeorgian_400Regular.ttf.png)|![NotoSerifGeorgian_500Medium](./NotoSerifGeorgian_500Medium.ttf.png)|![NotoSerifGeorgian_600SemiBold](./NotoSerifGeorgian_600SemiBold.ttf.png)||
-|![NotoSerifGeorgian_700Bold](./NotoSerifGeorgian_700Bold.ttf.png)|![NotoSerifGeorgian_800ExtraBold](./NotoSerifGeorgian_800ExtraBold.ttf.png)|![NotoSerifGeorgian_900Black](./NotoSerifGeorgian_900Black.ttf.png)||
+|![NotoSerifGeorgian_100Thin](.//100Thin/NotoSerifGeorgian_100Thin.ttf.png)|![NotoSerifGeorgian_200ExtraLight](.//200ExtraLight/NotoSerifGeorgian_200ExtraLight.ttf.png)|![NotoSerifGeorgian_300Light](.//300Light/NotoSerifGeorgian_300Light.ttf.png)||
+|![NotoSerifGeorgian_400Regular](.//400Regular/NotoSerifGeorgian_400Regular.ttf.png)|![NotoSerifGeorgian_500Medium](.//500Medium/NotoSerifGeorgian_500Medium.ttf.png)|![NotoSerifGeorgian_600SemiBold](.//600SemiBold/NotoSerifGeorgian_600SemiBold.ttf.png)||
+|![NotoSerifGeorgian_700Bold](.//700Bold/NotoSerifGeorgian_700Bold.ttf.png)|![NotoSerifGeorgian_800ExtraBold](.//800ExtraBold/NotoSerifGeorgian_800ExtraBold.ttf.png)|![NotoSerifGeorgian_900Black](.//900Black/NotoSerifGeorgian_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

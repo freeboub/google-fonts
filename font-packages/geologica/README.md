@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Geologica_100Thin](./Geologica_100Thin.ttf.png)|![Geologica_200ExtraLight](./Geologica_200ExtraLight.ttf.png)|![Geologica_300Light](./Geologica_300Light.ttf.png)||
-|![Geologica_400Regular](./Geologica_400Regular.ttf.png)|![Geologica_500Medium](./Geologica_500Medium.ttf.png)|![Geologica_600SemiBold](./Geologica_600SemiBold.ttf.png)||
-|![Geologica_700Bold](./Geologica_700Bold.ttf.png)|![Geologica_800ExtraBold](./Geologica_800ExtraBold.ttf.png)|![Geologica_900Black](./Geologica_900Black.ttf.png)||
+|![Geologica_100Thin](.//100Thin/Geologica_100Thin.ttf.png)|![Geologica_200ExtraLight](.//200ExtraLight/Geologica_200ExtraLight.ttf.png)|![Geologica_300Light](.//300Light/Geologica_300Light.ttf.png)||
+|![Geologica_400Regular](.//400Regular/Geologica_400Regular.ttf.png)|![Geologica_500Medium](.//500Medium/Geologica_500Medium.ttf.png)|![Geologica_600SemiBold](.//600SemiBold/Geologica_600SemiBold.ttf.png)||
+|![Geologica_700Bold](.//700Bold/Geologica_700Bold.ttf.png)|![Geologica_800ExtraBold](.//800ExtraBold/Geologica_800ExtraBold.ttf.png)|![Geologica_900Black](.//900Black/Geologica_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

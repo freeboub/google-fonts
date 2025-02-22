@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Goldman_400Regular](./Goldman_400Regular.ttf.png)|![Goldman_700Bold](./Goldman_700Bold.ttf.png)|||
+|![Goldman_400Regular](.//400Regular/Goldman_400Regular.ttf.png)|![Goldman_700Bold](.//700Bold/Goldman_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

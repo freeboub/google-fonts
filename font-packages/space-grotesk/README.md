@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SpaceGrotesk_300Light](./SpaceGrotesk_300Light.ttf.png)|![SpaceGrotesk_400Regular](./SpaceGrotesk_400Regular.ttf.png)|![SpaceGrotesk_500Medium](./SpaceGrotesk_500Medium.ttf.png)||
-|![SpaceGrotesk_600SemiBold](./SpaceGrotesk_600SemiBold.ttf.png)|![SpaceGrotesk_700Bold](./SpaceGrotesk_700Bold.ttf.png)|||
+|![SpaceGrotesk_300Light](.//300Light/SpaceGrotesk_300Light.ttf.png)|![SpaceGrotesk_400Regular](.//400Regular/SpaceGrotesk_400Regular.ttf.png)|![SpaceGrotesk_500Medium](.//500Medium/SpaceGrotesk_500Medium.ttf.png)||
+|![SpaceGrotesk_600SemiBold](.//600SemiBold/SpaceGrotesk_600SemiBold.ttf.png)|![SpaceGrotesk_700Bold](.//700Bold/SpaceGrotesk_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

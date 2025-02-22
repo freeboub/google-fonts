@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ImperialScript_400Regular](./ImperialScript_400Regular.ttf.png)||||
+|![ImperialScript_400Regular](.//400Regular/ImperialScript_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

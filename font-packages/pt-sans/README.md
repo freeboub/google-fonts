@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PTSans_400Regular](./PTSans_400Regular.ttf.png)|![PTSans_400Regular_Italic](./PTSans_400Regular_Italic.ttf.png)|![PTSans_700Bold](./PTSans_700Bold.ttf.png)||
-|![PTSans_700Bold_Italic](./PTSans_700Bold_Italic.ttf.png)||||
+|![PTSans_400Regular](.//400Regular/PTSans_400Regular.ttf.png)|![PTSans_400Regular_Italic](.//400Regular_Italic/PTSans_400Regular_Italic.ttf.png)|![PTSans_700Bold](.//700Bold/PTSans_700Bold.ttf.png)||
+|![PTSans_700Bold_Italic](.//700Bold_Italic/PTSans_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

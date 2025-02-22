@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Slabo27px_400Regular](./Slabo27px_400Regular.ttf.png)||||
+|![Slabo27px_400Regular](.//400Regular/Slabo27px_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

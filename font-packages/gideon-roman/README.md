@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![GideonRoman_400Regular](./GideonRoman_400Regular.ttf.png)||||
+|![GideonRoman_400Regular](.//400Regular/GideonRoman_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

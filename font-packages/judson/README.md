@@ -89,7 +89,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Judson_400Regular](./Judson_400Regular.ttf.png)|![Judson_400Regular_Italic](./Judson_400Regular_Italic.ttf.png)|![Judson_700Bold](./Judson_700Bold.ttf.png)||
+|![Judson_400Regular](.//400Regular/Judson_400Regular.ttf.png)|![Judson_400Regular_Italic](.//400Regular_Italic/Judson_400Regular_Italic.ttf.png)|![Judson_700Bold](.//700Bold/Judson_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

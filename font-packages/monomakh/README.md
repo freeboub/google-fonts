@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Monomakh_400Regular](./Monomakh_400Regular.ttf.png)||||
+|![Monomakh_400Regular](.//400Regular/Monomakh_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

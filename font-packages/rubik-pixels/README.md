@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RubikPixels_400Regular](./RubikPixels_400Regular.ttf.png)||||
+|![RubikPixels_400Regular](.//400Regular/RubikPixels_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

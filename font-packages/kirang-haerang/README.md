@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KirangHaerang_400Regular](./KirangHaerang_400Regular.ttf.png)||||
+|![KirangHaerang_400Regular](.//400Regular/KirangHaerang_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

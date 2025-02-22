@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PlaywriteIE_100Thin](./PlaywriteIE_100Thin.ttf.png)|![PlaywriteIE_200ExtraLight](./PlaywriteIE_200ExtraLight.ttf.png)|![PlaywriteIE_300Light](./PlaywriteIE_300Light.ttf.png)||
-|![PlaywriteIE_400Regular](./PlaywriteIE_400Regular.ttf.png)||||
+|![PlaywriteIE_100Thin](.//100Thin/PlaywriteIE_100Thin.ttf.png)|![PlaywriteIE_200ExtraLight](.//200ExtraLight/PlaywriteIE_200ExtraLight.ttf.png)|![PlaywriteIE_300Light](.//300Light/PlaywriteIE_300Light.ttf.png)||
+|![PlaywriteIE_400Regular](.//400Regular/PlaywriteIE_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

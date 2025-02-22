@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Orbit_400Regular](./Orbit_400Regular.ttf.png)||||
+|![Orbit_400Regular](.//400Regular/Orbit_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

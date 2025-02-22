@@ -232,11 +232,11 @@ export default () => {
 
 ||||
 |-|-|-|
-|![VictorMono_100Thin](./VictorMono_100Thin.ttf.png)|![VictorMono_200ExtraLight](./VictorMono_200ExtraLight.ttf.png)|![VictorMono_300Light](./VictorMono_300Light.ttf.png)||
-|![VictorMono_400Regular](./VictorMono_400Regular.ttf.png)|![VictorMono_500Medium](./VictorMono_500Medium.ttf.png)|![VictorMono_600SemiBold](./VictorMono_600SemiBold.ttf.png)||
-|![VictorMono_700Bold](./VictorMono_700Bold.ttf.png)|![VictorMono_100Thin_Italic](./VictorMono_100Thin_Italic.ttf.png)|![VictorMono_200ExtraLight_Italic](./VictorMono_200ExtraLight_Italic.ttf.png)||
-|![VictorMono_300Light_Italic](./VictorMono_300Light_Italic.ttf.png)|![VictorMono_400Regular_Italic](./VictorMono_400Regular_Italic.ttf.png)|![VictorMono_500Medium_Italic](./VictorMono_500Medium_Italic.ttf.png)||
-|![VictorMono_600SemiBold_Italic](./VictorMono_600SemiBold_Italic.ttf.png)|![VictorMono_700Bold_Italic](./VictorMono_700Bold_Italic.ttf.png)|||
+|![VictorMono_100Thin](.//100Thin/VictorMono_100Thin.ttf.png)|![VictorMono_200ExtraLight](.//200ExtraLight/VictorMono_200ExtraLight.ttf.png)|![VictorMono_300Light](.//300Light/VictorMono_300Light.ttf.png)||
+|![VictorMono_400Regular](.//400Regular/VictorMono_400Regular.ttf.png)|![VictorMono_500Medium](.//500Medium/VictorMono_500Medium.ttf.png)|![VictorMono_600SemiBold](.//600SemiBold/VictorMono_600SemiBold.ttf.png)||
+|![VictorMono_700Bold](.//700Bold/VictorMono_700Bold.ttf.png)|![VictorMono_100Thin_Italic](.//100Thin_Italic/VictorMono_100Thin_Italic.ttf.png)|![VictorMono_200ExtraLight_Italic](.//200ExtraLight_Italic/VictorMono_200ExtraLight_Italic.ttf.png)||
+|![VictorMono_300Light_Italic](.//300Light_Italic/VictorMono_300Light_Italic.ttf.png)|![VictorMono_400Regular_Italic](.//400Regular_Italic/VictorMono_400Regular_Italic.ttf.png)|![VictorMono_500Medium_Italic](.//500Medium_Italic/VictorMono_500Medium_Italic.ttf.png)||
+|![VictorMono_600SemiBold_Italic](.//600SemiBold_Italic/VictorMono_600SemiBold_Italic.ttf.png)|![VictorMono_700Bold_Italic](.//700Bold_Italic/VictorMono_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

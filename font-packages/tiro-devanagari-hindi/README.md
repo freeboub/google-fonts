@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![TiroDevanagariHindi_400Regular](./TiroDevanagariHindi_400Regular.ttf.png)|![TiroDevanagariHindi_400Regular_Italic](./TiroDevanagariHindi_400Regular_Italic.ttf.png)|||
+|![TiroDevanagariHindi_400Regular](.//400Regular/TiroDevanagariHindi_400Regular.ttf.png)|![TiroDevanagariHindi_400Regular_Italic](.//400Regular_Italic/TiroDevanagariHindi_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

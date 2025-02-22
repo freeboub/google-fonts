@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AbyssinicaSIL_400Regular](./AbyssinicaSIL_400Regular.ttf.png)||||
+|![AbyssinicaSIL_400Regular](.//400Regular/AbyssinicaSIL_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

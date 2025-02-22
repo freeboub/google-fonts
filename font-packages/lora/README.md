@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Lora_400Regular](./Lora_400Regular.ttf.png)|![Lora_500Medium](./Lora_500Medium.ttf.png)|![Lora_600SemiBold](./Lora_600SemiBold.ttf.png)||
-|![Lora_700Bold](./Lora_700Bold.ttf.png)|![Lora_400Regular_Italic](./Lora_400Regular_Italic.ttf.png)|![Lora_500Medium_Italic](./Lora_500Medium_Italic.ttf.png)||
-|![Lora_600SemiBold_Italic](./Lora_600SemiBold_Italic.ttf.png)|![Lora_700Bold_Italic](./Lora_700Bold_Italic.ttf.png)|||
+|![Lora_400Regular](.//400Regular/Lora_400Regular.ttf.png)|![Lora_500Medium](.//500Medium/Lora_500Medium.ttf.png)|![Lora_600SemiBold](.//600SemiBold/Lora_600SemiBold.ttf.png)||
+|![Lora_700Bold](.//700Bold/Lora_700Bold.ttf.png)|![Lora_400Regular_Italic](.//400Regular_Italic/Lora_400Regular_Italic.ttf.png)|![Lora_500Medium_Italic](.//500Medium_Italic/Lora_500Medium_Italic.ttf.png)||
+|![Lora_600SemiBold_Italic](.//600SemiBold_Italic/Lora_600SemiBold_Italic.ttf.png)|![Lora_700Bold_Italic](.//700Bold_Italic/Lora_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

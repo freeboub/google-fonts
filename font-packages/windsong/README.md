@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![WindSong_400Regular](./WindSong_400Regular.ttf.png)|![WindSong_500Medium](./WindSong_500Medium.ttf.png)|||
+|![WindSong_400Regular](.//400Regular/WindSong_400Regular.ttf.png)|![WindSong_500Medium](.//500Medium/WindSong_500Medium.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

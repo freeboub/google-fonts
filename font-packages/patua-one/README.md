@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PatuaOne_400Regular](./PatuaOne_400Regular.ttf.png)||||
+|![PatuaOne_400Regular](.//400Regular/PatuaOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

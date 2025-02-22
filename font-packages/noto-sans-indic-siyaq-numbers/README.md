@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansIndicSiyaqNumbers_400Regular](./NotoSansIndicSiyaqNumbers_400Regular.ttf.png)||||
+|![NotoSansIndicSiyaqNumbers_400Regular](.//400Regular/NotoSansIndicSiyaqNumbers_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

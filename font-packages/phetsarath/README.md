@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Phetsarath_400Regular](./Phetsarath_400Regular.ttf.png)|![Phetsarath_700Bold](./Phetsarath_700Bold.ttf.png)|||
+|![Phetsarath_400Regular](.//400Regular/Phetsarath_400Regular.ttf.png)|![Phetsarath_700Bold](.//700Bold/Phetsarath_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

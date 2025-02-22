@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Hanuman_100Thin](./Hanuman_100Thin.ttf.png)|![Hanuman_300Light](./Hanuman_300Light.ttf.png)|![Hanuman_400Regular](./Hanuman_400Regular.ttf.png)||
-|![Hanuman_700Bold](./Hanuman_700Bold.ttf.png)|![Hanuman_900Black](./Hanuman_900Black.ttf.png)|||
+|![Hanuman_100Thin](.//100Thin/Hanuman_100Thin.ttf.png)|![Hanuman_300Light](.//300Light/Hanuman_300Light.ttf.png)|![Hanuman_400Regular](.//400Regular/Hanuman_400Regular.ttf.png)||
+|![Hanuman_700Bold](.//700Bold/Hanuman_700Bold.ttf.png)|![Hanuman_900Black](.//900Black/Hanuman_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

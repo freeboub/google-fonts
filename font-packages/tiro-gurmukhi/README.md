@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![TiroGurmukhi_400Regular](./TiroGurmukhi_400Regular.ttf.png)|![TiroGurmukhi_400Regular_Italic](./TiroGurmukhi_400Regular_Italic.ttf.png)|||
+|![TiroGurmukhi_400Regular](.//400Regular/TiroGurmukhi_400Regular.ttf.png)|![TiroGurmukhi_400Regular_Italic](.//400Regular_Italic/TiroGurmukhi_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

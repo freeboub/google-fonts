@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BarlowSemiCondensed_100Thin](./BarlowSemiCondensed_100Thin.ttf.png)|![BarlowSemiCondensed_100Thin_Italic](./BarlowSemiCondensed_100Thin_Italic.ttf.png)|![BarlowSemiCondensed_200ExtraLight](./BarlowSemiCondensed_200ExtraLight.ttf.png)||
-|![BarlowSemiCondensed_200ExtraLight_Italic](./BarlowSemiCondensed_200ExtraLight_Italic.ttf.png)|![BarlowSemiCondensed_300Light](./BarlowSemiCondensed_300Light.ttf.png)|![BarlowSemiCondensed_300Light_Italic](./BarlowSemiCondensed_300Light_Italic.ttf.png)||
-|![BarlowSemiCondensed_400Regular](./BarlowSemiCondensed_400Regular.ttf.png)|![BarlowSemiCondensed_400Regular_Italic](./BarlowSemiCondensed_400Regular_Italic.ttf.png)|![BarlowSemiCondensed_500Medium](./BarlowSemiCondensed_500Medium.ttf.png)||
-|![BarlowSemiCondensed_500Medium_Italic](./BarlowSemiCondensed_500Medium_Italic.ttf.png)|![BarlowSemiCondensed_600SemiBold](./BarlowSemiCondensed_600SemiBold.ttf.png)|![BarlowSemiCondensed_600SemiBold_Italic](./BarlowSemiCondensed_600SemiBold_Italic.ttf.png)||
-|![BarlowSemiCondensed_700Bold](./BarlowSemiCondensed_700Bold.ttf.png)|![BarlowSemiCondensed_700Bold_Italic](./BarlowSemiCondensed_700Bold_Italic.ttf.png)|![BarlowSemiCondensed_800ExtraBold](./BarlowSemiCondensed_800ExtraBold.ttf.png)||
-|![BarlowSemiCondensed_800ExtraBold_Italic](./BarlowSemiCondensed_800ExtraBold_Italic.ttf.png)|![BarlowSemiCondensed_900Black](./BarlowSemiCondensed_900Black.ttf.png)|![BarlowSemiCondensed_900Black_Italic](./BarlowSemiCondensed_900Black_Italic.ttf.png)||
+|![BarlowSemiCondensed_100Thin](.//100Thin/BarlowSemiCondensed_100Thin.ttf.png)|![BarlowSemiCondensed_100Thin_Italic](.//100Thin_Italic/BarlowSemiCondensed_100Thin_Italic.ttf.png)|![BarlowSemiCondensed_200ExtraLight](.//200ExtraLight/BarlowSemiCondensed_200ExtraLight.ttf.png)||
+|![BarlowSemiCondensed_200ExtraLight_Italic](.//200ExtraLight_Italic/BarlowSemiCondensed_200ExtraLight_Italic.ttf.png)|![BarlowSemiCondensed_300Light](.//300Light/BarlowSemiCondensed_300Light.ttf.png)|![BarlowSemiCondensed_300Light_Italic](.//300Light_Italic/BarlowSemiCondensed_300Light_Italic.ttf.png)||
+|![BarlowSemiCondensed_400Regular](.//400Regular/BarlowSemiCondensed_400Regular.ttf.png)|![BarlowSemiCondensed_400Regular_Italic](.//400Regular_Italic/BarlowSemiCondensed_400Regular_Italic.ttf.png)|![BarlowSemiCondensed_500Medium](.//500Medium/BarlowSemiCondensed_500Medium.ttf.png)||
+|![BarlowSemiCondensed_500Medium_Italic](.//500Medium_Italic/BarlowSemiCondensed_500Medium_Italic.ttf.png)|![BarlowSemiCondensed_600SemiBold](.//600SemiBold/BarlowSemiCondensed_600SemiBold.ttf.png)|![BarlowSemiCondensed_600SemiBold_Italic](.//600SemiBold_Italic/BarlowSemiCondensed_600SemiBold_Italic.ttf.png)||
+|![BarlowSemiCondensed_700Bold](.//700Bold/BarlowSemiCondensed_700Bold.ttf.png)|![BarlowSemiCondensed_700Bold_Italic](.//700Bold_Italic/BarlowSemiCondensed_700Bold_Italic.ttf.png)|![BarlowSemiCondensed_800ExtraBold](.//800ExtraBold/BarlowSemiCondensed_800ExtraBold.ttf.png)||
+|![BarlowSemiCondensed_800ExtraBold_Italic](.//800ExtraBold_Italic/BarlowSemiCondensed_800ExtraBold_Italic.ttf.png)|![BarlowSemiCondensed_900Black](.//900Black/BarlowSemiCondensed_900Black.ttf.png)|![BarlowSemiCondensed_900Black_Italic](.//900Black_Italic/BarlowSemiCondensed_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KumbhSans_100Thin](./KumbhSans_100Thin.ttf.png)|![KumbhSans_200ExtraLight](./KumbhSans_200ExtraLight.ttf.png)|![KumbhSans_300Light](./KumbhSans_300Light.ttf.png)||
-|![KumbhSans_400Regular](./KumbhSans_400Regular.ttf.png)|![KumbhSans_500Medium](./KumbhSans_500Medium.ttf.png)|![KumbhSans_600SemiBold](./KumbhSans_600SemiBold.ttf.png)||
-|![KumbhSans_700Bold](./KumbhSans_700Bold.ttf.png)|![KumbhSans_800ExtraBold](./KumbhSans_800ExtraBold.ttf.png)|![KumbhSans_900Black](./KumbhSans_900Black.ttf.png)||
+|![KumbhSans_100Thin](.//100Thin/KumbhSans_100Thin.ttf.png)|![KumbhSans_200ExtraLight](.//200ExtraLight/KumbhSans_200ExtraLight.ttf.png)|![KumbhSans_300Light](.//300Light/KumbhSans_300Light.ttf.png)||
+|![KumbhSans_400Regular](.//400Regular/KumbhSans_400Regular.ttf.png)|![KumbhSans_500Medium](.//500Medium/KumbhSans_500Medium.ttf.png)|![KumbhSans_600SemiBold](.//600SemiBold/KumbhSans_600SemiBold.ttf.png)||
+|![KumbhSans_700Bold](.//700Bold/KumbhSans_700Bold.ttf.png)|![KumbhSans_800ExtraBold](.//800ExtraBold/KumbhSans_800ExtraBold.ttf.png)|![KumbhSans_900Black](.//900Black/KumbhSans_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SongMyung_400Regular](./SongMyung_400Regular.ttf.png)||||
+|![SongMyung_400Regular](.//400Regular/SongMyung_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

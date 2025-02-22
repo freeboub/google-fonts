@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Recursive_300Light](./Recursive_300Light.ttf.png)|![Recursive_400Regular](./Recursive_400Regular.ttf.png)|![Recursive_500Medium](./Recursive_500Medium.ttf.png)||
-|![Recursive_600SemiBold](./Recursive_600SemiBold.ttf.png)|![Recursive_700Bold](./Recursive_700Bold.ttf.png)|![Recursive_800ExtraBold](./Recursive_800ExtraBold.ttf.png)||
-|![Recursive_900Black](./Recursive_900Black.ttf.png)||||
+|![Recursive_300Light](.//300Light/Recursive_300Light.ttf.png)|![Recursive_400Regular](.//400Regular/Recursive_400Regular.ttf.png)|![Recursive_500Medium](.//500Medium/Recursive_500Medium.ttf.png)||
+|![Recursive_600SemiBold](.//600SemiBold/Recursive_600SemiBold.ttf.png)|![Recursive_700Bold](.//700Bold/Recursive_700Bold.ttf.png)|![Recursive_800ExtraBold](.//800ExtraBold/Recursive_800ExtraBold.ttf.png)||
+|![Recursive_900Black](.//900Black/Recursive_900Black.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

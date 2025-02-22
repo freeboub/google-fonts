@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Electrolize_400Regular](./Electrolize_400Regular.ttf.png)||||
+|![Electrolize_400Regular](.//400Regular/Electrolize_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

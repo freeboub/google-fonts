@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MeeraInimai_400Regular](./MeeraInimai_400Regular.ttf.png)||||
+|![MeeraInimai_400Regular](.//400Regular/MeeraInimai_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![JockeyOne_400Regular](./JockeyOne_400Regular.ttf.png)||||
+|![JockeyOne_400Regular](.//400Regular/JockeyOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

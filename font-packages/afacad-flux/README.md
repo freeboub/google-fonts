@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AfacadFlux_100Thin](./AfacadFlux_100Thin.ttf.png)|![AfacadFlux_200ExtraLight](./AfacadFlux_200ExtraLight.ttf.png)|![AfacadFlux_300Light](./AfacadFlux_300Light.ttf.png)||
-|![AfacadFlux_400Regular](./AfacadFlux_400Regular.ttf.png)|![AfacadFlux_500Medium](./AfacadFlux_500Medium.ttf.png)|![AfacadFlux_600SemiBold](./AfacadFlux_600SemiBold.ttf.png)||
-|![AfacadFlux_700Bold](./AfacadFlux_700Bold.ttf.png)|![AfacadFlux_800ExtraBold](./AfacadFlux_800ExtraBold.ttf.png)|![AfacadFlux_900Black](./AfacadFlux_900Black.ttf.png)||
+|![AfacadFlux_100Thin](.//100Thin/AfacadFlux_100Thin.ttf.png)|![AfacadFlux_200ExtraLight](.//200ExtraLight/AfacadFlux_200ExtraLight.ttf.png)|![AfacadFlux_300Light](.//300Light/AfacadFlux_300Light.ttf.png)||
+|![AfacadFlux_400Regular](.//400Regular/AfacadFlux_400Regular.ttf.png)|![AfacadFlux_500Medium](.//500Medium/AfacadFlux_500Medium.ttf.png)|![AfacadFlux_600SemiBold](.//600SemiBold/AfacadFlux_600SemiBold.ttf.png)||
+|![AfacadFlux_700Bold](.//700Bold/AfacadFlux_700Bold.ttf.png)|![AfacadFlux_800ExtraBold](.//800ExtraBold/AfacadFlux_800ExtraBold.ttf.png)|![AfacadFlux_900Black](.//900Black/AfacadFlux_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

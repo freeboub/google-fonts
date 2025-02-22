@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Mada_200ExtraLight](./Mada_200ExtraLight.ttf.png)|![Mada_300Light](./Mada_300Light.ttf.png)|![Mada_400Regular](./Mada_400Regular.ttf.png)||
-|![Mada_500Medium](./Mada_500Medium.ttf.png)|![Mada_600SemiBold](./Mada_600SemiBold.ttf.png)|![Mada_700Bold](./Mada_700Bold.ttf.png)||
-|![Mada_800ExtraBold](./Mada_800ExtraBold.ttf.png)|![Mada_900Black](./Mada_900Black.ttf.png)|||
+|![Mada_200ExtraLight](.//200ExtraLight/Mada_200ExtraLight.ttf.png)|![Mada_300Light](.//300Light/Mada_300Light.ttf.png)|![Mada_400Regular](.//400Regular/Mada_400Regular.ttf.png)||
+|![Mada_500Medium](.//500Medium/Mada_500Medium.ttf.png)|![Mada_600SemiBold](.//600SemiBold/Mada_600SemiBold.ttf.png)|![Mada_700Bold](.//700Bold/Mada_700Bold.ttf.png)||
+|![Mada_800ExtraBold](.//800ExtraBold/Mada_800ExtraBold.ttf.png)|![Mada_900Black](.//900Black/Mada_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

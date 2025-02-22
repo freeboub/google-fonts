@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Federo_400Regular](./Federo_400Regular.ttf.png)||||
+|![Federo_400Regular](.//400Regular/Federo_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

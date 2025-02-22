@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![CherrySwash_400Regular](./CherrySwash_400Regular.ttf.png)|![CherrySwash_700Bold](./CherrySwash_700Bold.ttf.png)|||
+|![CherrySwash_400Regular](.//400Regular/CherrySwash_400Regular.ttf.png)|![CherrySwash_700Bold](.//700Bold/CherrySwash_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

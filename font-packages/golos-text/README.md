@@ -128,8 +128,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![GolosText_400Regular](./GolosText_400Regular.ttf.png)|![GolosText_500Medium](./GolosText_500Medium.ttf.png)|![GolosText_600SemiBold](./GolosText_600SemiBold.ttf.png)||
-|![GolosText_700Bold](./GolosText_700Bold.ttf.png)|![GolosText_800ExtraBold](./GolosText_800ExtraBold.ttf.png)|![GolosText_900Black](./GolosText_900Black.ttf.png)||
+|![GolosText_400Regular](.//400Regular/GolosText_400Regular.ttf.png)|![GolosText_500Medium](.//500Medium/GolosText_500Medium.ttf.png)|![GolosText_600SemiBold](.//600SemiBold/GolosText_600SemiBold.ttf.png)||
+|![GolosText_700Bold](.//700Bold/GolosText_700Bold.ttf.png)|![GolosText_800ExtraBold](.//800ExtraBold/GolosText_800ExtraBold.ttf.png)|![GolosText_900Black](.//900Black/GolosText_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -206,10 +206,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BodoniModa_400Regular](./BodoniModa_400Regular.ttf.png)|![BodoniModa_500Medium](./BodoniModa_500Medium.ttf.png)|![BodoniModa_600SemiBold](./BodoniModa_600SemiBold.ttf.png)||
-|![BodoniModa_700Bold](./BodoniModa_700Bold.ttf.png)|![BodoniModa_800ExtraBold](./BodoniModa_800ExtraBold.ttf.png)|![BodoniModa_900Black](./BodoniModa_900Black.ttf.png)||
-|![BodoniModa_400Regular_Italic](./BodoniModa_400Regular_Italic.ttf.png)|![BodoniModa_500Medium_Italic](./BodoniModa_500Medium_Italic.ttf.png)|![BodoniModa_600SemiBold_Italic](./BodoniModa_600SemiBold_Italic.ttf.png)||
-|![BodoniModa_700Bold_Italic](./BodoniModa_700Bold_Italic.ttf.png)|![BodoniModa_800ExtraBold_Italic](./BodoniModa_800ExtraBold_Italic.ttf.png)|![BodoniModa_900Black_Italic](./BodoniModa_900Black_Italic.ttf.png)||
+|![BodoniModa_400Regular](.//400Regular/BodoniModa_400Regular.ttf.png)|![BodoniModa_500Medium](.//500Medium/BodoniModa_500Medium.ttf.png)|![BodoniModa_600SemiBold](.//600SemiBold/BodoniModa_600SemiBold.ttf.png)||
+|![BodoniModa_700Bold](.//700Bold/BodoniModa_700Bold.ttf.png)|![BodoniModa_800ExtraBold](.//800ExtraBold/BodoniModa_800ExtraBold.ttf.png)|![BodoniModa_900Black](.//900Black/BodoniModa_900Black.ttf.png)||
+|![BodoniModa_400Regular_Italic](.//400Regular_Italic/BodoniModa_400Regular_Italic.ttf.png)|![BodoniModa_500Medium_Italic](.//500Medium_Italic/BodoniModa_500Medium_Italic.ttf.png)|![BodoniModa_600SemiBold_Italic](.//600SemiBold_Italic/BodoniModa_600SemiBold_Italic.ttf.png)||
+|![BodoniModa_700Bold_Italic](.//700Bold_Italic/BodoniModa_700Bold_Italic.ttf.png)|![BodoniModa_800ExtraBold_Italic](.//800ExtraBold_Italic/BodoniModa_800ExtraBold_Italic.ttf.png)|![BodoniModa_900Black_Italic](.//900Black_Italic/BodoniModa_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansAdlamUnjoined_400Regular](./NotoSansAdlamUnjoined_400Regular.ttf.png)|![NotoSansAdlamUnjoined_500Medium](./NotoSansAdlamUnjoined_500Medium.ttf.png)|![NotoSansAdlamUnjoined_600SemiBold](./NotoSansAdlamUnjoined_600SemiBold.ttf.png)||
-|![NotoSansAdlamUnjoined_700Bold](./NotoSansAdlamUnjoined_700Bold.ttf.png)||||
+|![NotoSansAdlamUnjoined_400Regular](.//400Regular/NotoSansAdlamUnjoined_400Regular.ttf.png)|![NotoSansAdlamUnjoined_500Medium](.//500Medium/NotoSansAdlamUnjoined_500Medium.ttf.png)|![NotoSansAdlamUnjoined_600SemiBold](.//600SemiBold/NotoSansAdlamUnjoined_600SemiBold.ttf.png)||
+|![NotoSansAdlamUnjoined_700Bold](.//700Bold/NotoSansAdlamUnjoined_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -206,10 +206,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ShantellSans_300Light](./ShantellSans_300Light.ttf.png)|![ShantellSans_400Regular](./ShantellSans_400Regular.ttf.png)|![ShantellSans_500Medium](./ShantellSans_500Medium.ttf.png)||
-|![ShantellSans_600SemiBold](./ShantellSans_600SemiBold.ttf.png)|![ShantellSans_700Bold](./ShantellSans_700Bold.ttf.png)|![ShantellSans_800ExtraBold](./ShantellSans_800ExtraBold.ttf.png)||
-|![ShantellSans_300Light_Italic](./ShantellSans_300Light_Italic.ttf.png)|![ShantellSans_400Regular_Italic](./ShantellSans_400Regular_Italic.ttf.png)|![ShantellSans_500Medium_Italic](./ShantellSans_500Medium_Italic.ttf.png)||
-|![ShantellSans_600SemiBold_Italic](./ShantellSans_600SemiBold_Italic.ttf.png)|![ShantellSans_700Bold_Italic](./ShantellSans_700Bold_Italic.ttf.png)|![ShantellSans_800ExtraBold_Italic](./ShantellSans_800ExtraBold_Italic.ttf.png)||
+|![ShantellSans_300Light](.//300Light/ShantellSans_300Light.ttf.png)|![ShantellSans_400Regular](.//400Regular/ShantellSans_400Regular.ttf.png)|![ShantellSans_500Medium](.//500Medium/ShantellSans_500Medium.ttf.png)||
+|![ShantellSans_600SemiBold](.//600SemiBold/ShantellSans_600SemiBold.ttf.png)|![ShantellSans_700Bold](.//700Bold/ShantellSans_700Bold.ttf.png)|![ShantellSans_800ExtraBold](.//800ExtraBold/ShantellSans_800ExtraBold.ttf.png)||
+|![ShantellSans_300Light_Italic](.//300Light_Italic/ShantellSans_300Light_Italic.ttf.png)|![ShantellSans_400Regular_Italic](.//400Regular_Italic/ShantellSans_400Regular_Italic.ttf.png)|![ShantellSans_500Medium_Italic](.//500Medium_Italic/ShantellSans_500Medium_Italic.ttf.png)||
+|![ShantellSans_600SemiBold_Italic](.//600SemiBold_Italic/ShantellSans_600SemiBold_Italic.ttf.png)|![ShantellSans_700Bold_Italic](.//700Bold_Italic/ShantellSans_700Bold_Italic.ttf.png)|![ShantellSans_800ExtraBold_Italic](.//800ExtraBold_Italic/ShantellSans_800ExtraBold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

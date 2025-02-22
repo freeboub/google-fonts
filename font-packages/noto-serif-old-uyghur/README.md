@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifOldUyghur_400Regular](./NotoSerifOldUyghur_400Regular.ttf.png)||||
+|![NotoSerifOldUyghur_400Regular](.//400Regular/NotoSerifOldUyghur_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MetalMania_400Regular](./MetalMania_400Regular.ttf.png)||||
+|![MetalMania_400Regular](.//400Regular/MetalMania_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

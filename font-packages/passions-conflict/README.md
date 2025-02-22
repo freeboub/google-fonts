@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PassionsConflict_400Regular](./PassionsConflict_400Regular.ttf.png)||||
+|![PassionsConflict_400Regular](.//400Regular/PassionsConflict_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

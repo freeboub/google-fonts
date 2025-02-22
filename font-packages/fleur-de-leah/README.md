@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![FleurDeLeah_400Regular](./FleurDeLeah_400Regular.ttf.png)||||
+|![FleurDeLeah_400Regular](.//400Regular/FleurDeLeah_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

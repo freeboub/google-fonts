@@ -128,8 +128,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Moderustic_300Light](./Moderustic_300Light.ttf.png)|![Moderustic_400Regular](./Moderustic_400Regular.ttf.png)|![Moderustic_500Medium](./Moderustic_500Medium.ttf.png)||
-|![Moderustic_600SemiBold](./Moderustic_600SemiBold.ttf.png)|![Moderustic_700Bold](./Moderustic_700Bold.ttf.png)|![Moderustic_800ExtraBold](./Moderustic_800ExtraBold.ttf.png)||
+|![Moderustic_300Light](.//300Light/Moderustic_300Light.ttf.png)|![Moderustic_400Regular](.//400Regular/Moderustic_400Regular.ttf.png)|![Moderustic_500Medium](.//500Medium/Moderustic_500Medium.ttf.png)||
+|![Moderustic_600SemiBold](.//600SemiBold/Moderustic_600SemiBold.ttf.png)|![Moderustic_700Bold](.//700Bold/Moderustic_700Bold.ttf.png)|![Moderustic_800ExtraBold](.//800ExtraBold/Moderustic_800ExtraBold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

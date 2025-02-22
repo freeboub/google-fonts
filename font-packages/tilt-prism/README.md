@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![TiltPrism_400Regular](./TiltPrism_400Regular.ttf.png)||||
+|![TiltPrism_400Regular](.//400Regular/TiltPrism_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

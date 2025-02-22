@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![TenaliRamakrishna_400Regular](./TenaliRamakrishna_400Regular.ttf.png)||||
+|![TenaliRamakrishna_400Regular](.//400Regular/TenaliRamakrishna_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![DMSans_100Thin](./DMSans_100Thin.ttf.png)|![DMSans_200ExtraLight](./DMSans_200ExtraLight.ttf.png)|![DMSans_300Light](./DMSans_300Light.ttf.png)||
-|![DMSans_400Regular](./DMSans_400Regular.ttf.png)|![DMSans_500Medium](./DMSans_500Medium.ttf.png)|![DMSans_600SemiBold](./DMSans_600SemiBold.ttf.png)||
-|![DMSans_700Bold](./DMSans_700Bold.ttf.png)|![DMSans_800ExtraBold](./DMSans_800ExtraBold.ttf.png)|![DMSans_900Black](./DMSans_900Black.ttf.png)||
-|![DMSans_100Thin_Italic](./DMSans_100Thin_Italic.ttf.png)|![DMSans_200ExtraLight_Italic](./DMSans_200ExtraLight_Italic.ttf.png)|![DMSans_300Light_Italic](./DMSans_300Light_Italic.ttf.png)||
-|![DMSans_400Regular_Italic](./DMSans_400Regular_Italic.ttf.png)|![DMSans_500Medium_Italic](./DMSans_500Medium_Italic.ttf.png)|![DMSans_600SemiBold_Italic](./DMSans_600SemiBold_Italic.ttf.png)||
-|![DMSans_700Bold_Italic](./DMSans_700Bold_Italic.ttf.png)|![DMSans_800ExtraBold_Italic](./DMSans_800ExtraBold_Italic.ttf.png)|![DMSans_900Black_Italic](./DMSans_900Black_Italic.ttf.png)||
+|![DMSans_100Thin](.//100Thin/DMSans_100Thin.ttf.png)|![DMSans_200ExtraLight](.//200ExtraLight/DMSans_200ExtraLight.ttf.png)|![DMSans_300Light](.//300Light/DMSans_300Light.ttf.png)||
+|![DMSans_400Regular](.//400Regular/DMSans_400Regular.ttf.png)|![DMSans_500Medium](.//500Medium/DMSans_500Medium.ttf.png)|![DMSans_600SemiBold](.//600SemiBold/DMSans_600SemiBold.ttf.png)||
+|![DMSans_700Bold](.//700Bold/DMSans_700Bold.ttf.png)|![DMSans_800ExtraBold](.//800ExtraBold/DMSans_800ExtraBold.ttf.png)|![DMSans_900Black](.//900Black/DMSans_900Black.ttf.png)||
+|![DMSans_100Thin_Italic](.//100Thin_Italic/DMSans_100Thin_Italic.ttf.png)|![DMSans_200ExtraLight_Italic](.//200ExtraLight_Italic/DMSans_200ExtraLight_Italic.ttf.png)|![DMSans_300Light_Italic](.//300Light_Italic/DMSans_300Light_Italic.ttf.png)||
+|![DMSans_400Regular_Italic](.//400Regular_Italic/DMSans_400Regular_Italic.ttf.png)|![DMSans_500Medium_Italic](.//500Medium_Italic/DMSans_500Medium_Italic.ttf.png)|![DMSans_600SemiBold_Italic](.//600SemiBold_Italic/DMSans_600SemiBold_Italic.ttf.png)||
+|![DMSans_700Bold_Italic](.//700Bold_Italic/DMSans_700Bold_Italic.ttf.png)|![DMSans_800ExtraBold_Italic](.//800ExtraBold_Italic/DMSans_800ExtraBold_Italic.ttf.png)|![DMSans_900Black_Italic](.//900Black_Italic/DMSans_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

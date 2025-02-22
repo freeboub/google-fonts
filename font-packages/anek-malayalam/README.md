@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AnekMalayalam_100Thin](./AnekMalayalam_100Thin.ttf.png)|![AnekMalayalam_200ExtraLight](./AnekMalayalam_200ExtraLight.ttf.png)|![AnekMalayalam_300Light](./AnekMalayalam_300Light.ttf.png)||
-|![AnekMalayalam_400Regular](./AnekMalayalam_400Regular.ttf.png)|![AnekMalayalam_500Medium](./AnekMalayalam_500Medium.ttf.png)|![AnekMalayalam_600SemiBold](./AnekMalayalam_600SemiBold.ttf.png)||
-|![AnekMalayalam_700Bold](./AnekMalayalam_700Bold.ttf.png)|![AnekMalayalam_800ExtraBold](./AnekMalayalam_800ExtraBold.ttf.png)|||
+|![AnekMalayalam_100Thin](.//100Thin/AnekMalayalam_100Thin.ttf.png)|![AnekMalayalam_200ExtraLight](.//200ExtraLight/AnekMalayalam_200ExtraLight.ttf.png)|![AnekMalayalam_300Light](.//300Light/AnekMalayalam_300Light.ttf.png)||
+|![AnekMalayalam_400Regular](.//400Regular/AnekMalayalam_400Regular.ttf.png)|![AnekMalayalam_500Medium](.//500Medium/AnekMalayalam_500Medium.ttf.png)|![AnekMalayalam_600SemiBold](.//600SemiBold/AnekMalayalam_600SemiBold.ttf.png)||
+|![AnekMalayalam_700Bold](.//700Bold/AnekMalayalam_700Bold.ttf.png)|![AnekMalayalam_800ExtraBold](.//800ExtraBold/AnekMalayalam_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

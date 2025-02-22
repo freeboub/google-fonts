@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MuktaVaani_200ExtraLight](./MuktaVaani_200ExtraLight.ttf.png)|![MuktaVaani_300Light](./MuktaVaani_300Light.ttf.png)|![MuktaVaani_400Regular](./MuktaVaani_400Regular.ttf.png)||
-|![MuktaVaani_500Medium](./MuktaVaani_500Medium.ttf.png)|![MuktaVaani_600SemiBold](./MuktaVaani_600SemiBold.ttf.png)|![MuktaVaani_700Bold](./MuktaVaani_700Bold.ttf.png)||
-|![MuktaVaani_800ExtraBold](./MuktaVaani_800ExtraBold.ttf.png)||||
+|![MuktaVaani_200ExtraLight](.//200ExtraLight/MuktaVaani_200ExtraLight.ttf.png)|![MuktaVaani_300Light](.//300Light/MuktaVaani_300Light.ttf.png)|![MuktaVaani_400Regular](.//400Regular/MuktaVaani_400Regular.ttf.png)||
+|![MuktaVaani_500Medium](.//500Medium/MuktaVaani_500Medium.ttf.png)|![MuktaVaani_600SemiBold](.//600SemiBold/MuktaVaani_600SemiBold.ttf.png)|![MuktaVaani_700Bold](.//700Bold/MuktaVaani_700Bold.ttf.png)||
+|![MuktaVaani_800ExtraBold](.//800ExtraBold/MuktaVaani_800ExtraBold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

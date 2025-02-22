@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![FjordOne_400Regular](./FjordOne_400Regular.ttf.png)||||
+|![FjordOne_400Regular](.//400Regular/FjordOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Comforter_400Regular](./Comforter_400Regular.ttf.png)||||
+|![Comforter_400Regular](.//400Regular/Comforter_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

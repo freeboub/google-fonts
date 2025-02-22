@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Workbench_400Regular](./Workbench_400Regular.ttf.png)||||
+|![Workbench_400Regular](.//400Regular/Workbench_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

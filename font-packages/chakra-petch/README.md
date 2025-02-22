@@ -180,10 +180,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ChakraPetch_300Light](./ChakraPetch_300Light.ttf.png)|![ChakraPetch_300Light_Italic](./ChakraPetch_300Light_Italic.ttf.png)|![ChakraPetch_400Regular](./ChakraPetch_400Regular.ttf.png)||
-|![ChakraPetch_400Regular_Italic](./ChakraPetch_400Regular_Italic.ttf.png)|![ChakraPetch_500Medium](./ChakraPetch_500Medium.ttf.png)|![ChakraPetch_500Medium_Italic](./ChakraPetch_500Medium_Italic.ttf.png)||
-|![ChakraPetch_600SemiBold](./ChakraPetch_600SemiBold.ttf.png)|![ChakraPetch_600SemiBold_Italic](./ChakraPetch_600SemiBold_Italic.ttf.png)|![ChakraPetch_700Bold](./ChakraPetch_700Bold.ttf.png)||
-|![ChakraPetch_700Bold_Italic](./ChakraPetch_700Bold_Italic.ttf.png)||||
+|![ChakraPetch_300Light](.//300Light/ChakraPetch_300Light.ttf.png)|![ChakraPetch_300Light_Italic](.//300Light_Italic/ChakraPetch_300Light_Italic.ttf.png)|![ChakraPetch_400Regular](.//400Regular/ChakraPetch_400Regular.ttf.png)||
+|![ChakraPetch_400Regular_Italic](.//400Regular_Italic/ChakraPetch_400Regular_Italic.ttf.png)|![ChakraPetch_500Medium](.//500Medium/ChakraPetch_500Medium.ttf.png)|![ChakraPetch_500Medium_Italic](.//500Medium_Italic/ChakraPetch_500Medium_Italic.ttf.png)||
+|![ChakraPetch_600SemiBold](.//600SemiBold/ChakraPetch_600SemiBold.ttf.png)|![ChakraPetch_600SemiBold_Italic](.//600SemiBold_Italic/ChakraPetch_600SemiBold_Italic.ttf.png)|![ChakraPetch_700Bold](.//700Bold/ChakraPetch_700Bold.ttf.png)||
+|![ChakraPetch_700Bold_Italic](.//700Bold_Italic/ChakraPetch_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

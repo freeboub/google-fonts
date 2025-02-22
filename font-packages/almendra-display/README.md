@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AlmendraDisplay_400Regular](./AlmendraDisplay_400Regular.ttf.png)||||
+|![AlmendraDisplay_400Regular](.//400Regular/AlmendraDisplay_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

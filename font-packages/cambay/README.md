@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Cambay_400Regular](./Cambay_400Regular.ttf.png)|![Cambay_400Regular_Italic](./Cambay_400Regular_Italic.ttf.png)|![Cambay_700Bold](./Cambay_700Bold.ttf.png)||
-|![Cambay_700Bold_Italic](./Cambay_700Bold_Italic.ttf.png)||||
+|![Cambay_400Regular](.//400Regular/Cambay_400Regular.ttf.png)|![Cambay_400Regular_Italic](.//400Regular_Italic/Cambay_400Regular_Italic.ttf.png)|![Cambay_700Bold](.//700Bold/Cambay_700Bold.ttf.png)||
+|![Cambay_700Bold_Italic](.//700Bold_Italic/Cambay_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

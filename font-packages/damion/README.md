@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Damion_400Regular](./Damion_400Regular.ttf.png)||||
+|![Damion_400Regular](.//400Regular/Damion_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

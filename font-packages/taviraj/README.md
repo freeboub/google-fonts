@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Taviraj_100Thin](./Taviraj_100Thin.ttf.png)|![Taviraj_100Thin_Italic](./Taviraj_100Thin_Italic.ttf.png)|![Taviraj_200ExtraLight](./Taviraj_200ExtraLight.ttf.png)||
-|![Taviraj_200ExtraLight_Italic](./Taviraj_200ExtraLight_Italic.ttf.png)|![Taviraj_300Light](./Taviraj_300Light.ttf.png)|![Taviraj_300Light_Italic](./Taviraj_300Light_Italic.ttf.png)||
-|![Taviraj_400Regular](./Taviraj_400Regular.ttf.png)|![Taviraj_400Regular_Italic](./Taviraj_400Regular_Italic.ttf.png)|![Taviraj_500Medium](./Taviraj_500Medium.ttf.png)||
-|![Taviraj_500Medium_Italic](./Taviraj_500Medium_Italic.ttf.png)|![Taviraj_600SemiBold](./Taviraj_600SemiBold.ttf.png)|![Taviraj_600SemiBold_Italic](./Taviraj_600SemiBold_Italic.ttf.png)||
-|![Taviraj_700Bold](./Taviraj_700Bold.ttf.png)|![Taviraj_700Bold_Italic](./Taviraj_700Bold_Italic.ttf.png)|![Taviraj_800ExtraBold](./Taviraj_800ExtraBold.ttf.png)||
-|![Taviraj_800ExtraBold_Italic](./Taviraj_800ExtraBold_Italic.ttf.png)|![Taviraj_900Black](./Taviraj_900Black.ttf.png)|![Taviraj_900Black_Italic](./Taviraj_900Black_Italic.ttf.png)||
+|![Taviraj_100Thin](.//100Thin/Taviraj_100Thin.ttf.png)|![Taviraj_100Thin_Italic](.//100Thin_Italic/Taviraj_100Thin_Italic.ttf.png)|![Taviraj_200ExtraLight](.//200ExtraLight/Taviraj_200ExtraLight.ttf.png)||
+|![Taviraj_200ExtraLight_Italic](.//200ExtraLight_Italic/Taviraj_200ExtraLight_Italic.ttf.png)|![Taviraj_300Light](.//300Light/Taviraj_300Light.ttf.png)|![Taviraj_300Light_Italic](.//300Light_Italic/Taviraj_300Light_Italic.ttf.png)||
+|![Taviraj_400Regular](.//400Regular/Taviraj_400Regular.ttf.png)|![Taviraj_400Regular_Italic](.//400Regular_Italic/Taviraj_400Regular_Italic.ttf.png)|![Taviraj_500Medium](.//500Medium/Taviraj_500Medium.ttf.png)||
+|![Taviraj_500Medium_Italic](.//500Medium_Italic/Taviraj_500Medium_Italic.ttf.png)|![Taviraj_600SemiBold](.//600SemiBold/Taviraj_600SemiBold.ttf.png)|![Taviraj_600SemiBold_Italic](.//600SemiBold_Italic/Taviraj_600SemiBold_Italic.ttf.png)||
+|![Taviraj_700Bold](.//700Bold/Taviraj_700Bold.ttf.png)|![Taviraj_700Bold_Italic](.//700Bold_Italic/Taviraj_700Bold_Italic.ttf.png)|![Taviraj_800ExtraBold](.//800ExtraBold/Taviraj_800ExtraBold.ttf.png)||
+|![Taviraj_800ExtraBold_Italic](.//800ExtraBold_Italic/Taviraj_800ExtraBold_Italic.ttf.png)|![Taviraj_900Black](.//900Black/Taviraj_900Black.ttf.png)|![Taviraj_900Black_Italic](.//900Black_Italic/Taviraj_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

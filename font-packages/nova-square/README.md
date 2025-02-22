@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NovaSquare_400Regular](./NovaSquare_400Regular.ttf.png)||||
+|![NovaSquare_400Regular](.//400Regular/NovaSquare_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -206,10 +206,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Niramit_200ExtraLight](./Niramit_200ExtraLight.ttf.png)|![Niramit_200ExtraLight_Italic](./Niramit_200ExtraLight_Italic.ttf.png)|![Niramit_300Light](./Niramit_300Light.ttf.png)||
-|![Niramit_300Light_Italic](./Niramit_300Light_Italic.ttf.png)|![Niramit_400Regular](./Niramit_400Regular.ttf.png)|![Niramit_400Regular_Italic](./Niramit_400Regular_Italic.ttf.png)||
-|![Niramit_500Medium](./Niramit_500Medium.ttf.png)|![Niramit_500Medium_Italic](./Niramit_500Medium_Italic.ttf.png)|![Niramit_600SemiBold](./Niramit_600SemiBold.ttf.png)||
-|![Niramit_600SemiBold_Italic](./Niramit_600SemiBold_Italic.ttf.png)|![Niramit_700Bold](./Niramit_700Bold.ttf.png)|![Niramit_700Bold_Italic](./Niramit_700Bold_Italic.ttf.png)||
+|![Niramit_200ExtraLight](.//200ExtraLight/Niramit_200ExtraLight.ttf.png)|![Niramit_200ExtraLight_Italic](.//200ExtraLight_Italic/Niramit_200ExtraLight_Italic.ttf.png)|![Niramit_300Light](.//300Light/Niramit_300Light.ttf.png)||
+|![Niramit_300Light_Italic](.//300Light_Italic/Niramit_300Light_Italic.ttf.png)|![Niramit_400Regular](.//400Regular/Niramit_400Regular.ttf.png)|![Niramit_400Regular_Italic](.//400Regular_Italic/Niramit_400Regular_Italic.ttf.png)||
+|![Niramit_500Medium](.//500Medium/Niramit_500Medium.ttf.png)|![Niramit_500Medium_Italic](.//500Medium_Italic/Niramit_500Medium_Italic.ttf.png)|![Niramit_600SemiBold](.//600SemiBold/Niramit_600SemiBold.ttf.png)||
+|![Niramit_600SemiBold_Italic](.//600SemiBold_Italic/Niramit_600SemiBold_Italic.ttf.png)|![Niramit_700Bold](.//700Bold/Niramit_700Bold.ttf.png)|![Niramit_700Bold_Italic](.//700Bold_Italic/Niramit_700Bold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

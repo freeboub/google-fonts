@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Gloock_400Regular](./Gloock_400Regular.ttf.png)||||
+|![Gloock_400Regular](.//400Regular/Gloock_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Yellowtail_400Regular](./Yellowtail_400Regular.ttf.png)||||
+|![Yellowtail_400Regular](.//400Regular/Yellowtail_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Birthstone_400Regular](./Birthstone_400Regular.ttf.png)||||
+|![Birthstone_400Regular](.//400Regular/Birthstone_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

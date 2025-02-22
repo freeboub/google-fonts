@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifEthiopic_100Thin](./NotoSerifEthiopic_100Thin.ttf.png)|![NotoSerifEthiopic_200ExtraLight](./NotoSerifEthiopic_200ExtraLight.ttf.png)|![NotoSerifEthiopic_300Light](./NotoSerifEthiopic_300Light.ttf.png)||
-|![NotoSerifEthiopic_400Regular](./NotoSerifEthiopic_400Regular.ttf.png)|![NotoSerifEthiopic_500Medium](./NotoSerifEthiopic_500Medium.ttf.png)|![NotoSerifEthiopic_600SemiBold](./NotoSerifEthiopic_600SemiBold.ttf.png)||
-|![NotoSerifEthiopic_700Bold](./NotoSerifEthiopic_700Bold.ttf.png)|![NotoSerifEthiopic_800ExtraBold](./NotoSerifEthiopic_800ExtraBold.ttf.png)|![NotoSerifEthiopic_900Black](./NotoSerifEthiopic_900Black.ttf.png)||
+|![NotoSerifEthiopic_100Thin](.//100Thin/NotoSerifEthiopic_100Thin.ttf.png)|![NotoSerifEthiopic_200ExtraLight](.//200ExtraLight/NotoSerifEthiopic_200ExtraLight.ttf.png)|![NotoSerifEthiopic_300Light](.//300Light/NotoSerifEthiopic_300Light.ttf.png)||
+|![NotoSerifEthiopic_400Regular](.//400Regular/NotoSerifEthiopic_400Regular.ttf.png)|![NotoSerifEthiopic_500Medium](.//500Medium/NotoSerifEthiopic_500Medium.ttf.png)|![NotoSerifEthiopic_600SemiBold](.//600SemiBold/NotoSerifEthiopic_600SemiBold.ttf.png)||
+|![NotoSerifEthiopic_700Bold](.//700Bold/NotoSerifEthiopic_700Bold.ttf.png)|![NotoSerifEthiopic_800ExtraBold](.//800ExtraBold/NotoSerifEthiopic_800ExtraBold.ttf.png)|![NotoSerifEthiopic_900Black](.//900Black/NotoSerifEthiopic_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Stalemate_400Regular](./Stalemate_400Regular.ttf.png)||||
+|![Stalemate_400Regular](.//400Regular/Stalemate_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

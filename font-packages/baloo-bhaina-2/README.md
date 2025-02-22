@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BalooBhaina2_400Regular](./BalooBhaina2_400Regular.ttf.png)|![BalooBhaina2_500Medium](./BalooBhaina2_500Medium.ttf.png)|![BalooBhaina2_600SemiBold](./BalooBhaina2_600SemiBold.ttf.png)||
-|![BalooBhaina2_700Bold](./BalooBhaina2_700Bold.ttf.png)|![BalooBhaina2_800ExtraBold](./BalooBhaina2_800ExtraBold.ttf.png)|||
+|![BalooBhaina2_400Regular](.//400Regular/BalooBhaina2_400Regular.ttf.png)|![BalooBhaina2_500Medium](.//500Medium/BalooBhaina2_500Medium.ttf.png)|![BalooBhaina2_600SemiBold](.//600SemiBold/BalooBhaina2_600SemiBold.ttf.png)||
+|![BalooBhaina2_700Bold](.//700Bold/BalooBhaina2_700Bold.ttf.png)|![BalooBhaina2_800ExtraBold](.//800ExtraBold/BalooBhaina2_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

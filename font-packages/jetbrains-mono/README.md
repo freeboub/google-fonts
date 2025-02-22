@@ -258,12 +258,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![JetBrainsMono_100Thin](./JetBrainsMono_100Thin.ttf.png)|![JetBrainsMono_200ExtraLight](./JetBrainsMono_200ExtraLight.ttf.png)|![JetBrainsMono_300Light](./JetBrainsMono_300Light.ttf.png)||
-|![JetBrainsMono_400Regular](./JetBrainsMono_400Regular.ttf.png)|![JetBrainsMono_500Medium](./JetBrainsMono_500Medium.ttf.png)|![JetBrainsMono_600SemiBold](./JetBrainsMono_600SemiBold.ttf.png)||
-|![JetBrainsMono_700Bold](./JetBrainsMono_700Bold.ttf.png)|![JetBrainsMono_800ExtraBold](./JetBrainsMono_800ExtraBold.ttf.png)|![JetBrainsMono_100Thin_Italic](./JetBrainsMono_100Thin_Italic.ttf.png)||
-|![JetBrainsMono_200ExtraLight_Italic](./JetBrainsMono_200ExtraLight_Italic.ttf.png)|![JetBrainsMono_300Light_Italic](./JetBrainsMono_300Light_Italic.ttf.png)|![JetBrainsMono_400Regular_Italic](./JetBrainsMono_400Regular_Italic.ttf.png)||
-|![JetBrainsMono_500Medium_Italic](./JetBrainsMono_500Medium_Italic.ttf.png)|![JetBrainsMono_600SemiBold_Italic](./JetBrainsMono_600SemiBold_Italic.ttf.png)|![JetBrainsMono_700Bold_Italic](./JetBrainsMono_700Bold_Italic.ttf.png)||
-|![JetBrainsMono_800ExtraBold_Italic](./JetBrainsMono_800ExtraBold_Italic.ttf.png)||||
+|![JetBrainsMono_100Thin](.//100Thin/JetBrainsMono_100Thin.ttf.png)|![JetBrainsMono_200ExtraLight](.//200ExtraLight/JetBrainsMono_200ExtraLight.ttf.png)|![JetBrainsMono_300Light](.//300Light/JetBrainsMono_300Light.ttf.png)||
+|![JetBrainsMono_400Regular](.//400Regular/JetBrainsMono_400Regular.ttf.png)|![JetBrainsMono_500Medium](.//500Medium/JetBrainsMono_500Medium.ttf.png)|![JetBrainsMono_600SemiBold](.//600SemiBold/JetBrainsMono_600SemiBold.ttf.png)||
+|![JetBrainsMono_700Bold](.//700Bold/JetBrainsMono_700Bold.ttf.png)|![JetBrainsMono_800ExtraBold](.//800ExtraBold/JetBrainsMono_800ExtraBold.ttf.png)|![JetBrainsMono_100Thin_Italic](.//100Thin_Italic/JetBrainsMono_100Thin_Italic.ttf.png)||
+|![JetBrainsMono_200ExtraLight_Italic](.//200ExtraLight_Italic/JetBrainsMono_200ExtraLight_Italic.ttf.png)|![JetBrainsMono_300Light_Italic](.//300Light_Italic/JetBrainsMono_300Light_Italic.ttf.png)|![JetBrainsMono_400Regular_Italic](.//400Regular_Italic/JetBrainsMono_400Regular_Italic.ttf.png)||
+|![JetBrainsMono_500Medium_Italic](.//500Medium_Italic/JetBrainsMono_500Medium_Italic.ttf.png)|![JetBrainsMono_600SemiBold_Italic](.//600SemiBold_Italic/JetBrainsMono_600SemiBold_Italic.ttf.png)|![JetBrainsMono_700Bold_Italic](.//700Bold_Italic/JetBrainsMono_700Bold_Italic.ttf.png)||
+|![JetBrainsMono_800ExtraBold_Italic](.//800ExtraBold_Italic/JetBrainsMono_800ExtraBold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

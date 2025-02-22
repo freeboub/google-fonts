@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![EduNSWACTFoundation_400Regular](./EduNSWACTFoundation_400Regular.ttf.png)|![EduNSWACTFoundation_500Medium](./EduNSWACTFoundation_500Medium.ttf.png)|![EduNSWACTFoundation_600SemiBold](./EduNSWACTFoundation_600SemiBold.ttf.png)||
-|![EduNSWACTFoundation_700Bold](./EduNSWACTFoundation_700Bold.ttf.png)||||
+|![EduNSWACTFoundation_400Regular](.//400Regular/EduNSWACTFoundation_400Regular.ttf.png)|![EduNSWACTFoundation_500Medium](.//500Medium/EduNSWACTFoundation_500Medium.ttf.png)|![EduNSWACTFoundation_600SemiBold](.//600SemiBold/EduNSWACTFoundation_600SemiBold.ttf.png)||
+|![EduNSWACTFoundation_700Bold](.//700Bold/EduNSWACTFoundation_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

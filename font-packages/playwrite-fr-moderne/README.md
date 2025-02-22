@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PlaywriteFRModerne_100Thin](./PlaywriteFRModerne_100Thin.ttf.png)|![PlaywriteFRModerne_200ExtraLight](./PlaywriteFRModerne_200ExtraLight.ttf.png)|![PlaywriteFRModerne_300Light](./PlaywriteFRModerne_300Light.ttf.png)||
-|![PlaywriteFRModerne_400Regular](./PlaywriteFRModerne_400Regular.ttf.png)||||
+|![PlaywriteFRModerne_100Thin](.//100Thin/PlaywriteFRModerne_100Thin.ttf.png)|![PlaywriteFRModerne_200ExtraLight](.//200ExtraLight/PlaywriteFRModerne_200ExtraLight.ttf.png)|![PlaywriteFRModerne_300Light](.//300Light/PlaywriteFRModerne_300Light.ttf.png)||
+|![PlaywriteFRModerne_400Regular](.//400Regular/PlaywriteFRModerne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

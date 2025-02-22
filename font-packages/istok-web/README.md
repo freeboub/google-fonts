@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![IstokWeb_400Regular](./IstokWeb_400Regular.ttf.png)|![IstokWeb_400Regular_Italic](./IstokWeb_400Regular_Italic.ttf.png)|![IstokWeb_700Bold](./IstokWeb_700Bold.ttf.png)||
-|![IstokWeb_700Bold_Italic](./IstokWeb_700Bold_Italic.ttf.png)||||
+|![IstokWeb_400Regular](.//400Regular/IstokWeb_400Regular.ttf.png)|![IstokWeb_400Regular_Italic](.//400Regular_Italic/IstokWeb_400Regular_Italic.ttf.png)|![IstokWeb_700Bold](.//700Bold/IstokWeb_700Bold.ttf.png)||
+|![IstokWeb_700Bold_Italic](.//700Bold_Italic/IstokWeb_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

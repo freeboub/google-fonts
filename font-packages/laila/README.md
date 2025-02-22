@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Laila_300Light](./Laila_300Light.ttf.png)|![Laila_400Regular](./Laila_400Regular.ttf.png)|![Laila_500Medium](./Laila_500Medium.ttf.png)||
-|![Laila_600SemiBold](./Laila_600SemiBold.ttf.png)|![Laila_700Bold](./Laila_700Bold.ttf.png)|||
+|![Laila_300Light](.//300Light/Laila_300Light.ttf.png)|![Laila_400Regular](.//400Regular/Laila_400Regular.ttf.png)|![Laila_500Medium](.//500Medium/Laila_500Medium.ttf.png)||
+|![Laila_600SemiBold](.//600SemiBold/Laila_600SemiBold.ttf.png)|![Laila_700Bold](.//700Bold/Laila_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

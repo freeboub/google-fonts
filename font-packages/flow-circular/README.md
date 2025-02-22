@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![FlowCircular_400Regular](./FlowCircular_400Regular.ttf.png)||||
+|![FlowCircular_400Regular](.//400Regular/FlowCircular_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

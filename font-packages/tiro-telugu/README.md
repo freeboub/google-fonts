@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![TiroTelugu_400Regular](./TiroTelugu_400Regular.ttf.png)|![TiroTelugu_400Regular_Italic](./TiroTelugu_400Regular_Italic.ttf.png)|||
+|![TiroTelugu_400Regular](.//400Regular/TiroTelugu_400Regular.ttf.png)|![TiroTelugu_400Regular_Italic](.//400Regular_Italic/TiroTelugu_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

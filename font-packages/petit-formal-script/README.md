@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PetitFormalScript_400Regular](./PetitFormalScript_400Regular.ttf.png)||||
+|![PetitFormalScript_400Regular](.//400Regular/PetitFormalScript_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

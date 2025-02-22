@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Trykker_400Regular](./Trykker_400Regular.ttf.png)||||
+|![Trykker_400Regular](.//400Regular/Trykker_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

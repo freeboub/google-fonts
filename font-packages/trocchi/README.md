@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Trocchi_400Regular](./Trocchi_400Regular.ttf.png)||||
+|![Trocchi_400Regular](.//400Regular/Trocchi_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

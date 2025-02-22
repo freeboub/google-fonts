@@ -89,7 +89,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SulphurPoint_300Light](./SulphurPoint_300Light.ttf.png)|![SulphurPoint_400Regular](./SulphurPoint_400Regular.ttf.png)|![SulphurPoint_700Bold](./SulphurPoint_700Bold.ttf.png)||
+|![SulphurPoint_300Light](.//300Light/SulphurPoint_300Light.ttf.png)|![SulphurPoint_400Regular](.//400Regular/SulphurPoint_400Regular.ttf.png)|![SulphurPoint_700Bold](.//700Bold/SulphurPoint_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RozhaOne_400Regular](./RozhaOne_400Regular.ttf.png)||||
+|![RozhaOne_400Regular](.//400Regular/RozhaOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

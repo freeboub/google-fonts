@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SairaStencilOne_400Regular](./SairaStencilOne_400Regular.ttf.png)||||
+|![SairaStencilOne_400Regular](.//400Regular/SairaStencilOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

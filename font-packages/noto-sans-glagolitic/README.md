@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansGlagolitic_400Regular](./NotoSansGlagolitic_400Regular.ttf.png)||||
+|![NotoSansGlagolitic_400Regular](.//400Regular/NotoSansGlagolitic_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

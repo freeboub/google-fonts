@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Syne_400Regular](./Syne_400Regular.ttf.png)|![Syne_500Medium](./Syne_500Medium.ttf.png)|![Syne_600SemiBold](./Syne_600SemiBold.ttf.png)||
-|![Syne_700Bold](./Syne_700Bold.ttf.png)|![Syne_800ExtraBold](./Syne_800ExtraBold.ttf.png)|||
+|![Syne_400Regular](.//400Regular/Syne_400Regular.ttf.png)|![Syne_500Medium](.//500Medium/Syne_500Medium.ttf.png)|![Syne_600SemiBold](.//600SemiBold/Syne_600SemiBold.ttf.png)||
+|![Syne_700Bold](.//700Bold/Syne_700Bold.ttf.png)|![Syne_800ExtraBold](.//800ExtraBold/Syne_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

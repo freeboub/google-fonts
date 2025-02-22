@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![UbuntuCondensed_400Regular](./UbuntuCondensed_400Regular.ttf.png)||||
+|![UbuntuCondensed_400Regular](.//400Regular/UbuntuCondensed_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

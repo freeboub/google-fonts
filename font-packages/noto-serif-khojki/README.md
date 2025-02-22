@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifKhojki_400Regular](./NotoSerifKhojki_400Regular.ttf.png)|![NotoSerifKhojki_500Medium](./NotoSerifKhojki_500Medium.ttf.png)|![NotoSerifKhojki_600SemiBold](./NotoSerifKhojki_600SemiBold.ttf.png)||
-|![NotoSerifKhojki_700Bold](./NotoSerifKhojki_700Bold.ttf.png)||||
+|![NotoSerifKhojki_400Regular](.//400Regular/NotoSerifKhojki_400Regular.ttf.png)|![NotoSerifKhojki_500Medium](.//500Medium/NotoSerifKhojki_500Medium.ttf.png)|![NotoSerifKhojki_600SemiBold](.//600SemiBold/NotoSerifKhojki_600SemiBold.ttf.png)||
+|![NotoSerifKhojki_700Bold](.//700Bold/NotoSerifKhojki_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

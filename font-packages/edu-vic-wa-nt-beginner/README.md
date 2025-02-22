@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![EduVICWANTBeginner_400Regular](./EduVICWANTBeginner_400Regular.ttf.png)|![EduVICWANTBeginner_500Medium](./EduVICWANTBeginner_500Medium.ttf.png)|![EduVICWANTBeginner_600SemiBold](./EduVICWANTBeginner_600SemiBold.ttf.png)||
-|![EduVICWANTBeginner_700Bold](./EduVICWANTBeginner_700Bold.ttf.png)||||
+|![EduVICWANTBeginner_400Regular](.//400Regular/EduVICWANTBeginner_400Regular.ttf.png)|![EduVICWANTBeginner_500Medium](.//500Medium/EduVICWANTBeginner_500Medium.ttf.png)|![EduVICWANTBeginner_600SemiBold](.//600SemiBold/EduVICWANTBeginner_600SemiBold.ttf.png)||
+|![EduVICWANTBeginner_700Bold](.//700Bold/EduVICWANTBeginner_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

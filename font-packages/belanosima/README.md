@@ -89,7 +89,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Belanosima_400Regular](./Belanosima_400Regular.ttf.png)|![Belanosima_600SemiBold](./Belanosima_600SemiBold.ttf.png)|![Belanosima_700Bold](./Belanosima_700Bold.ttf.png)||
+|![Belanosima_400Regular](.//400Regular/Belanosima_400Regular.ttf.png)|![Belanosima_600SemiBold](.//600SemiBold/Belanosima_600SemiBold.ttf.png)|![Belanosima_700Bold](.//700Bold/Belanosima_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

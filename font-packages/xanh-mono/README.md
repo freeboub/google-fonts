@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![XanhMono_400Regular](./XanhMono_400Regular.ttf.png)|![XanhMono_400Regular_Italic](./XanhMono_400Regular_Italic.ttf.png)|||
+|![XanhMono_400Regular](.//400Regular/XanhMono_400Regular.ttf.png)|![XanhMono_400Regular_Italic](.//400Regular_Italic/XanhMono_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

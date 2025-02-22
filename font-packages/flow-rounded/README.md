@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![FlowRounded_400Regular](./FlowRounded_400Regular.ttf.png)||||
+|![FlowRounded_400Regular](.//400Regular/FlowRounded_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

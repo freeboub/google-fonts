@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Molengo_400Regular](./Molengo_400Regular.ttf.png)||||
+|![Molengo_400Regular](.//400Regular/Molengo_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

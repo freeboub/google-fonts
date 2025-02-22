@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MaterialSymbolsRounded_100Thin](./MaterialSymbolsRounded_100Thin.ttf.png)|![MaterialSymbolsRounded_200ExtraLight](./MaterialSymbolsRounded_200ExtraLight.ttf.png)|![MaterialSymbolsRounded_300Light](./MaterialSymbolsRounded_300Light.ttf.png)||
-|![MaterialSymbolsRounded_400Regular](./MaterialSymbolsRounded_400Regular.ttf.png)|![MaterialSymbolsRounded_500Medium](./MaterialSymbolsRounded_500Medium.ttf.png)|![MaterialSymbolsRounded_600SemiBold](./MaterialSymbolsRounded_600SemiBold.ttf.png)||
-|![MaterialSymbolsRounded_700Bold](./MaterialSymbolsRounded_700Bold.ttf.png)||||
+|![MaterialSymbolsRounded_100Thin](.//100Thin/MaterialSymbolsRounded_100Thin.ttf.png)|![MaterialSymbolsRounded_200ExtraLight](.//200ExtraLight/MaterialSymbolsRounded_200ExtraLight.ttf.png)|![MaterialSymbolsRounded_300Light](.//300Light/MaterialSymbolsRounded_300Light.ttf.png)||
+|![MaterialSymbolsRounded_400Regular](.//400Regular/MaterialSymbolsRounded_400Regular.ttf.png)|![MaterialSymbolsRounded_500Medium](.//500Medium/MaterialSymbolsRounded_500Medium.ttf.png)|![MaterialSymbolsRounded_600SemiBold](.//600SemiBold/MaterialSymbolsRounded_600SemiBold.ttf.png)||
+|![MaterialSymbolsRounded_700Bold](.//700Bold/MaterialSymbolsRounded_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

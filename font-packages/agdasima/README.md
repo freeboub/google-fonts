@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Agdasima_400Regular](./Agdasima_400Regular.ttf.png)|![Agdasima_700Bold](./Agdasima_700Bold.ttf.png)|||
+|![Agdasima_400Regular](.//400Regular/Agdasima_400Regular.ttf.png)|![Agdasima_700Bold](.//700Bold/Agdasima_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

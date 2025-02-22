@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansMyanmar_100Thin](./NotoSansMyanmar_100Thin.ttf.png)|![NotoSansMyanmar_200ExtraLight](./NotoSansMyanmar_200ExtraLight.ttf.png)|![NotoSansMyanmar_300Light](./NotoSansMyanmar_300Light.ttf.png)||
-|![NotoSansMyanmar_400Regular](./NotoSansMyanmar_400Regular.ttf.png)|![NotoSansMyanmar_500Medium](./NotoSansMyanmar_500Medium.ttf.png)|![NotoSansMyanmar_600SemiBold](./NotoSansMyanmar_600SemiBold.ttf.png)||
-|![NotoSansMyanmar_700Bold](./NotoSansMyanmar_700Bold.ttf.png)|![NotoSansMyanmar_800ExtraBold](./NotoSansMyanmar_800ExtraBold.ttf.png)|![NotoSansMyanmar_900Black](./NotoSansMyanmar_900Black.ttf.png)||
+|![NotoSansMyanmar_100Thin](.//100Thin/NotoSansMyanmar_100Thin.ttf.png)|![NotoSansMyanmar_200ExtraLight](.//200ExtraLight/NotoSansMyanmar_200ExtraLight.ttf.png)|![NotoSansMyanmar_300Light](.//300Light/NotoSansMyanmar_300Light.ttf.png)||
+|![NotoSansMyanmar_400Regular](.//400Regular/NotoSansMyanmar_400Regular.ttf.png)|![NotoSansMyanmar_500Medium](.//500Medium/NotoSansMyanmar_500Medium.ttf.png)|![NotoSansMyanmar_600SemiBold](.//600SemiBold/NotoSansMyanmar_600SemiBold.ttf.png)||
+|![NotoSansMyanmar_700Bold](.//700Bold/NotoSansMyanmar_700Bold.ttf.png)|![NotoSansMyanmar_800ExtraBold](.//800ExtraBold/NotoSansMyanmar_800ExtraBold.ttf.png)|![NotoSansMyanmar_900Black](.//900Black/NotoSansMyanmar_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

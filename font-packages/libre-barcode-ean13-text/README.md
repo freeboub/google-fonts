@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LibreBarcodeEAN13Text_400Regular](./LibreBarcodeEAN13Text_400Regular.ttf.png)||||
+|![LibreBarcodeEAN13Text_400Regular](.//400Regular/LibreBarcodeEAN13Text_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ChelaOne_400Regular](./ChelaOne_400Regular.ttf.png)||||
+|![ChelaOne_400Regular](.//400Regular/ChelaOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

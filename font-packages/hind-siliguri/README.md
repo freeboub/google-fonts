@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![HindSiliguri_300Light](./HindSiliguri_300Light.ttf.png)|![HindSiliguri_400Regular](./HindSiliguri_400Regular.ttf.png)|![HindSiliguri_500Medium](./HindSiliguri_500Medium.ttf.png)||
-|![HindSiliguri_600SemiBold](./HindSiliguri_600SemiBold.ttf.png)|![HindSiliguri_700Bold](./HindSiliguri_700Bold.ttf.png)|||
+|![HindSiliguri_300Light](.//300Light/HindSiliguri_300Light.ttf.png)|![HindSiliguri_400Regular](.//400Regular/HindSiliguri_400Regular.ttf.png)|![HindSiliguri_500Medium](.//500Medium/HindSiliguri_500Medium.ttf.png)||
+|![HindSiliguri_600SemiBold](.//600SemiBold/HindSiliguri_600SemiBold.ttf.png)|![HindSiliguri_700Bold](.//700Bold/HindSiliguri_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

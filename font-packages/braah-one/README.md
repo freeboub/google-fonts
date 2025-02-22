@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BraahOne_400Regular](./BraahOne_400Regular.ttf.png)||||
+|![BraahOne_400Regular](.//400Regular/BraahOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

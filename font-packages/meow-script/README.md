@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MeowScript_400Regular](./MeowScript_400Regular.ttf.png)||||
+|![MeowScript_400Regular](.//400Regular/MeowScript_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

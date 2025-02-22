@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SquadaOne_400Regular](./SquadaOne_400Regular.ttf.png)||||
+|![SquadaOne_400Regular](.//400Regular/SquadaOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

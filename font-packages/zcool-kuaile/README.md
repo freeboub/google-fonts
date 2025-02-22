@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ZCOOLKuaiLe_400Regular](./ZCOOLKuaiLe_400Regular.ttf.png)||||
+|![ZCOOLKuaiLe_400Regular](.//400Regular/ZCOOLKuaiLe_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

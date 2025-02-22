@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Content_400Regular](./Content_400Regular.ttf.png)|![Content_700Bold](./Content_700Bold.ttf.png)|||
+|![Content_400Regular](.//400Regular/Content_400Regular.ttf.png)|![Content_700Bold](.//700Bold/Content_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

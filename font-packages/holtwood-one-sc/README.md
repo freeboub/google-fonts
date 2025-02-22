@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![HoltwoodOneSC_400Regular](./HoltwoodOneSC_400Regular.ttf.png)||||
+|![HoltwoodOneSC_400Regular](.//400Regular/HoltwoodOneSC_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

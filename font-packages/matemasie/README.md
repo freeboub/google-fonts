@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Matemasie_400Regular](./Matemasie_400Regular.ttf.png)||||
+|![Matemasie_400Regular](.//400Regular/Matemasie_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

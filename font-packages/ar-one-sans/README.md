@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AROneSans_400Regular](./AROneSans_400Regular.ttf.png)|![AROneSans_500Medium](./AROneSans_500Medium.ttf.png)|![AROneSans_600SemiBold](./AROneSans_600SemiBold.ttf.png)||
-|![AROneSans_700Bold](./AROneSans_700Bold.ttf.png)||||
+|![AROneSans_400Regular](.//400Regular/AROneSans_400Regular.ttf.png)|![AROneSans_500Medium](.//500Medium/AROneSans_500Medium.ttf.png)|![AROneSans_600SemiBold](.//600SemiBold/AROneSans_600SemiBold.ttf.png)||
+|![AROneSans_700Bold](.//700Bold/AROneSans_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

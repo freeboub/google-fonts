@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PlaywriteRO_100Thin](./PlaywriteRO_100Thin.ttf.png)|![PlaywriteRO_200ExtraLight](./PlaywriteRO_200ExtraLight.ttf.png)|![PlaywriteRO_300Light](./PlaywriteRO_300Light.ttf.png)||
-|![PlaywriteRO_400Regular](./PlaywriteRO_400Regular.ttf.png)||||
+|![PlaywriteRO_100Thin](.//100Thin/PlaywriteRO_100Thin.ttf.png)|![PlaywriteRO_200ExtraLight](.//200ExtraLight/PlaywriteRO_200ExtraLight.ttf.png)|![PlaywriteRO_300Light](.//300Light/PlaywriteRO_300Light.ttf.png)||
+|![PlaywriteRO_400Regular](.//400Regular/PlaywriteRO_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

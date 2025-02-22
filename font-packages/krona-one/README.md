@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KronaOne_400Regular](./KronaOne_400Regular.ttf.png)||||
+|![KronaOne_400Regular](.//400Regular/KronaOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

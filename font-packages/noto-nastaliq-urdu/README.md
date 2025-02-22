@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoNastaliqUrdu_400Regular](./NotoNastaliqUrdu_400Regular.ttf.png)|![NotoNastaliqUrdu_500Medium](./NotoNastaliqUrdu_500Medium.ttf.png)|![NotoNastaliqUrdu_600SemiBold](./NotoNastaliqUrdu_600SemiBold.ttf.png)||
-|![NotoNastaliqUrdu_700Bold](./NotoNastaliqUrdu_700Bold.ttf.png)||||
+|![NotoNastaliqUrdu_400Regular](.//400Regular/NotoNastaliqUrdu_400Regular.ttf.png)|![NotoNastaliqUrdu_500Medium](.//500Medium/NotoNastaliqUrdu_500Medium.ttf.png)|![NotoNastaliqUrdu_600SemiBold](.//600SemiBold/NotoNastaliqUrdu_600SemiBold.ttf.png)||
+|![NotoNastaliqUrdu_700Bold](.//700Bold/NotoNastaliqUrdu_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

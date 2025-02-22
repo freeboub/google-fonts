@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![FaunaOne_400Regular](./FaunaOne_400Regular.ttf.png)||||
+|![FaunaOne_400Regular](.//400Regular/FaunaOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

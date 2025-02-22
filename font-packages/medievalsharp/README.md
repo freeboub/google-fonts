@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MedievalSharp_400Regular](./MedievalSharp_400Regular.ttf.png)||||
+|![MedievalSharp_400Regular](.//400Regular/MedievalSharp_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

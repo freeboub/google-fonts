@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Magra_400Regular](./Magra_400Regular.ttf.png)|![Magra_700Bold](./Magra_700Bold.ttf.png)|||
+|![Magra_400Regular](.//400Regular/Magra_400Regular.ttf.png)|![Magra_700Bold](.//700Bold/Magra_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

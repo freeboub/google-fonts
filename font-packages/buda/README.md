@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Buda_300Light](./Buda_300Light.ttf.png)||||
+|![Buda_300Light](.//300Light/Buda_300Light.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

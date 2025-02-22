@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifToto_400Regular](./NotoSerifToto_400Regular.ttf.png)|![NotoSerifToto_500Medium](./NotoSerifToto_500Medium.ttf.png)|![NotoSerifToto_600SemiBold](./NotoSerifToto_600SemiBold.ttf.png)||
-|![NotoSerifToto_700Bold](./NotoSerifToto_700Bold.ttf.png)||||
+|![NotoSerifToto_400Regular](.//400Regular/NotoSerifToto_400Regular.ttf.png)|![NotoSerifToto_500Medium](.//500Medium/NotoSerifToto_500Medium.ttf.png)|![NotoSerifToto_600SemiBold](.//600SemiBold/NotoSerifToto_600SemiBold.ttf.png)||
+|![NotoSerifToto_700Bold](.//700Bold/NotoSerifToto_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

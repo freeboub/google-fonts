@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Jaldi_400Regular](./Jaldi_400Regular.ttf.png)|![Jaldi_700Bold](./Jaldi_700Bold.ttf.png)|||
+|![Jaldi_400Regular](.//400Regular/Jaldi_400Regular.ttf.png)|![Jaldi_700Bold](.//700Bold/Jaldi_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

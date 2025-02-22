@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Finlandica_400Regular](./Finlandica_400Regular.ttf.png)|![Finlandica_500Medium](./Finlandica_500Medium.ttf.png)|![Finlandica_600SemiBold](./Finlandica_600SemiBold.ttf.png)||
-|![Finlandica_700Bold](./Finlandica_700Bold.ttf.png)|![Finlandica_400Regular_Italic](./Finlandica_400Regular_Italic.ttf.png)|![Finlandica_500Medium_Italic](./Finlandica_500Medium_Italic.ttf.png)||
-|![Finlandica_600SemiBold_Italic](./Finlandica_600SemiBold_Italic.ttf.png)|![Finlandica_700Bold_Italic](./Finlandica_700Bold_Italic.ttf.png)|||
+|![Finlandica_400Regular](.//400Regular/Finlandica_400Regular.ttf.png)|![Finlandica_500Medium](.//500Medium/Finlandica_500Medium.ttf.png)|![Finlandica_600SemiBold](.//600SemiBold/Finlandica_600SemiBold.ttf.png)||
+|![Finlandica_700Bold](.//700Bold/Finlandica_700Bold.ttf.png)|![Finlandica_400Regular_Italic](.//400Regular_Italic/Finlandica_400Regular_Italic.ttf.png)|![Finlandica_500Medium_Italic](.//500Medium_Italic/Finlandica_500Medium_Italic.ttf.png)||
+|![Finlandica_600SemiBold_Italic](.//600SemiBold_Italic/Finlandica_600SemiBold_Italic.ttf.png)|![Finlandica_700Bold_Italic](.//700Bold_Italic/Finlandica_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

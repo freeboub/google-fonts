@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Salsa_400Regular](./Salsa_400Regular.ttf.png)||||
+|![Salsa_400Regular](.//400Regular/Salsa_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

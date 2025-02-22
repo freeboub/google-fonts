@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RopaSans_400Regular](./RopaSans_400Regular.ttf.png)|![RopaSans_400Regular_Italic](./RopaSans_400Regular_Italic.ttf.png)|||
+|![RopaSans_400Regular](.//400Regular/RopaSans_400Regular.ttf.png)|![RopaSans_400Regular_Italic](.//400Regular_Italic/RopaSans_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

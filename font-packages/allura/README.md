@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Allura_400Regular](./Allura_400Regular.ttf.png)||||
+|![Allura_400Regular](.//400Regular/Allura_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

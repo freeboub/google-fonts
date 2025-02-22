@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Pangolin_400Regular](./Pangolin_400Regular.ttf.png)||||
+|![Pangolin_400Regular](.//400Regular/Pangolin_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

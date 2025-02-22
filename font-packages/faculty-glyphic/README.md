@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![FacultyGlyphic_400Regular](./FacultyGlyphic_400Regular.ttf.png)||||
+|![FacultyGlyphic_400Regular](.//400Regular/FacultyGlyphic_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

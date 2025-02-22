@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BalooDa2_400Regular](./BalooDa2_400Regular.ttf.png)|![BalooDa2_500Medium](./BalooDa2_500Medium.ttf.png)|![BalooDa2_600SemiBold](./BalooDa2_600SemiBold.ttf.png)||
-|![BalooDa2_700Bold](./BalooDa2_700Bold.ttf.png)|![BalooDa2_800ExtraBold](./BalooDa2_800ExtraBold.ttf.png)|||
+|![BalooDa2_400Regular](.//400Regular/BalooDa2_400Regular.ttf.png)|![BalooDa2_500Medium](.//500Medium/BalooDa2_500Medium.ttf.png)|![BalooDa2_600SemiBold](.//600SemiBold/BalooDa2_600SemiBold.ttf.png)||
+|![BalooDa2_700Bold](.//700Bold/BalooDa2_700Bold.ttf.png)|![BalooDa2_800ExtraBold](.//800ExtraBold/BalooDa2_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

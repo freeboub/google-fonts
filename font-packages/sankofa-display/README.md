@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SankofaDisplay_400Regular](./SankofaDisplay_400Regular.ttf.png)||||
+|![SankofaDisplay_400Regular](.//400Regular/SankofaDisplay_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -89,7 +89,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KaiseiDecol_400Regular](./KaiseiDecol_400Regular.ttf.png)|![KaiseiDecol_500Medium](./KaiseiDecol_500Medium.ttf.png)|![KaiseiDecol_700Bold](./KaiseiDecol_700Bold.ttf.png)||
+|![KaiseiDecol_400Regular](.//400Regular/KaiseiDecol_400Regular.ttf.png)|![KaiseiDecol_500Medium](.//500Medium/KaiseiDecol_500Medium.ttf.png)|![KaiseiDecol_700Bold](.//700Bold/KaiseiDecol_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

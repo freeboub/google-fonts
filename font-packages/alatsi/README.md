@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Alatsi_400Regular](./Alatsi_400Regular.ttf.png)||||
+|![Alatsi_400Regular](.//400Regular/Alatsi_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![TiltWarp_400Regular](./TiltWarp_400Regular.ttf.png)||||
+|![TiltWarp_400Regular](.//400Regular/TiltWarp_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

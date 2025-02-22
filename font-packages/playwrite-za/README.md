@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PlaywriteZA_100Thin](./PlaywriteZA_100Thin.ttf.png)|![PlaywriteZA_200ExtraLight](./PlaywriteZA_200ExtraLight.ttf.png)|![PlaywriteZA_300Light](./PlaywriteZA_300Light.ttf.png)||
-|![PlaywriteZA_400Regular](./PlaywriteZA_400Regular.ttf.png)||||
+|![PlaywriteZA_100Thin](.//100Thin/PlaywriteZA_100Thin.ttf.png)|![PlaywriteZA_200ExtraLight](.//200ExtraLight/PlaywriteZA_200ExtraLight.ttf.png)|![PlaywriteZA_300Light](.//300Light/PlaywriteZA_300Light.ttf.png)||
+|![PlaywriteZA_400Regular](.//400Regular/PlaywriteZA_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MontaguSlab_100Thin](./MontaguSlab_100Thin.ttf.png)|![MontaguSlab_200ExtraLight](./MontaguSlab_200ExtraLight.ttf.png)|![MontaguSlab_300Light](./MontaguSlab_300Light.ttf.png)||
-|![MontaguSlab_400Regular](./MontaguSlab_400Regular.ttf.png)|![MontaguSlab_500Medium](./MontaguSlab_500Medium.ttf.png)|![MontaguSlab_600SemiBold](./MontaguSlab_600SemiBold.ttf.png)||
-|![MontaguSlab_700Bold](./MontaguSlab_700Bold.ttf.png)||||
+|![MontaguSlab_100Thin](.//100Thin/MontaguSlab_100Thin.ttf.png)|![MontaguSlab_200ExtraLight](.//200ExtraLight/MontaguSlab_200ExtraLight.ttf.png)|![MontaguSlab_300Light](.//300Light/MontaguSlab_300Light.ttf.png)||
+|![MontaguSlab_400Regular](.//400Regular/MontaguSlab_400Regular.ttf.png)|![MontaguSlab_500Medium](.//500Medium/MontaguSlab_500Medium.ttf.png)|![MontaguSlab_600SemiBold](.//600SemiBold/MontaguSlab_600SemiBold.ttf.png)||
+|![MontaguSlab_700Bold](.//700Bold/MontaguSlab_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

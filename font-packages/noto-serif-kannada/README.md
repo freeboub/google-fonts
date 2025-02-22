@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifKannada_100Thin](./NotoSerifKannada_100Thin.ttf.png)|![NotoSerifKannada_200ExtraLight](./NotoSerifKannada_200ExtraLight.ttf.png)|![NotoSerifKannada_300Light](./NotoSerifKannada_300Light.ttf.png)||
-|![NotoSerifKannada_400Regular](./NotoSerifKannada_400Regular.ttf.png)|![NotoSerifKannada_500Medium](./NotoSerifKannada_500Medium.ttf.png)|![NotoSerifKannada_600SemiBold](./NotoSerifKannada_600SemiBold.ttf.png)||
-|![NotoSerifKannada_700Bold](./NotoSerifKannada_700Bold.ttf.png)|![NotoSerifKannada_800ExtraBold](./NotoSerifKannada_800ExtraBold.ttf.png)|![NotoSerifKannada_900Black](./NotoSerifKannada_900Black.ttf.png)||
+|![NotoSerifKannada_100Thin](.//100Thin/NotoSerifKannada_100Thin.ttf.png)|![NotoSerifKannada_200ExtraLight](.//200ExtraLight/NotoSerifKannada_200ExtraLight.ttf.png)|![NotoSerifKannada_300Light](.//300Light/NotoSerifKannada_300Light.ttf.png)||
+|![NotoSerifKannada_400Regular](.//400Regular/NotoSerifKannada_400Regular.ttf.png)|![NotoSerifKannada_500Medium](.//500Medium/NotoSerifKannada_500Medium.ttf.png)|![NotoSerifKannada_600SemiBold](.//600SemiBold/NotoSerifKannada_600SemiBold.ttf.png)||
+|![NotoSerifKannada_700Bold](.//700Bold/NotoSerifKannada_700Bold.ttf.png)|![NotoSerifKannada_800ExtraBold](.//800ExtraBold/NotoSerifKannada_800ExtraBold.ttf.png)|![NotoSerifKannada_900Black](.//900Black/NotoSerifKannada_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

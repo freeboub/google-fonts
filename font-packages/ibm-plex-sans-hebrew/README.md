@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![IBMPlexSansHebrew_100Thin](./IBMPlexSansHebrew_100Thin.ttf.png)|![IBMPlexSansHebrew_200ExtraLight](./IBMPlexSansHebrew_200ExtraLight.ttf.png)|![IBMPlexSansHebrew_300Light](./IBMPlexSansHebrew_300Light.ttf.png)||
-|![IBMPlexSansHebrew_400Regular](./IBMPlexSansHebrew_400Regular.ttf.png)|![IBMPlexSansHebrew_500Medium](./IBMPlexSansHebrew_500Medium.ttf.png)|![IBMPlexSansHebrew_600SemiBold](./IBMPlexSansHebrew_600SemiBold.ttf.png)||
-|![IBMPlexSansHebrew_700Bold](./IBMPlexSansHebrew_700Bold.ttf.png)||||
+|![IBMPlexSansHebrew_100Thin](.//100Thin/IBMPlexSansHebrew_100Thin.ttf.png)|![IBMPlexSansHebrew_200ExtraLight](.//200ExtraLight/IBMPlexSansHebrew_200ExtraLight.ttf.png)|![IBMPlexSansHebrew_300Light](.//300Light/IBMPlexSansHebrew_300Light.ttf.png)||
+|![IBMPlexSansHebrew_400Regular](.//400Regular/IBMPlexSansHebrew_400Regular.ttf.png)|![IBMPlexSansHebrew_500Medium](.//500Medium/IBMPlexSansHebrew_500Medium.ttf.png)|![IBMPlexSansHebrew_600SemiBold](.//600SemiBold/IBMPlexSansHebrew_600SemiBold.ttf.png)||
+|![IBMPlexSansHebrew_700Bold](.//700Bold/IBMPlexSansHebrew_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

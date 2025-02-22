@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![VujahdayScript_400Regular](./VujahdayScript_400Regular.ttf.png)||||
+|![VujahdayScript_400Regular](.//400Regular/VujahdayScript_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

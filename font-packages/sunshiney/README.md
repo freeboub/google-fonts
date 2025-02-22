@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Sunshiney_400Regular](./Sunshiney_400Regular.ttf.png)||||
+|![Sunshiney_400Regular](.//400Regular/Sunshiney_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

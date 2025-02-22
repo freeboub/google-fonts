@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NerkoOne_400Regular](./NerkoOne_400Regular.ttf.png)||||
+|![NerkoOne_400Regular](.//400Regular/NerkoOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

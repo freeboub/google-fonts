@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Chicle_400Regular](./Chicle_400Regular.ttf.png)||||
+|![Chicle_400Regular](.//400Regular/Chicle_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

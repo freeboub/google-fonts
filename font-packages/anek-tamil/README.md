@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AnekTamil_100Thin](./AnekTamil_100Thin.ttf.png)|![AnekTamil_200ExtraLight](./AnekTamil_200ExtraLight.ttf.png)|![AnekTamil_300Light](./AnekTamil_300Light.ttf.png)||
-|![AnekTamil_400Regular](./AnekTamil_400Regular.ttf.png)|![AnekTamil_500Medium](./AnekTamil_500Medium.ttf.png)|![AnekTamil_600SemiBold](./AnekTamil_600SemiBold.ttf.png)||
-|![AnekTamil_700Bold](./AnekTamil_700Bold.ttf.png)|![AnekTamil_800ExtraBold](./AnekTamil_800ExtraBold.ttf.png)|||
+|![AnekTamil_100Thin](.//100Thin/AnekTamil_100Thin.ttf.png)|![AnekTamil_200ExtraLight](.//200ExtraLight/AnekTamil_200ExtraLight.ttf.png)|![AnekTamil_300Light](.//300Light/AnekTamil_300Light.ttf.png)||
+|![AnekTamil_400Regular](.//400Regular/AnekTamil_400Regular.ttf.png)|![AnekTamil_500Medium](.//500Medium/AnekTamil_500Medium.ttf.png)|![AnekTamil_600SemiBold](.//600SemiBold/AnekTamil_600SemiBold.ttf.png)||
+|![AnekTamil_700Bold](.//700Bold/AnekTamil_700Bold.ttf.png)|![AnekTamil_800ExtraBold](.//800ExtraBold/AnekTamil_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

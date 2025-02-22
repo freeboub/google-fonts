@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Varta_300Light](./Varta_300Light.ttf.png)|![Varta_400Regular](./Varta_400Regular.ttf.png)|![Varta_500Medium](./Varta_500Medium.ttf.png)||
-|![Varta_600SemiBold](./Varta_600SemiBold.ttf.png)|![Varta_700Bold](./Varta_700Bold.ttf.png)|||
+|![Varta_300Light](.//300Light/Varta_300Light.ttf.png)|![Varta_400Regular](.//400Regular/Varta_400Regular.ttf.png)|![Varta_500Medium](.//500Medium/Varta_500Medium.ttf.png)||
+|![Varta_600SemiBold](.//600SemiBold/Varta_600SemiBold.ttf.png)|![Varta_700Bold](.//700Bold/Varta_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

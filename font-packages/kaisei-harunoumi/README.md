@@ -89,7 +89,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KaiseiHarunoUmi_400Regular](./KaiseiHarunoUmi_400Regular.ttf.png)|![KaiseiHarunoUmi_500Medium](./KaiseiHarunoUmi_500Medium.ttf.png)|![KaiseiHarunoUmi_700Bold](./KaiseiHarunoUmi_700Bold.ttf.png)||
+|![KaiseiHarunoUmi_400Regular](.//400Regular/KaiseiHarunoUmi_400Regular.ttf.png)|![KaiseiHarunoUmi_500Medium](.//500Medium/KaiseiHarunoUmi_500Medium.ttf.png)|![KaiseiHarunoUmi_700Bold](.//700Bold/KaiseiHarunoUmi_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

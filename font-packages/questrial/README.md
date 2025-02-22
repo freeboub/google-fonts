@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Questrial_400Regular](./Questrial_400Regular.ttf.png)||||
+|![Questrial_400Regular](.//400Regular/Questrial_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

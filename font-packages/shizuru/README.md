@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Shizuru_400Regular](./Shizuru_400Regular.ttf.png)||||
+|![Shizuru_400Regular](.//400Regular/Shizuru_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

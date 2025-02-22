@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Wellfleet_400Regular](./Wellfleet_400Regular.ttf.png)||||
+|![Wellfleet_400Regular](.//400Regular/Wellfleet_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

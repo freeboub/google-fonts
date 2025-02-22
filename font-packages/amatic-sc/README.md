@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AmaticSC_400Regular](./AmaticSC_400Regular.ttf.png)|![AmaticSC_700Bold](./AmaticSC_700Bold.ttf.png)|||
+|![AmaticSC_400Regular](.//400Regular/AmaticSC_400Regular.ttf.png)|![AmaticSC_700Bold](.//700Bold/AmaticSC_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Sriracha_400Regular](./Sriracha_400Regular.ttf.png)||||
+|![Sriracha_400Regular](.//400Regular/Sriracha_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

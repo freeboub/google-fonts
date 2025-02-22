@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ReemKufiFun_400Regular](./ReemKufiFun_400Regular.ttf.png)|![ReemKufiFun_500Medium](./ReemKufiFun_500Medium.ttf.png)|![ReemKufiFun_600SemiBold](./ReemKufiFun_600SemiBold.ttf.png)||
-|![ReemKufiFun_700Bold](./ReemKufiFun_700Bold.ttf.png)||||
+|![ReemKufiFun_400Regular](.//400Regular/ReemKufiFun_400Regular.ttf.png)|![ReemKufiFun_500Medium](.//500Medium/ReemKufiFun_500Medium.ttf.png)|![ReemKufiFun_600SemiBold](.//600SemiBold/ReemKufiFun_600SemiBold.ttf.png)||
+|![ReemKufiFun_700Bold](.//700Bold/ReemKufiFun_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

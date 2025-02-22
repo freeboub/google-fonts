@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PortLligatSans_400Regular](./PortLligatSans_400Regular.ttf.png)||||
+|![PortLligatSans_400Regular](.//400Regular/PortLligatSans_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

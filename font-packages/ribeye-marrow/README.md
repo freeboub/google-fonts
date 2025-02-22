@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RibeyeMarrow_400Regular](./RibeyeMarrow_400Regular.ttf.png)||||
+|![RibeyeMarrow_400Regular](.//400Regular/RibeyeMarrow_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

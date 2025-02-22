@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Petrona_100Thin](./Petrona_100Thin.ttf.png)|![Petrona_200ExtraLight](./Petrona_200ExtraLight.ttf.png)|![Petrona_300Light](./Petrona_300Light.ttf.png)||
-|![Petrona_400Regular](./Petrona_400Regular.ttf.png)|![Petrona_500Medium](./Petrona_500Medium.ttf.png)|![Petrona_600SemiBold](./Petrona_600SemiBold.ttf.png)||
-|![Petrona_700Bold](./Petrona_700Bold.ttf.png)|![Petrona_800ExtraBold](./Petrona_800ExtraBold.ttf.png)|![Petrona_900Black](./Petrona_900Black.ttf.png)||
-|![Petrona_100Thin_Italic](./Petrona_100Thin_Italic.ttf.png)|![Petrona_200ExtraLight_Italic](./Petrona_200ExtraLight_Italic.ttf.png)|![Petrona_300Light_Italic](./Petrona_300Light_Italic.ttf.png)||
-|![Petrona_400Regular_Italic](./Petrona_400Regular_Italic.ttf.png)|![Petrona_500Medium_Italic](./Petrona_500Medium_Italic.ttf.png)|![Petrona_600SemiBold_Italic](./Petrona_600SemiBold_Italic.ttf.png)||
-|![Petrona_700Bold_Italic](./Petrona_700Bold_Italic.ttf.png)|![Petrona_800ExtraBold_Italic](./Petrona_800ExtraBold_Italic.ttf.png)|![Petrona_900Black_Italic](./Petrona_900Black_Italic.ttf.png)||
+|![Petrona_100Thin](.//100Thin/Petrona_100Thin.ttf.png)|![Petrona_200ExtraLight](.//200ExtraLight/Petrona_200ExtraLight.ttf.png)|![Petrona_300Light](.//300Light/Petrona_300Light.ttf.png)||
+|![Petrona_400Regular](.//400Regular/Petrona_400Regular.ttf.png)|![Petrona_500Medium](.//500Medium/Petrona_500Medium.ttf.png)|![Petrona_600SemiBold](.//600SemiBold/Petrona_600SemiBold.ttf.png)||
+|![Petrona_700Bold](.//700Bold/Petrona_700Bold.ttf.png)|![Petrona_800ExtraBold](.//800ExtraBold/Petrona_800ExtraBold.ttf.png)|![Petrona_900Black](.//900Black/Petrona_900Black.ttf.png)||
+|![Petrona_100Thin_Italic](.//100Thin_Italic/Petrona_100Thin_Italic.ttf.png)|![Petrona_200ExtraLight_Italic](.//200ExtraLight_Italic/Petrona_200ExtraLight_Italic.ttf.png)|![Petrona_300Light_Italic](.//300Light_Italic/Petrona_300Light_Italic.ttf.png)||
+|![Petrona_400Regular_Italic](.//400Regular_Italic/Petrona_400Regular_Italic.ttf.png)|![Petrona_500Medium_Italic](.//500Medium_Italic/Petrona_500Medium_Italic.ttf.png)|![Petrona_600SemiBold_Italic](.//600SemiBold_Italic/Petrona_600SemiBold_Italic.ttf.png)||
+|![Petrona_700Bold_Italic](.//700Bold_Italic/Petrona_700Bold_Italic.ttf.png)|![Petrona_800ExtraBold_Italic](.//800ExtraBold_Italic/Petrona_800ExtraBold_Italic.ttf.png)|![Petrona_900Black_Italic](.//900Black_Italic/Petrona_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

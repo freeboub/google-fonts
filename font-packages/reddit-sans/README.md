@@ -258,12 +258,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RedditSans_200ExtraLight](./RedditSans_200ExtraLight.ttf.png)|![RedditSans_300Light](./RedditSans_300Light.ttf.png)|![RedditSans_400Regular](./RedditSans_400Regular.ttf.png)||
-|![RedditSans_500Medium](./RedditSans_500Medium.ttf.png)|![RedditSans_600SemiBold](./RedditSans_600SemiBold.ttf.png)|![RedditSans_700Bold](./RedditSans_700Bold.ttf.png)||
-|![RedditSans_800ExtraBold](./RedditSans_800ExtraBold.ttf.png)|![RedditSans_900Black](./RedditSans_900Black.ttf.png)|![RedditSans_200ExtraLight_Italic](./RedditSans_200ExtraLight_Italic.ttf.png)||
-|![RedditSans_300Light_Italic](./RedditSans_300Light_Italic.ttf.png)|![RedditSans_400Regular_Italic](./RedditSans_400Regular_Italic.ttf.png)|![RedditSans_500Medium_Italic](./RedditSans_500Medium_Italic.ttf.png)||
-|![RedditSans_600SemiBold_Italic](./RedditSans_600SemiBold_Italic.ttf.png)|![RedditSans_700Bold_Italic](./RedditSans_700Bold_Italic.ttf.png)|![RedditSans_800ExtraBold_Italic](./RedditSans_800ExtraBold_Italic.ttf.png)||
-|![RedditSans_900Black_Italic](./RedditSans_900Black_Italic.ttf.png)||||
+|![RedditSans_200ExtraLight](.//200ExtraLight/RedditSans_200ExtraLight.ttf.png)|![RedditSans_300Light](.//300Light/RedditSans_300Light.ttf.png)|![RedditSans_400Regular](.//400Regular/RedditSans_400Regular.ttf.png)||
+|![RedditSans_500Medium](.//500Medium/RedditSans_500Medium.ttf.png)|![RedditSans_600SemiBold](.//600SemiBold/RedditSans_600SemiBold.ttf.png)|![RedditSans_700Bold](.//700Bold/RedditSans_700Bold.ttf.png)||
+|![RedditSans_800ExtraBold](.//800ExtraBold/RedditSans_800ExtraBold.ttf.png)|![RedditSans_900Black](.//900Black/RedditSans_900Black.ttf.png)|![RedditSans_200ExtraLight_Italic](.//200ExtraLight_Italic/RedditSans_200ExtraLight_Italic.ttf.png)||
+|![RedditSans_300Light_Italic](.//300Light_Italic/RedditSans_300Light_Italic.ttf.png)|![RedditSans_400Regular_Italic](.//400Regular_Italic/RedditSans_400Regular_Italic.ttf.png)|![RedditSans_500Medium_Italic](.//500Medium_Italic/RedditSans_500Medium_Italic.ttf.png)||
+|![RedditSans_600SemiBold_Italic](.//600SemiBold_Italic/RedditSans_600SemiBold_Italic.ttf.png)|![RedditSans_700Bold_Italic](.//700Bold_Italic/RedditSans_700Bold_Italic.ttf.png)|![RedditSans_800ExtraBold_Italic](.//800ExtraBold_Italic/RedditSans_800ExtraBold_Italic.ttf.png)||
+|![RedditSans_900Black_Italic](.//900Black_Italic/RedditSans_900Black_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

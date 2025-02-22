@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Agbalumo_400Regular](./Agbalumo_400Regular.ttf.png)||||
+|![Agbalumo_400Regular](.//400Regular/Agbalumo_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Lunasima_400Regular](./Lunasima_400Regular.ttf.png)|![Lunasima_700Bold](./Lunasima_700Bold.ttf.png)|||
+|![Lunasima_400Regular](.//400Regular/Lunasima_400Regular.ttf.png)|![Lunasima_700Bold](.//700Bold/Lunasima_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

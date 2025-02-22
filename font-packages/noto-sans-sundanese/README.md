@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansSundanese_400Regular](./NotoSansSundanese_400Regular.ttf.png)|![NotoSansSundanese_500Medium](./NotoSansSundanese_500Medium.ttf.png)|![NotoSansSundanese_600SemiBold](./NotoSansSundanese_600SemiBold.ttf.png)||
-|![NotoSansSundanese_700Bold](./NotoSansSundanese_700Bold.ttf.png)||||
+|![NotoSansSundanese_400Regular](.//400Regular/NotoSansSundanese_400Regular.ttf.png)|![NotoSansSundanese_500Medium](.//500Medium/NotoSansSundanese_500Medium.ttf.png)|![NotoSansSundanese_600SemiBold](.//600SemiBold/NotoSansSundanese_600SemiBold.ttf.png)||
+|![NotoSansSundanese_700Bold](.//700Bold/NotoSansSundanese_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

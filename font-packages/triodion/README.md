@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Triodion_400Regular](./Triodion_400Regular.ttf.png)||||
+|![Triodion_400Regular](.//400Regular/Triodion_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

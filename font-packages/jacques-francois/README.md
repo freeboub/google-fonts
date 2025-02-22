@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![JacquesFrancois_400Regular](./JacquesFrancois_400Regular.ttf.png)||||
+|![JacquesFrancois_400Regular](.//400Regular/JacquesFrancois_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

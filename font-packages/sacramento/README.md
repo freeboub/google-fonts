@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Sacramento_400Regular](./Sacramento_400Regular.ttf.png)||||
+|![Sacramento_400Regular](.//400Regular/Sacramento_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

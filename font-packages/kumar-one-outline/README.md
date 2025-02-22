@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KumarOneOutline_400Regular](./KumarOneOutline_400Regular.ttf.png)||||
+|![KumarOneOutline_400Regular](.//400Regular/KumarOneOutline_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

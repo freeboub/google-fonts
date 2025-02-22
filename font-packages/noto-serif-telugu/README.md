@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifTelugu_100Thin](./NotoSerifTelugu_100Thin.ttf.png)|![NotoSerifTelugu_200ExtraLight](./NotoSerifTelugu_200ExtraLight.ttf.png)|![NotoSerifTelugu_300Light](./NotoSerifTelugu_300Light.ttf.png)||
-|![NotoSerifTelugu_400Regular](./NotoSerifTelugu_400Regular.ttf.png)|![NotoSerifTelugu_500Medium](./NotoSerifTelugu_500Medium.ttf.png)|![NotoSerifTelugu_600SemiBold](./NotoSerifTelugu_600SemiBold.ttf.png)||
-|![NotoSerifTelugu_700Bold](./NotoSerifTelugu_700Bold.ttf.png)|![NotoSerifTelugu_800ExtraBold](./NotoSerifTelugu_800ExtraBold.ttf.png)|![NotoSerifTelugu_900Black](./NotoSerifTelugu_900Black.ttf.png)||
+|![NotoSerifTelugu_100Thin](.//100Thin/NotoSerifTelugu_100Thin.ttf.png)|![NotoSerifTelugu_200ExtraLight](.//200ExtraLight/NotoSerifTelugu_200ExtraLight.ttf.png)|![NotoSerifTelugu_300Light](.//300Light/NotoSerifTelugu_300Light.ttf.png)||
+|![NotoSerifTelugu_400Regular](.//400Regular/NotoSerifTelugu_400Regular.ttf.png)|![NotoSerifTelugu_500Medium](.//500Medium/NotoSerifTelugu_500Medium.ttf.png)|![NotoSerifTelugu_600SemiBold](.//600SemiBold/NotoSerifTelugu_600SemiBold.ttf.png)||
+|![NotoSerifTelugu_700Bold](.//700Bold/NotoSerifTelugu_700Bold.ttf.png)|![NotoSerifTelugu_800ExtraBold](.//800ExtraBold/NotoSerifTelugu_800ExtraBold.ttf.png)|![NotoSerifTelugu_900Black](.//900Black/NotoSerifTelugu_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

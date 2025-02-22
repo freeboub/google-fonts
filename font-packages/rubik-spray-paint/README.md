@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RubikSprayPaint_400Regular](./RubikSprayPaint_400Regular.ttf.png)||||
+|![RubikSprayPaint_400Regular](.//400Regular/RubikSprayPaint_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

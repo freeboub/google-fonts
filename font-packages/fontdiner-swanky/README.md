@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![FontdinerSwanky_400Regular](./FontdinerSwanky_400Regular.ttf.png)||||
+|![FontdinerSwanky_400Regular](.//400Regular/FontdinerSwanky_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

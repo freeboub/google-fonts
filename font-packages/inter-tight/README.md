@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![InterTight_100Thin](./InterTight_100Thin.ttf.png)|![InterTight_200ExtraLight](./InterTight_200ExtraLight.ttf.png)|![InterTight_300Light](./InterTight_300Light.ttf.png)||
-|![InterTight_400Regular](./InterTight_400Regular.ttf.png)|![InterTight_500Medium](./InterTight_500Medium.ttf.png)|![InterTight_600SemiBold](./InterTight_600SemiBold.ttf.png)||
-|![InterTight_700Bold](./InterTight_700Bold.ttf.png)|![InterTight_800ExtraBold](./InterTight_800ExtraBold.ttf.png)|![InterTight_900Black](./InterTight_900Black.ttf.png)||
-|![InterTight_100Thin_Italic](./InterTight_100Thin_Italic.ttf.png)|![InterTight_200ExtraLight_Italic](./InterTight_200ExtraLight_Italic.ttf.png)|![InterTight_300Light_Italic](./InterTight_300Light_Italic.ttf.png)||
-|![InterTight_400Regular_Italic](./InterTight_400Regular_Italic.ttf.png)|![InterTight_500Medium_Italic](./InterTight_500Medium_Italic.ttf.png)|![InterTight_600SemiBold_Italic](./InterTight_600SemiBold_Italic.ttf.png)||
-|![InterTight_700Bold_Italic](./InterTight_700Bold_Italic.ttf.png)|![InterTight_800ExtraBold_Italic](./InterTight_800ExtraBold_Italic.ttf.png)|![InterTight_900Black_Italic](./InterTight_900Black_Italic.ttf.png)||
+|![InterTight_100Thin](.//100Thin/InterTight_100Thin.ttf.png)|![InterTight_200ExtraLight](.//200ExtraLight/InterTight_200ExtraLight.ttf.png)|![InterTight_300Light](.//300Light/InterTight_300Light.ttf.png)||
+|![InterTight_400Regular](.//400Regular/InterTight_400Regular.ttf.png)|![InterTight_500Medium](.//500Medium/InterTight_500Medium.ttf.png)|![InterTight_600SemiBold](.//600SemiBold/InterTight_600SemiBold.ttf.png)||
+|![InterTight_700Bold](.//700Bold/InterTight_700Bold.ttf.png)|![InterTight_800ExtraBold](.//800ExtraBold/InterTight_800ExtraBold.ttf.png)|![InterTight_900Black](.//900Black/InterTight_900Black.ttf.png)||
+|![InterTight_100Thin_Italic](.//100Thin_Italic/InterTight_100Thin_Italic.ttf.png)|![InterTight_200ExtraLight_Italic](.//200ExtraLight_Italic/InterTight_200ExtraLight_Italic.ttf.png)|![InterTight_300Light_Italic](.//300Light_Italic/InterTight_300Light_Italic.ttf.png)||
+|![InterTight_400Regular_Italic](.//400Regular_Italic/InterTight_400Regular_Italic.ttf.png)|![InterTight_500Medium_Italic](.//500Medium_Italic/InterTight_500Medium_Italic.ttf.png)|![InterTight_600SemiBold_Italic](.//600SemiBold_Italic/InterTight_600SemiBold_Italic.ttf.png)||
+|![InterTight_700Bold_Italic](.//700Bold_Italic/InterTight_700Bold_Italic.ttf.png)|![InterTight_800ExtraBold_Italic](.//800ExtraBold_Italic/InterTight_800ExtraBold_Italic.ttf.png)|![InterTight_900Black_Italic](.//900Black_Italic/InterTight_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

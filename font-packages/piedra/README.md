@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Piedra_400Regular](./Piedra_400Regular.ttf.png)||||
+|![Piedra_400Regular](.//400Regular/Piedra_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

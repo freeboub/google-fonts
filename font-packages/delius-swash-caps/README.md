@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![DeliusSwashCaps_400Regular](./DeliusSwashCaps_400Regular.ttf.png)||||
+|![DeliusSwashCaps_400Regular](.//400Regular/DeliusSwashCaps_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

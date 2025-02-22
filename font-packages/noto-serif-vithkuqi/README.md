@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifVithkuqi_400Regular](./NotoSerifVithkuqi_400Regular.ttf.png)|![NotoSerifVithkuqi_500Medium](./NotoSerifVithkuqi_500Medium.ttf.png)|![NotoSerifVithkuqi_600SemiBold](./NotoSerifVithkuqi_600SemiBold.ttf.png)||
-|![NotoSerifVithkuqi_700Bold](./NotoSerifVithkuqi_700Bold.ttf.png)||||
+|![NotoSerifVithkuqi_400Regular](.//400Regular/NotoSerifVithkuqi_400Regular.ttf.png)|![NotoSerifVithkuqi_500Medium](.//500Medium/NotoSerifVithkuqi_500Medium.ttf.png)|![NotoSerifVithkuqi_600SemiBold](.//600SemiBold/NotoSerifVithkuqi_600SemiBold.ttf.png)||
+|![NotoSerifVithkuqi_700Bold](.//700Bold/NotoSerifVithkuqi_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

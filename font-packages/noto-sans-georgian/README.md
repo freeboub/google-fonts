@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansGeorgian_100Thin](./NotoSansGeorgian_100Thin.ttf.png)|![NotoSansGeorgian_200ExtraLight](./NotoSansGeorgian_200ExtraLight.ttf.png)|![NotoSansGeorgian_300Light](./NotoSansGeorgian_300Light.ttf.png)||
-|![NotoSansGeorgian_400Regular](./NotoSansGeorgian_400Regular.ttf.png)|![NotoSansGeorgian_500Medium](./NotoSansGeorgian_500Medium.ttf.png)|![NotoSansGeorgian_600SemiBold](./NotoSansGeorgian_600SemiBold.ttf.png)||
-|![NotoSansGeorgian_700Bold](./NotoSansGeorgian_700Bold.ttf.png)|![NotoSansGeorgian_800ExtraBold](./NotoSansGeorgian_800ExtraBold.ttf.png)|![NotoSansGeorgian_900Black](./NotoSansGeorgian_900Black.ttf.png)||
+|![NotoSansGeorgian_100Thin](.//100Thin/NotoSansGeorgian_100Thin.ttf.png)|![NotoSansGeorgian_200ExtraLight](.//200ExtraLight/NotoSansGeorgian_200ExtraLight.ttf.png)|![NotoSansGeorgian_300Light](.//300Light/NotoSansGeorgian_300Light.ttf.png)||
+|![NotoSansGeorgian_400Regular](.//400Regular/NotoSansGeorgian_400Regular.ttf.png)|![NotoSansGeorgian_500Medium](.//500Medium/NotoSansGeorgian_500Medium.ttf.png)|![NotoSansGeorgian_600SemiBold](.//600SemiBold/NotoSansGeorgian_600SemiBold.ttf.png)||
+|![NotoSansGeorgian_700Bold](.//700Bold/NotoSansGeorgian_700Bold.ttf.png)|![NotoSansGeorgian_800ExtraBold](.//800ExtraBold/NotoSansGeorgian_800ExtraBold.ttf.png)|![NotoSansGeorgian_900Black](.//900Black/NotoSansGeorgian_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

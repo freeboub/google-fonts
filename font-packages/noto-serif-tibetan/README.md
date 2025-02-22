@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifTibetan_100Thin](./NotoSerifTibetan_100Thin.ttf.png)|![NotoSerifTibetan_200ExtraLight](./NotoSerifTibetan_200ExtraLight.ttf.png)|![NotoSerifTibetan_300Light](./NotoSerifTibetan_300Light.ttf.png)||
-|![NotoSerifTibetan_400Regular](./NotoSerifTibetan_400Regular.ttf.png)|![NotoSerifTibetan_500Medium](./NotoSerifTibetan_500Medium.ttf.png)|![NotoSerifTibetan_600SemiBold](./NotoSerifTibetan_600SemiBold.ttf.png)||
-|![NotoSerifTibetan_700Bold](./NotoSerifTibetan_700Bold.ttf.png)|![NotoSerifTibetan_800ExtraBold](./NotoSerifTibetan_800ExtraBold.ttf.png)|![NotoSerifTibetan_900Black](./NotoSerifTibetan_900Black.ttf.png)||
+|![NotoSerifTibetan_100Thin](.//100Thin/NotoSerifTibetan_100Thin.ttf.png)|![NotoSerifTibetan_200ExtraLight](.//200ExtraLight/NotoSerifTibetan_200ExtraLight.ttf.png)|![NotoSerifTibetan_300Light](.//300Light/NotoSerifTibetan_300Light.ttf.png)||
+|![NotoSerifTibetan_400Regular](.//400Regular/NotoSerifTibetan_400Regular.ttf.png)|![NotoSerifTibetan_500Medium](.//500Medium/NotoSerifTibetan_500Medium.ttf.png)|![NotoSerifTibetan_600SemiBold](.//600SemiBold/NotoSerifTibetan_600SemiBold.ttf.png)||
+|![NotoSerifTibetan_700Bold](.//700Bold/NotoSerifTibetan_700Bold.ttf.png)|![NotoSerifTibetan_800ExtraBold](.//800ExtraBold/NotoSerifTibetan_800ExtraBold.ttf.png)|![NotoSerifTibetan_900Black](.//900Black/NotoSerifTibetan_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansOldSouthArabian_400Regular](./NotoSansOldSouthArabian_400Regular.ttf.png)||||
+|![NotoSansOldSouthArabian_400Regular](.//400Regular/NotoSansOldSouthArabian_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

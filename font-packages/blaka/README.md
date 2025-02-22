@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Blaka_400Regular](./Blaka_400Regular.ttf.png)||||
+|![Blaka_400Regular](.//400Regular/Blaka_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansDuployan_400Regular](./NotoSansDuployan_400Regular.ttf.png)|![NotoSansDuployan_700Bold](./NotoSansDuployan_700Bold.ttf.png)|||
+|![NotoSansDuployan_400Regular](.//400Regular/NotoSansDuployan_400Regular.ttf.png)|![NotoSansDuployan_700Bold](.//700Bold/NotoSansDuployan_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

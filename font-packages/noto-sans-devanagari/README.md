@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansDevanagari_100Thin](./NotoSansDevanagari_100Thin.ttf.png)|![NotoSansDevanagari_200ExtraLight](./NotoSansDevanagari_200ExtraLight.ttf.png)|![NotoSansDevanagari_300Light](./NotoSansDevanagari_300Light.ttf.png)||
-|![NotoSansDevanagari_400Regular](./NotoSansDevanagari_400Regular.ttf.png)|![NotoSansDevanagari_500Medium](./NotoSansDevanagari_500Medium.ttf.png)|![NotoSansDevanagari_600SemiBold](./NotoSansDevanagari_600SemiBold.ttf.png)||
-|![NotoSansDevanagari_700Bold](./NotoSansDevanagari_700Bold.ttf.png)|![NotoSansDevanagari_800ExtraBold](./NotoSansDevanagari_800ExtraBold.ttf.png)|![NotoSansDevanagari_900Black](./NotoSansDevanagari_900Black.ttf.png)||
+|![NotoSansDevanagari_100Thin](.//100Thin/NotoSansDevanagari_100Thin.ttf.png)|![NotoSansDevanagari_200ExtraLight](.//200ExtraLight/NotoSansDevanagari_200ExtraLight.ttf.png)|![NotoSansDevanagari_300Light](.//300Light/NotoSansDevanagari_300Light.ttf.png)||
+|![NotoSansDevanagari_400Regular](.//400Regular/NotoSansDevanagari_400Regular.ttf.png)|![NotoSansDevanagari_500Medium](.//500Medium/NotoSansDevanagari_500Medium.ttf.png)|![NotoSansDevanagari_600SemiBold](.//600SemiBold/NotoSansDevanagari_600SemiBold.ttf.png)||
+|![NotoSansDevanagari_700Bold](.//700Bold/NotoSansDevanagari_700Bold.ttf.png)|![NotoSansDevanagari_800ExtraBold](.//800ExtraBold/NotoSansDevanagari_800ExtraBold.ttf.png)|![NotoSansDevanagari_900Black](.//900Black/NotoSansDevanagari_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

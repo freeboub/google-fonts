@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Kavivanar_400Regular](./Kavivanar_400Regular.ttf.png)||||
+|![Kavivanar_400Regular](.//400Regular/Kavivanar_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

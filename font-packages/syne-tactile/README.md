@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SyneTactile_400Regular](./SyneTactile_400Regular.ttf.png)||||
+|![SyneTactile_400Regular](.//400Regular/SyneTactile_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

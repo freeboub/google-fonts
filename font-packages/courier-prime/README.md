@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![CourierPrime_400Regular](./CourierPrime_400Regular.ttf.png)|![CourierPrime_400Regular_Italic](./CourierPrime_400Regular_Italic.ttf.png)|![CourierPrime_700Bold](./CourierPrime_700Bold.ttf.png)||
-|![CourierPrime_700Bold_Italic](./CourierPrime_700Bold_Italic.ttf.png)||||
+|![CourierPrime_400Regular](.//400Regular/CourierPrime_400Regular.ttf.png)|![CourierPrime_400Regular_Italic](.//400Regular_Italic/CourierPrime_400Regular_Italic.ttf.png)|![CourierPrime_700Bold](.//700Bold/CourierPrime_700Bold.ttf.png)||
+|![CourierPrime_700Bold_Italic](.//700Bold_Italic/CourierPrime_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

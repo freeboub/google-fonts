@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansInscriptionalParthian_400Regular](./NotoSansInscriptionalParthian_400Regular.ttf.png)||||
+|![NotoSansInscriptionalParthian_400Regular](.//400Regular/NotoSansInscriptionalParthian_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

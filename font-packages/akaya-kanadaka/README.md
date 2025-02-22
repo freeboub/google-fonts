@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AkayaKanadaka_400Regular](./AkayaKanadaka_400Regular.ttf.png)||||
+|![AkayaKanadaka_400Regular](.//400Regular/AkayaKanadaka_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

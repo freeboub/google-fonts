@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![DellaRespira_400Regular](./DellaRespira_400Regular.ttf.png)||||
+|![DellaRespira_400Regular](.//400Regular/DellaRespira_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

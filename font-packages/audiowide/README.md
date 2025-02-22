@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Audiowide_400Regular](./Audiowide_400Regular.ttf.png)||||
+|![Audiowide_400Regular](.//400Regular/Audiowide_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

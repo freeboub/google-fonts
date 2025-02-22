@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Heebo_100Thin](./Heebo_100Thin.ttf.png)|![Heebo_200ExtraLight](./Heebo_200ExtraLight.ttf.png)|![Heebo_300Light](./Heebo_300Light.ttf.png)||
-|![Heebo_400Regular](./Heebo_400Regular.ttf.png)|![Heebo_500Medium](./Heebo_500Medium.ttf.png)|![Heebo_600SemiBold](./Heebo_600SemiBold.ttf.png)||
-|![Heebo_700Bold](./Heebo_700Bold.ttf.png)|![Heebo_800ExtraBold](./Heebo_800ExtraBold.ttf.png)|![Heebo_900Black](./Heebo_900Black.ttf.png)||
+|![Heebo_100Thin](.//100Thin/Heebo_100Thin.ttf.png)|![Heebo_200ExtraLight](.//200ExtraLight/Heebo_200ExtraLight.ttf.png)|![Heebo_300Light](.//300Light/Heebo_300Light.ttf.png)||
+|![Heebo_400Regular](.//400Regular/Heebo_400Regular.ttf.png)|![Heebo_500Medium](.//500Medium/Heebo_500Medium.ttf.png)|![Heebo_600SemiBold](.//600SemiBold/Heebo_600SemiBold.ttf.png)||
+|![Heebo_700Bold](.//700Bold/Heebo_700Bold.ttf.png)|![Heebo_800ExtraBold](.//800ExtraBold/Heebo_800ExtraBold.ttf.png)|![Heebo_900Black](.//900Black/Heebo_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -232,11 +232,11 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AlegreyaSansSC_100Thin](./AlegreyaSansSC_100Thin.ttf.png)|![AlegreyaSansSC_100Thin_Italic](./AlegreyaSansSC_100Thin_Italic.ttf.png)|![AlegreyaSansSC_300Light](./AlegreyaSansSC_300Light.ttf.png)||
-|![AlegreyaSansSC_300Light_Italic](./AlegreyaSansSC_300Light_Italic.ttf.png)|![AlegreyaSansSC_400Regular](./AlegreyaSansSC_400Regular.ttf.png)|![AlegreyaSansSC_400Regular_Italic](./AlegreyaSansSC_400Regular_Italic.ttf.png)||
-|![AlegreyaSansSC_500Medium](./AlegreyaSansSC_500Medium.ttf.png)|![AlegreyaSansSC_500Medium_Italic](./AlegreyaSansSC_500Medium_Italic.ttf.png)|![AlegreyaSansSC_700Bold](./AlegreyaSansSC_700Bold.ttf.png)||
-|![AlegreyaSansSC_700Bold_Italic](./AlegreyaSansSC_700Bold_Italic.ttf.png)|![AlegreyaSansSC_800ExtraBold](./AlegreyaSansSC_800ExtraBold.ttf.png)|![AlegreyaSansSC_800ExtraBold_Italic](./AlegreyaSansSC_800ExtraBold_Italic.ttf.png)||
-|![AlegreyaSansSC_900Black](./AlegreyaSansSC_900Black.ttf.png)|![AlegreyaSansSC_900Black_Italic](./AlegreyaSansSC_900Black_Italic.ttf.png)|||
+|![AlegreyaSansSC_100Thin](.//100Thin/AlegreyaSansSC_100Thin.ttf.png)|![AlegreyaSansSC_100Thin_Italic](.//100Thin_Italic/AlegreyaSansSC_100Thin_Italic.ttf.png)|![AlegreyaSansSC_300Light](.//300Light/AlegreyaSansSC_300Light.ttf.png)||
+|![AlegreyaSansSC_300Light_Italic](.//300Light_Italic/AlegreyaSansSC_300Light_Italic.ttf.png)|![AlegreyaSansSC_400Regular](.//400Regular/AlegreyaSansSC_400Regular.ttf.png)|![AlegreyaSansSC_400Regular_Italic](.//400Regular_Italic/AlegreyaSansSC_400Regular_Italic.ttf.png)||
+|![AlegreyaSansSC_500Medium](.//500Medium/AlegreyaSansSC_500Medium.ttf.png)|![AlegreyaSansSC_500Medium_Italic](.//500Medium_Italic/AlegreyaSansSC_500Medium_Italic.ttf.png)|![AlegreyaSansSC_700Bold](.//700Bold/AlegreyaSansSC_700Bold.ttf.png)||
+|![AlegreyaSansSC_700Bold_Italic](.//700Bold_Italic/AlegreyaSansSC_700Bold_Italic.ttf.png)|![AlegreyaSansSC_800ExtraBold](.//800ExtraBold/AlegreyaSansSC_800ExtraBold.ttf.png)|![AlegreyaSansSC_800ExtraBold_Italic](.//800ExtraBold_Italic/AlegreyaSansSC_800ExtraBold_Italic.ttf.png)||
+|![AlegreyaSansSC_900Black](.//900Black/AlegreyaSansSC_900Black.ttf.png)|![AlegreyaSansSC_900Black_Italic](.//900Black_Italic/AlegreyaSansSC_900Black_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

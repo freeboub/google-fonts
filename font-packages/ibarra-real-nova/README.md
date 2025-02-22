@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![IbarraRealNova_400Regular](./IbarraRealNova_400Regular.ttf.png)|![IbarraRealNova_500Medium](./IbarraRealNova_500Medium.ttf.png)|![IbarraRealNova_600SemiBold](./IbarraRealNova_600SemiBold.ttf.png)||
-|![IbarraRealNova_700Bold](./IbarraRealNova_700Bold.ttf.png)|![IbarraRealNova_400Regular_Italic](./IbarraRealNova_400Regular_Italic.ttf.png)|![IbarraRealNova_500Medium_Italic](./IbarraRealNova_500Medium_Italic.ttf.png)||
-|![IbarraRealNova_600SemiBold_Italic](./IbarraRealNova_600SemiBold_Italic.ttf.png)|![IbarraRealNova_700Bold_Italic](./IbarraRealNova_700Bold_Italic.ttf.png)|||
+|![IbarraRealNova_400Regular](.//400Regular/IbarraRealNova_400Regular.ttf.png)|![IbarraRealNova_500Medium](.//500Medium/IbarraRealNova_500Medium.ttf.png)|![IbarraRealNova_600SemiBold](.//600SemiBold/IbarraRealNova_600SemiBold.ttf.png)||
+|![IbarraRealNova_700Bold](.//700Bold/IbarraRealNova_700Bold.ttf.png)|![IbarraRealNova_400Regular_Italic](.//400Regular_Italic/IbarraRealNova_400Regular_Italic.ttf.png)|![IbarraRealNova_500Medium_Italic](.//500Medium_Italic/IbarraRealNova_500Medium_Italic.ttf.png)||
+|![IbarraRealNova_600SemiBold_Italic](.//600SemiBold_Italic/IbarraRealNova_600SemiBold_Italic.ttf.png)|![IbarraRealNova_700Bold_Italic](.//700Bold_Italic/IbarraRealNova_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

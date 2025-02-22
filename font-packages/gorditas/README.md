@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Gorditas_400Regular](./Gorditas_400Regular.ttf.png)|![Gorditas_700Bold](./Gorditas_700Bold.ttf.png)|||
+|![Gorditas_400Regular](.//400Regular/Gorditas_400Regular.ttf.png)|![Gorditas_700Bold](.//700Bold/Gorditas_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

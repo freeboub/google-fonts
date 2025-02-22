@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PlaywriteAUVIC_100Thin](./PlaywriteAUVIC_100Thin.ttf.png)|![PlaywriteAUVIC_200ExtraLight](./PlaywriteAUVIC_200ExtraLight.ttf.png)|![PlaywriteAUVIC_300Light](./PlaywriteAUVIC_300Light.ttf.png)||
-|![PlaywriteAUVIC_400Regular](./PlaywriteAUVIC_400Regular.ttf.png)||||
+|![PlaywriteAUVIC_100Thin](.//100Thin/PlaywriteAUVIC_100Thin.ttf.png)|![PlaywriteAUVIC_200ExtraLight](.//200ExtraLight/PlaywriteAUVIC_200ExtraLight.ttf.png)|![PlaywriteAUVIC_300Light](.//300Light/PlaywriteAUVIC_300Light.ttf.png)||
+|![PlaywriteAUVIC_400Regular](.//400Regular/PlaywriteAUVIC_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

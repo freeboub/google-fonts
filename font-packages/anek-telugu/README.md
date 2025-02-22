@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AnekTelugu_100Thin](./AnekTelugu_100Thin.ttf.png)|![AnekTelugu_200ExtraLight](./AnekTelugu_200ExtraLight.ttf.png)|![AnekTelugu_300Light](./AnekTelugu_300Light.ttf.png)||
-|![AnekTelugu_400Regular](./AnekTelugu_400Regular.ttf.png)|![AnekTelugu_500Medium](./AnekTelugu_500Medium.ttf.png)|![AnekTelugu_600SemiBold](./AnekTelugu_600SemiBold.ttf.png)||
-|![AnekTelugu_700Bold](./AnekTelugu_700Bold.ttf.png)|![AnekTelugu_800ExtraBold](./AnekTelugu_800ExtraBold.ttf.png)|||
+|![AnekTelugu_100Thin](.//100Thin/AnekTelugu_100Thin.ttf.png)|![AnekTelugu_200ExtraLight](.//200ExtraLight/AnekTelugu_200ExtraLight.ttf.png)|![AnekTelugu_300Light](.//300Light/AnekTelugu_300Light.ttf.png)||
+|![AnekTelugu_400Regular](.//400Regular/AnekTelugu_400Regular.ttf.png)|![AnekTelugu_500Medium](.//500Medium/AnekTelugu_500Medium.ttf.png)|![AnekTelugu_600SemiBold](.//600SemiBold/AnekTelugu_600SemiBold.ttf.png)||
+|![AnekTelugu_700Bold](.//700Bold/AnekTelugu_700Bold.ttf.png)|![AnekTelugu_800ExtraBold](.//800ExtraBold/AnekTelugu_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

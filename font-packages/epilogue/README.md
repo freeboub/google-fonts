@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Epilogue_100Thin](./Epilogue_100Thin.ttf.png)|![Epilogue_200ExtraLight](./Epilogue_200ExtraLight.ttf.png)|![Epilogue_300Light](./Epilogue_300Light.ttf.png)||
-|![Epilogue_400Regular](./Epilogue_400Regular.ttf.png)|![Epilogue_500Medium](./Epilogue_500Medium.ttf.png)|![Epilogue_600SemiBold](./Epilogue_600SemiBold.ttf.png)||
-|![Epilogue_700Bold](./Epilogue_700Bold.ttf.png)|![Epilogue_800ExtraBold](./Epilogue_800ExtraBold.ttf.png)|![Epilogue_900Black](./Epilogue_900Black.ttf.png)||
-|![Epilogue_100Thin_Italic](./Epilogue_100Thin_Italic.ttf.png)|![Epilogue_200ExtraLight_Italic](./Epilogue_200ExtraLight_Italic.ttf.png)|![Epilogue_300Light_Italic](./Epilogue_300Light_Italic.ttf.png)||
-|![Epilogue_400Regular_Italic](./Epilogue_400Regular_Italic.ttf.png)|![Epilogue_500Medium_Italic](./Epilogue_500Medium_Italic.ttf.png)|![Epilogue_600SemiBold_Italic](./Epilogue_600SemiBold_Italic.ttf.png)||
-|![Epilogue_700Bold_Italic](./Epilogue_700Bold_Italic.ttf.png)|![Epilogue_800ExtraBold_Italic](./Epilogue_800ExtraBold_Italic.ttf.png)|![Epilogue_900Black_Italic](./Epilogue_900Black_Italic.ttf.png)||
+|![Epilogue_100Thin](.//100Thin/Epilogue_100Thin.ttf.png)|![Epilogue_200ExtraLight](.//200ExtraLight/Epilogue_200ExtraLight.ttf.png)|![Epilogue_300Light](.//300Light/Epilogue_300Light.ttf.png)||
+|![Epilogue_400Regular](.//400Regular/Epilogue_400Regular.ttf.png)|![Epilogue_500Medium](.//500Medium/Epilogue_500Medium.ttf.png)|![Epilogue_600SemiBold](.//600SemiBold/Epilogue_600SemiBold.ttf.png)||
+|![Epilogue_700Bold](.//700Bold/Epilogue_700Bold.ttf.png)|![Epilogue_800ExtraBold](.//800ExtraBold/Epilogue_800ExtraBold.ttf.png)|![Epilogue_900Black](.//900Black/Epilogue_900Black.ttf.png)||
+|![Epilogue_100Thin_Italic](.//100Thin_Italic/Epilogue_100Thin_Italic.ttf.png)|![Epilogue_200ExtraLight_Italic](.//200ExtraLight_Italic/Epilogue_200ExtraLight_Italic.ttf.png)|![Epilogue_300Light_Italic](.//300Light_Italic/Epilogue_300Light_Italic.ttf.png)||
+|![Epilogue_400Regular_Italic](.//400Regular_Italic/Epilogue_400Regular_Italic.ttf.png)|![Epilogue_500Medium_Italic](.//500Medium_Italic/Epilogue_500Medium_Italic.ttf.png)|![Epilogue_600SemiBold_Italic](.//600SemiBold_Italic/Epilogue_600SemiBold_Italic.ttf.png)||
+|![Epilogue_700Bold_Italic](.//700Bold_Italic/Epilogue_700Bold_Italic.ttf.png)|![Epilogue_800ExtraBold_Italic](.//800ExtraBold_Italic/Epilogue_800ExtraBold_Italic.ttf.png)|![Epilogue_900Black_Italic](.//900Black_Italic/Epilogue_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

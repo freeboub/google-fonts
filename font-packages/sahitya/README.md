@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Sahitya_400Regular](./Sahitya_400Regular.ttf.png)|![Sahitya_700Bold](./Sahitya_700Bold.ttf.png)|||
+|![Sahitya_400Regular](.//400Regular/Sahitya_400Regular.ttf.png)|![Sahitya_700Bold](.//700Bold/Sahitya_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

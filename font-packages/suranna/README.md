@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Suranna_400Regular](./Suranna_400Regular.ttf.png)||||
+|![Suranna_400Regular](.//400Regular/Suranna_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

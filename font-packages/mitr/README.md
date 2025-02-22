@@ -128,8 +128,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Mitr_200ExtraLight](./Mitr_200ExtraLight.ttf.png)|![Mitr_300Light](./Mitr_300Light.ttf.png)|![Mitr_400Regular](./Mitr_400Regular.ttf.png)||
-|![Mitr_500Medium](./Mitr_500Medium.ttf.png)|![Mitr_600SemiBold](./Mitr_600SemiBold.ttf.png)|![Mitr_700Bold](./Mitr_700Bold.ttf.png)||
+|![Mitr_200ExtraLight](.//200ExtraLight/Mitr_200ExtraLight.ttf.png)|![Mitr_300Light](.//300Light/Mitr_300Light.ttf.png)|![Mitr_400Regular](.//400Regular/Mitr_400Regular.ttf.png)||
+|![Mitr_500Medium](.//500Medium/Mitr_500Medium.ttf.png)|![Mitr_600SemiBold](.//600SemiBold/Mitr_600SemiBold.ttf.png)|![Mitr_700Bold](.//700Bold/Mitr_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifBalinese_400Regular](./NotoSerifBalinese_400Regular.ttf.png)||||
+|![NotoSerifBalinese_400Regular](.//400Regular/NotoSerifBalinese_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![VollkornSC_400Regular](./VollkornSC_400Regular.ttf.png)|![VollkornSC_600SemiBold](./VollkornSC_600SemiBold.ttf.png)|![VollkornSC_700Bold](./VollkornSC_700Bold.ttf.png)||
-|![VollkornSC_900Black](./VollkornSC_900Black.ttf.png)||||
+|![VollkornSC_400Regular](.//400Regular/VollkornSC_400Regular.ttf.png)|![VollkornSC_600SemiBold](.//600SemiBold/VollkornSC_600SemiBold.ttf.png)|![VollkornSC_700Bold](.//700Bold/VollkornSC_700Bold.ttf.png)||
+|![VollkornSC_900Black](.//900Black/VollkornSC_900Black.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

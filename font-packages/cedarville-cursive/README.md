@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![CedarvilleCursive_400Regular](./CedarvilleCursive_400Regular.ttf.png)||||
+|![CedarvilleCursive_400Regular](.//400Regular/CedarvilleCursive_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

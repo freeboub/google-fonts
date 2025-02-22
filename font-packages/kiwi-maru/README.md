@@ -89,7 +89,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KiwiMaru_300Light](./KiwiMaru_300Light.ttf.png)|![KiwiMaru_400Regular](./KiwiMaru_400Regular.ttf.png)|![KiwiMaru_500Medium](./KiwiMaru_500Medium.ttf.png)||
+|![KiwiMaru_300Light](.//300Light/KiwiMaru_300Light.ttf.png)|![KiwiMaru_400Regular](.//400Regular/KiwiMaru_400Regular.ttf.png)|![KiwiMaru_500Medium](.//500Medium/KiwiMaru_500Medium.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

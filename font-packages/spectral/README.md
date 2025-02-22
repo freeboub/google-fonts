@@ -232,11 +232,11 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Spectral_200ExtraLight](./Spectral_200ExtraLight.ttf.png)|![Spectral_200ExtraLight_Italic](./Spectral_200ExtraLight_Italic.ttf.png)|![Spectral_300Light](./Spectral_300Light.ttf.png)||
-|![Spectral_300Light_Italic](./Spectral_300Light_Italic.ttf.png)|![Spectral_400Regular](./Spectral_400Regular.ttf.png)|![Spectral_400Regular_Italic](./Spectral_400Regular_Italic.ttf.png)||
-|![Spectral_500Medium](./Spectral_500Medium.ttf.png)|![Spectral_500Medium_Italic](./Spectral_500Medium_Italic.ttf.png)|![Spectral_600SemiBold](./Spectral_600SemiBold.ttf.png)||
-|![Spectral_600SemiBold_Italic](./Spectral_600SemiBold_Italic.ttf.png)|![Spectral_700Bold](./Spectral_700Bold.ttf.png)|![Spectral_700Bold_Italic](./Spectral_700Bold_Italic.ttf.png)||
-|![Spectral_800ExtraBold](./Spectral_800ExtraBold.ttf.png)|![Spectral_800ExtraBold_Italic](./Spectral_800ExtraBold_Italic.ttf.png)|||
+|![Spectral_200ExtraLight](.//200ExtraLight/Spectral_200ExtraLight.ttf.png)|![Spectral_200ExtraLight_Italic](.//200ExtraLight_Italic/Spectral_200ExtraLight_Italic.ttf.png)|![Spectral_300Light](.//300Light/Spectral_300Light.ttf.png)||
+|![Spectral_300Light_Italic](.//300Light_Italic/Spectral_300Light_Italic.ttf.png)|![Spectral_400Regular](.//400Regular/Spectral_400Regular.ttf.png)|![Spectral_400Regular_Italic](.//400Regular_Italic/Spectral_400Regular_Italic.ttf.png)||
+|![Spectral_500Medium](.//500Medium/Spectral_500Medium.ttf.png)|![Spectral_500Medium_Italic](.//500Medium_Italic/Spectral_500Medium_Italic.ttf.png)|![Spectral_600SemiBold](.//600SemiBold/Spectral_600SemiBold.ttf.png)||
+|![Spectral_600SemiBold_Italic](.//600SemiBold_Italic/Spectral_600SemiBold_Italic.ttf.png)|![Spectral_700Bold](.//700Bold/Spectral_700Bold.ttf.png)|![Spectral_700Bold_Italic](.//700Bold_Italic/Spectral_700Bold_Italic.ttf.png)||
+|![Spectral_800ExtraBold](.//800ExtraBold/Spectral_800ExtraBold.ttf.png)|![Spectral_800ExtraBold_Italic](.//800ExtraBold_Italic/Spectral_800ExtraBold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

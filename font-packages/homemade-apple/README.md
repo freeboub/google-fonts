@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![HomemadeApple_400Regular](./HomemadeApple_400Regular.ttf.png)||||
+|![HomemadeApple_400Regular](.//400Regular/HomemadeApple_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

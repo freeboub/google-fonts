@@ -128,8 +128,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![InriaSans_300Light](./InriaSans_300Light.ttf.png)|![InriaSans_300Light_Italic](./InriaSans_300Light_Italic.ttf.png)|![InriaSans_400Regular](./InriaSans_400Regular.ttf.png)||
-|![InriaSans_400Regular_Italic](./InriaSans_400Regular_Italic.ttf.png)|![InriaSans_700Bold](./InriaSans_700Bold.ttf.png)|![InriaSans_700Bold_Italic](./InriaSans_700Bold_Italic.ttf.png)||
+|![InriaSans_300Light](.//300Light/InriaSans_300Light.ttf.png)|![InriaSans_300Light_Italic](.//300Light_Italic/InriaSans_300Light_Italic.ttf.png)|![InriaSans_400Regular](.//400Regular/InriaSans_400Regular.ttf.png)||
+|![InriaSans_400Regular_Italic](.//400Regular_Italic/InriaSans_400Regular_Italic.ttf.png)|![InriaSans_700Bold](.//700Bold/InriaSans_700Bold.ttf.png)|![InriaSans_700Bold_Italic](.//700Bold_Italic/InriaSans_700Bold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

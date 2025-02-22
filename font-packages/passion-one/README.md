@@ -89,7 +89,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PassionOne_400Regular](./PassionOne_400Regular.ttf.png)|![PassionOne_700Bold](./PassionOne_700Bold.ttf.png)|![PassionOne_900Black](./PassionOne_900Black.ttf.png)||
+|![PassionOne_400Regular](.//400Regular/PassionOne_400Regular.ttf.png)|![PassionOne_700Bold](.//700Bold/PassionOne_700Bold.ttf.png)|![PassionOne_900Black](.//900Black/PassionOne_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

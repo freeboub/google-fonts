@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansMahajani_400Regular](./NotoSansMahajani_400Regular.ttf.png)||||
+|![NotoSansMahajani_400Regular](.//400Regular/NotoSansMahajani_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

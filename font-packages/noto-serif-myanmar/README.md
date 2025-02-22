@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifMyanmar_100Thin](./NotoSerifMyanmar_100Thin.ttf.png)|![NotoSerifMyanmar_200ExtraLight](./NotoSerifMyanmar_200ExtraLight.ttf.png)|![NotoSerifMyanmar_300Light](./NotoSerifMyanmar_300Light.ttf.png)||
-|![NotoSerifMyanmar_400Regular](./NotoSerifMyanmar_400Regular.ttf.png)|![NotoSerifMyanmar_500Medium](./NotoSerifMyanmar_500Medium.ttf.png)|![NotoSerifMyanmar_600SemiBold](./NotoSerifMyanmar_600SemiBold.ttf.png)||
-|![NotoSerifMyanmar_700Bold](./NotoSerifMyanmar_700Bold.ttf.png)|![NotoSerifMyanmar_800ExtraBold](./NotoSerifMyanmar_800ExtraBold.ttf.png)|![NotoSerifMyanmar_900Black](./NotoSerifMyanmar_900Black.ttf.png)||
+|![NotoSerifMyanmar_100Thin](.//100Thin/NotoSerifMyanmar_100Thin.ttf.png)|![NotoSerifMyanmar_200ExtraLight](.//200ExtraLight/NotoSerifMyanmar_200ExtraLight.ttf.png)|![NotoSerifMyanmar_300Light](.//300Light/NotoSerifMyanmar_300Light.ttf.png)||
+|![NotoSerifMyanmar_400Regular](.//400Regular/NotoSerifMyanmar_400Regular.ttf.png)|![NotoSerifMyanmar_500Medium](.//500Medium/NotoSerifMyanmar_500Medium.ttf.png)|![NotoSerifMyanmar_600SemiBold](.//600SemiBold/NotoSerifMyanmar_600SemiBold.ttf.png)||
+|![NotoSerifMyanmar_700Bold](.//700Bold/NotoSerifMyanmar_700Bold.ttf.png)|![NotoSerifMyanmar_800ExtraBold](.//800ExtraBold/NotoSerifMyanmar_800ExtraBold.ttf.png)|![NotoSerifMyanmar_900Black](.//900Black/NotoSerifMyanmar_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

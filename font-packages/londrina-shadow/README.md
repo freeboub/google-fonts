@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LondrinaShadow_400Regular](./LondrinaShadow_400Regular.ttf.png)||||
+|![LondrinaShadow_400Regular](.//400Regular/LondrinaShadow_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

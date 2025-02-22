@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![StalinistOne_400Regular](./StalinistOne_400Regular.ttf.png)||||
+|![StalinistOne_400Regular](.//400Regular/StalinistOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

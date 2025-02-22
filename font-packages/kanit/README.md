@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Kanit_100Thin](./Kanit_100Thin.ttf.png)|![Kanit_100Thin_Italic](./Kanit_100Thin_Italic.ttf.png)|![Kanit_200ExtraLight](./Kanit_200ExtraLight.ttf.png)||
-|![Kanit_200ExtraLight_Italic](./Kanit_200ExtraLight_Italic.ttf.png)|![Kanit_300Light](./Kanit_300Light.ttf.png)|![Kanit_300Light_Italic](./Kanit_300Light_Italic.ttf.png)||
-|![Kanit_400Regular](./Kanit_400Regular.ttf.png)|![Kanit_400Regular_Italic](./Kanit_400Regular_Italic.ttf.png)|![Kanit_500Medium](./Kanit_500Medium.ttf.png)||
-|![Kanit_500Medium_Italic](./Kanit_500Medium_Italic.ttf.png)|![Kanit_600SemiBold](./Kanit_600SemiBold.ttf.png)|![Kanit_600SemiBold_Italic](./Kanit_600SemiBold_Italic.ttf.png)||
-|![Kanit_700Bold](./Kanit_700Bold.ttf.png)|![Kanit_700Bold_Italic](./Kanit_700Bold_Italic.ttf.png)|![Kanit_800ExtraBold](./Kanit_800ExtraBold.ttf.png)||
-|![Kanit_800ExtraBold_Italic](./Kanit_800ExtraBold_Italic.ttf.png)|![Kanit_900Black](./Kanit_900Black.ttf.png)|![Kanit_900Black_Italic](./Kanit_900Black_Italic.ttf.png)||
+|![Kanit_100Thin](.//100Thin/Kanit_100Thin.ttf.png)|![Kanit_100Thin_Italic](.//100Thin_Italic/Kanit_100Thin_Italic.ttf.png)|![Kanit_200ExtraLight](.//200ExtraLight/Kanit_200ExtraLight.ttf.png)||
+|![Kanit_200ExtraLight_Italic](.//200ExtraLight_Italic/Kanit_200ExtraLight_Italic.ttf.png)|![Kanit_300Light](.//300Light/Kanit_300Light.ttf.png)|![Kanit_300Light_Italic](.//300Light_Italic/Kanit_300Light_Italic.ttf.png)||
+|![Kanit_400Regular](.//400Regular/Kanit_400Regular.ttf.png)|![Kanit_400Regular_Italic](.//400Regular_Italic/Kanit_400Regular_Italic.ttf.png)|![Kanit_500Medium](.//500Medium/Kanit_500Medium.ttf.png)||
+|![Kanit_500Medium_Italic](.//500Medium_Italic/Kanit_500Medium_Italic.ttf.png)|![Kanit_600SemiBold](.//600SemiBold/Kanit_600SemiBold.ttf.png)|![Kanit_600SemiBold_Italic](.//600SemiBold_Italic/Kanit_600SemiBold_Italic.ttf.png)||
+|![Kanit_700Bold](.//700Bold/Kanit_700Bold.ttf.png)|![Kanit_700Bold_Italic](.//700Bold_Italic/Kanit_700Bold_Italic.ttf.png)|![Kanit_800ExtraBold](.//800ExtraBold/Kanit_800ExtraBold.ttf.png)||
+|![Kanit_800ExtraBold_Italic](.//800ExtraBold_Italic/Kanit_800ExtraBold_Italic.ttf.png)|![Kanit_900Black](.//900Black/Kanit_900Black.ttf.png)|![Kanit_900Black_Italic](.//900Black_Italic/Kanit_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

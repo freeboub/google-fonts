@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Angkor_400Regular](./Angkor_400Regular.ttf.png)||||
+|![Angkor_400Regular](.//400Regular/Angkor_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

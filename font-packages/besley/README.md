@@ -206,10 +206,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Besley_400Regular](./Besley_400Regular.ttf.png)|![Besley_500Medium](./Besley_500Medium.ttf.png)|![Besley_600SemiBold](./Besley_600SemiBold.ttf.png)||
-|![Besley_700Bold](./Besley_700Bold.ttf.png)|![Besley_800ExtraBold](./Besley_800ExtraBold.ttf.png)|![Besley_900Black](./Besley_900Black.ttf.png)||
-|![Besley_400Regular_Italic](./Besley_400Regular_Italic.ttf.png)|![Besley_500Medium_Italic](./Besley_500Medium_Italic.ttf.png)|![Besley_600SemiBold_Italic](./Besley_600SemiBold_Italic.ttf.png)||
-|![Besley_700Bold_Italic](./Besley_700Bold_Italic.ttf.png)|![Besley_800ExtraBold_Italic](./Besley_800ExtraBold_Italic.ttf.png)|![Besley_900Black_Italic](./Besley_900Black_Italic.ttf.png)||
+|![Besley_400Regular](.//400Regular/Besley_400Regular.ttf.png)|![Besley_500Medium](.//500Medium/Besley_500Medium.ttf.png)|![Besley_600SemiBold](.//600SemiBold/Besley_600SemiBold.ttf.png)||
+|![Besley_700Bold](.//700Bold/Besley_700Bold.ttf.png)|![Besley_800ExtraBold](.//800ExtraBold/Besley_800ExtraBold.ttf.png)|![Besley_900Black](.//900Black/Besley_900Black.ttf.png)||
+|![Besley_400Regular_Italic](.//400Regular_Italic/Besley_400Regular_Italic.ttf.png)|![Besley_500Medium_Italic](.//500Medium_Italic/Besley_500Medium_Italic.ttf.png)|![Besley_600SemiBold_Italic](.//600SemiBold_Italic/Besley_600SemiBold_Italic.ttf.png)||
+|![Besley_700Bold_Italic](.//700Bold_Italic/Besley_700Bold_Italic.ttf.png)|![Besley_800ExtraBold_Italic](.//800ExtraBold_Italic/Besley_800ExtraBold_Italic.ttf.png)|![Besley_900Black_Italic](.//900Black_Italic/Besley_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

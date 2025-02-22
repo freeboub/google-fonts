@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MeieScript_400Regular](./MeieScript_400Regular.ttf.png)||||
+|![MeieScript_400Regular](.//400Regular/MeieScript_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoKufiArabic_100Thin](./NotoKufiArabic_100Thin.ttf.png)|![NotoKufiArabic_200ExtraLight](./NotoKufiArabic_200ExtraLight.ttf.png)|![NotoKufiArabic_300Light](./NotoKufiArabic_300Light.ttf.png)||
-|![NotoKufiArabic_400Regular](./NotoKufiArabic_400Regular.ttf.png)|![NotoKufiArabic_500Medium](./NotoKufiArabic_500Medium.ttf.png)|![NotoKufiArabic_600SemiBold](./NotoKufiArabic_600SemiBold.ttf.png)||
-|![NotoKufiArabic_700Bold](./NotoKufiArabic_700Bold.ttf.png)|![NotoKufiArabic_800ExtraBold](./NotoKufiArabic_800ExtraBold.ttf.png)|![NotoKufiArabic_900Black](./NotoKufiArabic_900Black.ttf.png)||
+|![NotoKufiArabic_100Thin](.//100Thin/NotoKufiArabic_100Thin.ttf.png)|![NotoKufiArabic_200ExtraLight](.//200ExtraLight/NotoKufiArabic_200ExtraLight.ttf.png)|![NotoKufiArabic_300Light](.//300Light/NotoKufiArabic_300Light.ttf.png)||
+|![NotoKufiArabic_400Regular](.//400Regular/NotoKufiArabic_400Regular.ttf.png)|![NotoKufiArabic_500Medium](.//500Medium/NotoKufiArabic_500Medium.ttf.png)|![NotoKufiArabic_600SemiBold](.//600SemiBold/NotoKufiArabic_600SemiBold.ttf.png)||
+|![NotoKufiArabic_700Bold](.//700Bold/NotoKufiArabic_700Bold.ttf.png)|![NotoKufiArabic_800ExtraBold](.//800ExtraBold/NotoKufiArabic_800ExtraBold.ttf.png)|![NotoKufiArabic_900Black](.//900Black/NotoKufiArabic_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

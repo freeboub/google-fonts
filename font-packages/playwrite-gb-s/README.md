@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PlaywriteGBS_100Thin](./PlaywriteGBS_100Thin.ttf.png)|![PlaywriteGBS_200ExtraLight](./PlaywriteGBS_200ExtraLight.ttf.png)|![PlaywriteGBS_300Light](./PlaywriteGBS_300Light.ttf.png)||
-|![PlaywriteGBS_400Regular](./PlaywriteGBS_400Regular.ttf.png)|![PlaywriteGBS_100Thin_Italic](./PlaywriteGBS_100Thin_Italic.ttf.png)|![PlaywriteGBS_200ExtraLight_Italic](./PlaywriteGBS_200ExtraLight_Italic.ttf.png)||
-|![PlaywriteGBS_300Light_Italic](./PlaywriteGBS_300Light_Italic.ttf.png)|![PlaywriteGBS_400Regular_Italic](./PlaywriteGBS_400Regular_Italic.ttf.png)|||
+|![PlaywriteGBS_100Thin](.//100Thin/PlaywriteGBS_100Thin.ttf.png)|![PlaywriteGBS_200ExtraLight](.//200ExtraLight/PlaywriteGBS_200ExtraLight.ttf.png)|![PlaywriteGBS_300Light](.//300Light/PlaywriteGBS_300Light.ttf.png)||
+|![PlaywriteGBS_400Regular](.//400Regular/PlaywriteGBS_400Regular.ttf.png)|![PlaywriteGBS_100Thin_Italic](.//100Thin_Italic/PlaywriteGBS_100Thin_Italic.ttf.png)|![PlaywriteGBS_200ExtraLight_Italic](.//200ExtraLight_Italic/PlaywriteGBS_200ExtraLight_Italic.ttf.png)||
+|![PlaywriteGBS_300Light_Italic](.//300Light_Italic/PlaywriteGBS_300Light_Italic.ttf.png)|![PlaywriteGBS_400Regular_Italic](.//400Regular_Italic/PlaywriteGBS_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

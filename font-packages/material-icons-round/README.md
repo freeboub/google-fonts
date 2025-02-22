@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MaterialIconsRound_400Regular](./MaterialIconsRound_400Regular.ttf.png)||||
+|![MaterialIconsRound_400Regular](.//400Regular/MaterialIconsRound_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

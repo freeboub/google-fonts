@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![GeistMono_100Thin](./GeistMono_100Thin.ttf.png)|![GeistMono_200ExtraLight](./GeistMono_200ExtraLight.ttf.png)|![GeistMono_300Light](./GeistMono_300Light.ttf.png)||
-|![GeistMono_400Regular](./GeistMono_400Regular.ttf.png)|![GeistMono_500Medium](./GeistMono_500Medium.ttf.png)|![GeistMono_600SemiBold](./GeistMono_600SemiBold.ttf.png)||
-|![GeistMono_700Bold](./GeistMono_700Bold.ttf.png)|![GeistMono_800ExtraBold](./GeistMono_800ExtraBold.ttf.png)|![GeistMono_900Black](./GeistMono_900Black.ttf.png)||
+|![GeistMono_100Thin](.//100Thin/GeistMono_100Thin.ttf.png)|![GeistMono_200ExtraLight](.//200ExtraLight/GeistMono_200ExtraLight.ttf.png)|![GeistMono_300Light](.//300Light/GeistMono_300Light.ttf.png)||
+|![GeistMono_400Regular](.//400Regular/GeistMono_400Regular.ttf.png)|![GeistMono_500Medium](.//500Medium/GeistMono_500Medium.ttf.png)|![GeistMono_600SemiBold](.//600SemiBold/GeistMono_600SemiBold.ttf.png)||
+|![GeistMono_700Bold](.//700Bold/GeistMono_700Bold.ttf.png)|![GeistMono_800ExtraBold](.//800ExtraBold/GeistMono_800ExtraBold.ttf.png)|![GeistMono_900Black](.//900Black/GeistMono_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

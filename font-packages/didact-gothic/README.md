@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![DidactGothic_400Regular](./DidactGothic_400Regular.ttf.png)||||
+|![DidactGothic_400Regular](.//400Regular/DidactGothic_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

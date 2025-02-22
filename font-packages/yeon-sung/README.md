@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![YeonSung_400Regular](./YeonSung_400Regular.ttf.png)||||
+|![YeonSung_400Regular](.//400Regular/YeonSung_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

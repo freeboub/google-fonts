@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansThaiLooped_100Thin](./NotoSansThaiLooped_100Thin.ttf.png)|![NotoSansThaiLooped_200ExtraLight](./NotoSansThaiLooped_200ExtraLight.ttf.png)|![NotoSansThaiLooped_300Light](./NotoSansThaiLooped_300Light.ttf.png)||
-|![NotoSansThaiLooped_400Regular](./NotoSansThaiLooped_400Regular.ttf.png)|![NotoSansThaiLooped_500Medium](./NotoSansThaiLooped_500Medium.ttf.png)|![NotoSansThaiLooped_600SemiBold](./NotoSansThaiLooped_600SemiBold.ttf.png)||
-|![NotoSansThaiLooped_700Bold](./NotoSansThaiLooped_700Bold.ttf.png)|![NotoSansThaiLooped_800ExtraBold](./NotoSansThaiLooped_800ExtraBold.ttf.png)|![NotoSansThaiLooped_900Black](./NotoSansThaiLooped_900Black.ttf.png)||
+|![NotoSansThaiLooped_100Thin](.//100Thin/NotoSansThaiLooped_100Thin.ttf.png)|![NotoSansThaiLooped_200ExtraLight](.//200ExtraLight/NotoSansThaiLooped_200ExtraLight.ttf.png)|![NotoSansThaiLooped_300Light](.//300Light/NotoSansThaiLooped_300Light.ttf.png)||
+|![NotoSansThaiLooped_400Regular](.//400Regular/NotoSansThaiLooped_400Regular.ttf.png)|![NotoSansThaiLooped_500Medium](.//500Medium/NotoSansThaiLooped_500Medium.ttf.png)|![NotoSansThaiLooped_600SemiBold](.//600SemiBold/NotoSansThaiLooped_600SemiBold.ttf.png)||
+|![NotoSansThaiLooped_700Bold](.//700Bold/NotoSansThaiLooped_700Bold.ttf.png)|![NotoSansThaiLooped_800ExtraBold](.//800ExtraBold/NotoSansThaiLooped_800ExtraBold.ttf.png)|![NotoSansThaiLooped_900Black](.//900Black/NotoSansThaiLooped_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

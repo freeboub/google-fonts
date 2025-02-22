@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Trispace_100Thin](./Trispace_100Thin.ttf.png)|![Trispace_200ExtraLight](./Trispace_200ExtraLight.ttf.png)|![Trispace_300Light](./Trispace_300Light.ttf.png)||
-|![Trispace_400Regular](./Trispace_400Regular.ttf.png)|![Trispace_500Medium](./Trispace_500Medium.ttf.png)|![Trispace_600SemiBold](./Trispace_600SemiBold.ttf.png)||
-|![Trispace_700Bold](./Trispace_700Bold.ttf.png)|![Trispace_800ExtraBold](./Trispace_800ExtraBold.ttf.png)|||
+|![Trispace_100Thin](.//100Thin/Trispace_100Thin.ttf.png)|![Trispace_200ExtraLight](.//200ExtraLight/Trispace_200ExtraLight.ttf.png)|![Trispace_300Light](.//300Light/Trispace_300Light.ttf.png)||
+|![Trispace_400Regular](.//400Regular/Trispace_400Regular.ttf.png)|![Trispace_500Medium](.//500Medium/Trispace_500Medium.ttf.png)|![Trispace_600SemiBold](.//600SemiBold/Trispace_600SemiBold.ttf.png)||
+|![Trispace_700Bold](.//700Bold/Trispace_700Bold.ttf.png)|![Trispace_800ExtraBold](.//800ExtraBold/Trispace_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

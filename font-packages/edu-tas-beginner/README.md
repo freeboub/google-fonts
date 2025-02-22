@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![EduTASBeginner_400Regular](./EduTASBeginner_400Regular.ttf.png)|![EduTASBeginner_500Medium](./EduTASBeginner_500Medium.ttf.png)|![EduTASBeginner_600SemiBold](./EduTASBeginner_600SemiBold.ttf.png)||
-|![EduTASBeginner_700Bold](./EduTASBeginner_700Bold.ttf.png)||||
+|![EduTASBeginner_400Regular](.//400Regular/EduTASBeginner_400Regular.ttf.png)|![EduTASBeginner_500Medium](.//500Medium/EduTASBeginner_500Medium.ttf.png)|![EduTASBeginner_600SemiBold](.//600SemiBold/EduTASBeginner_600SemiBold.ttf.png)||
+|![EduTASBeginner_700Bold](.//700Bold/EduTASBeginner_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

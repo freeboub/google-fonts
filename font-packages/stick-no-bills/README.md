@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![StickNoBills_200ExtraLight](./StickNoBills_200ExtraLight.ttf.png)|![StickNoBills_300Light](./StickNoBills_300Light.ttf.png)|![StickNoBills_400Regular](./StickNoBills_400Regular.ttf.png)||
-|![StickNoBills_500Medium](./StickNoBills_500Medium.ttf.png)|![StickNoBills_600SemiBold](./StickNoBills_600SemiBold.ttf.png)|![StickNoBills_700Bold](./StickNoBills_700Bold.ttf.png)||
-|![StickNoBills_800ExtraBold](./StickNoBills_800ExtraBold.ttf.png)||||
+|![StickNoBills_200ExtraLight](.//200ExtraLight/StickNoBills_200ExtraLight.ttf.png)|![StickNoBills_300Light](.//300Light/StickNoBills_300Light.ttf.png)|![StickNoBills_400Regular](.//400Regular/StickNoBills_400Regular.ttf.png)||
+|![StickNoBills_500Medium](.//500Medium/StickNoBills_500Medium.ttf.png)|![StickNoBills_600SemiBold](.//600SemiBold/StickNoBills_600SemiBold.ttf.png)|![StickNoBills_700Bold](.//700Bold/StickNoBills_700Bold.ttf.png)||
+|![StickNoBills_800ExtraBold](.//800ExtraBold/StickNoBills_800ExtraBold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

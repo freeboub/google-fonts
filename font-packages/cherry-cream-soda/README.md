@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![CherryCreamSoda_400Regular](./CherryCreamSoda_400Regular.ttf.png)||||
+|![CherryCreamSoda_400Regular](.//400Regular/CherryCreamSoda_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![IMFellFrenchCanon_400Regular](./IMFellFrenchCanon_400Regular.ttf.png)|![IMFellFrenchCanon_400Regular_Italic](./IMFellFrenchCanon_400Regular_Italic.ttf.png)|||
+|![IMFellFrenchCanon_400Regular](.//400Regular/IMFellFrenchCanon_400Regular.ttf.png)|![IMFellFrenchCanon_400Regular_Italic](.//400Regular_Italic/IMFellFrenchCanon_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

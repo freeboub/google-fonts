@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Tillana_400Regular](./Tillana_400Regular.ttf.png)|![Tillana_500Medium](./Tillana_500Medium.ttf.png)|![Tillana_600SemiBold](./Tillana_600SemiBold.ttf.png)||
-|![Tillana_700Bold](./Tillana_700Bold.ttf.png)|![Tillana_800ExtraBold](./Tillana_800ExtraBold.ttf.png)|||
+|![Tillana_400Regular](.//400Regular/Tillana_400Regular.ttf.png)|![Tillana_500Medium](.//500Medium/Tillana_500Medium.ttf.png)|![Tillana_600SemiBold](.//600SemiBold/Tillana_600SemiBold.ttf.png)||
+|![Tillana_700Bold](.//700Bold/Tillana_700Bold.ttf.png)|![Tillana_800ExtraBold](.//800ExtraBold/Tillana_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

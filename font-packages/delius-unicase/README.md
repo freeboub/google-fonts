@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![DeliusUnicase_400Regular](./DeliusUnicase_400Regular.ttf.png)|![DeliusUnicase_700Bold](./DeliusUnicase_700Bold.ttf.png)|||
+|![DeliusUnicase_400Regular](.//400Regular/DeliusUnicase_400Regular.ttf.png)|![DeliusUnicase_700Bold](.//700Bold/DeliusUnicase_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

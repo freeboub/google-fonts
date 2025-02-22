@@ -232,11 +232,11 @@ export default () => {
 
 ||||
 |-|-|-|
-|![JosefinSans_100Thin](./JosefinSans_100Thin.ttf.png)|![JosefinSans_200ExtraLight](./JosefinSans_200ExtraLight.ttf.png)|![JosefinSans_300Light](./JosefinSans_300Light.ttf.png)||
-|![JosefinSans_400Regular](./JosefinSans_400Regular.ttf.png)|![JosefinSans_500Medium](./JosefinSans_500Medium.ttf.png)|![JosefinSans_600SemiBold](./JosefinSans_600SemiBold.ttf.png)||
-|![JosefinSans_700Bold](./JosefinSans_700Bold.ttf.png)|![JosefinSans_100Thin_Italic](./JosefinSans_100Thin_Italic.ttf.png)|![JosefinSans_200ExtraLight_Italic](./JosefinSans_200ExtraLight_Italic.ttf.png)||
-|![JosefinSans_300Light_Italic](./JosefinSans_300Light_Italic.ttf.png)|![JosefinSans_400Regular_Italic](./JosefinSans_400Regular_Italic.ttf.png)|![JosefinSans_500Medium_Italic](./JosefinSans_500Medium_Italic.ttf.png)||
-|![JosefinSans_600SemiBold_Italic](./JosefinSans_600SemiBold_Italic.ttf.png)|![JosefinSans_700Bold_Italic](./JosefinSans_700Bold_Italic.ttf.png)|||
+|![JosefinSans_100Thin](.//100Thin/JosefinSans_100Thin.ttf.png)|![JosefinSans_200ExtraLight](.//200ExtraLight/JosefinSans_200ExtraLight.ttf.png)|![JosefinSans_300Light](.//300Light/JosefinSans_300Light.ttf.png)||
+|![JosefinSans_400Regular](.//400Regular/JosefinSans_400Regular.ttf.png)|![JosefinSans_500Medium](.//500Medium/JosefinSans_500Medium.ttf.png)|![JosefinSans_600SemiBold](.//600SemiBold/JosefinSans_600SemiBold.ttf.png)||
+|![JosefinSans_700Bold](.//700Bold/JosefinSans_700Bold.ttf.png)|![JosefinSans_100Thin_Italic](.//100Thin_Italic/JosefinSans_100Thin_Italic.ttf.png)|![JosefinSans_200ExtraLight_Italic](.//200ExtraLight_Italic/JosefinSans_200ExtraLight_Italic.ttf.png)||
+|![JosefinSans_300Light_Italic](.//300Light_Italic/JosefinSans_300Light_Italic.ttf.png)|![JosefinSans_400Regular_Italic](.//400Regular_Italic/JosefinSans_400Regular_Italic.ttf.png)|![JosefinSans_500Medium_Italic](.//500Medium_Italic/JosefinSans_500Medium_Italic.ttf.png)||
+|![JosefinSans_600SemiBold_Italic](.//600SemiBold_Italic/JosefinSans_600SemiBold_Italic.ttf.png)|![JosefinSans_700Bold_Italic](.//700Bold_Italic/JosefinSans_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

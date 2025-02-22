@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Caveat_400Regular](./Caveat_400Regular.ttf.png)|![Caveat_500Medium](./Caveat_500Medium.ttf.png)|![Caveat_600SemiBold](./Caveat_600SemiBold.ttf.png)||
-|![Caveat_700Bold](./Caveat_700Bold.ttf.png)||||
+|![Caveat_400Regular](.//400Regular/Caveat_400Regular.ttf.png)|![Caveat_500Medium](.//500Medium/Caveat_500Medium.ttf.png)|![Caveat_600SemiBold](.//600SemiBold/Caveat_600SemiBold.ttf.png)||
+|![Caveat_700Bold](.//700Bold/Caveat_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

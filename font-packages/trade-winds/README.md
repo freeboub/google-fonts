@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![TradeWinds_400Regular](./TradeWinds_400Regular.ttf.png)||||
+|![TradeWinds_400Regular](.//400Regular/TradeWinds_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

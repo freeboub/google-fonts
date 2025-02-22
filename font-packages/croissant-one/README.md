@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![CroissantOne_400Regular](./CroissantOne_400Regular.ttf.png)||||
+|![CroissantOne_400Regular](.//400Regular/CroissantOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Jaro_400Regular](./Jaro_400Regular.ttf.png)||||
+|![Jaro_400Regular](.//400Regular/Jaro_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

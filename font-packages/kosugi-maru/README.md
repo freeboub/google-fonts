@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KosugiMaru_400Regular](./KosugiMaru_400Regular.ttf.png)||||
+|![KosugiMaru_400Regular](.//400Regular/KosugiMaru_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

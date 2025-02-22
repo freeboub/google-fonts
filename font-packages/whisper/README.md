@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Whisper_400Regular](./Whisper_400Regular.ttf.png)||||
+|![Whisper_400Regular](.//400Regular/Whisper_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

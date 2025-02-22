@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Iceberg_400Regular](./Iceberg_400Regular.ttf.png)||||
+|![Iceberg_400Regular](.//400Regular/Iceberg_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

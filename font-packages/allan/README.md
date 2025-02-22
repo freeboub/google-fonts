@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Allan_400Regular](./Allan_400Regular.ttf.png)|![Allan_700Bold](./Allan_700Bold.ttf.png)|||
+|![Allan_400Regular](.//400Regular/Allan_400Regular.ttf.png)|![Allan_700Bold](.//700Bold/Allan_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

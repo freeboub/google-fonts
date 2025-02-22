@@ -89,7 +89,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Cardo_400Regular](./Cardo_400Regular.ttf.png)|![Cardo_400Regular_Italic](./Cardo_400Regular_Italic.ttf.png)|![Cardo_700Bold](./Cardo_700Bold.ttf.png)||
+|![Cardo_400Regular](.//400Regular/Cardo_400Regular.ttf.png)|![Cardo_400Regular_Italic](.//400Regular_Italic/Cardo_400Regular_Italic.ttf.png)|![Cardo_700Bold](.//700Bold/Cardo_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

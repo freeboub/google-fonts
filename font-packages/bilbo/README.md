@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Bilbo_400Regular](./Bilbo_400Regular.ttf.png)||||
+|![Bilbo_400Regular](.//400Regular/Bilbo_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

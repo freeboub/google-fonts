@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifBengali_100Thin](./NotoSerifBengali_100Thin.ttf.png)|![NotoSerifBengali_200ExtraLight](./NotoSerifBengali_200ExtraLight.ttf.png)|![NotoSerifBengali_300Light](./NotoSerifBengali_300Light.ttf.png)||
-|![NotoSerifBengali_400Regular](./NotoSerifBengali_400Regular.ttf.png)|![NotoSerifBengali_500Medium](./NotoSerifBengali_500Medium.ttf.png)|![NotoSerifBengali_600SemiBold](./NotoSerifBengali_600SemiBold.ttf.png)||
-|![NotoSerifBengali_700Bold](./NotoSerifBengali_700Bold.ttf.png)|![NotoSerifBengali_800ExtraBold](./NotoSerifBengali_800ExtraBold.ttf.png)|![NotoSerifBengali_900Black](./NotoSerifBengali_900Black.ttf.png)||
+|![NotoSerifBengali_100Thin](.//100Thin/NotoSerifBengali_100Thin.ttf.png)|![NotoSerifBengali_200ExtraLight](.//200ExtraLight/NotoSerifBengali_200ExtraLight.ttf.png)|![NotoSerifBengali_300Light](.//300Light/NotoSerifBengali_300Light.ttf.png)||
+|![NotoSerifBengali_400Regular](.//400Regular/NotoSerifBengali_400Regular.ttf.png)|![NotoSerifBengali_500Medium](.//500Medium/NotoSerifBengali_500Medium.ttf.png)|![NotoSerifBengali_600SemiBold](.//600SemiBold/NotoSerifBengali_600SemiBold.ttf.png)||
+|![NotoSerifBengali_700Bold](.//700Bold/NotoSerifBengali_700Bold.ttf.png)|![NotoSerifBengali_800ExtraBold](.//800ExtraBold/NotoSerifBengali_800ExtraBold.ttf.png)|![NotoSerifBengali_900Black](.//900Black/NotoSerifBengali_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LavishlyYours_400Regular](./LavishlyYours_400Regular.ttf.png)||||
+|![LavishlyYours_400Regular](.//400Regular/LavishlyYours_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

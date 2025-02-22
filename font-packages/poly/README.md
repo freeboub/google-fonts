@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Poly_400Regular](./Poly_400Regular.ttf.png)|![Poly_400Regular_Italic](./Poly_400Regular_Italic.ttf.png)|||
+|![Poly_400Regular](.//400Regular/Poly_400Regular.ttf.png)|![Poly_400Regular_Italic](.//400Regular_Italic/Poly_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

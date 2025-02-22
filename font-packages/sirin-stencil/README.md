@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SirinStencil_400Regular](./SirinStencil_400Regular.ttf.png)||||
+|![SirinStencil_400Regular](.//400Regular/SirinStencil_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Battambang_100Thin](./Battambang_100Thin.ttf.png)|![Battambang_300Light](./Battambang_300Light.ttf.png)|![Battambang_400Regular](./Battambang_400Regular.ttf.png)||
-|![Battambang_700Bold](./Battambang_700Bold.ttf.png)|![Battambang_900Black](./Battambang_900Black.ttf.png)|||
+|![Battambang_100Thin](.//100Thin/Battambang_100Thin.ttf.png)|![Battambang_300Light](.//300Light/Battambang_300Light.ttf.png)|![Battambang_400Regular](.//400Regular/Battambang_400Regular.ttf.png)||
+|![Battambang_700Bold](.//700Bold/Battambang_700Bold.ttf.png)|![Battambang_900Black](.//900Black/Battambang_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

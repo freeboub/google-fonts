@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BrunoAceSC_400Regular](./BrunoAceSC_400Regular.ttf.png)||||
+|![BrunoAceSC_400Regular](.//400Regular/BrunoAceSC_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

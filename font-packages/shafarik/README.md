@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Shafarik_400Regular](./Shafarik_400Regular.ttf.png)||||
+|![Shafarik_400Regular](.//400Regular/Shafarik_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

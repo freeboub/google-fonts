@@ -128,8 +128,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![FunnelDisplay_300Light](./FunnelDisplay_300Light.ttf.png)|![FunnelDisplay_400Regular](./FunnelDisplay_400Regular.ttf.png)|![FunnelDisplay_500Medium](./FunnelDisplay_500Medium.ttf.png)||
-|![FunnelDisplay_600SemiBold](./FunnelDisplay_600SemiBold.ttf.png)|![FunnelDisplay_700Bold](./FunnelDisplay_700Bold.ttf.png)|![FunnelDisplay_800ExtraBold](./FunnelDisplay_800ExtraBold.ttf.png)||
+|![FunnelDisplay_300Light](.//300Light/FunnelDisplay_300Light.ttf.png)|![FunnelDisplay_400Regular](.//400Regular/FunnelDisplay_400Regular.ttf.png)|![FunnelDisplay_500Medium](.//500Medium/FunnelDisplay_500Medium.ttf.png)||
+|![FunnelDisplay_600SemiBold](.//600SemiBold/FunnelDisplay_600SemiBold.ttf.png)|![FunnelDisplay_700Bold](.//700Bold/FunnelDisplay_700Bold.ttf.png)|![FunnelDisplay_800ExtraBold](.//800ExtraBold/FunnelDisplay_800ExtraBold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

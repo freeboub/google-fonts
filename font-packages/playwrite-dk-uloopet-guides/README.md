@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PlaywriteDKUloopetGuides_400Regular](./PlaywriteDKUloopetGuides_400Regular.ttf.png)||||
+|![PlaywriteDKUloopetGuides_400Regular](.//400Regular/PlaywriteDKUloopetGuides_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

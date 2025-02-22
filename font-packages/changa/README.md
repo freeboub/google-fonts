@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Changa_200ExtraLight](./Changa_200ExtraLight.ttf.png)|![Changa_300Light](./Changa_300Light.ttf.png)|![Changa_400Regular](./Changa_400Regular.ttf.png)||
-|![Changa_500Medium](./Changa_500Medium.ttf.png)|![Changa_600SemiBold](./Changa_600SemiBold.ttf.png)|![Changa_700Bold](./Changa_700Bold.ttf.png)||
-|![Changa_800ExtraBold](./Changa_800ExtraBold.ttf.png)||||
+|![Changa_200ExtraLight](.//200ExtraLight/Changa_200ExtraLight.ttf.png)|![Changa_300Light](.//300Light/Changa_300Light.ttf.png)|![Changa_400Regular](.//400Regular/Changa_400Regular.ttf.png)||
+|![Changa_500Medium](.//500Medium/Changa_500Medium.ttf.png)|![Changa_600SemiBold](.//600SemiBold/Changa_600SemiBold.ttf.png)|![Changa_700Bold](.//700Bold/Changa_700Bold.ttf.png)||
+|![Changa_800ExtraBold](.//800ExtraBold/Changa_800ExtraBold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

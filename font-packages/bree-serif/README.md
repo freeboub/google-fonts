@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BreeSerif_400Regular](./BreeSerif_400Regular.ttf.png)||||
+|![BreeSerif_400Regular](.//400Regular/BreeSerif_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

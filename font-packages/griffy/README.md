@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Griffy_400Regular](./Griffy_400Regular.ttf.png)||||
+|![Griffy_400Regular](.//400Regular/Griffy_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

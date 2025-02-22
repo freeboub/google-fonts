@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Marhey_300Light](./Marhey_300Light.ttf.png)|![Marhey_400Regular](./Marhey_400Regular.ttf.png)|![Marhey_500Medium](./Marhey_500Medium.ttf.png)||
-|![Marhey_600SemiBold](./Marhey_600SemiBold.ttf.png)|![Marhey_700Bold](./Marhey_700Bold.ttf.png)|||
+|![Marhey_300Light](.//300Light/Marhey_300Light.ttf.png)|![Marhey_400Regular](.//400Regular/Marhey_400Regular.ttf.png)|![Marhey_500Medium](.//500Medium/Marhey_500Medium.ttf.png)||
+|![Marhey_600SemiBold](.//600SemiBold/Marhey_600SemiBold.ttf.png)|![Marhey_700Bold](.//700Bold/Marhey_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

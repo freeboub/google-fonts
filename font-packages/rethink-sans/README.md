@@ -180,10 +180,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RethinkSans_400Regular](./RethinkSans_400Regular.ttf.png)|![RethinkSans_500Medium](./RethinkSans_500Medium.ttf.png)|![RethinkSans_600SemiBold](./RethinkSans_600SemiBold.ttf.png)||
-|![RethinkSans_700Bold](./RethinkSans_700Bold.ttf.png)|![RethinkSans_800ExtraBold](./RethinkSans_800ExtraBold.ttf.png)|![RethinkSans_400Regular_Italic](./RethinkSans_400Regular_Italic.ttf.png)||
-|![RethinkSans_500Medium_Italic](./RethinkSans_500Medium_Italic.ttf.png)|![RethinkSans_600SemiBold_Italic](./RethinkSans_600SemiBold_Italic.ttf.png)|![RethinkSans_700Bold_Italic](./RethinkSans_700Bold_Italic.ttf.png)||
-|![RethinkSans_800ExtraBold_Italic](./RethinkSans_800ExtraBold_Italic.ttf.png)||||
+|![RethinkSans_400Regular](.//400Regular/RethinkSans_400Regular.ttf.png)|![RethinkSans_500Medium](.//500Medium/RethinkSans_500Medium.ttf.png)|![RethinkSans_600SemiBold](.//600SemiBold/RethinkSans_600SemiBold.ttf.png)||
+|![RethinkSans_700Bold](.//700Bold/RethinkSans_700Bold.ttf.png)|![RethinkSans_800ExtraBold](.//800ExtraBold/RethinkSans_800ExtraBold.ttf.png)|![RethinkSans_400Regular_Italic](.//400Regular_Italic/RethinkSans_400Regular_Italic.ttf.png)||
+|![RethinkSans_500Medium_Italic](.//500Medium_Italic/RethinkSans_500Medium_Italic.ttf.png)|![RethinkSans_600SemiBold_Italic](.//600SemiBold_Italic/RethinkSans_600SemiBold_Italic.ttf.png)|![RethinkSans_700Bold_Italic](.//700Bold_Italic/RethinkSans_700Bold_Italic.ttf.png)||
+|![RethinkSans_800ExtraBold_Italic](.//800ExtraBold_Italic/RethinkSans_800ExtraBold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

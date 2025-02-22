@@ -180,10 +180,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![WixMadeforText_400Regular](./WixMadeforText_400Regular.ttf.png)|![WixMadeforText_400Regular_Italic](./WixMadeforText_400Regular_Italic.ttf.png)|![WixMadeforText_500Medium](./WixMadeforText_500Medium.ttf.png)||
-|![WixMadeforText_500Medium_Italic](./WixMadeforText_500Medium_Italic.ttf.png)|![WixMadeforText_600SemiBold](./WixMadeforText_600SemiBold.ttf.png)|![WixMadeforText_600SemiBold_Italic](./WixMadeforText_600SemiBold_Italic.ttf.png)||
-|![WixMadeforText_700Bold](./WixMadeforText_700Bold.ttf.png)|![WixMadeforText_700Bold_Italic](./WixMadeforText_700Bold_Italic.ttf.png)|![WixMadeforText_800ExtraBold](./WixMadeforText_800ExtraBold.ttf.png)||
-|![WixMadeforText_800ExtraBold_Italic](./WixMadeforText_800ExtraBold_Italic.ttf.png)||||
+|![WixMadeforText_400Regular](.//400Regular/WixMadeforText_400Regular.ttf.png)|![WixMadeforText_400Regular_Italic](.//400Regular_Italic/WixMadeforText_400Regular_Italic.ttf.png)|![WixMadeforText_500Medium](.//500Medium/WixMadeforText_500Medium.ttf.png)||
+|![WixMadeforText_500Medium_Italic](.//500Medium_Italic/WixMadeforText_500Medium_Italic.ttf.png)|![WixMadeforText_600SemiBold](.//600SemiBold/WixMadeforText_600SemiBold.ttf.png)|![WixMadeforText_600SemiBold_Italic](.//600SemiBold_Italic/WixMadeforText_600SemiBold_Italic.ttf.png)||
+|![WixMadeforText_700Bold](.//700Bold/WixMadeforText_700Bold.ttf.png)|![WixMadeforText_700Bold_Italic](.//700Bold_Italic/WixMadeforText_700Bold_Italic.ttf.png)|![WixMadeforText_800ExtraBold](.//800ExtraBold/WixMadeforText_800ExtraBold.ttf.png)||
+|![WixMadeforText_800ExtraBold_Italic](.//800ExtraBold_Italic/WixMadeforText_800ExtraBold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

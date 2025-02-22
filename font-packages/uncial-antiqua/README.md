@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![UncialAntiqua_400Regular](./UncialAntiqua_400Regular.ttf.png)||||
+|![UncialAntiqua_400Regular](.//400Regular/UncialAntiqua_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

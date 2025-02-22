@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Vazirmatn_100Thin](./Vazirmatn_100Thin.ttf.png)|![Vazirmatn_200ExtraLight](./Vazirmatn_200ExtraLight.ttf.png)|![Vazirmatn_300Light](./Vazirmatn_300Light.ttf.png)||
-|![Vazirmatn_400Regular](./Vazirmatn_400Regular.ttf.png)|![Vazirmatn_500Medium](./Vazirmatn_500Medium.ttf.png)|![Vazirmatn_600SemiBold](./Vazirmatn_600SemiBold.ttf.png)||
-|![Vazirmatn_700Bold](./Vazirmatn_700Bold.ttf.png)|![Vazirmatn_800ExtraBold](./Vazirmatn_800ExtraBold.ttf.png)|![Vazirmatn_900Black](./Vazirmatn_900Black.ttf.png)||
+|![Vazirmatn_100Thin](.//100Thin/Vazirmatn_100Thin.ttf.png)|![Vazirmatn_200ExtraLight](.//200ExtraLight/Vazirmatn_200ExtraLight.ttf.png)|![Vazirmatn_300Light](.//300Light/Vazirmatn_300Light.ttf.png)||
+|![Vazirmatn_400Regular](.//400Regular/Vazirmatn_400Regular.ttf.png)|![Vazirmatn_500Medium](.//500Medium/Vazirmatn_500Medium.ttf.png)|![Vazirmatn_600SemiBold](.//600SemiBold/Vazirmatn_600SemiBold.ttf.png)||
+|![Vazirmatn_700Bold](.//700Bold/Vazirmatn_700Bold.ttf.png)|![Vazirmatn_800ExtraBold](.//800ExtraBold/Vazirmatn_800ExtraBold.ttf.png)|![Vazirmatn_900Black](.//900Black/Vazirmatn_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

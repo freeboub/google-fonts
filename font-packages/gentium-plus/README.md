@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![GentiumPlus_400Regular](./GentiumPlus_400Regular.ttf.png)|![GentiumPlus_400Regular_Italic](./GentiumPlus_400Regular_Italic.ttf.png)|![GentiumPlus_700Bold](./GentiumPlus_700Bold.ttf.png)||
-|![GentiumPlus_700Bold_Italic](./GentiumPlus_700Bold_Italic.ttf.png)||||
+|![GentiumPlus_400Regular](.//400Regular/GentiumPlus_400Regular.ttf.png)|![GentiumPlus_400Regular_Italic](.//400Regular_Italic/GentiumPlus_400Regular_Italic.ttf.png)|![GentiumPlus_700Bold](.//700Bold/GentiumPlus_700Bold.ttf.png)||
+|![GentiumPlus_700Bold_Italic](.//700Bold_Italic/GentiumPlus_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

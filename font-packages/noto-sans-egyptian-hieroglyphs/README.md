@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansEgyptianHieroglyphs_400Regular](./NotoSansEgyptianHieroglyphs_400Regular.ttf.png)||||
+|![NotoSansEgyptianHieroglyphs_400Regular](.//400Regular/NotoSansEgyptianHieroglyphs_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

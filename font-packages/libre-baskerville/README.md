@@ -89,7 +89,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LibreBaskerville_400Regular](./LibreBaskerville_400Regular.ttf.png)|![LibreBaskerville_400Regular_Italic](./LibreBaskerville_400Regular_Italic.ttf.png)|![LibreBaskerville_700Bold](./LibreBaskerville_700Bold.ttf.png)||
+|![LibreBaskerville_400Regular](.//400Regular/LibreBaskerville_400Regular.ttf.png)|![LibreBaskerville_400Regular_Italic](.//400Regular_Italic/LibreBaskerville_400Regular_Italic.ttf.png)|![LibreBaskerville_700Bold](.//700Bold/LibreBaskerville_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

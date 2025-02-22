@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![GasoekOne_400Regular](./GasoekOne_400Regular.ttf.png)||||
+|![GasoekOne_400Regular](.//400Regular/GasoekOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

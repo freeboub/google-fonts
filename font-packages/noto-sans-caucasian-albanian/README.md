@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansCaucasianAlbanian_400Regular](./NotoSansCaucasianAlbanian_400Regular.ttf.png)||||
+|![NotoSansCaucasianAlbanian_400Regular](.//400Regular/NotoSansCaucasianAlbanian_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

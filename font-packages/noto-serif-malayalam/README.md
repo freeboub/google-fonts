@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifMalayalam_100Thin](./NotoSerifMalayalam_100Thin.ttf.png)|![NotoSerifMalayalam_200ExtraLight](./NotoSerifMalayalam_200ExtraLight.ttf.png)|![NotoSerifMalayalam_300Light](./NotoSerifMalayalam_300Light.ttf.png)||
-|![NotoSerifMalayalam_400Regular](./NotoSerifMalayalam_400Regular.ttf.png)|![NotoSerifMalayalam_500Medium](./NotoSerifMalayalam_500Medium.ttf.png)|![NotoSerifMalayalam_600SemiBold](./NotoSerifMalayalam_600SemiBold.ttf.png)||
-|![NotoSerifMalayalam_700Bold](./NotoSerifMalayalam_700Bold.ttf.png)|![NotoSerifMalayalam_800ExtraBold](./NotoSerifMalayalam_800ExtraBold.ttf.png)|![NotoSerifMalayalam_900Black](./NotoSerifMalayalam_900Black.ttf.png)||
+|![NotoSerifMalayalam_100Thin](.//100Thin/NotoSerifMalayalam_100Thin.ttf.png)|![NotoSerifMalayalam_200ExtraLight](.//200ExtraLight/NotoSerifMalayalam_200ExtraLight.ttf.png)|![NotoSerifMalayalam_300Light](.//300Light/NotoSerifMalayalam_300Light.ttf.png)||
+|![NotoSerifMalayalam_400Regular](.//400Regular/NotoSerifMalayalam_400Regular.ttf.png)|![NotoSerifMalayalam_500Medium](.//500Medium/NotoSerifMalayalam_500Medium.ttf.png)|![NotoSerifMalayalam_600SemiBold](.//600SemiBold/NotoSerifMalayalam_600SemiBold.ttf.png)||
+|![NotoSerifMalayalam_700Bold](.//700Bold/NotoSerifMalayalam_700Bold.ttf.png)|![NotoSerifMalayalam_800ExtraBold](.//800ExtraBold/NotoSerifMalayalam_800ExtraBold.ttf.png)|![NotoSerifMalayalam_900Black](.//900Black/NotoSerifMalayalam_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -89,7 +89,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LifeSavers_400Regular](./LifeSavers_400Regular.ttf.png)|![LifeSavers_700Bold](./LifeSavers_700Bold.ttf.png)|![LifeSavers_800ExtraBold](./LifeSavers_800ExtraBold.ttf.png)||
+|![LifeSavers_400Regular](.//400Regular/LifeSavers_400Regular.ttf.png)|![LifeSavers_700Bold](.//700Bold/LifeSavers_700Bold.ttf.png)|![LifeSavers_800ExtraBold](.//800ExtraBold/LifeSavers_800ExtraBold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

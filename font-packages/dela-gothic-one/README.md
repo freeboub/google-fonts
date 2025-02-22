@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![DelaGothicOne_400Regular](./DelaGothicOne_400Regular.ttf.png)||||
+|![DelaGothicOne_400Regular](.//400Regular/DelaGothicOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

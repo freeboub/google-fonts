@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Chenla_400Regular](./Chenla_400Regular.ttf.png)||||
+|![Chenla_400Regular](.//400Regular/Chenla_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

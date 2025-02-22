@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Plaster_400Regular](./Plaster_400Regular.ttf.png)||||
+|![Plaster_400Regular](.//400Regular/Plaster_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

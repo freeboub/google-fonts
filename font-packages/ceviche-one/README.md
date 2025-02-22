@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![CevicheOne_400Regular](./CevicheOne_400Regular.ttf.png)||||
+|![CevicheOne_400Regular](.//400Regular/CevicheOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

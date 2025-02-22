@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifTangut_400Regular](./NotoSerifTangut_400Regular.ttf.png)||||
+|![NotoSerifTangut_400Regular](.//400Regular/NotoSerifTangut_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

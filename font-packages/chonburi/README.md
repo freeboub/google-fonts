@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Chonburi_400Regular](./Chonburi_400Regular.ttf.png)||||
+|![Chonburi_400Regular](.//400Regular/Chonburi_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

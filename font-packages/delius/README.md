@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Delius_400Regular](./Delius_400Regular.ttf.png)||||
+|![Delius_400Regular](.//400Regular/Delius_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

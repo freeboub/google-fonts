@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MajorMonoDisplay_400Regular](./MajorMonoDisplay_400Regular.ttf.png)||||
+|![MajorMonoDisplay_400Regular](.//400Regular/MajorMonoDisplay_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![EduSABeginner_400Regular](./EduSABeginner_400Regular.ttf.png)|![EduSABeginner_500Medium](./EduSABeginner_500Medium.ttf.png)|![EduSABeginner_600SemiBold](./EduSABeginner_600SemiBold.ttf.png)||
-|![EduSABeginner_700Bold](./EduSABeginner_700Bold.ttf.png)||||
+|![EduSABeginner_400Regular](.//400Regular/EduSABeginner_400Regular.ttf.png)|![EduSABeginner_500Medium](.//500Medium/EduSABeginner_500Medium.ttf.png)|![EduSABeginner_600SemiBold](.//600SemiBold/EduSABeginner_600SemiBold.ttf.png)||
+|![EduSABeginner_700Bold](.//700Bold/EduSABeginner_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

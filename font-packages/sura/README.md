@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Sura_400Regular](./Sura_400Regular.ttf.png)|![Sura_700Bold](./Sura_700Bold.ttf.png)|||
+|![Sura_400Regular](.//400Regular/Sura_400Regular.ttf.png)|![Sura_700Bold](.//700Bold/Sura_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

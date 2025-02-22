@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ZCOOLQingKeHuangYou_400Regular](./ZCOOLQingKeHuangYou_400Regular.ttf.png)||||
+|![ZCOOLQingKeHuangYou_400Regular](.//400Regular/ZCOOLQingKeHuangYou_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

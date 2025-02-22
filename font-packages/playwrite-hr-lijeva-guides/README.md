@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PlaywriteHRLijevaGuides_400Regular](./PlaywriteHRLijevaGuides_400Regular.ttf.png)||||
+|![PlaywriteHRLijevaGuides_400Regular](.//400Regular/PlaywriteHRLijevaGuides_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

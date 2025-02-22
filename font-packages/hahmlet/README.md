@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Hahmlet_100Thin](./Hahmlet_100Thin.ttf.png)|![Hahmlet_200ExtraLight](./Hahmlet_200ExtraLight.ttf.png)|![Hahmlet_300Light](./Hahmlet_300Light.ttf.png)||
-|![Hahmlet_400Regular](./Hahmlet_400Regular.ttf.png)|![Hahmlet_500Medium](./Hahmlet_500Medium.ttf.png)|![Hahmlet_600SemiBold](./Hahmlet_600SemiBold.ttf.png)||
-|![Hahmlet_700Bold](./Hahmlet_700Bold.ttf.png)|![Hahmlet_800ExtraBold](./Hahmlet_800ExtraBold.ttf.png)|![Hahmlet_900Black](./Hahmlet_900Black.ttf.png)||
+|![Hahmlet_100Thin](.//100Thin/Hahmlet_100Thin.ttf.png)|![Hahmlet_200ExtraLight](.//200ExtraLight/Hahmlet_200ExtraLight.ttf.png)|![Hahmlet_300Light](.//300Light/Hahmlet_300Light.ttf.png)||
+|![Hahmlet_400Regular](.//400Regular/Hahmlet_400Regular.ttf.png)|![Hahmlet_500Medium](.//500Medium/Hahmlet_500Medium.ttf.png)|![Hahmlet_600SemiBold](.//600SemiBold/Hahmlet_600SemiBold.ttf.png)||
+|![Hahmlet_700Bold](.//700Bold/Hahmlet_700Bold.ttf.png)|![Hahmlet_800ExtraBold](.//800ExtraBold/Hahmlet_800ExtraBold.ttf.png)|![Hahmlet_900Black](.//900Black/Hahmlet_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

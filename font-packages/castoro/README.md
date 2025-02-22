@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Castoro_400Regular](./Castoro_400Regular.ttf.png)|![Castoro_400Regular_Italic](./Castoro_400Regular_Italic.ttf.png)|||
+|![Castoro_400Regular](.//400Regular/Castoro_400Regular.ttf.png)|![Castoro_400Regular_Italic](.//400Regular_Italic/Castoro_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

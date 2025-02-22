@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RobotoSlab_100Thin](./RobotoSlab_100Thin.ttf.png)|![RobotoSlab_200ExtraLight](./RobotoSlab_200ExtraLight.ttf.png)|![RobotoSlab_300Light](./RobotoSlab_300Light.ttf.png)||
-|![RobotoSlab_400Regular](./RobotoSlab_400Regular.ttf.png)|![RobotoSlab_500Medium](./RobotoSlab_500Medium.ttf.png)|![RobotoSlab_600SemiBold](./RobotoSlab_600SemiBold.ttf.png)||
-|![RobotoSlab_700Bold](./RobotoSlab_700Bold.ttf.png)|![RobotoSlab_800ExtraBold](./RobotoSlab_800ExtraBold.ttf.png)|![RobotoSlab_900Black](./RobotoSlab_900Black.ttf.png)||
+|![RobotoSlab_100Thin](.//100Thin/RobotoSlab_100Thin.ttf.png)|![RobotoSlab_200ExtraLight](.//200ExtraLight/RobotoSlab_200ExtraLight.ttf.png)|![RobotoSlab_300Light](.//300Light/RobotoSlab_300Light.ttf.png)||
+|![RobotoSlab_400Regular](.//400Regular/RobotoSlab_400Regular.ttf.png)|![RobotoSlab_500Medium](.//500Medium/RobotoSlab_500Medium.ttf.png)|![RobotoSlab_600SemiBold](.//600SemiBold/RobotoSlab_600SemiBold.ttf.png)||
+|![RobotoSlab_700Bold](.//700Bold/RobotoSlab_700Bold.ttf.png)|![RobotoSlab_800ExtraBold](.//800ExtraBold/RobotoSlab_800ExtraBold.ttf.png)|![RobotoSlab_900Black](.//900Black/RobotoSlab_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![TsukimiRounded_300Light](./TsukimiRounded_300Light.ttf.png)|![TsukimiRounded_400Regular](./TsukimiRounded_400Regular.ttf.png)|![TsukimiRounded_500Medium](./TsukimiRounded_500Medium.ttf.png)||
-|![TsukimiRounded_600SemiBold](./TsukimiRounded_600SemiBold.ttf.png)|![TsukimiRounded_700Bold](./TsukimiRounded_700Bold.ttf.png)|||
+|![TsukimiRounded_300Light](.//300Light/TsukimiRounded_300Light.ttf.png)|![TsukimiRounded_400Regular](.//400Regular/TsukimiRounded_400Regular.ttf.png)|![TsukimiRounded_500Medium](.//500Medium/TsukimiRounded_500Medium.ttf.png)||
+|![TsukimiRounded_600SemiBold](.//600SemiBold/TsukimiRounded_600SemiBold.ttf.png)|![TsukimiRounded_700Bold](.//700Bold/TsukimiRounded_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

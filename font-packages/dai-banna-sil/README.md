@@ -180,10 +180,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![DaiBannaSIL_300Light](./DaiBannaSIL_300Light.ttf.png)|![DaiBannaSIL_300Light_Italic](./DaiBannaSIL_300Light_Italic.ttf.png)|![DaiBannaSIL_400Regular](./DaiBannaSIL_400Regular.ttf.png)||
-|![DaiBannaSIL_400Regular_Italic](./DaiBannaSIL_400Regular_Italic.ttf.png)|![DaiBannaSIL_500Medium](./DaiBannaSIL_500Medium.ttf.png)|![DaiBannaSIL_500Medium_Italic](./DaiBannaSIL_500Medium_Italic.ttf.png)||
-|![DaiBannaSIL_600SemiBold](./DaiBannaSIL_600SemiBold.ttf.png)|![DaiBannaSIL_600SemiBold_Italic](./DaiBannaSIL_600SemiBold_Italic.ttf.png)|![DaiBannaSIL_700Bold](./DaiBannaSIL_700Bold.ttf.png)||
-|![DaiBannaSIL_700Bold_Italic](./DaiBannaSIL_700Bold_Italic.ttf.png)||||
+|![DaiBannaSIL_300Light](.//300Light/DaiBannaSIL_300Light.ttf.png)|![DaiBannaSIL_300Light_Italic](.//300Light_Italic/DaiBannaSIL_300Light_Italic.ttf.png)|![DaiBannaSIL_400Regular](.//400Regular/DaiBannaSIL_400Regular.ttf.png)||
+|![DaiBannaSIL_400Regular_Italic](.//400Regular_Italic/DaiBannaSIL_400Regular_Italic.ttf.png)|![DaiBannaSIL_500Medium](.//500Medium/DaiBannaSIL_500Medium.ttf.png)|![DaiBannaSIL_500Medium_Italic](.//500Medium_Italic/DaiBannaSIL_500Medium_Italic.ttf.png)||
+|![DaiBannaSIL_600SemiBold](.//600SemiBold/DaiBannaSIL_600SemiBold.ttf.png)|![DaiBannaSIL_600SemiBold_Italic](.//600SemiBold_Italic/DaiBannaSIL_600SemiBold_Italic.ttf.png)|![DaiBannaSIL_700Bold](.//700Bold/DaiBannaSIL_700Bold.ttf.png)||
+|![DaiBannaSIL_700Bold_Italic](.//700Bold_Italic/DaiBannaSIL_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

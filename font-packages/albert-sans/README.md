@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AlbertSans_100Thin](./AlbertSans_100Thin.ttf.png)|![AlbertSans_200ExtraLight](./AlbertSans_200ExtraLight.ttf.png)|![AlbertSans_300Light](./AlbertSans_300Light.ttf.png)||
-|![AlbertSans_400Regular](./AlbertSans_400Regular.ttf.png)|![AlbertSans_500Medium](./AlbertSans_500Medium.ttf.png)|![AlbertSans_600SemiBold](./AlbertSans_600SemiBold.ttf.png)||
-|![AlbertSans_700Bold](./AlbertSans_700Bold.ttf.png)|![AlbertSans_800ExtraBold](./AlbertSans_800ExtraBold.ttf.png)|![AlbertSans_900Black](./AlbertSans_900Black.ttf.png)||
-|![AlbertSans_100Thin_Italic](./AlbertSans_100Thin_Italic.ttf.png)|![AlbertSans_200ExtraLight_Italic](./AlbertSans_200ExtraLight_Italic.ttf.png)|![AlbertSans_300Light_Italic](./AlbertSans_300Light_Italic.ttf.png)||
-|![AlbertSans_400Regular_Italic](./AlbertSans_400Regular_Italic.ttf.png)|![AlbertSans_500Medium_Italic](./AlbertSans_500Medium_Italic.ttf.png)|![AlbertSans_600SemiBold_Italic](./AlbertSans_600SemiBold_Italic.ttf.png)||
-|![AlbertSans_700Bold_Italic](./AlbertSans_700Bold_Italic.ttf.png)|![AlbertSans_800ExtraBold_Italic](./AlbertSans_800ExtraBold_Italic.ttf.png)|![AlbertSans_900Black_Italic](./AlbertSans_900Black_Italic.ttf.png)||
+|![AlbertSans_100Thin](.//100Thin/AlbertSans_100Thin.ttf.png)|![AlbertSans_200ExtraLight](.//200ExtraLight/AlbertSans_200ExtraLight.ttf.png)|![AlbertSans_300Light](.//300Light/AlbertSans_300Light.ttf.png)||
+|![AlbertSans_400Regular](.//400Regular/AlbertSans_400Regular.ttf.png)|![AlbertSans_500Medium](.//500Medium/AlbertSans_500Medium.ttf.png)|![AlbertSans_600SemiBold](.//600SemiBold/AlbertSans_600SemiBold.ttf.png)||
+|![AlbertSans_700Bold](.//700Bold/AlbertSans_700Bold.ttf.png)|![AlbertSans_800ExtraBold](.//800ExtraBold/AlbertSans_800ExtraBold.ttf.png)|![AlbertSans_900Black](.//900Black/AlbertSans_900Black.ttf.png)||
+|![AlbertSans_100Thin_Italic](.//100Thin_Italic/AlbertSans_100Thin_Italic.ttf.png)|![AlbertSans_200ExtraLight_Italic](.//200ExtraLight_Italic/AlbertSans_200ExtraLight_Italic.ttf.png)|![AlbertSans_300Light_Italic](.//300Light_Italic/AlbertSans_300Light_Italic.ttf.png)||
+|![AlbertSans_400Regular_Italic](.//400Regular_Italic/AlbertSans_400Regular_Italic.ttf.png)|![AlbertSans_500Medium_Italic](.//500Medium_Italic/AlbertSans_500Medium_Italic.ttf.png)|![AlbertSans_600SemiBold_Italic](.//600SemiBold_Italic/AlbertSans_600SemiBold_Italic.ttf.png)||
+|![AlbertSans_700Bold_Italic](.//700Bold_Italic/AlbertSans_700Bold_Italic.ttf.png)|![AlbertSans_800ExtraBold_Italic](.//800ExtraBold_Italic/AlbertSans_800ExtraBold_Italic.ttf.png)|![AlbertSans_900Black_Italic](.//900Black_Italic/AlbertSans_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

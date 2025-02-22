@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Marvel_400Regular](./Marvel_400Regular.ttf.png)|![Marvel_400Regular_Italic](./Marvel_400Regular_Italic.ttf.png)|![Marvel_700Bold](./Marvel_700Bold.ttf.png)||
-|![Marvel_700Bold_Italic](./Marvel_700Bold_Italic.ttf.png)||||
+|![Marvel_400Regular](.//400Regular/Marvel_400Regular.ttf.png)|![Marvel_400Regular_Italic](.//400Regular_Italic/Marvel_400Regular_Italic.ttf.png)|![Marvel_700Bold](.//700Bold/Marvel_700Bold.ttf.png)||
+|![Marvel_700Bold_Italic](.//700Bold_Italic/Marvel_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

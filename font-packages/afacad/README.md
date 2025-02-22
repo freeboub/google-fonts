@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Afacad_400Regular](./Afacad_400Regular.ttf.png)|![Afacad_500Medium](./Afacad_500Medium.ttf.png)|![Afacad_600SemiBold](./Afacad_600SemiBold.ttf.png)||
-|![Afacad_700Bold](./Afacad_700Bold.ttf.png)|![Afacad_400Regular_Italic](./Afacad_400Regular_Italic.ttf.png)|![Afacad_500Medium_Italic](./Afacad_500Medium_Italic.ttf.png)||
-|![Afacad_600SemiBold_Italic](./Afacad_600SemiBold_Italic.ttf.png)|![Afacad_700Bold_Italic](./Afacad_700Bold_Italic.ttf.png)|||
+|![Afacad_400Regular](.//400Regular/Afacad_400Regular.ttf.png)|![Afacad_500Medium](.//500Medium/Afacad_500Medium.ttf.png)|![Afacad_600SemiBold](.//600SemiBold/Afacad_600SemiBold.ttf.png)||
+|![Afacad_700Bold](.//700Bold/Afacad_700Bold.ttf.png)|![Afacad_400Regular_Italic](.//400Regular_Italic/Afacad_400Regular_Italic.ttf.png)|![Afacad_500Medium_Italic](.//500Medium_Italic/Afacad_500Medium_Italic.ttf.png)||
+|![Afacad_600SemiBold_Italic](.//600SemiBold_Italic/Afacad_600SemiBold_Italic.ttf.png)|![Afacad_700Bold_Italic](.//700Bold_Italic/Afacad_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

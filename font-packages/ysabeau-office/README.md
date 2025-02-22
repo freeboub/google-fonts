@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![YsabeauOffice_100Thin](./YsabeauOffice_100Thin.ttf.png)|![YsabeauOffice_200ExtraLight](./YsabeauOffice_200ExtraLight.ttf.png)|![YsabeauOffice_300Light](./YsabeauOffice_300Light.ttf.png)||
-|![YsabeauOffice_400Regular](./YsabeauOffice_400Regular.ttf.png)|![YsabeauOffice_500Medium](./YsabeauOffice_500Medium.ttf.png)|![YsabeauOffice_600SemiBold](./YsabeauOffice_600SemiBold.ttf.png)||
-|![YsabeauOffice_700Bold](./YsabeauOffice_700Bold.ttf.png)|![YsabeauOffice_800ExtraBold](./YsabeauOffice_800ExtraBold.ttf.png)|![YsabeauOffice_900Black](./YsabeauOffice_900Black.ttf.png)||
-|![YsabeauOffice_100Thin_Italic](./YsabeauOffice_100Thin_Italic.ttf.png)|![YsabeauOffice_200ExtraLight_Italic](./YsabeauOffice_200ExtraLight_Italic.ttf.png)|![YsabeauOffice_300Light_Italic](./YsabeauOffice_300Light_Italic.ttf.png)||
-|![YsabeauOffice_400Regular_Italic](./YsabeauOffice_400Regular_Italic.ttf.png)|![YsabeauOffice_500Medium_Italic](./YsabeauOffice_500Medium_Italic.ttf.png)|![YsabeauOffice_600SemiBold_Italic](./YsabeauOffice_600SemiBold_Italic.ttf.png)||
-|![YsabeauOffice_700Bold_Italic](./YsabeauOffice_700Bold_Italic.ttf.png)|![YsabeauOffice_800ExtraBold_Italic](./YsabeauOffice_800ExtraBold_Italic.ttf.png)|![YsabeauOffice_900Black_Italic](./YsabeauOffice_900Black_Italic.ttf.png)||
+|![YsabeauOffice_100Thin](.//100Thin/YsabeauOffice_100Thin.ttf.png)|![YsabeauOffice_200ExtraLight](.//200ExtraLight/YsabeauOffice_200ExtraLight.ttf.png)|![YsabeauOffice_300Light](.//300Light/YsabeauOffice_300Light.ttf.png)||
+|![YsabeauOffice_400Regular](.//400Regular/YsabeauOffice_400Regular.ttf.png)|![YsabeauOffice_500Medium](.//500Medium/YsabeauOffice_500Medium.ttf.png)|![YsabeauOffice_600SemiBold](.//600SemiBold/YsabeauOffice_600SemiBold.ttf.png)||
+|![YsabeauOffice_700Bold](.//700Bold/YsabeauOffice_700Bold.ttf.png)|![YsabeauOffice_800ExtraBold](.//800ExtraBold/YsabeauOffice_800ExtraBold.ttf.png)|![YsabeauOffice_900Black](.//900Black/YsabeauOffice_900Black.ttf.png)||
+|![YsabeauOffice_100Thin_Italic](.//100Thin_Italic/YsabeauOffice_100Thin_Italic.ttf.png)|![YsabeauOffice_200ExtraLight_Italic](.//200ExtraLight_Italic/YsabeauOffice_200ExtraLight_Italic.ttf.png)|![YsabeauOffice_300Light_Italic](.//300Light_Italic/YsabeauOffice_300Light_Italic.ttf.png)||
+|![YsabeauOffice_400Regular_Italic](.//400Regular_Italic/YsabeauOffice_400Regular_Italic.ttf.png)|![YsabeauOffice_500Medium_Italic](.//500Medium_Italic/YsabeauOffice_500Medium_Italic.ttf.png)|![YsabeauOffice_600SemiBold_Italic](.//600SemiBold_Italic/YsabeauOffice_600SemiBold_Italic.ttf.png)||
+|![YsabeauOffice_700Bold_Italic](.//700Bold_Italic/YsabeauOffice_700Bold_Italic.ttf.png)|![YsabeauOffice_800ExtraBold_Italic](.//800ExtraBold_Italic/YsabeauOffice_800ExtraBold_Italic.ttf.png)|![YsabeauOffice_900Black_Italic](.//900Black_Italic/YsabeauOffice_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

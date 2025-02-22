@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Cairo_200ExtraLight](./Cairo_200ExtraLight.ttf.png)|![Cairo_300Light](./Cairo_300Light.ttf.png)|![Cairo_400Regular](./Cairo_400Regular.ttf.png)||
-|![Cairo_500Medium](./Cairo_500Medium.ttf.png)|![Cairo_600SemiBold](./Cairo_600SemiBold.ttf.png)|![Cairo_700Bold](./Cairo_700Bold.ttf.png)||
-|![Cairo_800ExtraBold](./Cairo_800ExtraBold.ttf.png)|![Cairo_900Black](./Cairo_900Black.ttf.png)|||
+|![Cairo_200ExtraLight](.//200ExtraLight/Cairo_200ExtraLight.ttf.png)|![Cairo_300Light](.//300Light/Cairo_300Light.ttf.png)|![Cairo_400Regular](.//400Regular/Cairo_400Regular.ttf.png)||
+|![Cairo_500Medium](.//500Medium/Cairo_500Medium.ttf.png)|![Cairo_600SemiBold](.//600SemiBold/Cairo_600SemiBold.ttf.png)|![Cairo_700Bold](.//700Bold/Cairo_700Bold.ttf.png)||
+|![Cairo_800ExtraBold](.//800ExtraBold/Cairo_800ExtraBold.ttf.png)|![Cairo_900Black](.//900Black/Cairo_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

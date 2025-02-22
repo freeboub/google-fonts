@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifYezidi_400Regular](./NotoSerifYezidi_400Regular.ttf.png)|![NotoSerifYezidi_500Medium](./NotoSerifYezidi_500Medium.ttf.png)|![NotoSerifYezidi_600SemiBold](./NotoSerifYezidi_600SemiBold.ttf.png)||
-|![NotoSerifYezidi_700Bold](./NotoSerifYezidi_700Bold.ttf.png)||||
+|![NotoSerifYezidi_400Regular](.//400Regular/NotoSerifYezidi_400Regular.ttf.png)|![NotoSerifYezidi_500Medium](.//500Medium/NotoSerifYezidi_500Medium.ttf.png)|![NotoSerifYezidi_600SemiBold](.//600SemiBold/NotoSerifYezidi_600SemiBold.ttf.png)||
+|![NotoSerifYezidi_700Bold](.//700Bold/NotoSerifYezidi_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

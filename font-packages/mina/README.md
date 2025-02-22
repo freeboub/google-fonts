@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Mina_400Regular](./Mina_400Regular.ttf.png)|![Mina_700Bold](./Mina_700Bold.ttf.png)|||
+|![Mina_400Regular](.//400Regular/Mina_400Regular.ttf.png)|![Mina_700Bold](.//700Bold/Mina_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

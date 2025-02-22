@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MaterialSymbolsOutlined_100Thin](./MaterialSymbolsOutlined_100Thin.ttf.png)|![MaterialSymbolsOutlined_200ExtraLight](./MaterialSymbolsOutlined_200ExtraLight.ttf.png)|![MaterialSymbolsOutlined_300Light](./MaterialSymbolsOutlined_300Light.ttf.png)||
-|![MaterialSymbolsOutlined_400Regular](./MaterialSymbolsOutlined_400Regular.ttf.png)|![MaterialSymbolsOutlined_500Medium](./MaterialSymbolsOutlined_500Medium.ttf.png)|![MaterialSymbolsOutlined_600SemiBold](./MaterialSymbolsOutlined_600SemiBold.ttf.png)||
-|![MaterialSymbolsOutlined_700Bold](./MaterialSymbolsOutlined_700Bold.ttf.png)||||
+|![MaterialSymbolsOutlined_100Thin](.//100Thin/MaterialSymbolsOutlined_100Thin.ttf.png)|![MaterialSymbolsOutlined_200ExtraLight](.//200ExtraLight/MaterialSymbolsOutlined_200ExtraLight.ttf.png)|![MaterialSymbolsOutlined_300Light](.//300Light/MaterialSymbolsOutlined_300Light.ttf.png)||
+|![MaterialSymbolsOutlined_400Regular](.//400Regular/MaterialSymbolsOutlined_400Regular.ttf.png)|![MaterialSymbolsOutlined_500Medium](.//500Medium/MaterialSymbolsOutlined_500Medium.ttf.png)|![MaterialSymbolsOutlined_600SemiBold](.//600SemiBold/MaterialSymbolsOutlined_600SemiBold.ttf.png)||
+|![MaterialSymbolsOutlined_700Bold](.//700Bold/MaterialSymbolsOutlined_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

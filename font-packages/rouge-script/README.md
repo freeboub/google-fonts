@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RougeScript_400Regular](./RougeScript_400Regular.ttf.png)||||
+|![RougeScript_400Regular](.//400Regular/RougeScript_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

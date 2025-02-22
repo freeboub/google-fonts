@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansOriya_100Thin](./NotoSansOriya_100Thin.ttf.png)|![NotoSansOriya_200ExtraLight](./NotoSansOriya_200ExtraLight.ttf.png)|![NotoSansOriya_300Light](./NotoSansOriya_300Light.ttf.png)||
-|![NotoSansOriya_400Regular](./NotoSansOriya_400Regular.ttf.png)|![NotoSansOriya_500Medium](./NotoSansOriya_500Medium.ttf.png)|![NotoSansOriya_600SemiBold](./NotoSansOriya_600SemiBold.ttf.png)||
-|![NotoSansOriya_700Bold](./NotoSansOriya_700Bold.ttf.png)|![NotoSansOriya_800ExtraBold](./NotoSansOriya_800ExtraBold.ttf.png)|![NotoSansOriya_900Black](./NotoSansOriya_900Black.ttf.png)||
+|![NotoSansOriya_100Thin](.//100Thin/NotoSansOriya_100Thin.ttf.png)|![NotoSansOriya_200ExtraLight](.//200ExtraLight/NotoSansOriya_200ExtraLight.ttf.png)|![NotoSansOriya_300Light](.//300Light/NotoSansOriya_300Light.ttf.png)||
+|![NotoSansOriya_400Regular](.//400Regular/NotoSansOriya_400Regular.ttf.png)|![NotoSansOriya_500Medium](.//500Medium/NotoSansOriya_500Medium.ttf.png)|![NotoSansOriya_600SemiBold](.//600SemiBold/NotoSansOriya_600SemiBold.ttf.png)||
+|![NotoSansOriya_700Bold](.//700Bold/NotoSansOriya_700Bold.ttf.png)|![NotoSansOriya_800ExtraBold](.//800ExtraBold/NotoSansOriya_800ExtraBold.ttf.png)|![NotoSansOriya_900Black](.//900Black/NotoSansOriya_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

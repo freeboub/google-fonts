@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansOldPermic_400Regular](./NotoSansOldPermic_400Regular.ttf.png)||||
+|![NotoSansOldPermic_400Regular](.//400Regular/NotoSansOldPermic_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

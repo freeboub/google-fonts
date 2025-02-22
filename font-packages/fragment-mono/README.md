@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![FragmentMono_400Regular](./FragmentMono_400Regular.ttf.png)|![FragmentMono_400Regular_Italic](./FragmentMono_400Regular_Italic.ttf.png)|||
+|![FragmentMono_400Regular](.//400Regular/FragmentMono_400Regular.ttf.png)|![FragmentMono_400Regular_Italic](.//400Regular_Italic/FragmentMono_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

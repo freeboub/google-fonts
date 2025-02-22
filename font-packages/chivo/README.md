@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Chivo_100Thin](./Chivo_100Thin.ttf.png)|![Chivo_200ExtraLight](./Chivo_200ExtraLight.ttf.png)|![Chivo_300Light](./Chivo_300Light.ttf.png)||
-|![Chivo_400Regular](./Chivo_400Regular.ttf.png)|![Chivo_500Medium](./Chivo_500Medium.ttf.png)|![Chivo_600SemiBold](./Chivo_600SemiBold.ttf.png)||
-|![Chivo_700Bold](./Chivo_700Bold.ttf.png)|![Chivo_800ExtraBold](./Chivo_800ExtraBold.ttf.png)|![Chivo_900Black](./Chivo_900Black.ttf.png)||
-|![Chivo_100Thin_Italic](./Chivo_100Thin_Italic.ttf.png)|![Chivo_200ExtraLight_Italic](./Chivo_200ExtraLight_Italic.ttf.png)|![Chivo_300Light_Italic](./Chivo_300Light_Italic.ttf.png)||
-|![Chivo_400Regular_Italic](./Chivo_400Regular_Italic.ttf.png)|![Chivo_500Medium_Italic](./Chivo_500Medium_Italic.ttf.png)|![Chivo_600SemiBold_Italic](./Chivo_600SemiBold_Italic.ttf.png)||
-|![Chivo_700Bold_Italic](./Chivo_700Bold_Italic.ttf.png)|![Chivo_800ExtraBold_Italic](./Chivo_800ExtraBold_Italic.ttf.png)|![Chivo_900Black_Italic](./Chivo_900Black_Italic.ttf.png)||
+|![Chivo_100Thin](.//100Thin/Chivo_100Thin.ttf.png)|![Chivo_200ExtraLight](.//200ExtraLight/Chivo_200ExtraLight.ttf.png)|![Chivo_300Light](.//300Light/Chivo_300Light.ttf.png)||
+|![Chivo_400Regular](.//400Regular/Chivo_400Regular.ttf.png)|![Chivo_500Medium](.//500Medium/Chivo_500Medium.ttf.png)|![Chivo_600SemiBold](.//600SemiBold/Chivo_600SemiBold.ttf.png)||
+|![Chivo_700Bold](.//700Bold/Chivo_700Bold.ttf.png)|![Chivo_800ExtraBold](.//800ExtraBold/Chivo_800ExtraBold.ttf.png)|![Chivo_900Black](.//900Black/Chivo_900Black.ttf.png)||
+|![Chivo_100Thin_Italic](.//100Thin_Italic/Chivo_100Thin_Italic.ttf.png)|![Chivo_200ExtraLight_Italic](.//200ExtraLight_Italic/Chivo_200ExtraLight_Italic.ttf.png)|![Chivo_300Light_Italic](.//300Light_Italic/Chivo_300Light_Italic.ttf.png)||
+|![Chivo_400Regular_Italic](.//400Regular_Italic/Chivo_400Regular_Italic.ttf.png)|![Chivo_500Medium_Italic](.//500Medium_Italic/Chivo_500Medium_Italic.ttf.png)|![Chivo_600SemiBold_Italic](.//600SemiBold_Italic/Chivo_600SemiBold_Italic.ttf.png)||
+|![Chivo_700Bold_Italic](.//700Bold_Italic/Chivo_700Bold_Italic.ttf.png)|![Chivo_800ExtraBold_Italic](.//800ExtraBold_Italic/Chivo_800ExtraBold_Italic.ttf.png)|![Chivo_900Black_Italic](.//900Black_Italic/Chivo_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

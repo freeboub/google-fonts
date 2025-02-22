@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Ewert_400Regular](./Ewert_400Regular.ttf.png)||||
+|![Ewert_400Regular](.//400Regular/Ewert_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

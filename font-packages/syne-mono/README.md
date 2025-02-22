@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SyneMono_400Regular](./SyneMono_400Regular.ttf.png)||||
+|![SyneMono_400Regular](.//400Regular/SyneMono_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

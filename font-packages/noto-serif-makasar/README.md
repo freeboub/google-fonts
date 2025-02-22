@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifMakasar_400Regular](./NotoSerifMakasar_400Regular.ttf.png)||||
+|![NotoSerifMakasar_400Regular](.//400Regular/NotoSerifMakasar_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

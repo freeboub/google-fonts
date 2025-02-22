@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![GlassAntiqua_400Regular](./GlassAntiqua_400Regular.ttf.png)||||
+|![GlassAntiqua_400Regular](.//400Regular/GlassAntiqua_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

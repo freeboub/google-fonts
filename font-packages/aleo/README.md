@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Aleo_100Thin](./Aleo_100Thin.ttf.png)|![Aleo_200ExtraLight](./Aleo_200ExtraLight.ttf.png)|![Aleo_300Light](./Aleo_300Light.ttf.png)||
-|![Aleo_400Regular](./Aleo_400Regular.ttf.png)|![Aleo_500Medium](./Aleo_500Medium.ttf.png)|![Aleo_600SemiBold](./Aleo_600SemiBold.ttf.png)||
-|![Aleo_700Bold](./Aleo_700Bold.ttf.png)|![Aleo_800ExtraBold](./Aleo_800ExtraBold.ttf.png)|![Aleo_900Black](./Aleo_900Black.ttf.png)||
-|![Aleo_100Thin_Italic](./Aleo_100Thin_Italic.ttf.png)|![Aleo_200ExtraLight_Italic](./Aleo_200ExtraLight_Italic.ttf.png)|![Aleo_300Light_Italic](./Aleo_300Light_Italic.ttf.png)||
-|![Aleo_400Regular_Italic](./Aleo_400Regular_Italic.ttf.png)|![Aleo_500Medium_Italic](./Aleo_500Medium_Italic.ttf.png)|![Aleo_600SemiBold_Italic](./Aleo_600SemiBold_Italic.ttf.png)||
-|![Aleo_700Bold_Italic](./Aleo_700Bold_Italic.ttf.png)|![Aleo_800ExtraBold_Italic](./Aleo_800ExtraBold_Italic.ttf.png)|![Aleo_900Black_Italic](./Aleo_900Black_Italic.ttf.png)||
+|![Aleo_100Thin](.//100Thin/Aleo_100Thin.ttf.png)|![Aleo_200ExtraLight](.//200ExtraLight/Aleo_200ExtraLight.ttf.png)|![Aleo_300Light](.//300Light/Aleo_300Light.ttf.png)||
+|![Aleo_400Regular](.//400Regular/Aleo_400Regular.ttf.png)|![Aleo_500Medium](.//500Medium/Aleo_500Medium.ttf.png)|![Aleo_600SemiBold](.//600SemiBold/Aleo_600SemiBold.ttf.png)||
+|![Aleo_700Bold](.//700Bold/Aleo_700Bold.ttf.png)|![Aleo_800ExtraBold](.//800ExtraBold/Aleo_800ExtraBold.ttf.png)|![Aleo_900Black](.//900Black/Aleo_900Black.ttf.png)||
+|![Aleo_100Thin_Italic](.//100Thin_Italic/Aleo_100Thin_Italic.ttf.png)|![Aleo_200ExtraLight_Italic](.//200ExtraLight_Italic/Aleo_200ExtraLight_Italic.ttf.png)|![Aleo_300Light_Italic](.//300Light_Italic/Aleo_300Light_Italic.ttf.png)||
+|![Aleo_400Regular_Italic](.//400Regular_Italic/Aleo_400Regular_Italic.ttf.png)|![Aleo_500Medium_Italic](.//500Medium_Italic/Aleo_500Medium_Italic.ttf.png)|![Aleo_600SemiBold_Italic](.//600SemiBold_Italic/Aleo_600SemiBold_Italic.ttf.png)||
+|![Aleo_700Bold_Italic](.//700Bold_Italic/Aleo_700Bold_Italic.ttf.png)|![Aleo_800ExtraBold_Italic](.//800ExtraBold_Italic/Aleo_800ExtraBold_Italic.ttf.png)|![Aleo_900Black_Italic](.//900Black_Italic/Aleo_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

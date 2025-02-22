@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AmiriQuran_400Regular](./AmiriQuran_400Regular.ttf.png)||||
+|![AmiriQuran_400Regular](.//400Regular/AmiriQuran_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

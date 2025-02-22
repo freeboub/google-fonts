@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Piazzolla_100Thin](./Piazzolla_100Thin.ttf.png)|![Piazzolla_200ExtraLight](./Piazzolla_200ExtraLight.ttf.png)|![Piazzolla_300Light](./Piazzolla_300Light.ttf.png)||
-|![Piazzolla_400Regular](./Piazzolla_400Regular.ttf.png)|![Piazzolla_500Medium](./Piazzolla_500Medium.ttf.png)|![Piazzolla_600SemiBold](./Piazzolla_600SemiBold.ttf.png)||
-|![Piazzolla_700Bold](./Piazzolla_700Bold.ttf.png)|![Piazzolla_800ExtraBold](./Piazzolla_800ExtraBold.ttf.png)|![Piazzolla_900Black](./Piazzolla_900Black.ttf.png)||
-|![Piazzolla_100Thin_Italic](./Piazzolla_100Thin_Italic.ttf.png)|![Piazzolla_200ExtraLight_Italic](./Piazzolla_200ExtraLight_Italic.ttf.png)|![Piazzolla_300Light_Italic](./Piazzolla_300Light_Italic.ttf.png)||
-|![Piazzolla_400Regular_Italic](./Piazzolla_400Regular_Italic.ttf.png)|![Piazzolla_500Medium_Italic](./Piazzolla_500Medium_Italic.ttf.png)|![Piazzolla_600SemiBold_Italic](./Piazzolla_600SemiBold_Italic.ttf.png)||
-|![Piazzolla_700Bold_Italic](./Piazzolla_700Bold_Italic.ttf.png)|![Piazzolla_800ExtraBold_Italic](./Piazzolla_800ExtraBold_Italic.ttf.png)|![Piazzolla_900Black_Italic](./Piazzolla_900Black_Italic.ttf.png)||
+|![Piazzolla_100Thin](.//100Thin/Piazzolla_100Thin.ttf.png)|![Piazzolla_200ExtraLight](.//200ExtraLight/Piazzolla_200ExtraLight.ttf.png)|![Piazzolla_300Light](.//300Light/Piazzolla_300Light.ttf.png)||
+|![Piazzolla_400Regular](.//400Regular/Piazzolla_400Regular.ttf.png)|![Piazzolla_500Medium](.//500Medium/Piazzolla_500Medium.ttf.png)|![Piazzolla_600SemiBold](.//600SemiBold/Piazzolla_600SemiBold.ttf.png)||
+|![Piazzolla_700Bold](.//700Bold/Piazzolla_700Bold.ttf.png)|![Piazzolla_800ExtraBold](.//800ExtraBold/Piazzolla_800ExtraBold.ttf.png)|![Piazzolla_900Black](.//900Black/Piazzolla_900Black.ttf.png)||
+|![Piazzolla_100Thin_Italic](.//100Thin_Italic/Piazzolla_100Thin_Italic.ttf.png)|![Piazzolla_200ExtraLight_Italic](.//200ExtraLight_Italic/Piazzolla_200ExtraLight_Italic.ttf.png)|![Piazzolla_300Light_Italic](.//300Light_Italic/Piazzolla_300Light_Italic.ttf.png)||
+|![Piazzolla_400Regular_Italic](.//400Regular_Italic/Piazzolla_400Regular_Italic.ttf.png)|![Piazzolla_500Medium_Italic](.//500Medium_Italic/Piazzolla_500Medium_Italic.ttf.png)|![Piazzolla_600SemiBold_Italic](.//600SemiBold_Italic/Piazzolla_600SemiBold_Italic.ttf.png)||
+|![Piazzolla_700Bold_Italic](.//700Bold_Italic/Piazzolla_700Bold_Italic.ttf.png)|![Piazzolla_800ExtraBold_Italic](.//800ExtraBold_Italic/Piazzolla_800ExtraBold_Italic.ttf.png)|![Piazzolla_900Black_Italic](.//900Black_Italic/Piazzolla_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

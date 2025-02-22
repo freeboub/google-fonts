@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Rajdhani_300Light](./Rajdhani_300Light.ttf.png)|![Rajdhani_400Regular](./Rajdhani_400Regular.ttf.png)|![Rajdhani_500Medium](./Rajdhani_500Medium.ttf.png)||
-|![Rajdhani_600SemiBold](./Rajdhani_600SemiBold.ttf.png)|![Rajdhani_700Bold](./Rajdhani_700Bold.ttf.png)|||
+|![Rajdhani_300Light](.//300Light/Rajdhani_300Light.ttf.png)|![Rajdhani_400Regular](.//400Regular/Rajdhani_400Regular.ttf.png)|![Rajdhani_500Medium](.//500Medium/Rajdhani_500Medium.ttf.png)||
+|![Rajdhani_600SemiBold](.//600SemiBold/Rajdhani_600SemiBold.ttf.png)|![Rajdhani_700Bold](.//700Bold/Rajdhani_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

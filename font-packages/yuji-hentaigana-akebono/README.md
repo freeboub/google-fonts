@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![YujiHentaiganaAkebono_400Regular](./YujiHentaiganaAkebono_400Regular.ttf.png)||||
+|![YujiHentaiganaAkebono_400Regular](.//400Regular/YujiHentaiganaAkebono_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

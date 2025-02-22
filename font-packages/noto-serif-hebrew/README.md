@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifHebrew_100Thin](./NotoSerifHebrew_100Thin.ttf.png)|![NotoSerifHebrew_200ExtraLight](./NotoSerifHebrew_200ExtraLight.ttf.png)|![NotoSerifHebrew_300Light](./NotoSerifHebrew_300Light.ttf.png)||
-|![NotoSerifHebrew_400Regular](./NotoSerifHebrew_400Regular.ttf.png)|![NotoSerifHebrew_500Medium](./NotoSerifHebrew_500Medium.ttf.png)|![NotoSerifHebrew_600SemiBold](./NotoSerifHebrew_600SemiBold.ttf.png)||
-|![NotoSerifHebrew_700Bold](./NotoSerifHebrew_700Bold.ttf.png)|![NotoSerifHebrew_800ExtraBold](./NotoSerifHebrew_800ExtraBold.ttf.png)|![NotoSerifHebrew_900Black](./NotoSerifHebrew_900Black.ttf.png)||
+|![NotoSerifHebrew_100Thin](.//100Thin/NotoSerifHebrew_100Thin.ttf.png)|![NotoSerifHebrew_200ExtraLight](.//200ExtraLight/NotoSerifHebrew_200ExtraLight.ttf.png)|![NotoSerifHebrew_300Light](.//300Light/NotoSerifHebrew_300Light.ttf.png)||
+|![NotoSerifHebrew_400Regular](.//400Regular/NotoSerifHebrew_400Regular.ttf.png)|![NotoSerifHebrew_500Medium](.//500Medium/NotoSerifHebrew_500Medium.ttf.png)|![NotoSerifHebrew_600SemiBold](.//600SemiBold/NotoSerifHebrew_600SemiBold.ttf.png)||
+|![NotoSerifHebrew_700Bold](.//700Bold/NotoSerifHebrew_700Bold.ttf.png)|![NotoSerifHebrew_800ExtraBold](.//800ExtraBold/NotoSerifHebrew_800ExtraBold.ttf.png)|![NotoSerifHebrew_900Black](.//900Black/NotoSerifHebrew_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

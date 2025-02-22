@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![TacOne_400Regular](./TacOne_400Regular.ttf.png)||||
+|![TacOne_400Regular](.//400Regular/TacOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

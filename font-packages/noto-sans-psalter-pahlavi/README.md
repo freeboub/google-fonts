@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansPsalterPahlavi_400Regular](./NotoSansPsalterPahlavi_400Regular.ttf.png)||||
+|![NotoSansPsalterPahlavi_400Regular](.//400Regular/NotoSansPsalterPahlavi_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

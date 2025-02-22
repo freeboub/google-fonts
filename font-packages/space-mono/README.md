@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SpaceMono_400Regular](./SpaceMono_400Regular.ttf.png)|![SpaceMono_400Regular_Italic](./SpaceMono_400Regular_Italic.ttf.png)|![SpaceMono_700Bold](./SpaceMono_700Bold.ttf.png)||
-|![SpaceMono_700Bold_Italic](./SpaceMono_700Bold_Italic.ttf.png)||||
+|![SpaceMono_400Regular](.//400Regular/SpaceMono_400Regular.ttf.png)|![SpaceMono_400Regular_Italic](.//400Regular_Italic/SpaceMono_400Regular_Italic.ttf.png)|![SpaceMono_700Bold](.//700Bold/SpaceMono_700Bold.ttf.png)||
+|![SpaceMono_700Bold_Italic](.//700Bold_Italic/SpaceMono_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

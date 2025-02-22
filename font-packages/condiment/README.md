@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Condiment_400Regular](./Condiment_400Regular.ttf.png)||||
+|![Condiment_400Regular](.//400Regular/Condiment_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Brygada1918_400Regular](./Brygada1918_400Regular.ttf.png)|![Brygada1918_500Medium](./Brygada1918_500Medium.ttf.png)|![Brygada1918_600SemiBold](./Brygada1918_600SemiBold.ttf.png)||
-|![Brygada1918_700Bold](./Brygada1918_700Bold.ttf.png)|![Brygada1918_400Regular_Italic](./Brygada1918_400Regular_Italic.ttf.png)|![Brygada1918_500Medium_Italic](./Brygada1918_500Medium_Italic.ttf.png)||
-|![Brygada1918_600SemiBold_Italic](./Brygada1918_600SemiBold_Italic.ttf.png)|![Brygada1918_700Bold_Italic](./Brygada1918_700Bold_Italic.ttf.png)|||
+|![Brygada1918_400Regular](.//400Regular/Brygada1918_400Regular.ttf.png)|![Brygada1918_500Medium](.//500Medium/Brygada1918_500Medium.ttf.png)|![Brygada1918_600SemiBold](.//600SemiBold/Brygada1918_600SemiBold.ttf.png)||
+|![Brygada1918_700Bold](.//700Bold/Brygada1918_700Bold.ttf.png)|![Brygada1918_400Regular_Italic](.//400Regular_Italic/Brygada1918_400Regular_Italic.ttf.png)|![Brygada1918_500Medium_Italic](.//500Medium_Italic/Brygada1918_500Medium_Italic.ttf.png)||
+|![Brygada1918_600SemiBold_Italic](.//600SemiBold_Italic/Brygada1918_600SemiBold_Italic.ttf.png)|![Brygada1918_700Bold_Italic](.//700Bold_Italic/Brygada1918_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

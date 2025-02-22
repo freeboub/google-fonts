@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansCanadianAboriginal_100Thin](./NotoSansCanadianAboriginal_100Thin.ttf.png)|![NotoSansCanadianAboriginal_200ExtraLight](./NotoSansCanadianAboriginal_200ExtraLight.ttf.png)|![NotoSansCanadianAboriginal_300Light](./NotoSansCanadianAboriginal_300Light.ttf.png)||
-|![NotoSansCanadianAboriginal_400Regular](./NotoSansCanadianAboriginal_400Regular.ttf.png)|![NotoSansCanadianAboriginal_500Medium](./NotoSansCanadianAboriginal_500Medium.ttf.png)|![NotoSansCanadianAboriginal_600SemiBold](./NotoSansCanadianAboriginal_600SemiBold.ttf.png)||
-|![NotoSansCanadianAboriginal_700Bold](./NotoSansCanadianAboriginal_700Bold.ttf.png)|![NotoSansCanadianAboriginal_800ExtraBold](./NotoSansCanadianAboriginal_800ExtraBold.ttf.png)|![NotoSansCanadianAboriginal_900Black](./NotoSansCanadianAboriginal_900Black.ttf.png)||
+|![NotoSansCanadianAboriginal_100Thin](.//100Thin/NotoSansCanadianAboriginal_100Thin.ttf.png)|![NotoSansCanadianAboriginal_200ExtraLight](.//200ExtraLight/NotoSansCanadianAboriginal_200ExtraLight.ttf.png)|![NotoSansCanadianAboriginal_300Light](.//300Light/NotoSansCanadianAboriginal_300Light.ttf.png)||
+|![NotoSansCanadianAboriginal_400Regular](.//400Regular/NotoSansCanadianAboriginal_400Regular.ttf.png)|![NotoSansCanadianAboriginal_500Medium](.//500Medium/NotoSansCanadianAboriginal_500Medium.ttf.png)|![NotoSansCanadianAboriginal_600SemiBold](.//600SemiBold/NotoSansCanadianAboriginal_600SemiBold.ttf.png)||
+|![NotoSansCanadianAboriginal_700Bold](.//700Bold/NotoSansCanadianAboriginal_700Bold.ttf.png)|![NotoSansCanadianAboriginal_800ExtraBold](.//800ExtraBold/NotoSansCanadianAboriginal_800ExtraBold.ttf.png)|![NotoSansCanadianAboriginal_900Black](.//900Black/NotoSansCanadianAboriginal_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

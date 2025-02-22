@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Lustria_400Regular](./Lustria_400Regular.ttf.png)||||
+|![Lustria_400Regular](.//400Regular/Lustria_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

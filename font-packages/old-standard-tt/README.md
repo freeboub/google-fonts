@@ -89,7 +89,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![OldStandardTT_400Regular](./OldStandardTT_400Regular.ttf.png)|![OldStandardTT_400Regular_Italic](./OldStandardTT_400Regular_Italic.ttf.png)|![OldStandardTT_700Bold](./OldStandardTT_700Bold.ttf.png)||
+|![OldStandardTT_400Regular](.//400Regular/OldStandardTT_400Regular.ttf.png)|![OldStandardTT_400Regular_Italic](.//400Regular_Italic/OldStandardTT_400Regular_Italic.ttf.png)|![OldStandardTT_700Bold](.//700Bold/OldStandardTT_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

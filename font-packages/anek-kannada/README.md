@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AnekKannada_100Thin](./AnekKannada_100Thin.ttf.png)|![AnekKannada_200ExtraLight](./AnekKannada_200ExtraLight.ttf.png)|![AnekKannada_300Light](./AnekKannada_300Light.ttf.png)||
-|![AnekKannada_400Regular](./AnekKannada_400Regular.ttf.png)|![AnekKannada_500Medium](./AnekKannada_500Medium.ttf.png)|![AnekKannada_600SemiBold](./AnekKannada_600SemiBold.ttf.png)||
-|![AnekKannada_700Bold](./AnekKannada_700Bold.ttf.png)|![AnekKannada_800ExtraBold](./AnekKannada_800ExtraBold.ttf.png)|||
+|![AnekKannada_100Thin](.//100Thin/AnekKannada_100Thin.ttf.png)|![AnekKannada_200ExtraLight](.//200ExtraLight/AnekKannada_200ExtraLight.ttf.png)|![AnekKannada_300Light](.//300Light/AnekKannada_300Light.ttf.png)||
+|![AnekKannada_400Regular](.//400Regular/AnekKannada_400Regular.ttf.png)|![AnekKannada_500Medium](.//500Medium/AnekKannada_500Medium.ttf.png)|![AnekKannada_600SemiBold](.//600SemiBold/AnekKannada_600SemiBold.ttf.png)||
+|![AnekKannada_700Bold](.//700Bold/AnekKannada_700Bold.ttf.png)|![AnekKannada_800ExtraBold](.//800ExtraBold/AnekKannada_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

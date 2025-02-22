@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SansitaSwashed_300Light](./SansitaSwashed_300Light.ttf.png)|![SansitaSwashed_400Regular](./SansitaSwashed_400Regular.ttf.png)|![SansitaSwashed_500Medium](./SansitaSwashed_500Medium.ttf.png)||
-|![SansitaSwashed_600SemiBold](./SansitaSwashed_600SemiBold.ttf.png)|![SansitaSwashed_700Bold](./SansitaSwashed_700Bold.ttf.png)|![SansitaSwashed_800ExtraBold](./SansitaSwashed_800ExtraBold.ttf.png)||
-|![SansitaSwashed_900Black](./SansitaSwashed_900Black.ttf.png)||||
+|![SansitaSwashed_300Light](.//300Light/SansitaSwashed_300Light.ttf.png)|![SansitaSwashed_400Regular](.//400Regular/SansitaSwashed_400Regular.ttf.png)|![SansitaSwashed_500Medium](.//500Medium/SansitaSwashed_500Medium.ttf.png)||
+|![SansitaSwashed_600SemiBold](.//600SemiBold/SansitaSwashed_600SemiBold.ttf.png)|![SansitaSwashed_700Bold](.//700Bold/SansitaSwashed_700Bold.ttf.png)|![SansitaSwashed_800ExtraBold](.//800ExtraBold/SansitaSwashed_800ExtraBold.ttf.png)||
+|![SansitaSwashed_900Black](.//900Black/SansitaSwashed_900Black.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

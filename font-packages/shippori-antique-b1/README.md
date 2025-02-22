@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ShipporiAntiqueB1_400Regular](./ShipporiAntiqueB1_400Regular.ttf.png)||||
+|![ShipporiAntiqueB1_400Regular](.//400Regular/ShipporiAntiqueB1_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

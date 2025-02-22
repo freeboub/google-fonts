@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Milonga_400Regular](./Milonga_400Regular.ttf.png)||||
+|![Milonga_400Regular](.//400Regular/Milonga_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AreYouSerious_400Regular](./AreYouSerious_400Regular.ttf.png)||||
+|![AreYouSerious_400Regular](.//400Regular/AreYouSerious_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

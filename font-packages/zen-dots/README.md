@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ZenDots_400Regular](./ZenDots_400Regular.ttf.png)||||
+|![ZenDots_400Regular](.//400Regular/ZenDots_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

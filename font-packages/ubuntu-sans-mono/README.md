@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![UbuntuSansMono_400Regular](./UbuntuSansMono_400Regular.ttf.png)|![UbuntuSansMono_500Medium](./UbuntuSansMono_500Medium.ttf.png)|![UbuntuSansMono_600SemiBold](./UbuntuSansMono_600SemiBold.ttf.png)||
-|![UbuntuSansMono_700Bold](./UbuntuSansMono_700Bold.ttf.png)|![UbuntuSansMono_400Regular_Italic](./UbuntuSansMono_400Regular_Italic.ttf.png)|![UbuntuSansMono_500Medium_Italic](./UbuntuSansMono_500Medium_Italic.ttf.png)||
-|![UbuntuSansMono_600SemiBold_Italic](./UbuntuSansMono_600SemiBold_Italic.ttf.png)|![UbuntuSansMono_700Bold_Italic](./UbuntuSansMono_700Bold_Italic.ttf.png)|||
+|![UbuntuSansMono_400Regular](.//400Regular/UbuntuSansMono_400Regular.ttf.png)|![UbuntuSansMono_500Medium](.//500Medium/UbuntuSansMono_500Medium.ttf.png)|![UbuntuSansMono_600SemiBold](.//600SemiBold/UbuntuSansMono_600SemiBold.ttf.png)||
+|![UbuntuSansMono_700Bold](.//700Bold/UbuntuSansMono_700Bold.ttf.png)|![UbuntuSansMono_400Regular_Italic](.//400Regular_Italic/UbuntuSansMono_400Regular_Italic.ttf.png)|![UbuntuSansMono_500Medium_Italic](.//500Medium_Italic/UbuntuSansMono_500Medium_Italic.ttf.png)||
+|![UbuntuSansMono_600SemiBold_Italic](.//600SemiBold_Italic/UbuntuSansMono_600SemiBold_Italic.ttf.png)|![UbuntuSansMono_700Bold_Italic](.//700Bold_Italic/UbuntuSansMono_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

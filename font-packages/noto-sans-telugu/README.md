@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansTelugu_100Thin](./NotoSansTelugu_100Thin.ttf.png)|![NotoSansTelugu_200ExtraLight](./NotoSansTelugu_200ExtraLight.ttf.png)|![NotoSansTelugu_300Light](./NotoSansTelugu_300Light.ttf.png)||
-|![NotoSansTelugu_400Regular](./NotoSansTelugu_400Regular.ttf.png)|![NotoSansTelugu_500Medium](./NotoSansTelugu_500Medium.ttf.png)|![NotoSansTelugu_600SemiBold](./NotoSansTelugu_600SemiBold.ttf.png)||
-|![NotoSansTelugu_700Bold](./NotoSansTelugu_700Bold.ttf.png)|![NotoSansTelugu_800ExtraBold](./NotoSansTelugu_800ExtraBold.ttf.png)|![NotoSansTelugu_900Black](./NotoSansTelugu_900Black.ttf.png)||
+|![NotoSansTelugu_100Thin](.//100Thin/NotoSansTelugu_100Thin.ttf.png)|![NotoSansTelugu_200ExtraLight](.//200ExtraLight/NotoSansTelugu_200ExtraLight.ttf.png)|![NotoSansTelugu_300Light](.//300Light/NotoSansTelugu_300Light.ttf.png)||
+|![NotoSansTelugu_400Regular](.//400Regular/NotoSansTelugu_400Regular.ttf.png)|![NotoSansTelugu_500Medium](.//500Medium/NotoSansTelugu_500Medium.ttf.png)|![NotoSansTelugu_600SemiBold](.//600SemiBold/NotoSansTelugu_600SemiBold.ttf.png)||
+|![NotoSansTelugu_700Bold](.//700Bold/NotoSansTelugu_700Bold.ttf.png)|![NotoSansTelugu_800ExtraBold](.//800ExtraBold/NotoSansTelugu_800ExtraBold.ttf.png)|![NotoSansTelugu_900Black](.//900Black/NotoSansTelugu_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

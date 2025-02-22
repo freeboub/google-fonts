@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KolkerBrush_400Regular](./KolkerBrush_400Regular.ttf.png)||||
+|![KolkerBrush_400Regular](.//400Regular/KolkerBrush_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

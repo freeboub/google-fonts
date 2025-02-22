@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![CastoroTitling_400Regular](./CastoroTitling_400Regular.ttf.png)||||
+|![CastoroTitling_400Regular](.//400Regular/CastoroTitling_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

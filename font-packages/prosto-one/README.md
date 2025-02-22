@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ProstoOne_400Regular](./ProstoOne_400Regular.ttf.png)||||
+|![ProstoOne_400Regular](.//400Regular/ProstoOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LilyScriptOne_400Regular](./LilyScriptOne_400Regular.ttf.png)||||
+|![LilyScriptOne_400Regular](.//400Regular/LilyScriptOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

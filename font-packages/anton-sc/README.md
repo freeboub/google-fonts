@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AntonSC_400Regular](./AntonSC_400Regular.ttf.png)||||
+|![AntonSC_400Regular](.//400Regular/AntonSC_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

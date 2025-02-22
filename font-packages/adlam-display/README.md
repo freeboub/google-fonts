@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ADLaMDisplay_400Regular](./ADLaMDisplay_400Regular.ttf.png)||||
+|![ADLaMDisplay_400Regular](.//400Regular/ADLaMDisplay_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -258,12 +258,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Livvic_100Thin](./Livvic_100Thin.ttf.png)|![Livvic_100Thin_Italic](./Livvic_100Thin_Italic.ttf.png)|![Livvic_200ExtraLight](./Livvic_200ExtraLight.ttf.png)||
-|![Livvic_200ExtraLight_Italic](./Livvic_200ExtraLight_Italic.ttf.png)|![Livvic_300Light](./Livvic_300Light.ttf.png)|![Livvic_300Light_Italic](./Livvic_300Light_Italic.ttf.png)||
-|![Livvic_400Regular](./Livvic_400Regular.ttf.png)|![Livvic_400Regular_Italic](./Livvic_400Regular_Italic.ttf.png)|![Livvic_500Medium](./Livvic_500Medium.ttf.png)||
-|![Livvic_500Medium_Italic](./Livvic_500Medium_Italic.ttf.png)|![Livvic_600SemiBold](./Livvic_600SemiBold.ttf.png)|![Livvic_600SemiBold_Italic](./Livvic_600SemiBold_Italic.ttf.png)||
-|![Livvic_700Bold](./Livvic_700Bold.ttf.png)|![Livvic_700Bold_Italic](./Livvic_700Bold_Italic.ttf.png)|![Livvic_900Black](./Livvic_900Black.ttf.png)||
-|![Livvic_900Black_Italic](./Livvic_900Black_Italic.ttf.png)||||
+|![Livvic_100Thin](.//100Thin/Livvic_100Thin.ttf.png)|![Livvic_100Thin_Italic](.//100Thin_Italic/Livvic_100Thin_Italic.ttf.png)|![Livvic_200ExtraLight](.//200ExtraLight/Livvic_200ExtraLight.ttf.png)||
+|![Livvic_200ExtraLight_Italic](.//200ExtraLight_Italic/Livvic_200ExtraLight_Italic.ttf.png)|![Livvic_300Light](.//300Light/Livvic_300Light.ttf.png)|![Livvic_300Light_Italic](.//300Light_Italic/Livvic_300Light_Italic.ttf.png)||
+|![Livvic_400Regular](.//400Regular/Livvic_400Regular.ttf.png)|![Livvic_400Regular_Italic](.//400Regular_Italic/Livvic_400Regular_Italic.ttf.png)|![Livvic_500Medium](.//500Medium/Livvic_500Medium.ttf.png)||
+|![Livvic_500Medium_Italic](.//500Medium_Italic/Livvic_500Medium_Italic.ttf.png)|![Livvic_600SemiBold](.//600SemiBold/Livvic_600SemiBold.ttf.png)|![Livvic_600SemiBold_Italic](.//600SemiBold_Italic/Livvic_600SemiBold_Italic.ttf.png)||
+|![Livvic_700Bold](.//700Bold/Livvic_700Bold.ttf.png)|![Livvic_700Bold_Italic](.//700Bold_Italic/Livvic_700Bold_Italic.ttf.png)|![Livvic_900Black](.//900Black/Livvic_900Black.ttf.png)||
+|![Livvic_900Black_Italic](.//900Black_Italic/Livvic_900Black_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

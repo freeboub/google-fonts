@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Chathura_100Thin](./Chathura_100Thin.ttf.png)|![Chathura_300Light](./Chathura_300Light.ttf.png)|![Chathura_400Regular](./Chathura_400Regular.ttf.png)||
-|![Chathura_700Bold](./Chathura_700Bold.ttf.png)|![Chathura_800ExtraBold](./Chathura_800ExtraBold.ttf.png)|||
+|![Chathura_100Thin](.//100Thin/Chathura_100Thin.ttf.png)|![Chathura_300Light](.//300Light/Chathura_300Light.ttf.png)|![Chathura_400Regular](.//400Regular/Chathura_400Regular.ttf.png)||
+|![Chathura_700Bold](.//700Bold/Chathura_700Bold.ttf.png)|![Chathura_800ExtraBold](.//800ExtraBold/Chathura_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

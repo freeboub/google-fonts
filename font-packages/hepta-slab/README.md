@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![HeptaSlab_100Thin](./HeptaSlab_100Thin.ttf.png)|![HeptaSlab_200ExtraLight](./HeptaSlab_200ExtraLight.ttf.png)|![HeptaSlab_300Light](./HeptaSlab_300Light.ttf.png)||
-|![HeptaSlab_400Regular](./HeptaSlab_400Regular.ttf.png)|![HeptaSlab_500Medium](./HeptaSlab_500Medium.ttf.png)|![HeptaSlab_600SemiBold](./HeptaSlab_600SemiBold.ttf.png)||
-|![HeptaSlab_700Bold](./HeptaSlab_700Bold.ttf.png)|![HeptaSlab_800ExtraBold](./HeptaSlab_800ExtraBold.ttf.png)|![HeptaSlab_900Black](./HeptaSlab_900Black.ttf.png)||
+|![HeptaSlab_100Thin](.//100Thin/HeptaSlab_100Thin.ttf.png)|![HeptaSlab_200ExtraLight](.//200ExtraLight/HeptaSlab_200ExtraLight.ttf.png)|![HeptaSlab_300Light](.//300Light/HeptaSlab_300Light.ttf.png)||
+|![HeptaSlab_400Regular](.//400Regular/HeptaSlab_400Regular.ttf.png)|![HeptaSlab_500Medium](.//500Medium/HeptaSlab_500Medium.ttf.png)|![HeptaSlab_600SemiBold](.//600SemiBold/HeptaSlab_600SemiBold.ttf.png)||
+|![HeptaSlab_700Bold](.//700Bold/HeptaSlab_700Bold.ttf.png)|![HeptaSlab_800ExtraBold](.//800ExtraBold/HeptaSlab_800ExtraBold.ttf.png)|![HeptaSlab_900Black](.//900Black/HeptaSlab_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

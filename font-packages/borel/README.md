@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Borel_400Regular](./Borel_400Regular.ttf.png)||||
+|![Borel_400Regular](.//400Regular/Borel_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

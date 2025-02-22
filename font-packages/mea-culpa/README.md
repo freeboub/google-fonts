@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MeaCulpa_400Regular](./MeaCulpa_400Regular.ttf.png)||||
+|![MeaCulpa_400Regular](.//400Regular/MeaCulpa_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

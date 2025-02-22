@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Stoke_300Light](./Stoke_300Light.ttf.png)|![Stoke_400Regular](./Stoke_400Regular.ttf.png)|||
+|![Stoke_300Light](.//300Light/Stoke_300Light.ttf.png)|![Stoke_400Regular](.//400Regular/Stoke_400Regular.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

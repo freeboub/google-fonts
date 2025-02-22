@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![OleoScriptSwashCaps_400Regular](./OleoScriptSwashCaps_400Regular.ttf.png)|![OleoScriptSwashCaps_700Bold](./OleoScriptSwashCaps_700Bold.ttf.png)|||
+|![OleoScriptSwashCaps_400Regular](.//400Regular/OleoScriptSwashCaps_400Regular.ttf.png)|![OleoScriptSwashCaps_700Bold](.//700Bold/OleoScriptSwashCaps_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

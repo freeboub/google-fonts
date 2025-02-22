@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MedulaOne_400Regular](./MedulaOne_400Regular.ttf.png)||||
+|![MedulaOne_400Regular](.//400Regular/MedulaOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

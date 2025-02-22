@@ -206,10 +206,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MerriweatherSans_300Light](./MerriweatherSans_300Light.ttf.png)|![MerriweatherSans_400Regular](./MerriweatherSans_400Regular.ttf.png)|![MerriweatherSans_500Medium](./MerriweatherSans_500Medium.ttf.png)||
-|![MerriweatherSans_600SemiBold](./MerriweatherSans_600SemiBold.ttf.png)|![MerriweatherSans_700Bold](./MerriweatherSans_700Bold.ttf.png)|![MerriweatherSans_800ExtraBold](./MerriweatherSans_800ExtraBold.ttf.png)||
-|![MerriweatherSans_300Light_Italic](./MerriweatherSans_300Light_Italic.ttf.png)|![MerriweatherSans_400Regular_Italic](./MerriweatherSans_400Regular_Italic.ttf.png)|![MerriweatherSans_500Medium_Italic](./MerriweatherSans_500Medium_Italic.ttf.png)||
-|![MerriweatherSans_600SemiBold_Italic](./MerriweatherSans_600SemiBold_Italic.ttf.png)|![MerriweatherSans_700Bold_Italic](./MerriweatherSans_700Bold_Italic.ttf.png)|![MerriweatherSans_800ExtraBold_Italic](./MerriweatherSans_800ExtraBold_Italic.ttf.png)||
+|![MerriweatherSans_300Light](.//300Light/MerriweatherSans_300Light.ttf.png)|![MerriweatherSans_400Regular](.//400Regular/MerriweatherSans_400Regular.ttf.png)|![MerriweatherSans_500Medium](.//500Medium/MerriweatherSans_500Medium.ttf.png)||
+|![MerriweatherSans_600SemiBold](.//600SemiBold/MerriweatherSans_600SemiBold.ttf.png)|![MerriweatherSans_700Bold](.//700Bold/MerriweatherSans_700Bold.ttf.png)|![MerriweatherSans_800ExtraBold](.//800ExtraBold/MerriweatherSans_800ExtraBold.ttf.png)||
+|![MerriweatherSans_300Light_Italic](.//300Light_Italic/MerriweatherSans_300Light_Italic.ttf.png)|![MerriweatherSans_400Regular_Italic](.//400Regular_Italic/MerriweatherSans_400Regular_Italic.ttf.png)|![MerriweatherSans_500Medium_Italic](.//500Medium_Italic/MerriweatherSans_500Medium_Italic.ttf.png)||
+|![MerriweatherSans_600SemiBold_Italic](.//600SemiBold_Italic/MerriweatherSans_600SemiBold_Italic.ttf.png)|![MerriweatherSans_700Bold_Italic](.//700Bold_Italic/MerriweatherSans_700Bold_Italic.ttf.png)|![MerriweatherSans_800ExtraBold_Italic](.//800ExtraBold_Italic/MerriweatherSans_800ExtraBold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

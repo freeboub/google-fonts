@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SecularOne_400Regular](./SecularOne_400Regular.ttf.png)||||
+|![SecularOne_400Regular](.//400Regular/SecularOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

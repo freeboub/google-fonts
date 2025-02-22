@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SofiaSansSemiCondensed_100Thin](./SofiaSansSemiCondensed_100Thin.ttf.png)|![SofiaSansSemiCondensed_200ExtraLight](./SofiaSansSemiCondensed_200ExtraLight.ttf.png)|![SofiaSansSemiCondensed_300Light](./SofiaSansSemiCondensed_300Light.ttf.png)||
-|![SofiaSansSemiCondensed_400Regular](./SofiaSansSemiCondensed_400Regular.ttf.png)|![SofiaSansSemiCondensed_500Medium](./SofiaSansSemiCondensed_500Medium.ttf.png)|![SofiaSansSemiCondensed_600SemiBold](./SofiaSansSemiCondensed_600SemiBold.ttf.png)||
-|![SofiaSansSemiCondensed_700Bold](./SofiaSansSemiCondensed_700Bold.ttf.png)|![SofiaSansSemiCondensed_800ExtraBold](./SofiaSansSemiCondensed_800ExtraBold.ttf.png)|![SofiaSansSemiCondensed_900Black](./SofiaSansSemiCondensed_900Black.ttf.png)||
-|![SofiaSansSemiCondensed_100Thin_Italic](./SofiaSansSemiCondensed_100Thin_Italic.ttf.png)|![SofiaSansSemiCondensed_200ExtraLight_Italic](./SofiaSansSemiCondensed_200ExtraLight_Italic.ttf.png)|![SofiaSansSemiCondensed_300Light_Italic](./SofiaSansSemiCondensed_300Light_Italic.ttf.png)||
-|![SofiaSansSemiCondensed_400Regular_Italic](./SofiaSansSemiCondensed_400Regular_Italic.ttf.png)|![SofiaSansSemiCondensed_500Medium_Italic](./SofiaSansSemiCondensed_500Medium_Italic.ttf.png)|![SofiaSansSemiCondensed_600SemiBold_Italic](./SofiaSansSemiCondensed_600SemiBold_Italic.ttf.png)||
-|![SofiaSansSemiCondensed_700Bold_Italic](./SofiaSansSemiCondensed_700Bold_Italic.ttf.png)|![SofiaSansSemiCondensed_800ExtraBold_Italic](./SofiaSansSemiCondensed_800ExtraBold_Italic.ttf.png)|![SofiaSansSemiCondensed_900Black_Italic](./SofiaSansSemiCondensed_900Black_Italic.ttf.png)||
+|![SofiaSansSemiCondensed_100Thin](.//100Thin/SofiaSansSemiCondensed_100Thin.ttf.png)|![SofiaSansSemiCondensed_200ExtraLight](.//200ExtraLight/SofiaSansSemiCondensed_200ExtraLight.ttf.png)|![SofiaSansSemiCondensed_300Light](.//300Light/SofiaSansSemiCondensed_300Light.ttf.png)||
+|![SofiaSansSemiCondensed_400Regular](.//400Regular/SofiaSansSemiCondensed_400Regular.ttf.png)|![SofiaSansSemiCondensed_500Medium](.//500Medium/SofiaSansSemiCondensed_500Medium.ttf.png)|![SofiaSansSemiCondensed_600SemiBold](.//600SemiBold/SofiaSansSemiCondensed_600SemiBold.ttf.png)||
+|![SofiaSansSemiCondensed_700Bold](.//700Bold/SofiaSansSemiCondensed_700Bold.ttf.png)|![SofiaSansSemiCondensed_800ExtraBold](.//800ExtraBold/SofiaSansSemiCondensed_800ExtraBold.ttf.png)|![SofiaSansSemiCondensed_900Black](.//900Black/SofiaSansSemiCondensed_900Black.ttf.png)||
+|![SofiaSansSemiCondensed_100Thin_Italic](.//100Thin_Italic/SofiaSansSemiCondensed_100Thin_Italic.ttf.png)|![SofiaSansSemiCondensed_200ExtraLight_Italic](.//200ExtraLight_Italic/SofiaSansSemiCondensed_200ExtraLight_Italic.ttf.png)|![SofiaSansSemiCondensed_300Light_Italic](.//300Light_Italic/SofiaSansSemiCondensed_300Light_Italic.ttf.png)||
+|![SofiaSansSemiCondensed_400Regular_Italic](.//400Regular_Italic/SofiaSansSemiCondensed_400Regular_Italic.ttf.png)|![SofiaSansSemiCondensed_500Medium_Italic](.//500Medium_Italic/SofiaSansSemiCondensed_500Medium_Italic.ttf.png)|![SofiaSansSemiCondensed_600SemiBold_Italic](.//600SemiBold_Italic/SofiaSansSemiCondensed_600SemiBold_Italic.ttf.png)||
+|![SofiaSansSemiCondensed_700Bold_Italic](.//700Bold_Italic/SofiaSansSemiCondensed_700Bold_Italic.ttf.png)|![SofiaSansSemiCondensed_800ExtraBold_Italic](.//800ExtraBold_Italic/SofiaSansSemiCondensed_800ExtraBold_Italic.ttf.png)|![SofiaSansSemiCondensed_900Black_Italic](.//900Black_Italic/SofiaSansSemiCondensed_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

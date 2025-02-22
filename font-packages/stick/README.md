@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Stick_400Regular](./Stick_400Regular.ttf.png)||||
+|![Stick_400Regular](.//400Regular/Stick_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

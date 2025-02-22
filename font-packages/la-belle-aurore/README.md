@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LaBelleAurore_400Regular](./LaBelleAurore_400Regular.ttf.png)||||
+|![LaBelleAurore_400Regular](.//400Regular/LaBelleAurore_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

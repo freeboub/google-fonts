@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Roboto_100Thin](./Roboto_100Thin.ttf.png)|![Roboto_200ExtraLight](./Roboto_200ExtraLight.ttf.png)|![Roboto_300Light](./Roboto_300Light.ttf.png)||
-|![Roboto_400Regular](./Roboto_400Regular.ttf.png)|![Roboto_500Medium](./Roboto_500Medium.ttf.png)|![Roboto_600SemiBold](./Roboto_600SemiBold.ttf.png)||
-|![Roboto_700Bold](./Roboto_700Bold.ttf.png)|![Roboto_800ExtraBold](./Roboto_800ExtraBold.ttf.png)|![Roboto_900Black](./Roboto_900Black.ttf.png)||
-|![Roboto_100Thin_Italic](./Roboto_100Thin_Italic.ttf.png)|![Roboto_200ExtraLight_Italic](./Roboto_200ExtraLight_Italic.ttf.png)|![Roboto_300Light_Italic](./Roboto_300Light_Italic.ttf.png)||
-|![Roboto_400Regular_Italic](./Roboto_400Regular_Italic.ttf.png)|![Roboto_500Medium_Italic](./Roboto_500Medium_Italic.ttf.png)|![Roboto_600SemiBold_Italic](./Roboto_600SemiBold_Italic.ttf.png)||
-|![Roboto_700Bold_Italic](./Roboto_700Bold_Italic.ttf.png)|![Roboto_800ExtraBold_Italic](./Roboto_800ExtraBold_Italic.ttf.png)|![Roboto_900Black_Italic](./Roboto_900Black_Italic.ttf.png)||
+|![Roboto_100Thin](.//100Thin/Roboto_100Thin.ttf.png)|![Roboto_200ExtraLight](.//200ExtraLight/Roboto_200ExtraLight.ttf.png)|![Roboto_300Light](.//300Light/Roboto_300Light.ttf.png)||
+|![Roboto_400Regular](.//400Regular/Roboto_400Regular.ttf.png)|![Roboto_500Medium](.//500Medium/Roboto_500Medium.ttf.png)|![Roboto_600SemiBold](.//600SemiBold/Roboto_600SemiBold.ttf.png)||
+|![Roboto_700Bold](.//700Bold/Roboto_700Bold.ttf.png)|![Roboto_800ExtraBold](.//800ExtraBold/Roboto_800ExtraBold.ttf.png)|![Roboto_900Black](.//900Black/Roboto_900Black.ttf.png)||
+|![Roboto_100Thin_Italic](.//100Thin_Italic/Roboto_100Thin_Italic.ttf.png)|![Roboto_200ExtraLight_Italic](.//200ExtraLight_Italic/Roboto_200ExtraLight_Italic.ttf.png)|![Roboto_300Light_Italic](.//300Light_Italic/Roboto_300Light_Italic.ttf.png)||
+|![Roboto_400Regular_Italic](.//400Regular_Italic/Roboto_400Regular_Italic.ttf.png)|![Roboto_500Medium_Italic](.//500Medium_Italic/Roboto_500Medium_Italic.ttf.png)|![Roboto_600SemiBold_Italic](.//600SemiBold_Italic/Roboto_600SemiBold_Italic.ttf.png)||
+|![Roboto_700Bold_Italic](.//700Bold_Italic/Roboto_700Bold_Italic.ttf.png)|![Roboto_800ExtraBold_Italic](.//800ExtraBold_Italic/Roboto_800ExtraBold_Italic.ttf.png)|![Roboto_900Black_Italic](.//900Black_Italic/Roboto_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

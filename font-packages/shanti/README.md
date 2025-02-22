@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Shanti_400Regular](./Shanti_400Regular.ttf.png)||||
+|![Shanti_400Regular](.//400Regular/Shanti_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

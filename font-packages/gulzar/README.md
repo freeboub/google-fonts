@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Gulzar_400Regular](./Gulzar_400Regular.ttf.png)||||
+|![Gulzar_400Regular](.//400Regular/Gulzar_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

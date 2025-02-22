@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![JustMeAgainDownHere_400Regular](./JustMeAgainDownHere_400Regular.ttf.png)||||
+|![JustMeAgainDownHere_400Regular](.//400Regular/JustMeAgainDownHere_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

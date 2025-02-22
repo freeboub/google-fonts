@@ -128,8 +128,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![font42dotSans_300Light](./font42dotSans_300Light.ttf.png)|![font42dotSans_400Regular](./font42dotSans_400Regular.ttf.png)|![font42dotSans_500Medium](./font42dotSans_500Medium.ttf.png)||
-|![font42dotSans_600SemiBold](./font42dotSans_600SemiBold.ttf.png)|![font42dotSans_700Bold](./font42dotSans_700Bold.ttf.png)|![font42dotSans_800ExtraBold](./font42dotSans_800ExtraBold.ttf.png)||
+|![font42dotSans_300Light](.//300Light/font42dotSans_300Light.ttf.png)|![font42dotSans_400Regular](.//400Regular/font42dotSans_400Regular.ttf.png)|![font42dotSans_500Medium](.//500Medium/font42dotSans_500Medium.ttf.png)||
+|![font42dotSans_600SemiBold](.//600SemiBold/font42dotSans_600SemiBold.ttf.png)|![font42dotSans_700Bold](.//700Bold/font42dotSans_700Bold.ttf.png)|![font42dotSans_800ExtraBold](.//800ExtraBold/font42dotSans_800ExtraBold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

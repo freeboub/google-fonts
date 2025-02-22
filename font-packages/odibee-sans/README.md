@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![OdibeeSans_400Regular](./OdibeeSans_400Regular.ttf.png)||||
+|![OdibeeSans_400Regular](.//400Regular/OdibeeSans_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

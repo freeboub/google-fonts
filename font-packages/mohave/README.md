@@ -180,10 +180,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Mohave_300Light](./Mohave_300Light.ttf.png)|![Mohave_400Regular](./Mohave_400Regular.ttf.png)|![Mohave_500Medium](./Mohave_500Medium.ttf.png)||
-|![Mohave_600SemiBold](./Mohave_600SemiBold.ttf.png)|![Mohave_700Bold](./Mohave_700Bold.ttf.png)|![Mohave_300Light_Italic](./Mohave_300Light_Italic.ttf.png)||
-|![Mohave_400Regular_Italic](./Mohave_400Regular_Italic.ttf.png)|![Mohave_500Medium_Italic](./Mohave_500Medium_Italic.ttf.png)|![Mohave_600SemiBold_Italic](./Mohave_600SemiBold_Italic.ttf.png)||
-|![Mohave_700Bold_Italic](./Mohave_700Bold_Italic.ttf.png)||||
+|![Mohave_300Light](.//300Light/Mohave_300Light.ttf.png)|![Mohave_400Regular](.//400Regular/Mohave_400Regular.ttf.png)|![Mohave_500Medium](.//500Medium/Mohave_500Medium.ttf.png)||
+|![Mohave_600SemiBold](.//600SemiBold/Mohave_600SemiBold.ttf.png)|![Mohave_700Bold](.//700Bold/Mohave_700Bold.ttf.png)|![Mohave_300Light_Italic](.//300Light_Italic/Mohave_300Light_Italic.ttf.png)||
+|![Mohave_400Regular_Italic](.//400Regular_Italic/Mohave_400Regular_Italic.ttf.png)|![Mohave_500Medium_Italic](.//500Medium_Italic/Mohave_500Medium_Italic.ttf.png)|![Mohave_600SemiBold_Italic](.//600SemiBold_Italic/Mohave_600SemiBold_Italic.ttf.png)||
+|![Mohave_700Bold_Italic](.//700Bold_Italic/Mohave_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

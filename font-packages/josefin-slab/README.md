@@ -232,11 +232,11 @@ export default () => {
 
 ||||
 |-|-|-|
-|![JosefinSlab_100Thin](./JosefinSlab_100Thin.ttf.png)|![JosefinSlab_200ExtraLight](./JosefinSlab_200ExtraLight.ttf.png)|![JosefinSlab_300Light](./JosefinSlab_300Light.ttf.png)||
-|![JosefinSlab_400Regular](./JosefinSlab_400Regular.ttf.png)|![JosefinSlab_500Medium](./JosefinSlab_500Medium.ttf.png)|![JosefinSlab_600SemiBold](./JosefinSlab_600SemiBold.ttf.png)||
-|![JosefinSlab_700Bold](./JosefinSlab_700Bold.ttf.png)|![JosefinSlab_100Thin_Italic](./JosefinSlab_100Thin_Italic.ttf.png)|![JosefinSlab_200ExtraLight_Italic](./JosefinSlab_200ExtraLight_Italic.ttf.png)||
-|![JosefinSlab_300Light_Italic](./JosefinSlab_300Light_Italic.ttf.png)|![JosefinSlab_400Regular_Italic](./JosefinSlab_400Regular_Italic.ttf.png)|![JosefinSlab_500Medium_Italic](./JosefinSlab_500Medium_Italic.ttf.png)||
-|![JosefinSlab_600SemiBold_Italic](./JosefinSlab_600SemiBold_Italic.ttf.png)|![JosefinSlab_700Bold_Italic](./JosefinSlab_700Bold_Italic.ttf.png)|||
+|![JosefinSlab_100Thin](.//100Thin/JosefinSlab_100Thin.ttf.png)|![JosefinSlab_200ExtraLight](.//200ExtraLight/JosefinSlab_200ExtraLight.ttf.png)|![JosefinSlab_300Light](.//300Light/JosefinSlab_300Light.ttf.png)||
+|![JosefinSlab_400Regular](.//400Regular/JosefinSlab_400Regular.ttf.png)|![JosefinSlab_500Medium](.//500Medium/JosefinSlab_500Medium.ttf.png)|![JosefinSlab_600SemiBold](.//600SemiBold/JosefinSlab_600SemiBold.ttf.png)||
+|![JosefinSlab_700Bold](.//700Bold/JosefinSlab_700Bold.ttf.png)|![JosefinSlab_100Thin_Italic](.//100Thin_Italic/JosefinSlab_100Thin_Italic.ttf.png)|![JosefinSlab_200ExtraLight_Italic](.//200ExtraLight_Italic/JosefinSlab_200ExtraLight_Italic.ttf.png)||
+|![JosefinSlab_300Light_Italic](.//300Light_Italic/JosefinSlab_300Light_Italic.ttf.png)|![JosefinSlab_400Regular_Italic](.//400Regular_Italic/JosefinSlab_400Regular_Italic.ttf.png)|![JosefinSlab_500Medium_Italic](.//500Medium_Italic/JosefinSlab_500Medium_Italic.ttf.png)||
+|![JosefinSlab_600SemiBold_Italic](.//600SemiBold_Italic/JosefinSlab_600SemiBold_Italic.ttf.png)|![JosefinSlab_700Bold_Italic](.//700Bold_Italic/JosefinSlab_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

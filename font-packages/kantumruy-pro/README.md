@@ -232,11 +232,11 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KantumruyPro_100Thin](./KantumruyPro_100Thin.ttf.png)|![KantumruyPro_200ExtraLight](./KantumruyPro_200ExtraLight.ttf.png)|![KantumruyPro_300Light](./KantumruyPro_300Light.ttf.png)||
-|![KantumruyPro_400Regular](./KantumruyPro_400Regular.ttf.png)|![KantumruyPro_500Medium](./KantumruyPro_500Medium.ttf.png)|![KantumruyPro_600SemiBold](./KantumruyPro_600SemiBold.ttf.png)||
-|![KantumruyPro_700Bold](./KantumruyPro_700Bold.ttf.png)|![KantumruyPro_100Thin_Italic](./KantumruyPro_100Thin_Italic.ttf.png)|![KantumruyPro_200ExtraLight_Italic](./KantumruyPro_200ExtraLight_Italic.ttf.png)||
-|![KantumruyPro_300Light_Italic](./KantumruyPro_300Light_Italic.ttf.png)|![KantumruyPro_400Regular_Italic](./KantumruyPro_400Regular_Italic.ttf.png)|![KantumruyPro_500Medium_Italic](./KantumruyPro_500Medium_Italic.ttf.png)||
-|![KantumruyPro_600SemiBold_Italic](./KantumruyPro_600SemiBold_Italic.ttf.png)|![KantumruyPro_700Bold_Italic](./KantumruyPro_700Bold_Italic.ttf.png)|||
+|![KantumruyPro_100Thin](.//100Thin/KantumruyPro_100Thin.ttf.png)|![KantumruyPro_200ExtraLight](.//200ExtraLight/KantumruyPro_200ExtraLight.ttf.png)|![KantumruyPro_300Light](.//300Light/KantumruyPro_300Light.ttf.png)||
+|![KantumruyPro_400Regular](.//400Regular/KantumruyPro_400Regular.ttf.png)|![KantumruyPro_500Medium](.//500Medium/KantumruyPro_500Medium.ttf.png)|![KantumruyPro_600SemiBold](.//600SemiBold/KantumruyPro_600SemiBold.ttf.png)||
+|![KantumruyPro_700Bold](.//700Bold/KantumruyPro_700Bold.ttf.png)|![KantumruyPro_100Thin_Italic](.//100Thin_Italic/KantumruyPro_100Thin_Italic.ttf.png)|![KantumruyPro_200ExtraLight_Italic](.//200ExtraLight_Italic/KantumruyPro_200ExtraLight_Italic.ttf.png)||
+|![KantumruyPro_300Light_Italic](.//300Light_Italic/KantumruyPro_300Light_Italic.ttf.png)|![KantumruyPro_400Regular_Italic](.//400Regular_Italic/KantumruyPro_400Regular_Italic.ttf.png)|![KantumruyPro_500Medium_Italic](.//500Medium_Italic/KantumruyPro_500Medium_Italic.ttf.png)||
+|![KantumruyPro_600SemiBold_Italic](.//600SemiBold_Italic/KantumruyPro_600SemiBold_Italic.ttf.png)|![KantumruyPro_700Bold_Italic](.//700Bold_Italic/KantumruyPro_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

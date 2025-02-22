@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Offside_400Regular](./Offside_400Regular.ttf.png)||||
+|![Offside_400Regular](.//400Regular/Offside_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

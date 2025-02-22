@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Domine_400Regular](./Domine_400Regular.ttf.png)|![Domine_500Medium](./Domine_500Medium.ttf.png)|![Domine_600SemiBold](./Domine_600SemiBold.ttf.png)||
-|![Domine_700Bold](./Domine_700Bold.ttf.png)||||
+|![Domine_400Regular](.//400Regular/Domine_400Regular.ttf.png)|![Domine_500Medium](.//500Medium/Domine_500Medium.ttf.png)|![Domine_600SemiBold](.//600SemiBold/Domine_600SemiBold.ttf.png)||
+|![Domine_700Bold](.//700Bold/Domine_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

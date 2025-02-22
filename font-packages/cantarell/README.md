@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Cantarell_400Regular](./Cantarell_400Regular.ttf.png)|![Cantarell_400Regular_Italic](./Cantarell_400Regular_Italic.ttf.png)|![Cantarell_700Bold](./Cantarell_700Bold.ttf.png)||
-|![Cantarell_700Bold_Italic](./Cantarell_700Bold_Italic.ttf.png)||||
+|![Cantarell_400Regular](.//400Regular/Cantarell_400Regular.ttf.png)|![Cantarell_400Regular_Italic](.//400Regular_Italic/Cantarell_400Regular_Italic.ttf.png)|![Cantarell_700Bold](.//700Bold/Cantarell_700Bold.ttf.png)||
+|![Cantarell_700Bold_Italic](.//700Bold_Italic/Cantarell_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

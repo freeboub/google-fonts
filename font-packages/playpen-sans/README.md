@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PlaypenSans_100Thin](./PlaypenSans_100Thin.ttf.png)|![PlaypenSans_200ExtraLight](./PlaypenSans_200ExtraLight.ttf.png)|![PlaypenSans_300Light](./PlaypenSans_300Light.ttf.png)||
-|![PlaypenSans_400Regular](./PlaypenSans_400Regular.ttf.png)|![PlaypenSans_500Medium](./PlaypenSans_500Medium.ttf.png)|![PlaypenSans_600SemiBold](./PlaypenSans_600SemiBold.ttf.png)||
-|![PlaypenSans_700Bold](./PlaypenSans_700Bold.ttf.png)|![PlaypenSans_800ExtraBold](./PlaypenSans_800ExtraBold.ttf.png)|||
+|![PlaypenSans_100Thin](.//100Thin/PlaypenSans_100Thin.ttf.png)|![PlaypenSans_200ExtraLight](.//200ExtraLight/PlaypenSans_200ExtraLight.ttf.png)|![PlaypenSans_300Light](.//300Light/PlaypenSans_300Light.ttf.png)||
+|![PlaypenSans_400Regular](.//400Regular/PlaypenSans_400Regular.ttf.png)|![PlaypenSans_500Medium](.//500Medium/PlaypenSans_500Medium.ttf.png)|![PlaypenSans_600SemiBold](.//600SemiBold/PlaypenSans_600SemiBold.ttf.png)||
+|![PlaypenSans_700Bold](.//700Bold/PlaypenSans_700Bold.ttf.png)|![PlaypenSans_800ExtraBold](.//800ExtraBold/PlaypenSans_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BirthstoneBounce_400Regular](./BirthstoneBounce_400Regular.ttf.png)|![BirthstoneBounce_500Medium](./BirthstoneBounce_500Medium.ttf.png)|||
+|![BirthstoneBounce_400Regular](.//400Regular/BirthstoneBounce_400Regular.ttf.png)|![BirthstoneBounce_500Medium](.//500Medium/BirthstoneBounce_500Medium.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Signika_300Light](./Signika_300Light.ttf.png)|![Signika_400Regular](./Signika_400Regular.ttf.png)|![Signika_500Medium](./Signika_500Medium.ttf.png)||
-|![Signika_600SemiBold](./Signika_600SemiBold.ttf.png)|![Signika_700Bold](./Signika_700Bold.ttf.png)|||
+|![Signika_300Light](.//300Light/Signika_300Light.ttf.png)|![Signika_400Regular](.//400Regular/Signika_400Regular.ttf.png)|![Signika_500Medium](.//500Medium/Signika_500Medium.ttf.png)||
+|![Signika_600SemiBold](.//600SemiBold/Signika_600SemiBold.ttf.png)|![Signika_700Bold](.//700Bold/Signika_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -180,10 +180,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ZillaSlab_300Light](./ZillaSlab_300Light.ttf.png)|![ZillaSlab_300Light_Italic](./ZillaSlab_300Light_Italic.ttf.png)|![ZillaSlab_400Regular](./ZillaSlab_400Regular.ttf.png)||
-|![ZillaSlab_400Regular_Italic](./ZillaSlab_400Regular_Italic.ttf.png)|![ZillaSlab_500Medium](./ZillaSlab_500Medium.ttf.png)|![ZillaSlab_500Medium_Italic](./ZillaSlab_500Medium_Italic.ttf.png)||
-|![ZillaSlab_600SemiBold](./ZillaSlab_600SemiBold.ttf.png)|![ZillaSlab_600SemiBold_Italic](./ZillaSlab_600SemiBold_Italic.ttf.png)|![ZillaSlab_700Bold](./ZillaSlab_700Bold.ttf.png)||
-|![ZillaSlab_700Bold_Italic](./ZillaSlab_700Bold_Italic.ttf.png)||||
+|![ZillaSlab_300Light](.//300Light/ZillaSlab_300Light.ttf.png)|![ZillaSlab_300Light_Italic](.//300Light_Italic/ZillaSlab_300Light_Italic.ttf.png)|![ZillaSlab_400Regular](.//400Regular/ZillaSlab_400Regular.ttf.png)||
+|![ZillaSlab_400Regular_Italic](.//400Regular_Italic/ZillaSlab_400Regular_Italic.ttf.png)|![ZillaSlab_500Medium](.//500Medium/ZillaSlab_500Medium.ttf.png)|![ZillaSlab_500Medium_Italic](.//500Medium_Italic/ZillaSlab_500Medium_Italic.ttf.png)||
+|![ZillaSlab_600SemiBold](.//600SemiBold/ZillaSlab_600SemiBold.ttf.png)|![ZillaSlab_600SemiBold_Italic](.//600SemiBold_Italic/ZillaSlab_600SemiBold_Italic.ttf.png)|![ZillaSlab_700Bold](.//700Bold/ZillaSlab_700Bold.ttf.png)||
+|![ZillaSlab_700Bold_Italic](.//700Bold_Italic/ZillaSlab_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Danfo_400Regular](./Danfo_400Regular.ttf.png)||||
+|![Danfo_400Regular](.//400Regular/Danfo_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

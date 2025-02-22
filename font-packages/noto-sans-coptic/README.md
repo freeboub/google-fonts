@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansCoptic_400Regular](./NotoSansCoptic_400Regular.ttf.png)||||
+|![NotoSansCoptic_400Regular](.//400Regular/NotoSansCoptic_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

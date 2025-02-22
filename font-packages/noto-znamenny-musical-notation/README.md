@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoZnamennyMusicalNotation_400Regular](./NotoZnamennyMusicalNotation_400Regular.ttf.png)||||
+|![NotoZnamennyMusicalNotation_400Regular](.//400Regular/NotoZnamennyMusicalNotation_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

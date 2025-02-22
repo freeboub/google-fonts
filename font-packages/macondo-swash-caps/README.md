@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MacondoSwashCaps_400Regular](./MacondoSwashCaps_400Regular.ttf.png)||||
+|![MacondoSwashCaps_400Regular](.//400Regular/MacondoSwashCaps_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

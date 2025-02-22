@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansSymbols_100Thin](./NotoSansSymbols_100Thin.ttf.png)|![NotoSansSymbols_200ExtraLight](./NotoSansSymbols_200ExtraLight.ttf.png)|![NotoSansSymbols_300Light](./NotoSansSymbols_300Light.ttf.png)||
-|![NotoSansSymbols_400Regular](./NotoSansSymbols_400Regular.ttf.png)|![NotoSansSymbols_500Medium](./NotoSansSymbols_500Medium.ttf.png)|![NotoSansSymbols_600SemiBold](./NotoSansSymbols_600SemiBold.ttf.png)||
-|![NotoSansSymbols_700Bold](./NotoSansSymbols_700Bold.ttf.png)|![NotoSansSymbols_800ExtraBold](./NotoSansSymbols_800ExtraBold.ttf.png)|![NotoSansSymbols_900Black](./NotoSansSymbols_900Black.ttf.png)||
+|![NotoSansSymbols_100Thin](.//100Thin/NotoSansSymbols_100Thin.ttf.png)|![NotoSansSymbols_200ExtraLight](.//200ExtraLight/NotoSansSymbols_200ExtraLight.ttf.png)|![NotoSansSymbols_300Light](.//300Light/NotoSansSymbols_300Light.ttf.png)||
+|![NotoSansSymbols_400Regular](.//400Regular/NotoSansSymbols_400Regular.ttf.png)|![NotoSansSymbols_500Medium](.//500Medium/NotoSansSymbols_500Medium.ttf.png)|![NotoSansSymbols_600SemiBold](.//600SemiBold/NotoSansSymbols_600SemiBold.ttf.png)||
+|![NotoSansSymbols_700Bold](.//700Bold/NotoSansSymbols_700Bold.ttf.png)|![NotoSansSymbols_800ExtraBold](.//800ExtraBold/NotoSansSymbols_800ExtraBold.ttf.png)|![NotoSansSymbols_900Black](.//900Black/NotoSansSymbols_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

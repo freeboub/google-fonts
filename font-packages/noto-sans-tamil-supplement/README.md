@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansTamilSupplement_400Regular](./NotoSansTamilSupplement_400Regular.ttf.png)||||
+|![NotoSansTamilSupplement_400Regular](.//400Regular/NotoSansTamilSupplement_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

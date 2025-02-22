@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Hind_300Light](./Hind_300Light.ttf.png)|![Hind_400Regular](./Hind_400Regular.ttf.png)|![Hind_500Medium](./Hind_500Medium.ttf.png)||
-|![Hind_600SemiBold](./Hind_600SemiBold.ttf.png)|![Hind_700Bold](./Hind_700Bold.ttf.png)|||
+|![Hind_300Light](.//300Light/Hind_300Light.ttf.png)|![Hind_400Regular](.//400Regular/Hind_400Regular.ttf.png)|![Hind_500Medium](.//500Medium/Hind_500Medium.ttf.png)||
+|![Hind_600SemiBold](.//600SemiBold/Hind_600SemiBold.ttf.png)|![Hind_700Bold](.//700Bold/Hind_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

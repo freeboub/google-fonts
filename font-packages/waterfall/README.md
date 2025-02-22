@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Waterfall_400Regular](./Waterfall_400Regular.ttf.png)||||
+|![Waterfall_400Regular](.//400Regular/Waterfall_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

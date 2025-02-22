@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BowlbyOneSC_400Regular](./BowlbyOneSC_400Regular.ttf.png)||||
+|![BowlbyOneSC_400Regular](.//400Regular/BowlbyOneSC_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

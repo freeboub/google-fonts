@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Devonshire_400Regular](./Devonshire_400Regular.ttf.png)||||
+|![Devonshire_400Regular](.//400Regular/Devonshire_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

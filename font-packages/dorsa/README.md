@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Dorsa_400Regular](./Dorsa_400Regular.ttf.png)||||
+|![Dorsa_400Regular](.//400Regular/Dorsa_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

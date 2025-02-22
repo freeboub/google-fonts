@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Gotu_400Regular](./Gotu_400Regular.ttf.png)||||
+|![Gotu_400Regular](.//400Regular/Gotu_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

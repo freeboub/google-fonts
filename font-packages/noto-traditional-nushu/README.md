@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoTraditionalNushu_300Light](./NotoTraditionalNushu_300Light.ttf.png)|![NotoTraditionalNushu_400Regular](./NotoTraditionalNushu_400Regular.ttf.png)|![NotoTraditionalNushu_500Medium](./NotoTraditionalNushu_500Medium.ttf.png)||
-|![NotoTraditionalNushu_600SemiBold](./NotoTraditionalNushu_600SemiBold.ttf.png)|![NotoTraditionalNushu_700Bold](./NotoTraditionalNushu_700Bold.ttf.png)|||
+|![NotoTraditionalNushu_300Light](.//300Light/NotoTraditionalNushu_300Light.ttf.png)|![NotoTraditionalNushu_400Regular](.//400Regular/NotoTraditionalNushu_400Regular.ttf.png)|![NotoTraditionalNushu_500Medium](.//500Medium/NotoTraditionalNushu_500Medium.ttf.png)||
+|![NotoTraditionalNushu_600SemiBold](.//600SemiBold/NotoTraditionalNushu_600SemiBold.ttf.png)|![NotoTraditionalNushu_700Bold](.//700Bold/NotoTraditionalNushu_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

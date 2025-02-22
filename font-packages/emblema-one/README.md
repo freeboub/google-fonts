@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![EmblemaOne_400Regular](./EmblemaOne_400Regular.ttf.png)||||
+|![EmblemaOne_400Regular](.//400Regular/EmblemaOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

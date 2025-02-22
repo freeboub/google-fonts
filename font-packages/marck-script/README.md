@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MarckScript_400Regular](./MarckScript_400Regular.ttf.png)||||
+|![MarckScript_400Regular](.//400Regular/MarckScript_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

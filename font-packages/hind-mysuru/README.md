@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![HindMysuru_300Light](./HindMysuru_300Light.ttf.png)|![HindMysuru_400Regular](./HindMysuru_400Regular.ttf.png)|![HindMysuru_500Medium](./HindMysuru_500Medium.ttf.png)||
-|![HindMysuru_600SemiBold](./HindMysuru_600SemiBold.ttf.png)|![HindMysuru_700Bold](./HindMysuru_700Bold.ttf.png)|||
+|![HindMysuru_300Light](.//300Light/HindMysuru_300Light.ttf.png)|![HindMysuru_400Regular](.//400Regular/HindMysuru_400Regular.ttf.png)|![HindMysuru_500Medium](.//500Medium/HindMysuru_500Medium.ttf.png)||
+|![HindMysuru_600SemiBold](.//600SemiBold/HindMysuru_600SemiBold.ttf.png)|![HindMysuru_700Bold](.//700Bold/HindMysuru_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

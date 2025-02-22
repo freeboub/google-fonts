@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BioRhyme_200ExtraLight](./BioRhyme_200ExtraLight.ttf.png)|![BioRhyme_300Light](./BioRhyme_300Light.ttf.png)|![BioRhyme_400Regular](./BioRhyme_400Regular.ttf.png)||
-|![BioRhyme_500Medium](./BioRhyme_500Medium.ttf.png)|![BioRhyme_600SemiBold](./BioRhyme_600SemiBold.ttf.png)|![BioRhyme_700Bold](./BioRhyme_700Bold.ttf.png)||
-|![BioRhyme_800ExtraBold](./BioRhyme_800ExtraBold.ttf.png)||||
+|![BioRhyme_200ExtraLight](.//200ExtraLight/BioRhyme_200ExtraLight.ttf.png)|![BioRhyme_300Light](.//300Light/BioRhyme_300Light.ttf.png)|![BioRhyme_400Regular](.//400Regular/BioRhyme_400Regular.ttf.png)||
+|![BioRhyme_500Medium](.//500Medium/BioRhyme_500Medium.ttf.png)|![BioRhyme_600SemiBold](.//600SemiBold/BioRhyme_600SemiBold.ttf.png)|![BioRhyme_700Bold](.//700Bold/BioRhyme_700Bold.ttf.png)||
+|![BioRhyme_800ExtraBold](.//800ExtraBold/BioRhyme_800ExtraBold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

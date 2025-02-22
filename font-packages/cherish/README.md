@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Cherish_400Regular](./Cherish_400Regular.ttf.png)||||
+|![Cherish_400Regular](.//400Regular/Cherish_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

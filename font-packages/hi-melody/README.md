@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![HiMelody_400Regular](./HiMelody_400Regular.ttf.png)||||
+|![HiMelody_400Regular](.//400Regular/HiMelody_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

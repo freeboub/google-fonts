@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansGurmukhi_100Thin](./NotoSansGurmukhi_100Thin.ttf.png)|![NotoSansGurmukhi_200ExtraLight](./NotoSansGurmukhi_200ExtraLight.ttf.png)|![NotoSansGurmukhi_300Light](./NotoSansGurmukhi_300Light.ttf.png)||
-|![NotoSansGurmukhi_400Regular](./NotoSansGurmukhi_400Regular.ttf.png)|![NotoSansGurmukhi_500Medium](./NotoSansGurmukhi_500Medium.ttf.png)|![NotoSansGurmukhi_600SemiBold](./NotoSansGurmukhi_600SemiBold.ttf.png)||
-|![NotoSansGurmukhi_700Bold](./NotoSansGurmukhi_700Bold.ttf.png)|![NotoSansGurmukhi_800ExtraBold](./NotoSansGurmukhi_800ExtraBold.ttf.png)|![NotoSansGurmukhi_900Black](./NotoSansGurmukhi_900Black.ttf.png)||
+|![NotoSansGurmukhi_100Thin](.//100Thin/NotoSansGurmukhi_100Thin.ttf.png)|![NotoSansGurmukhi_200ExtraLight](.//200ExtraLight/NotoSansGurmukhi_200ExtraLight.ttf.png)|![NotoSansGurmukhi_300Light](.//300Light/NotoSansGurmukhi_300Light.ttf.png)||
+|![NotoSansGurmukhi_400Regular](.//400Regular/NotoSansGurmukhi_400Regular.ttf.png)|![NotoSansGurmukhi_500Medium](.//500Medium/NotoSansGurmukhi_500Medium.ttf.png)|![NotoSansGurmukhi_600SemiBold](.//600SemiBold/NotoSansGurmukhi_600SemiBold.ttf.png)||
+|![NotoSansGurmukhi_700Bold](.//700Bold/NotoSansGurmukhi_700Bold.ttf.png)|![NotoSansGurmukhi_800ExtraBold](.//800ExtraBold/NotoSansGurmukhi_800ExtraBold.ttf.png)|![NotoSansGurmukhi_900Black](.//900Black/NotoSansGurmukhi_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

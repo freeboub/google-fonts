@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BacasimeAntique_400Regular](./BacasimeAntique_400Regular.ttf.png)||||
+|![BacasimeAntique_400Regular](.//400Regular/BacasimeAntique_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

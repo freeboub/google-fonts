@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifJP_200ExtraLight](./NotoSerifJP_200ExtraLight.ttf.png)|![NotoSerifJP_300Light](./NotoSerifJP_300Light.ttf.png)|![NotoSerifJP_400Regular](./NotoSerifJP_400Regular.ttf.png)||
-|![NotoSerifJP_500Medium](./NotoSerifJP_500Medium.ttf.png)|![NotoSerifJP_600SemiBold](./NotoSerifJP_600SemiBold.ttf.png)|![NotoSerifJP_700Bold](./NotoSerifJP_700Bold.ttf.png)||
-|![NotoSerifJP_800ExtraBold](./NotoSerifJP_800ExtraBold.ttf.png)|![NotoSerifJP_900Black](./NotoSerifJP_900Black.ttf.png)|||
+|![NotoSerifJP_200ExtraLight](.//200ExtraLight/NotoSerifJP_200ExtraLight.ttf.png)|![NotoSerifJP_300Light](.//300Light/NotoSerifJP_300Light.ttf.png)|![NotoSerifJP_400Regular](.//400Regular/NotoSerifJP_400Regular.ttf.png)||
+|![NotoSerifJP_500Medium](.//500Medium/NotoSerifJP_500Medium.ttf.png)|![NotoSerifJP_600SemiBold](.//600SemiBold/NotoSerifJP_600SemiBold.ttf.png)|![NotoSerifJP_700Bold](.//700Bold/NotoSerifJP_700Bold.ttf.png)||
+|![NotoSerifJP_800ExtraBold](.//800ExtraBold/NotoSerifJP_800ExtraBold.ttf.png)|![NotoSerifJP_900Black](.//900Black/NotoSerifJP_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

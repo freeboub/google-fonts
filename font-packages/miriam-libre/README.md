@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MiriamLibre_400Regular](./MiriamLibre_400Regular.ttf.png)|![MiriamLibre_500Medium](./MiriamLibre_500Medium.ttf.png)|![MiriamLibre_600SemiBold](./MiriamLibre_600SemiBold.ttf.png)||
-|![MiriamLibre_700Bold](./MiriamLibre_700Bold.ttf.png)||||
+|![MiriamLibre_400Regular](.//400Regular/MiriamLibre_400Regular.ttf.png)|![MiriamLibre_500Medium](.//500Medium/MiriamLibre_500Medium.ttf.png)|![MiriamLibre_600SemiBold](.//600SemiBold/MiriamLibre_600SemiBold.ttf.png)||
+|![MiriamLibre_700Bold](.//700Bold/MiriamLibre_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

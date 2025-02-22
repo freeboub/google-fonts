@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![GFSDidot_400Regular](./GFSDidot_400Regular.ttf.png)||||
+|![GFSDidot_400Regular](.//400Regular/GFSDidot_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

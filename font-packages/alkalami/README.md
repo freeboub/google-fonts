@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Alkalami_400Regular](./Alkalami_400Regular.ttf.png)||||
+|![Alkalami_400Regular](.//400Regular/Alkalami_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

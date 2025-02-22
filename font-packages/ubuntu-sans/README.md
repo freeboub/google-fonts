@@ -258,12 +258,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![UbuntuSans_100Thin](./UbuntuSans_100Thin.ttf.png)|![UbuntuSans_200ExtraLight](./UbuntuSans_200ExtraLight.ttf.png)|![UbuntuSans_300Light](./UbuntuSans_300Light.ttf.png)||
-|![UbuntuSans_400Regular](./UbuntuSans_400Regular.ttf.png)|![UbuntuSans_500Medium](./UbuntuSans_500Medium.ttf.png)|![UbuntuSans_600SemiBold](./UbuntuSans_600SemiBold.ttf.png)||
-|![UbuntuSans_700Bold](./UbuntuSans_700Bold.ttf.png)|![UbuntuSans_800ExtraBold](./UbuntuSans_800ExtraBold.ttf.png)|![UbuntuSans_100Thin_Italic](./UbuntuSans_100Thin_Italic.ttf.png)||
-|![UbuntuSans_200ExtraLight_Italic](./UbuntuSans_200ExtraLight_Italic.ttf.png)|![UbuntuSans_300Light_Italic](./UbuntuSans_300Light_Italic.ttf.png)|![UbuntuSans_400Regular_Italic](./UbuntuSans_400Regular_Italic.ttf.png)||
-|![UbuntuSans_500Medium_Italic](./UbuntuSans_500Medium_Italic.ttf.png)|![UbuntuSans_600SemiBold_Italic](./UbuntuSans_600SemiBold_Italic.ttf.png)|![UbuntuSans_700Bold_Italic](./UbuntuSans_700Bold_Italic.ttf.png)||
-|![UbuntuSans_800ExtraBold_Italic](./UbuntuSans_800ExtraBold_Italic.ttf.png)||||
+|![UbuntuSans_100Thin](.//100Thin/UbuntuSans_100Thin.ttf.png)|![UbuntuSans_200ExtraLight](.//200ExtraLight/UbuntuSans_200ExtraLight.ttf.png)|![UbuntuSans_300Light](.//300Light/UbuntuSans_300Light.ttf.png)||
+|![UbuntuSans_400Regular](.//400Regular/UbuntuSans_400Regular.ttf.png)|![UbuntuSans_500Medium](.//500Medium/UbuntuSans_500Medium.ttf.png)|![UbuntuSans_600SemiBold](.//600SemiBold/UbuntuSans_600SemiBold.ttf.png)||
+|![UbuntuSans_700Bold](.//700Bold/UbuntuSans_700Bold.ttf.png)|![UbuntuSans_800ExtraBold](.//800ExtraBold/UbuntuSans_800ExtraBold.ttf.png)|![UbuntuSans_100Thin_Italic](.//100Thin_Italic/UbuntuSans_100Thin_Italic.ttf.png)||
+|![UbuntuSans_200ExtraLight_Italic](.//200ExtraLight_Italic/UbuntuSans_200ExtraLight_Italic.ttf.png)|![UbuntuSans_300Light_Italic](.//300Light_Italic/UbuntuSans_300Light_Italic.ttf.png)|![UbuntuSans_400Regular_Italic](.//400Regular_Italic/UbuntuSans_400Regular_Italic.ttf.png)||
+|![UbuntuSans_500Medium_Italic](.//500Medium_Italic/UbuntuSans_500Medium_Italic.ttf.png)|![UbuntuSans_600SemiBold_Italic](.//600SemiBold_Italic/UbuntuSans_600SemiBold_Italic.ttf.png)|![UbuntuSans_700Bold_Italic](.//700Bold_Italic/UbuntuSans_700Bold_Italic.ttf.png)||
+|![UbuntuSans_800ExtraBold_Italic](.//800ExtraBold_Italic/UbuntuSans_800ExtraBold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

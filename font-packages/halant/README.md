@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Halant_300Light](./Halant_300Light.ttf.png)|![Halant_400Regular](./Halant_400Regular.ttf.png)|![Halant_500Medium](./Halant_500Medium.ttf.png)||
-|![Halant_600SemiBold](./Halant_600SemiBold.ttf.png)|![Halant_700Bold](./Halant_700Bold.ttf.png)|||
+|![Halant_300Light](.//300Light/Halant_300Light.ttf.png)|![Halant_400Regular](.//400Regular/Halant_400Regular.ttf.png)|![Halant_500Medium](.//500Medium/Halant_500Medium.ttf.png)||
+|![Halant_600SemiBold](.//600SemiBold/Halant_600SemiBold.ttf.png)|![Halant_700Bold](.//700Bold/Halant_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AlfaSlabOne_400Regular](./AlfaSlabOne_400Regular.ttf.png)||||
+|![AlfaSlabOne_400Regular](.//400Regular/AlfaSlabOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

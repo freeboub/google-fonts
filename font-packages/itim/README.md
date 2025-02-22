@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Itim_400Regular](./Itim_400Regular.ttf.png)||||
+|![Itim_400Regular](.//400Regular/Itim_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![TulpenOne_400Regular](./TulpenOne_400Regular.ttf.png)||||
+|![TulpenOne_400Regular](.//400Regular/TulpenOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

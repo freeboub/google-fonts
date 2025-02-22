@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BigshotOne_400Regular](./BigshotOne_400Regular.ttf.png)||||
+|![BigshotOne_400Regular](.//400Regular/BigshotOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

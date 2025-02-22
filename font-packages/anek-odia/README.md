@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AnekOdia_100Thin](./AnekOdia_100Thin.ttf.png)|![AnekOdia_200ExtraLight](./AnekOdia_200ExtraLight.ttf.png)|![AnekOdia_300Light](./AnekOdia_300Light.ttf.png)||
-|![AnekOdia_400Regular](./AnekOdia_400Regular.ttf.png)|![AnekOdia_500Medium](./AnekOdia_500Medium.ttf.png)|![AnekOdia_600SemiBold](./AnekOdia_600SemiBold.ttf.png)||
-|![AnekOdia_700Bold](./AnekOdia_700Bold.ttf.png)|![AnekOdia_800ExtraBold](./AnekOdia_800ExtraBold.ttf.png)|||
+|![AnekOdia_100Thin](.//100Thin/AnekOdia_100Thin.ttf.png)|![AnekOdia_200ExtraLight](.//200ExtraLight/AnekOdia_200ExtraLight.ttf.png)|![AnekOdia_300Light](.//300Light/AnekOdia_300Light.ttf.png)||
+|![AnekOdia_400Regular](.//400Regular/AnekOdia_400Regular.ttf.png)|![AnekOdia_500Medium](.//500Medium/AnekOdia_500Medium.ttf.png)|![AnekOdia_600SemiBold](.//600SemiBold/AnekOdia_600SemiBold.ttf.png)||
+|![AnekOdia_700Bold](.//700Bold/AnekOdia_700Bold.ttf.png)|![AnekOdia_800ExtraBold](.//800ExtraBold/AnekOdia_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

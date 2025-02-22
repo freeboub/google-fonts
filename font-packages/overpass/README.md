@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Overpass_100Thin](./Overpass_100Thin.ttf.png)|![Overpass_200ExtraLight](./Overpass_200ExtraLight.ttf.png)|![Overpass_300Light](./Overpass_300Light.ttf.png)||
-|![Overpass_400Regular](./Overpass_400Regular.ttf.png)|![Overpass_500Medium](./Overpass_500Medium.ttf.png)|![Overpass_600SemiBold](./Overpass_600SemiBold.ttf.png)||
-|![Overpass_700Bold](./Overpass_700Bold.ttf.png)|![Overpass_800ExtraBold](./Overpass_800ExtraBold.ttf.png)|![Overpass_900Black](./Overpass_900Black.ttf.png)||
-|![Overpass_100Thin_Italic](./Overpass_100Thin_Italic.ttf.png)|![Overpass_200ExtraLight_Italic](./Overpass_200ExtraLight_Italic.ttf.png)|![Overpass_300Light_Italic](./Overpass_300Light_Italic.ttf.png)||
-|![Overpass_400Regular_Italic](./Overpass_400Regular_Italic.ttf.png)|![Overpass_500Medium_Italic](./Overpass_500Medium_Italic.ttf.png)|![Overpass_600SemiBold_Italic](./Overpass_600SemiBold_Italic.ttf.png)||
-|![Overpass_700Bold_Italic](./Overpass_700Bold_Italic.ttf.png)|![Overpass_800ExtraBold_Italic](./Overpass_800ExtraBold_Italic.ttf.png)|![Overpass_900Black_Italic](./Overpass_900Black_Italic.ttf.png)||
+|![Overpass_100Thin](.//100Thin/Overpass_100Thin.ttf.png)|![Overpass_200ExtraLight](.//200ExtraLight/Overpass_200ExtraLight.ttf.png)|![Overpass_300Light](.//300Light/Overpass_300Light.ttf.png)||
+|![Overpass_400Regular](.//400Regular/Overpass_400Regular.ttf.png)|![Overpass_500Medium](.//500Medium/Overpass_500Medium.ttf.png)|![Overpass_600SemiBold](.//600SemiBold/Overpass_600SemiBold.ttf.png)||
+|![Overpass_700Bold](.//700Bold/Overpass_700Bold.ttf.png)|![Overpass_800ExtraBold](.//800ExtraBold/Overpass_800ExtraBold.ttf.png)|![Overpass_900Black](.//900Black/Overpass_900Black.ttf.png)||
+|![Overpass_100Thin_Italic](.//100Thin_Italic/Overpass_100Thin_Italic.ttf.png)|![Overpass_200ExtraLight_Italic](.//200ExtraLight_Italic/Overpass_200ExtraLight_Italic.ttf.png)|![Overpass_300Light_Italic](.//300Light_Italic/Overpass_300Light_Italic.ttf.png)||
+|![Overpass_400Regular_Italic](.//400Regular_Italic/Overpass_400Regular_Italic.ttf.png)|![Overpass_500Medium_Italic](.//500Medium_Italic/Overpass_500Medium_Italic.ttf.png)|![Overpass_600SemiBold_Italic](.//600SemiBold_Italic/Overpass_600SemiBold_Italic.ttf.png)||
+|![Overpass_700Bold_Italic](.//700Bold_Italic/Overpass_700Bold_Italic.ttf.png)|![Overpass_800ExtraBold_Italic](.//800ExtraBold_Italic/Overpass_800ExtraBold_Italic.ttf.png)|![Overpass_900Black_Italic](.//900Black_Italic/Overpass_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

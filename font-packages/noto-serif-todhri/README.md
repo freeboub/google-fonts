@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifTodhri_400Regular](./NotoSerifTodhri_400Regular.ttf.png)||||
+|![NotoSerifTodhri_400Regular](.//400Regular/NotoSerifTodhri_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

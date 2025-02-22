@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Tauri_400Regular](./Tauri_400Regular.ttf.png)||||
+|![Tauri_400Regular](.//400Regular/Tauri_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

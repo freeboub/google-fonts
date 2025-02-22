@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PathwayExtreme_100Thin](./PathwayExtreme_100Thin.ttf.png)|![PathwayExtreme_200ExtraLight](./PathwayExtreme_200ExtraLight.ttf.png)|![PathwayExtreme_300Light](./PathwayExtreme_300Light.ttf.png)||
-|![PathwayExtreme_400Regular](./PathwayExtreme_400Regular.ttf.png)|![PathwayExtreme_500Medium](./PathwayExtreme_500Medium.ttf.png)|![PathwayExtreme_600SemiBold](./PathwayExtreme_600SemiBold.ttf.png)||
-|![PathwayExtreme_700Bold](./PathwayExtreme_700Bold.ttf.png)|![PathwayExtreme_800ExtraBold](./PathwayExtreme_800ExtraBold.ttf.png)|![PathwayExtreme_900Black](./PathwayExtreme_900Black.ttf.png)||
-|![PathwayExtreme_100Thin_Italic](./PathwayExtreme_100Thin_Italic.ttf.png)|![PathwayExtreme_200ExtraLight_Italic](./PathwayExtreme_200ExtraLight_Italic.ttf.png)|![PathwayExtreme_300Light_Italic](./PathwayExtreme_300Light_Italic.ttf.png)||
-|![PathwayExtreme_400Regular_Italic](./PathwayExtreme_400Regular_Italic.ttf.png)|![PathwayExtreme_500Medium_Italic](./PathwayExtreme_500Medium_Italic.ttf.png)|![PathwayExtreme_600SemiBold_Italic](./PathwayExtreme_600SemiBold_Italic.ttf.png)||
-|![PathwayExtreme_700Bold_Italic](./PathwayExtreme_700Bold_Italic.ttf.png)|![PathwayExtreme_800ExtraBold_Italic](./PathwayExtreme_800ExtraBold_Italic.ttf.png)|![PathwayExtreme_900Black_Italic](./PathwayExtreme_900Black_Italic.ttf.png)||
+|![PathwayExtreme_100Thin](.//100Thin/PathwayExtreme_100Thin.ttf.png)|![PathwayExtreme_200ExtraLight](.//200ExtraLight/PathwayExtreme_200ExtraLight.ttf.png)|![PathwayExtreme_300Light](.//300Light/PathwayExtreme_300Light.ttf.png)||
+|![PathwayExtreme_400Regular](.//400Regular/PathwayExtreme_400Regular.ttf.png)|![PathwayExtreme_500Medium](.//500Medium/PathwayExtreme_500Medium.ttf.png)|![PathwayExtreme_600SemiBold](.//600SemiBold/PathwayExtreme_600SemiBold.ttf.png)||
+|![PathwayExtreme_700Bold](.//700Bold/PathwayExtreme_700Bold.ttf.png)|![PathwayExtreme_800ExtraBold](.//800ExtraBold/PathwayExtreme_800ExtraBold.ttf.png)|![PathwayExtreme_900Black](.//900Black/PathwayExtreme_900Black.ttf.png)||
+|![PathwayExtreme_100Thin_Italic](.//100Thin_Italic/PathwayExtreme_100Thin_Italic.ttf.png)|![PathwayExtreme_200ExtraLight_Italic](.//200ExtraLight_Italic/PathwayExtreme_200ExtraLight_Italic.ttf.png)|![PathwayExtreme_300Light_Italic](.//300Light_Italic/PathwayExtreme_300Light_Italic.ttf.png)||
+|![PathwayExtreme_400Regular_Italic](.//400Regular_Italic/PathwayExtreme_400Regular_Italic.ttf.png)|![PathwayExtreme_500Medium_Italic](.//500Medium_Italic/PathwayExtreme_500Medium_Italic.ttf.png)|![PathwayExtreme_600SemiBold_Italic](.//600SemiBold_Italic/PathwayExtreme_600SemiBold_Italic.ttf.png)||
+|![PathwayExtreme_700Bold_Italic](.//700Bold_Italic/PathwayExtreme_700Bold_Italic.ttf.png)|![PathwayExtreme_800ExtraBold_Italic](.//800ExtraBold_Italic/PathwayExtreme_800ExtraBold_Italic.ttf.png)|![PathwayExtreme_900Black_Italic](.//900Black_Italic/PathwayExtreme_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Beiruti_200ExtraLight](./Beiruti_200ExtraLight.ttf.png)|![Beiruti_300Light](./Beiruti_300Light.ttf.png)|![Beiruti_400Regular](./Beiruti_400Regular.ttf.png)||
-|![Beiruti_500Medium](./Beiruti_500Medium.ttf.png)|![Beiruti_600SemiBold](./Beiruti_600SemiBold.ttf.png)|![Beiruti_700Bold](./Beiruti_700Bold.ttf.png)||
-|![Beiruti_800ExtraBold](./Beiruti_800ExtraBold.ttf.png)|![Beiruti_900Black](./Beiruti_900Black.ttf.png)|||
+|![Beiruti_200ExtraLight](.//200ExtraLight/Beiruti_200ExtraLight.ttf.png)|![Beiruti_300Light](.//300Light/Beiruti_300Light.ttf.png)|![Beiruti_400Regular](.//400Regular/Beiruti_400Regular.ttf.png)||
+|![Beiruti_500Medium](.//500Medium/Beiruti_500Medium.ttf.png)|![Beiruti_600SemiBold](.//600SemiBold/Beiruti_600SemiBold.ttf.png)|![Beiruti_700Bold](.//700Bold/Beiruti_700Bold.ttf.png)||
+|![Beiruti_800ExtraBold](.//800ExtraBold/Beiruti_800ExtraBold.ttf.png)|![Beiruti_900Black](.//900Black/Beiruti_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

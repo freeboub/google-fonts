@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Cambo_400Regular](./Cambo_400Regular.ttf.png)||||
+|![Cambo_400Regular](.//400Regular/Cambo_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

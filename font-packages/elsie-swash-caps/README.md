@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ElsieSwashCaps_400Regular](./ElsieSwashCaps_400Regular.ttf.png)|![ElsieSwashCaps_900Black](./ElsieSwashCaps_900Black.ttf.png)|||
+|![ElsieSwashCaps_400Regular](.//400Regular/ElsieSwashCaps_400Regular.ttf.png)|![ElsieSwashCaps_900Black](.//900Black/ElsieSwashCaps_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

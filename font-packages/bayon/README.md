@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Bayon_400Regular](./Bayon_400Regular.ttf.png)||||
+|![Bayon_400Regular](.//400Regular/Bayon_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RadioCanadaBig_400Regular](./RadioCanadaBig_400Regular.ttf.png)|![RadioCanadaBig_500Medium](./RadioCanadaBig_500Medium.ttf.png)|![RadioCanadaBig_600SemiBold](./RadioCanadaBig_600SemiBold.ttf.png)||
-|![RadioCanadaBig_700Bold](./RadioCanadaBig_700Bold.ttf.png)|![RadioCanadaBig_400Regular_Italic](./RadioCanadaBig_400Regular_Italic.ttf.png)|![RadioCanadaBig_500Medium_Italic](./RadioCanadaBig_500Medium_Italic.ttf.png)||
-|![RadioCanadaBig_600SemiBold_Italic](./RadioCanadaBig_600SemiBold_Italic.ttf.png)|![RadioCanadaBig_700Bold_Italic](./RadioCanadaBig_700Bold_Italic.ttf.png)|||
+|![RadioCanadaBig_400Regular](.//400Regular/RadioCanadaBig_400Regular.ttf.png)|![RadioCanadaBig_500Medium](.//500Medium/RadioCanadaBig_500Medium.ttf.png)|![RadioCanadaBig_600SemiBold](.//600SemiBold/RadioCanadaBig_600SemiBold.ttf.png)||
+|![RadioCanadaBig_700Bold](.//700Bold/RadioCanadaBig_700Bold.ttf.png)|![RadioCanadaBig_400Regular_Italic](.//400Regular_Italic/RadioCanadaBig_400Regular_Italic.ttf.png)|![RadioCanadaBig_500Medium_Italic](.//500Medium_Italic/RadioCanadaBig_500Medium_Italic.ttf.png)||
+|![RadioCanadaBig_600SemiBold_Italic](.//600SemiBold_Italic/RadioCanadaBig_600SemiBold_Italic.ttf.png)|![RadioCanadaBig_700Bold_Italic](.//700Bold_Italic/RadioCanadaBig_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

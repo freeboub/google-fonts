@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![EncodeSansSC_100Thin](./EncodeSansSC_100Thin.ttf.png)|![EncodeSansSC_200ExtraLight](./EncodeSansSC_200ExtraLight.ttf.png)|![EncodeSansSC_300Light](./EncodeSansSC_300Light.ttf.png)||
-|![EncodeSansSC_400Regular](./EncodeSansSC_400Regular.ttf.png)|![EncodeSansSC_500Medium](./EncodeSansSC_500Medium.ttf.png)|![EncodeSansSC_600SemiBold](./EncodeSansSC_600SemiBold.ttf.png)||
-|![EncodeSansSC_700Bold](./EncodeSansSC_700Bold.ttf.png)|![EncodeSansSC_800ExtraBold](./EncodeSansSC_800ExtraBold.ttf.png)|![EncodeSansSC_900Black](./EncodeSansSC_900Black.ttf.png)||
+|![EncodeSansSC_100Thin](.//100Thin/EncodeSansSC_100Thin.ttf.png)|![EncodeSansSC_200ExtraLight](.//200ExtraLight/EncodeSansSC_200ExtraLight.ttf.png)|![EncodeSansSC_300Light](.//300Light/EncodeSansSC_300Light.ttf.png)||
+|![EncodeSansSC_400Regular](.//400Regular/EncodeSansSC_400Regular.ttf.png)|![EncodeSansSC_500Medium](.//500Medium/EncodeSansSC_500Medium.ttf.png)|![EncodeSansSC_600SemiBold](.//600SemiBold/EncodeSansSC_600SemiBold.ttf.png)||
+|![EncodeSansSC_700Bold](.//700Bold/EncodeSansSC_700Bold.ttf.png)|![EncodeSansSC_800ExtraBold](.//800ExtraBold/EncodeSansSC_800ExtraBold.ttf.png)|![EncodeSansSC_900Black](.//900Black/EncodeSansSC_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

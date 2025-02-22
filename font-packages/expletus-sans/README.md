@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ExpletusSans_400Regular](./ExpletusSans_400Regular.ttf.png)|![ExpletusSans_500Medium](./ExpletusSans_500Medium.ttf.png)|![ExpletusSans_600SemiBold](./ExpletusSans_600SemiBold.ttf.png)||
-|![ExpletusSans_700Bold](./ExpletusSans_700Bold.ttf.png)|![ExpletusSans_400Regular_Italic](./ExpletusSans_400Regular_Italic.ttf.png)|![ExpletusSans_500Medium_Italic](./ExpletusSans_500Medium_Italic.ttf.png)||
-|![ExpletusSans_600SemiBold_Italic](./ExpletusSans_600SemiBold_Italic.ttf.png)|![ExpletusSans_700Bold_Italic](./ExpletusSans_700Bold_Italic.ttf.png)|||
+|![ExpletusSans_400Regular](.//400Regular/ExpletusSans_400Regular.ttf.png)|![ExpletusSans_500Medium](.//500Medium/ExpletusSans_500Medium.ttf.png)|![ExpletusSans_600SemiBold](.//600SemiBold/ExpletusSans_600SemiBold.ttf.png)||
+|![ExpletusSans_700Bold](.//700Bold/ExpletusSans_700Bold.ttf.png)|![ExpletusSans_400Regular_Italic](.//400Regular_Italic/ExpletusSans_400Regular_Italic.ttf.png)|![ExpletusSans_500Medium_Italic](.//500Medium_Italic/ExpletusSans_500Medium_Italic.ttf.png)||
+|![ExpletusSans_600SemiBold_Italic](.//600SemiBold_Italic/ExpletusSans_600SemiBold_Italic.ttf.png)|![ExpletusSans_700Bold_Italic](.//700Bold_Italic/ExpletusSans_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

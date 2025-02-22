@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![STIXTwoText_400Regular](./STIXTwoText_400Regular.ttf.png)|![STIXTwoText_500Medium](./STIXTwoText_500Medium.ttf.png)|![STIXTwoText_600SemiBold](./STIXTwoText_600SemiBold.ttf.png)||
-|![STIXTwoText_700Bold](./STIXTwoText_700Bold.ttf.png)|![STIXTwoText_400Regular_Italic](./STIXTwoText_400Regular_Italic.ttf.png)|![STIXTwoText_500Medium_Italic](./STIXTwoText_500Medium_Italic.ttf.png)||
-|![STIXTwoText_600SemiBold_Italic](./STIXTwoText_600SemiBold_Italic.ttf.png)|![STIXTwoText_700Bold_Italic](./STIXTwoText_700Bold_Italic.ttf.png)|||
+|![STIXTwoText_400Regular](.//400Regular/STIXTwoText_400Regular.ttf.png)|![STIXTwoText_500Medium](.//500Medium/STIXTwoText_500Medium.ttf.png)|![STIXTwoText_600SemiBold](.//600SemiBold/STIXTwoText_600SemiBold.ttf.png)||
+|![STIXTwoText_700Bold](.//700Bold/STIXTwoText_700Bold.ttf.png)|![STIXTwoText_400Regular_Italic](.//400Regular_Italic/STIXTwoText_400Regular_Italic.ttf.png)|![STIXTwoText_500Medium_Italic](.//500Medium_Italic/STIXTwoText_500Medium_Italic.ttf.png)||
+|![STIXTwoText_600SemiBold_Italic](.//600SemiBold_Italic/STIXTwoText_600SemiBold_Italic.ttf.png)|![STIXTwoText_700Bold_Italic](.//700Bold_Italic/STIXTwoText_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

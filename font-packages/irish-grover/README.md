@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![IrishGrover_400Regular](./IrishGrover_400Regular.ttf.png)||||
+|![IrishGrover_400Regular](.//400Regular/IrishGrover_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

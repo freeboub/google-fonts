@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Fustat_200ExtraLight](./Fustat_200ExtraLight.ttf.png)|![Fustat_300Light](./Fustat_300Light.ttf.png)|![Fustat_400Regular](./Fustat_400Regular.ttf.png)||
-|![Fustat_500Medium](./Fustat_500Medium.ttf.png)|![Fustat_600SemiBold](./Fustat_600SemiBold.ttf.png)|![Fustat_700Bold](./Fustat_700Bold.ttf.png)||
-|![Fustat_800ExtraBold](./Fustat_800ExtraBold.ttf.png)||||
+|![Fustat_200ExtraLight](.//200ExtraLight/Fustat_200ExtraLight.ttf.png)|![Fustat_300Light](.//300Light/Fustat_300Light.ttf.png)|![Fustat_400Regular](.//400Regular/Fustat_400Regular.ttf.png)||
+|![Fustat_500Medium](.//500Medium/Fustat_500Medium.ttf.png)|![Fustat_600SemiBold](.//600SemiBold/Fustat_600SemiBold.ttf.png)|![Fustat_700Bold](.//700Bold/Fustat_700Bold.ttf.png)||
+|![Fustat_800ExtraBold](.//800ExtraBold/Fustat_800ExtraBold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -128,8 +128,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ReadexPro_200ExtraLight](./ReadexPro_200ExtraLight.ttf.png)|![ReadexPro_300Light](./ReadexPro_300Light.ttf.png)|![ReadexPro_400Regular](./ReadexPro_400Regular.ttf.png)||
-|![ReadexPro_500Medium](./ReadexPro_500Medium.ttf.png)|![ReadexPro_600SemiBold](./ReadexPro_600SemiBold.ttf.png)|![ReadexPro_700Bold](./ReadexPro_700Bold.ttf.png)||
+|![ReadexPro_200ExtraLight](.//200ExtraLight/ReadexPro_200ExtraLight.ttf.png)|![ReadexPro_300Light](.//300Light/ReadexPro_300Light.ttf.png)|![ReadexPro_400Regular](.//400Regular/ReadexPro_400Regular.ttf.png)||
+|![ReadexPro_500Medium](.//500Medium/ReadexPro_500Medium.ttf.png)|![ReadexPro_600SemiBold](.//600SemiBold/ReadexPro_600SemiBold.ttf.png)|![ReadexPro_700Bold](.//700Bold/ReadexPro_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

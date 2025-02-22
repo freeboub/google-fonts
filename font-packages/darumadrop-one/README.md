@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![DarumadropOne_400Regular](./DarumadropOne_400Regular.ttf.png)||||
+|![DarumadropOne_400Regular](.//400Regular/DarumadropOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Sarala_400Regular](./Sarala_400Regular.ttf.png)|![Sarala_700Bold](./Sarala_700Bold.ttf.png)|||
+|![Sarala_400Regular](.//400Regular/Sarala_400Regular.ttf.png)|![Sarala_700Bold](.//700Bold/Sarala_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

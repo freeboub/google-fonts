@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RubikMarkerHatch_400Regular](./RubikMarkerHatch_400Regular.ttf.png)||||
+|![RubikMarkerHatch_400Regular](.//400Regular/RubikMarkerHatch_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

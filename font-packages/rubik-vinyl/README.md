@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RubikVinyl_400Regular](./RubikVinyl_400Regular.ttf.png)||||
+|![RubikVinyl_400Regular](.//400Regular/RubikVinyl_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

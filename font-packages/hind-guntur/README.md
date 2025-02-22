@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![HindGuntur_300Light](./HindGuntur_300Light.ttf.png)|![HindGuntur_400Regular](./HindGuntur_400Regular.ttf.png)|![HindGuntur_500Medium](./HindGuntur_500Medium.ttf.png)||
-|![HindGuntur_600SemiBold](./HindGuntur_600SemiBold.ttf.png)|![HindGuntur_700Bold](./HindGuntur_700Bold.ttf.png)|||
+|![HindGuntur_300Light](.//300Light/HindGuntur_300Light.ttf.png)|![HindGuntur_400Regular](.//400Regular/HindGuntur_400Regular.ttf.png)|![HindGuntur_500Medium](.//500Medium/HindGuntur_500Medium.ttf.png)||
+|![HindGuntur_600SemiBold](.//600SemiBold/HindGuntur_600SemiBold.ttf.png)|![HindGuntur_700Bold](.//700Bold/HindGuntur_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

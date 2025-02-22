@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![TaiHeritagePro_400Regular](./TaiHeritagePro_400Regular.ttf.png)|![TaiHeritagePro_700Bold](./TaiHeritagePro_700Bold.ttf.png)|||
+|![TaiHeritagePro_400Regular](.//400Regular/TaiHeritagePro_400Regular.ttf.png)|![TaiHeritagePro_700Bold](.//700Bold/TaiHeritagePro_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

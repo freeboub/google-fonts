@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Knewave_400Regular](./Knewave_400Regular.ttf.png)||||
+|![Knewave_400Regular](.//400Regular/Knewave_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

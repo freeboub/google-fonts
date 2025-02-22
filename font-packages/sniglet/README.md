@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Sniglet_400Regular](./Sniglet_400Regular.ttf.png)|![Sniglet_800ExtraBold](./Sniglet_800ExtraBold.ttf.png)|||
+|![Sniglet_400Regular](.//400Regular/Sniglet_400Regular.ttf.png)|![Sniglet_800ExtraBold](.//800ExtraBold/Sniglet_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

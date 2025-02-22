@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Ranchers_400Regular](./Ranchers_400Regular.ttf.png)||||
+|![Ranchers_400Regular](.//400Regular/Ranchers_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

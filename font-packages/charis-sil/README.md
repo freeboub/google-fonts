@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![CharisSIL_400Regular](./CharisSIL_400Regular.ttf.png)|![CharisSIL_400Regular_Italic](./CharisSIL_400Regular_Italic.ttf.png)|![CharisSIL_700Bold](./CharisSIL_700Bold.ttf.png)||
-|![CharisSIL_700Bold_Italic](./CharisSIL_700Bold_Italic.ttf.png)||||
+|![CharisSIL_400Regular](.//400Regular/CharisSIL_400Regular.ttf.png)|![CharisSIL_400Regular_Italic](.//400Regular_Italic/CharisSIL_400Regular_Italic.ttf.png)|![CharisSIL_700Bold](.//700Bold/CharisSIL_700Bold.ttf.png)||
+|![CharisSIL_700Bold_Italic](.//700Bold_Italic/CharisSIL_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

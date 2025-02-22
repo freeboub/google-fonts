@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![DuruSans_400Regular](./DuruSans_400Regular.ttf.png)||||
+|![DuruSans_400Regular](.//400Regular/DuruSans_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

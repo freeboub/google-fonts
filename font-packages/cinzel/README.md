@@ -128,8 +128,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Cinzel_400Regular](./Cinzel_400Regular.ttf.png)|![Cinzel_500Medium](./Cinzel_500Medium.ttf.png)|![Cinzel_600SemiBold](./Cinzel_600SemiBold.ttf.png)||
-|![Cinzel_700Bold](./Cinzel_700Bold.ttf.png)|![Cinzel_800ExtraBold](./Cinzel_800ExtraBold.ttf.png)|![Cinzel_900Black](./Cinzel_900Black.ttf.png)||
+|![Cinzel_400Regular](.//400Regular/Cinzel_400Regular.ttf.png)|![Cinzel_500Medium](.//500Medium/Cinzel_500Medium.ttf.png)|![Cinzel_600SemiBold](.//600SemiBold/Cinzel_600SemiBold.ttf.png)||
+|![Cinzel_700Bold](.//700Bold/Cinzel_700Bold.ttf.png)|![Cinzel_800ExtraBold](.//800ExtraBold/Cinzel_800ExtraBold.ttf.png)|![Cinzel_900Black](.//900Black/Cinzel_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

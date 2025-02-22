@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![GochiHand_400Regular](./GochiHand_400Regular.ttf.png)||||
+|![GochiHand_400Regular](.//400Regular/GochiHand_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

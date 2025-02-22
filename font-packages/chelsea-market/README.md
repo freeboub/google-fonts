@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ChelseaMarket_400Regular](./ChelseaMarket_400Regular.ttf.png)||||
+|![ChelseaMarket_400Regular](.//400Regular/ChelseaMarket_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

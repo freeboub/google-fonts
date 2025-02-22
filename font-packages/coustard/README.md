@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Coustard_400Regular](./Coustard_400Regular.ttf.png)|![Coustard_900Black](./Coustard_900Black.ttf.png)|||
+|![Coustard_400Regular](.//400Regular/Coustard_400Regular.ttf.png)|![Coustard_900Black](.//900Black/Coustard_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

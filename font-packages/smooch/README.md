@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Smooch_400Regular](./Smooch_400Regular.ttf.png)||||
+|![Smooch_400Regular](.//400Regular/Smooch_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

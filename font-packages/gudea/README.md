@@ -89,7 +89,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Gudea_400Regular](./Gudea_400Regular.ttf.png)|![Gudea_400Regular_Italic](./Gudea_400Regular_Italic.ttf.png)|![Gudea_700Bold](./Gudea_700Bold.ttf.png)||
+|![Gudea_400Regular](.//400Regular/Gudea_400Regular.ttf.png)|![Gudea_400Regular_Italic](.//400Regular_Italic/Gudea_400Regular_Italic.ttf.png)|![Gudea_700Bold](.//700Bold/Gudea_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

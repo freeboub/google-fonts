@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ScopeOne_400Regular](./ScopeOne_400Regular.ttf.png)||||
+|![ScopeOne_400Regular](.//400Regular/ScopeOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

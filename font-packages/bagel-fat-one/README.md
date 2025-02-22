@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BagelFatOne_400Regular](./BagelFatOne_400Regular.ttf.png)||||
+|![BagelFatOne_400Regular](.//400Regular/BagelFatOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

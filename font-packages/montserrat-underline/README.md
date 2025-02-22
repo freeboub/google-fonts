@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MontserratUnderline_100Thin](./MontserratUnderline_100Thin.ttf.png)|![MontserratUnderline_200ExtraLight](./MontserratUnderline_200ExtraLight.ttf.png)|![MontserratUnderline_300Light](./MontserratUnderline_300Light.ttf.png)||
-|![MontserratUnderline_400Regular](./MontserratUnderline_400Regular.ttf.png)|![MontserratUnderline_500Medium](./MontserratUnderline_500Medium.ttf.png)|![MontserratUnderline_600SemiBold](./MontserratUnderline_600SemiBold.ttf.png)||
-|![MontserratUnderline_700Bold](./MontserratUnderline_700Bold.ttf.png)|![MontserratUnderline_800ExtraBold](./MontserratUnderline_800ExtraBold.ttf.png)|![MontserratUnderline_900Black](./MontserratUnderline_900Black.ttf.png)||
-|![MontserratUnderline_100Thin_Italic](./MontserratUnderline_100Thin_Italic.ttf.png)|![MontserratUnderline_200ExtraLight_Italic](./MontserratUnderline_200ExtraLight_Italic.ttf.png)|![MontserratUnderline_300Light_Italic](./MontserratUnderline_300Light_Italic.ttf.png)||
-|![MontserratUnderline_400Regular_Italic](./MontserratUnderline_400Regular_Italic.ttf.png)|![MontserratUnderline_500Medium_Italic](./MontserratUnderline_500Medium_Italic.ttf.png)|![MontserratUnderline_600SemiBold_Italic](./MontserratUnderline_600SemiBold_Italic.ttf.png)||
-|![MontserratUnderline_700Bold_Italic](./MontserratUnderline_700Bold_Italic.ttf.png)|![MontserratUnderline_800ExtraBold_Italic](./MontserratUnderline_800ExtraBold_Italic.ttf.png)|![MontserratUnderline_900Black_Italic](./MontserratUnderline_900Black_Italic.ttf.png)||
+|![MontserratUnderline_100Thin](.//100Thin/MontserratUnderline_100Thin.ttf.png)|![MontserratUnderline_200ExtraLight](.//200ExtraLight/MontserratUnderline_200ExtraLight.ttf.png)|![MontserratUnderline_300Light](.//300Light/MontserratUnderline_300Light.ttf.png)||
+|![MontserratUnderline_400Regular](.//400Regular/MontserratUnderline_400Regular.ttf.png)|![MontserratUnderline_500Medium](.//500Medium/MontserratUnderline_500Medium.ttf.png)|![MontserratUnderline_600SemiBold](.//600SemiBold/MontserratUnderline_600SemiBold.ttf.png)||
+|![MontserratUnderline_700Bold](.//700Bold/MontserratUnderline_700Bold.ttf.png)|![MontserratUnderline_800ExtraBold](.//800ExtraBold/MontserratUnderline_800ExtraBold.ttf.png)|![MontserratUnderline_900Black](.//900Black/MontserratUnderline_900Black.ttf.png)||
+|![MontserratUnderline_100Thin_Italic](.//100Thin_Italic/MontserratUnderline_100Thin_Italic.ttf.png)|![MontserratUnderline_200ExtraLight_Italic](.//200ExtraLight_Italic/MontserratUnderline_200ExtraLight_Italic.ttf.png)|![MontserratUnderline_300Light_Italic](.//300Light_Italic/MontserratUnderline_300Light_Italic.ttf.png)||
+|![MontserratUnderline_400Regular_Italic](.//400Regular_Italic/MontserratUnderline_400Regular_Italic.ttf.png)|![MontserratUnderline_500Medium_Italic](.//500Medium_Italic/MontserratUnderline_500Medium_Italic.ttf.png)|![MontserratUnderline_600SemiBold_Italic](.//600SemiBold_Italic/MontserratUnderline_600SemiBold_Italic.ttf.png)||
+|![MontserratUnderline_700Bold_Italic](.//700Bold_Italic/MontserratUnderline_700Bold_Italic.ttf.png)|![MontserratUnderline_800ExtraBold_Italic](.//800ExtraBold_Italic/MontserratUnderline_800ExtraBold_Italic.ttf.png)|![MontserratUnderline_900Black_Italic](.//900Black_Italic/MontserratUnderline_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

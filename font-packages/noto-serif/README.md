@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerif_100Thin](./NotoSerif_100Thin.ttf.png)|![NotoSerif_200ExtraLight](./NotoSerif_200ExtraLight.ttf.png)|![NotoSerif_300Light](./NotoSerif_300Light.ttf.png)||
-|![NotoSerif_400Regular](./NotoSerif_400Regular.ttf.png)|![NotoSerif_500Medium](./NotoSerif_500Medium.ttf.png)|![NotoSerif_600SemiBold](./NotoSerif_600SemiBold.ttf.png)||
-|![NotoSerif_700Bold](./NotoSerif_700Bold.ttf.png)|![NotoSerif_800ExtraBold](./NotoSerif_800ExtraBold.ttf.png)|![NotoSerif_900Black](./NotoSerif_900Black.ttf.png)||
-|![NotoSerif_100Thin_Italic](./NotoSerif_100Thin_Italic.ttf.png)|![NotoSerif_200ExtraLight_Italic](./NotoSerif_200ExtraLight_Italic.ttf.png)|![NotoSerif_300Light_Italic](./NotoSerif_300Light_Italic.ttf.png)||
-|![NotoSerif_400Regular_Italic](./NotoSerif_400Regular_Italic.ttf.png)|![NotoSerif_500Medium_Italic](./NotoSerif_500Medium_Italic.ttf.png)|![NotoSerif_600SemiBold_Italic](./NotoSerif_600SemiBold_Italic.ttf.png)||
-|![NotoSerif_700Bold_Italic](./NotoSerif_700Bold_Italic.ttf.png)|![NotoSerif_800ExtraBold_Italic](./NotoSerif_800ExtraBold_Italic.ttf.png)|![NotoSerif_900Black_Italic](./NotoSerif_900Black_Italic.ttf.png)||
+|![NotoSerif_100Thin](.//100Thin/NotoSerif_100Thin.ttf.png)|![NotoSerif_200ExtraLight](.//200ExtraLight/NotoSerif_200ExtraLight.ttf.png)|![NotoSerif_300Light](.//300Light/NotoSerif_300Light.ttf.png)||
+|![NotoSerif_400Regular](.//400Regular/NotoSerif_400Regular.ttf.png)|![NotoSerif_500Medium](.//500Medium/NotoSerif_500Medium.ttf.png)|![NotoSerif_600SemiBold](.//600SemiBold/NotoSerif_600SemiBold.ttf.png)||
+|![NotoSerif_700Bold](.//700Bold/NotoSerif_700Bold.ttf.png)|![NotoSerif_800ExtraBold](.//800ExtraBold/NotoSerif_800ExtraBold.ttf.png)|![NotoSerif_900Black](.//900Black/NotoSerif_900Black.ttf.png)||
+|![NotoSerif_100Thin_Italic](.//100Thin_Italic/NotoSerif_100Thin_Italic.ttf.png)|![NotoSerif_200ExtraLight_Italic](.//200ExtraLight_Italic/NotoSerif_200ExtraLight_Italic.ttf.png)|![NotoSerif_300Light_Italic](.//300Light_Italic/NotoSerif_300Light_Italic.ttf.png)||
+|![NotoSerif_400Regular_Italic](.//400Regular_Italic/NotoSerif_400Regular_Italic.ttf.png)|![NotoSerif_500Medium_Italic](.//500Medium_Italic/NotoSerif_500Medium_Italic.ttf.png)|![NotoSerif_600SemiBold_Italic](.//600SemiBold_Italic/NotoSerif_600SemiBold_Italic.ttf.png)||
+|![NotoSerif_700Bold_Italic](.//700Bold_Italic/NotoSerif_700Bold_Italic.ttf.png)|![NotoSerif_800ExtraBold_Italic](.//800ExtraBold_Italic/NotoSerif_800ExtraBold_Italic.ttf.png)|![NotoSerif_900Black_Italic](.//900Black_Italic/NotoSerif_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

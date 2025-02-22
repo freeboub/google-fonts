@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PortLligatSlab_400Regular](./PortLligatSlab_400Regular.ttf.png)||||
+|![PortLligatSlab_400Regular](.//400Regular/PortLligatSlab_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

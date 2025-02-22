@@ -206,10 +206,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SchibstedGrotesk_400Regular](./SchibstedGrotesk_400Regular.ttf.png)|![SchibstedGrotesk_500Medium](./SchibstedGrotesk_500Medium.ttf.png)|![SchibstedGrotesk_600SemiBold](./SchibstedGrotesk_600SemiBold.ttf.png)||
-|![SchibstedGrotesk_700Bold](./SchibstedGrotesk_700Bold.ttf.png)|![SchibstedGrotesk_800ExtraBold](./SchibstedGrotesk_800ExtraBold.ttf.png)|![SchibstedGrotesk_900Black](./SchibstedGrotesk_900Black.ttf.png)||
-|![SchibstedGrotesk_400Regular_Italic](./SchibstedGrotesk_400Regular_Italic.ttf.png)|![SchibstedGrotesk_500Medium_Italic](./SchibstedGrotesk_500Medium_Italic.ttf.png)|![SchibstedGrotesk_600SemiBold_Italic](./SchibstedGrotesk_600SemiBold_Italic.ttf.png)||
-|![SchibstedGrotesk_700Bold_Italic](./SchibstedGrotesk_700Bold_Italic.ttf.png)|![SchibstedGrotesk_800ExtraBold_Italic](./SchibstedGrotesk_800ExtraBold_Italic.ttf.png)|![SchibstedGrotesk_900Black_Italic](./SchibstedGrotesk_900Black_Italic.ttf.png)||
+|![SchibstedGrotesk_400Regular](.//400Regular/SchibstedGrotesk_400Regular.ttf.png)|![SchibstedGrotesk_500Medium](.//500Medium/SchibstedGrotesk_500Medium.ttf.png)|![SchibstedGrotesk_600SemiBold](.//600SemiBold/SchibstedGrotesk_600SemiBold.ttf.png)||
+|![SchibstedGrotesk_700Bold](.//700Bold/SchibstedGrotesk_700Bold.ttf.png)|![SchibstedGrotesk_800ExtraBold](.//800ExtraBold/SchibstedGrotesk_800ExtraBold.ttf.png)|![SchibstedGrotesk_900Black](.//900Black/SchibstedGrotesk_900Black.ttf.png)||
+|![SchibstedGrotesk_400Regular_Italic](.//400Regular_Italic/SchibstedGrotesk_400Regular_Italic.ttf.png)|![SchibstedGrotesk_500Medium_Italic](.//500Medium_Italic/SchibstedGrotesk_500Medium_Italic.ttf.png)|![SchibstedGrotesk_600SemiBold_Italic](.//600SemiBold_Italic/SchibstedGrotesk_600SemiBold_Italic.ttf.png)||
+|![SchibstedGrotesk_700Bold_Italic](.//700Bold_Italic/SchibstedGrotesk_700Bold_Italic.ttf.png)|![SchibstedGrotesk_800ExtraBold_Italic](.//800ExtraBold_Italic/SchibstedGrotesk_800ExtraBold_Italic.ttf.png)|![SchibstedGrotesk_900Black_Italic](.//900Black_Italic/SchibstedGrotesk_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

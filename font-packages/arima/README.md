@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Arima_100Thin](./Arima_100Thin.ttf.png)|![Arima_200ExtraLight](./Arima_200ExtraLight.ttf.png)|![Arima_300Light](./Arima_300Light.ttf.png)||
-|![Arima_400Regular](./Arima_400Regular.ttf.png)|![Arima_500Medium](./Arima_500Medium.ttf.png)|![Arima_600SemiBold](./Arima_600SemiBold.ttf.png)||
-|![Arima_700Bold](./Arima_700Bold.ttf.png)||||
+|![Arima_100Thin](.//100Thin/Arima_100Thin.ttf.png)|![Arima_200ExtraLight](.//200ExtraLight/Arima_200ExtraLight.ttf.png)|![Arima_300Light](.//300Light/Arima_300Light.ttf.png)||
+|![Arima_400Regular](.//400Regular/Arima_400Regular.ttf.png)|![Arima_500Medium](.//500Medium/Arima_500Medium.ttf.png)|![Arima_600SemiBold](.//600SemiBold/Arima_600SemiBold.ttf.png)||
+|![Arima_700Bold](.//700Bold/Arima_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

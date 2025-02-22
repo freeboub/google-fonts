@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Caprasimo_400Regular](./Caprasimo_400Regular.ttf.png)||||
+|![Caprasimo_400Regular](.//400Regular/Caprasimo_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

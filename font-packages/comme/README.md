@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Comme_100Thin](./Comme_100Thin.ttf.png)|![Comme_200ExtraLight](./Comme_200ExtraLight.ttf.png)|![Comme_300Light](./Comme_300Light.ttf.png)||
-|![Comme_400Regular](./Comme_400Regular.ttf.png)|![Comme_500Medium](./Comme_500Medium.ttf.png)|![Comme_600SemiBold](./Comme_600SemiBold.ttf.png)||
-|![Comme_700Bold](./Comme_700Bold.ttf.png)|![Comme_800ExtraBold](./Comme_800ExtraBold.ttf.png)|![Comme_900Black](./Comme_900Black.ttf.png)||
+|![Comme_100Thin](.//100Thin/Comme_100Thin.ttf.png)|![Comme_200ExtraLight](.//200ExtraLight/Comme_200ExtraLight.ttf.png)|![Comme_300Light](.//300Light/Comme_300Light.ttf.png)||
+|![Comme_400Regular](.//400Regular/Comme_400Regular.ttf.png)|![Comme_500Medium](.//500Medium/Comme_500Medium.ttf.png)|![Comme_600SemiBold](.//600SemiBold/Comme_600SemiBold.ttf.png)||
+|![Comme_700Bold](.//700Bold/Comme_700Bold.ttf.png)|![Comme_800ExtraBold](.//800ExtraBold/Comme_800ExtraBold.ttf.png)|![Comme_900Black](.//900Black/Comme_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

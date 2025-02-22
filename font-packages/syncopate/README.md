@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Syncopate_400Regular](./Syncopate_400Regular.ttf.png)|![Syncopate_700Bold](./Syncopate_700Bold.ttf.png)|||
+|![Syncopate_400Regular](.//400Regular/Syncopate_400Regular.ttf.png)|![Syncopate_700Bold](.//700Bold/Syncopate_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

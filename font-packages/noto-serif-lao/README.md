@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifLao_100Thin](./NotoSerifLao_100Thin.ttf.png)|![NotoSerifLao_200ExtraLight](./NotoSerifLao_200ExtraLight.ttf.png)|![NotoSerifLao_300Light](./NotoSerifLao_300Light.ttf.png)||
-|![NotoSerifLao_400Regular](./NotoSerifLao_400Regular.ttf.png)|![NotoSerifLao_500Medium](./NotoSerifLao_500Medium.ttf.png)|![NotoSerifLao_600SemiBold](./NotoSerifLao_600SemiBold.ttf.png)||
-|![NotoSerifLao_700Bold](./NotoSerifLao_700Bold.ttf.png)|![NotoSerifLao_800ExtraBold](./NotoSerifLao_800ExtraBold.ttf.png)|![NotoSerifLao_900Black](./NotoSerifLao_900Black.ttf.png)||
+|![NotoSerifLao_100Thin](.//100Thin/NotoSerifLao_100Thin.ttf.png)|![NotoSerifLao_200ExtraLight](.//200ExtraLight/NotoSerifLao_200ExtraLight.ttf.png)|![NotoSerifLao_300Light](.//300Light/NotoSerifLao_300Light.ttf.png)||
+|![NotoSerifLao_400Regular](.//400Regular/NotoSerifLao_400Regular.ttf.png)|![NotoSerifLao_500Medium](.//500Medium/NotoSerifLao_500Medium.ttf.png)|![NotoSerifLao_600SemiBold](.//600SemiBold/NotoSerifLao_600SemiBold.ttf.png)||
+|![NotoSerifLao_700Bold](.//700Bold/NotoSerifLao_700Bold.ttf.png)|![NotoSerifLao_800ExtraBold](.//800ExtraBold/NotoSerifLao_800ExtraBold.ttf.png)|![NotoSerifLao_900Black](.//900Black/NotoSerifLao_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

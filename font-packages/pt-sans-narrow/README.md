@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PTSansNarrow_400Regular](./PTSansNarrow_400Regular.ttf.png)|![PTSansNarrow_700Bold](./PTSansNarrow_700Bold.ttf.png)|||
+|![PTSansNarrow_400Regular](.//400Regular/PTSansNarrow_400Regular.ttf.png)|![PTSansNarrow_700Bold](.//700Bold/PTSansNarrow_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

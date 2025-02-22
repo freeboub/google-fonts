@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![TenorSans_400Regular](./TenorSans_400Regular.ttf.png)||||
+|![TenorSans_400Regular](.//400Regular/TenorSans_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

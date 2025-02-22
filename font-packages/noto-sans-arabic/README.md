@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansArabic_100Thin](./NotoSansArabic_100Thin.ttf.png)|![NotoSansArabic_200ExtraLight](./NotoSansArabic_200ExtraLight.ttf.png)|![NotoSansArabic_300Light](./NotoSansArabic_300Light.ttf.png)||
-|![NotoSansArabic_400Regular](./NotoSansArabic_400Regular.ttf.png)|![NotoSansArabic_500Medium](./NotoSansArabic_500Medium.ttf.png)|![NotoSansArabic_600SemiBold](./NotoSansArabic_600SemiBold.ttf.png)||
-|![NotoSansArabic_700Bold](./NotoSansArabic_700Bold.ttf.png)|![NotoSansArabic_800ExtraBold](./NotoSansArabic_800ExtraBold.ttf.png)|![NotoSansArabic_900Black](./NotoSansArabic_900Black.ttf.png)||
+|![NotoSansArabic_100Thin](.//100Thin/NotoSansArabic_100Thin.ttf.png)|![NotoSansArabic_200ExtraLight](.//200ExtraLight/NotoSansArabic_200ExtraLight.ttf.png)|![NotoSansArabic_300Light](.//300Light/NotoSansArabic_300Light.ttf.png)||
+|![NotoSansArabic_400Regular](.//400Regular/NotoSansArabic_400Regular.ttf.png)|![NotoSansArabic_500Medium](.//500Medium/NotoSansArabic_500Medium.ttf.png)|![NotoSansArabic_600SemiBold](.//600SemiBold/NotoSansArabic_600SemiBold.ttf.png)||
+|![NotoSansArabic_700Bold](.//700Bold/NotoSansArabic_700Bold.ttf.png)|![NotoSansArabic_800ExtraBold](.//800ExtraBold/NotoSansArabic_800ExtraBold.ttf.png)|![NotoSansArabic_900Black](.//900Black/NotoSansArabic_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![HachiMaruPop_400Regular](./HachiMaruPop_400Regular.ttf.png)||||
+|![HachiMaruPop_400Regular](.//400Regular/HachiMaruPop_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

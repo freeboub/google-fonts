@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Coda_400Regular](./Coda_400Regular.ttf.png)|![Coda_800ExtraBold](./Coda_800ExtraBold.ttf.png)|||
+|![Coda_400Regular](.//400Regular/Coda_400Regular.ttf.png)|![Coda_800ExtraBold](.//800ExtraBold/Coda_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

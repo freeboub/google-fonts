@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Geo_400Regular](./Geo_400Regular.ttf.png)|![Geo_400Regular_Italic](./Geo_400Regular_Italic.ttf.png)|||
+|![Geo_400Regular](.//400Regular/Geo_400Regular.ttf.png)|![Geo_400Regular_Italic](.//400Regular_Italic/Geo_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

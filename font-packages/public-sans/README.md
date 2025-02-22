@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PublicSans_100Thin](./PublicSans_100Thin.ttf.png)|![PublicSans_200ExtraLight](./PublicSans_200ExtraLight.ttf.png)|![PublicSans_300Light](./PublicSans_300Light.ttf.png)||
-|![PublicSans_400Regular](./PublicSans_400Regular.ttf.png)|![PublicSans_500Medium](./PublicSans_500Medium.ttf.png)|![PublicSans_600SemiBold](./PublicSans_600SemiBold.ttf.png)||
-|![PublicSans_700Bold](./PublicSans_700Bold.ttf.png)|![PublicSans_800ExtraBold](./PublicSans_800ExtraBold.ttf.png)|![PublicSans_900Black](./PublicSans_900Black.ttf.png)||
-|![PublicSans_100Thin_Italic](./PublicSans_100Thin_Italic.ttf.png)|![PublicSans_200ExtraLight_Italic](./PublicSans_200ExtraLight_Italic.ttf.png)|![PublicSans_300Light_Italic](./PublicSans_300Light_Italic.ttf.png)||
-|![PublicSans_400Regular_Italic](./PublicSans_400Regular_Italic.ttf.png)|![PublicSans_500Medium_Italic](./PublicSans_500Medium_Italic.ttf.png)|![PublicSans_600SemiBold_Italic](./PublicSans_600SemiBold_Italic.ttf.png)||
-|![PublicSans_700Bold_Italic](./PublicSans_700Bold_Italic.ttf.png)|![PublicSans_800ExtraBold_Italic](./PublicSans_800ExtraBold_Italic.ttf.png)|![PublicSans_900Black_Italic](./PublicSans_900Black_Italic.ttf.png)||
+|![PublicSans_100Thin](.//100Thin/PublicSans_100Thin.ttf.png)|![PublicSans_200ExtraLight](.//200ExtraLight/PublicSans_200ExtraLight.ttf.png)|![PublicSans_300Light](.//300Light/PublicSans_300Light.ttf.png)||
+|![PublicSans_400Regular](.//400Regular/PublicSans_400Regular.ttf.png)|![PublicSans_500Medium](.//500Medium/PublicSans_500Medium.ttf.png)|![PublicSans_600SemiBold](.//600SemiBold/PublicSans_600SemiBold.ttf.png)||
+|![PublicSans_700Bold](.//700Bold/PublicSans_700Bold.ttf.png)|![PublicSans_800ExtraBold](.//800ExtraBold/PublicSans_800ExtraBold.ttf.png)|![PublicSans_900Black](.//900Black/PublicSans_900Black.ttf.png)||
+|![PublicSans_100Thin_Italic](.//100Thin_Italic/PublicSans_100Thin_Italic.ttf.png)|![PublicSans_200ExtraLight_Italic](.//200ExtraLight_Italic/PublicSans_200ExtraLight_Italic.ttf.png)|![PublicSans_300Light_Italic](.//300Light_Italic/PublicSans_300Light_Italic.ttf.png)||
+|![PublicSans_400Regular_Italic](.//400Regular_Italic/PublicSans_400Regular_Italic.ttf.png)|![PublicSans_500Medium_Italic](.//500Medium_Italic/PublicSans_500Medium_Italic.ttf.png)|![PublicSans_600SemiBold_Italic](.//600SemiBold_Italic/PublicSans_600SemiBold_Italic.ttf.png)||
+|![PublicSans_700Bold_Italic](.//700Bold_Italic/PublicSans_700Bold_Italic.ttf.png)|![PublicSans_800ExtraBold_Italic](.//800ExtraBold_Italic/PublicSans_800ExtraBold_Italic.ttf.png)|![PublicSans_900Black_Italic](.//900Black_Italic/PublicSans_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

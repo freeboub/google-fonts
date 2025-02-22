@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![EastSeaDokdo_400Regular](./EastSeaDokdo_400Regular.ttf.png)||||
+|![EastSeaDokdo_400Regular](.//400Regular/EastSeaDokdo_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

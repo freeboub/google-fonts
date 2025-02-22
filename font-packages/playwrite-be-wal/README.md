@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PlaywriteBEWAL_100Thin](./PlaywriteBEWAL_100Thin.ttf.png)|![PlaywriteBEWAL_200ExtraLight](./PlaywriteBEWAL_200ExtraLight.ttf.png)|![PlaywriteBEWAL_300Light](./PlaywriteBEWAL_300Light.ttf.png)||
-|![PlaywriteBEWAL_400Regular](./PlaywriteBEWAL_400Regular.ttf.png)||||
+|![PlaywriteBEWAL_100Thin](.//100Thin/PlaywriteBEWAL_100Thin.ttf.png)|![PlaywriteBEWAL_200ExtraLight](.//200ExtraLight/PlaywriteBEWAL_200ExtraLight.ttf.png)|![PlaywriteBEWAL_300Light](.//300Light/PlaywriteBEWAL_300Light.ttf.png)||
+|![PlaywriteBEWAL_400Regular](.//400Regular/PlaywriteBEWAL_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

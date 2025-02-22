@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![TheNautigal_400Regular](./TheNautigal_400Regular.ttf.png)|![TheNautigal_700Bold](./TheNautigal_700Bold.ttf.png)|||
+|![TheNautigal_400Regular](.//400Regular/TheNautigal_400Regular.ttf.png)|![TheNautigal_700Bold](.//700Bold/TheNautigal_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Fenix_400Regular](./Fenix_400Regular.ttf.png)||||
+|![Fenix_400Regular](.//400Regular/Fenix_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -206,10 +206,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Kufam_400Regular](./Kufam_400Regular.ttf.png)|![Kufam_500Medium](./Kufam_500Medium.ttf.png)|![Kufam_600SemiBold](./Kufam_600SemiBold.ttf.png)||
-|![Kufam_700Bold](./Kufam_700Bold.ttf.png)|![Kufam_800ExtraBold](./Kufam_800ExtraBold.ttf.png)|![Kufam_900Black](./Kufam_900Black.ttf.png)||
-|![Kufam_400Regular_Italic](./Kufam_400Regular_Italic.ttf.png)|![Kufam_500Medium_Italic](./Kufam_500Medium_Italic.ttf.png)|![Kufam_600SemiBold_Italic](./Kufam_600SemiBold_Italic.ttf.png)||
-|![Kufam_700Bold_Italic](./Kufam_700Bold_Italic.ttf.png)|![Kufam_800ExtraBold_Italic](./Kufam_800ExtraBold_Italic.ttf.png)|![Kufam_900Black_Italic](./Kufam_900Black_Italic.ttf.png)||
+|![Kufam_400Regular](.//400Regular/Kufam_400Regular.ttf.png)|![Kufam_500Medium](.//500Medium/Kufam_500Medium.ttf.png)|![Kufam_600SemiBold](.//600SemiBold/Kufam_600SemiBold.ttf.png)||
+|![Kufam_700Bold](.//700Bold/Kufam_700Bold.ttf.png)|![Kufam_800ExtraBold](.//800ExtraBold/Kufam_800ExtraBold.ttf.png)|![Kufam_900Black](.//900Black/Kufam_900Black.ttf.png)||
+|![Kufam_400Regular_Italic](.//400Regular_Italic/Kufam_400Regular_Italic.ttf.png)|![Kufam_500Medium_Italic](.//500Medium_Italic/Kufam_500Medium_Italic.ttf.png)|![Kufam_600SemiBold_Italic](.//600SemiBold_Italic/Kufam_600SemiBold_Italic.ttf.png)||
+|![Kufam_700Bold_Italic](.//700Bold_Italic/Kufam_700Bold_Italic.ttf.png)|![Kufam_800ExtraBold_Italic](.//800ExtraBold_Italic/Kufam_800ExtraBold_Italic.ttf.png)|![Kufam_900Black_Italic](.//900Black_Italic/Kufam_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Rock3D_400Regular](./Rock3D_400Regular.ttf.png)||||
+|![Rock3D_400Regular](.//400Regular/Rock3D_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

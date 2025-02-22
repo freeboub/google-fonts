@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Share_400Regular](./Share_400Regular.ttf.png)|![Share_400Regular_Italic](./Share_400Regular_Italic.ttf.png)|![Share_700Bold](./Share_700Bold.ttf.png)||
-|![Share_700Bold_Italic](./Share_700Bold_Italic.ttf.png)||||
+|![Share_400Regular](.//400Regular/Share_400Regular.ttf.png)|![Share_400Regular_Italic](.//400Regular_Italic/Share_400Regular_Italic.ttf.png)|![Share_700Bold](.//700Bold/Share_700Bold.ttf.png)||
+|![Share_700Bold_Italic](.//700Bold_Italic/Share_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

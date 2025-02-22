@@ -128,8 +128,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Akatab_400Regular](./Akatab_400Regular.ttf.png)|![Akatab_500Medium](./Akatab_500Medium.ttf.png)|![Akatab_600SemiBold](./Akatab_600SemiBold.ttf.png)||
-|![Akatab_700Bold](./Akatab_700Bold.ttf.png)|![Akatab_800ExtraBold](./Akatab_800ExtraBold.ttf.png)|![Akatab_900Black](./Akatab_900Black.ttf.png)||
+|![Akatab_400Regular](.//400Regular/Akatab_400Regular.ttf.png)|![Akatab_500Medium](.//500Medium/Akatab_500Medium.ttf.png)|![Akatab_600SemiBold](.//600SemiBold/Akatab_600SemiBold.ttf.png)||
+|![Akatab_700Bold](.//700Bold/Akatab_700Bold.ttf.png)|![Akatab_800ExtraBold](.//800ExtraBold/Akatab_800ExtraBold.ttf.png)|![Akatab_900Black](.//900Black/Akatab_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

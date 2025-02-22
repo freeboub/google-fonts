@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RumRaisin_400Regular](./RumRaisin_400Regular.ttf.png)||||
+|![RumRaisin_400Regular](.//400Regular/RumRaisin_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

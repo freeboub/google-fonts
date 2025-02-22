@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Updock_400Regular](./Updock_400Regular.ttf.png)||||
+|![Updock_400Regular](.//400Regular/Updock_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

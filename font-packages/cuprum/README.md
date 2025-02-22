@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Cuprum_400Regular](./Cuprum_400Regular.ttf.png)|![Cuprum_500Medium](./Cuprum_500Medium.ttf.png)|![Cuprum_600SemiBold](./Cuprum_600SemiBold.ttf.png)||
-|![Cuprum_700Bold](./Cuprum_700Bold.ttf.png)|![Cuprum_400Regular_Italic](./Cuprum_400Regular_Italic.ttf.png)|![Cuprum_500Medium_Italic](./Cuprum_500Medium_Italic.ttf.png)||
-|![Cuprum_600SemiBold_Italic](./Cuprum_600SemiBold_Italic.ttf.png)|![Cuprum_700Bold_Italic](./Cuprum_700Bold_Italic.ttf.png)|||
+|![Cuprum_400Regular](.//400Regular/Cuprum_400Regular.ttf.png)|![Cuprum_500Medium](.//500Medium/Cuprum_500Medium.ttf.png)|![Cuprum_600SemiBold](.//600SemiBold/Cuprum_600SemiBold.ttf.png)||
+|![Cuprum_700Bold](.//700Bold/Cuprum_700Bold.ttf.png)|![Cuprum_400Regular_Italic](.//400Regular_Italic/Cuprum_400Regular_Italic.ttf.png)|![Cuprum_500Medium_Italic](.//500Medium_Italic/Cuprum_500Medium_Italic.ttf.png)||
+|![Cuprum_600SemiBold_Italic](.//600SemiBold_Italic/Cuprum_600SemiBold_Italic.ttf.png)|![Cuprum_700Bold_Italic](.//700Bold_Italic/Cuprum_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

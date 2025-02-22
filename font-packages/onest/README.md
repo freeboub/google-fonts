@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Onest_100Thin](./Onest_100Thin.ttf.png)|![Onest_200ExtraLight](./Onest_200ExtraLight.ttf.png)|![Onest_300Light](./Onest_300Light.ttf.png)||
-|![Onest_400Regular](./Onest_400Regular.ttf.png)|![Onest_500Medium](./Onest_500Medium.ttf.png)|![Onest_600SemiBold](./Onest_600SemiBold.ttf.png)||
-|![Onest_700Bold](./Onest_700Bold.ttf.png)|![Onest_800ExtraBold](./Onest_800ExtraBold.ttf.png)|![Onest_900Black](./Onest_900Black.ttf.png)||
+|![Onest_100Thin](.//100Thin/Onest_100Thin.ttf.png)|![Onest_200ExtraLight](.//200ExtraLight/Onest_200ExtraLight.ttf.png)|![Onest_300Light](.//300Light/Onest_300Light.ttf.png)||
+|![Onest_400Regular](.//400Regular/Onest_400Regular.ttf.png)|![Onest_500Medium](.//500Medium/Onest_500Medium.ttf.png)|![Onest_600SemiBold](.//600SemiBold/Onest_600SemiBold.ttf.png)||
+|![Onest_700Bold](.//700Bold/Onest_700Bold.ttf.png)|![Onest_800ExtraBold](.//800ExtraBold/Onest_800ExtraBold.ttf.png)|![Onest_900Black](.//900Black/Onest_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Righteous_400Regular](./Righteous_400Regular.ttf.png)||||
+|![Righteous_400Regular](.//400Regular/Righteous_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

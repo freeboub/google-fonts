@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Petemoss_400Regular](./Petemoss_400Regular.ttf.png)||||
+|![Petemoss_400Regular](.//400Regular/Petemoss_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

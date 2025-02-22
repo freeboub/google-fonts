@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KarlaTamilUpright_400Regular](./KarlaTamilUpright_400Regular.ttf.png)|![KarlaTamilUpright_700Bold](./KarlaTamilUpright_700Bold.ttf.png)|||
+|![KarlaTamilUpright_400Regular](.//400Regular/KarlaTamilUpright_400Regular.ttf.png)|![KarlaTamilUpright_700Bold](.//700Bold/KarlaTamilUpright_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

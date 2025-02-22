@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Hurricane_400Regular](./Hurricane_400Regular.ttf.png)||||
+|![Hurricane_400Regular](.//400Regular/Hurricane_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Unbounded_200ExtraLight](./Unbounded_200ExtraLight.ttf.png)|![Unbounded_300Light](./Unbounded_300Light.ttf.png)|![Unbounded_400Regular](./Unbounded_400Regular.ttf.png)||
-|![Unbounded_500Medium](./Unbounded_500Medium.ttf.png)|![Unbounded_600SemiBold](./Unbounded_600SemiBold.ttf.png)|![Unbounded_700Bold](./Unbounded_700Bold.ttf.png)||
-|![Unbounded_800ExtraBold](./Unbounded_800ExtraBold.ttf.png)|![Unbounded_900Black](./Unbounded_900Black.ttf.png)|||
+|![Unbounded_200ExtraLight](.//200ExtraLight/Unbounded_200ExtraLight.ttf.png)|![Unbounded_300Light](.//300Light/Unbounded_300Light.ttf.png)|![Unbounded_400Regular](.//400Regular/Unbounded_400Regular.ttf.png)||
+|![Unbounded_500Medium](.//500Medium/Unbounded_500Medium.ttf.png)|![Unbounded_600SemiBold](.//600SemiBold/Unbounded_600SemiBold.ttf.png)|![Unbounded_700Bold](.//700Bold/Unbounded_700Bold.ttf.png)||
+|![Unbounded_800ExtraBold](.//800ExtraBold/Unbounded_800ExtraBold.ttf.png)|![Unbounded_900Black](.//900Black/Unbounded_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

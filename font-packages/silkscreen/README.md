@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Silkscreen_400Regular](./Silkscreen_400Regular.ttf.png)|![Silkscreen_700Bold](./Silkscreen_700Bold.ttf.png)|||
+|![Silkscreen_400Regular](.//400Regular/Silkscreen_400Regular.ttf.png)|![Silkscreen_700Bold](.//700Bold/Silkscreen_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

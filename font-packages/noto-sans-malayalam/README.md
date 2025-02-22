@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansMalayalam_100Thin](./NotoSansMalayalam_100Thin.ttf.png)|![NotoSansMalayalam_200ExtraLight](./NotoSansMalayalam_200ExtraLight.ttf.png)|![NotoSansMalayalam_300Light](./NotoSansMalayalam_300Light.ttf.png)||
-|![NotoSansMalayalam_400Regular](./NotoSansMalayalam_400Regular.ttf.png)|![NotoSansMalayalam_500Medium](./NotoSansMalayalam_500Medium.ttf.png)|![NotoSansMalayalam_600SemiBold](./NotoSansMalayalam_600SemiBold.ttf.png)||
-|![NotoSansMalayalam_700Bold](./NotoSansMalayalam_700Bold.ttf.png)|![NotoSansMalayalam_800ExtraBold](./NotoSansMalayalam_800ExtraBold.ttf.png)|![NotoSansMalayalam_900Black](./NotoSansMalayalam_900Black.ttf.png)||
+|![NotoSansMalayalam_100Thin](.//100Thin/NotoSansMalayalam_100Thin.ttf.png)|![NotoSansMalayalam_200ExtraLight](.//200ExtraLight/NotoSansMalayalam_200ExtraLight.ttf.png)|![NotoSansMalayalam_300Light](.//300Light/NotoSansMalayalam_300Light.ttf.png)||
+|![NotoSansMalayalam_400Regular](.//400Regular/NotoSansMalayalam_400Regular.ttf.png)|![NotoSansMalayalam_500Medium](.//500Medium/NotoSansMalayalam_500Medium.ttf.png)|![NotoSansMalayalam_600SemiBold](.//600SemiBold/NotoSansMalayalam_600SemiBold.ttf.png)||
+|![NotoSansMalayalam_700Bold](.//700Bold/NotoSansMalayalam_700Bold.ttf.png)|![NotoSansMalayalam_800ExtraBold](.//800ExtraBold/NotoSansMalayalam_800ExtraBold.ttf.png)|![NotoSansMalayalam_900Black](.//900Black/NotoSansMalayalam_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

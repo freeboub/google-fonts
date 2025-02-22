@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Urbanist_100Thin](./Urbanist_100Thin.ttf.png)|![Urbanist_200ExtraLight](./Urbanist_200ExtraLight.ttf.png)|![Urbanist_300Light](./Urbanist_300Light.ttf.png)||
-|![Urbanist_400Regular](./Urbanist_400Regular.ttf.png)|![Urbanist_500Medium](./Urbanist_500Medium.ttf.png)|![Urbanist_600SemiBold](./Urbanist_600SemiBold.ttf.png)||
-|![Urbanist_700Bold](./Urbanist_700Bold.ttf.png)|![Urbanist_800ExtraBold](./Urbanist_800ExtraBold.ttf.png)|![Urbanist_900Black](./Urbanist_900Black.ttf.png)||
-|![Urbanist_100Thin_Italic](./Urbanist_100Thin_Italic.ttf.png)|![Urbanist_200ExtraLight_Italic](./Urbanist_200ExtraLight_Italic.ttf.png)|![Urbanist_300Light_Italic](./Urbanist_300Light_Italic.ttf.png)||
-|![Urbanist_400Regular_Italic](./Urbanist_400Regular_Italic.ttf.png)|![Urbanist_500Medium_Italic](./Urbanist_500Medium_Italic.ttf.png)|![Urbanist_600SemiBold_Italic](./Urbanist_600SemiBold_Italic.ttf.png)||
-|![Urbanist_700Bold_Italic](./Urbanist_700Bold_Italic.ttf.png)|![Urbanist_800ExtraBold_Italic](./Urbanist_800ExtraBold_Italic.ttf.png)|![Urbanist_900Black_Italic](./Urbanist_900Black_Italic.ttf.png)||
+|![Urbanist_100Thin](.//100Thin/Urbanist_100Thin.ttf.png)|![Urbanist_200ExtraLight](.//200ExtraLight/Urbanist_200ExtraLight.ttf.png)|![Urbanist_300Light](.//300Light/Urbanist_300Light.ttf.png)||
+|![Urbanist_400Regular](.//400Regular/Urbanist_400Regular.ttf.png)|![Urbanist_500Medium](.//500Medium/Urbanist_500Medium.ttf.png)|![Urbanist_600SemiBold](.//600SemiBold/Urbanist_600SemiBold.ttf.png)||
+|![Urbanist_700Bold](.//700Bold/Urbanist_700Bold.ttf.png)|![Urbanist_800ExtraBold](.//800ExtraBold/Urbanist_800ExtraBold.ttf.png)|![Urbanist_900Black](.//900Black/Urbanist_900Black.ttf.png)||
+|![Urbanist_100Thin_Italic](.//100Thin_Italic/Urbanist_100Thin_Italic.ttf.png)|![Urbanist_200ExtraLight_Italic](.//200ExtraLight_Italic/Urbanist_200ExtraLight_Italic.ttf.png)|![Urbanist_300Light_Italic](.//300Light_Italic/Urbanist_300Light_Italic.ttf.png)||
+|![Urbanist_400Regular_Italic](.//400Regular_Italic/Urbanist_400Regular_Italic.ttf.png)|![Urbanist_500Medium_Italic](.//500Medium_Italic/Urbanist_500Medium_Italic.ttf.png)|![Urbanist_600SemiBold_Italic](.//600SemiBold_Italic/Urbanist_600SemiBold_Italic.ttf.png)||
+|![Urbanist_700Bold_Italic](.//700Bold_Italic/Urbanist_700Bold_Italic.ttf.png)|![Urbanist_800ExtraBold_Italic](.//800ExtraBold_Italic/Urbanist_800ExtraBold_Italic.ttf.png)|![Urbanist_900Black_Italic](.//900Black_Italic/Urbanist_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

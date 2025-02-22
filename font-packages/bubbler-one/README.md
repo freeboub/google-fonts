@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BubblerOne_400Regular](./BubblerOne_400Regular.ttf.png)||||
+|![BubblerOne_400Regular](.//400Regular/BubblerOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

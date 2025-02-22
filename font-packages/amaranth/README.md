@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Amaranth_400Regular](./Amaranth_400Regular.ttf.png)|![Amaranth_400Regular_Italic](./Amaranth_400Regular_Italic.ttf.png)|![Amaranth_700Bold](./Amaranth_700Bold.ttf.png)||
-|![Amaranth_700Bold_Italic](./Amaranth_700Bold_Italic.ttf.png)||||
+|![Amaranth_400Regular](.//400Regular/Amaranth_400Regular.ttf.png)|![Amaranth_400Regular_Italic](.//400Regular_Italic/Amaranth_400Regular_Italic.ttf.png)|![Amaranth_700Bold](.//700Bold/Amaranth_700Bold.ttf.png)||
+|![Amaranth_700Bold_Italic](.//700Bold_Italic/Amaranth_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PurplePurse_400Regular](./PurplePurse_400Regular.ttf.png)||||
+|![PurplePurse_400Regular](.//400Regular/PurplePurse_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -180,10 +180,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Teachers_400Regular](./Teachers_400Regular.ttf.png)|![Teachers_500Medium](./Teachers_500Medium.ttf.png)|![Teachers_600SemiBold](./Teachers_600SemiBold.ttf.png)||
-|![Teachers_700Bold](./Teachers_700Bold.ttf.png)|![Teachers_800ExtraBold](./Teachers_800ExtraBold.ttf.png)|![Teachers_400Regular_Italic](./Teachers_400Regular_Italic.ttf.png)||
-|![Teachers_500Medium_Italic](./Teachers_500Medium_Italic.ttf.png)|![Teachers_600SemiBold_Italic](./Teachers_600SemiBold_Italic.ttf.png)|![Teachers_700Bold_Italic](./Teachers_700Bold_Italic.ttf.png)||
-|![Teachers_800ExtraBold_Italic](./Teachers_800ExtraBold_Italic.ttf.png)||||
+|![Teachers_400Regular](.//400Regular/Teachers_400Regular.ttf.png)|![Teachers_500Medium](.//500Medium/Teachers_500Medium.ttf.png)|![Teachers_600SemiBold](.//600SemiBold/Teachers_600SemiBold.ttf.png)||
+|![Teachers_700Bold](.//700Bold/Teachers_700Bold.ttf.png)|![Teachers_800ExtraBold](.//800ExtraBold/Teachers_800ExtraBold.ttf.png)|![Teachers_400Regular_Italic](.//400Regular_Italic/Teachers_400Regular_Italic.ttf.png)||
+|![Teachers_500Medium_Italic](.//500Medium_Italic/Teachers_500Medium_Italic.ttf.png)|![Teachers_600SemiBold_Italic](.//600SemiBold_Italic/Teachers_600SemiBold_Italic.ttf.png)|![Teachers_700Bold_Italic](.//700Bold_Italic/Teachers_700Bold_Italic.ttf.png)||
+|![Teachers_800ExtraBold_Italic](.//800ExtraBold_Italic/Teachers_800ExtraBold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

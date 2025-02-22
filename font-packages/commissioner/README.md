@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Commissioner_100Thin](./Commissioner_100Thin.ttf.png)|![Commissioner_200ExtraLight](./Commissioner_200ExtraLight.ttf.png)|![Commissioner_300Light](./Commissioner_300Light.ttf.png)||
-|![Commissioner_400Regular](./Commissioner_400Regular.ttf.png)|![Commissioner_500Medium](./Commissioner_500Medium.ttf.png)|![Commissioner_600SemiBold](./Commissioner_600SemiBold.ttf.png)||
-|![Commissioner_700Bold](./Commissioner_700Bold.ttf.png)|![Commissioner_800ExtraBold](./Commissioner_800ExtraBold.ttf.png)|![Commissioner_900Black](./Commissioner_900Black.ttf.png)||
+|![Commissioner_100Thin](.//100Thin/Commissioner_100Thin.ttf.png)|![Commissioner_200ExtraLight](.//200ExtraLight/Commissioner_200ExtraLight.ttf.png)|![Commissioner_300Light](.//300Light/Commissioner_300Light.ttf.png)||
+|![Commissioner_400Regular](.//400Regular/Commissioner_400Regular.ttf.png)|![Commissioner_500Medium](.//500Medium/Commissioner_500Medium.ttf.png)|![Commissioner_600SemiBold](.//600SemiBold/Commissioner_600SemiBold.ttf.png)||
+|![Commissioner_700Bold](.//700Bold/Commissioner_700Bold.ttf.png)|![Commissioner_800ExtraBold](.//800ExtraBold/Commissioner_800ExtraBold.ttf.png)|![Commissioner_900Black](.//900Black/Commissioner_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

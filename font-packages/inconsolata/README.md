@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Inconsolata_200ExtraLight](./Inconsolata_200ExtraLight.ttf.png)|![Inconsolata_300Light](./Inconsolata_300Light.ttf.png)|![Inconsolata_400Regular](./Inconsolata_400Regular.ttf.png)||
-|![Inconsolata_500Medium](./Inconsolata_500Medium.ttf.png)|![Inconsolata_600SemiBold](./Inconsolata_600SemiBold.ttf.png)|![Inconsolata_700Bold](./Inconsolata_700Bold.ttf.png)||
-|![Inconsolata_800ExtraBold](./Inconsolata_800ExtraBold.ttf.png)|![Inconsolata_900Black](./Inconsolata_900Black.ttf.png)|||
+|![Inconsolata_200ExtraLight](.//200ExtraLight/Inconsolata_200ExtraLight.ttf.png)|![Inconsolata_300Light](.//300Light/Inconsolata_300Light.ttf.png)|![Inconsolata_400Regular](.//400Regular/Inconsolata_400Regular.ttf.png)||
+|![Inconsolata_500Medium](.//500Medium/Inconsolata_500Medium.ttf.png)|![Inconsolata_600SemiBold](.//600SemiBold/Inconsolata_600SemiBold.ttf.png)|![Inconsolata_700Bold](.//700Bold/Inconsolata_700Bold.ttf.png)||
+|![Inconsolata_800ExtraBold](.//800ExtraBold/Inconsolata_800ExtraBold.ttf.png)|![Inconsolata_900Black](.//900Black/Inconsolata_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

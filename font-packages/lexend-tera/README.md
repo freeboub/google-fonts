@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LexendTera_100Thin](./LexendTera_100Thin.ttf.png)|![LexendTera_200ExtraLight](./LexendTera_200ExtraLight.ttf.png)|![LexendTera_300Light](./LexendTera_300Light.ttf.png)||
-|![LexendTera_400Regular](./LexendTera_400Regular.ttf.png)|![LexendTera_500Medium](./LexendTera_500Medium.ttf.png)|![LexendTera_600SemiBold](./LexendTera_600SemiBold.ttf.png)||
-|![LexendTera_700Bold](./LexendTera_700Bold.ttf.png)|![LexendTera_800ExtraBold](./LexendTera_800ExtraBold.ttf.png)|![LexendTera_900Black](./LexendTera_900Black.ttf.png)||
+|![LexendTera_100Thin](.//100Thin/LexendTera_100Thin.ttf.png)|![LexendTera_200ExtraLight](.//200ExtraLight/LexendTera_200ExtraLight.ttf.png)|![LexendTera_300Light](.//300Light/LexendTera_300Light.ttf.png)||
+|![LexendTera_400Regular](.//400Regular/LexendTera_400Regular.ttf.png)|![LexendTera_500Medium](.//500Medium/LexendTera_500Medium.ttf.png)|![LexendTera_600SemiBold](.//600SemiBold/LexendTera_600SemiBold.ttf.png)||
+|![LexendTera_700Bold](.//700Bold/LexendTera_700Bold.ttf.png)|![LexendTera_800ExtraBold](.//800ExtraBold/LexendTera_800ExtraBold.ttf.png)|![LexendTera_900Black](.//900Black/LexendTera_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

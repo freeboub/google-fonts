@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Alexandria_100Thin](./Alexandria_100Thin.ttf.png)|![Alexandria_200ExtraLight](./Alexandria_200ExtraLight.ttf.png)|![Alexandria_300Light](./Alexandria_300Light.ttf.png)||
-|![Alexandria_400Regular](./Alexandria_400Regular.ttf.png)|![Alexandria_500Medium](./Alexandria_500Medium.ttf.png)|![Alexandria_600SemiBold](./Alexandria_600SemiBold.ttf.png)||
-|![Alexandria_700Bold](./Alexandria_700Bold.ttf.png)|![Alexandria_800ExtraBold](./Alexandria_800ExtraBold.ttf.png)|![Alexandria_900Black](./Alexandria_900Black.ttf.png)||
+|![Alexandria_100Thin](.//100Thin/Alexandria_100Thin.ttf.png)|![Alexandria_200ExtraLight](.//200ExtraLight/Alexandria_200ExtraLight.ttf.png)|![Alexandria_300Light](.//300Light/Alexandria_300Light.ttf.png)||
+|![Alexandria_400Regular](.//400Regular/Alexandria_400Regular.ttf.png)|![Alexandria_500Medium](.//500Medium/Alexandria_500Medium.ttf.png)|![Alexandria_600SemiBold](.//600SemiBold/Alexandria_600SemiBold.ttf.png)||
+|![Alexandria_700Bold](.//700Bold/Alexandria_700Bold.ttf.png)|![Alexandria_800ExtraBold](.//800ExtraBold/Alexandria_800ExtraBold.ttf.png)|![Alexandria_900Black](.//900Black/Alexandria_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

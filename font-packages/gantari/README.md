@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Gantari_100Thin](./Gantari_100Thin.ttf.png)|![Gantari_200ExtraLight](./Gantari_200ExtraLight.ttf.png)|![Gantari_300Light](./Gantari_300Light.ttf.png)||
-|![Gantari_400Regular](./Gantari_400Regular.ttf.png)|![Gantari_500Medium](./Gantari_500Medium.ttf.png)|![Gantari_600SemiBold](./Gantari_600SemiBold.ttf.png)||
-|![Gantari_700Bold](./Gantari_700Bold.ttf.png)|![Gantari_800ExtraBold](./Gantari_800ExtraBold.ttf.png)|![Gantari_900Black](./Gantari_900Black.ttf.png)||
-|![Gantari_100Thin_Italic](./Gantari_100Thin_Italic.ttf.png)|![Gantari_200ExtraLight_Italic](./Gantari_200ExtraLight_Italic.ttf.png)|![Gantari_300Light_Italic](./Gantari_300Light_Italic.ttf.png)||
-|![Gantari_400Regular_Italic](./Gantari_400Regular_Italic.ttf.png)|![Gantari_500Medium_Italic](./Gantari_500Medium_Italic.ttf.png)|![Gantari_600SemiBold_Italic](./Gantari_600SemiBold_Italic.ttf.png)||
-|![Gantari_700Bold_Italic](./Gantari_700Bold_Italic.ttf.png)|![Gantari_800ExtraBold_Italic](./Gantari_800ExtraBold_Italic.ttf.png)|![Gantari_900Black_Italic](./Gantari_900Black_Italic.ttf.png)||
+|![Gantari_100Thin](.//100Thin/Gantari_100Thin.ttf.png)|![Gantari_200ExtraLight](.//200ExtraLight/Gantari_200ExtraLight.ttf.png)|![Gantari_300Light](.//300Light/Gantari_300Light.ttf.png)||
+|![Gantari_400Regular](.//400Regular/Gantari_400Regular.ttf.png)|![Gantari_500Medium](.//500Medium/Gantari_500Medium.ttf.png)|![Gantari_600SemiBold](.//600SemiBold/Gantari_600SemiBold.ttf.png)||
+|![Gantari_700Bold](.//700Bold/Gantari_700Bold.ttf.png)|![Gantari_800ExtraBold](.//800ExtraBold/Gantari_800ExtraBold.ttf.png)|![Gantari_900Black](.//900Black/Gantari_900Black.ttf.png)||
+|![Gantari_100Thin_Italic](.//100Thin_Italic/Gantari_100Thin_Italic.ttf.png)|![Gantari_200ExtraLight_Italic](.//200ExtraLight_Italic/Gantari_200ExtraLight_Italic.ttf.png)|![Gantari_300Light_Italic](.//300Light_Italic/Gantari_300Light_Italic.ttf.png)||
+|![Gantari_400Regular_Italic](.//400Regular_Italic/Gantari_400Regular_Italic.ttf.png)|![Gantari_500Medium_Italic](.//500Medium_Italic/Gantari_500Medium_Italic.ttf.png)|![Gantari_600SemiBold_Italic](.//600SemiBold_Italic/Gantari_600SemiBold_Italic.ttf.png)||
+|![Gantari_700Bold_Italic](.//700Bold_Italic/Gantari_700Bold_Italic.ttf.png)|![Gantari_800ExtraBold_Italic](.//800ExtraBold_Italic/Gantari_800ExtraBold_Italic.ttf.png)|![Gantari_900Black_Italic](.//900Black_Italic/Gantari_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

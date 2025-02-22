@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LexendPeta_100Thin](./LexendPeta_100Thin.ttf.png)|![LexendPeta_200ExtraLight](./LexendPeta_200ExtraLight.ttf.png)|![LexendPeta_300Light](./LexendPeta_300Light.ttf.png)||
-|![LexendPeta_400Regular](./LexendPeta_400Regular.ttf.png)|![LexendPeta_500Medium](./LexendPeta_500Medium.ttf.png)|![LexendPeta_600SemiBold](./LexendPeta_600SemiBold.ttf.png)||
-|![LexendPeta_700Bold](./LexendPeta_700Bold.ttf.png)|![LexendPeta_800ExtraBold](./LexendPeta_800ExtraBold.ttf.png)|![LexendPeta_900Black](./LexendPeta_900Black.ttf.png)||
+|![LexendPeta_100Thin](.//100Thin/LexendPeta_100Thin.ttf.png)|![LexendPeta_200ExtraLight](.//200ExtraLight/LexendPeta_200ExtraLight.ttf.png)|![LexendPeta_300Light](.//300Light/LexendPeta_300Light.ttf.png)||
+|![LexendPeta_400Regular](.//400Regular/LexendPeta_400Regular.ttf.png)|![LexendPeta_500Medium](.//500Medium/LexendPeta_500Medium.ttf.png)|![LexendPeta_600SemiBold](.//600SemiBold/LexendPeta_600SemiBold.ttf.png)||
+|![LexendPeta_700Bold](.//700Bold/LexendPeta_700Bold.ttf.png)|![LexendPeta_800ExtraBold](.//800ExtraBold/LexendPeta_800ExtraBold.ttf.png)|![LexendPeta_900Black](.//900Black/LexendPeta_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

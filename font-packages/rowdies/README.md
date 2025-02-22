@@ -89,7 +89,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Rowdies_300Light](./Rowdies_300Light.ttf.png)|![Rowdies_400Regular](./Rowdies_400Regular.ttf.png)|![Rowdies_700Bold](./Rowdies_700Bold.ttf.png)||
+|![Rowdies_300Light](.//300Light/Rowdies_300Light.ttf.png)|![Rowdies_400Regular](.//400Regular/Rowdies_400Regular.ttf.png)|![Rowdies_700Bold](.//700Bold/Rowdies_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

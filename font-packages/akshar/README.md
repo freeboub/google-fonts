@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Akshar_300Light](./Akshar_300Light.ttf.png)|![Akshar_400Regular](./Akshar_400Regular.ttf.png)|![Akshar_500Medium](./Akshar_500Medium.ttf.png)||
-|![Akshar_600SemiBold](./Akshar_600SemiBold.ttf.png)|![Akshar_700Bold](./Akshar_700Bold.ttf.png)|||
+|![Akshar_300Light](.//300Light/Akshar_300Light.ttf.png)|![Akshar_400Regular](.//400Regular/Akshar_400Regular.ttf.png)|![Akshar_500Medium](.//500Medium/Akshar_500Medium.ttf.png)||
+|![Akshar_600SemiBold](.//600SemiBold/Akshar_600SemiBold.ttf.png)|![Akshar_700Bold](.//700Bold/Akshar_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

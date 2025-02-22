@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![YatraOne_400Regular](./YatraOne_400Regular.ttf.png)||||
+|![YatraOne_400Regular](.//400Regular/YatraOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

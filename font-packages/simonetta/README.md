@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Simonetta_400Regular](./Simonetta_400Regular.ttf.png)|![Simonetta_400Regular_Italic](./Simonetta_400Regular_Italic.ttf.png)|![Simonetta_900Black](./Simonetta_900Black.ttf.png)||
-|![Simonetta_900Black_Italic](./Simonetta_900Black_Italic.ttf.png)||||
+|![Simonetta_400Regular](.//400Regular/Simonetta_400Regular.ttf.png)|![Simonetta_400Regular_Italic](.//400Regular_Italic/Simonetta_400Regular_Italic.ttf.png)|![Simonetta_900Black](.//900Black/Simonetta_900Black.ttf.png)||
+|![Simonetta_900Black_Italic](.//900Black_Italic/Simonetta_900Black_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

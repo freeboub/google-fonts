@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Allerta_400Regular](./Allerta_400Regular.ttf.png)||||
+|![Allerta_400Regular](.//400Regular/Allerta_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

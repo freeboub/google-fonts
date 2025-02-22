@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Galdeano_400Regular](./Galdeano_400Regular.ttf.png)||||
+|![Galdeano_400Regular](.//400Regular/Galdeano_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

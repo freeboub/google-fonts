@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AnekGurmukhi_100Thin](./AnekGurmukhi_100Thin.ttf.png)|![AnekGurmukhi_200ExtraLight](./AnekGurmukhi_200ExtraLight.ttf.png)|![AnekGurmukhi_300Light](./AnekGurmukhi_300Light.ttf.png)||
-|![AnekGurmukhi_400Regular](./AnekGurmukhi_400Regular.ttf.png)|![AnekGurmukhi_500Medium](./AnekGurmukhi_500Medium.ttf.png)|![AnekGurmukhi_600SemiBold](./AnekGurmukhi_600SemiBold.ttf.png)||
-|![AnekGurmukhi_700Bold](./AnekGurmukhi_700Bold.ttf.png)|![AnekGurmukhi_800ExtraBold](./AnekGurmukhi_800ExtraBold.ttf.png)|||
+|![AnekGurmukhi_100Thin](.//100Thin/AnekGurmukhi_100Thin.ttf.png)|![AnekGurmukhi_200ExtraLight](.//200ExtraLight/AnekGurmukhi_200ExtraLight.ttf.png)|![AnekGurmukhi_300Light](.//300Light/AnekGurmukhi_300Light.ttf.png)||
+|![AnekGurmukhi_400Regular](.//400Regular/AnekGurmukhi_400Regular.ttf.png)|![AnekGurmukhi_500Medium](.//500Medium/AnekGurmukhi_500Medium.ttf.png)|![AnekGurmukhi_600SemiBold](.//600SemiBold/AnekGurmukhi_600SemiBold.ttf.png)||
+|![AnekGurmukhi_700Bold](.//700Bold/AnekGurmukhi_700Bold.ttf.png)|![AnekGurmukhi_800ExtraBold](.//800ExtraBold/AnekGurmukhi_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

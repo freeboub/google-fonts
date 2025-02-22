@@ -258,12 +258,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LisuBosa_200ExtraLight](./LisuBosa_200ExtraLight.ttf.png)|![LisuBosa_200ExtraLight_Italic](./LisuBosa_200ExtraLight_Italic.ttf.png)|![LisuBosa_300Light](./LisuBosa_300Light.ttf.png)||
-|![LisuBosa_300Light_Italic](./LisuBosa_300Light_Italic.ttf.png)|![LisuBosa_400Regular](./LisuBosa_400Regular.ttf.png)|![LisuBosa_400Regular_Italic](./LisuBosa_400Regular_Italic.ttf.png)||
-|![LisuBosa_500Medium](./LisuBosa_500Medium.ttf.png)|![LisuBosa_500Medium_Italic](./LisuBosa_500Medium_Italic.ttf.png)|![LisuBosa_600SemiBold](./LisuBosa_600SemiBold.ttf.png)||
-|![LisuBosa_600SemiBold_Italic](./LisuBosa_600SemiBold_Italic.ttf.png)|![LisuBosa_700Bold](./LisuBosa_700Bold.ttf.png)|![LisuBosa_700Bold_Italic](./LisuBosa_700Bold_Italic.ttf.png)||
-|![LisuBosa_800ExtraBold](./LisuBosa_800ExtraBold.ttf.png)|![LisuBosa_800ExtraBold_Italic](./LisuBosa_800ExtraBold_Italic.ttf.png)|![LisuBosa_900Black](./LisuBosa_900Black.ttf.png)||
-|![LisuBosa_900Black_Italic](./LisuBosa_900Black_Italic.ttf.png)||||
+|![LisuBosa_200ExtraLight](.//200ExtraLight/LisuBosa_200ExtraLight.ttf.png)|![LisuBosa_200ExtraLight_Italic](.//200ExtraLight_Italic/LisuBosa_200ExtraLight_Italic.ttf.png)|![LisuBosa_300Light](.//300Light/LisuBosa_300Light.ttf.png)||
+|![LisuBosa_300Light_Italic](.//300Light_Italic/LisuBosa_300Light_Italic.ttf.png)|![LisuBosa_400Regular](.//400Regular/LisuBosa_400Regular.ttf.png)|![LisuBosa_400Regular_Italic](.//400Regular_Italic/LisuBosa_400Regular_Italic.ttf.png)||
+|![LisuBosa_500Medium](.//500Medium/LisuBosa_500Medium.ttf.png)|![LisuBosa_500Medium_Italic](.//500Medium_Italic/LisuBosa_500Medium_Italic.ttf.png)|![LisuBosa_600SemiBold](.//600SemiBold/LisuBosa_600SemiBold.ttf.png)||
+|![LisuBosa_600SemiBold_Italic](.//600SemiBold_Italic/LisuBosa_600SemiBold_Italic.ttf.png)|![LisuBosa_700Bold](.//700Bold/LisuBosa_700Bold.ttf.png)|![LisuBosa_700Bold_Italic](.//700Bold_Italic/LisuBosa_700Bold_Italic.ttf.png)||
+|![LisuBosa_800ExtraBold](.//800ExtraBold/LisuBosa_800ExtraBold.ttf.png)|![LisuBosa_800ExtraBold_Italic](.//800ExtraBold_Italic/LisuBosa_800ExtraBold_Italic.ttf.png)|![LisuBosa_900Black](.//900Black/LisuBosa_900Black.ttf.png)||
+|![LisuBosa_900Black_Italic](.//900Black_Italic/LisuBosa_900Black_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

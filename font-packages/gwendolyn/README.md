@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Gwendolyn_400Regular](./Gwendolyn_400Regular.ttf.png)|![Gwendolyn_700Bold](./Gwendolyn_700Bold.ttf.png)|||
+|![Gwendolyn_400Regular](.//400Regular/Gwendolyn_400Regular.ttf.png)|![Gwendolyn_700Bold](.//700Bold/Gwendolyn_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

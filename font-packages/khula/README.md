@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Khula_300Light](./Khula_300Light.ttf.png)|![Khula_400Regular](./Khula_400Regular.ttf.png)|![Khula_600SemiBold](./Khula_600SemiBold.ttf.png)||
-|![Khula_700Bold](./Khula_700Bold.ttf.png)|![Khula_800ExtraBold](./Khula_800ExtraBold.ttf.png)|||
+|![Khula_300Light](.//300Light/Khula_300Light.ttf.png)|![Khula_400Regular](.//400Regular/Khula_400Regular.ttf.png)|![Khula_600SemiBold](.//600SemiBold/Khula_600SemiBold.ttf.png)||
+|![Khula_700Bold](.//700Bold/Khula_700Bold.ttf.png)|![Khula_800ExtraBold](.//800ExtraBold/Khula_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoColorEmoji_400Regular](./NotoColorEmoji_400Regular.ttf.png)||||
+|![NotoColorEmoji_400Regular](.//400Regular/NotoColorEmoji_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

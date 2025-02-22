@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![CabinCondensed_400Regular](./CabinCondensed_400Regular.ttf.png)|![CabinCondensed_500Medium](./CabinCondensed_500Medium.ttf.png)|![CabinCondensed_600SemiBold](./CabinCondensed_600SemiBold.ttf.png)||
-|![CabinCondensed_700Bold](./CabinCondensed_700Bold.ttf.png)||||
+|![CabinCondensed_400Regular](.//400Regular/CabinCondensed_400Regular.ttf.png)|![CabinCondensed_500Medium](.//500Medium/CabinCondensed_500Medium.ttf.png)|![CabinCondensed_600SemiBold](.//600SemiBold/CabinCondensed_600SemiBold.ttf.png)||
+|![CabinCondensed_700Bold](.//700Bold/CabinCondensed_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Anta_400Regular](./Anta_400Regular.ttf.png)||||
+|![Anta_400Regular](.//400Regular/Anta_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

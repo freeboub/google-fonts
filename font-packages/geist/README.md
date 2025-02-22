@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Geist_100Thin](./Geist_100Thin.ttf.png)|![Geist_200ExtraLight](./Geist_200ExtraLight.ttf.png)|![Geist_300Light](./Geist_300Light.ttf.png)||
-|![Geist_400Regular](./Geist_400Regular.ttf.png)|![Geist_500Medium](./Geist_500Medium.ttf.png)|![Geist_600SemiBold](./Geist_600SemiBold.ttf.png)||
-|![Geist_700Bold](./Geist_700Bold.ttf.png)|![Geist_800ExtraBold](./Geist_800ExtraBold.ttf.png)|![Geist_900Black](./Geist_900Black.ttf.png)||
+|![Geist_100Thin](.//100Thin/Geist_100Thin.ttf.png)|![Geist_200ExtraLight](.//200ExtraLight/Geist_200ExtraLight.ttf.png)|![Geist_300Light](.//300Light/Geist_300Light.ttf.png)||
+|![Geist_400Regular](.//400Regular/Geist_400Regular.ttf.png)|![Geist_500Medium](.//500Medium/Geist_500Medium.ttf.png)|![Geist_600SemiBold](.//600SemiBold/Geist_600SemiBold.ttf.png)||
+|![Geist_700Bold](.//700Bold/Geist_700Bold.ttf.png)|![Geist_800ExtraBold](.//800ExtraBold/Geist_800ExtraBold.ttf.png)|![Geist_900Black](.//900Black/Geist_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

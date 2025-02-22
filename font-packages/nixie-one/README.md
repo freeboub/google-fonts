@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NixieOne_400Regular](./NixieOne_400Regular.ttf.png)||||
+|![NixieOne_400Regular](.//400Regular/NixieOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

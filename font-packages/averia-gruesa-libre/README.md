@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AveriaGruesaLibre_400Regular](./AveriaGruesaLibre_400Regular.ttf.png)||||
+|![AveriaGruesaLibre_400Regular](.//400Regular/AveriaGruesaLibre_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

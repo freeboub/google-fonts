@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SuezOne_400Regular](./SuezOne_400Regular.ttf.png)||||
+|![SuezOne_400Regular](.//400Regular/SuezOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

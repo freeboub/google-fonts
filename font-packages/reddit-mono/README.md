@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RedditMono_200ExtraLight](./RedditMono_200ExtraLight.ttf.png)|![RedditMono_300Light](./RedditMono_300Light.ttf.png)|![RedditMono_400Regular](./RedditMono_400Regular.ttf.png)||
-|![RedditMono_500Medium](./RedditMono_500Medium.ttf.png)|![RedditMono_600SemiBold](./RedditMono_600SemiBold.ttf.png)|![RedditMono_700Bold](./RedditMono_700Bold.ttf.png)||
-|![RedditMono_800ExtraBold](./RedditMono_800ExtraBold.ttf.png)|![RedditMono_900Black](./RedditMono_900Black.ttf.png)|||
+|![RedditMono_200ExtraLight](.//200ExtraLight/RedditMono_200ExtraLight.ttf.png)|![RedditMono_300Light](.//300Light/RedditMono_300Light.ttf.png)|![RedditMono_400Regular](.//400Regular/RedditMono_400Regular.ttf.png)||
+|![RedditMono_500Medium](.//500Medium/RedditMono_500Medium.ttf.png)|![RedditMono_600SemiBold](.//600SemiBold/RedditMono_600SemiBold.ttf.png)|![RedditMono_700Bold](.//700Bold/RedditMono_700Bold.ttf.png)||
+|![RedditMono_800ExtraBold](.//800ExtraBold/RedditMono_800ExtraBold.ttf.png)|![RedditMono_900Black](.//900Black/RedditMono_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

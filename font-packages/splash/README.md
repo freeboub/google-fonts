@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Splash_400Regular](./Splash_400Regular.ttf.png)||||
+|![Splash_400Regular](.//400Regular/Splash_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AnnapurnaSIL_400Regular](./AnnapurnaSIL_400Regular.ttf.png)|![AnnapurnaSIL_700Bold](./AnnapurnaSIL_700Bold.ttf.png)|||
+|![AnnapurnaSIL_400Regular](.//400Regular/AnnapurnaSIL_400Regular.ttf.png)|![AnnapurnaSIL_700Bold](.//700Bold/AnnapurnaSIL_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

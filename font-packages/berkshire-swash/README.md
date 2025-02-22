@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BerkshireSwash_400Regular](./BerkshireSwash_400Regular.ttf.png)||||
+|![BerkshireSwash_400Regular](.//400Regular/BerkshireSwash_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

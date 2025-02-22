@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Asul_400Regular](./Asul_400Regular.ttf.png)|![Asul_700Bold](./Asul_700Bold.ttf.png)|||
+|![Asul_400Regular](.//400Regular/Asul_400Regular.ttf.png)|![Asul_700Bold](.//700Bold/Asul_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

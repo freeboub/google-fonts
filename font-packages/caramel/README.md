@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Caramel_400Regular](./Caramel_400Regular.ttf.png)||||
+|![Caramel_400Regular](.//400Regular/Caramel_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

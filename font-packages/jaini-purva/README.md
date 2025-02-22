@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![JainiPurva_400Regular](./JainiPurva_400Regular.ttf.png)||||
+|![JainiPurva_400Regular](.//400Regular/JainiPurva_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

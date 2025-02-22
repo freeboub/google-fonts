@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Chilanka_400Regular](./Chilanka_400Regular.ttf.png)||||
+|![Chilanka_400Regular](.//400Regular/Chilanka_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

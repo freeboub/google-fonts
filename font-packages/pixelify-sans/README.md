@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PixelifySans_400Regular](./PixelifySans_400Regular.ttf.png)|![PixelifySans_500Medium](./PixelifySans_500Medium.ttf.png)|![PixelifySans_600SemiBold](./PixelifySans_600SemiBold.ttf.png)||
-|![PixelifySans_700Bold](./PixelifySans_700Bold.ttf.png)||||
+|![PixelifySans_400Regular](.//400Regular/PixelifySans_400Regular.ttf.png)|![PixelifySans_500Medium](.//500Medium/PixelifySans_500Medium.ttf.png)|![PixelifySans_600SemiBold](.//600SemiBold/PixelifySans_600SemiBold.ttf.png)||
+|![PixelifySans_700Bold](.//700Bold/PixelifySans_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LexendZetta_100Thin](./LexendZetta_100Thin.ttf.png)|![LexendZetta_200ExtraLight](./LexendZetta_200ExtraLight.ttf.png)|![LexendZetta_300Light](./LexendZetta_300Light.ttf.png)||
-|![LexendZetta_400Regular](./LexendZetta_400Regular.ttf.png)|![LexendZetta_500Medium](./LexendZetta_500Medium.ttf.png)|![LexendZetta_600SemiBold](./LexendZetta_600SemiBold.ttf.png)||
-|![LexendZetta_700Bold](./LexendZetta_700Bold.ttf.png)|![LexendZetta_800ExtraBold](./LexendZetta_800ExtraBold.ttf.png)|![LexendZetta_900Black](./LexendZetta_900Black.ttf.png)||
+|![LexendZetta_100Thin](.//100Thin/LexendZetta_100Thin.ttf.png)|![LexendZetta_200ExtraLight](.//200ExtraLight/LexendZetta_200ExtraLight.ttf.png)|![LexendZetta_300Light](.//300Light/LexendZetta_300Light.ttf.png)||
+|![LexendZetta_400Regular](.//400Regular/LexendZetta_400Regular.ttf.png)|![LexendZetta_500Medium](.//500Medium/LexendZetta_500Medium.ttf.png)|![LexendZetta_600SemiBold](.//600SemiBold/LexendZetta_600SemiBold.ttf.png)||
+|![LexendZetta_700Bold](.//700Bold/LexendZetta_700Bold.ttf.png)|![LexendZetta_800ExtraBold](.//800ExtraBold/LexendZetta_800ExtraBold.ttf.png)|![LexendZetta_900Black](.//900Black/LexendZetta_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

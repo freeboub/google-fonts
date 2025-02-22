@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Elsie_400Regular](./Elsie_400Regular.ttf.png)|![Elsie_900Black](./Elsie_900Black.ttf.png)|||
+|![Elsie_400Regular](.//400Regular/Elsie_400Regular.ttf.png)|![Elsie_900Black](.//900Black/Elsie_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

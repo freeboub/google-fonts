@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KellySlab_400Regular](./KellySlab_400Regular.ttf.png)||||
+|![KellySlab_400Regular](.//400Regular/KellySlab_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

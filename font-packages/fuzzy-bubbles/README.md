@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![FuzzyBubbles_400Regular](./FuzzyBubbles_400Regular.ttf.png)|![FuzzyBubbles_700Bold](./FuzzyBubbles_700Bold.ttf.png)|||
+|![FuzzyBubbles_400Regular](.//400Regular/FuzzyBubbles_400Regular.ttf.png)|![FuzzyBubbles_700Bold](.//700Bold/FuzzyBubbles_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

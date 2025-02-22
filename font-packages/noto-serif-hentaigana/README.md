@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifHentaigana_200ExtraLight](./NotoSerifHentaigana_200ExtraLight.ttf.png)|![NotoSerifHentaigana_300Light](./NotoSerifHentaigana_300Light.ttf.png)|![NotoSerifHentaigana_400Regular](./NotoSerifHentaigana_400Regular.ttf.png)||
-|![NotoSerifHentaigana_500Medium](./NotoSerifHentaigana_500Medium.ttf.png)|![NotoSerifHentaigana_600SemiBold](./NotoSerifHentaigana_600SemiBold.ttf.png)|![NotoSerifHentaigana_700Bold](./NotoSerifHentaigana_700Bold.ttf.png)||
-|![NotoSerifHentaigana_800ExtraBold](./NotoSerifHentaigana_800ExtraBold.ttf.png)|![NotoSerifHentaigana_900Black](./NotoSerifHentaigana_900Black.ttf.png)|||
+|![NotoSerifHentaigana_200ExtraLight](.//200ExtraLight/NotoSerifHentaigana_200ExtraLight.ttf.png)|![NotoSerifHentaigana_300Light](.//300Light/NotoSerifHentaigana_300Light.ttf.png)|![NotoSerifHentaigana_400Regular](.//400Regular/NotoSerifHentaigana_400Regular.ttf.png)||
+|![NotoSerifHentaigana_500Medium](.//500Medium/NotoSerifHentaigana_500Medium.ttf.png)|![NotoSerifHentaigana_600SemiBold](.//600SemiBold/NotoSerifHentaigana_600SemiBold.ttf.png)|![NotoSerifHentaigana_700Bold](.//700Bold/NotoSerifHentaigana_700Bold.ttf.png)||
+|![NotoSerifHentaigana_800ExtraBold](.//800ExtraBold/NotoSerifHentaigana_800ExtraBold.ttf.png)|![NotoSerifHentaigana_900Black](.//900Black/NotoSerifHentaigana_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

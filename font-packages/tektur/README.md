@@ -128,8 +128,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Tektur_400Regular](./Tektur_400Regular.ttf.png)|![Tektur_500Medium](./Tektur_500Medium.ttf.png)|![Tektur_600SemiBold](./Tektur_600SemiBold.ttf.png)||
-|![Tektur_700Bold](./Tektur_700Bold.ttf.png)|![Tektur_800ExtraBold](./Tektur_800ExtraBold.ttf.png)|![Tektur_900Black](./Tektur_900Black.ttf.png)||
+|![Tektur_400Regular](.//400Regular/Tektur_400Regular.ttf.png)|![Tektur_500Medium](.//500Medium/Tektur_500Medium.ttf.png)|![Tektur_600SemiBold](.//600SemiBold/Tektur_600SemiBold.ttf.png)||
+|![Tektur_700Bold](.//700Bold/Tektur_700Bold.ttf.png)|![Tektur_800ExtraBold](.//800ExtraBold/Tektur_800ExtraBold.ttf.png)|![Tektur_900Black](.//900Black/Tektur_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

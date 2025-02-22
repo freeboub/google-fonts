@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MadimiOne_400Regular](./MadimiOne_400Regular.ttf.png)||||
+|![MadimiOne_400Regular](.//400Regular/MadimiOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

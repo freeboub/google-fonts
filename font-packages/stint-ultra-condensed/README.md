@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![StintUltraCondensed_400Regular](./StintUltraCondensed_400Regular.ttf.png)||||
+|![StintUltraCondensed_400Regular](.//400Regular/StintUltraCondensed_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

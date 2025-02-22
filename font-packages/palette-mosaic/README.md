@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PaletteMosaic_400Regular](./PaletteMosaic_400Regular.ttf.png)||||
+|![PaletteMosaic_400Regular](.//400Regular/PaletteMosaic_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

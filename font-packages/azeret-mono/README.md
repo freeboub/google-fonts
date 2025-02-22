@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AzeretMono_100Thin](./AzeretMono_100Thin.ttf.png)|![AzeretMono_200ExtraLight](./AzeretMono_200ExtraLight.ttf.png)|![AzeretMono_300Light](./AzeretMono_300Light.ttf.png)||
-|![AzeretMono_400Regular](./AzeretMono_400Regular.ttf.png)|![AzeretMono_500Medium](./AzeretMono_500Medium.ttf.png)|![AzeretMono_600SemiBold](./AzeretMono_600SemiBold.ttf.png)||
-|![AzeretMono_700Bold](./AzeretMono_700Bold.ttf.png)|![AzeretMono_800ExtraBold](./AzeretMono_800ExtraBold.ttf.png)|![AzeretMono_900Black](./AzeretMono_900Black.ttf.png)||
-|![AzeretMono_100Thin_Italic](./AzeretMono_100Thin_Italic.ttf.png)|![AzeretMono_200ExtraLight_Italic](./AzeretMono_200ExtraLight_Italic.ttf.png)|![AzeretMono_300Light_Italic](./AzeretMono_300Light_Italic.ttf.png)||
-|![AzeretMono_400Regular_Italic](./AzeretMono_400Regular_Italic.ttf.png)|![AzeretMono_500Medium_Italic](./AzeretMono_500Medium_Italic.ttf.png)|![AzeretMono_600SemiBold_Italic](./AzeretMono_600SemiBold_Italic.ttf.png)||
-|![AzeretMono_700Bold_Italic](./AzeretMono_700Bold_Italic.ttf.png)|![AzeretMono_800ExtraBold_Italic](./AzeretMono_800ExtraBold_Italic.ttf.png)|![AzeretMono_900Black_Italic](./AzeretMono_900Black_Italic.ttf.png)||
+|![AzeretMono_100Thin](.//100Thin/AzeretMono_100Thin.ttf.png)|![AzeretMono_200ExtraLight](.//200ExtraLight/AzeretMono_200ExtraLight.ttf.png)|![AzeretMono_300Light](.//300Light/AzeretMono_300Light.ttf.png)||
+|![AzeretMono_400Regular](.//400Regular/AzeretMono_400Regular.ttf.png)|![AzeretMono_500Medium](.//500Medium/AzeretMono_500Medium.ttf.png)|![AzeretMono_600SemiBold](.//600SemiBold/AzeretMono_600SemiBold.ttf.png)||
+|![AzeretMono_700Bold](.//700Bold/AzeretMono_700Bold.ttf.png)|![AzeretMono_800ExtraBold](.//800ExtraBold/AzeretMono_800ExtraBold.ttf.png)|![AzeretMono_900Black](.//900Black/AzeretMono_900Black.ttf.png)||
+|![AzeretMono_100Thin_Italic](.//100Thin_Italic/AzeretMono_100Thin_Italic.ttf.png)|![AzeretMono_200ExtraLight_Italic](.//200ExtraLight_Italic/AzeretMono_200ExtraLight_Italic.ttf.png)|![AzeretMono_300Light_Italic](.//300Light_Italic/AzeretMono_300Light_Italic.ttf.png)||
+|![AzeretMono_400Regular_Italic](.//400Regular_Italic/AzeretMono_400Regular_Italic.ttf.png)|![AzeretMono_500Medium_Italic](.//500Medium_Italic/AzeretMono_500Medium_Italic.ttf.png)|![AzeretMono_600SemiBold_Italic](.//600SemiBold_Italic/AzeretMono_600SemiBold_Italic.ttf.png)||
+|![AzeretMono_700Bold_Italic](.//700Bold_Italic/AzeretMono_700Bold_Italic.ttf.png)|![AzeretMono_800ExtraBold_Italic](.//800ExtraBold_Italic/AzeretMono_800ExtraBold_Italic.ttf.png)|![AzeretMono_900Black_Italic](.//900Black_Italic/AzeretMono_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

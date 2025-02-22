@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Podkova_400Regular](./Podkova_400Regular.ttf.png)|![Podkova_500Medium](./Podkova_500Medium.ttf.png)|![Podkova_600SemiBold](./Podkova_600SemiBold.ttf.png)||
-|![Podkova_700Bold](./Podkova_700Bold.ttf.png)|![Podkova_800ExtraBold](./Podkova_800ExtraBold.ttf.png)|||
+|![Podkova_400Regular](.//400Regular/Podkova_400Regular.ttf.png)|![Podkova_500Medium](.//500Medium/Podkova_500Medium.ttf.png)|![Podkova_600SemiBold](.//600SemiBold/Podkova_600SemiBold.ttf.png)||
+|![Podkova_700Bold](.//700Bold/Podkova_700Bold.ttf.png)|![Podkova_800ExtraBold](.//800ExtraBold/Podkova_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

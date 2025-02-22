@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Srisakdi_400Regular](./Srisakdi_400Regular.ttf.png)|![Srisakdi_700Bold](./Srisakdi_700Bold.ttf.png)|||
+|![Srisakdi_400Regular](.//400Regular/Srisakdi_400Regular.ttf.png)|![Srisakdi_700Bold](.//700Bold/Srisakdi_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

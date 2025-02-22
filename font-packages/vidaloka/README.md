@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Vidaloka_400Regular](./Vidaloka_400Regular.ttf.png)||||
+|![Vidaloka_400Regular](.//400Regular/Vidaloka_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

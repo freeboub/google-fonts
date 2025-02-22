@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Gurajada_400Regular](./Gurajada_400Regular.ttf.png)||||
+|![Gurajada_400Regular](.//400Regular/Gurajada_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

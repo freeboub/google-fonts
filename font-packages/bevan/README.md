@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Bevan_400Regular](./Bevan_400Regular.ttf.png)|![Bevan_400Regular_Italic](./Bevan_400Regular_Italic.ttf.png)|||
+|![Bevan_400Regular](.//400Regular/Bevan_400Regular.ttf.png)|![Bevan_400Regular_Italic](.//400Regular_Italic/Bevan_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

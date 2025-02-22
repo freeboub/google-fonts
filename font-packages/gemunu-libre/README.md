@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![GemunuLibre_200ExtraLight](./GemunuLibre_200ExtraLight.ttf.png)|![GemunuLibre_300Light](./GemunuLibre_300Light.ttf.png)|![GemunuLibre_400Regular](./GemunuLibre_400Regular.ttf.png)||
-|![GemunuLibre_500Medium](./GemunuLibre_500Medium.ttf.png)|![GemunuLibre_600SemiBold](./GemunuLibre_600SemiBold.ttf.png)|![GemunuLibre_700Bold](./GemunuLibre_700Bold.ttf.png)||
-|![GemunuLibre_800ExtraBold](./GemunuLibre_800ExtraBold.ttf.png)||||
+|![GemunuLibre_200ExtraLight](.//200ExtraLight/GemunuLibre_200ExtraLight.ttf.png)|![GemunuLibre_300Light](.//300Light/GemunuLibre_300Light.ttf.png)|![GemunuLibre_400Regular](.//400Regular/GemunuLibre_400Regular.ttf.png)||
+|![GemunuLibre_500Medium](.//500Medium/GemunuLibre_500Medium.ttf.png)|![GemunuLibre_600SemiBold](.//600SemiBold/GemunuLibre_600SemiBold.ttf.png)|![GemunuLibre_700Bold](.//700Bold/GemunuLibre_700Bold.ttf.png)||
+|![GemunuLibre_800ExtraBold](.//800ExtraBold/GemunuLibre_800ExtraBold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

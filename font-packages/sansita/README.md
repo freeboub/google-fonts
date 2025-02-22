@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Sansita_400Regular](./Sansita_400Regular.ttf.png)|![Sansita_400Regular_Italic](./Sansita_400Regular_Italic.ttf.png)|![Sansita_700Bold](./Sansita_700Bold.ttf.png)||
-|![Sansita_700Bold_Italic](./Sansita_700Bold_Italic.ttf.png)|![Sansita_800ExtraBold](./Sansita_800ExtraBold.ttf.png)|![Sansita_800ExtraBold_Italic](./Sansita_800ExtraBold_Italic.ttf.png)||
-|![Sansita_900Black](./Sansita_900Black.ttf.png)|![Sansita_900Black_Italic](./Sansita_900Black_Italic.ttf.png)|||
+|![Sansita_400Regular](.//400Regular/Sansita_400Regular.ttf.png)|![Sansita_400Regular_Italic](.//400Regular_Italic/Sansita_400Regular_Italic.ttf.png)|![Sansita_700Bold](.//700Bold/Sansita_700Bold.ttf.png)||
+|![Sansita_700Bold_Italic](.//700Bold_Italic/Sansita_700Bold_Italic.ttf.png)|![Sansita_800ExtraBold](.//800ExtraBold/Sansita_800ExtraBold.ttf.png)|![Sansita_800ExtraBold_Italic](.//800ExtraBold_Italic/Sansita_800ExtraBold_Italic.ttf.png)||
+|![Sansita_900Black](.//900Black/Sansita_900Black.ttf.png)|![Sansita_900Black_Italic](.//900Black_Italic/Sansita_900Black_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

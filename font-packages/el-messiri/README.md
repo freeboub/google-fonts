@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ElMessiri_400Regular](./ElMessiri_400Regular.ttf.png)|![ElMessiri_500Medium](./ElMessiri_500Medium.ttf.png)|![ElMessiri_600SemiBold](./ElMessiri_600SemiBold.ttf.png)||
-|![ElMessiri_700Bold](./ElMessiri_700Bold.ttf.png)||||
+|![ElMessiri_400Regular](.//400Regular/ElMessiri_400Regular.ttf.png)|![ElMessiri_500Medium](.//500Medium/ElMessiri_500Medium.ttf.png)|![ElMessiri_600SemiBold](.//600SemiBold/ElMessiri_600SemiBold.ttf.png)||
+|![ElMessiri_700Bold](.//700Bold/ElMessiri_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Asap_100Thin](./Asap_100Thin.ttf.png)|![Asap_200ExtraLight](./Asap_200ExtraLight.ttf.png)|![Asap_300Light](./Asap_300Light.ttf.png)||
-|![Asap_400Regular](./Asap_400Regular.ttf.png)|![Asap_500Medium](./Asap_500Medium.ttf.png)|![Asap_600SemiBold](./Asap_600SemiBold.ttf.png)||
-|![Asap_700Bold](./Asap_700Bold.ttf.png)|![Asap_800ExtraBold](./Asap_800ExtraBold.ttf.png)|![Asap_900Black](./Asap_900Black.ttf.png)||
-|![Asap_100Thin_Italic](./Asap_100Thin_Italic.ttf.png)|![Asap_200ExtraLight_Italic](./Asap_200ExtraLight_Italic.ttf.png)|![Asap_300Light_Italic](./Asap_300Light_Italic.ttf.png)||
-|![Asap_400Regular_Italic](./Asap_400Regular_Italic.ttf.png)|![Asap_500Medium_Italic](./Asap_500Medium_Italic.ttf.png)|![Asap_600SemiBold_Italic](./Asap_600SemiBold_Italic.ttf.png)||
-|![Asap_700Bold_Italic](./Asap_700Bold_Italic.ttf.png)|![Asap_800ExtraBold_Italic](./Asap_800ExtraBold_Italic.ttf.png)|![Asap_900Black_Italic](./Asap_900Black_Italic.ttf.png)||
+|![Asap_100Thin](.//100Thin/Asap_100Thin.ttf.png)|![Asap_200ExtraLight](.//200ExtraLight/Asap_200ExtraLight.ttf.png)|![Asap_300Light](.//300Light/Asap_300Light.ttf.png)||
+|![Asap_400Regular](.//400Regular/Asap_400Regular.ttf.png)|![Asap_500Medium](.//500Medium/Asap_500Medium.ttf.png)|![Asap_600SemiBold](.//600SemiBold/Asap_600SemiBold.ttf.png)||
+|![Asap_700Bold](.//700Bold/Asap_700Bold.ttf.png)|![Asap_800ExtraBold](.//800ExtraBold/Asap_800ExtraBold.ttf.png)|![Asap_900Black](.//900Black/Asap_900Black.ttf.png)||
+|![Asap_100Thin_Italic](.//100Thin_Italic/Asap_100Thin_Italic.ttf.png)|![Asap_200ExtraLight_Italic](.//200ExtraLight_Italic/Asap_200ExtraLight_Italic.ttf.png)|![Asap_300Light_Italic](.//300Light_Italic/Asap_300Light_Italic.ttf.png)||
+|![Asap_400Regular_Italic](.//400Regular_Italic/Asap_400Regular_Italic.ttf.png)|![Asap_500Medium_Italic](.//500Medium_Italic/Asap_500Medium_Italic.ttf.png)|![Asap_600SemiBold_Italic](.//600SemiBold_Italic/Asap_600SemiBold_Italic.ttf.png)||
+|![Asap_700Bold_Italic](.//700Bold_Italic/Asap_700Bold_Italic.ttf.png)|![Asap_800ExtraBold_Italic](.//800ExtraBold_Italic/Asap_800ExtraBold_Italic.ttf.png)|![Asap_900Black_Italic](.//900Black_Italic/Asap_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

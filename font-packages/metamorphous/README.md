@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Metamorphous_400Regular](./Metamorphous_400Regular.ttf.png)||||
+|![Metamorphous_400Regular](.//400Regular/Metamorphous_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Armata_400Regular](./Armata_400Regular.ttf.png)||||
+|![Armata_400Regular](.//400Regular/Armata_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

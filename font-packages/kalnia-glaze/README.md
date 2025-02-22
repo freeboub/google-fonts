@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KalniaGlaze_100Thin](./KalniaGlaze_100Thin.ttf.png)|![KalniaGlaze_200ExtraLight](./KalniaGlaze_200ExtraLight.ttf.png)|![KalniaGlaze_300Light](./KalniaGlaze_300Light.ttf.png)||
-|![KalniaGlaze_400Regular](./KalniaGlaze_400Regular.ttf.png)|![KalniaGlaze_500Medium](./KalniaGlaze_500Medium.ttf.png)|![KalniaGlaze_600SemiBold](./KalniaGlaze_600SemiBold.ttf.png)||
-|![KalniaGlaze_700Bold](./KalniaGlaze_700Bold.ttf.png)||||
+|![KalniaGlaze_100Thin](.//100Thin/KalniaGlaze_100Thin.ttf.png)|![KalniaGlaze_200ExtraLight](.//200ExtraLight/KalniaGlaze_200ExtraLight.ttf.png)|![KalniaGlaze_300Light](.//300Light/KalniaGlaze_300Light.ttf.png)||
+|![KalniaGlaze_400Regular](.//400Regular/KalniaGlaze_400Regular.ttf.png)|![KalniaGlaze_500Medium](.//500Medium/KalniaGlaze_500Medium.ttf.png)|![KalniaGlaze_600SemiBold](.//600SemiBold/KalniaGlaze_600SemiBold.ttf.png)||
+|![KalniaGlaze_700Bold](.//700Bold/KalniaGlaze_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

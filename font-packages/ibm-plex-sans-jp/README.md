@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![IBMPlexSansJP_100Thin](./IBMPlexSansJP_100Thin.ttf.png)|![IBMPlexSansJP_200ExtraLight](./IBMPlexSansJP_200ExtraLight.ttf.png)|![IBMPlexSansJP_300Light](./IBMPlexSansJP_300Light.ttf.png)||
-|![IBMPlexSansJP_400Regular](./IBMPlexSansJP_400Regular.ttf.png)|![IBMPlexSansJP_500Medium](./IBMPlexSansJP_500Medium.ttf.png)|![IBMPlexSansJP_600SemiBold](./IBMPlexSansJP_600SemiBold.ttf.png)||
-|![IBMPlexSansJP_700Bold](./IBMPlexSansJP_700Bold.ttf.png)||||
+|![IBMPlexSansJP_100Thin](.//100Thin/IBMPlexSansJP_100Thin.ttf.png)|![IBMPlexSansJP_200ExtraLight](.//200ExtraLight/IBMPlexSansJP_200ExtraLight.ttf.png)|![IBMPlexSansJP_300Light](.//300Light/IBMPlexSansJP_300Light.ttf.png)||
+|![IBMPlexSansJP_400Regular](.//400Regular/IBMPlexSansJP_400Regular.ttf.png)|![IBMPlexSansJP_500Medium](.//500Medium/IBMPlexSansJP_500Medium.ttf.png)|![IBMPlexSansJP_600SemiBold](.//600SemiBold/IBMPlexSansJP_600SemiBold.ttf.png)||
+|![IBMPlexSansJP_700Bold](.//700Bold/IBMPlexSansJP_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

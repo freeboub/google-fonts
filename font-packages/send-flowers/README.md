@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SendFlowers_400Regular](./SendFlowers_400Regular.ttf.png)||||
+|![SendFlowers_400Regular](.//400Regular/SendFlowers_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

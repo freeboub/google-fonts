@@ -128,8 +128,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![DMMono_300Light](./DMMono_300Light.ttf.png)|![DMMono_300Light_Italic](./DMMono_300Light_Italic.ttf.png)|![DMMono_400Regular](./DMMono_400Regular.ttf.png)||
-|![DMMono_400Regular_Italic](./DMMono_400Regular_Italic.ttf.png)|![DMMono_500Medium](./DMMono_500Medium.ttf.png)|![DMMono_500Medium_Italic](./DMMono_500Medium_Italic.ttf.png)||
+|![DMMono_300Light](.//300Light/DMMono_300Light.ttf.png)|![DMMono_300Light_Italic](.//300Light_Italic/DMMono_300Light_Italic.ttf.png)|![DMMono_400Regular](.//400Regular/DMMono_400Regular.ttf.png)||
+|![DMMono_400Regular_Italic](.//400Regular_Italic/DMMono_400Regular_Italic.ttf.png)|![DMMono_500Medium](.//500Medium/DMMono_500Medium.ttf.png)|![DMMono_500Medium_Italic](.//500Medium_Italic/DMMono_500Medium_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

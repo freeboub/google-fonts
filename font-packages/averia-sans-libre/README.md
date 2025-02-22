@@ -128,8 +128,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AveriaSansLibre_300Light](./AveriaSansLibre_300Light.ttf.png)|![AveriaSansLibre_300Light_Italic](./AveriaSansLibre_300Light_Italic.ttf.png)|![AveriaSansLibre_400Regular](./AveriaSansLibre_400Regular.ttf.png)||
-|![AveriaSansLibre_400Regular_Italic](./AveriaSansLibre_400Regular_Italic.ttf.png)|![AveriaSansLibre_700Bold](./AveriaSansLibre_700Bold.ttf.png)|![AveriaSansLibre_700Bold_Italic](./AveriaSansLibre_700Bold_Italic.ttf.png)||
+|![AveriaSansLibre_300Light](.//300Light/AveriaSansLibre_300Light.ttf.png)|![AveriaSansLibre_300Light_Italic](.//300Light_Italic/AveriaSansLibre_300Light_Italic.ttf.png)|![AveriaSansLibre_400Regular](.//400Regular/AveriaSansLibre_400Regular.ttf.png)||
+|![AveriaSansLibre_400Regular_Italic](.//400Regular_Italic/AveriaSansLibre_400Regular_Italic.ttf.png)|![AveriaSansLibre_700Bold](.//700Bold/AveriaSansLibre_700Bold.ttf.png)|![AveriaSansLibre_700Bold_Italic](.//700Bold_Italic/AveriaSansLibre_700Bold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

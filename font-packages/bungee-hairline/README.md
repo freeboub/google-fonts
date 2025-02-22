@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BungeeHairline_400Regular](./BungeeHairline_400Regular.ttf.png)||||
+|![BungeeHairline_400Regular](.//400Regular/BungeeHairline_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

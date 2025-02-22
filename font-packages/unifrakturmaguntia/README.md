@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![UnifrakturMaguntia_400Regular](./UnifrakturMaguntia_400Regular.ttf.png)||||
+|![UnifrakturMaguntia_400Regular](.//400Regular/UnifrakturMaguntia_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

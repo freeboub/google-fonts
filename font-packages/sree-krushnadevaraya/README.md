@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SreeKrushnadevaraya_400Regular](./SreeKrushnadevaraya_400Regular.ttf.png)||||
+|![SreeKrushnadevaraya_400Regular](.//400Regular/SreeKrushnadevaraya_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

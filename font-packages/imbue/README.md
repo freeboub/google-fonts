@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Imbue_100Thin](./Imbue_100Thin.ttf.png)|![Imbue_200ExtraLight](./Imbue_200ExtraLight.ttf.png)|![Imbue_300Light](./Imbue_300Light.ttf.png)||
-|![Imbue_400Regular](./Imbue_400Regular.ttf.png)|![Imbue_500Medium](./Imbue_500Medium.ttf.png)|![Imbue_600SemiBold](./Imbue_600SemiBold.ttf.png)||
-|![Imbue_700Bold](./Imbue_700Bold.ttf.png)|![Imbue_800ExtraBold](./Imbue_800ExtraBold.ttf.png)|![Imbue_900Black](./Imbue_900Black.ttf.png)||
+|![Imbue_100Thin](.//100Thin/Imbue_100Thin.ttf.png)|![Imbue_200ExtraLight](.//200ExtraLight/Imbue_200ExtraLight.ttf.png)|![Imbue_300Light](.//300Light/Imbue_300Light.ttf.png)||
+|![Imbue_400Regular](.//400Regular/Imbue_400Regular.ttf.png)|![Imbue_500Medium](.//500Medium/Imbue_500Medium.ttf.png)|![Imbue_600SemiBold](.//600SemiBold/Imbue_600SemiBold.ttf.png)||
+|![Imbue_700Bold](.//700Bold/Imbue_700Bold.ttf.png)|![Imbue_800ExtraBold](.//800ExtraBold/Imbue_800ExtraBold.ttf.png)|![Imbue_900Black](.//900Black/Imbue_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

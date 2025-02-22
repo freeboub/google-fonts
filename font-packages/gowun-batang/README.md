@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![GowunBatang_400Regular](./GowunBatang_400Regular.ttf.png)|![GowunBatang_700Bold](./GowunBatang_700Bold.ttf.png)|||
+|![GowunBatang_400Regular](.//400Regular/GowunBatang_400Regular.ttf.png)|![GowunBatang_700Bold](.//700Bold/GowunBatang_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

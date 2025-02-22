@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Voltaire_400Regular](./Voltaire_400Regular.ttf.png)||||
+|![Voltaire_400Regular](.//400Regular/Voltaire_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

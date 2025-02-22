@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![WalterTurncoat_400Regular](./WalterTurncoat_400Regular.ttf.png)||||
+|![WalterTurncoat_400Regular](.//400Regular/WalterTurncoat_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

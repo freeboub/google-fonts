@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![CormorantUpright_300Light](./CormorantUpright_300Light.ttf.png)|![CormorantUpright_400Regular](./CormorantUpright_400Regular.ttf.png)|![CormorantUpright_500Medium](./CormorantUpright_500Medium.ttf.png)||
-|![CormorantUpright_600SemiBold](./CormorantUpright_600SemiBold.ttf.png)|![CormorantUpright_700Bold](./CormorantUpright_700Bold.ttf.png)|||
+|![CormorantUpright_300Light](.//300Light/CormorantUpright_300Light.ttf.png)|![CormorantUpright_400Regular](.//400Regular/CormorantUpright_400Regular.ttf.png)|![CormorantUpright_500Medium](.//500Medium/CormorantUpright_500Medium.ttf.png)||
+|![CormorantUpright_600SemiBold](.//600SemiBold/CormorantUpright_600SemiBold.ttf.png)|![CormorantUpright_700Bold](.//700Bold/CormorantUpright_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

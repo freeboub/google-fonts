@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PTSerif_400Regular](./PTSerif_400Regular.ttf.png)|![PTSerif_400Regular_Italic](./PTSerif_400Regular_Italic.ttf.png)|![PTSerif_700Bold](./PTSerif_700Bold.ttf.png)||
-|![PTSerif_700Bold_Italic](./PTSerif_700Bold_Italic.ttf.png)||||
+|![PTSerif_400Regular](.//400Regular/PTSerif_400Regular.ttf.png)|![PTSerif_400Regular_Italic](.//400Regular_Italic/PTSerif_400Regular_Italic.ttf.png)|![PTSerif_700Bold](.//700Bold/PTSerif_700Bold.ttf.png)||
+|![PTSerif_700Bold_Italic](.//700Bold_Italic/PTSerif_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

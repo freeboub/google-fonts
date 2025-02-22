@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Lateef_200ExtraLight](./Lateef_200ExtraLight.ttf.png)|![Lateef_300Light](./Lateef_300Light.ttf.png)|![Lateef_400Regular](./Lateef_400Regular.ttf.png)||
-|![Lateef_500Medium](./Lateef_500Medium.ttf.png)|![Lateef_600SemiBold](./Lateef_600SemiBold.ttf.png)|![Lateef_700Bold](./Lateef_700Bold.ttf.png)||
-|![Lateef_800ExtraBold](./Lateef_800ExtraBold.ttf.png)||||
+|![Lateef_200ExtraLight](.//200ExtraLight/Lateef_200ExtraLight.ttf.png)|![Lateef_300Light](.//300Light/Lateef_300Light.ttf.png)|![Lateef_400Regular](.//400Regular/Lateef_400Regular.ttf.png)||
+|![Lateef_500Medium](.//500Medium/Lateef_500Medium.ttf.png)|![Lateef_600SemiBold](.//600SemiBold/Lateef_600SemiBold.ttf.png)|![Lateef_700Bold](.//700Bold/Lateef_700Bold.ttf.png)||
+|![Lateef_800ExtraBold](.//800ExtraBold/Lateef_800ExtraBold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

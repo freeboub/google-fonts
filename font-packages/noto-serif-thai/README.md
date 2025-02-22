@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifThai_100Thin](./NotoSerifThai_100Thin.ttf.png)|![NotoSerifThai_200ExtraLight](./NotoSerifThai_200ExtraLight.ttf.png)|![NotoSerifThai_300Light](./NotoSerifThai_300Light.ttf.png)||
-|![NotoSerifThai_400Regular](./NotoSerifThai_400Regular.ttf.png)|![NotoSerifThai_500Medium](./NotoSerifThai_500Medium.ttf.png)|![NotoSerifThai_600SemiBold](./NotoSerifThai_600SemiBold.ttf.png)||
-|![NotoSerifThai_700Bold](./NotoSerifThai_700Bold.ttf.png)|![NotoSerifThai_800ExtraBold](./NotoSerifThai_800ExtraBold.ttf.png)|![NotoSerifThai_900Black](./NotoSerifThai_900Black.ttf.png)||
+|![NotoSerifThai_100Thin](.//100Thin/NotoSerifThai_100Thin.ttf.png)|![NotoSerifThai_200ExtraLight](.//200ExtraLight/NotoSerifThai_200ExtraLight.ttf.png)|![NotoSerifThai_300Light](.//300Light/NotoSerifThai_300Light.ttf.png)||
+|![NotoSerifThai_400Regular](.//400Regular/NotoSerifThai_400Regular.ttf.png)|![NotoSerifThai_500Medium](.//500Medium/NotoSerifThai_500Medium.ttf.png)|![NotoSerifThai_600SemiBold](.//600SemiBold/NotoSerifThai_600SemiBold.ttf.png)||
+|![NotoSerifThai_700Bold](.//700Bold/NotoSerifThai_700Bold.ttf.png)|![NotoSerifThai_800ExtraBold](.//800ExtraBold/NotoSerifThai_800ExtraBold.ttf.png)|![NotoSerifThai_900Black](.//900Black/NotoSerifThai_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

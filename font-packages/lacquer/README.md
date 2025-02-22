@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Lacquer_400Regular](./Lacquer_400Regular.ttf.png)||||
+|![Lacquer_400Regular](.//400Regular/Lacquer_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

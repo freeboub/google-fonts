@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Texturina_100Thin](./Texturina_100Thin.ttf.png)|![Texturina_200ExtraLight](./Texturina_200ExtraLight.ttf.png)|![Texturina_300Light](./Texturina_300Light.ttf.png)||
-|![Texturina_400Regular](./Texturina_400Regular.ttf.png)|![Texturina_500Medium](./Texturina_500Medium.ttf.png)|![Texturina_600SemiBold](./Texturina_600SemiBold.ttf.png)||
-|![Texturina_700Bold](./Texturina_700Bold.ttf.png)|![Texturina_800ExtraBold](./Texturina_800ExtraBold.ttf.png)|![Texturina_900Black](./Texturina_900Black.ttf.png)||
-|![Texturina_100Thin_Italic](./Texturina_100Thin_Italic.ttf.png)|![Texturina_200ExtraLight_Italic](./Texturina_200ExtraLight_Italic.ttf.png)|![Texturina_300Light_Italic](./Texturina_300Light_Italic.ttf.png)||
-|![Texturina_400Regular_Italic](./Texturina_400Regular_Italic.ttf.png)|![Texturina_500Medium_Italic](./Texturina_500Medium_Italic.ttf.png)|![Texturina_600SemiBold_Italic](./Texturina_600SemiBold_Italic.ttf.png)||
-|![Texturina_700Bold_Italic](./Texturina_700Bold_Italic.ttf.png)|![Texturina_800ExtraBold_Italic](./Texturina_800ExtraBold_Italic.ttf.png)|![Texturina_900Black_Italic](./Texturina_900Black_Italic.ttf.png)||
+|![Texturina_100Thin](.//100Thin/Texturina_100Thin.ttf.png)|![Texturina_200ExtraLight](.//200ExtraLight/Texturina_200ExtraLight.ttf.png)|![Texturina_300Light](.//300Light/Texturina_300Light.ttf.png)||
+|![Texturina_400Regular](.//400Regular/Texturina_400Regular.ttf.png)|![Texturina_500Medium](.//500Medium/Texturina_500Medium.ttf.png)|![Texturina_600SemiBold](.//600SemiBold/Texturina_600SemiBold.ttf.png)||
+|![Texturina_700Bold](.//700Bold/Texturina_700Bold.ttf.png)|![Texturina_800ExtraBold](.//800ExtraBold/Texturina_800ExtraBold.ttf.png)|![Texturina_900Black](.//900Black/Texturina_900Black.ttf.png)||
+|![Texturina_100Thin_Italic](.//100Thin_Italic/Texturina_100Thin_Italic.ttf.png)|![Texturina_200ExtraLight_Italic](.//200ExtraLight_Italic/Texturina_200ExtraLight_Italic.ttf.png)|![Texturina_300Light_Italic](.//300Light_Italic/Texturina_300Light_Italic.ttf.png)||
+|![Texturina_400Regular_Italic](.//400Regular_Italic/Texturina_400Regular_Italic.ttf.png)|![Texturina_500Medium_Italic](.//500Medium_Italic/Texturina_500Medium_Italic.ttf.png)|![Texturina_600SemiBold_Italic](.//600SemiBold_Italic/Texturina_600SemiBold_Italic.ttf.png)||
+|![Texturina_700Bold_Italic](.//700Bold_Italic/Texturina_700Bold_Italic.ttf.png)|![Texturina_800ExtraBold_Italic](.//800ExtraBold_Italic/Texturina_800ExtraBold_Italic.ttf.png)|![Texturina_900Black_Italic](.//900Black_Italic/Texturina_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

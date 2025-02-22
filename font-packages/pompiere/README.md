@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Pompiere_400Regular](./Pompiere_400Regular.ttf.png)||||
+|![Pompiere_400Regular](.//400Regular/Pompiere_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

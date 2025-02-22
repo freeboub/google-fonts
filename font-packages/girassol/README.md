@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Girassol_400Regular](./Girassol_400Regular.ttf.png)||||
+|![Girassol_400Regular](.//400Regular/Girassol_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

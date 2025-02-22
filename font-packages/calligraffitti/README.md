@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Calligraffitti_400Regular](./Calligraffitti_400Regular.ttf.png)||||
+|![Calligraffitti_400Regular](.//400Regular/Calligraffitti_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

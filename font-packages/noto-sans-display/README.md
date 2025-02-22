@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansDisplay_100Thin](./NotoSansDisplay_100Thin.ttf.png)|![NotoSansDisplay_200ExtraLight](./NotoSansDisplay_200ExtraLight.ttf.png)|![NotoSansDisplay_300Light](./NotoSansDisplay_300Light.ttf.png)||
-|![NotoSansDisplay_400Regular](./NotoSansDisplay_400Regular.ttf.png)|![NotoSansDisplay_500Medium](./NotoSansDisplay_500Medium.ttf.png)|![NotoSansDisplay_600SemiBold](./NotoSansDisplay_600SemiBold.ttf.png)||
-|![NotoSansDisplay_700Bold](./NotoSansDisplay_700Bold.ttf.png)|![NotoSansDisplay_800ExtraBold](./NotoSansDisplay_800ExtraBold.ttf.png)|![NotoSansDisplay_900Black](./NotoSansDisplay_900Black.ttf.png)||
-|![NotoSansDisplay_100Thin_Italic](./NotoSansDisplay_100Thin_Italic.ttf.png)|![NotoSansDisplay_200ExtraLight_Italic](./NotoSansDisplay_200ExtraLight_Italic.ttf.png)|![NotoSansDisplay_300Light_Italic](./NotoSansDisplay_300Light_Italic.ttf.png)||
-|![NotoSansDisplay_400Regular_Italic](./NotoSansDisplay_400Regular_Italic.ttf.png)|![NotoSansDisplay_500Medium_Italic](./NotoSansDisplay_500Medium_Italic.ttf.png)|![NotoSansDisplay_600SemiBold_Italic](./NotoSansDisplay_600SemiBold_Italic.ttf.png)||
-|![NotoSansDisplay_700Bold_Italic](./NotoSansDisplay_700Bold_Italic.ttf.png)|![NotoSansDisplay_800ExtraBold_Italic](./NotoSansDisplay_800ExtraBold_Italic.ttf.png)|![NotoSansDisplay_900Black_Italic](./NotoSansDisplay_900Black_Italic.ttf.png)||
+|![NotoSansDisplay_100Thin](.//100Thin/NotoSansDisplay_100Thin.ttf.png)|![NotoSansDisplay_200ExtraLight](.//200ExtraLight/NotoSansDisplay_200ExtraLight.ttf.png)|![NotoSansDisplay_300Light](.//300Light/NotoSansDisplay_300Light.ttf.png)||
+|![NotoSansDisplay_400Regular](.//400Regular/NotoSansDisplay_400Regular.ttf.png)|![NotoSansDisplay_500Medium](.//500Medium/NotoSansDisplay_500Medium.ttf.png)|![NotoSansDisplay_600SemiBold](.//600SemiBold/NotoSansDisplay_600SemiBold.ttf.png)||
+|![NotoSansDisplay_700Bold](.//700Bold/NotoSansDisplay_700Bold.ttf.png)|![NotoSansDisplay_800ExtraBold](.//800ExtraBold/NotoSansDisplay_800ExtraBold.ttf.png)|![NotoSansDisplay_900Black](.//900Black/NotoSansDisplay_900Black.ttf.png)||
+|![NotoSansDisplay_100Thin_Italic](.//100Thin_Italic/NotoSansDisplay_100Thin_Italic.ttf.png)|![NotoSansDisplay_200ExtraLight_Italic](.//200ExtraLight_Italic/NotoSansDisplay_200ExtraLight_Italic.ttf.png)|![NotoSansDisplay_300Light_Italic](.//300Light_Italic/NotoSansDisplay_300Light_Italic.ttf.png)||
+|![NotoSansDisplay_400Regular_Italic](.//400Regular_Italic/NotoSansDisplay_400Regular_Italic.ttf.png)|![NotoSansDisplay_500Medium_Italic](.//500Medium_Italic/NotoSansDisplay_500Medium_Italic.ttf.png)|![NotoSansDisplay_600SemiBold_Italic](.//600SemiBold_Italic/NotoSansDisplay_600SemiBold_Italic.ttf.png)||
+|![NotoSansDisplay_700Bold_Italic](.//700Bold_Italic/NotoSansDisplay_700Bold_Italic.ttf.png)|![NotoSansDisplay_800ExtraBold_Italic](.//800ExtraBold_Italic/NotoSansDisplay_800ExtraBold_Italic.ttf.png)|![NotoSansDisplay_900Black_Italic](.//900Black_Italic/NotoSansDisplay_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

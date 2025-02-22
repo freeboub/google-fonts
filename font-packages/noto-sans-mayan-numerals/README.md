@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansMayanNumerals_400Regular](./NotoSansMayanNumerals_400Regular.ttf.png)||||
+|![NotoSansMayanNumerals_400Regular](.//400Regular/NotoSansMayanNumerals_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

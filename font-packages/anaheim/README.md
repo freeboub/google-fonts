@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Anaheim_400Regular](./Anaheim_400Regular.ttf.png)|![Anaheim_500Medium](./Anaheim_500Medium.ttf.png)|![Anaheim_600SemiBold](./Anaheim_600SemiBold.ttf.png)||
-|![Anaheim_700Bold](./Anaheim_700Bold.ttf.png)|![Anaheim_800ExtraBold](./Anaheim_800ExtraBold.ttf.png)|||
+|![Anaheim_400Regular](.//400Regular/Anaheim_400Regular.ttf.png)|![Anaheim_500Medium](.//500Medium/Anaheim_500Medium.ttf.png)|![Anaheim_600SemiBold](.//600SemiBold/Anaheim_600SemiBold.ttf.png)||
+|![Anaheim_700Bold](.//700Bold/Anaheim_700Bold.ttf.png)|![Anaheim_800ExtraBold](.//800ExtraBold/Anaheim_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

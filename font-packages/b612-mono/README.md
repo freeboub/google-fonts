@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![B612Mono_400Regular](./B612Mono_400Regular.ttf.png)|![B612Mono_400Regular_Italic](./B612Mono_400Regular_Italic.ttf.png)|![B612Mono_700Bold](./B612Mono_700Bold.ttf.png)||
-|![B612Mono_700Bold_Italic](./B612Mono_700Bold_Italic.ttf.png)||||
+|![B612Mono_400Regular](.//400Regular/B612Mono_400Regular.ttf.png)|![B612Mono_400Regular_Italic](.//400Regular_Italic/B612Mono_400Regular_Italic.ttf.png)|![B612Mono_700Bold](.//700Bold/B612Mono_700Bold.ttf.png)||
+|![B612Mono_700Bold_Italic](.//700Bold_Italic/B612Mono_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

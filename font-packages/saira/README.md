@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Saira_100Thin](./Saira_100Thin.ttf.png)|![Saira_200ExtraLight](./Saira_200ExtraLight.ttf.png)|![Saira_300Light](./Saira_300Light.ttf.png)||
-|![Saira_400Regular](./Saira_400Regular.ttf.png)|![Saira_500Medium](./Saira_500Medium.ttf.png)|![Saira_600SemiBold](./Saira_600SemiBold.ttf.png)||
-|![Saira_700Bold](./Saira_700Bold.ttf.png)|![Saira_800ExtraBold](./Saira_800ExtraBold.ttf.png)|![Saira_900Black](./Saira_900Black.ttf.png)||
-|![Saira_100Thin_Italic](./Saira_100Thin_Italic.ttf.png)|![Saira_200ExtraLight_Italic](./Saira_200ExtraLight_Italic.ttf.png)|![Saira_300Light_Italic](./Saira_300Light_Italic.ttf.png)||
-|![Saira_400Regular_Italic](./Saira_400Regular_Italic.ttf.png)|![Saira_500Medium_Italic](./Saira_500Medium_Italic.ttf.png)|![Saira_600SemiBold_Italic](./Saira_600SemiBold_Italic.ttf.png)||
-|![Saira_700Bold_Italic](./Saira_700Bold_Italic.ttf.png)|![Saira_800ExtraBold_Italic](./Saira_800ExtraBold_Italic.ttf.png)|![Saira_900Black_Italic](./Saira_900Black_Italic.ttf.png)||
+|![Saira_100Thin](.//100Thin/Saira_100Thin.ttf.png)|![Saira_200ExtraLight](.//200ExtraLight/Saira_200ExtraLight.ttf.png)|![Saira_300Light](.//300Light/Saira_300Light.ttf.png)||
+|![Saira_400Regular](.//400Regular/Saira_400Regular.ttf.png)|![Saira_500Medium](.//500Medium/Saira_500Medium.ttf.png)|![Saira_600SemiBold](.//600SemiBold/Saira_600SemiBold.ttf.png)||
+|![Saira_700Bold](.//700Bold/Saira_700Bold.ttf.png)|![Saira_800ExtraBold](.//800ExtraBold/Saira_800ExtraBold.ttf.png)|![Saira_900Black](.//900Black/Saira_900Black.ttf.png)||
+|![Saira_100Thin_Italic](.//100Thin_Italic/Saira_100Thin_Italic.ttf.png)|![Saira_200ExtraLight_Italic](.//200ExtraLight_Italic/Saira_200ExtraLight_Italic.ttf.png)|![Saira_300Light_Italic](.//300Light_Italic/Saira_300Light_Italic.ttf.png)||
+|![Saira_400Regular_Italic](.//400Regular_Italic/Saira_400Regular_Italic.ttf.png)|![Saira_500Medium_Italic](.//500Medium_Italic/Saira_500Medium_Italic.ttf.png)|![Saira_600SemiBold_Italic](.//600SemiBold_Italic/Saira_600SemiBold_Italic.ttf.png)||
+|![Saira_700Bold_Italic](.//700Bold_Italic/Saira_700Bold_Italic.ttf.png)|![Saira_800ExtraBold_Italic](.//800ExtraBold_Italic/Saira_800ExtraBold_Italic.ttf.png)|![Saira_900Black_Italic](.//900Black_Italic/Saira_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

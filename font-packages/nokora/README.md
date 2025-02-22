@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Nokora_100Thin](./Nokora_100Thin.ttf.png)|![Nokora_300Light](./Nokora_300Light.ttf.png)|![Nokora_400Regular](./Nokora_400Regular.ttf.png)||
-|![Nokora_700Bold](./Nokora_700Bold.ttf.png)|![Nokora_900Black](./Nokora_900Black.ttf.png)|||
+|![Nokora_100Thin](.//100Thin/Nokora_100Thin.ttf.png)|![Nokora_300Light](.//300Light/Nokora_300Light.ttf.png)|![Nokora_400Regular](.//400Regular/Nokora_400Regular.ttf.png)||
+|![Nokora_700Bold](.//700Bold/Nokora_700Bold.ttf.png)|![Nokora_900Black](.//900Black/Nokora_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

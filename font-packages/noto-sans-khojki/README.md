@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansKhojki_400Regular](./NotoSansKhojki_400Regular.ttf.png)||||
+|![NotoSansKhojki_400Regular](.//400Regular/NotoSansKhojki_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

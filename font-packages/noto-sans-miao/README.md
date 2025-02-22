@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansMiao_400Regular](./NotoSansMiao_400Regular.ttf.png)||||
+|![NotoSansMiao_400Regular](.//400Regular/NotoSansMiao_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

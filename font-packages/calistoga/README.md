@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Calistoga_400Regular](./Calistoga_400Regular.ttf.png)||||
+|![Calistoga_400Regular](.//400Regular/Calistoga_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

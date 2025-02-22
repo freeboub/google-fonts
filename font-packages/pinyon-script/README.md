@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PinyonScript_400Regular](./PinyonScript_400Regular.ttf.png)||||
+|![PinyonScript_400Regular](.//400Regular/PinyonScript_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

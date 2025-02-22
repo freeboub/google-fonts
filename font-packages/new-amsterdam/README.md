@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NewAmsterdam_400Regular](./NewAmsterdam_400Regular.ttf.png)||||
+|![NewAmsterdam_400Regular](.//400Regular/NewAmsterdam_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Revalia_400Regular](./Revalia_400Regular.ttf.png)||||
+|![Revalia_400Regular](.//400Regular/Revalia_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

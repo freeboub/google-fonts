@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Sen_400Regular](./Sen_400Regular.ttf.png)|![Sen_500Medium](./Sen_500Medium.ttf.png)|![Sen_600SemiBold](./Sen_600SemiBold.ttf.png)||
-|![Sen_700Bold](./Sen_700Bold.ttf.png)|![Sen_800ExtraBold](./Sen_800ExtraBold.ttf.png)|||
+|![Sen_400Regular](.//400Regular/Sen_400Regular.ttf.png)|![Sen_500Medium](.//500Medium/Sen_500Medium.ttf.png)|![Sen_600SemiBold](.//600SemiBold/Sen_600SemiBold.ttf.png)||
+|![Sen_700Bold](.//700Bold/Sen_700Bold.ttf.png)|![Sen_800ExtraBold](.//800ExtraBold/Sen_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

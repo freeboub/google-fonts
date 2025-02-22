@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Anuphan_100Thin](./Anuphan_100Thin.ttf.png)|![Anuphan_200ExtraLight](./Anuphan_200ExtraLight.ttf.png)|![Anuphan_300Light](./Anuphan_300Light.ttf.png)||
-|![Anuphan_400Regular](./Anuphan_400Regular.ttf.png)|![Anuphan_500Medium](./Anuphan_500Medium.ttf.png)|![Anuphan_600SemiBold](./Anuphan_600SemiBold.ttf.png)||
-|![Anuphan_700Bold](./Anuphan_700Bold.ttf.png)||||
+|![Anuphan_100Thin](.//100Thin/Anuphan_100Thin.ttf.png)|![Anuphan_200ExtraLight](.//200ExtraLight/Anuphan_200ExtraLight.ttf.png)|![Anuphan_300Light](.//300Light/Anuphan_300Light.ttf.png)||
+|![Anuphan_400Regular](.//400Regular/Anuphan_400Regular.ttf.png)|![Anuphan_500Medium](.//500Medium/Anuphan_500Medium.ttf.png)|![Anuphan_600SemiBold](.//600SemiBold/Anuphan_600SemiBold.ttf.png)||
+|![Anuphan_700Bold](.//700Bold/Anuphan_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

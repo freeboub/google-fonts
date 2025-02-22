@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Handjet_100Thin](./Handjet_100Thin.ttf.png)|![Handjet_200ExtraLight](./Handjet_200ExtraLight.ttf.png)|![Handjet_300Light](./Handjet_300Light.ttf.png)||
-|![Handjet_400Regular](./Handjet_400Regular.ttf.png)|![Handjet_500Medium](./Handjet_500Medium.ttf.png)|![Handjet_600SemiBold](./Handjet_600SemiBold.ttf.png)||
-|![Handjet_700Bold](./Handjet_700Bold.ttf.png)|![Handjet_800ExtraBold](./Handjet_800ExtraBold.ttf.png)|![Handjet_900Black](./Handjet_900Black.ttf.png)||
+|![Handjet_100Thin](.//100Thin/Handjet_100Thin.ttf.png)|![Handjet_200ExtraLight](.//200ExtraLight/Handjet_200ExtraLight.ttf.png)|![Handjet_300Light](.//300Light/Handjet_300Light.ttf.png)||
+|![Handjet_400Regular](.//400Regular/Handjet_400Regular.ttf.png)|![Handjet_500Medium](.//500Medium/Handjet_500Medium.ttf.png)|![Handjet_600SemiBold](.//600SemiBold/Handjet_600SemiBold.ttf.png)||
+|![Handjet_700Bold](.//700Bold/Handjet_700Bold.ttf.png)|![Handjet_800ExtraBold](.//800ExtraBold/Handjet_800ExtraBold.ttf.png)|![Handjet_900Black](.//900Black/Handjet_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

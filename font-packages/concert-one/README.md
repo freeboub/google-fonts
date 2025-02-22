@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ConcertOne_400Regular](./ConcertOne_400Regular.ttf.png)||||
+|![ConcertOne_400Regular](.//400Regular/ConcertOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

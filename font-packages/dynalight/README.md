@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Dynalight_400Regular](./Dynalight_400Regular.ttf.png)||||
+|![Dynalight_400Regular](.//400Regular/Dynalight_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

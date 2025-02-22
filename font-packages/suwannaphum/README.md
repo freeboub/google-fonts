@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Suwannaphum_100Thin](./Suwannaphum_100Thin.ttf.png)|![Suwannaphum_300Light](./Suwannaphum_300Light.ttf.png)|![Suwannaphum_400Regular](./Suwannaphum_400Regular.ttf.png)||
-|![Suwannaphum_700Bold](./Suwannaphum_700Bold.ttf.png)|![Suwannaphum_900Black](./Suwannaphum_900Black.ttf.png)|||
+|![Suwannaphum_100Thin](.//100Thin/Suwannaphum_100Thin.ttf.png)|![Suwannaphum_300Light](.//300Light/Suwannaphum_300Light.ttf.png)|![Suwannaphum_400Regular](.//400Regular/Suwannaphum_400Regular.ttf.png)||
+|![Suwannaphum_700Bold](.//700Bold/Suwannaphum_700Bold.ttf.png)|![Suwannaphum_900Black](.//900Black/Suwannaphum_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

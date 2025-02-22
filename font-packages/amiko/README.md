@@ -89,7 +89,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Amiko_400Regular](./Amiko_400Regular.ttf.png)|![Amiko_600SemiBold](./Amiko_600SemiBold.ttf.png)|![Amiko_700Bold](./Amiko_700Bold.ttf.png)||
+|![Amiko_400Regular](.//400Regular/Amiko_400Regular.ttf.png)|![Amiko_600SemiBold](.//600SemiBold/Amiko_600SemiBold.ttf.png)|![Amiko_700Bold](.//700Bold/Amiko_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

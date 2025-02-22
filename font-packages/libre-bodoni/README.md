@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LibreBodoni_400Regular](./LibreBodoni_400Regular.ttf.png)|![LibreBodoni_500Medium](./LibreBodoni_500Medium.ttf.png)|![LibreBodoni_600SemiBold](./LibreBodoni_600SemiBold.ttf.png)||
-|![LibreBodoni_700Bold](./LibreBodoni_700Bold.ttf.png)|![LibreBodoni_400Regular_Italic](./LibreBodoni_400Regular_Italic.ttf.png)|![LibreBodoni_500Medium_Italic](./LibreBodoni_500Medium_Italic.ttf.png)||
-|![LibreBodoni_600SemiBold_Italic](./LibreBodoni_600SemiBold_Italic.ttf.png)|![LibreBodoni_700Bold_Italic](./LibreBodoni_700Bold_Italic.ttf.png)|||
+|![LibreBodoni_400Regular](.//400Regular/LibreBodoni_400Regular.ttf.png)|![LibreBodoni_500Medium](.//500Medium/LibreBodoni_500Medium.ttf.png)|![LibreBodoni_600SemiBold](.//600SemiBold/LibreBodoni_600SemiBold.ttf.png)||
+|![LibreBodoni_700Bold](.//700Bold/LibreBodoni_700Bold.ttf.png)|![LibreBodoni_400Regular_Italic](.//400Regular_Italic/LibreBodoni_400Regular_Italic.ttf.png)|![LibreBodoni_500Medium_Italic](.//500Medium_Italic/LibreBodoni_500Medium_Italic.ttf.png)||
+|![LibreBodoni_600SemiBold_Italic](.//600SemiBold_Italic/LibreBodoni_600SemiBold_Italic.ttf.png)|![LibreBodoni_700Bold_Italic](.//700Bold_Italic/LibreBodoni_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansSyriac_100Thin](./NotoSansSyriac_100Thin.ttf.png)|![NotoSansSyriac_200ExtraLight](./NotoSansSyriac_200ExtraLight.ttf.png)|![NotoSansSyriac_300Light](./NotoSansSyriac_300Light.ttf.png)||
-|![NotoSansSyriac_400Regular](./NotoSansSyriac_400Regular.ttf.png)|![NotoSansSyriac_500Medium](./NotoSansSyriac_500Medium.ttf.png)|![NotoSansSyriac_600SemiBold](./NotoSansSyriac_600SemiBold.ttf.png)||
-|![NotoSansSyriac_700Bold](./NotoSansSyriac_700Bold.ttf.png)|![NotoSansSyriac_800ExtraBold](./NotoSansSyriac_800ExtraBold.ttf.png)|![NotoSansSyriac_900Black](./NotoSansSyriac_900Black.ttf.png)||
+|![NotoSansSyriac_100Thin](.//100Thin/NotoSansSyriac_100Thin.ttf.png)|![NotoSansSyriac_200ExtraLight](.//200ExtraLight/NotoSansSyriac_200ExtraLight.ttf.png)|![NotoSansSyriac_300Light](.//300Light/NotoSansSyriac_300Light.ttf.png)||
+|![NotoSansSyriac_400Regular](.//400Regular/NotoSansSyriac_400Regular.ttf.png)|![NotoSansSyriac_500Medium](.//500Medium/NotoSansSyriac_500Medium.ttf.png)|![NotoSansSyriac_600SemiBold](.//600SemiBold/NotoSansSyriac_600SemiBold.ttf.png)||
+|![NotoSansSyriac_700Bold](.//700Bold/NotoSansSyriac_700Bold.ttf.png)|![NotoSansSyriac_800ExtraBold](.//800ExtraBold/NotoSansSyriac_800ExtraBold.ttf.png)|![NotoSansSyriac_900Black](.//900Black/NotoSansSyriac_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![InstrumentSerif_400Regular](./InstrumentSerif_400Regular.ttf.png)|![InstrumentSerif_400Regular_Italic](./InstrumentSerif_400Regular_Italic.ttf.png)|||
+|![InstrumentSerif_400Regular](.//400Regular/InstrumentSerif_400Regular.ttf.png)|![InstrumentSerif_400Regular_Italic](.//400Regular_Italic/InstrumentSerif_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

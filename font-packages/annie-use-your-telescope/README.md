@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AnnieUseYourTelescope_400Regular](./AnnieUseYourTelescope_400Regular.ttf.png)||||
+|![AnnieUseYourTelescope_400Regular](.//400Regular/AnnieUseYourTelescope_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

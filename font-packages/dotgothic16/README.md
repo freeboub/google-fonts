@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![DotGothic16_400Regular](./DotGothic16_400Regular.ttf.png)||||
+|![DotGothic16_400Regular](.//400Regular/DotGothic16_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

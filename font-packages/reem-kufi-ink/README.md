@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ReemKufiInk_400Regular](./ReemKufiInk_400Regular.ttf.png)||||
+|![ReemKufiInk_400Regular](.//400Regular/ReemKufiInk_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

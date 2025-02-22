@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Ruluko_400Regular](./Ruluko_400Regular.ttf.png)||||
+|![Ruluko_400Regular](.//400Regular/Ruluko_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

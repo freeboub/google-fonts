@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ShipporiMinchoB1_400Regular](./ShipporiMinchoB1_400Regular.ttf.png)|![ShipporiMinchoB1_500Medium](./ShipporiMinchoB1_500Medium.ttf.png)|![ShipporiMinchoB1_600SemiBold](./ShipporiMinchoB1_600SemiBold.ttf.png)||
-|![ShipporiMinchoB1_700Bold](./ShipporiMinchoB1_700Bold.ttf.png)|![ShipporiMinchoB1_800ExtraBold](./ShipporiMinchoB1_800ExtraBold.ttf.png)|||
+|![ShipporiMinchoB1_400Regular](.//400Regular/ShipporiMinchoB1_400Regular.ttf.png)|![ShipporiMinchoB1_500Medium](.//500Medium/ShipporiMinchoB1_500Medium.ttf.png)|![ShipporiMinchoB1_600SemiBold](.//600SemiBold/ShipporiMinchoB1_600SemiBold.ttf.png)||
+|![ShipporiMinchoB1_700Bold](.//700Bold/ShipporiMinchoB1_700Bold.ttf.png)|![ShipporiMinchoB1_800ExtraBold](.//800ExtraBold/ShipporiMinchoB1_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![OverlockSC_400Regular](./OverlockSC_400Regular.ttf.png)||||
+|![OverlockSC_400Regular](.//400Regular/OverlockSC_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RobotoFlex_400Regular](./RobotoFlex_400Regular.ttf.png)||||
+|![RobotoFlex_400Regular](.//400Regular/RobotoFlex_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

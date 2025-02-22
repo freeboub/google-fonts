@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Charm_400Regular](./Charm_400Regular.ttf.png)|![Charm_700Bold](./Charm_700Bold.ttf.png)|||
+|![Charm_400Regular](.//400Regular/Charm_400Regular.ttf.png)|![Charm_700Bold](.//700Bold/Charm_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

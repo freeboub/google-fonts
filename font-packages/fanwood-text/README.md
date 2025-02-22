@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![FanwoodText_400Regular](./FanwoodText_400Regular.ttf.png)|![FanwoodText_400Regular_Italic](./FanwoodText_400Regular_Italic.ttf.png)|||
+|![FanwoodText_400Regular](.//400Regular/FanwoodText_400Regular.ttf.png)|![FanwoodText_400Regular_Italic](.//400Regular_Italic/FanwoodText_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

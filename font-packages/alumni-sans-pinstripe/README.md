@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AlumniSansPinstripe_400Regular](./AlumniSansPinstripe_400Regular.ttf.png)|![AlumniSansPinstripe_400Regular_Italic](./AlumniSansPinstripe_400Regular_Italic.ttf.png)|||
+|![AlumniSansPinstripe_400Regular](.//400Regular/AlumniSansPinstripe_400Regular.ttf.png)|![AlumniSansPinstripe_400Regular_Italic](.//400Regular_Italic/AlumniSansPinstripe_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

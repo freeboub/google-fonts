@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Merienda_300Light](./Merienda_300Light.ttf.png)|![Merienda_400Regular](./Merienda_400Regular.ttf.png)|![Merienda_500Medium](./Merienda_500Medium.ttf.png)||
-|![Merienda_600SemiBold](./Merienda_600SemiBold.ttf.png)|![Merienda_700Bold](./Merienda_700Bold.ttf.png)|![Merienda_800ExtraBold](./Merienda_800ExtraBold.ttf.png)||
-|![Merienda_900Black](./Merienda_900Black.ttf.png)||||
+|![Merienda_300Light](.//300Light/Merienda_300Light.ttf.png)|![Merienda_400Regular](.//400Regular/Merienda_400Regular.ttf.png)|![Merienda_500Medium](.//500Medium/Merienda_500Medium.ttf.png)||
+|![Merienda_600SemiBold](.//600SemiBold/Merienda_600SemiBold.ttf.png)|![Merienda_700Bold](.//700Bold/Merienda_700Bold.ttf.png)|![Merienda_800ExtraBold](.//800ExtraBold/Merienda_800ExtraBold.ttf.png)||
+|![Merienda_900Black](.//900Black/Merienda_900Black.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

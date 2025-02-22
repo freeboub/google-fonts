@@ -180,10 +180,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Cormorant_300Light](./Cormorant_300Light.ttf.png)|![Cormorant_400Regular](./Cormorant_400Regular.ttf.png)|![Cormorant_500Medium](./Cormorant_500Medium.ttf.png)||
-|![Cormorant_600SemiBold](./Cormorant_600SemiBold.ttf.png)|![Cormorant_700Bold](./Cormorant_700Bold.ttf.png)|![Cormorant_300Light_Italic](./Cormorant_300Light_Italic.ttf.png)||
-|![Cormorant_400Regular_Italic](./Cormorant_400Regular_Italic.ttf.png)|![Cormorant_500Medium_Italic](./Cormorant_500Medium_Italic.ttf.png)|![Cormorant_600SemiBold_Italic](./Cormorant_600SemiBold_Italic.ttf.png)||
-|![Cormorant_700Bold_Italic](./Cormorant_700Bold_Italic.ttf.png)||||
+|![Cormorant_300Light](.//300Light/Cormorant_300Light.ttf.png)|![Cormorant_400Regular](.//400Regular/Cormorant_400Regular.ttf.png)|![Cormorant_500Medium](.//500Medium/Cormorant_500Medium.ttf.png)||
+|![Cormorant_600SemiBold](.//600SemiBold/Cormorant_600SemiBold.ttf.png)|![Cormorant_700Bold](.//700Bold/Cormorant_700Bold.ttf.png)|![Cormorant_300Light_Italic](.//300Light_Italic/Cormorant_300Light_Italic.ttf.png)||
+|![Cormorant_400Regular_Italic](.//400Regular_Italic/Cormorant_400Regular_Italic.ttf.png)|![Cormorant_500Medium_Italic](.//500Medium_Italic/Cormorant_500Medium_Italic.ttf.png)|![Cormorant_600SemiBold_Italic](.//600SemiBold_Italic/Cormorant_600SemiBold_Italic.ttf.png)||
+|![Cormorant_700Bold_Italic](.//700Bold_Italic/Cormorant_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

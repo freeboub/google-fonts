@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MPLUSCodeLatin_100Thin](./MPLUSCodeLatin_100Thin.ttf.png)|![MPLUSCodeLatin_200ExtraLight](./MPLUSCodeLatin_200ExtraLight.ttf.png)|![MPLUSCodeLatin_300Light](./MPLUSCodeLatin_300Light.ttf.png)||
-|![MPLUSCodeLatin_400Regular](./MPLUSCodeLatin_400Regular.ttf.png)|![MPLUSCodeLatin_500Medium](./MPLUSCodeLatin_500Medium.ttf.png)|![MPLUSCodeLatin_600SemiBold](./MPLUSCodeLatin_600SemiBold.ttf.png)||
-|![MPLUSCodeLatin_700Bold](./MPLUSCodeLatin_700Bold.ttf.png)||||
+|![MPLUSCodeLatin_100Thin](.//100Thin/MPLUSCodeLatin_100Thin.ttf.png)|![MPLUSCodeLatin_200ExtraLight](.//200ExtraLight/MPLUSCodeLatin_200ExtraLight.ttf.png)|![MPLUSCodeLatin_300Light](.//300Light/MPLUSCodeLatin_300Light.ttf.png)||
+|![MPLUSCodeLatin_400Regular](.//400Regular/MPLUSCodeLatin_400Regular.ttf.png)|![MPLUSCodeLatin_500Medium](.//500Medium/MPLUSCodeLatin_500Medium.ttf.png)|![MPLUSCodeLatin_600SemiBold](.//600SemiBold/MPLUSCodeLatin_600SemiBold.ttf.png)||
+|![MPLUSCodeLatin_700Bold](.//700Bold/MPLUSCodeLatin_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

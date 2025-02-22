@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PoetsenOne_400Regular](./PoetsenOne_400Regular.ttf.png)||||
+|![PoetsenOne_400Regular](.//400Regular/PoetsenOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

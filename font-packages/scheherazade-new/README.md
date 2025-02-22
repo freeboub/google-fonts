@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ScheherazadeNew_400Regular](./ScheherazadeNew_400Regular.ttf.png)|![ScheherazadeNew_500Medium](./ScheherazadeNew_500Medium.ttf.png)|![ScheherazadeNew_600SemiBold](./ScheherazadeNew_600SemiBold.ttf.png)||
-|![ScheherazadeNew_700Bold](./ScheherazadeNew_700Bold.ttf.png)||||
+|![ScheherazadeNew_400Regular](.//400Regular/ScheherazadeNew_400Regular.ttf.png)|![ScheherazadeNew_500Medium](.//500Medium/ScheherazadeNew_500Medium.ttf.png)|![ScheherazadeNew_600SemiBold](.//600SemiBold/ScheherazadeNew_600SemiBold.ttf.png)||
+|![ScheherazadeNew_700Bold](.//700Bold/ScheherazadeNew_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

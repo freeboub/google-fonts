@@ -232,11 +232,11 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Playfair_300Light](./Playfair_300Light.ttf.png)|![Playfair_400Regular](./Playfair_400Regular.ttf.png)|![Playfair_500Medium](./Playfair_500Medium.ttf.png)||
-|![Playfair_600SemiBold](./Playfair_600SemiBold.ttf.png)|![Playfair_700Bold](./Playfair_700Bold.ttf.png)|![Playfair_800ExtraBold](./Playfair_800ExtraBold.ttf.png)||
-|![Playfair_900Black](./Playfair_900Black.ttf.png)|![Playfair_300Light_Italic](./Playfair_300Light_Italic.ttf.png)|![Playfair_400Regular_Italic](./Playfair_400Regular_Italic.ttf.png)||
-|![Playfair_500Medium_Italic](./Playfair_500Medium_Italic.ttf.png)|![Playfair_600SemiBold_Italic](./Playfair_600SemiBold_Italic.ttf.png)|![Playfair_700Bold_Italic](./Playfair_700Bold_Italic.ttf.png)||
-|![Playfair_800ExtraBold_Italic](./Playfair_800ExtraBold_Italic.ttf.png)|![Playfair_900Black_Italic](./Playfair_900Black_Italic.ttf.png)|||
+|![Playfair_300Light](.//300Light/Playfair_300Light.ttf.png)|![Playfair_400Regular](.//400Regular/Playfair_400Regular.ttf.png)|![Playfair_500Medium](.//500Medium/Playfair_500Medium.ttf.png)||
+|![Playfair_600SemiBold](.//600SemiBold/Playfair_600SemiBold.ttf.png)|![Playfair_700Bold](.//700Bold/Playfair_700Bold.ttf.png)|![Playfair_800ExtraBold](.//800ExtraBold/Playfair_800ExtraBold.ttf.png)||
+|![Playfair_900Black](.//900Black/Playfair_900Black.ttf.png)|![Playfair_300Light_Italic](.//300Light_Italic/Playfair_300Light_Italic.ttf.png)|![Playfair_400Regular_Italic](.//400Regular_Italic/Playfair_400Regular_Italic.ttf.png)||
+|![Playfair_500Medium_Italic](.//500Medium_Italic/Playfair_500Medium_Italic.ttf.png)|![Playfair_600SemiBold_Italic](.//600SemiBold_Italic/Playfair_600SemiBold_Italic.ttf.png)|![Playfair_700Bold_Italic](.//700Bold_Italic/Playfair_700Bold_Italic.ttf.png)||
+|![Playfair_800ExtraBold_Italic](.//800ExtraBold_Italic/Playfair_800ExtraBold_Italic.ttf.png)|![Playfair_900Black_Italic](.//900Black_Italic/Playfair_900Black_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ShadowsIntoLight_400Regular](./ShadowsIntoLight_400Regular.ttf.png)||||
+|![ShadowsIntoLight_400Regular](.//400Regular/ShadowsIntoLight_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

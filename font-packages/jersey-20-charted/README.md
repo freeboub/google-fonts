@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Jersey20Charted_400Regular](./Jersey20Charted_400Regular.ttf.png)||||
+|![Jersey20Charted_400Regular](.//400Regular/Jersey20Charted_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

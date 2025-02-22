@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Neonderthaw_400Regular](./Neonderthaw_400Regular.ttf.png)||||
+|![Neonderthaw_400Regular](.//400Regular/Neonderthaw_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

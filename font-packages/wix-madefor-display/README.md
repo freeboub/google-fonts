@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![WixMadeforDisplay_400Regular](./WixMadeforDisplay_400Regular.ttf.png)|![WixMadeforDisplay_500Medium](./WixMadeforDisplay_500Medium.ttf.png)|![WixMadeforDisplay_600SemiBold](./WixMadeforDisplay_600SemiBold.ttf.png)||
-|![WixMadeforDisplay_700Bold](./WixMadeforDisplay_700Bold.ttf.png)|![WixMadeforDisplay_800ExtraBold](./WixMadeforDisplay_800ExtraBold.ttf.png)|||
+|![WixMadeforDisplay_400Regular](.//400Regular/WixMadeforDisplay_400Regular.ttf.png)|![WixMadeforDisplay_500Medium](.//500Medium/WixMadeforDisplay_500Medium.ttf.png)|![WixMadeforDisplay_600SemiBold](.//600SemiBold/WixMadeforDisplay_600SemiBold.ttf.png)||
+|![WixMadeforDisplay_700Bold](.//700Bold/WixMadeforDisplay_700Bold.ttf.png)|![WixMadeforDisplay_800ExtraBold](.//800ExtraBold/WixMadeforDisplay_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

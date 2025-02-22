@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MissFajardose_400Regular](./MissFajardose_400Regular.ttf.png)||||
+|![MissFajardose_400Regular](.//400Regular/MissFajardose_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

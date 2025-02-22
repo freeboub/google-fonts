@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![IndieFlower_400Regular](./IndieFlower_400Regular.ttf.png)||||
+|![IndieFlower_400Regular](.//400Regular/IndieFlower_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

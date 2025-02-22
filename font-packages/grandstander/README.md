@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Grandstander_100Thin](./Grandstander_100Thin.ttf.png)|![Grandstander_200ExtraLight](./Grandstander_200ExtraLight.ttf.png)|![Grandstander_300Light](./Grandstander_300Light.ttf.png)||
-|![Grandstander_400Regular](./Grandstander_400Regular.ttf.png)|![Grandstander_500Medium](./Grandstander_500Medium.ttf.png)|![Grandstander_600SemiBold](./Grandstander_600SemiBold.ttf.png)||
-|![Grandstander_700Bold](./Grandstander_700Bold.ttf.png)|![Grandstander_800ExtraBold](./Grandstander_800ExtraBold.ttf.png)|![Grandstander_900Black](./Grandstander_900Black.ttf.png)||
-|![Grandstander_100Thin_Italic](./Grandstander_100Thin_Italic.ttf.png)|![Grandstander_200ExtraLight_Italic](./Grandstander_200ExtraLight_Italic.ttf.png)|![Grandstander_300Light_Italic](./Grandstander_300Light_Italic.ttf.png)||
-|![Grandstander_400Regular_Italic](./Grandstander_400Regular_Italic.ttf.png)|![Grandstander_500Medium_Italic](./Grandstander_500Medium_Italic.ttf.png)|![Grandstander_600SemiBold_Italic](./Grandstander_600SemiBold_Italic.ttf.png)||
-|![Grandstander_700Bold_Italic](./Grandstander_700Bold_Italic.ttf.png)|![Grandstander_800ExtraBold_Italic](./Grandstander_800ExtraBold_Italic.ttf.png)|![Grandstander_900Black_Italic](./Grandstander_900Black_Italic.ttf.png)||
+|![Grandstander_100Thin](.//100Thin/Grandstander_100Thin.ttf.png)|![Grandstander_200ExtraLight](.//200ExtraLight/Grandstander_200ExtraLight.ttf.png)|![Grandstander_300Light](.//300Light/Grandstander_300Light.ttf.png)||
+|![Grandstander_400Regular](.//400Regular/Grandstander_400Regular.ttf.png)|![Grandstander_500Medium](.//500Medium/Grandstander_500Medium.ttf.png)|![Grandstander_600SemiBold](.//600SemiBold/Grandstander_600SemiBold.ttf.png)||
+|![Grandstander_700Bold](.//700Bold/Grandstander_700Bold.ttf.png)|![Grandstander_800ExtraBold](.//800ExtraBold/Grandstander_800ExtraBold.ttf.png)|![Grandstander_900Black](.//900Black/Grandstander_900Black.ttf.png)||
+|![Grandstander_100Thin_Italic](.//100Thin_Italic/Grandstander_100Thin_Italic.ttf.png)|![Grandstander_200ExtraLight_Italic](.//200ExtraLight_Italic/Grandstander_200ExtraLight_Italic.ttf.png)|![Grandstander_300Light_Italic](.//300Light_Italic/Grandstander_300Light_Italic.ttf.png)||
+|![Grandstander_400Regular_Italic](.//400Regular_Italic/Grandstander_400Regular_Italic.ttf.png)|![Grandstander_500Medium_Italic](.//500Medium_Italic/Grandstander_500Medium_Italic.ttf.png)|![Grandstander_600SemiBold_Italic](.//600SemiBold_Italic/Grandstander_600SemiBold_Italic.ttf.png)||
+|![Grandstander_700Bold_Italic](.//700Bold_Italic/Grandstander_700Bold_Italic.ttf.png)|![Grandstander_800ExtraBold_Italic](.//800ExtraBold_Italic/Grandstander_800ExtraBold_Italic.ttf.png)|![Grandstander_900Black_Italic](.//900Black_Italic/Grandstander_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BIZUDGothic_400Regular](./BIZUDGothic_400Regular.ttf.png)|![BIZUDGothic_700Bold](./BIZUDGothic_700Bold.ttf.png)|||
+|![BIZUDGothic_400Regular](.//400Regular/BIZUDGothic_400Regular.ttf.png)|![BIZUDGothic_700Bold](.//700Bold/BIZUDGothic_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

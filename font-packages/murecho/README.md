@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Murecho_100Thin](./Murecho_100Thin.ttf.png)|![Murecho_200ExtraLight](./Murecho_200ExtraLight.ttf.png)|![Murecho_300Light](./Murecho_300Light.ttf.png)||
-|![Murecho_400Regular](./Murecho_400Regular.ttf.png)|![Murecho_500Medium](./Murecho_500Medium.ttf.png)|![Murecho_600SemiBold](./Murecho_600SemiBold.ttf.png)||
-|![Murecho_700Bold](./Murecho_700Bold.ttf.png)|![Murecho_800ExtraBold](./Murecho_800ExtraBold.ttf.png)|![Murecho_900Black](./Murecho_900Black.ttf.png)||
+|![Murecho_100Thin](.//100Thin/Murecho_100Thin.ttf.png)|![Murecho_200ExtraLight](.//200ExtraLight/Murecho_200ExtraLight.ttf.png)|![Murecho_300Light](.//300Light/Murecho_300Light.ttf.png)||
+|![Murecho_400Regular](.//400Regular/Murecho_400Regular.ttf.png)|![Murecho_500Medium](.//500Medium/Murecho_500Medium.ttf.png)|![Murecho_600SemiBold](.//600SemiBold/Murecho_600SemiBold.ttf.png)||
+|![Murecho_700Bold](.//700Bold/Murecho_700Bold.ttf.png)|![Murecho_800ExtraBold](.//800ExtraBold/Murecho_800ExtraBold.ttf.png)|![Murecho_900Black](.//900Black/Murecho_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

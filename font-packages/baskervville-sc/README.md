@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BaskervvilleSC_400Regular](./BaskervvilleSC_400Regular.ttf.png)||||
+|![BaskervvilleSC_400Regular](.//400Regular/BaskervvilleSC_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BakbakOne_400Regular](./BakbakOne_400Regular.ttf.png)||||
+|![BakbakOne_400Regular](.//400Regular/BakbakOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

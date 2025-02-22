@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![CaveatBrush_400Regular](./CaveatBrush_400Regular.ttf.png)||||
+|![CaveatBrush_400Regular](.//400Regular/CaveatBrush_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

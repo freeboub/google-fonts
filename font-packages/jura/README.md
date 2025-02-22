@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Jura_300Light](./Jura_300Light.ttf.png)|![Jura_400Regular](./Jura_400Regular.ttf.png)|![Jura_500Medium](./Jura_500Medium.ttf.png)||
-|![Jura_600SemiBold](./Jura_600SemiBold.ttf.png)|![Jura_700Bold](./Jura_700Bold.ttf.png)|||
+|![Jura_300Light](.//300Light/Jura_300Light.ttf.png)|![Jura_400Regular](.//400Regular/Jura_400Regular.ttf.png)|![Jura_500Medium](.//500Medium/Jura_500Medium.ttf.png)||
+|![Jura_600SemiBold](.//600SemiBold/Jura_600SemiBold.ttf.png)|![Jura_700Bold](.//700Bold/Jura_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

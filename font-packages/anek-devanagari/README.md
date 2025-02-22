@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AnekDevanagari_100Thin](./AnekDevanagari_100Thin.ttf.png)|![AnekDevanagari_200ExtraLight](./AnekDevanagari_200ExtraLight.ttf.png)|![AnekDevanagari_300Light](./AnekDevanagari_300Light.ttf.png)||
-|![AnekDevanagari_400Regular](./AnekDevanagari_400Regular.ttf.png)|![AnekDevanagari_500Medium](./AnekDevanagari_500Medium.ttf.png)|![AnekDevanagari_600SemiBold](./AnekDevanagari_600SemiBold.ttf.png)||
-|![AnekDevanagari_700Bold](./AnekDevanagari_700Bold.ttf.png)|![AnekDevanagari_800ExtraBold](./AnekDevanagari_800ExtraBold.ttf.png)|||
+|![AnekDevanagari_100Thin](.//100Thin/AnekDevanagari_100Thin.ttf.png)|![AnekDevanagari_200ExtraLight](.//200ExtraLight/AnekDevanagari_200ExtraLight.ttf.png)|![AnekDevanagari_300Light](.//300Light/AnekDevanagari_300Light.ttf.png)||
+|![AnekDevanagari_400Regular](.//400Regular/AnekDevanagari_400Regular.ttf.png)|![AnekDevanagari_500Medium](.//500Medium/AnekDevanagari_500Medium.ttf.png)|![AnekDevanagari_600SemiBold](.//600SemiBold/AnekDevanagari_600SemiBold.ttf.png)||
+|![AnekDevanagari_700Bold](.//700Bold/AnekDevanagari_700Bold.ttf.png)|![AnekDevanagari_800ExtraBold](.//800ExtraBold/AnekDevanagari_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

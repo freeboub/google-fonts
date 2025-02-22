@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![REM_100Thin](./REM_100Thin.ttf.png)|![REM_200ExtraLight](./REM_200ExtraLight.ttf.png)|![REM_300Light](./REM_300Light.ttf.png)||
-|![REM_400Regular](./REM_400Regular.ttf.png)|![REM_500Medium](./REM_500Medium.ttf.png)|![REM_600SemiBold](./REM_600SemiBold.ttf.png)||
-|![REM_700Bold](./REM_700Bold.ttf.png)|![REM_800ExtraBold](./REM_800ExtraBold.ttf.png)|![REM_900Black](./REM_900Black.ttf.png)||
-|![REM_100Thin_Italic](./REM_100Thin_Italic.ttf.png)|![REM_200ExtraLight_Italic](./REM_200ExtraLight_Italic.ttf.png)|![REM_300Light_Italic](./REM_300Light_Italic.ttf.png)||
-|![REM_400Regular_Italic](./REM_400Regular_Italic.ttf.png)|![REM_500Medium_Italic](./REM_500Medium_Italic.ttf.png)|![REM_600SemiBold_Italic](./REM_600SemiBold_Italic.ttf.png)||
-|![REM_700Bold_Italic](./REM_700Bold_Italic.ttf.png)|![REM_800ExtraBold_Italic](./REM_800ExtraBold_Italic.ttf.png)|![REM_900Black_Italic](./REM_900Black_Italic.ttf.png)||
+|![REM_100Thin](.//100Thin/REM_100Thin.ttf.png)|![REM_200ExtraLight](.//200ExtraLight/REM_200ExtraLight.ttf.png)|![REM_300Light](.//300Light/REM_300Light.ttf.png)||
+|![REM_400Regular](.//400Regular/REM_400Regular.ttf.png)|![REM_500Medium](.//500Medium/REM_500Medium.ttf.png)|![REM_600SemiBold](.//600SemiBold/REM_600SemiBold.ttf.png)||
+|![REM_700Bold](.//700Bold/REM_700Bold.ttf.png)|![REM_800ExtraBold](.//800ExtraBold/REM_800ExtraBold.ttf.png)|![REM_900Black](.//900Black/REM_900Black.ttf.png)||
+|![REM_100Thin_Italic](.//100Thin_Italic/REM_100Thin_Italic.ttf.png)|![REM_200ExtraLight_Italic](.//200ExtraLight_Italic/REM_200ExtraLight_Italic.ttf.png)|![REM_300Light_Italic](.//300Light_Italic/REM_300Light_Italic.ttf.png)||
+|![REM_400Regular_Italic](.//400Regular_Italic/REM_400Regular_Italic.ttf.png)|![REM_500Medium_Italic](.//500Medium_Italic/REM_500Medium_Italic.ttf.png)|![REM_600SemiBold_Italic](.//600SemiBold_Italic/REM_600SemiBold_Italic.ttf.png)||
+|![REM_700Bold_Italic](.//700Bold_Italic/REM_700Bold_Italic.ttf.png)|![REM_800ExtraBold_Italic](.//800ExtraBold_Italic/REM_800ExtraBold_Italic.ttf.png)|![REM_900Black_Italic](.//900Black_Italic/REM_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

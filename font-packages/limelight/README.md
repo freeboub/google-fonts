@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Limelight_400Regular](./Limelight_400Regular.ttf.png)||||
+|![Limelight_400Regular](.//400Regular/Limelight_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KohSantepheap_100Thin](./KohSantepheap_100Thin.ttf.png)|![KohSantepheap_300Light](./KohSantepheap_300Light.ttf.png)|![KohSantepheap_400Regular](./KohSantepheap_400Regular.ttf.png)||
-|![KohSantepheap_700Bold](./KohSantepheap_700Bold.ttf.png)|![KohSantepheap_900Black](./KohSantepheap_900Black.ttf.png)|||
+|![KohSantepheap_100Thin](.//100Thin/KohSantepheap_100Thin.ttf.png)|![KohSantepheap_300Light](.//300Light/KohSantepheap_300Light.ttf.png)|![KohSantepheap_400Regular](.//400Regular/KohSantepheap_400Regular.ttf.png)||
+|![KohSantepheap_700Bold](.//700Bold/KohSantepheap_700Bold.ttf.png)|![KohSantepheap_900Black](.//900Black/KohSantepheap_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

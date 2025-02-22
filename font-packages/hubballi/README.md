@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Hubballi_400Regular](./Hubballi_400Regular.ttf.png)||||
+|![Hubballi_400Regular](.//400Regular/Hubballi_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

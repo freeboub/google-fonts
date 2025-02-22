@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Estonia_400Regular](./Estonia_400Regular.ttf.png)||||
+|![Estonia_400Regular](.//400Regular/Estonia_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NewsCycle_400Regular](./NewsCycle_400Regular.ttf.png)|![NewsCycle_700Bold](./NewsCycle_700Bold.ttf.png)|||
+|![NewsCycle_400Regular](.//400Regular/NewsCycle_400Regular.ttf.png)|![NewsCycle_700Bold](.//700Bold/NewsCycle_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

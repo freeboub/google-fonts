@@ -89,7 +89,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![DavidLibre_400Regular](./DavidLibre_400Regular.ttf.png)|![DavidLibre_500Medium](./DavidLibre_500Medium.ttf.png)|![DavidLibre_700Bold](./DavidLibre_700Bold.ttf.png)||
+|![DavidLibre_400Regular](.//400Regular/DavidLibre_400Regular.ttf.png)|![DavidLibre_500Medium](.//500Medium/DavidLibre_500Medium.ttf.png)|![DavidLibre_700Bold](.//700Bold/DavidLibre_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

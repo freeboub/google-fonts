@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Hanalei_400Regular](./Hanalei_400Regular.ttf.png)||||
+|![Hanalei_400Regular](.//400Regular/Hanalei_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

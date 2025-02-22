@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AnticDidone_400Regular](./AnticDidone_400Regular.ttf.png)||||
+|![AnticDidone_400Regular](.//400Regular/AnticDidone_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

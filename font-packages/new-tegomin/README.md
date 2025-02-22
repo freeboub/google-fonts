@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NewTegomin_400Regular](./NewTegomin_400Regular.ttf.png)||||
+|![NewTegomin_400Regular](.//400Regular/NewTegomin_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Alef_400Regular](./Alef_400Regular.ttf.png)|![Alef_700Bold](./Alef_700Bold.ttf.png)|||
+|![Alef_400Regular](.//400Regular/Alef_400Regular.ttf.png)|![Alef_700Bold](.//700Bold/Alef_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifNPHmong_400Regular](./NotoSerifNPHmong_400Regular.ttf.png)|![NotoSerifNPHmong_500Medium](./NotoSerifNPHmong_500Medium.ttf.png)|![NotoSerifNPHmong_600SemiBold](./NotoSerifNPHmong_600SemiBold.ttf.png)||
-|![NotoSerifNPHmong_700Bold](./NotoSerifNPHmong_700Bold.ttf.png)||||
+|![NotoSerifNPHmong_400Regular](.//400Regular/NotoSerifNPHmong_400Regular.ttf.png)|![NotoSerifNPHmong_500Medium](.//500Medium/NotoSerifNPHmong_500Medium.ttf.png)|![NotoSerifNPHmong_600SemiBold](.//600SemiBold/NotoSerifNPHmong_600SemiBold.ttf.png)||
+|![NotoSerifNPHmong_700Bold](.//700Bold/NotoSerifNPHmong_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

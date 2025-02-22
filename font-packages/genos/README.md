@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Genos_100Thin](./Genos_100Thin.ttf.png)|![Genos_200ExtraLight](./Genos_200ExtraLight.ttf.png)|![Genos_300Light](./Genos_300Light.ttf.png)||
-|![Genos_400Regular](./Genos_400Regular.ttf.png)|![Genos_500Medium](./Genos_500Medium.ttf.png)|![Genos_600SemiBold](./Genos_600SemiBold.ttf.png)||
-|![Genos_700Bold](./Genos_700Bold.ttf.png)|![Genos_800ExtraBold](./Genos_800ExtraBold.ttf.png)|![Genos_900Black](./Genos_900Black.ttf.png)||
-|![Genos_100Thin_Italic](./Genos_100Thin_Italic.ttf.png)|![Genos_200ExtraLight_Italic](./Genos_200ExtraLight_Italic.ttf.png)|![Genos_300Light_Italic](./Genos_300Light_Italic.ttf.png)||
-|![Genos_400Regular_Italic](./Genos_400Regular_Italic.ttf.png)|![Genos_500Medium_Italic](./Genos_500Medium_Italic.ttf.png)|![Genos_600SemiBold_Italic](./Genos_600SemiBold_Italic.ttf.png)||
-|![Genos_700Bold_Italic](./Genos_700Bold_Italic.ttf.png)|![Genos_800ExtraBold_Italic](./Genos_800ExtraBold_Italic.ttf.png)|![Genos_900Black_Italic](./Genos_900Black_Italic.ttf.png)||
+|![Genos_100Thin](.//100Thin/Genos_100Thin.ttf.png)|![Genos_200ExtraLight](.//200ExtraLight/Genos_200ExtraLight.ttf.png)|![Genos_300Light](.//300Light/Genos_300Light.ttf.png)||
+|![Genos_400Regular](.//400Regular/Genos_400Regular.ttf.png)|![Genos_500Medium](.//500Medium/Genos_500Medium.ttf.png)|![Genos_600SemiBold](.//600SemiBold/Genos_600SemiBold.ttf.png)||
+|![Genos_700Bold](.//700Bold/Genos_700Bold.ttf.png)|![Genos_800ExtraBold](.//800ExtraBold/Genos_800ExtraBold.ttf.png)|![Genos_900Black](.//900Black/Genos_900Black.ttf.png)||
+|![Genos_100Thin_Italic](.//100Thin_Italic/Genos_100Thin_Italic.ttf.png)|![Genos_200ExtraLight_Italic](.//200ExtraLight_Italic/Genos_200ExtraLight_Italic.ttf.png)|![Genos_300Light_Italic](.//300Light_Italic/Genos_300Light_Italic.ttf.png)||
+|![Genos_400Regular_Italic](.//400Regular_Italic/Genos_400Regular_Italic.ttf.png)|![Genos_500Medium_Italic](.//500Medium_Italic/Genos_500Medium_Italic.ttf.png)|![Genos_600SemiBold_Italic](.//600SemiBold_Italic/Genos_600SemiBold_Italic.ttf.png)||
+|![Genos_700Bold_Italic](.//700Bold_Italic/Genos_700Bold_Italic.ttf.png)|![Genos_800ExtraBold_Italic](.//800ExtraBold_Italic/Genos_800ExtraBold_Italic.ttf.png)|![Genos_900Black_Italic](.//900Black_Italic/Genos_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

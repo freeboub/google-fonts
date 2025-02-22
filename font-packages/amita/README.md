@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Amita_400Regular](./Amita_400Regular.ttf.png)|![Amita_700Bold](./Amita_700Bold.ttf.png)|||
+|![Amita_400Regular](.//400Regular/Amita_400Regular.ttf.png)|![Amita_700Bold](.//700Bold/Amita_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

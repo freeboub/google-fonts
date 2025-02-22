@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![DonegalOne_400Regular](./DonegalOne_400Regular.ttf.png)||||
+|![DonegalOne_400Regular](.//400Regular/DonegalOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

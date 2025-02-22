@@ -128,8 +128,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![InriaSerif_300Light](./InriaSerif_300Light.ttf.png)|![InriaSerif_300Light_Italic](./InriaSerif_300Light_Italic.ttf.png)|![InriaSerif_400Regular](./InriaSerif_400Regular.ttf.png)||
-|![InriaSerif_400Regular_Italic](./InriaSerif_400Regular_Italic.ttf.png)|![InriaSerif_700Bold](./InriaSerif_700Bold.ttf.png)|![InriaSerif_700Bold_Italic](./InriaSerif_700Bold_Italic.ttf.png)||
+|![InriaSerif_300Light](.//300Light/InriaSerif_300Light.ttf.png)|![InriaSerif_300Light_Italic](.//300Light_Italic/InriaSerif_300Light_Italic.ttf.png)|![InriaSerif_400Regular](.//400Regular/InriaSerif_400Regular.ttf.png)||
+|![InriaSerif_400Regular_Italic](.//400Regular_Italic/InriaSerif_400Regular_Italic.ttf.png)|![InriaSerif_700Bold](.//700Bold/InriaSerif_700Bold.ttf.png)|![InriaSerif_700Bold_Italic](.//700Bold_Italic/InriaSerif_700Bold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

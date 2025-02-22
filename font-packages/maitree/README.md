@@ -128,8 +128,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Maitree_200ExtraLight](./Maitree_200ExtraLight.ttf.png)|![Maitree_300Light](./Maitree_300Light.ttf.png)|![Maitree_400Regular](./Maitree_400Regular.ttf.png)||
-|![Maitree_500Medium](./Maitree_500Medium.ttf.png)|![Maitree_600SemiBold](./Maitree_600SemiBold.ttf.png)|![Maitree_700Bold](./Maitree_700Bold.ttf.png)||
+|![Maitree_200ExtraLight](.//200ExtraLight/Maitree_200ExtraLight.ttf.png)|![Maitree_300Light](.//300Light/Maitree_300Light.ttf.png)|![Maitree_400Regular](.//400Regular/Maitree_400Regular.ttf.png)||
+|![Maitree_500Medium](.//500Medium/Maitree_500Medium.ttf.png)|![Maitree_600SemiBold](.//600SemiBold/Maitree_600SemiBold.ttf.png)|![Maitree_700Bold](.//700Bold/Maitree_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

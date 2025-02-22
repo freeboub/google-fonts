@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Alata_400Regular](./Alata_400Regular.ttf.png)||||
+|![Alata_400Regular](.//400Regular/Alata_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

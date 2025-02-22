@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifKhitanSmallScript_400Regular](./NotoSerifKhitanSmallScript_400Regular.ttf.png)||||
+|![NotoSerifKhitanSmallScript_400Regular](.//400Regular/NotoSerifKhitanSmallScript_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

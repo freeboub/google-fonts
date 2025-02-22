@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![UnifrakturCook_700Bold](./UnifrakturCook_700Bold.ttf.png)||||
+|![UnifrakturCook_700Bold](.//700Bold/UnifrakturCook_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PalanquinDark_400Regular](./PalanquinDark_400Regular.ttf.png)|![PalanquinDark_500Medium](./PalanquinDark_500Medium.ttf.png)|![PalanquinDark_600SemiBold](./PalanquinDark_600SemiBold.ttf.png)||
-|![PalanquinDark_700Bold](./PalanquinDark_700Bold.ttf.png)||||
+|![PalanquinDark_400Regular](.//400Regular/PalanquinDark_400Regular.ttf.png)|![PalanquinDark_500Medium](.//500Medium/PalanquinDark_500Medium.ttf.png)|![PalanquinDark_600SemiBold](.//600SemiBold/PalanquinDark_600SemiBold.ttf.png)||
+|![PalanquinDark_700Bold](.//700Bold/PalanquinDark_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

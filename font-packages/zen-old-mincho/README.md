@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ZenOldMincho_400Regular](./ZenOldMincho_400Regular.ttf.png)|![ZenOldMincho_500Medium](./ZenOldMincho_500Medium.ttf.png)|![ZenOldMincho_600SemiBold](./ZenOldMincho_600SemiBold.ttf.png)||
-|![ZenOldMincho_700Bold](./ZenOldMincho_700Bold.ttf.png)|![ZenOldMincho_900Black](./ZenOldMincho_900Black.ttf.png)|||
+|![ZenOldMincho_400Regular](.//400Regular/ZenOldMincho_400Regular.ttf.png)|![ZenOldMincho_500Medium](.//500Medium/ZenOldMincho_500Medium.ttf.png)|![ZenOldMincho_600SemiBold](.//600SemiBold/ZenOldMincho_600SemiBold.ttf.png)||
+|![ZenOldMincho_700Bold](.//700Bold/ZenOldMincho_700Bold.ttf.png)|![ZenOldMincho_900Black](.//900Black/ZenOldMincho_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

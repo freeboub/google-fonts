@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AnekGujarati_100Thin](./AnekGujarati_100Thin.ttf.png)|![AnekGujarati_200ExtraLight](./AnekGujarati_200ExtraLight.ttf.png)|![AnekGujarati_300Light](./AnekGujarati_300Light.ttf.png)||
-|![AnekGujarati_400Regular](./AnekGujarati_400Regular.ttf.png)|![AnekGujarati_500Medium](./AnekGujarati_500Medium.ttf.png)|![AnekGujarati_600SemiBold](./AnekGujarati_600SemiBold.ttf.png)||
-|![AnekGujarati_700Bold](./AnekGujarati_700Bold.ttf.png)|![AnekGujarati_800ExtraBold](./AnekGujarati_800ExtraBold.ttf.png)|||
+|![AnekGujarati_100Thin](.//100Thin/AnekGujarati_100Thin.ttf.png)|![AnekGujarati_200ExtraLight](.//200ExtraLight/AnekGujarati_200ExtraLight.ttf.png)|![AnekGujarati_300Light](.//300Light/AnekGujarati_300Light.ttf.png)||
+|![AnekGujarati_400Regular](.//400Regular/AnekGujarati_400Regular.ttf.png)|![AnekGujarati_500Medium](.//500Medium/AnekGujarati_500Medium.ttf.png)|![AnekGujarati_600SemiBold](.//600SemiBold/AnekGujarati_600SemiBold.ttf.png)||
+|![AnekGujarati_700Bold](.//700Bold/AnekGujarati_700Bold.ttf.png)|![AnekGujarati_800ExtraBold](.//800ExtraBold/AnekGujarati_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

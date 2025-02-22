@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Solitreo_400Regular](./Solitreo_400Regular.ttf.png)||||
+|![Solitreo_400Regular](.//400Regular/Solitreo_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

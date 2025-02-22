@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Fraunces_100Thin](./Fraunces_100Thin.ttf.png)|![Fraunces_200ExtraLight](./Fraunces_200ExtraLight.ttf.png)|![Fraunces_300Light](./Fraunces_300Light.ttf.png)||
-|![Fraunces_400Regular](./Fraunces_400Regular.ttf.png)|![Fraunces_500Medium](./Fraunces_500Medium.ttf.png)|![Fraunces_600SemiBold](./Fraunces_600SemiBold.ttf.png)||
-|![Fraunces_700Bold](./Fraunces_700Bold.ttf.png)|![Fraunces_800ExtraBold](./Fraunces_800ExtraBold.ttf.png)|![Fraunces_900Black](./Fraunces_900Black.ttf.png)||
-|![Fraunces_100Thin_Italic](./Fraunces_100Thin_Italic.ttf.png)|![Fraunces_200ExtraLight_Italic](./Fraunces_200ExtraLight_Italic.ttf.png)|![Fraunces_300Light_Italic](./Fraunces_300Light_Italic.ttf.png)||
-|![Fraunces_400Regular_Italic](./Fraunces_400Regular_Italic.ttf.png)|![Fraunces_500Medium_Italic](./Fraunces_500Medium_Italic.ttf.png)|![Fraunces_600SemiBold_Italic](./Fraunces_600SemiBold_Italic.ttf.png)||
-|![Fraunces_700Bold_Italic](./Fraunces_700Bold_Italic.ttf.png)|![Fraunces_800ExtraBold_Italic](./Fraunces_800ExtraBold_Italic.ttf.png)|![Fraunces_900Black_Italic](./Fraunces_900Black_Italic.ttf.png)||
+|![Fraunces_100Thin](.//100Thin/Fraunces_100Thin.ttf.png)|![Fraunces_200ExtraLight](.//200ExtraLight/Fraunces_200ExtraLight.ttf.png)|![Fraunces_300Light](.//300Light/Fraunces_300Light.ttf.png)||
+|![Fraunces_400Regular](.//400Regular/Fraunces_400Regular.ttf.png)|![Fraunces_500Medium](.//500Medium/Fraunces_500Medium.ttf.png)|![Fraunces_600SemiBold](.//600SemiBold/Fraunces_600SemiBold.ttf.png)||
+|![Fraunces_700Bold](.//700Bold/Fraunces_700Bold.ttf.png)|![Fraunces_800ExtraBold](.//800ExtraBold/Fraunces_800ExtraBold.ttf.png)|![Fraunces_900Black](.//900Black/Fraunces_900Black.ttf.png)||
+|![Fraunces_100Thin_Italic](.//100Thin_Italic/Fraunces_100Thin_Italic.ttf.png)|![Fraunces_200ExtraLight_Italic](.//200ExtraLight_Italic/Fraunces_200ExtraLight_Italic.ttf.png)|![Fraunces_300Light_Italic](.//300Light_Italic/Fraunces_300Light_Italic.ttf.png)||
+|![Fraunces_400Regular_Italic](.//400Regular_Italic/Fraunces_400Regular_Italic.ttf.png)|![Fraunces_500Medium_Italic](.//500Medium_Italic/Fraunces_500Medium_Italic.ttf.png)|![Fraunces_600SemiBold_Italic](.//600SemiBold_Italic/Fraunces_600SemiBold_Italic.ttf.png)||
+|![Fraunces_700Bold_Italic](.//700Bold_Italic/Fraunces_700Bold_Italic.ttf.png)|![Fraunces_800ExtraBold_Italic](.//800ExtraBold_Italic/Fraunces_800ExtraBold_Italic.ttf.png)|![Fraunces_900Black_Italic](.//900Black_Italic/Fraunces_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

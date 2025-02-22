@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Meddon_400Regular](./Meddon_400Regular.ttf.png)||||
+|![Meddon_400Regular](.//400Regular/Meddon_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

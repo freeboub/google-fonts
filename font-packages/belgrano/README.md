@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Belgrano_400Regular](./Belgrano_400Regular.ttf.png)||||
+|![Belgrano_400Regular](.//400Regular/Belgrano_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

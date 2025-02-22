@@ -128,8 +128,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Orbitron_400Regular](./Orbitron_400Regular.ttf.png)|![Orbitron_500Medium](./Orbitron_500Medium.ttf.png)|![Orbitron_600SemiBold](./Orbitron_600SemiBold.ttf.png)||
-|![Orbitron_700Bold](./Orbitron_700Bold.ttf.png)|![Orbitron_800ExtraBold](./Orbitron_800ExtraBold.ttf.png)|![Orbitron_900Black](./Orbitron_900Black.ttf.png)||
+|![Orbitron_400Regular](.//400Regular/Orbitron_400Regular.ttf.png)|![Orbitron_500Medium](.//500Medium/Orbitron_500Medium.ttf.png)|![Orbitron_600SemiBold](.//600SemiBold/Orbitron_600SemiBold.ttf.png)||
+|![Orbitron_700Bold](.//700Bold/Orbitron_700Bold.ttf.png)|![Orbitron_800ExtraBold](.//800ExtraBold/Orbitron_800ExtraBold.ttf.png)|![Orbitron_900Black](.//900Black/Orbitron_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

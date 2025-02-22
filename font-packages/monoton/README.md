@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Monoton_400Regular](./Monoton_400Regular.ttf.png)||||
+|![Monoton_400Regular](.//400Regular/Monoton_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

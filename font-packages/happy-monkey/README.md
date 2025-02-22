@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![HappyMonkey_400Regular](./HappyMonkey_400Regular.ttf.png)||||
+|![HappyMonkey_400Regular](.//400Regular/HappyMonkey_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PTSerifCaption_400Regular](./PTSerifCaption_400Regular.ttf.png)|![PTSerifCaption_400Regular_Italic](./PTSerifCaption_400Regular_Italic.ttf.png)|||
+|![PTSerifCaption_400Regular](.//400Regular/PTSerifCaption_400Regular.ttf.png)|![PTSerifCaption_400Regular_Italic](.//400Regular_Italic/PTSerifCaption_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![OdorMeanChey_400Regular](./OdorMeanChey_400Regular.ttf.png)||||
+|![OdorMeanChey_400Regular](.//400Regular/OdorMeanChey_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

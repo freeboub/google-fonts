@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![IMFellGreatPrimerSC_400Regular](./IMFellGreatPrimerSC_400Regular.ttf.png)||||
+|![IMFellGreatPrimerSC_400Regular](.//400Regular/IMFellGreatPrimerSC_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

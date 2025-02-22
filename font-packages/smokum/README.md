@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Smokum_400Regular](./Smokum_400Regular.ttf.png)||||
+|![Smokum_400Regular](.//400Regular/Smokum_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

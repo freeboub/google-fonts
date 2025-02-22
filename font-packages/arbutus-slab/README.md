@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ArbutusSlab_400Regular](./ArbutusSlab_400Regular.ttf.png)||||
+|![ArbutusSlab_400Regular](.//400Regular/ArbutusSlab_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

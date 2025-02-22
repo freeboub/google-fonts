@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AnekLatin_100Thin](./AnekLatin_100Thin.ttf.png)|![AnekLatin_200ExtraLight](./AnekLatin_200ExtraLight.ttf.png)|![AnekLatin_300Light](./AnekLatin_300Light.ttf.png)||
-|![AnekLatin_400Regular](./AnekLatin_400Regular.ttf.png)|![AnekLatin_500Medium](./AnekLatin_500Medium.ttf.png)|![AnekLatin_600SemiBold](./AnekLatin_600SemiBold.ttf.png)||
-|![AnekLatin_700Bold](./AnekLatin_700Bold.ttf.png)|![AnekLatin_800ExtraBold](./AnekLatin_800ExtraBold.ttf.png)|||
+|![AnekLatin_100Thin](.//100Thin/AnekLatin_100Thin.ttf.png)|![AnekLatin_200ExtraLight](.//200ExtraLight/AnekLatin_200ExtraLight.ttf.png)|![AnekLatin_300Light](.//300Light/AnekLatin_300Light.ttf.png)||
+|![AnekLatin_400Regular](.//400Regular/AnekLatin_400Regular.ttf.png)|![AnekLatin_500Medium](.//500Medium/AnekLatin_500Medium.ttf.png)|![AnekLatin_600SemiBold](.//600SemiBold/AnekLatin_600SemiBold.ttf.png)||
+|![AnekLatin_700Bold](.//700Bold/AnekLatin_700Bold.ttf.png)|![AnekLatin_800ExtraBold](.//800ExtraBold/AnekLatin_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

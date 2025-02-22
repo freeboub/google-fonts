@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![VT323_400Regular](./VT323_400Regular.ttf.png)||||
+|![VT323_400Regular](.//400Regular/VT323_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

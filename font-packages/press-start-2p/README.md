@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PressStart2P_400Regular](./PressStart2P_400Regular.ttf.png)||||
+|![PressStart2P_400Regular](.//400Regular/PressStart2P_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

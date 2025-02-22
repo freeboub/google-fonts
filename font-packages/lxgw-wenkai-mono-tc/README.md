@@ -89,7 +89,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LXGWWenKaiMonoTC_300Light](./LXGWWenKaiMonoTC_300Light.ttf.png)|![LXGWWenKaiMonoTC_400Regular](./LXGWWenKaiMonoTC_400Regular.ttf.png)|![LXGWWenKaiMonoTC_700Bold](./LXGWWenKaiMonoTC_700Bold.ttf.png)||
+|![LXGWWenKaiMonoTC_300Light](.//300Light/LXGWWenKaiMonoTC_300Light.ttf.png)|![LXGWWenKaiMonoTC_400Regular](.//400Regular/LXGWWenKaiMonoTC_400Regular.ttf.png)|![LXGWWenKaiMonoTC_700Bold](.//700Bold/LXGWWenKaiMonoTC_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

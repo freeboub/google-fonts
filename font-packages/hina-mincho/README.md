@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![HinaMincho_400Regular](./HinaMincho_400Regular.ttf.png)||||
+|![HinaMincho_400Regular](.//400Regular/HinaMincho_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

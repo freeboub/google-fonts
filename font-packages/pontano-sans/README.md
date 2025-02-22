@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PontanoSans_300Light](./PontanoSans_300Light.ttf.png)|![PontanoSans_400Regular](./PontanoSans_400Regular.ttf.png)|![PontanoSans_500Medium](./PontanoSans_500Medium.ttf.png)||
-|![PontanoSans_600SemiBold](./PontanoSans_600SemiBold.ttf.png)|![PontanoSans_700Bold](./PontanoSans_700Bold.ttf.png)|||
+|![PontanoSans_300Light](.//300Light/PontanoSans_300Light.ttf.png)|![PontanoSans_400Regular](.//400Regular/PontanoSans_400Regular.ttf.png)|![PontanoSans_500Medium](.//500Medium/PontanoSans_500Medium.ttf.png)||
+|![PontanoSans_600SemiBold](.//600SemiBold/PontanoSans_600SemiBold.ttf.png)|![PontanoSans_700Bold](.//700Bold/PontanoSans_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

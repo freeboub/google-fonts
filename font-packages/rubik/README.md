@@ -232,11 +232,11 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Rubik_300Light](./Rubik_300Light.ttf.png)|![Rubik_400Regular](./Rubik_400Regular.ttf.png)|![Rubik_500Medium](./Rubik_500Medium.ttf.png)||
-|![Rubik_600SemiBold](./Rubik_600SemiBold.ttf.png)|![Rubik_700Bold](./Rubik_700Bold.ttf.png)|![Rubik_800ExtraBold](./Rubik_800ExtraBold.ttf.png)||
-|![Rubik_900Black](./Rubik_900Black.ttf.png)|![Rubik_300Light_Italic](./Rubik_300Light_Italic.ttf.png)|![Rubik_400Regular_Italic](./Rubik_400Regular_Italic.ttf.png)||
-|![Rubik_500Medium_Italic](./Rubik_500Medium_Italic.ttf.png)|![Rubik_600SemiBold_Italic](./Rubik_600SemiBold_Italic.ttf.png)|![Rubik_700Bold_Italic](./Rubik_700Bold_Italic.ttf.png)||
-|![Rubik_800ExtraBold_Italic](./Rubik_800ExtraBold_Italic.ttf.png)|![Rubik_900Black_Italic](./Rubik_900Black_Italic.ttf.png)|||
+|![Rubik_300Light](.//300Light/Rubik_300Light.ttf.png)|![Rubik_400Regular](.//400Regular/Rubik_400Regular.ttf.png)|![Rubik_500Medium](.//500Medium/Rubik_500Medium.ttf.png)||
+|![Rubik_600SemiBold](.//600SemiBold/Rubik_600SemiBold.ttf.png)|![Rubik_700Bold](.//700Bold/Rubik_700Bold.ttf.png)|![Rubik_800ExtraBold](.//800ExtraBold/Rubik_800ExtraBold.ttf.png)||
+|![Rubik_900Black](.//900Black/Rubik_900Black.ttf.png)|![Rubik_300Light_Italic](.//300Light_Italic/Rubik_300Light_Italic.ttf.png)|![Rubik_400Regular_Italic](.//400Regular_Italic/Rubik_400Regular_Italic.ttf.png)||
+|![Rubik_500Medium_Italic](.//500Medium_Italic/Rubik_500Medium_Italic.ttf.png)|![Rubik_600SemiBold_Italic](.//600SemiBold_Italic/Rubik_600SemiBold_Italic.ttf.png)|![Rubik_700Bold_Italic](.//700Bold_Italic/Rubik_700Bold_Italic.ttf.png)||
+|![Rubik_800ExtraBold_Italic](.//800ExtraBold_Italic/Rubik_800ExtraBold_Italic.ttf.png)|![Rubik_900Black_Italic](.//900Black_Italic/Rubik_900Black_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

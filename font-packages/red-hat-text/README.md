@@ -180,10 +180,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RedHatText_300Light](./RedHatText_300Light.ttf.png)|![RedHatText_400Regular](./RedHatText_400Regular.ttf.png)|![RedHatText_500Medium](./RedHatText_500Medium.ttf.png)||
-|![RedHatText_600SemiBold](./RedHatText_600SemiBold.ttf.png)|![RedHatText_700Bold](./RedHatText_700Bold.ttf.png)|![RedHatText_300Light_Italic](./RedHatText_300Light_Italic.ttf.png)||
-|![RedHatText_400Regular_Italic](./RedHatText_400Regular_Italic.ttf.png)|![RedHatText_500Medium_Italic](./RedHatText_500Medium_Italic.ttf.png)|![RedHatText_600SemiBold_Italic](./RedHatText_600SemiBold_Italic.ttf.png)||
-|![RedHatText_700Bold_Italic](./RedHatText_700Bold_Italic.ttf.png)||||
+|![RedHatText_300Light](.//300Light/RedHatText_300Light.ttf.png)|![RedHatText_400Regular](.//400Regular/RedHatText_400Regular.ttf.png)|![RedHatText_500Medium](.//500Medium/RedHatText_500Medium.ttf.png)||
+|![RedHatText_600SemiBold](.//600SemiBold/RedHatText_600SemiBold.ttf.png)|![RedHatText_700Bold](.//700Bold/RedHatText_700Bold.ttf.png)|![RedHatText_300Light_Italic](.//300Light_Italic/RedHatText_300Light_Italic.ttf.png)||
+|![RedHatText_400Regular_Italic](.//400Regular_Italic/RedHatText_400Regular_Italic.ttf.png)|![RedHatText_500Medium_Italic](.//500Medium_Italic/RedHatText_500Medium_Italic.ttf.png)|![RedHatText_600SemiBold_Italic](.//600SemiBold_Italic/RedHatText_600SemiBold_Italic.ttf.png)||
+|![RedHatText_700Bold_Italic](.//700Bold_Italic/RedHatText_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

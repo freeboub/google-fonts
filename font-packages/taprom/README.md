@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Taprom_400Regular](./Taprom_400Regular.ttf.png)||||
+|![Taprom_400Regular](.//400Regular/Taprom_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

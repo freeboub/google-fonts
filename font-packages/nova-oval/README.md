@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NovaOval_400Regular](./NovaOval_400Regular.ttf.png)||||
+|![NovaOval_400Regular](.//400Regular/NovaOval_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

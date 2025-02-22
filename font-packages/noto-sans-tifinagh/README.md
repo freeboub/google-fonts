@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansTifinagh_400Regular](./NotoSansTifinagh_400Regular.ttf.png)||||
+|![NotoSansTifinagh_400Regular](.//400Regular/NotoSansTifinagh_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![GermaniaOne_400Regular](./GermaniaOne_400Regular.ttf.png)||||
+|![GermaniaOne_400Regular](.//400Regular/GermaniaOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

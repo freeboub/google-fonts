@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ClimateCrisis_400Regular](./ClimateCrisis_400Regular.ttf.png)||||
+|![ClimateCrisis_400Regular](.//400Regular/ClimateCrisis_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

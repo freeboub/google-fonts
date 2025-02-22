@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansHanifiRohingya_400Regular](./NotoSansHanifiRohingya_400Regular.ttf.png)|![NotoSansHanifiRohingya_500Medium](./NotoSansHanifiRohingya_500Medium.ttf.png)|![NotoSansHanifiRohingya_600SemiBold](./NotoSansHanifiRohingya_600SemiBold.ttf.png)||
-|![NotoSansHanifiRohingya_700Bold](./NotoSansHanifiRohingya_700Bold.ttf.png)||||
+|![NotoSansHanifiRohingya_400Regular](.//400Regular/NotoSansHanifiRohingya_400Regular.ttf.png)|![NotoSansHanifiRohingya_500Medium](.//500Medium/NotoSansHanifiRohingya_500Medium.ttf.png)|![NotoSansHanifiRohingya_600SemiBold](.//600SemiBold/NotoSansHanifiRohingya_600SemiBold.ttf.png)||
+|![NotoSansHanifiRohingya_700Bold](.//700Bold/NotoSansHanifiRohingya_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

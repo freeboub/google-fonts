@@ -180,10 +180,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SplineSansMono_300Light](./SplineSansMono_300Light.ttf.png)|![SplineSansMono_400Regular](./SplineSansMono_400Regular.ttf.png)|![SplineSansMono_500Medium](./SplineSansMono_500Medium.ttf.png)||
-|![SplineSansMono_600SemiBold](./SplineSansMono_600SemiBold.ttf.png)|![SplineSansMono_700Bold](./SplineSansMono_700Bold.ttf.png)|![SplineSansMono_300Light_Italic](./SplineSansMono_300Light_Italic.ttf.png)||
-|![SplineSansMono_400Regular_Italic](./SplineSansMono_400Regular_Italic.ttf.png)|![SplineSansMono_500Medium_Italic](./SplineSansMono_500Medium_Italic.ttf.png)|![SplineSansMono_600SemiBold_Italic](./SplineSansMono_600SemiBold_Italic.ttf.png)||
-|![SplineSansMono_700Bold_Italic](./SplineSansMono_700Bold_Italic.ttf.png)||||
+|![SplineSansMono_300Light](.//300Light/SplineSansMono_300Light.ttf.png)|![SplineSansMono_400Regular](.//400Regular/SplineSansMono_400Regular.ttf.png)|![SplineSansMono_500Medium](.//500Medium/SplineSansMono_500Medium.ttf.png)||
+|![SplineSansMono_600SemiBold](.//600SemiBold/SplineSansMono_600SemiBold.ttf.png)|![SplineSansMono_700Bold](.//700Bold/SplineSansMono_700Bold.ttf.png)|![SplineSansMono_300Light_Italic](.//300Light_Italic/SplineSansMono_300Light_Italic.ttf.png)||
+|![SplineSansMono_400Regular_Italic](.//400Regular_Italic/SplineSansMono_400Regular_Italic.ttf.png)|![SplineSansMono_500Medium_Italic](.//500Medium_Italic/SplineSansMono_500Medium_Italic.ttf.png)|![SplineSansMono_600SemiBold_Italic](.//600SemiBold_Italic/SplineSansMono_600SemiBold_Italic.ttf.png)||
+|![SplineSansMono_700Bold_Italic](.//700Bold_Italic/SplineSansMono_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

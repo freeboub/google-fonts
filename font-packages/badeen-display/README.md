@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BadeenDisplay_400Regular](./BadeenDisplay_400Regular.ttf.png)||||
+|![BadeenDisplay_400Regular](.//400Regular/BadeenDisplay_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

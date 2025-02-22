@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Monda_400Regular](./Monda_400Regular.ttf.png)|![Monda_500Medium](./Monda_500Medium.ttf.png)|![Monda_600SemiBold](./Monda_600SemiBold.ttf.png)||
-|![Monda_700Bold](./Monda_700Bold.ttf.png)||||
+|![Monda_400Regular](.//400Regular/Monda_400Regular.ttf.png)|![Monda_500Medium](.//500Medium/Monda_500Medium.ttf.png)|![Monda_600SemiBold](.//600SemiBold/Monda_600SemiBold.ttf.png)||
+|![Monda_700Bold](.//700Bold/Monda_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

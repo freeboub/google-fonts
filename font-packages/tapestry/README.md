@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Tapestry_400Regular](./Tapestry_400Regular.ttf.png)||||
+|![Tapestry_400Regular](.//400Regular/Tapestry_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MuseoModerno_100Thin](./MuseoModerno_100Thin.ttf.png)|![MuseoModerno_200ExtraLight](./MuseoModerno_200ExtraLight.ttf.png)|![MuseoModerno_300Light](./MuseoModerno_300Light.ttf.png)||
-|![MuseoModerno_400Regular](./MuseoModerno_400Regular.ttf.png)|![MuseoModerno_500Medium](./MuseoModerno_500Medium.ttf.png)|![MuseoModerno_600SemiBold](./MuseoModerno_600SemiBold.ttf.png)||
-|![MuseoModerno_700Bold](./MuseoModerno_700Bold.ttf.png)|![MuseoModerno_800ExtraBold](./MuseoModerno_800ExtraBold.ttf.png)|![MuseoModerno_900Black](./MuseoModerno_900Black.ttf.png)||
-|![MuseoModerno_100Thin_Italic](./MuseoModerno_100Thin_Italic.ttf.png)|![MuseoModerno_200ExtraLight_Italic](./MuseoModerno_200ExtraLight_Italic.ttf.png)|![MuseoModerno_300Light_Italic](./MuseoModerno_300Light_Italic.ttf.png)||
-|![MuseoModerno_400Regular_Italic](./MuseoModerno_400Regular_Italic.ttf.png)|![MuseoModerno_500Medium_Italic](./MuseoModerno_500Medium_Italic.ttf.png)|![MuseoModerno_600SemiBold_Italic](./MuseoModerno_600SemiBold_Italic.ttf.png)||
-|![MuseoModerno_700Bold_Italic](./MuseoModerno_700Bold_Italic.ttf.png)|![MuseoModerno_800ExtraBold_Italic](./MuseoModerno_800ExtraBold_Italic.ttf.png)|![MuseoModerno_900Black_Italic](./MuseoModerno_900Black_Italic.ttf.png)||
+|![MuseoModerno_100Thin](.//100Thin/MuseoModerno_100Thin.ttf.png)|![MuseoModerno_200ExtraLight](.//200ExtraLight/MuseoModerno_200ExtraLight.ttf.png)|![MuseoModerno_300Light](.//300Light/MuseoModerno_300Light.ttf.png)||
+|![MuseoModerno_400Regular](.//400Regular/MuseoModerno_400Regular.ttf.png)|![MuseoModerno_500Medium](.//500Medium/MuseoModerno_500Medium.ttf.png)|![MuseoModerno_600SemiBold](.//600SemiBold/MuseoModerno_600SemiBold.ttf.png)||
+|![MuseoModerno_700Bold](.//700Bold/MuseoModerno_700Bold.ttf.png)|![MuseoModerno_800ExtraBold](.//800ExtraBold/MuseoModerno_800ExtraBold.ttf.png)|![MuseoModerno_900Black](.//900Black/MuseoModerno_900Black.ttf.png)||
+|![MuseoModerno_100Thin_Italic](.//100Thin_Italic/MuseoModerno_100Thin_Italic.ttf.png)|![MuseoModerno_200ExtraLight_Italic](.//200ExtraLight_Italic/MuseoModerno_200ExtraLight_Italic.ttf.png)|![MuseoModerno_300Light_Italic](.//300Light_Italic/MuseoModerno_300Light_Italic.ttf.png)||
+|![MuseoModerno_400Regular_Italic](.//400Regular_Italic/MuseoModerno_400Regular_Italic.ttf.png)|![MuseoModerno_500Medium_Italic](.//500Medium_Italic/MuseoModerno_500Medium_Italic.ttf.png)|![MuseoModerno_600SemiBold_Italic](.//600SemiBold_Italic/MuseoModerno_600SemiBold_Italic.ttf.png)||
+|![MuseoModerno_700Bold_Italic](.//700Bold_Italic/MuseoModerno_700Bold_Italic.ttf.png)|![MuseoModerno_800ExtraBold_Italic](.//800ExtraBold_Italic/MuseoModerno_800ExtraBold_Italic.ttf.png)|![MuseoModerno_900Black_Italic](.//900Black_Italic/MuseoModerno_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

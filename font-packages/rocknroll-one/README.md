@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RocknRollOne_400Regular](./RocknRollOne_400Regular.ttf.png)||||
+|![RocknRollOne_400Regular](.//400Regular/RocknRollOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

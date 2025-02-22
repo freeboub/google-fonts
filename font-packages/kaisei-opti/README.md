@@ -89,7 +89,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KaiseiOpti_400Regular](./KaiseiOpti_400Regular.ttf.png)|![KaiseiOpti_500Medium](./KaiseiOpti_500Medium.ttf.png)|![KaiseiOpti_700Bold](./KaiseiOpti_700Bold.ttf.png)||
+|![KaiseiOpti_400Regular](.//400Regular/KaiseiOpti_400Regular.ttf.png)|![KaiseiOpti_500Medium](.//500Medium/KaiseiOpti_500Medium.ttf.png)|![KaiseiOpti_700Bold](.//700Bold/KaiseiOpti_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -180,10 +180,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RedHatMono_300Light](./RedHatMono_300Light.ttf.png)|![RedHatMono_400Regular](./RedHatMono_400Regular.ttf.png)|![RedHatMono_500Medium](./RedHatMono_500Medium.ttf.png)||
-|![RedHatMono_600SemiBold](./RedHatMono_600SemiBold.ttf.png)|![RedHatMono_700Bold](./RedHatMono_700Bold.ttf.png)|![RedHatMono_300Light_Italic](./RedHatMono_300Light_Italic.ttf.png)||
-|![RedHatMono_400Regular_Italic](./RedHatMono_400Regular_Italic.ttf.png)|![RedHatMono_500Medium_Italic](./RedHatMono_500Medium_Italic.ttf.png)|![RedHatMono_600SemiBold_Italic](./RedHatMono_600SemiBold_Italic.ttf.png)||
-|![RedHatMono_700Bold_Italic](./RedHatMono_700Bold_Italic.ttf.png)||||
+|![RedHatMono_300Light](.//300Light/RedHatMono_300Light.ttf.png)|![RedHatMono_400Regular](.//400Regular/RedHatMono_400Regular.ttf.png)|![RedHatMono_500Medium](.//500Medium/RedHatMono_500Medium.ttf.png)||
+|![RedHatMono_600SemiBold](.//600SemiBold/RedHatMono_600SemiBold.ttf.png)|![RedHatMono_700Bold](.//700Bold/RedHatMono_700Bold.ttf.png)|![RedHatMono_300Light_Italic](.//300Light_Italic/RedHatMono_300Light_Italic.ttf.png)||
+|![RedHatMono_400Regular_Italic](.//400Regular_Italic/RedHatMono_400Regular_Italic.ttf.png)|![RedHatMono_500Medium_Italic](.//500Medium_Italic/RedHatMono_500Medium_Italic.ttf.png)|![RedHatMono_600SemiBold_Italic](.//600SemiBold_Italic/RedHatMono_600SemiBold_Italic.ttf.png)||
+|![RedHatMono_700Bold_Italic](.//700Bold_Italic/RedHatMono_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

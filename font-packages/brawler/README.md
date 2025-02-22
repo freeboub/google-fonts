@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Brawler_400Regular](./Brawler_400Regular.ttf.png)|![Brawler_700Bold](./Brawler_700Bold.ttf.png)|||
+|![Brawler_400Regular](.//400Regular/Brawler_400Regular.ttf.png)|![Brawler_700Bold](.//700Bold/Brawler_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

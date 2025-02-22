@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LeagueGothic_400Regular](./LeagueGothic_400Regular.ttf.png)||||
+|![LeagueGothic_400Regular](.//400Regular/LeagueGothic_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

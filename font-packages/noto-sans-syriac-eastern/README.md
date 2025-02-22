@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansSyriacEastern_100Thin](./NotoSansSyriacEastern_100Thin.ttf.png)|![NotoSansSyriacEastern_200ExtraLight](./NotoSansSyriacEastern_200ExtraLight.ttf.png)|![NotoSansSyriacEastern_300Light](./NotoSansSyriacEastern_300Light.ttf.png)||
-|![NotoSansSyriacEastern_400Regular](./NotoSansSyriacEastern_400Regular.ttf.png)|![NotoSansSyriacEastern_500Medium](./NotoSansSyriacEastern_500Medium.ttf.png)|![NotoSansSyriacEastern_600SemiBold](./NotoSansSyriacEastern_600SemiBold.ttf.png)||
-|![NotoSansSyriacEastern_700Bold](./NotoSansSyriacEastern_700Bold.ttf.png)|![NotoSansSyriacEastern_800ExtraBold](./NotoSansSyriacEastern_800ExtraBold.ttf.png)|![NotoSansSyriacEastern_900Black](./NotoSansSyriacEastern_900Black.ttf.png)||
+|![NotoSansSyriacEastern_100Thin](.//100Thin/NotoSansSyriacEastern_100Thin.ttf.png)|![NotoSansSyriacEastern_200ExtraLight](.//200ExtraLight/NotoSansSyriacEastern_200ExtraLight.ttf.png)|![NotoSansSyriacEastern_300Light](.//300Light/NotoSansSyriacEastern_300Light.ttf.png)||
+|![NotoSansSyriacEastern_400Regular](.//400Regular/NotoSansSyriacEastern_400Regular.ttf.png)|![NotoSansSyriacEastern_500Medium](.//500Medium/NotoSansSyriacEastern_500Medium.ttf.png)|![NotoSansSyriacEastern_600SemiBold](.//600SemiBold/NotoSansSyriacEastern_600SemiBold.ttf.png)||
+|![NotoSansSyriacEastern_700Bold](.//700Bold/NotoSansSyriacEastern_700Bold.ttf.png)|![NotoSansSyriacEastern_800ExtraBold](.//800ExtraBold/NotoSansSyriacEastern_800ExtraBold.ttf.png)|![NotoSansSyriacEastern_900Black](.//900Black/NotoSansSyriacEastern_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

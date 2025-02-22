@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Fuggles_400Regular](./Fuggles_400Regular.ttf.png)||||
+|![Fuggles_400Regular](.//400Regular/Fuggles_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

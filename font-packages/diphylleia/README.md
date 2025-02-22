@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Diphylleia_400Regular](./Diphylleia_400Regular.ttf.png)||||
+|![Diphylleia_400Regular](.//400Regular/Diphylleia_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

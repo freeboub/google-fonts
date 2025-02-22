@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Mate_400Regular](./Mate_400Regular.ttf.png)|![Mate_400Regular_Italic](./Mate_400Regular_Italic.ttf.png)|||
+|![Mate_400Regular](.//400Regular/Mate_400Regular.ttf.png)|![Mate_400Regular_Italic](.//400Regular_Italic/Mate_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

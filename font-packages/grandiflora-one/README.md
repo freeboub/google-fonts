@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![GrandifloraOne_400Regular](./GrandifloraOne_400Regular.ttf.png)||||
+|![GrandifloraOne_400Regular](.//400Regular/GrandifloraOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

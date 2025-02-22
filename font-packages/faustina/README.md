@@ -206,10 +206,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Faustina_300Light](./Faustina_300Light.ttf.png)|![Faustina_400Regular](./Faustina_400Regular.ttf.png)|![Faustina_500Medium](./Faustina_500Medium.ttf.png)||
-|![Faustina_600SemiBold](./Faustina_600SemiBold.ttf.png)|![Faustina_700Bold](./Faustina_700Bold.ttf.png)|![Faustina_800ExtraBold](./Faustina_800ExtraBold.ttf.png)||
-|![Faustina_300Light_Italic](./Faustina_300Light_Italic.ttf.png)|![Faustina_400Regular_Italic](./Faustina_400Regular_Italic.ttf.png)|![Faustina_500Medium_Italic](./Faustina_500Medium_Italic.ttf.png)||
-|![Faustina_600SemiBold_Italic](./Faustina_600SemiBold_Italic.ttf.png)|![Faustina_700Bold_Italic](./Faustina_700Bold_Italic.ttf.png)|![Faustina_800ExtraBold_Italic](./Faustina_800ExtraBold_Italic.ttf.png)||
+|![Faustina_300Light](.//300Light/Faustina_300Light.ttf.png)|![Faustina_400Regular](.//400Regular/Faustina_400Regular.ttf.png)|![Faustina_500Medium](.//500Medium/Faustina_500Medium.ttf.png)||
+|![Faustina_600SemiBold](.//600SemiBold/Faustina_600SemiBold.ttf.png)|![Faustina_700Bold](.//700Bold/Faustina_700Bold.ttf.png)|![Faustina_800ExtraBold](.//800ExtraBold/Faustina_800ExtraBold.ttf.png)||
+|![Faustina_300Light_Italic](.//300Light_Italic/Faustina_300Light_Italic.ttf.png)|![Faustina_400Regular_Italic](.//400Regular_Italic/Faustina_400Regular_Italic.ttf.png)|![Faustina_500Medium_Italic](.//500Medium_Italic/Faustina_500Medium_Italic.ttf.png)||
+|![Faustina_600SemiBold_Italic](.//600SemiBold_Italic/Faustina_600SemiBold_Italic.ttf.png)|![Faustina_700Bold_Italic](.//700Bold_Italic/Faustina_700Bold_Italic.ttf.png)|![Faustina_800ExtraBold_Italic](.//800ExtraBold_Italic/Faustina_800ExtraBold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

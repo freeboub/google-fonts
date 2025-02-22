@@ -206,10 +206,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KoHo_200ExtraLight](./KoHo_200ExtraLight.ttf.png)|![KoHo_200ExtraLight_Italic](./KoHo_200ExtraLight_Italic.ttf.png)|![KoHo_300Light](./KoHo_300Light.ttf.png)||
-|![KoHo_300Light_Italic](./KoHo_300Light_Italic.ttf.png)|![KoHo_400Regular](./KoHo_400Regular.ttf.png)|![KoHo_400Regular_Italic](./KoHo_400Regular_Italic.ttf.png)||
-|![KoHo_500Medium](./KoHo_500Medium.ttf.png)|![KoHo_500Medium_Italic](./KoHo_500Medium_Italic.ttf.png)|![KoHo_600SemiBold](./KoHo_600SemiBold.ttf.png)||
-|![KoHo_600SemiBold_Italic](./KoHo_600SemiBold_Italic.ttf.png)|![KoHo_700Bold](./KoHo_700Bold.ttf.png)|![KoHo_700Bold_Italic](./KoHo_700Bold_Italic.ttf.png)||
+|![KoHo_200ExtraLight](.//200ExtraLight/KoHo_200ExtraLight.ttf.png)|![KoHo_200ExtraLight_Italic](.//200ExtraLight_Italic/KoHo_200ExtraLight_Italic.ttf.png)|![KoHo_300Light](.//300Light/KoHo_300Light.ttf.png)||
+|![KoHo_300Light_Italic](.//300Light_Italic/KoHo_300Light_Italic.ttf.png)|![KoHo_400Regular](.//400Regular/KoHo_400Regular.ttf.png)|![KoHo_400Regular_Italic](.//400Regular_Italic/KoHo_400Regular_Italic.ttf.png)||
+|![KoHo_500Medium](.//500Medium/KoHo_500Medium.ttf.png)|![KoHo_500Medium_Italic](.//500Medium_Italic/KoHo_500Medium_Italic.ttf.png)|![KoHo_600SemiBold](.//600SemiBold/KoHo_600SemiBold.ttf.png)||
+|![KoHo_600SemiBold_Italic](.//600SemiBold_Italic/KoHo_600SemiBold_Italic.ttf.png)|![KoHo_700Bold](.//700Bold/KoHo_700Bold.ttf.png)|![KoHo_700Bold_Italic](.//700Bold_Italic/KoHo_700Bold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

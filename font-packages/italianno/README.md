@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Italianno_400Regular](./Italianno_400Regular.ttf.png)||||
+|![Italianno_400Regular](.//400Regular/Italianno_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

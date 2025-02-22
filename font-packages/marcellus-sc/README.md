@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MarcellusSC_400Regular](./MarcellusSC_400Regular.ttf.png)||||
+|![MarcellusSC_400Regular](.//400Regular/MarcellusSC_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

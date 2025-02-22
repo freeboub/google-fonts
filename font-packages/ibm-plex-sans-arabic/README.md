@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![IBMPlexSansArabic_100Thin](./IBMPlexSansArabic_100Thin.ttf.png)|![IBMPlexSansArabic_200ExtraLight](./IBMPlexSansArabic_200ExtraLight.ttf.png)|![IBMPlexSansArabic_300Light](./IBMPlexSansArabic_300Light.ttf.png)||
-|![IBMPlexSansArabic_400Regular](./IBMPlexSansArabic_400Regular.ttf.png)|![IBMPlexSansArabic_500Medium](./IBMPlexSansArabic_500Medium.ttf.png)|![IBMPlexSansArabic_600SemiBold](./IBMPlexSansArabic_600SemiBold.ttf.png)||
-|![IBMPlexSansArabic_700Bold](./IBMPlexSansArabic_700Bold.ttf.png)||||
+|![IBMPlexSansArabic_100Thin](.//100Thin/IBMPlexSansArabic_100Thin.ttf.png)|![IBMPlexSansArabic_200ExtraLight](.//200ExtraLight/IBMPlexSansArabic_200ExtraLight.ttf.png)|![IBMPlexSansArabic_300Light](.//300Light/IBMPlexSansArabic_300Light.ttf.png)||
+|![IBMPlexSansArabic_400Regular](.//400Regular/IBMPlexSansArabic_400Regular.ttf.png)|![IBMPlexSansArabic_500Medium](.//500Medium/IBMPlexSansArabic_500Medium.ttf.png)|![IBMPlexSansArabic_600SemiBold](.//600SemiBold/IBMPlexSansArabic_600SemiBold.ttf.png)||
+|![IBMPlexSansArabic_700Bold](.//700Bold/IBMPlexSansArabic_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

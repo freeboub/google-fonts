@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Bentham_400Regular](./Bentham_400Regular.ttf.png)||||
+|![Bentham_400Regular](.//400Regular/Bentham_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

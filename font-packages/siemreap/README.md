@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Siemreap_400Regular](./Siemreap_400Regular.ttf.png)||||
+|![Siemreap_400Regular](.//400Regular/Siemreap_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

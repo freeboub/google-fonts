@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MuktaMalar_200ExtraLight](./MuktaMalar_200ExtraLight.ttf.png)|![MuktaMalar_300Light](./MuktaMalar_300Light.ttf.png)|![MuktaMalar_400Regular](./MuktaMalar_400Regular.ttf.png)||
-|![MuktaMalar_500Medium](./MuktaMalar_500Medium.ttf.png)|![MuktaMalar_600SemiBold](./MuktaMalar_600SemiBold.ttf.png)|![MuktaMalar_700Bold](./MuktaMalar_700Bold.ttf.png)||
-|![MuktaMalar_800ExtraBold](./MuktaMalar_800ExtraBold.ttf.png)||||
+|![MuktaMalar_200ExtraLight](.//200ExtraLight/MuktaMalar_200ExtraLight.ttf.png)|![MuktaMalar_300Light](.//300Light/MuktaMalar_300Light.ttf.png)|![MuktaMalar_400Regular](.//400Regular/MuktaMalar_400Regular.ttf.png)||
+|![MuktaMalar_500Medium](.//500Medium/MuktaMalar_500Medium.ttf.png)|![MuktaMalar_600SemiBold](.//600SemiBold/MuktaMalar_600SemiBold.ttf.png)|![MuktaMalar_700Bold](.//700Bold/MuktaMalar_700Bold.ttf.png)||
+|![MuktaMalar_800ExtraBold](.//800ExtraBold/MuktaMalar_800ExtraBold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

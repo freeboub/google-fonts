@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Niconne_400Regular](./Niconne_400Regular.ttf.png)||||
+|![Niconne_400Regular](.//400Regular/Niconne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

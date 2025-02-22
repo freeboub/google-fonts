@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KeaniaOne_400Regular](./KeaniaOne_400Regular.ttf.png)||||
+|![KeaniaOne_400Regular](.//400Regular/KeaniaOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

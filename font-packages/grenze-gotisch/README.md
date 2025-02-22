@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![GrenzeGotisch_100Thin](./GrenzeGotisch_100Thin.ttf.png)|![GrenzeGotisch_200ExtraLight](./GrenzeGotisch_200ExtraLight.ttf.png)|![GrenzeGotisch_300Light](./GrenzeGotisch_300Light.ttf.png)||
-|![GrenzeGotisch_400Regular](./GrenzeGotisch_400Regular.ttf.png)|![GrenzeGotisch_500Medium](./GrenzeGotisch_500Medium.ttf.png)|![GrenzeGotisch_600SemiBold](./GrenzeGotisch_600SemiBold.ttf.png)||
-|![GrenzeGotisch_700Bold](./GrenzeGotisch_700Bold.ttf.png)|![GrenzeGotisch_800ExtraBold](./GrenzeGotisch_800ExtraBold.ttf.png)|![GrenzeGotisch_900Black](./GrenzeGotisch_900Black.ttf.png)||
+|![GrenzeGotisch_100Thin](.//100Thin/GrenzeGotisch_100Thin.ttf.png)|![GrenzeGotisch_200ExtraLight](.//200ExtraLight/GrenzeGotisch_200ExtraLight.ttf.png)|![GrenzeGotisch_300Light](.//300Light/GrenzeGotisch_300Light.ttf.png)||
+|![GrenzeGotisch_400Regular](.//400Regular/GrenzeGotisch_400Regular.ttf.png)|![GrenzeGotisch_500Medium](.//500Medium/GrenzeGotisch_500Medium.ttf.png)|![GrenzeGotisch_600SemiBold](.//600SemiBold/GrenzeGotisch_600SemiBold.ttf.png)||
+|![GrenzeGotisch_700Bold](.//700Bold/GrenzeGotisch_700Bold.ttf.png)|![GrenzeGotisch_800ExtraBold](.//800ExtraBold/GrenzeGotisch_800ExtraBold.ttf.png)|![GrenzeGotisch_900Black](.//900Black/GrenzeGotisch_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

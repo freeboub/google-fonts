@@ -232,11 +232,11 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SpectralSC_200ExtraLight](./SpectralSC_200ExtraLight.ttf.png)|![SpectralSC_200ExtraLight_Italic](./SpectralSC_200ExtraLight_Italic.ttf.png)|![SpectralSC_300Light](./SpectralSC_300Light.ttf.png)||
-|![SpectralSC_300Light_Italic](./SpectralSC_300Light_Italic.ttf.png)|![SpectralSC_400Regular](./SpectralSC_400Regular.ttf.png)|![SpectralSC_400Regular_Italic](./SpectralSC_400Regular_Italic.ttf.png)||
-|![SpectralSC_500Medium](./SpectralSC_500Medium.ttf.png)|![SpectralSC_500Medium_Italic](./SpectralSC_500Medium_Italic.ttf.png)|![SpectralSC_600SemiBold](./SpectralSC_600SemiBold.ttf.png)||
-|![SpectralSC_600SemiBold_Italic](./SpectralSC_600SemiBold_Italic.ttf.png)|![SpectralSC_700Bold](./SpectralSC_700Bold.ttf.png)|![SpectralSC_700Bold_Italic](./SpectralSC_700Bold_Italic.ttf.png)||
-|![SpectralSC_800ExtraBold](./SpectralSC_800ExtraBold.ttf.png)|![SpectralSC_800ExtraBold_Italic](./SpectralSC_800ExtraBold_Italic.ttf.png)|||
+|![SpectralSC_200ExtraLight](.//200ExtraLight/SpectralSC_200ExtraLight.ttf.png)|![SpectralSC_200ExtraLight_Italic](.//200ExtraLight_Italic/SpectralSC_200ExtraLight_Italic.ttf.png)|![SpectralSC_300Light](.//300Light/SpectralSC_300Light.ttf.png)||
+|![SpectralSC_300Light_Italic](.//300Light_Italic/SpectralSC_300Light_Italic.ttf.png)|![SpectralSC_400Regular](.//400Regular/SpectralSC_400Regular.ttf.png)|![SpectralSC_400Regular_Italic](.//400Regular_Italic/SpectralSC_400Regular_Italic.ttf.png)||
+|![SpectralSC_500Medium](.//500Medium/SpectralSC_500Medium.ttf.png)|![SpectralSC_500Medium_Italic](.//500Medium_Italic/SpectralSC_500Medium_Italic.ttf.png)|![SpectralSC_600SemiBold](.//600SemiBold/SpectralSC_600SemiBold.ttf.png)||
+|![SpectralSC_600SemiBold_Italic](.//600SemiBold_Italic/SpectralSC_600SemiBold_Italic.ttf.png)|![SpectralSC_700Bold](.//700Bold/SpectralSC_700Bold.ttf.png)|![SpectralSC_700Bold_Italic](.//700Bold_Italic/SpectralSC_700Bold_Italic.ttf.png)||
+|![SpectralSC_800ExtraBold](.//800ExtraBold/SpectralSC_800ExtraBold.ttf.png)|![SpectralSC_800ExtraBold_Italic](.//800ExtraBold_Italic/SpectralSC_800ExtraBold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

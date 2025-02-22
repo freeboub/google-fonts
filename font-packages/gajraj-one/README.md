@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![GajrajOne_400Regular](./GajrajOne_400Regular.ttf.png)||||
+|![GajrajOne_400Regular](.//400Regular/GajrajOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Mooli_400Regular](./Mooli_400Regular.ttf.png)||||
+|![Mooli_400Regular](.//400Regular/Mooli_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

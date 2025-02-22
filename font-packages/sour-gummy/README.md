@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SourGummy_100Thin](./SourGummy_100Thin.ttf.png)|![SourGummy_200ExtraLight](./SourGummy_200ExtraLight.ttf.png)|![SourGummy_300Light](./SourGummy_300Light.ttf.png)||
-|![SourGummy_400Regular](./SourGummy_400Regular.ttf.png)|![SourGummy_500Medium](./SourGummy_500Medium.ttf.png)|![SourGummy_600SemiBold](./SourGummy_600SemiBold.ttf.png)||
-|![SourGummy_700Bold](./SourGummy_700Bold.ttf.png)|![SourGummy_800ExtraBold](./SourGummy_800ExtraBold.ttf.png)|![SourGummy_900Black](./SourGummy_900Black.ttf.png)||
-|![SourGummy_100Thin_Italic](./SourGummy_100Thin_Italic.ttf.png)|![SourGummy_200ExtraLight_Italic](./SourGummy_200ExtraLight_Italic.ttf.png)|![SourGummy_300Light_Italic](./SourGummy_300Light_Italic.ttf.png)||
-|![SourGummy_400Regular_Italic](./SourGummy_400Regular_Italic.ttf.png)|![SourGummy_500Medium_Italic](./SourGummy_500Medium_Italic.ttf.png)|![SourGummy_600SemiBold_Italic](./SourGummy_600SemiBold_Italic.ttf.png)||
-|![SourGummy_700Bold_Italic](./SourGummy_700Bold_Italic.ttf.png)|![SourGummy_800ExtraBold_Italic](./SourGummy_800ExtraBold_Italic.ttf.png)|![SourGummy_900Black_Italic](./SourGummy_900Black_Italic.ttf.png)||
+|![SourGummy_100Thin](.//100Thin/SourGummy_100Thin.ttf.png)|![SourGummy_200ExtraLight](.//200ExtraLight/SourGummy_200ExtraLight.ttf.png)|![SourGummy_300Light](.//300Light/SourGummy_300Light.ttf.png)||
+|![SourGummy_400Regular](.//400Regular/SourGummy_400Regular.ttf.png)|![SourGummy_500Medium](.//500Medium/SourGummy_500Medium.ttf.png)|![SourGummy_600SemiBold](.//600SemiBold/SourGummy_600SemiBold.ttf.png)||
+|![SourGummy_700Bold](.//700Bold/SourGummy_700Bold.ttf.png)|![SourGummy_800ExtraBold](.//800ExtraBold/SourGummy_800ExtraBold.ttf.png)|![SourGummy_900Black](.//900Black/SourGummy_900Black.ttf.png)||
+|![SourGummy_100Thin_Italic](.//100Thin_Italic/SourGummy_100Thin_Italic.ttf.png)|![SourGummy_200ExtraLight_Italic](.//200ExtraLight_Italic/SourGummy_200ExtraLight_Italic.ttf.png)|![SourGummy_300Light_Italic](.//300Light_Italic/SourGummy_300Light_Italic.ttf.png)||
+|![SourGummy_400Regular_Italic](.//400Regular_Italic/SourGummy_400Regular_Italic.ttf.png)|![SourGummy_500Medium_Italic](.//500Medium_Italic/SourGummy_500Medium_Italic.ttf.png)|![SourGummy_600SemiBold_Italic](.//600SemiBold_Italic/SourGummy_600SemiBold_Italic.ttf.png)||
+|![SourGummy_700Bold_Italic](.//700Bold_Italic/SourGummy_700Bold_Italic.ttf.png)|![SourGummy_800ExtraBold_Italic](.//800ExtraBold_Italic/SourGummy_800ExtraBold_Italic.ttf.png)|![SourGummy_900Black_Italic](.//900Black_Italic/SourGummy_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

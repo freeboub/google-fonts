@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![GrechenFuemen_400Regular](./GrechenFuemen_400Regular.ttf.png)||||
+|![GrechenFuemen_400Regular](.//400Regular/GrechenFuemen_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

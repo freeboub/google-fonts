@@ -232,11 +232,11 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Karla_200ExtraLight](./Karla_200ExtraLight.ttf.png)|![Karla_300Light](./Karla_300Light.ttf.png)|![Karla_400Regular](./Karla_400Regular.ttf.png)||
-|![Karla_500Medium](./Karla_500Medium.ttf.png)|![Karla_600SemiBold](./Karla_600SemiBold.ttf.png)|![Karla_700Bold](./Karla_700Bold.ttf.png)||
-|![Karla_800ExtraBold](./Karla_800ExtraBold.ttf.png)|![Karla_200ExtraLight_Italic](./Karla_200ExtraLight_Italic.ttf.png)|![Karla_300Light_Italic](./Karla_300Light_Italic.ttf.png)||
-|![Karla_400Regular_Italic](./Karla_400Regular_Italic.ttf.png)|![Karla_500Medium_Italic](./Karla_500Medium_Italic.ttf.png)|![Karla_600SemiBold_Italic](./Karla_600SemiBold_Italic.ttf.png)||
-|![Karla_700Bold_Italic](./Karla_700Bold_Italic.ttf.png)|![Karla_800ExtraBold_Italic](./Karla_800ExtraBold_Italic.ttf.png)|||
+|![Karla_200ExtraLight](.//200ExtraLight/Karla_200ExtraLight.ttf.png)|![Karla_300Light](.//300Light/Karla_300Light.ttf.png)|![Karla_400Regular](.//400Regular/Karla_400Regular.ttf.png)||
+|![Karla_500Medium](.//500Medium/Karla_500Medium.ttf.png)|![Karla_600SemiBold](.//600SemiBold/Karla_600SemiBold.ttf.png)|![Karla_700Bold](.//700Bold/Karla_700Bold.ttf.png)||
+|![Karla_800ExtraBold](.//800ExtraBold/Karla_800ExtraBold.ttf.png)|![Karla_200ExtraLight_Italic](.//200ExtraLight_Italic/Karla_200ExtraLight_Italic.ttf.png)|![Karla_300Light_Italic](.//300Light_Italic/Karla_300Light_Italic.ttf.png)||
+|![Karla_400Regular_Italic](.//400Regular_Italic/Karla_400Regular_Italic.ttf.png)|![Karla_500Medium_Italic](.//500Medium_Italic/Karla_500Medium_Italic.ttf.png)|![Karla_600SemiBold_Italic](.//600SemiBold_Italic/Karla_600SemiBold_Italic.ttf.png)||
+|![Karla_700Bold_Italic](.//700Bold_Italic/Karla_700Bold_Italic.ttf.png)|![Karla_800ExtraBold_Italic](.//800ExtraBold_Italic/Karla_800ExtraBold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

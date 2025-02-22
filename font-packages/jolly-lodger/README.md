@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![JollyLodger_400Regular](./JollyLodger_400Regular.ttf.png)||||
+|![JollyLodger_400Regular](.//400Regular/JollyLodger_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -128,8 +128,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Yaldevi_200ExtraLight](./Yaldevi_200ExtraLight.ttf.png)|![Yaldevi_300Light](./Yaldevi_300Light.ttf.png)|![Yaldevi_400Regular](./Yaldevi_400Regular.ttf.png)||
-|![Yaldevi_500Medium](./Yaldevi_500Medium.ttf.png)|![Yaldevi_600SemiBold](./Yaldevi_600SemiBold.ttf.png)|![Yaldevi_700Bold](./Yaldevi_700Bold.ttf.png)||
+|![Yaldevi_200ExtraLight](.//200ExtraLight/Yaldevi_200ExtraLight.ttf.png)|![Yaldevi_300Light](.//300Light/Yaldevi_300Light.ttf.png)|![Yaldevi_400Regular](.//400Regular/Yaldevi_400Regular.ttf.png)||
+|![Yaldevi_500Medium](.//500Medium/Yaldevi_500Medium.ttf.png)|![Yaldevi_600SemiBold](.//600SemiBold/Yaldevi_600SemiBold.ttf.png)|![Yaldevi_700Bold](.//700Bold/Yaldevi_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -128,8 +128,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![YanoneKaffeesatz_200ExtraLight](./YanoneKaffeesatz_200ExtraLight.ttf.png)|![YanoneKaffeesatz_300Light](./YanoneKaffeesatz_300Light.ttf.png)|![YanoneKaffeesatz_400Regular](./YanoneKaffeesatz_400Regular.ttf.png)||
-|![YanoneKaffeesatz_500Medium](./YanoneKaffeesatz_500Medium.ttf.png)|![YanoneKaffeesatz_600SemiBold](./YanoneKaffeesatz_600SemiBold.ttf.png)|![YanoneKaffeesatz_700Bold](./YanoneKaffeesatz_700Bold.ttf.png)||
+|![YanoneKaffeesatz_200ExtraLight](.//200ExtraLight/YanoneKaffeesatz_200ExtraLight.ttf.png)|![YanoneKaffeesatz_300Light](.//300Light/YanoneKaffeesatz_300Light.ttf.png)|![YanoneKaffeesatz_400Regular](.//400Regular/YanoneKaffeesatz_400Regular.ttf.png)||
+|![YanoneKaffeesatz_500Medium](.//500Medium/YanoneKaffeesatz_500Medium.ttf.png)|![YanoneKaffeesatz_600SemiBold](.//600SemiBold/YanoneKaffeesatz_600SemiBold.ttf.png)|![YanoneKaffeesatz_700Bold](.//700Bold/YanoneKaffeesatz_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

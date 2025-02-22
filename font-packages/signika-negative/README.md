@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SignikaNegative_300Light](./SignikaNegative_300Light.ttf.png)|![SignikaNegative_400Regular](./SignikaNegative_400Regular.ttf.png)|![SignikaNegative_500Medium](./SignikaNegative_500Medium.ttf.png)||
-|![SignikaNegative_600SemiBold](./SignikaNegative_600SemiBold.ttf.png)|![SignikaNegative_700Bold](./SignikaNegative_700Bold.ttf.png)|||
+|![SignikaNegative_300Light](.//300Light/SignikaNegative_300Light.ttf.png)|![SignikaNegative_400Regular](.//400Regular/SignikaNegative_400Regular.ttf.png)|![SignikaNegative_500Medium](.//500Medium/SignikaNegative_500Medium.ttf.png)||
+|![SignikaNegative_600SemiBold](.//600SemiBold/SignikaNegative_600SemiBold.ttf.png)|![SignikaNegative_700Bold](.//700Bold/SignikaNegative_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

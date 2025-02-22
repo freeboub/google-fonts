@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MountainsofChristmas_400Regular](./MountainsofChristmas_400Regular.ttf.png)|![MountainsofChristmas_700Bold](./MountainsofChristmas_700Bold.ttf.png)|||
+|![MountainsofChristmas_400Regular](.//400Regular/MountainsofChristmas_400Regular.ttf.png)|![MountainsofChristmas_700Bold](.//700Bold/MountainsofChristmas_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

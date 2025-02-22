@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Ysabeau_100Thin](./Ysabeau_100Thin.ttf.png)|![Ysabeau_200ExtraLight](./Ysabeau_200ExtraLight.ttf.png)|![Ysabeau_300Light](./Ysabeau_300Light.ttf.png)||
-|![Ysabeau_400Regular](./Ysabeau_400Regular.ttf.png)|![Ysabeau_500Medium](./Ysabeau_500Medium.ttf.png)|![Ysabeau_600SemiBold](./Ysabeau_600SemiBold.ttf.png)||
-|![Ysabeau_700Bold](./Ysabeau_700Bold.ttf.png)|![Ysabeau_800ExtraBold](./Ysabeau_800ExtraBold.ttf.png)|![Ysabeau_900Black](./Ysabeau_900Black.ttf.png)||
-|![Ysabeau_100Thin_Italic](./Ysabeau_100Thin_Italic.ttf.png)|![Ysabeau_200ExtraLight_Italic](./Ysabeau_200ExtraLight_Italic.ttf.png)|![Ysabeau_300Light_Italic](./Ysabeau_300Light_Italic.ttf.png)||
-|![Ysabeau_400Regular_Italic](./Ysabeau_400Regular_Italic.ttf.png)|![Ysabeau_500Medium_Italic](./Ysabeau_500Medium_Italic.ttf.png)|![Ysabeau_600SemiBold_Italic](./Ysabeau_600SemiBold_Italic.ttf.png)||
-|![Ysabeau_700Bold_Italic](./Ysabeau_700Bold_Italic.ttf.png)|![Ysabeau_800ExtraBold_Italic](./Ysabeau_800ExtraBold_Italic.ttf.png)|![Ysabeau_900Black_Italic](./Ysabeau_900Black_Italic.ttf.png)||
+|![Ysabeau_100Thin](.//100Thin/Ysabeau_100Thin.ttf.png)|![Ysabeau_200ExtraLight](.//200ExtraLight/Ysabeau_200ExtraLight.ttf.png)|![Ysabeau_300Light](.//300Light/Ysabeau_300Light.ttf.png)||
+|![Ysabeau_400Regular](.//400Regular/Ysabeau_400Regular.ttf.png)|![Ysabeau_500Medium](.//500Medium/Ysabeau_500Medium.ttf.png)|![Ysabeau_600SemiBold](.//600SemiBold/Ysabeau_600SemiBold.ttf.png)||
+|![Ysabeau_700Bold](.//700Bold/Ysabeau_700Bold.ttf.png)|![Ysabeau_800ExtraBold](.//800ExtraBold/Ysabeau_800ExtraBold.ttf.png)|![Ysabeau_900Black](.//900Black/Ysabeau_900Black.ttf.png)||
+|![Ysabeau_100Thin_Italic](.//100Thin_Italic/Ysabeau_100Thin_Italic.ttf.png)|![Ysabeau_200ExtraLight_Italic](.//200ExtraLight_Italic/Ysabeau_200ExtraLight_Italic.ttf.png)|![Ysabeau_300Light_Italic](.//300Light_Italic/Ysabeau_300Light_Italic.ttf.png)||
+|![Ysabeau_400Regular_Italic](.//400Regular_Italic/Ysabeau_400Regular_Italic.ttf.png)|![Ysabeau_500Medium_Italic](.//500Medium_Italic/Ysabeau_500Medium_Italic.ttf.png)|![Ysabeau_600SemiBold_Italic](.//600SemiBold_Italic/Ysabeau_600SemiBold_Italic.ttf.png)||
+|![Ysabeau_700Bold_Italic](.//700Bold_Italic/Ysabeau_700Bold_Italic.ttf.png)|![Ysabeau_800ExtraBold_Italic](.//800ExtraBold_Italic/Ysabeau_800ExtraBold_Italic.ttf.png)|![Ysabeau_900Black_Italic](.//900Black_Italic/Ysabeau_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

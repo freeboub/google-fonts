@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Sanchez_400Regular](./Sanchez_400Regular.ttf.png)|![Sanchez_400Regular_Italic](./Sanchez_400Regular_Italic.ttf.png)|||
+|![Sanchez_400Regular](.//400Regular/Sanchez_400Regular.ttf.png)|![Sanchez_400Regular_Italic](.//400Regular_Italic/Sanchez_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

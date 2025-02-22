@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Manrope_200ExtraLight](./Manrope_200ExtraLight.ttf.png)|![Manrope_300Light](./Manrope_300Light.ttf.png)|![Manrope_400Regular](./Manrope_400Regular.ttf.png)||
-|![Manrope_500Medium](./Manrope_500Medium.ttf.png)|![Manrope_600SemiBold](./Manrope_600SemiBold.ttf.png)|![Manrope_700Bold](./Manrope_700Bold.ttf.png)||
-|![Manrope_800ExtraBold](./Manrope_800ExtraBold.ttf.png)||||
+|![Manrope_200ExtraLight](.//200ExtraLight/Manrope_200ExtraLight.ttf.png)|![Manrope_300Light](.//300Light/Manrope_300Light.ttf.png)|![Manrope_400Regular](.//400Regular/Manrope_400Regular.ttf.png)||
+|![Manrope_500Medium](.//500Medium/Manrope_500Medium.ttf.png)|![Manrope_600SemiBold](.//600SemiBold/Manrope_600SemiBold.ttf.png)|![Manrope_700Bold](.//700Bold/Manrope_700Bold.ttf.png)||
+|![Manrope_800ExtraBold](.//800ExtraBold/Manrope_800ExtraBold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

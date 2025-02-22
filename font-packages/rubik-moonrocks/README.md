@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RubikMoonrocks_400Regular](./RubikMoonrocks_400Regular.ttf.png)||||
+|![RubikMoonrocks_400Regular](.//400Regular/RubikMoonrocks_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

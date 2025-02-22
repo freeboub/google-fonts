@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![GravitasOne_400Regular](./GravitasOne_400Regular.ttf.png)||||
+|![GravitasOne_400Regular](.//400Regular/GravitasOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

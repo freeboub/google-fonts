@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifGujarati_100Thin](./NotoSerifGujarati_100Thin.ttf.png)|![NotoSerifGujarati_200ExtraLight](./NotoSerifGujarati_200ExtraLight.ttf.png)|![NotoSerifGujarati_300Light](./NotoSerifGujarati_300Light.ttf.png)||
-|![NotoSerifGujarati_400Regular](./NotoSerifGujarati_400Regular.ttf.png)|![NotoSerifGujarati_500Medium](./NotoSerifGujarati_500Medium.ttf.png)|![NotoSerifGujarati_600SemiBold](./NotoSerifGujarati_600SemiBold.ttf.png)||
-|![NotoSerifGujarati_700Bold](./NotoSerifGujarati_700Bold.ttf.png)|![NotoSerifGujarati_800ExtraBold](./NotoSerifGujarati_800ExtraBold.ttf.png)|![NotoSerifGujarati_900Black](./NotoSerifGujarati_900Black.ttf.png)||
+|![NotoSerifGujarati_100Thin](.//100Thin/NotoSerifGujarati_100Thin.ttf.png)|![NotoSerifGujarati_200ExtraLight](.//200ExtraLight/NotoSerifGujarati_200ExtraLight.ttf.png)|![NotoSerifGujarati_300Light](.//300Light/NotoSerifGujarati_300Light.ttf.png)||
+|![NotoSerifGujarati_400Regular](.//400Regular/NotoSerifGujarati_400Regular.ttf.png)|![NotoSerifGujarati_500Medium](.//500Medium/NotoSerifGujarati_500Medium.ttf.png)|![NotoSerifGujarati_600SemiBold](.//600SemiBold/NotoSerifGujarati_600SemiBold.ttf.png)||
+|![NotoSerifGujarati_700Bold](.//700Bold/NotoSerifGujarati_700Bold.ttf.png)|![NotoSerifGujarati_800ExtraBold](.//800ExtraBold/NotoSerifGujarati_800ExtraBold.ttf.png)|![NotoSerifGujarati_900Black](.//900Black/NotoSerifGujarati_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

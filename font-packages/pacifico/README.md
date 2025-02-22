@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Pacifico_400Regular](./Pacifico_400Regular.ttf.png)||||
+|![Pacifico_400Regular](.//400Regular/Pacifico_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

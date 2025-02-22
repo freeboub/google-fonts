@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Dosis_200ExtraLight](./Dosis_200ExtraLight.ttf.png)|![Dosis_300Light](./Dosis_300Light.ttf.png)|![Dosis_400Regular](./Dosis_400Regular.ttf.png)||
-|![Dosis_500Medium](./Dosis_500Medium.ttf.png)|![Dosis_600SemiBold](./Dosis_600SemiBold.ttf.png)|![Dosis_700Bold](./Dosis_700Bold.ttf.png)||
-|![Dosis_800ExtraBold](./Dosis_800ExtraBold.ttf.png)||||
+|![Dosis_200ExtraLight](.//200ExtraLight/Dosis_200ExtraLight.ttf.png)|![Dosis_300Light](.//300Light/Dosis_300Light.ttf.png)|![Dosis_400Regular](.//400Regular/Dosis_400Regular.ttf.png)||
+|![Dosis_500Medium](.//500Medium/Dosis_500Medium.ttf.png)|![Dosis_600SemiBold](.//600SemiBold/Dosis_600SemiBold.ttf.png)|![Dosis_700Bold](.//700Bold/Dosis_700Bold.ttf.png)||
+|![Dosis_800ExtraBold](.//800ExtraBold/Dosis_800ExtraBold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

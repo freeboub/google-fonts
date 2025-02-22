@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Molle_400Regular_Italic](./Molle_400Regular_Italic.ttf.png)||||
+|![Molle_400Regular_Italic](.//400Regular_Italic/Molle_400Regular_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![FamiljenGrotesk_400Regular](./FamiljenGrotesk_400Regular.ttf.png)|![FamiljenGrotesk_500Medium](./FamiljenGrotesk_500Medium.ttf.png)|![FamiljenGrotesk_600SemiBold](./FamiljenGrotesk_600SemiBold.ttf.png)||
-|![FamiljenGrotesk_700Bold](./FamiljenGrotesk_700Bold.ttf.png)|![FamiljenGrotesk_400Regular_Italic](./FamiljenGrotesk_400Regular_Italic.ttf.png)|![FamiljenGrotesk_500Medium_Italic](./FamiljenGrotesk_500Medium_Italic.ttf.png)||
-|![FamiljenGrotesk_600SemiBold_Italic](./FamiljenGrotesk_600SemiBold_Italic.ttf.png)|![FamiljenGrotesk_700Bold_Italic](./FamiljenGrotesk_700Bold_Italic.ttf.png)|||
+|![FamiljenGrotesk_400Regular](.//400Regular/FamiljenGrotesk_400Regular.ttf.png)|![FamiljenGrotesk_500Medium](.//500Medium/FamiljenGrotesk_500Medium.ttf.png)|![FamiljenGrotesk_600SemiBold](.//600SemiBold/FamiljenGrotesk_600SemiBold.ttf.png)||
+|![FamiljenGrotesk_700Bold](.//700Bold/FamiljenGrotesk_700Bold.ttf.png)|![FamiljenGrotesk_400Regular_Italic](.//400Regular_Italic/FamiljenGrotesk_400Regular_Italic.ttf.png)|![FamiljenGrotesk_500Medium_Italic](.//500Medium_Italic/FamiljenGrotesk_500Medium_Italic.ttf.png)||
+|![FamiljenGrotesk_600SemiBold_Italic](.//600SemiBold_Italic/FamiljenGrotesk_600SemiBold_Italic.ttf.png)|![FamiljenGrotesk_700Bold_Italic](.//700Bold_Italic/FamiljenGrotesk_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

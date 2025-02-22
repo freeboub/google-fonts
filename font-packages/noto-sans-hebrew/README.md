@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansHebrew_100Thin](./NotoSansHebrew_100Thin.ttf.png)|![NotoSansHebrew_200ExtraLight](./NotoSansHebrew_200ExtraLight.ttf.png)|![NotoSansHebrew_300Light](./NotoSansHebrew_300Light.ttf.png)||
-|![NotoSansHebrew_400Regular](./NotoSansHebrew_400Regular.ttf.png)|![NotoSansHebrew_500Medium](./NotoSansHebrew_500Medium.ttf.png)|![NotoSansHebrew_600SemiBold](./NotoSansHebrew_600SemiBold.ttf.png)||
-|![NotoSansHebrew_700Bold](./NotoSansHebrew_700Bold.ttf.png)|![NotoSansHebrew_800ExtraBold](./NotoSansHebrew_800ExtraBold.ttf.png)|![NotoSansHebrew_900Black](./NotoSansHebrew_900Black.ttf.png)||
+|![NotoSansHebrew_100Thin](.//100Thin/NotoSansHebrew_100Thin.ttf.png)|![NotoSansHebrew_200ExtraLight](.//200ExtraLight/NotoSansHebrew_200ExtraLight.ttf.png)|![NotoSansHebrew_300Light](.//300Light/NotoSansHebrew_300Light.ttf.png)||
+|![NotoSansHebrew_400Regular](.//400Regular/NotoSansHebrew_400Regular.ttf.png)|![NotoSansHebrew_500Medium](.//500Medium/NotoSansHebrew_500Medium.ttf.png)|![NotoSansHebrew_600SemiBold](.//600SemiBold/NotoSansHebrew_600SemiBold.ttf.png)||
+|![NotoSansHebrew_700Bold](.//700Bold/NotoSansHebrew_700Bold.ttf.png)|![NotoSansHebrew_800ExtraBold](.//800ExtraBold/NotoSansHebrew_800ExtraBold.ttf.png)|![NotoSansHebrew_900Black](.//900Black/NotoSansHebrew_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Cousine_400Regular](./Cousine_400Regular.ttf.png)|![Cousine_400Regular_Italic](./Cousine_400Regular_Italic.ttf.png)|![Cousine_700Bold](./Cousine_700Bold.ttf.png)||
-|![Cousine_700Bold_Italic](./Cousine_700Bold_Italic.ttf.png)||||
+|![Cousine_400Regular](.//400Regular/Cousine_400Regular.ttf.png)|![Cousine_400Regular_Italic](.//400Regular_Italic/Cousine_400Regular_Italic.ttf.png)|![Cousine_700Bold](.//700Bold/Cousine_700Bold.ttf.png)||
+|![Cousine_700Bold_Italic](.//700Bold_Italic/Cousine_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

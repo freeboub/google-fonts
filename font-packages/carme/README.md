@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Carme_400Regular](./Carme_400Regular.ttf.png)||||
+|![Carme_400Regular](.//400Regular/Carme_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![VinaSans_400Regular](./VinaSans_400Regular.ttf.png)||||
+|![VinaSans_400Regular](.//400Regular/VinaSans_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

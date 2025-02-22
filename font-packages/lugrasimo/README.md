@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Lugrasimo_400Regular](./Lugrasimo_400Regular.ttf.png)||||
+|![Lugrasimo_400Regular](.//400Regular/Lugrasimo_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

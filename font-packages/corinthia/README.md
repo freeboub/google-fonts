@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Corinthia_400Regular](./Corinthia_400Regular.ttf.png)|![Corinthia_700Bold](./Corinthia_700Bold.ttf.png)|||
+|![Corinthia_400Regular](.//400Regular/Corinthia_400Regular.ttf.png)|![Corinthia_700Bold](.//700Bold/Corinthia_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

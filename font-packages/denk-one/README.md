@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![DenkOne_400Regular](./DenkOne_400Regular.ttf.png)||||
+|![DenkOne_400Regular](.//400Regular/DenkOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

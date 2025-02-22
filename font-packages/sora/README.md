@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Sora_100Thin](./Sora_100Thin.ttf.png)|![Sora_200ExtraLight](./Sora_200ExtraLight.ttf.png)|![Sora_300Light](./Sora_300Light.ttf.png)||
-|![Sora_400Regular](./Sora_400Regular.ttf.png)|![Sora_500Medium](./Sora_500Medium.ttf.png)|![Sora_600SemiBold](./Sora_600SemiBold.ttf.png)||
-|![Sora_700Bold](./Sora_700Bold.ttf.png)|![Sora_800ExtraBold](./Sora_800ExtraBold.ttf.png)|||
+|![Sora_100Thin](.//100Thin/Sora_100Thin.ttf.png)|![Sora_200ExtraLight](.//200ExtraLight/Sora_200ExtraLight.ttf.png)|![Sora_300Light](.//300Light/Sora_300Light.ttf.png)||
+|![Sora_400Regular](.//400Regular/Sora_400Regular.ttf.png)|![Sora_500Medium](.//500Medium/Sora_500Medium.ttf.png)|![Sora_600SemiBold](.//600SemiBold/Sora_600SemiBold.ttf.png)||
+|![Sora_700Bold](.//700Bold/Sora_700Bold.ttf.png)|![Sora_800ExtraBold](.//800ExtraBold/Sora_800ExtraBold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

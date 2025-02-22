@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansMedefaidrin_400Regular](./NotoSansMedefaidrin_400Regular.ttf.png)|![NotoSansMedefaidrin_500Medium](./NotoSansMedefaidrin_500Medium.ttf.png)|![NotoSansMedefaidrin_600SemiBold](./NotoSansMedefaidrin_600SemiBold.ttf.png)||
-|![NotoSansMedefaidrin_700Bold](./NotoSansMedefaidrin_700Bold.ttf.png)||||
+|![NotoSansMedefaidrin_400Regular](.//400Regular/NotoSansMedefaidrin_400Regular.ttf.png)|![NotoSansMedefaidrin_500Medium](.//500Medium/NotoSansMedefaidrin_500Medium.ttf.png)|![NotoSansMedefaidrin_600SemiBold](.//600SemiBold/NotoSansMedefaidrin_600SemiBold.ttf.png)||
+|![NotoSansMedefaidrin_700Bold](.//700Bold/NotoSansMedefaidrin_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

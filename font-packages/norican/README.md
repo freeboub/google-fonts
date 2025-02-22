@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Norican_400Regular](./Norican_400Regular.ttf.png)||||
+|![Norican_400Regular](.//400Regular/Norican_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

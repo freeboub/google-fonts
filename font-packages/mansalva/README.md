@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Mansalva_400Regular](./Mansalva_400Regular.ttf.png)||||
+|![Mansalva_400Regular](.//400Regular/Mansalva_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

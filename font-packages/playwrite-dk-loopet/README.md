@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PlaywriteDKLoopet_100Thin](./PlaywriteDKLoopet_100Thin.ttf.png)|![PlaywriteDKLoopet_200ExtraLight](./PlaywriteDKLoopet_200ExtraLight.ttf.png)|![PlaywriteDKLoopet_300Light](./PlaywriteDKLoopet_300Light.ttf.png)||
-|![PlaywriteDKLoopet_400Regular](./PlaywriteDKLoopet_400Regular.ttf.png)||||
+|![PlaywriteDKLoopet_100Thin](.//100Thin/PlaywriteDKLoopet_100Thin.ttf.png)|![PlaywriteDKLoopet_200ExtraLight](.//200ExtraLight/PlaywriteDKLoopet_200ExtraLight.ttf.png)|![PlaywriteDKLoopet_300Light](.//300Light/PlaywriteDKLoopet_300Light.ttf.png)||
+|![PlaywriteDKLoopet_400Regular](.//400Regular/PlaywriteDKLoopet_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

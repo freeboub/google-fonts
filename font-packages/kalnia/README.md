@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Kalnia_100Thin](./Kalnia_100Thin.ttf.png)|![Kalnia_200ExtraLight](./Kalnia_200ExtraLight.ttf.png)|![Kalnia_300Light](./Kalnia_300Light.ttf.png)||
-|![Kalnia_400Regular](./Kalnia_400Regular.ttf.png)|![Kalnia_500Medium](./Kalnia_500Medium.ttf.png)|![Kalnia_600SemiBold](./Kalnia_600SemiBold.ttf.png)||
-|![Kalnia_700Bold](./Kalnia_700Bold.ttf.png)||||
+|![Kalnia_100Thin](.//100Thin/Kalnia_100Thin.ttf.png)|![Kalnia_200ExtraLight](.//200ExtraLight/Kalnia_200ExtraLight.ttf.png)|![Kalnia_300Light](.//300Light/Kalnia_300Light.ttf.png)||
+|![Kalnia_400Regular](.//400Regular/Kalnia_400Regular.ttf.png)|![Kalnia_500Medium](.//500Medium/Kalnia_500Medium.ttf.png)|![Kalnia_600SemiBold](.//600SemiBold/Kalnia_600SemiBold.ttf.png)||
+|![Kalnia_700Bold](.//700Bold/Kalnia_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Kameron_400Regular](./Kameron_400Regular.ttf.png)|![Kameron_500Medium](./Kameron_500Medium.ttf.png)|![Kameron_600SemiBold](./Kameron_600SemiBold.ttf.png)||
-|![Kameron_700Bold](./Kameron_700Bold.ttf.png)||||
+|![Kameron_400Regular](.//400Regular/Kameron_400Regular.ttf.png)|![Kameron_500Medium](.//500Medium/Kameron_500Medium.ttf.png)|![Kameron_600SemiBold](.//600SemiBold/Kameron_600SemiBold.ttf.png)||
+|![Kameron_700Bold](.//700Bold/Kameron_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

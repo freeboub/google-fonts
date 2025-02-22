@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansAnatolianHieroglyphs_400Regular](./NotoSansAnatolianHieroglyphs_400Regular.ttf.png)||||
+|![NotoSansAnatolianHieroglyphs_400Regular](.//400Regular/NotoSansAnatolianHieroglyphs_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

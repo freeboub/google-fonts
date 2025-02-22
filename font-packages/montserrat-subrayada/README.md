@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MontserratSubrayada_400Regular](./MontserratSubrayada_400Regular.ttf.png)|![MontserratSubrayada_700Bold](./MontserratSubrayada_700Bold.ttf.png)|||
+|![MontserratSubrayada_400Regular](.//400Regular/MontserratSubrayada_400Regular.ttf.png)|![MontserratSubrayada_700Bold](.//700Bold/MontserratSubrayada_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

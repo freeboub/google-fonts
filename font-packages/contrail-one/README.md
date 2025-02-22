@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ContrailOne_400Regular](./ContrailOne_400Regular.ttf.png)||||
+|![ContrailOne_400Regular](.//400Regular/ContrailOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

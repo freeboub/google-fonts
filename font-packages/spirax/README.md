@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Spirax_400Regular](./Spirax_400Regular.ttf.png)||||
+|![Spirax_400Regular](.//400Regular/Spirax_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

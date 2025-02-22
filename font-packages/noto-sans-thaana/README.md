@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansThaana_100Thin](./NotoSansThaana_100Thin.ttf.png)|![NotoSansThaana_200ExtraLight](./NotoSansThaana_200ExtraLight.ttf.png)|![NotoSansThaana_300Light](./NotoSansThaana_300Light.ttf.png)||
-|![NotoSansThaana_400Regular](./NotoSansThaana_400Regular.ttf.png)|![NotoSansThaana_500Medium](./NotoSansThaana_500Medium.ttf.png)|![NotoSansThaana_600SemiBold](./NotoSansThaana_600SemiBold.ttf.png)||
-|![NotoSansThaana_700Bold](./NotoSansThaana_700Bold.ttf.png)|![NotoSansThaana_800ExtraBold](./NotoSansThaana_800ExtraBold.ttf.png)|![NotoSansThaana_900Black](./NotoSansThaana_900Black.ttf.png)||
+|![NotoSansThaana_100Thin](.//100Thin/NotoSansThaana_100Thin.ttf.png)|![NotoSansThaana_200ExtraLight](.//200ExtraLight/NotoSansThaana_200ExtraLight.ttf.png)|![NotoSansThaana_300Light](.//300Light/NotoSansThaana_300Light.ttf.png)||
+|![NotoSansThaana_400Regular](.//400Regular/NotoSansThaana_400Regular.ttf.png)|![NotoSansThaana_500Medium](.//500Medium/NotoSansThaana_500Medium.ttf.png)|![NotoSansThaana_600SemiBold](.//600SemiBold/NotoSansThaana_600SemiBold.ttf.png)||
+|![NotoSansThaana_700Bold](.//700Bold/NotoSansThaana_700Bold.ttf.png)|![NotoSansThaana_800ExtraBold](.//800ExtraBold/NotoSansThaana_800ExtraBold.ttf.png)|![NotoSansThaana_900Black](.//900Black/NotoSansThaana_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

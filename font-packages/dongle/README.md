@@ -89,7 +89,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Dongle_300Light](./Dongle_300Light.ttf.png)|![Dongle_400Regular](./Dongle_400Regular.ttf.png)|![Dongle_700Bold](./Dongle_700Bold.ttf.png)||
+|![Dongle_300Light](.//300Light/Dongle_300Light.ttf.png)|![Dongle_400Regular](.//400Regular/Dongle_400Regular.ttf.png)|![Dongle_700Bold](.//700Bold/Dongle_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

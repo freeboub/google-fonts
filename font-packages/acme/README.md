@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Acme_400Regular](./Acme_400Regular.ttf.png)||||
+|![Acme_400Regular](.//400Regular/Acme_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansMeeteiMayek_100Thin](./NotoSansMeeteiMayek_100Thin.ttf.png)|![NotoSansMeeteiMayek_200ExtraLight](./NotoSansMeeteiMayek_200ExtraLight.ttf.png)|![NotoSansMeeteiMayek_300Light](./NotoSansMeeteiMayek_300Light.ttf.png)||
-|![NotoSansMeeteiMayek_400Regular](./NotoSansMeeteiMayek_400Regular.ttf.png)|![NotoSansMeeteiMayek_500Medium](./NotoSansMeeteiMayek_500Medium.ttf.png)|![NotoSansMeeteiMayek_600SemiBold](./NotoSansMeeteiMayek_600SemiBold.ttf.png)||
-|![NotoSansMeeteiMayek_700Bold](./NotoSansMeeteiMayek_700Bold.ttf.png)|![NotoSansMeeteiMayek_800ExtraBold](./NotoSansMeeteiMayek_800ExtraBold.ttf.png)|![NotoSansMeeteiMayek_900Black](./NotoSansMeeteiMayek_900Black.ttf.png)||
+|![NotoSansMeeteiMayek_100Thin](.//100Thin/NotoSansMeeteiMayek_100Thin.ttf.png)|![NotoSansMeeteiMayek_200ExtraLight](.//200ExtraLight/NotoSansMeeteiMayek_200ExtraLight.ttf.png)|![NotoSansMeeteiMayek_300Light](.//300Light/NotoSansMeeteiMayek_300Light.ttf.png)||
+|![NotoSansMeeteiMayek_400Regular](.//400Regular/NotoSansMeeteiMayek_400Regular.ttf.png)|![NotoSansMeeteiMayek_500Medium](.//500Medium/NotoSansMeeteiMayek_500Medium.ttf.png)|![NotoSansMeeteiMayek_600SemiBold](.//600SemiBold/NotoSansMeeteiMayek_600SemiBold.ttf.png)||
+|![NotoSansMeeteiMayek_700Bold](.//700Bold/NotoSansMeeteiMayek_700Bold.ttf.png)|![NotoSansMeeteiMayek_800ExtraBold](.//800ExtraBold/NotoSansMeeteiMayek_800ExtraBold.ttf.png)|![NotoSansMeeteiMayek_900Black](.//900Black/NotoSansMeeteiMayek_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

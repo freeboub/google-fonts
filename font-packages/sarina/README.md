@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Sarina_400Regular](./Sarina_400Regular.ttf.png)||||
+|![Sarina_400Regular](.//400Regular/Sarina_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

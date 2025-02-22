@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![VampiroOne_400Regular](./VampiroOne_400Regular.ttf.png)||||
+|![VampiroOne_400Regular](.//400Regular/VampiroOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

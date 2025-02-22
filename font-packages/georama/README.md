@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Georama_100Thin](./Georama_100Thin.ttf.png)|![Georama_200ExtraLight](./Georama_200ExtraLight.ttf.png)|![Georama_300Light](./Georama_300Light.ttf.png)||
-|![Georama_400Regular](./Georama_400Regular.ttf.png)|![Georama_500Medium](./Georama_500Medium.ttf.png)|![Georama_600SemiBold](./Georama_600SemiBold.ttf.png)||
-|![Georama_700Bold](./Georama_700Bold.ttf.png)|![Georama_800ExtraBold](./Georama_800ExtraBold.ttf.png)|![Georama_900Black](./Georama_900Black.ttf.png)||
-|![Georama_100Thin_Italic](./Georama_100Thin_Italic.ttf.png)|![Georama_200ExtraLight_Italic](./Georama_200ExtraLight_Italic.ttf.png)|![Georama_300Light_Italic](./Georama_300Light_Italic.ttf.png)||
-|![Georama_400Regular_Italic](./Georama_400Regular_Italic.ttf.png)|![Georama_500Medium_Italic](./Georama_500Medium_Italic.ttf.png)|![Georama_600SemiBold_Italic](./Georama_600SemiBold_Italic.ttf.png)||
-|![Georama_700Bold_Italic](./Georama_700Bold_Italic.ttf.png)|![Georama_800ExtraBold_Italic](./Georama_800ExtraBold_Italic.ttf.png)|![Georama_900Black_Italic](./Georama_900Black_Italic.ttf.png)||
+|![Georama_100Thin](.//100Thin/Georama_100Thin.ttf.png)|![Georama_200ExtraLight](.//200ExtraLight/Georama_200ExtraLight.ttf.png)|![Georama_300Light](.//300Light/Georama_300Light.ttf.png)||
+|![Georama_400Regular](.//400Regular/Georama_400Regular.ttf.png)|![Georama_500Medium](.//500Medium/Georama_500Medium.ttf.png)|![Georama_600SemiBold](.//600SemiBold/Georama_600SemiBold.ttf.png)||
+|![Georama_700Bold](.//700Bold/Georama_700Bold.ttf.png)|![Georama_800ExtraBold](.//800ExtraBold/Georama_800ExtraBold.ttf.png)|![Georama_900Black](.//900Black/Georama_900Black.ttf.png)||
+|![Georama_100Thin_Italic](.//100Thin_Italic/Georama_100Thin_Italic.ttf.png)|![Georama_200ExtraLight_Italic](.//200ExtraLight_Italic/Georama_200ExtraLight_Italic.ttf.png)|![Georama_300Light_Italic](.//300Light_Italic/Georama_300Light_Italic.ttf.png)||
+|![Georama_400Regular_Italic](.//400Regular_Italic/Georama_400Regular_Italic.ttf.png)|![Georama_500Medium_Italic](.//500Medium_Italic/Georama_500Medium_Italic.ttf.png)|![Georama_600SemiBold_Italic](.//600SemiBold_Italic/Georama_600SemiBold_Italic.ttf.png)||
+|![Georama_700Bold_Italic](.//700Bold_Italic/Georama_700Bold_Italic.ttf.png)|![Georama_800ExtraBold_Italic](.//800ExtraBold_Italic/Georama_800ExtraBold_Italic.ttf.png)|![Georama_900Black_Italic](.//900Black_Italic/Georama_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

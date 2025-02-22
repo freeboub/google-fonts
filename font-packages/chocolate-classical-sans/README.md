@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ChocolateClassicalSans_400Regular](./ChocolateClassicalSans_400Regular.ttf.png)||||
+|![ChocolateClassicalSans_400Regular](.//400Regular/ChocolateClassicalSans_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

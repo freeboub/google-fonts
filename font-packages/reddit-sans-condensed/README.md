@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RedditSansCondensed_200ExtraLight](./RedditSansCondensed_200ExtraLight.ttf.png)|![RedditSansCondensed_300Light](./RedditSansCondensed_300Light.ttf.png)|![RedditSansCondensed_400Regular](./RedditSansCondensed_400Regular.ttf.png)||
-|![RedditSansCondensed_500Medium](./RedditSansCondensed_500Medium.ttf.png)|![RedditSansCondensed_600SemiBold](./RedditSansCondensed_600SemiBold.ttf.png)|![RedditSansCondensed_700Bold](./RedditSansCondensed_700Bold.ttf.png)||
-|![RedditSansCondensed_800ExtraBold](./RedditSansCondensed_800ExtraBold.ttf.png)|![RedditSansCondensed_900Black](./RedditSansCondensed_900Black.ttf.png)|||
+|![RedditSansCondensed_200ExtraLight](.//200ExtraLight/RedditSansCondensed_200ExtraLight.ttf.png)|![RedditSansCondensed_300Light](.//300Light/RedditSansCondensed_300Light.ttf.png)|![RedditSansCondensed_400Regular](.//400Regular/RedditSansCondensed_400Regular.ttf.png)||
+|![RedditSansCondensed_500Medium](.//500Medium/RedditSansCondensed_500Medium.ttf.png)|![RedditSansCondensed_600SemiBold](.//600SemiBold/RedditSansCondensed_600SemiBold.ttf.png)|![RedditSansCondensed_700Bold](.//700Bold/RedditSansCondensed_700Bold.ttf.png)||
+|![RedditSansCondensed_800ExtraBold](.//800ExtraBold/RedditSansCondensed_800ExtraBold.ttf.png)|![RedditSansCondensed_900Black](.//900Black/RedditSansCondensed_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RoadRage_400Regular](./RoadRage_400Regular.ttf.png)||||
+|![RoadRage_400Regular](.//400Regular/RoadRage_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

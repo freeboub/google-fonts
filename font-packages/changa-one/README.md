@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ChangaOne_400Regular](./ChangaOne_400Regular.ttf.png)|![ChangaOne_400Regular_Italic](./ChangaOne_400Regular_Italic.ttf.png)|||
+|![ChangaOne_400Regular](.//400Regular/ChangaOne_400Regular.ttf.png)|![ChangaOne_400Regular_Italic](.//400Regular_Italic/ChangaOne_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

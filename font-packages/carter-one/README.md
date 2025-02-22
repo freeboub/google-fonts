@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![CarterOne_400Regular](./CarterOne_400Regular.ttf.png)||||
+|![CarterOne_400Regular](.//400Regular/CarterOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

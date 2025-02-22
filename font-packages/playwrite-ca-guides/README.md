@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PlaywriteCAGuides_400Regular](./PlaywriteCAGuides_400Regular.ttf.png)||||
+|![PlaywriteCAGuides_400Regular](.//400Regular/PlaywriteCAGuides_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

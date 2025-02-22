@@ -128,8 +128,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ComicNeue_300Light](./ComicNeue_300Light.ttf.png)|![ComicNeue_300Light_Italic](./ComicNeue_300Light_Italic.ttf.png)|![ComicNeue_400Regular](./ComicNeue_400Regular.ttf.png)||
-|![ComicNeue_400Regular_Italic](./ComicNeue_400Regular_Italic.ttf.png)|![ComicNeue_700Bold](./ComicNeue_700Bold.ttf.png)|![ComicNeue_700Bold_Italic](./ComicNeue_700Bold_Italic.ttf.png)||
+|![ComicNeue_300Light](.//300Light/ComicNeue_300Light.ttf.png)|![ComicNeue_300Light_Italic](.//300Light_Italic/ComicNeue_300Light_Italic.ttf.png)|![ComicNeue_400Regular](.//400Regular/ComicNeue_400Regular.ttf.png)||
+|![ComicNeue_400Regular_Italic](.//400Regular_Italic/ComicNeue_400Regular_Italic.ttf.png)|![ComicNeue_700Bold](.//700Bold/ComicNeue_700Bold.ttf.png)|![ComicNeue_700Bold_Italic](.//700Bold_Italic/ComicNeue_700Bold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

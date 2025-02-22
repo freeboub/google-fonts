@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![CabinSketch_400Regular](./CabinSketch_400Regular.ttf.png)|![CabinSketch_700Bold](./CabinSketch_700Bold.ttf.png)|||
+|![CabinSketch_400Regular](.//400Regular/CabinSketch_400Regular.ttf.png)|![CabinSketch_700Bold](.//700Bold/CabinSketch_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

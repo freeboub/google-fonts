@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Bokor_400Regular](./Bokor_400Regular.ttf.png)||||
+|![Bokor_400Regular](.//400Regular/Bokor_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

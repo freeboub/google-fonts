@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![GowunDodum_400Regular](./GowunDodum_400Regular.ttf.png)||||
+|![GowunDodum_400Regular](.//400Regular/GowunDodum_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

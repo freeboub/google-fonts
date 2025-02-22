@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Jacquard24Charted_400Regular](./Jacquard24Charted_400Regular.ttf.png)||||
+|![Jacquard24Charted_400Regular](.//400Regular/Jacquard24Charted_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

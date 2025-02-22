@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PadyakkeExpandedOne_400Regular](./PadyakkeExpandedOne_400Regular.ttf.png)||||
+|![PadyakkeExpandedOne_400Regular](.//400Regular/PadyakkeExpandedOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

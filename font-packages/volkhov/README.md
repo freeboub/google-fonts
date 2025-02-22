@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Volkhov_400Regular](./Volkhov_400Regular.ttf.png)|![Volkhov_400Regular_Italic](./Volkhov_400Regular_Italic.ttf.png)|![Volkhov_700Bold](./Volkhov_700Bold.ttf.png)||
-|![Volkhov_700Bold_Italic](./Volkhov_700Bold_Italic.ttf.png)||||
+|![Volkhov_400Regular](.//400Regular/Volkhov_400Regular.ttf.png)|![Volkhov_400Regular_Italic](.//400Regular_Italic/Volkhov_400Regular_Italic.ttf.png)|![Volkhov_700Bold](.//700Bold/Volkhov_700Bold.ttf.png)||
+|![Volkhov_700Bold_Italic](.//700Bold_Italic/Volkhov_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

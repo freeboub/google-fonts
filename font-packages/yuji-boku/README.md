@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![YujiBoku_400Regular](./YujiBoku_400Regular.ttf.png)||||
+|![YujiBoku_400Regular](.//400Regular/YujiBoku_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansJavanese_400Regular](./NotoSansJavanese_400Regular.ttf.png)|![NotoSansJavanese_500Medium](./NotoSansJavanese_500Medium.ttf.png)|![NotoSansJavanese_600SemiBold](./NotoSansJavanese_600SemiBold.ttf.png)||
-|![NotoSansJavanese_700Bold](./NotoSansJavanese_700Bold.ttf.png)||||
+|![NotoSansJavanese_400Regular](.//400Regular/NotoSansJavanese_400Regular.ttf.png)|![NotoSansJavanese_500Medium](.//500Medium/NotoSansJavanese_500Medium.ttf.png)|![NotoSansJavanese_600SemiBold](.//600SemiBold/NotoSansJavanese_600SemiBold.ttf.png)||
+|![NotoSansJavanese_700Bold](.//700Bold/NotoSansJavanese_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ZenTokyoZoo_400Regular](./ZenTokyoZoo_400Regular.ttf.png)||||
+|![ZenTokyoZoo_400Regular](.//400Regular/ZenTokyoZoo_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

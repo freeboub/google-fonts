@@ -258,12 +258,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Glory_100Thin](./Glory_100Thin.ttf.png)|![Glory_200ExtraLight](./Glory_200ExtraLight.ttf.png)|![Glory_300Light](./Glory_300Light.ttf.png)||
-|![Glory_400Regular](./Glory_400Regular.ttf.png)|![Glory_500Medium](./Glory_500Medium.ttf.png)|![Glory_600SemiBold](./Glory_600SemiBold.ttf.png)||
-|![Glory_700Bold](./Glory_700Bold.ttf.png)|![Glory_800ExtraBold](./Glory_800ExtraBold.ttf.png)|![Glory_100Thin_Italic](./Glory_100Thin_Italic.ttf.png)||
-|![Glory_200ExtraLight_Italic](./Glory_200ExtraLight_Italic.ttf.png)|![Glory_300Light_Italic](./Glory_300Light_Italic.ttf.png)|![Glory_400Regular_Italic](./Glory_400Regular_Italic.ttf.png)||
-|![Glory_500Medium_Italic](./Glory_500Medium_Italic.ttf.png)|![Glory_600SemiBold_Italic](./Glory_600SemiBold_Italic.ttf.png)|![Glory_700Bold_Italic](./Glory_700Bold_Italic.ttf.png)||
-|![Glory_800ExtraBold_Italic](./Glory_800ExtraBold_Italic.ttf.png)||||
+|![Glory_100Thin](.//100Thin/Glory_100Thin.ttf.png)|![Glory_200ExtraLight](.//200ExtraLight/Glory_200ExtraLight.ttf.png)|![Glory_300Light](.//300Light/Glory_300Light.ttf.png)||
+|![Glory_400Regular](.//400Regular/Glory_400Regular.ttf.png)|![Glory_500Medium](.//500Medium/Glory_500Medium.ttf.png)|![Glory_600SemiBold](.//600SemiBold/Glory_600SemiBold.ttf.png)||
+|![Glory_700Bold](.//700Bold/Glory_700Bold.ttf.png)|![Glory_800ExtraBold](.//800ExtraBold/Glory_800ExtraBold.ttf.png)|![Glory_100Thin_Italic](.//100Thin_Italic/Glory_100Thin_Italic.ttf.png)||
+|![Glory_200ExtraLight_Italic](.//200ExtraLight_Italic/Glory_200ExtraLight_Italic.ttf.png)|![Glory_300Light_Italic](.//300Light_Italic/Glory_300Light_Italic.ttf.png)|![Glory_400Regular_Italic](.//400Regular_Italic/Glory_400Regular_Italic.ttf.png)||
+|![Glory_500Medium_Italic](.//500Medium_Italic/Glory_500Medium_Italic.ttf.png)|![Glory_600SemiBold_Italic](.//600SemiBold_Italic/Glory_600SemiBold_Italic.ttf.png)|![Glory_700Bold_Italic](.//700Bold_Italic/Glory_700Bold_Italic.ttf.png)||
+|![Glory_800ExtraBold_Italic](.//800ExtraBold_Italic/Glory_800ExtraBold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

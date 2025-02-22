@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Capriola_400Regular](./Capriola_400Regular.ttf.png)||||
+|![Capriola_400Regular](.//400Regular/Capriola_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

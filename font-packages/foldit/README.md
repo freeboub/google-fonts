@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Foldit_100Thin](./Foldit_100Thin.ttf.png)|![Foldit_200ExtraLight](./Foldit_200ExtraLight.ttf.png)|![Foldit_300Light](./Foldit_300Light.ttf.png)||
-|![Foldit_400Regular](./Foldit_400Regular.ttf.png)|![Foldit_500Medium](./Foldit_500Medium.ttf.png)|![Foldit_600SemiBold](./Foldit_600SemiBold.ttf.png)||
-|![Foldit_700Bold](./Foldit_700Bold.ttf.png)|![Foldit_800ExtraBold](./Foldit_800ExtraBold.ttf.png)|![Foldit_900Black](./Foldit_900Black.ttf.png)||
+|![Foldit_100Thin](.//100Thin/Foldit_100Thin.ttf.png)|![Foldit_200ExtraLight](.//200ExtraLight/Foldit_200ExtraLight.ttf.png)|![Foldit_300Light](.//300Light/Foldit_300Light.ttf.png)||
+|![Foldit_400Regular](.//400Regular/Foldit_400Regular.ttf.png)|![Foldit_500Medium](.//500Medium/Foldit_500Medium.ttf.png)|![Foldit_600SemiBold](.//600SemiBold/Foldit_600SemiBold.ttf.png)||
+|![Foldit_700Bold](.//700Bold/Foldit_700Bold.ttf.png)|![Foldit_800ExtraBold](.//800ExtraBold/Foldit_800ExtraBold.ttf.png)|![Foldit_900Black](.//900Black/Foldit_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

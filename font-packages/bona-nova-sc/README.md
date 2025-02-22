@@ -89,7 +89,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BonaNovaSC_400Regular](./BonaNovaSC_400Regular.ttf.png)|![BonaNovaSC_400Regular_Italic](./BonaNovaSC_400Regular_Italic.ttf.png)|![BonaNovaSC_700Bold](./BonaNovaSC_700Bold.ttf.png)||
+|![BonaNovaSC_400Regular](.//400Regular/BonaNovaSC_400Regular.ttf.png)|![BonaNovaSC_400Regular_Italic](.//400Regular_Italic/BonaNovaSC_400Regular_Italic.ttf.png)|![BonaNovaSC_700Bold](.//700Bold/BonaNovaSC_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

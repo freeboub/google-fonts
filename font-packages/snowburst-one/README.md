@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SnowburstOne_400Regular](./SnowburstOne_400Regular.ttf.png)||||
+|![SnowburstOne_400Regular](.//400Regular/SnowburstOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

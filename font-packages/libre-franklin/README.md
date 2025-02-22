@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LibreFranklin_100Thin](./LibreFranklin_100Thin.ttf.png)|![LibreFranklin_200ExtraLight](./LibreFranklin_200ExtraLight.ttf.png)|![LibreFranklin_300Light](./LibreFranklin_300Light.ttf.png)||
-|![LibreFranklin_400Regular](./LibreFranklin_400Regular.ttf.png)|![LibreFranklin_500Medium](./LibreFranklin_500Medium.ttf.png)|![LibreFranklin_600SemiBold](./LibreFranklin_600SemiBold.ttf.png)||
-|![LibreFranklin_700Bold](./LibreFranklin_700Bold.ttf.png)|![LibreFranklin_800ExtraBold](./LibreFranklin_800ExtraBold.ttf.png)|![LibreFranklin_900Black](./LibreFranklin_900Black.ttf.png)||
-|![LibreFranklin_100Thin_Italic](./LibreFranklin_100Thin_Italic.ttf.png)|![LibreFranklin_200ExtraLight_Italic](./LibreFranklin_200ExtraLight_Italic.ttf.png)|![LibreFranklin_300Light_Italic](./LibreFranklin_300Light_Italic.ttf.png)||
-|![LibreFranklin_400Regular_Italic](./LibreFranklin_400Regular_Italic.ttf.png)|![LibreFranklin_500Medium_Italic](./LibreFranklin_500Medium_Italic.ttf.png)|![LibreFranklin_600SemiBold_Italic](./LibreFranklin_600SemiBold_Italic.ttf.png)||
-|![LibreFranklin_700Bold_Italic](./LibreFranklin_700Bold_Italic.ttf.png)|![LibreFranklin_800ExtraBold_Italic](./LibreFranklin_800ExtraBold_Italic.ttf.png)|![LibreFranklin_900Black_Italic](./LibreFranklin_900Black_Italic.ttf.png)||
+|![LibreFranklin_100Thin](.//100Thin/LibreFranklin_100Thin.ttf.png)|![LibreFranklin_200ExtraLight](.//200ExtraLight/LibreFranklin_200ExtraLight.ttf.png)|![LibreFranklin_300Light](.//300Light/LibreFranklin_300Light.ttf.png)||
+|![LibreFranklin_400Regular](.//400Regular/LibreFranklin_400Regular.ttf.png)|![LibreFranklin_500Medium](.//500Medium/LibreFranklin_500Medium.ttf.png)|![LibreFranklin_600SemiBold](.//600SemiBold/LibreFranklin_600SemiBold.ttf.png)||
+|![LibreFranklin_700Bold](.//700Bold/LibreFranklin_700Bold.ttf.png)|![LibreFranklin_800ExtraBold](.//800ExtraBold/LibreFranklin_800ExtraBold.ttf.png)|![LibreFranklin_900Black](.//900Black/LibreFranklin_900Black.ttf.png)||
+|![LibreFranklin_100Thin_Italic](.//100Thin_Italic/LibreFranklin_100Thin_Italic.ttf.png)|![LibreFranklin_200ExtraLight_Italic](.//200ExtraLight_Italic/LibreFranklin_200ExtraLight_Italic.ttf.png)|![LibreFranklin_300Light_Italic](.//300Light_Italic/LibreFranklin_300Light_Italic.ttf.png)||
+|![LibreFranklin_400Regular_Italic](.//400Regular_Italic/LibreFranklin_400Regular_Italic.ttf.png)|![LibreFranklin_500Medium_Italic](.//500Medium_Italic/LibreFranklin_500Medium_Italic.ttf.png)|![LibreFranklin_600SemiBold_Italic](.//600SemiBold_Italic/LibreFranklin_600SemiBold_Italic.ttf.png)||
+|![LibreFranklin_700Bold_Italic](.//700Bold_Italic/LibreFranklin_700Bold_Italic.ttf.png)|![LibreFranklin_800ExtraBold_Italic](.//800ExtraBold_Italic/LibreFranklin_800ExtraBold_Italic.ttf.png)|![LibreFranklin_900Black_Italic](.//900Black_Italic/LibreFranklin_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

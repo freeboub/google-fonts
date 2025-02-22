@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BeauRivage_400Regular](./BeauRivage_400Regular.ttf.png)||||
+|![BeauRivage_400Regular](.//400Regular/BeauRivage_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

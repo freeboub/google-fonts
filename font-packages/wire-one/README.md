@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![WireOne_400Regular](./WireOne_400Regular.ttf.png)||||
+|![WireOne_400Regular](.//400Regular/WireOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

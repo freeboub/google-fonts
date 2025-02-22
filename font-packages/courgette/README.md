@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Courgette_400Regular](./Courgette_400Regular.ttf.png)||||
+|![Courgette_400Regular](.//400Regular/Courgette_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

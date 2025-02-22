@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![FugazOne_400Regular](./FugazOne_400Regular.ttf.png)||||
+|![FugazOne_400Regular](.//400Regular/FugazOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

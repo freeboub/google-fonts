@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ComforterBrush_400Regular](./ComforterBrush_400Regular.ttf.png)||||
+|![ComforterBrush_400Regular](.//400Regular/ComforterBrush_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

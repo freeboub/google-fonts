@@ -232,11 +232,11 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PlusJakartaSans_200ExtraLight](./PlusJakartaSans_200ExtraLight.ttf.png)|![PlusJakartaSans_300Light](./PlusJakartaSans_300Light.ttf.png)|![PlusJakartaSans_400Regular](./PlusJakartaSans_400Regular.ttf.png)||
-|![PlusJakartaSans_500Medium](./PlusJakartaSans_500Medium.ttf.png)|![PlusJakartaSans_600SemiBold](./PlusJakartaSans_600SemiBold.ttf.png)|![PlusJakartaSans_700Bold](./PlusJakartaSans_700Bold.ttf.png)||
-|![PlusJakartaSans_800ExtraBold](./PlusJakartaSans_800ExtraBold.ttf.png)|![PlusJakartaSans_200ExtraLight_Italic](./PlusJakartaSans_200ExtraLight_Italic.ttf.png)|![PlusJakartaSans_300Light_Italic](./PlusJakartaSans_300Light_Italic.ttf.png)||
-|![PlusJakartaSans_400Regular_Italic](./PlusJakartaSans_400Regular_Italic.ttf.png)|![PlusJakartaSans_500Medium_Italic](./PlusJakartaSans_500Medium_Italic.ttf.png)|![PlusJakartaSans_600SemiBold_Italic](./PlusJakartaSans_600SemiBold_Italic.ttf.png)||
-|![PlusJakartaSans_700Bold_Italic](./PlusJakartaSans_700Bold_Italic.ttf.png)|![PlusJakartaSans_800ExtraBold_Italic](./PlusJakartaSans_800ExtraBold_Italic.ttf.png)|||
+|![PlusJakartaSans_200ExtraLight](.//200ExtraLight/PlusJakartaSans_200ExtraLight.ttf.png)|![PlusJakartaSans_300Light](.//300Light/PlusJakartaSans_300Light.ttf.png)|![PlusJakartaSans_400Regular](.//400Regular/PlusJakartaSans_400Regular.ttf.png)||
+|![PlusJakartaSans_500Medium](.//500Medium/PlusJakartaSans_500Medium.ttf.png)|![PlusJakartaSans_600SemiBold](.//600SemiBold/PlusJakartaSans_600SemiBold.ttf.png)|![PlusJakartaSans_700Bold](.//700Bold/PlusJakartaSans_700Bold.ttf.png)||
+|![PlusJakartaSans_800ExtraBold](.//800ExtraBold/PlusJakartaSans_800ExtraBold.ttf.png)|![PlusJakartaSans_200ExtraLight_Italic](.//200ExtraLight_Italic/PlusJakartaSans_200ExtraLight_Italic.ttf.png)|![PlusJakartaSans_300Light_Italic](.//300Light_Italic/PlusJakartaSans_300Light_Italic.ttf.png)||
+|![PlusJakartaSans_400Regular_Italic](.//400Regular_Italic/PlusJakartaSans_400Regular_Italic.ttf.png)|![PlusJakartaSans_500Medium_Italic](.//500Medium_Italic/PlusJakartaSans_500Medium_Italic.ttf.png)|![PlusJakartaSans_600SemiBold_Italic](.//600SemiBold_Italic/PlusJakartaSans_600SemiBold_Italic.ttf.png)||
+|![PlusJakartaSans_700Bold_Italic](.//700Bold_Italic/PlusJakartaSans_700Bold_Italic.ttf.png)|![PlusJakartaSans_800ExtraBold_Italic](.//800ExtraBold_Italic/PlusJakartaSans_800ExtraBold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

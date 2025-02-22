@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BhuTukaExpandedOne_400Regular](./BhuTukaExpandedOne_400Regular.ttf.png)||||
+|![BhuTukaExpandedOne_400Regular](.//400Regular/BhuTukaExpandedOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

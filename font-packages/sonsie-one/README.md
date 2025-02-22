@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SonsieOne_400Regular](./SonsieOne_400Regular.ttf.png)||||
+|![SonsieOne_400Regular](.//400Regular/SonsieOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

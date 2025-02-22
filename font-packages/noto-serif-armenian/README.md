@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifArmenian_100Thin](./NotoSerifArmenian_100Thin.ttf.png)|![NotoSerifArmenian_200ExtraLight](./NotoSerifArmenian_200ExtraLight.ttf.png)|![NotoSerifArmenian_300Light](./NotoSerifArmenian_300Light.ttf.png)||
-|![NotoSerifArmenian_400Regular](./NotoSerifArmenian_400Regular.ttf.png)|![NotoSerifArmenian_500Medium](./NotoSerifArmenian_500Medium.ttf.png)|![NotoSerifArmenian_600SemiBold](./NotoSerifArmenian_600SemiBold.ttf.png)||
-|![NotoSerifArmenian_700Bold](./NotoSerifArmenian_700Bold.ttf.png)|![NotoSerifArmenian_800ExtraBold](./NotoSerifArmenian_800ExtraBold.ttf.png)|![NotoSerifArmenian_900Black](./NotoSerifArmenian_900Black.ttf.png)||
+|![NotoSerifArmenian_100Thin](.//100Thin/NotoSerifArmenian_100Thin.ttf.png)|![NotoSerifArmenian_200ExtraLight](.//200ExtraLight/NotoSerifArmenian_200ExtraLight.ttf.png)|![NotoSerifArmenian_300Light](.//300Light/NotoSerifArmenian_300Light.ttf.png)||
+|![NotoSerifArmenian_400Regular](.//400Regular/NotoSerifArmenian_400Regular.ttf.png)|![NotoSerifArmenian_500Medium](.//500Medium/NotoSerifArmenian_500Medium.ttf.png)|![NotoSerifArmenian_600SemiBold](.//600SemiBold/NotoSerifArmenian_600SemiBold.ttf.png)||
+|![NotoSerifArmenian_700Bold](.//700Bold/NotoSerifArmenian_700Bold.ttf.png)|![NotoSerifArmenian_800ExtraBold](.//800ExtraBold/NotoSerifArmenian_800ExtraBold.ttf.png)|![NotoSerifArmenian_900Black](.//900Black/NotoSerifArmenian_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

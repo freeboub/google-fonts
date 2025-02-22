@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BIZUDPMincho_400Regular](./BIZUDPMincho_400Regular.ttf.png)|![BIZUDPMincho_700Bold](./BIZUDPMincho_700Bold.ttf.png)|||
+|![BIZUDPMincho_400Regular](.//400Regular/BIZUDPMincho_400Regular.ttf.png)|![BIZUDPMincho_700Bold](.//700Bold/BIZUDPMincho_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

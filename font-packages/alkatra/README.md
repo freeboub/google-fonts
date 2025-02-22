@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Alkatra_400Regular](./Alkatra_400Regular.ttf.png)|![Alkatra_500Medium](./Alkatra_500Medium.ttf.png)|![Alkatra_600SemiBold](./Alkatra_600SemiBold.ttf.png)||
-|![Alkatra_700Bold](./Alkatra_700Bold.ttf.png)||||
+|![Alkatra_400Regular](.//400Regular/Alkatra_400Regular.ttf.png)|![Alkatra_500Medium](.//500Medium/Alkatra_500Medium.ttf.png)|![Alkatra_600SemiBold](.//600SemiBold/Alkatra_600SemiBold.ttf.png)||
+|![Alkatra_700Bold](.//700Bold/Alkatra_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

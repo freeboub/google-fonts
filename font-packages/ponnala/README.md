@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Ponnala_400Regular](./Ponnala_400Regular.ttf.png)||||
+|![Ponnala_400Regular](.//400Regular/Ponnala_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

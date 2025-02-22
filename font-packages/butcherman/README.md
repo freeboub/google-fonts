@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Butcherman_400Regular](./Butcherman_400Regular.ttf.png)||||
+|![Butcherman_400Regular](.//400Regular/Butcherman_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

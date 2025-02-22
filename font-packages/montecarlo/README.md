@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MonteCarlo_400Regular](./MonteCarlo_400Regular.ttf.png)||||
+|![MonteCarlo_400Regular](.//400Regular/MonteCarlo_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

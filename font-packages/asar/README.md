@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Asar_400Regular](./Asar_400Regular.ttf.png)||||
+|![Asar_400Regular](.//400Regular/Asar_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

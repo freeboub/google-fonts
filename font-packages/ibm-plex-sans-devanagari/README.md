@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![IBMPlexSansDevanagari_100Thin](./IBMPlexSansDevanagari_100Thin.ttf.png)|![IBMPlexSansDevanagari_200ExtraLight](./IBMPlexSansDevanagari_200ExtraLight.ttf.png)|![IBMPlexSansDevanagari_300Light](./IBMPlexSansDevanagari_300Light.ttf.png)||
-|![IBMPlexSansDevanagari_400Regular](./IBMPlexSansDevanagari_400Regular.ttf.png)|![IBMPlexSansDevanagari_500Medium](./IBMPlexSansDevanagari_500Medium.ttf.png)|![IBMPlexSansDevanagari_600SemiBold](./IBMPlexSansDevanagari_600SemiBold.ttf.png)||
-|![IBMPlexSansDevanagari_700Bold](./IBMPlexSansDevanagari_700Bold.ttf.png)||||
+|![IBMPlexSansDevanagari_100Thin](.//100Thin/IBMPlexSansDevanagari_100Thin.ttf.png)|![IBMPlexSansDevanagari_200ExtraLight](.//200ExtraLight/IBMPlexSansDevanagari_200ExtraLight.ttf.png)|![IBMPlexSansDevanagari_300Light](.//300Light/IBMPlexSansDevanagari_300Light.ttf.png)||
+|![IBMPlexSansDevanagari_400Regular](.//400Regular/IBMPlexSansDevanagari_400Regular.ttf.png)|![IBMPlexSansDevanagari_500Medium](.//500Medium/IBMPlexSansDevanagari_500Medium.ttf.png)|![IBMPlexSansDevanagari_600SemiBold](.//600SemiBold/IBMPlexSansDevanagari_600SemiBold.ttf.png)||
+|![IBMPlexSansDevanagari_700Bold](.//700Bold/IBMPlexSansDevanagari_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

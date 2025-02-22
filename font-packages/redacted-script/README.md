@@ -89,7 +89,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RedactedScript_300Light](./RedactedScript_300Light.ttf.png)|![RedactedScript_400Regular](./RedactedScript_400Regular.ttf.png)|![RedactedScript_700Bold](./RedactedScript_700Bold.ttf.png)||
+|![RedactedScript_300Light](.//300Light/RedactedScript_300Light.ttf.png)|![RedactedScript_400Regular](.//400Regular/RedactedScript_400Regular.ttf.png)|![RedactedScript_700Bold](.//700Bold/RedactedScript_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

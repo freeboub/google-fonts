@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SedanSC_400Regular](./SedanSC_400Regular.ttf.png)||||
+|![SedanSC_400Regular](.//400Regular/SedanSC_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

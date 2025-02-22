@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Bahiana_400Regular](./Bahiana_400Regular.ttf.png)||||
+|![Bahiana_400Regular](.//400Regular/Bahiana_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

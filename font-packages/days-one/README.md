@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![DaysOne_400Regular](./DaysOne_400Regular.ttf.png)||||
+|![DaysOne_400Regular](.//400Regular/DaysOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

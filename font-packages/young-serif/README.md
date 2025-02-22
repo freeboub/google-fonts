@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![YoungSerif_400Regular](./YoungSerif_400Regular.ttf.png)||||
+|![YoungSerif_400Regular](.//400Regular/YoungSerif_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

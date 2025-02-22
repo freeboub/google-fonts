@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Slackey_400Regular](./Slackey_400Regular.ttf.png)||||
+|![Slackey_400Regular](.//400Regular/Slackey_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

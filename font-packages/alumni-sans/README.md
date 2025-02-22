@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AlumniSans_100Thin](./AlumniSans_100Thin.ttf.png)|![AlumniSans_200ExtraLight](./AlumniSans_200ExtraLight.ttf.png)|![AlumniSans_300Light](./AlumniSans_300Light.ttf.png)||
-|![AlumniSans_400Regular](./AlumniSans_400Regular.ttf.png)|![AlumniSans_500Medium](./AlumniSans_500Medium.ttf.png)|![AlumniSans_600SemiBold](./AlumniSans_600SemiBold.ttf.png)||
-|![AlumniSans_700Bold](./AlumniSans_700Bold.ttf.png)|![AlumniSans_800ExtraBold](./AlumniSans_800ExtraBold.ttf.png)|![AlumniSans_900Black](./AlumniSans_900Black.ttf.png)||
-|![AlumniSans_100Thin_Italic](./AlumniSans_100Thin_Italic.ttf.png)|![AlumniSans_200ExtraLight_Italic](./AlumniSans_200ExtraLight_Italic.ttf.png)|![AlumniSans_300Light_Italic](./AlumniSans_300Light_Italic.ttf.png)||
-|![AlumniSans_400Regular_Italic](./AlumniSans_400Regular_Italic.ttf.png)|![AlumniSans_500Medium_Italic](./AlumniSans_500Medium_Italic.ttf.png)|![AlumniSans_600SemiBold_Italic](./AlumniSans_600SemiBold_Italic.ttf.png)||
-|![AlumniSans_700Bold_Italic](./AlumniSans_700Bold_Italic.ttf.png)|![AlumniSans_800ExtraBold_Italic](./AlumniSans_800ExtraBold_Italic.ttf.png)|![AlumniSans_900Black_Italic](./AlumniSans_900Black_Italic.ttf.png)||
+|![AlumniSans_100Thin](.//100Thin/AlumniSans_100Thin.ttf.png)|![AlumniSans_200ExtraLight](.//200ExtraLight/AlumniSans_200ExtraLight.ttf.png)|![AlumniSans_300Light](.//300Light/AlumniSans_300Light.ttf.png)||
+|![AlumniSans_400Regular](.//400Regular/AlumniSans_400Regular.ttf.png)|![AlumniSans_500Medium](.//500Medium/AlumniSans_500Medium.ttf.png)|![AlumniSans_600SemiBold](.//600SemiBold/AlumniSans_600SemiBold.ttf.png)||
+|![AlumniSans_700Bold](.//700Bold/AlumniSans_700Bold.ttf.png)|![AlumniSans_800ExtraBold](.//800ExtraBold/AlumniSans_800ExtraBold.ttf.png)|![AlumniSans_900Black](.//900Black/AlumniSans_900Black.ttf.png)||
+|![AlumniSans_100Thin_Italic](.//100Thin_Italic/AlumniSans_100Thin_Italic.ttf.png)|![AlumniSans_200ExtraLight_Italic](.//200ExtraLight_Italic/AlumniSans_200ExtraLight_Italic.ttf.png)|![AlumniSans_300Light_Italic](.//300Light_Italic/AlumniSans_300Light_Italic.ttf.png)||
+|![AlumniSans_400Regular_Italic](.//400Regular_Italic/AlumniSans_400Regular_Italic.ttf.png)|![AlumniSans_500Medium_Italic](.//500Medium_Italic/AlumniSans_500Medium_Italic.ttf.png)|![AlumniSans_600SemiBold_Italic](.//600SemiBold_Italic/AlumniSans_600SemiBold_Italic.ttf.png)||
+|![AlumniSans_700Bold_Italic](.//700Bold_Italic/AlumniSans_700Bold_Italic.ttf.png)|![AlumniSans_800ExtraBold_Italic](.//800ExtraBold_Italic/AlumniSans_800ExtraBold_Italic.ttf.png)|![AlumniSans_900Black_Italic](.//900Black_Italic/AlumniSans_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

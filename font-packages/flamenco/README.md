@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Flamenco_300Light](./Flamenco_300Light.ttf.png)|![Flamenco_400Regular](./Flamenco_400Regular.ttf.png)|||
+|![Flamenco_300Light](.//300Light/Flamenco_300Light.ttf.png)|![Flamenco_400Regular](.//400Regular/Flamenco_400Regular.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

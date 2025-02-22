@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LibreCaslonDisplay_400Regular](./LibreCaslonDisplay_400Regular.ttf.png)||||
+|![LibreCaslonDisplay_400Regular](.//400Regular/LibreCaslonDisplay_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

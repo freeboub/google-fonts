@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RaviPrakash_400Regular](./RaviPrakash_400Regular.ttf.png)||||
+|![RaviPrakash_400Regular](.//400Regular/RaviPrakash_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

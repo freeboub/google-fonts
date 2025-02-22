@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RubikGemstones_400Regular](./RubikGemstones_400Regular.ttf.png)||||
+|![RubikGemstones_400Regular](.//400Regular/RubikGemstones_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

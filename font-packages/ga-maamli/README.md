@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![GaMaamli_400Regular](./GaMaamli_400Regular.ttf.png)||||
+|![GaMaamli_400Regular](.//400Regular/GaMaamli_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

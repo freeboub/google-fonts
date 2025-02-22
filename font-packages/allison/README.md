@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Allison_400Regular](./Allison_400Regular.ttf.png)||||
+|![Allison_400Regular](.//400Regular/Allison_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

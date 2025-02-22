@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KodeMono_400Regular](./KodeMono_400Regular.ttf.png)|![KodeMono_500Medium](./KodeMono_500Medium.ttf.png)|![KodeMono_600SemiBold](./KodeMono_600SemiBold.ttf.png)||
-|![KodeMono_700Bold](./KodeMono_700Bold.ttf.png)||||
+|![KodeMono_400Regular](.//400Regular/KodeMono_400Regular.ttf.png)|![KodeMono_500Medium](.//500Medium/KodeMono_500Medium.ttf.png)|![KodeMono_600SemiBold](.//600SemiBold/KodeMono_600SemiBold.ttf.png)||
+|![KodeMono_700Bold](.//700Bold/KodeMono_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

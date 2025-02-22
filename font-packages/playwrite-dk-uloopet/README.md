@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PlaywriteDKUloopet_100Thin](./PlaywriteDKUloopet_100Thin.ttf.png)|![PlaywriteDKUloopet_200ExtraLight](./PlaywriteDKUloopet_200ExtraLight.ttf.png)|![PlaywriteDKUloopet_300Light](./PlaywriteDKUloopet_300Light.ttf.png)||
-|![PlaywriteDKUloopet_400Regular](./PlaywriteDKUloopet_400Regular.ttf.png)||||
+|![PlaywriteDKUloopet_100Thin](.//100Thin/PlaywriteDKUloopet_100Thin.ttf.png)|![PlaywriteDKUloopet_200ExtraLight](.//200ExtraLight/PlaywriteDKUloopet_200ExtraLight.ttf.png)|![PlaywriteDKUloopet_300Light](.//300Light/PlaywriteDKUloopet_300Light.ttf.png)||
+|![PlaywriteDKUloopet_400Regular](.//400Regular/PlaywriteDKUloopet_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

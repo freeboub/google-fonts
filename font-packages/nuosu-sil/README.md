@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NuosuSIL_400Regular](./NuosuSIL_400Regular.ttf.png)||||
+|![NuosuSIL_400Regular](.//400Regular/NuosuSIL_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

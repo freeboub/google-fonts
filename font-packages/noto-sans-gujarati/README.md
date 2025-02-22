@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansGujarati_100Thin](./NotoSansGujarati_100Thin.ttf.png)|![NotoSansGujarati_200ExtraLight](./NotoSansGujarati_200ExtraLight.ttf.png)|![NotoSansGujarati_300Light](./NotoSansGujarati_300Light.ttf.png)||
-|![NotoSansGujarati_400Regular](./NotoSansGujarati_400Regular.ttf.png)|![NotoSansGujarati_500Medium](./NotoSansGujarati_500Medium.ttf.png)|![NotoSansGujarati_600SemiBold](./NotoSansGujarati_600SemiBold.ttf.png)||
-|![NotoSansGujarati_700Bold](./NotoSansGujarati_700Bold.ttf.png)|![NotoSansGujarati_800ExtraBold](./NotoSansGujarati_800ExtraBold.ttf.png)|![NotoSansGujarati_900Black](./NotoSansGujarati_900Black.ttf.png)||
+|![NotoSansGujarati_100Thin](.//100Thin/NotoSansGujarati_100Thin.ttf.png)|![NotoSansGujarati_200ExtraLight](.//200ExtraLight/NotoSansGujarati_200ExtraLight.ttf.png)|![NotoSansGujarati_300Light](.//300Light/NotoSansGujarati_300Light.ttf.png)||
+|![NotoSansGujarati_400Regular](.//400Regular/NotoSansGujarati_400Regular.ttf.png)|![NotoSansGujarati_500Medium](.//500Medium/NotoSansGujarati_500Medium.ttf.png)|![NotoSansGujarati_600SemiBold](.//600SemiBold/NotoSansGujarati_600SemiBold.ttf.png)||
+|![NotoSansGujarati_700Bold](.//700Bold/NotoSansGujarati_700Bold.ttf.png)|![NotoSansGujarati_800ExtraBold](.//800ExtraBold/NotoSansGujarati_800ExtraBold.ttf.png)|![NotoSansGujarati_900Black](.//900Black/NotoSansGujarati_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansKhmer_100Thin](./NotoSansKhmer_100Thin.ttf.png)|![NotoSansKhmer_200ExtraLight](./NotoSansKhmer_200ExtraLight.ttf.png)|![NotoSansKhmer_300Light](./NotoSansKhmer_300Light.ttf.png)||
-|![NotoSansKhmer_400Regular](./NotoSansKhmer_400Regular.ttf.png)|![NotoSansKhmer_500Medium](./NotoSansKhmer_500Medium.ttf.png)|![NotoSansKhmer_600SemiBold](./NotoSansKhmer_600SemiBold.ttf.png)||
-|![NotoSansKhmer_700Bold](./NotoSansKhmer_700Bold.ttf.png)|![NotoSansKhmer_800ExtraBold](./NotoSansKhmer_800ExtraBold.ttf.png)|![NotoSansKhmer_900Black](./NotoSansKhmer_900Black.ttf.png)||
+|![NotoSansKhmer_100Thin](.//100Thin/NotoSansKhmer_100Thin.ttf.png)|![NotoSansKhmer_200ExtraLight](.//200ExtraLight/NotoSansKhmer_200ExtraLight.ttf.png)|![NotoSansKhmer_300Light](.//300Light/NotoSansKhmer_300Light.ttf.png)||
+|![NotoSansKhmer_400Regular](.//400Regular/NotoSansKhmer_400Regular.ttf.png)|![NotoSansKhmer_500Medium](.//500Medium/NotoSansKhmer_500Medium.ttf.png)|![NotoSansKhmer_600SemiBold](.//600SemiBold/NotoSansKhmer_600SemiBold.ttf.png)||
+|![NotoSansKhmer_700Bold](.//700Bold/NotoSansKhmer_700Bold.ttf.png)|![NotoSansKhmer_800ExtraBold](.//800ExtraBold/NotoSansKhmer_800ExtraBold.ttf.png)|![NotoSansKhmer_900Black](.//900Black/NotoSansKhmer_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

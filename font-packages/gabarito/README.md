@@ -128,8 +128,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Gabarito_400Regular](./Gabarito_400Regular.ttf.png)|![Gabarito_500Medium](./Gabarito_500Medium.ttf.png)|![Gabarito_600SemiBold](./Gabarito_600SemiBold.ttf.png)||
-|![Gabarito_700Bold](./Gabarito_700Bold.ttf.png)|![Gabarito_800ExtraBold](./Gabarito_800ExtraBold.ttf.png)|![Gabarito_900Black](./Gabarito_900Black.ttf.png)||
+|![Gabarito_400Regular](.//400Regular/Gabarito_400Regular.ttf.png)|![Gabarito_500Medium](.//500Medium/Gabarito_500Medium.ttf.png)|![Gabarito_600SemiBold](.//600SemiBold/Gabarito_600SemiBold.ttf.png)||
+|![Gabarito_700Bold](.//700Bold/Gabarito_700Bold.ttf.png)|![Gabarito_800ExtraBold](.//800ExtraBold/Gabarito_800ExtraBold.ttf.png)|![Gabarito_900Black](.//900Black/Gabarito_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

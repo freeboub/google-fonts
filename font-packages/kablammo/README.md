@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Kablammo_400Regular](./Kablammo_400Regular.ttf.png)||||
+|![Kablammo_400Regular](.//400Regular/Kablammo_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

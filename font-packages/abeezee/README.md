@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ABeeZee_400Regular](./ABeeZee_400Regular.ttf.png)|![ABeeZee_400Regular_Italic](./ABeeZee_400Regular_Italic.ttf.png)|||
+|![ABeeZee_400Regular](.//400Regular/ABeeZee_400Regular.ttf.png)|![ABeeZee_400Regular_Italic](.//400Regular_Italic/ABeeZee_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

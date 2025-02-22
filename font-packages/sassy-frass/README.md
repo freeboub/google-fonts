@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SassyFrass_400Regular](./SassyFrass_400Regular.ttf.png)||||
+|![SassyFrass_400Regular](.//400Regular/SassyFrass_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

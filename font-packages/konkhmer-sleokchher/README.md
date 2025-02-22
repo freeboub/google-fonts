@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KonkhmerSleokchher_400Regular](./KonkhmerSleokchher_400Regular.ttf.png)||||
+|![KonkhmerSleokchher_400Regular](.//400Regular/KonkhmerSleokchher_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoMusic_400Regular](./NotoMusic_400Regular.ttf.png)||||
+|![NotoMusic_400Regular](.//400Regular/NotoMusic_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

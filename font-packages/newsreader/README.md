@@ -232,11 +232,11 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Newsreader_200ExtraLight](./Newsreader_200ExtraLight.ttf.png)|![Newsreader_300Light](./Newsreader_300Light.ttf.png)|![Newsreader_400Regular](./Newsreader_400Regular.ttf.png)||
-|![Newsreader_500Medium](./Newsreader_500Medium.ttf.png)|![Newsreader_600SemiBold](./Newsreader_600SemiBold.ttf.png)|![Newsreader_700Bold](./Newsreader_700Bold.ttf.png)||
-|![Newsreader_800ExtraBold](./Newsreader_800ExtraBold.ttf.png)|![Newsreader_200ExtraLight_Italic](./Newsreader_200ExtraLight_Italic.ttf.png)|![Newsreader_300Light_Italic](./Newsreader_300Light_Italic.ttf.png)||
-|![Newsreader_400Regular_Italic](./Newsreader_400Regular_Italic.ttf.png)|![Newsreader_500Medium_Italic](./Newsreader_500Medium_Italic.ttf.png)|![Newsreader_600SemiBold_Italic](./Newsreader_600SemiBold_Italic.ttf.png)||
-|![Newsreader_700Bold_Italic](./Newsreader_700Bold_Italic.ttf.png)|![Newsreader_800ExtraBold_Italic](./Newsreader_800ExtraBold_Italic.ttf.png)|||
+|![Newsreader_200ExtraLight](.//200ExtraLight/Newsreader_200ExtraLight.ttf.png)|![Newsreader_300Light](.//300Light/Newsreader_300Light.ttf.png)|![Newsreader_400Regular](.//400Regular/Newsreader_400Regular.ttf.png)||
+|![Newsreader_500Medium](.//500Medium/Newsreader_500Medium.ttf.png)|![Newsreader_600SemiBold](.//600SemiBold/Newsreader_600SemiBold.ttf.png)|![Newsreader_700Bold](.//700Bold/Newsreader_700Bold.ttf.png)||
+|![Newsreader_800ExtraBold](.//800ExtraBold/Newsreader_800ExtraBold.ttf.png)|![Newsreader_200ExtraLight_Italic](.//200ExtraLight_Italic/Newsreader_200ExtraLight_Italic.ttf.png)|![Newsreader_300Light_Italic](.//300Light_Italic/Newsreader_300Light_Italic.ttf.png)||
+|![Newsreader_400Regular_Italic](.//400Regular_Italic/Newsreader_400Regular_Italic.ttf.png)|![Newsreader_500Medium_Italic](.//500Medium_Italic/Newsreader_500Medium_Italic.ttf.png)|![Newsreader_600SemiBold_Italic](.//600SemiBold_Italic/Newsreader_600SemiBold_Italic.ttf.png)||
+|![Newsreader_700Bold_Italic](.//700Bold_Italic/Newsreader_700Bold_Italic.ttf.png)|![Newsreader_800ExtraBold_Italic](.//800ExtraBold_Italic/Newsreader_800ExtraBold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

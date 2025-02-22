@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![YesevaOne_400Regular](./YesevaOne_400Regular.ttf.png)||||
+|![YesevaOne_400Regular](.//400Regular/YesevaOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

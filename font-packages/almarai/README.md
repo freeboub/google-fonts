@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Almarai_300Light](./Almarai_300Light.ttf.png)|![Almarai_400Regular](./Almarai_400Regular.ttf.png)|![Almarai_700Bold](./Almarai_700Bold.ttf.png)||
-|![Almarai_800ExtraBold](./Almarai_800ExtraBold.ttf.png)||||
+|![Almarai_300Light](.//300Light/Almarai_300Light.ttf.png)|![Almarai_400Regular](.//400Regular/Almarai_400Regular.ttf.png)|![Almarai_700Bold](.//700Bold/Almarai_700Bold.ttf.png)||
+|![Almarai_800ExtraBold](.//800ExtraBold/Almarai_800ExtraBold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

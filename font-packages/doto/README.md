@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Doto_100Thin](./Doto_100Thin.ttf.png)|![Doto_200ExtraLight](./Doto_200ExtraLight.ttf.png)|![Doto_300Light](./Doto_300Light.ttf.png)||
-|![Doto_400Regular](./Doto_400Regular.ttf.png)|![Doto_500Medium](./Doto_500Medium.ttf.png)|![Doto_600SemiBold](./Doto_600SemiBold.ttf.png)||
-|![Doto_700Bold](./Doto_700Bold.ttf.png)|![Doto_800ExtraBold](./Doto_800ExtraBold.ttf.png)|![Doto_900Black](./Doto_900Black.ttf.png)||
+|![Doto_100Thin](.//100Thin/Doto_100Thin.ttf.png)|![Doto_200ExtraLight](.//200ExtraLight/Doto_200ExtraLight.ttf.png)|![Doto_300Light](.//300Light/Doto_300Light.ttf.png)||
+|![Doto_400Regular](.//400Regular/Doto_400Regular.ttf.png)|![Doto_500Medium](.//500Medium/Doto_500Medium.ttf.png)|![Doto_600SemiBold](.//600SemiBold/Doto_600SemiBold.ttf.png)||
+|![Doto_700Bold](.//700Bold/Doto_700Bold.ttf.png)|![Doto_800ExtraBold](.//800ExtraBold/Doto_800ExtraBold.ttf.png)|![Doto_900Black](.//900Black/Doto_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

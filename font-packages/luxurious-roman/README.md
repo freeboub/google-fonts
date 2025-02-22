@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LuxuriousRoman_400Regular](./LuxuriousRoman_400Regular.ttf.png)||||
+|![LuxuriousRoman_400Regular](.//400Regular/LuxuriousRoman_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

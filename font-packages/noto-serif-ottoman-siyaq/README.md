@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifOttomanSiyaq_400Regular](./NotoSerifOttomanSiyaq_400Regular.ttf.png)||||
+|![NotoSerifOttomanSiyaq_400Regular](.//400Regular/NotoSerifOttomanSiyaq_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

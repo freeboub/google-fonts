@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Qwigley_400Regular](./Qwigley_400Regular.ttf.png)||||
+|![Qwigley_400Regular](.//400Regular/Qwigley_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

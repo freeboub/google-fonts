@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![GentiumBookPlus_400Regular](./GentiumBookPlus_400Regular.ttf.png)|![GentiumBookPlus_400Regular_Italic](./GentiumBookPlus_400Regular_Italic.ttf.png)|![GentiumBookPlus_700Bold](./GentiumBookPlus_700Bold.ttf.png)||
-|![GentiumBookPlus_700Bold_Italic](./GentiumBookPlus_700Bold_Italic.ttf.png)||||
+|![GentiumBookPlus_400Regular](.//400Regular/GentiumBookPlus_400Regular.ttf.png)|![GentiumBookPlus_400Regular_Italic](.//400Regular_Italic/GentiumBookPlus_400Regular_Italic.ttf.png)|![GentiumBookPlus_700Bold](.//700Bold/GentiumBookPlus_700Bold.ttf.png)||
+|![GentiumBookPlus_700Bold_Italic](.//700Bold_Italic/GentiumBookPlus_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

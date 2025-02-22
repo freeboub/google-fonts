@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Preahvihear_400Regular](./Preahvihear_400Regular.ttf.png)||||
+|![Preahvihear_400Regular](.//400Regular/Preahvihear_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

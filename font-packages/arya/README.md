@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Arya_400Regular](./Arya_400Regular.ttf.png)|![Arya_700Bold](./Arya_700Bold.ttf.png)|||
+|![Arya_400Regular](.//400Regular/Arya_400Regular.ttf.png)|![Arya_700Bold](.//700Bold/Arya_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

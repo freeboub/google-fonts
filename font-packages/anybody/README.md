@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Anybody_100Thin](./Anybody_100Thin.ttf.png)|![Anybody_200ExtraLight](./Anybody_200ExtraLight.ttf.png)|![Anybody_300Light](./Anybody_300Light.ttf.png)||
-|![Anybody_400Regular](./Anybody_400Regular.ttf.png)|![Anybody_500Medium](./Anybody_500Medium.ttf.png)|![Anybody_600SemiBold](./Anybody_600SemiBold.ttf.png)||
-|![Anybody_700Bold](./Anybody_700Bold.ttf.png)|![Anybody_800ExtraBold](./Anybody_800ExtraBold.ttf.png)|![Anybody_900Black](./Anybody_900Black.ttf.png)||
-|![Anybody_100Thin_Italic](./Anybody_100Thin_Italic.ttf.png)|![Anybody_200ExtraLight_Italic](./Anybody_200ExtraLight_Italic.ttf.png)|![Anybody_300Light_Italic](./Anybody_300Light_Italic.ttf.png)||
-|![Anybody_400Regular_Italic](./Anybody_400Regular_Italic.ttf.png)|![Anybody_500Medium_Italic](./Anybody_500Medium_Italic.ttf.png)|![Anybody_600SemiBold_Italic](./Anybody_600SemiBold_Italic.ttf.png)||
-|![Anybody_700Bold_Italic](./Anybody_700Bold_Italic.ttf.png)|![Anybody_800ExtraBold_Italic](./Anybody_800ExtraBold_Italic.ttf.png)|![Anybody_900Black_Italic](./Anybody_900Black_Italic.ttf.png)||
+|![Anybody_100Thin](.//100Thin/Anybody_100Thin.ttf.png)|![Anybody_200ExtraLight](.//200ExtraLight/Anybody_200ExtraLight.ttf.png)|![Anybody_300Light](.//300Light/Anybody_300Light.ttf.png)||
+|![Anybody_400Regular](.//400Regular/Anybody_400Regular.ttf.png)|![Anybody_500Medium](.//500Medium/Anybody_500Medium.ttf.png)|![Anybody_600SemiBold](.//600SemiBold/Anybody_600SemiBold.ttf.png)||
+|![Anybody_700Bold](.//700Bold/Anybody_700Bold.ttf.png)|![Anybody_800ExtraBold](.//800ExtraBold/Anybody_800ExtraBold.ttf.png)|![Anybody_900Black](.//900Black/Anybody_900Black.ttf.png)||
+|![Anybody_100Thin_Italic](.//100Thin_Italic/Anybody_100Thin_Italic.ttf.png)|![Anybody_200ExtraLight_Italic](.//200ExtraLight_Italic/Anybody_200ExtraLight_Italic.ttf.png)|![Anybody_300Light_Italic](.//300Light_Italic/Anybody_300Light_Italic.ttf.png)||
+|![Anybody_400Regular_Italic](.//400Regular_Italic/Anybody_400Regular_Italic.ttf.png)|![Anybody_500Medium_Italic](.//500Medium_Italic/Anybody_500Medium_Italic.ttf.png)|![Anybody_600SemiBold_Italic](.//600SemiBold_Italic/Anybody_600SemiBold_Italic.ttf.png)||
+|![Anybody_700Bold_Italic](.//700Bold_Italic/Anybody_700Bold_Italic.ttf.png)|![Anybody_800ExtraBold_Italic](.//800ExtraBold_Italic/Anybody_800ExtraBold_Italic.ttf.png)|![Anybody_900Black_Italic](.//900Black_Italic/Anybody_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

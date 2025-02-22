@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Arizonia_400Regular](./Arizonia_400Regular.ttf.png)||||
+|![Arizonia_400Regular](.//400Regular/Arizonia_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

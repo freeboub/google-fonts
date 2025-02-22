@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![IMFellDWPica_400Regular](./IMFellDWPica_400Regular.ttf.png)|![IMFellDWPica_400Regular_Italic](./IMFellDWPica_400Regular_Italic.ttf.png)|||
+|![IMFellDWPica_400Regular](.//400Regular/IMFellDWPica_400Regular.ttf.png)|![IMFellDWPica_400Regular_Italic](.//400Regular_Italic/IMFellDWPica_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Martel_200ExtraLight](./Martel_200ExtraLight.ttf.png)|![Martel_300Light](./Martel_300Light.ttf.png)|![Martel_400Regular](./Martel_400Regular.ttf.png)||
-|![Martel_600SemiBold](./Martel_600SemiBold.ttf.png)|![Martel_700Bold](./Martel_700Bold.ttf.png)|![Martel_800ExtraBold](./Martel_800ExtraBold.ttf.png)||
-|![Martel_900Black](./Martel_900Black.ttf.png)||||
+|![Martel_200ExtraLight](.//200ExtraLight/Martel_200ExtraLight.ttf.png)|![Martel_300Light](.//300Light/Martel_300Light.ttf.png)|![Martel_400Regular](.//400Regular/Martel_400Regular.ttf.png)||
+|![Martel_600SemiBold](.//600SemiBold/Martel_600SemiBold.ttf.png)|![Martel_700Bold](.//700Bold/Martel_700Bold.ttf.png)|![Martel_800ExtraBold](.//800ExtraBold/Martel_800ExtraBold.ttf.png)||
+|![Martel_900Black](.//900Black/Martel_900Black.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

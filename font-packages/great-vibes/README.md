@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![GreatVibes_400Regular](./GreatVibes_400Regular.ttf.png)||||
+|![GreatVibes_400Regular](.//400Regular/GreatVibes_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Rokkitt_100Thin](./Rokkitt_100Thin.ttf.png)|![Rokkitt_200ExtraLight](./Rokkitt_200ExtraLight.ttf.png)|![Rokkitt_300Light](./Rokkitt_300Light.ttf.png)||
-|![Rokkitt_400Regular](./Rokkitt_400Regular.ttf.png)|![Rokkitt_500Medium](./Rokkitt_500Medium.ttf.png)|![Rokkitt_600SemiBold](./Rokkitt_600SemiBold.ttf.png)||
-|![Rokkitt_700Bold](./Rokkitt_700Bold.ttf.png)|![Rokkitt_800ExtraBold](./Rokkitt_800ExtraBold.ttf.png)|![Rokkitt_900Black](./Rokkitt_900Black.ttf.png)||
-|![Rokkitt_100Thin_Italic](./Rokkitt_100Thin_Italic.ttf.png)|![Rokkitt_200ExtraLight_Italic](./Rokkitt_200ExtraLight_Italic.ttf.png)|![Rokkitt_300Light_Italic](./Rokkitt_300Light_Italic.ttf.png)||
-|![Rokkitt_400Regular_Italic](./Rokkitt_400Regular_Italic.ttf.png)|![Rokkitt_500Medium_Italic](./Rokkitt_500Medium_Italic.ttf.png)|![Rokkitt_600SemiBold_Italic](./Rokkitt_600SemiBold_Italic.ttf.png)||
-|![Rokkitt_700Bold_Italic](./Rokkitt_700Bold_Italic.ttf.png)|![Rokkitt_800ExtraBold_Italic](./Rokkitt_800ExtraBold_Italic.ttf.png)|![Rokkitt_900Black_Italic](./Rokkitt_900Black_Italic.ttf.png)||
+|![Rokkitt_100Thin](.//100Thin/Rokkitt_100Thin.ttf.png)|![Rokkitt_200ExtraLight](.//200ExtraLight/Rokkitt_200ExtraLight.ttf.png)|![Rokkitt_300Light](.//300Light/Rokkitt_300Light.ttf.png)||
+|![Rokkitt_400Regular](.//400Regular/Rokkitt_400Regular.ttf.png)|![Rokkitt_500Medium](.//500Medium/Rokkitt_500Medium.ttf.png)|![Rokkitt_600SemiBold](.//600SemiBold/Rokkitt_600SemiBold.ttf.png)||
+|![Rokkitt_700Bold](.//700Bold/Rokkitt_700Bold.ttf.png)|![Rokkitt_800ExtraBold](.//800ExtraBold/Rokkitt_800ExtraBold.ttf.png)|![Rokkitt_900Black](.//900Black/Rokkitt_900Black.ttf.png)||
+|![Rokkitt_100Thin_Italic](.//100Thin_Italic/Rokkitt_100Thin_Italic.ttf.png)|![Rokkitt_200ExtraLight_Italic](.//200ExtraLight_Italic/Rokkitt_200ExtraLight_Italic.ttf.png)|![Rokkitt_300Light_Italic](.//300Light_Italic/Rokkitt_300Light_Italic.ttf.png)||
+|![Rokkitt_400Regular_Italic](.//400Regular_Italic/Rokkitt_400Regular_Italic.ttf.png)|![Rokkitt_500Medium_Italic](.//500Medium_Italic/Rokkitt_500Medium_Italic.ttf.png)|![Rokkitt_600SemiBold_Italic](.//600SemiBold_Italic/Rokkitt_600SemiBold_Italic.ttf.png)||
+|![Rokkitt_700Bold_Italic](.//700Bold_Italic/Rokkitt_700Bold_Italic.ttf.png)|![Rokkitt_800ExtraBold_Italic](.//800ExtraBold_Italic/Rokkitt_800ExtraBold_Italic.ttf.png)|![Rokkitt_900Black_Italic](.//900Black_Italic/Rokkitt_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

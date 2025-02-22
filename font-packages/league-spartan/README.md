@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LeagueSpartan_100Thin](./LeagueSpartan_100Thin.ttf.png)|![LeagueSpartan_200ExtraLight](./LeagueSpartan_200ExtraLight.ttf.png)|![LeagueSpartan_300Light](./LeagueSpartan_300Light.ttf.png)||
-|![LeagueSpartan_400Regular](./LeagueSpartan_400Regular.ttf.png)|![LeagueSpartan_500Medium](./LeagueSpartan_500Medium.ttf.png)|![LeagueSpartan_600SemiBold](./LeagueSpartan_600SemiBold.ttf.png)||
-|![LeagueSpartan_700Bold](./LeagueSpartan_700Bold.ttf.png)|![LeagueSpartan_800ExtraBold](./LeagueSpartan_800ExtraBold.ttf.png)|![LeagueSpartan_900Black](./LeagueSpartan_900Black.ttf.png)||
+|![LeagueSpartan_100Thin](.//100Thin/LeagueSpartan_100Thin.ttf.png)|![LeagueSpartan_200ExtraLight](.//200ExtraLight/LeagueSpartan_200ExtraLight.ttf.png)|![LeagueSpartan_300Light](.//300Light/LeagueSpartan_300Light.ttf.png)||
+|![LeagueSpartan_400Regular](.//400Regular/LeagueSpartan_400Regular.ttf.png)|![LeagueSpartan_500Medium](.//500Medium/LeagueSpartan_500Medium.ttf.png)|![LeagueSpartan_600SemiBold](.//600SemiBold/LeagueSpartan_600SemiBold.ttf.png)||
+|![LeagueSpartan_700Bold](.//700Bold/LeagueSpartan_700Bold.ttf.png)|![LeagueSpartan_800ExtraBold](.//800ExtraBold/LeagueSpartan_800ExtraBold.ttf.png)|![LeagueSpartan_900Black](.//900Black/LeagueSpartan_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

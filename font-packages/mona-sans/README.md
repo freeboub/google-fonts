@@ -258,12 +258,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MonaSans_200ExtraLight](./MonaSans_200ExtraLight.ttf.png)|![MonaSans_300Light](./MonaSans_300Light.ttf.png)|![MonaSans_400Regular](./MonaSans_400Regular.ttf.png)||
-|![MonaSans_500Medium](./MonaSans_500Medium.ttf.png)|![MonaSans_600SemiBold](./MonaSans_600SemiBold.ttf.png)|![MonaSans_700Bold](./MonaSans_700Bold.ttf.png)||
-|![MonaSans_800ExtraBold](./MonaSans_800ExtraBold.ttf.png)|![MonaSans_900Black](./MonaSans_900Black.ttf.png)|![MonaSans_200ExtraLight_Italic](./MonaSans_200ExtraLight_Italic.ttf.png)||
-|![MonaSans_300Light_Italic](./MonaSans_300Light_Italic.ttf.png)|![MonaSans_400Regular_Italic](./MonaSans_400Regular_Italic.ttf.png)|![MonaSans_500Medium_Italic](./MonaSans_500Medium_Italic.ttf.png)||
-|![MonaSans_600SemiBold_Italic](./MonaSans_600SemiBold_Italic.ttf.png)|![MonaSans_700Bold_Italic](./MonaSans_700Bold_Italic.ttf.png)|![MonaSans_800ExtraBold_Italic](./MonaSans_800ExtraBold_Italic.ttf.png)||
-|![MonaSans_900Black_Italic](./MonaSans_900Black_Italic.ttf.png)||||
+|![MonaSans_200ExtraLight](.//200ExtraLight/MonaSans_200ExtraLight.ttf.png)|![MonaSans_300Light](.//300Light/MonaSans_300Light.ttf.png)|![MonaSans_400Regular](.//400Regular/MonaSans_400Regular.ttf.png)||
+|![MonaSans_500Medium](.//500Medium/MonaSans_500Medium.ttf.png)|![MonaSans_600SemiBold](.//600SemiBold/MonaSans_600SemiBold.ttf.png)|![MonaSans_700Bold](.//700Bold/MonaSans_700Bold.ttf.png)||
+|![MonaSans_800ExtraBold](.//800ExtraBold/MonaSans_800ExtraBold.ttf.png)|![MonaSans_900Black](.//900Black/MonaSans_900Black.ttf.png)|![MonaSans_200ExtraLight_Italic](.//200ExtraLight_Italic/MonaSans_200ExtraLight_Italic.ttf.png)||
+|![MonaSans_300Light_Italic](.//300Light_Italic/MonaSans_300Light_Italic.ttf.png)|![MonaSans_400Regular_Italic](.//400Regular_Italic/MonaSans_400Regular_Italic.ttf.png)|![MonaSans_500Medium_Italic](.//500Medium_Italic/MonaSans_500Medium_Italic.ttf.png)||
+|![MonaSans_600SemiBold_Italic](.//600SemiBold_Italic/MonaSans_600SemiBold_Italic.ttf.png)|![MonaSans_700Bold_Italic](.//700Bold_Italic/MonaSans_700Bold_Italic.ttf.png)|![MonaSans_800ExtraBold_Italic](.//800ExtraBold_Italic/MonaSans_800ExtraBold_Italic.ttf.png)||
+|![MonaSans_900Black_Italic](.//900Black_Italic/MonaSans_900Black_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

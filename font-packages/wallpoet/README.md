@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Wallpoet_400Regular](./Wallpoet_400Regular.ttf.png)||||
+|![Wallpoet_400Regular](.//400Regular/Wallpoet_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

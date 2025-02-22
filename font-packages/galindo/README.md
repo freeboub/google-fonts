@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Galindo_400Regular](./Galindo_400Regular.ttf.png)||||
+|![Galindo_400Regular](.//400Regular/Galindo_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

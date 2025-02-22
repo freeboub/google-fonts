@@ -89,7 +89,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Gupter_400Regular](./Gupter_400Regular.ttf.png)|![Gupter_500Medium](./Gupter_500Medium.ttf.png)|![Gupter_700Bold](./Gupter_700Bold.ttf.png)||
+|![Gupter_400Regular](.//400Regular/Gupter_400Regular.ttf.png)|![Gupter_500Medium](.//500Medium/Gupter_500Medium.ttf.png)|![Gupter_700Bold](.//700Bold/Gupter_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

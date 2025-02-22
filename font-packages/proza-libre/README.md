@@ -180,10 +180,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ProzaLibre_400Regular](./ProzaLibre_400Regular.ttf.png)|![ProzaLibre_400Regular_Italic](./ProzaLibre_400Regular_Italic.ttf.png)|![ProzaLibre_500Medium](./ProzaLibre_500Medium.ttf.png)||
-|![ProzaLibre_500Medium_Italic](./ProzaLibre_500Medium_Italic.ttf.png)|![ProzaLibre_600SemiBold](./ProzaLibre_600SemiBold.ttf.png)|![ProzaLibre_600SemiBold_Italic](./ProzaLibre_600SemiBold_Italic.ttf.png)||
-|![ProzaLibre_700Bold](./ProzaLibre_700Bold.ttf.png)|![ProzaLibre_700Bold_Italic](./ProzaLibre_700Bold_Italic.ttf.png)|![ProzaLibre_800ExtraBold](./ProzaLibre_800ExtraBold.ttf.png)||
-|![ProzaLibre_800ExtraBold_Italic](./ProzaLibre_800ExtraBold_Italic.ttf.png)||||
+|![ProzaLibre_400Regular](.//400Regular/ProzaLibre_400Regular.ttf.png)|![ProzaLibre_400Regular_Italic](.//400Regular_Italic/ProzaLibre_400Regular_Italic.ttf.png)|![ProzaLibre_500Medium](.//500Medium/ProzaLibre_500Medium.ttf.png)||
+|![ProzaLibre_500Medium_Italic](.//500Medium_Italic/ProzaLibre_500Medium_Italic.ttf.png)|![ProzaLibre_600SemiBold](.//600SemiBold/ProzaLibre_600SemiBold.ttf.png)|![ProzaLibre_600SemiBold_Italic](.//600SemiBold_Italic/ProzaLibre_600SemiBold_Italic.ttf.png)||
+|![ProzaLibre_700Bold](.//700Bold/ProzaLibre_700Bold.ttf.png)|![ProzaLibre_700Bold_Italic](.//700Bold_Italic/ProzaLibre_700Bold_Italic.ttf.png)|![ProzaLibre_800ExtraBold](.//800ExtraBold/ProzaLibre_800ExtraBold.ttf.png)||
+|![ProzaLibre_800ExtraBold_Italic](.//800ExtraBold_Italic/ProzaLibre_800ExtraBold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

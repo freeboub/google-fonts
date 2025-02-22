@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Fredoka_300Light](./Fredoka_300Light.ttf.png)|![Fredoka_400Regular](./Fredoka_400Regular.ttf.png)|![Fredoka_500Medium](./Fredoka_500Medium.ttf.png)||
-|![Fredoka_600SemiBold](./Fredoka_600SemiBold.ttf.png)|![Fredoka_700Bold](./Fredoka_700Bold.ttf.png)|||
+|![Fredoka_300Light](.//300Light/Fredoka_300Light.ttf.png)|![Fredoka_400Regular](.//400Regular/Fredoka_400Regular.ttf.png)|![Fredoka_500Medium](.//500Medium/Fredoka_500Medium.ttf.png)||
+|![Fredoka_600SemiBold](.//600SemiBold/Fredoka_600SemiBold.ttf.png)|![Fredoka_700Bold](.//700Bold/Fredoka_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

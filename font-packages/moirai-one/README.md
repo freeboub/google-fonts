@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MoiraiOne_400Regular](./MoiraiOne_400Regular.ttf.png)||||
+|![MoiraiOne_400Regular](.//400Regular/MoiraiOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

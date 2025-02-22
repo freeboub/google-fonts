@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Linefont_100Thin](./Linefont_100Thin.ttf.png)|![Linefont_200ExtraLight](./Linefont_200ExtraLight.ttf.png)|![Linefont_300Light](./Linefont_300Light.ttf.png)||
-|![Linefont_400Regular](./Linefont_400Regular.ttf.png)|![Linefont_500Medium](./Linefont_500Medium.ttf.png)|![Linefont_600SemiBold](./Linefont_600SemiBold.ttf.png)||
-|![Linefont_700Bold](./Linefont_700Bold.ttf.png)|![Linefont_800ExtraBold](./Linefont_800ExtraBold.ttf.png)|![Linefont_900Black](./Linefont_900Black.ttf.png)||
+|![Linefont_100Thin](.//100Thin/Linefont_100Thin.ttf.png)|![Linefont_200ExtraLight](.//200ExtraLight/Linefont_200ExtraLight.ttf.png)|![Linefont_300Light](.//300Light/Linefont_300Light.ttf.png)||
+|![Linefont_400Regular](.//400Regular/Linefont_400Regular.ttf.png)|![Linefont_500Medium](.//500Medium/Linefont_500Medium.ttf.png)|![Linefont_600SemiBold](.//600SemiBold/Linefont_600SemiBold.ttf.png)||
+|![Linefont_700Bold](.//700Bold/Linefont_700Bold.ttf.png)|![Linefont_800ExtraBold](.//800ExtraBold/Linefont_800ExtraBold.ttf.png)|![Linefont_900Black](.//900Black/Linefont_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

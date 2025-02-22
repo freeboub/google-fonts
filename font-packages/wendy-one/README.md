@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![WendyOne_400Regular](./WendyOne_400Regular.ttf.png)||||
+|![WendyOne_400Regular](.//400Regular/WendyOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

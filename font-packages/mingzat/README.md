@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Mingzat_400Regular](./Mingzat_400Regular.ttf.png)||||
+|![Mingzat_400Regular](.//400Regular/Mingzat_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

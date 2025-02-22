@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Prociono_400Regular](./Prociono_400Regular.ttf.png)||||
+|![Prociono_400Regular](.//400Regular/Prociono_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![FascinateInline_400Regular](./FascinateInline_400Regular.ttf.png)||||
+|![FascinateInline_400Regular](.//400Regular/FascinateInline_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

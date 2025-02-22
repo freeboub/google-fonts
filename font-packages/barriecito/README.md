@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Barriecito_400Regular](./Barriecito_400Regular.ttf.png)||||
+|![Barriecito_400Regular](.//400Regular/Barriecito_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

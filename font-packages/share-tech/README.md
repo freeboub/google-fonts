@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ShareTech_400Regular](./ShareTech_400Regular.ttf.png)||||
+|![ShareTech_400Regular](.//400Regular/ShareTech_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

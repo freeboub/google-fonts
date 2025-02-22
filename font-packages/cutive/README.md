@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Cutive_400Regular](./Cutive_400Regular.ttf.png)||||
+|![Cutive_400Regular](.//400Regular/Cutive_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

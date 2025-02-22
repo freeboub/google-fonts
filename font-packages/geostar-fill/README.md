@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![GeostarFill_400Regular](./GeostarFill_400Regular.ttf.png)||||
+|![GeostarFill_400Regular](.//400Regular/GeostarFill_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

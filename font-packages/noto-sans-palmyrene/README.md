@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansPalmyrene_400Regular](./NotoSansPalmyrene_400Regular.ttf.png)||||
+|![NotoSansPalmyrene_400Regular](.//400Regular/NotoSansPalmyrene_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -232,11 +232,11 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Figtree_300Light](./Figtree_300Light.ttf.png)|![Figtree_400Regular](./Figtree_400Regular.ttf.png)|![Figtree_500Medium](./Figtree_500Medium.ttf.png)||
-|![Figtree_600SemiBold](./Figtree_600SemiBold.ttf.png)|![Figtree_700Bold](./Figtree_700Bold.ttf.png)|![Figtree_800ExtraBold](./Figtree_800ExtraBold.ttf.png)||
-|![Figtree_900Black](./Figtree_900Black.ttf.png)|![Figtree_300Light_Italic](./Figtree_300Light_Italic.ttf.png)|![Figtree_400Regular_Italic](./Figtree_400Regular_Italic.ttf.png)||
-|![Figtree_500Medium_Italic](./Figtree_500Medium_Italic.ttf.png)|![Figtree_600SemiBold_Italic](./Figtree_600SemiBold_Italic.ttf.png)|![Figtree_700Bold_Italic](./Figtree_700Bold_Italic.ttf.png)||
-|![Figtree_800ExtraBold_Italic](./Figtree_800ExtraBold_Italic.ttf.png)|![Figtree_900Black_Italic](./Figtree_900Black_Italic.ttf.png)|||
+|![Figtree_300Light](.//300Light/Figtree_300Light.ttf.png)|![Figtree_400Regular](.//400Regular/Figtree_400Regular.ttf.png)|![Figtree_500Medium](.//500Medium/Figtree_500Medium.ttf.png)||
+|![Figtree_600SemiBold](.//600SemiBold/Figtree_600SemiBold.ttf.png)|![Figtree_700Bold](.//700Bold/Figtree_700Bold.ttf.png)|![Figtree_800ExtraBold](.//800ExtraBold/Figtree_800ExtraBold.ttf.png)||
+|![Figtree_900Black](.//900Black/Figtree_900Black.ttf.png)|![Figtree_300Light_Italic](.//300Light_Italic/Figtree_300Light_Italic.ttf.png)|![Figtree_400Regular_Italic](.//400Regular_Italic/Figtree_400Regular_Italic.ttf.png)||
+|![Figtree_500Medium_Italic](.//500Medium_Italic/Figtree_500Medium_Italic.ttf.png)|![Figtree_600SemiBold_Italic](.//600SemiBold_Italic/Figtree_600SemiBold_Italic.ttf.png)|![Figtree_700Bold_Italic](.//700Bold_Italic/Figtree_700Bold_Italic.ttf.png)||
+|![Figtree_800ExtraBold_Italic](.//800ExtraBold_Italic/Figtree_800ExtraBold_Italic.ttf.png)|![Figtree_900Black_Italic](.//900Black_Italic/Figtree_900Black_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

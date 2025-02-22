@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Suravaram_400Regular](./Suravaram_400Regular.ttf.png)||||
+|![Suravaram_400Regular](.//400Regular/Suravaram_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

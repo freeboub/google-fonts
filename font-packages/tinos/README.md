@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Tinos_400Regular](./Tinos_400Regular.ttf.png)|![Tinos_400Regular_Italic](./Tinos_400Regular_Italic.ttf.png)|![Tinos_700Bold](./Tinos_700Bold.ttf.png)||
-|![Tinos_700Bold_Italic](./Tinos_700Bold_Italic.ttf.png)||||
+|![Tinos_400Regular](.//400Regular/Tinos_400Regular.ttf.png)|![Tinos_400Regular_Italic](.//400Regular_Italic/Tinos_400Regular_Italic.ttf.png)|![Tinos_700Bold](.//700Bold/Tinos_700Bold.ttf.png)||
+|![Tinos_700Bold_Italic](.//700Bold_Italic/Tinos_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

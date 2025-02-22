@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Felipa_400Regular](./Felipa_400Regular.ttf.png)||||
+|![Felipa_400Regular](.//400Regular/Felipa_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

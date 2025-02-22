@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ZenAntique_400Regular](./ZenAntique_400Regular.ttf.png)||||
+|![ZenAntique_400Regular](.//400Regular/ZenAntique_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

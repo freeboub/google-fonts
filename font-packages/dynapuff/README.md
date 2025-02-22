@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![DynaPuff_400Regular](./DynaPuff_400Regular.ttf.png)|![DynaPuff_500Medium](./DynaPuff_500Medium.ttf.png)|![DynaPuff_600SemiBold](./DynaPuff_600SemiBold.ttf.png)||
-|![DynaPuff_700Bold](./DynaPuff_700Bold.ttf.png)||||
+|![DynaPuff_400Regular](.//400Regular/DynaPuff_400Regular.ttf.png)|![DynaPuff_500Medium](.//500Medium/DynaPuff_500Medium.ttf.png)|![DynaPuff_600SemiBold](.//600SemiBold/DynaPuff_600SemiBold.ttf.png)||
+|![DynaPuff_700Bold](.//700Bold/DynaPuff_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

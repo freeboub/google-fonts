@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ZenMaruGothic_300Light](./ZenMaruGothic_300Light.ttf.png)|![ZenMaruGothic_400Regular](./ZenMaruGothic_400Regular.ttf.png)|![ZenMaruGothic_500Medium](./ZenMaruGothic_500Medium.ttf.png)||
-|![ZenMaruGothic_700Bold](./ZenMaruGothic_700Bold.ttf.png)|![ZenMaruGothic_900Black](./ZenMaruGothic_900Black.ttf.png)|||
+|![ZenMaruGothic_300Light](.//300Light/ZenMaruGothic_300Light.ttf.png)|![ZenMaruGothic_400Regular](.//400Regular/ZenMaruGothic_400Regular.ttf.png)|![ZenMaruGothic_500Medium](.//500Medium/ZenMaruGothic_500Medium.ttf.png)||
+|![ZenMaruGothic_700Bold](.//700Bold/ZenMaruGothic_700Bold.ttf.png)|![ZenMaruGothic_900Black](.//900Black/ZenMaruGothic_900Black.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

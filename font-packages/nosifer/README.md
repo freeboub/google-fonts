@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Nosifer_400Regular](./Nosifer_400Regular.ttf.png)||||
+|![Nosifer_400Regular](.//400Regular/Nosifer_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

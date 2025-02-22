@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Poppins_100Thin](./Poppins_100Thin.ttf.png)|![Poppins_100Thin_Italic](./Poppins_100Thin_Italic.ttf.png)|![Poppins_200ExtraLight](./Poppins_200ExtraLight.ttf.png)||
-|![Poppins_200ExtraLight_Italic](./Poppins_200ExtraLight_Italic.ttf.png)|![Poppins_300Light](./Poppins_300Light.ttf.png)|![Poppins_300Light_Italic](./Poppins_300Light_Italic.ttf.png)||
-|![Poppins_400Regular](./Poppins_400Regular.ttf.png)|![Poppins_400Regular_Italic](./Poppins_400Regular_Italic.ttf.png)|![Poppins_500Medium](./Poppins_500Medium.ttf.png)||
-|![Poppins_500Medium_Italic](./Poppins_500Medium_Italic.ttf.png)|![Poppins_600SemiBold](./Poppins_600SemiBold.ttf.png)|![Poppins_600SemiBold_Italic](./Poppins_600SemiBold_Italic.ttf.png)||
-|![Poppins_700Bold](./Poppins_700Bold.ttf.png)|![Poppins_700Bold_Italic](./Poppins_700Bold_Italic.ttf.png)|![Poppins_800ExtraBold](./Poppins_800ExtraBold.ttf.png)||
-|![Poppins_800ExtraBold_Italic](./Poppins_800ExtraBold_Italic.ttf.png)|![Poppins_900Black](./Poppins_900Black.ttf.png)|![Poppins_900Black_Italic](./Poppins_900Black_Italic.ttf.png)||
+|![Poppins_100Thin](.//100Thin/Poppins_100Thin.ttf.png)|![Poppins_100Thin_Italic](.//100Thin_Italic/Poppins_100Thin_Italic.ttf.png)|![Poppins_200ExtraLight](.//200ExtraLight/Poppins_200ExtraLight.ttf.png)||
+|![Poppins_200ExtraLight_Italic](.//200ExtraLight_Italic/Poppins_200ExtraLight_Italic.ttf.png)|![Poppins_300Light](.//300Light/Poppins_300Light.ttf.png)|![Poppins_300Light_Italic](.//300Light_Italic/Poppins_300Light_Italic.ttf.png)||
+|![Poppins_400Regular](.//400Regular/Poppins_400Regular.ttf.png)|![Poppins_400Regular_Italic](.//400Regular_Italic/Poppins_400Regular_Italic.ttf.png)|![Poppins_500Medium](.//500Medium/Poppins_500Medium.ttf.png)||
+|![Poppins_500Medium_Italic](.//500Medium_Italic/Poppins_500Medium_Italic.ttf.png)|![Poppins_600SemiBold](.//600SemiBold/Poppins_600SemiBold.ttf.png)|![Poppins_600SemiBold_Italic](.//600SemiBold_Italic/Poppins_600SemiBold_Italic.ttf.png)||
+|![Poppins_700Bold](.//700Bold/Poppins_700Bold.ttf.png)|![Poppins_700Bold_Italic](.//700Bold_Italic/Poppins_700Bold_Italic.ttf.png)|![Poppins_800ExtraBold](.//800ExtraBold/Poppins_800ExtraBold.ttf.png)||
+|![Poppins_800ExtraBold_Italic](.//800ExtraBold_Italic/Poppins_800ExtraBold_Italic.ttf.png)|![Poppins_900Black](.//900Black/Poppins_900Black.ttf.png)|![Poppins_900Black_Italic](.//900Black_Italic/Poppins_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

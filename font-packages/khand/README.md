@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Khand_300Light](./Khand_300Light.ttf.png)|![Khand_400Regular](./Khand_400Regular.ttf.png)|![Khand_500Medium](./Khand_500Medium.ttf.png)||
-|![Khand_600SemiBold](./Khand_600SemiBold.ttf.png)|![Khand_700Bold](./Khand_700Bold.ttf.png)|||
+|![Khand_300Light](.//300Light/Khand_300Light.ttf.png)|![Khand_400Regular](.//400Regular/Khand_400Regular.ttf.png)|![Khand_500Medium](.//500Medium/Khand_500Medium.ttf.png)||
+|![Khand_600SemiBold](.//600SemiBold/Khand_600SemiBold.ttf.png)|![Khand_700Bold](.//700Bold/Khand_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

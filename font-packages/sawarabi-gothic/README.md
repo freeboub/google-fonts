@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SawarabiGothic_400Regular](./SawarabiGothic_400Regular.ttf.png)||||
+|![SawarabiGothic_400Regular](.//400Regular/SawarabiGothic_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

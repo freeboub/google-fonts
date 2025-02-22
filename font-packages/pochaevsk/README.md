@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Pochaevsk_400Regular](./Pochaevsk_400Regular.ttf.png)||||
+|![Pochaevsk_400Regular](.//400Regular/Pochaevsk_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

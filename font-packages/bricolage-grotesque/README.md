@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BricolageGrotesque_200ExtraLight](./BricolageGrotesque_200ExtraLight.ttf.png)|![BricolageGrotesque_300Light](./BricolageGrotesque_300Light.ttf.png)|![BricolageGrotesque_400Regular](./BricolageGrotesque_400Regular.ttf.png)||
-|![BricolageGrotesque_500Medium](./BricolageGrotesque_500Medium.ttf.png)|![BricolageGrotesque_600SemiBold](./BricolageGrotesque_600SemiBold.ttf.png)|![BricolageGrotesque_700Bold](./BricolageGrotesque_700Bold.ttf.png)||
-|![BricolageGrotesque_800ExtraBold](./BricolageGrotesque_800ExtraBold.ttf.png)||||
+|![BricolageGrotesque_200ExtraLight](.//200ExtraLight/BricolageGrotesque_200ExtraLight.ttf.png)|![BricolageGrotesque_300Light](.//300Light/BricolageGrotesque_300Light.ttf.png)|![BricolageGrotesque_400Regular](.//400Regular/BricolageGrotesque_400Regular.ttf.png)||
+|![BricolageGrotesque_500Medium](.//500Medium/BricolageGrotesque_500Medium.ttf.png)|![BricolageGrotesque_600SemiBold](.//600SemiBold/BricolageGrotesque_600SemiBold.ttf.png)|![BricolageGrotesque_700Bold](.//700Bold/BricolageGrotesque_700Bold.ttf.png)||
+|![BricolageGrotesque_800ExtraBold](.//800ExtraBold/BricolageGrotesque_800ExtraBold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

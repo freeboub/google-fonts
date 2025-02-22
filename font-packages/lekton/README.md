@@ -89,7 +89,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Lekton_400Regular](./Lekton_400Regular.ttf.png)|![Lekton_400Regular_Italic](./Lekton_400Regular_Italic.ttf.png)|![Lekton_700Bold](./Lekton_700Bold.ttf.png)||
+|![Lekton_400Regular](.//400Regular/Lekton_400Regular.ttf.png)|![Lekton_400Regular_Italic](.//400Regular_Italic/Lekton_400Regular_Italic.ttf.png)|![Lekton_700Bold](.//700Bold/Lekton_700Bold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

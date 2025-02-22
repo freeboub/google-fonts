@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Sono_200ExtraLight](./Sono_200ExtraLight.ttf.png)|![Sono_300Light](./Sono_300Light.ttf.png)|![Sono_400Regular](./Sono_400Regular.ttf.png)||
-|![Sono_500Medium](./Sono_500Medium.ttf.png)|![Sono_600SemiBold](./Sono_600SemiBold.ttf.png)|![Sono_700Bold](./Sono_700Bold.ttf.png)||
-|![Sono_800ExtraBold](./Sono_800ExtraBold.ttf.png)||||
+|![Sono_200ExtraLight](.//200ExtraLight/Sono_200ExtraLight.ttf.png)|![Sono_300Light](.//300Light/Sono_300Light.ttf.png)|![Sono_400Regular](.//400Regular/Sono_400Regular.ttf.png)||
+|![Sono_500Medium](.//500Medium/Sono_500Medium.ttf.png)|![Sono_600SemiBold](.//600SemiBold/Sono_600SemiBold.ttf.png)|![Sono_700Bold](.//700Bold/Sono_700Bold.ttf.png)||
+|![Sono_800ExtraBold](.//800ExtraBold/Sono_800ExtraBold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

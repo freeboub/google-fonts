@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MPLUS1_100Thin](./MPLUS1_100Thin.ttf.png)|![MPLUS1_200ExtraLight](./MPLUS1_200ExtraLight.ttf.png)|![MPLUS1_300Light](./MPLUS1_300Light.ttf.png)||
-|![MPLUS1_400Regular](./MPLUS1_400Regular.ttf.png)|![MPLUS1_500Medium](./MPLUS1_500Medium.ttf.png)|![MPLUS1_600SemiBold](./MPLUS1_600SemiBold.ttf.png)||
-|![MPLUS1_700Bold](./MPLUS1_700Bold.ttf.png)|![MPLUS1_800ExtraBold](./MPLUS1_800ExtraBold.ttf.png)|![MPLUS1_900Black](./MPLUS1_900Black.ttf.png)||
+|![MPLUS1_100Thin](.//100Thin/MPLUS1_100Thin.ttf.png)|![MPLUS1_200ExtraLight](.//200ExtraLight/MPLUS1_200ExtraLight.ttf.png)|![MPLUS1_300Light](.//300Light/MPLUS1_300Light.ttf.png)||
+|![MPLUS1_400Regular](.//400Regular/MPLUS1_400Regular.ttf.png)|![MPLUS1_500Medium](.//500Medium/MPLUS1_500Medium.ttf.png)|![MPLUS1_600SemiBold](.//600SemiBold/MPLUS1_600SemiBold.ttf.png)||
+|![MPLUS1_700Bold](.//700Bold/MPLUS1_700Bold.ttf.png)|![MPLUS1_800ExtraBold](.//800ExtraBold/MPLUS1_800ExtraBold.ttf.png)|![MPLUS1_900Black](.//900Black/MPLUS1_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

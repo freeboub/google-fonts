@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![DMSerifDisplay_400Regular](./DMSerifDisplay_400Regular.ttf.png)|![DMSerifDisplay_400Regular_Italic](./DMSerifDisplay_400Regular_Italic.ttf.png)|||
+|![DMSerifDisplay_400Regular](.//400Regular/DMSerifDisplay_400Regular.ttf.png)|![DMSerifDisplay_400Regular_Italic](.//400Regular_Italic/DMSerifDisplay_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

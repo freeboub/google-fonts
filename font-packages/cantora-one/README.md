@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![CantoraOne_400Regular](./CantoraOne_400Regular.ttf.png)||||
+|![CantoraOne_400Regular](.//400Regular/CantoraOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

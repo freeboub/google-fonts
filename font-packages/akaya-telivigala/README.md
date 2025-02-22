@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AkayaTelivigala_400Regular](./AkayaTelivigala_400Regular.ttf.png)||||
+|![AkayaTelivigala_400Regular](.//400Regular/AkayaTelivigala_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

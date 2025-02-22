@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![DarkerGrotesque_300Light](./DarkerGrotesque_300Light.ttf.png)|![DarkerGrotesque_400Regular](./DarkerGrotesque_400Regular.ttf.png)|![DarkerGrotesque_500Medium](./DarkerGrotesque_500Medium.ttf.png)||
-|![DarkerGrotesque_600SemiBold](./DarkerGrotesque_600SemiBold.ttf.png)|![DarkerGrotesque_700Bold](./DarkerGrotesque_700Bold.ttf.png)|![DarkerGrotesque_800ExtraBold](./DarkerGrotesque_800ExtraBold.ttf.png)||
-|![DarkerGrotesque_900Black](./DarkerGrotesque_900Black.ttf.png)||||
+|![DarkerGrotesque_300Light](.//300Light/DarkerGrotesque_300Light.ttf.png)|![DarkerGrotesque_400Regular](.//400Regular/DarkerGrotesque_400Regular.ttf.png)|![DarkerGrotesque_500Medium](.//500Medium/DarkerGrotesque_500Medium.ttf.png)||
+|![DarkerGrotesque_600SemiBold](.//600SemiBold/DarkerGrotesque_600SemiBold.ttf.png)|![DarkerGrotesque_700Bold](.//700Bold/DarkerGrotesque_700Bold.ttf.png)|![DarkerGrotesque_800ExtraBold](.//800ExtraBold/DarkerGrotesque_800ExtraBold.ttf.png)||
+|![DarkerGrotesque_900Black](.//900Black/DarkerGrotesque_900Black.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

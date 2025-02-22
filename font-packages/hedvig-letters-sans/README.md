@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![HedvigLettersSans_400Regular](./HedvigLettersSans_400Regular.ttf.png)||||
+|![HedvigLettersSans_400Regular](.//400Regular/HedvigLettersSans_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

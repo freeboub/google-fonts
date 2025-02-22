@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LondrinaSketch_400Regular](./LondrinaSketch_400Regular.ttf.png)||||
+|![LondrinaSketch_400Regular](.//400Regular/LondrinaSketch_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

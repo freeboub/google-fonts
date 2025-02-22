@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Numans_400Regular](./Numans_400Regular.ttf.png)||||
+|![Numans_400Regular](.//400Regular/Numans_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

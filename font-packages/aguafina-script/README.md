@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AguafinaScript_400Regular](./AguafinaScript_400Regular.ttf.png)||||
+|![AguafinaScript_400Regular](.//400Regular/AguafinaScript_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

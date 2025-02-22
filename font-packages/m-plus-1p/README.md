@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MPLUS1p_100Thin](./MPLUS1p_100Thin.ttf.png)|![MPLUS1p_300Light](./MPLUS1p_300Light.ttf.png)|![MPLUS1p_400Regular](./MPLUS1p_400Regular.ttf.png)||
-|![MPLUS1p_500Medium](./MPLUS1p_500Medium.ttf.png)|![MPLUS1p_700Bold](./MPLUS1p_700Bold.ttf.png)|![MPLUS1p_800ExtraBold](./MPLUS1p_800ExtraBold.ttf.png)||
-|![MPLUS1p_900Black](./MPLUS1p_900Black.ttf.png)||||
+|![MPLUS1p_100Thin](.//100Thin/MPLUS1p_100Thin.ttf.png)|![MPLUS1p_300Light](.//300Light/MPLUS1p_300Light.ttf.png)|![MPLUS1p_400Regular](.//400Regular/MPLUS1p_400Regular.ttf.png)||
+|![MPLUS1p_500Medium](.//500Medium/MPLUS1p_500Medium.ttf.png)|![MPLUS1p_700Bold](.//700Bold/MPLUS1p_700Bold.ttf.png)|![MPLUS1p_800ExtraBold](.//800ExtraBold/MPLUS1p_800ExtraBold.ttf.png)||
+|![MPLUS1p_900Black](.//900Black/MPLUS1p_900Black.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Babylonica_400Regular](./Babylonica_400Regular.ttf.png)||||
+|![Babylonica_400Regular](.//400Regular/Babylonica_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

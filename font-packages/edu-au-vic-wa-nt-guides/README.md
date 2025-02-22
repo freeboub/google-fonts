@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![EduAUVICWANTGuides_400Regular](./EduAUVICWANTGuides_400Regular.ttf.png)|![EduAUVICWANTGuides_500Medium](./EduAUVICWANTGuides_500Medium.ttf.png)|![EduAUVICWANTGuides_600SemiBold](./EduAUVICWANTGuides_600SemiBold.ttf.png)||
-|![EduAUVICWANTGuides_700Bold](./EduAUVICWANTGuides_700Bold.ttf.png)||||
+|![EduAUVICWANTGuides_400Regular](.//400Regular/EduAUVICWANTGuides_400Regular.ttf.png)|![EduAUVICWANTGuides_500Medium](.//500Medium/EduAUVICWANTGuides_500Medium.ttf.png)|![EduAUVICWANTGuides_600SemiBold](.//600SemiBold/EduAUVICWANTGuides_600SemiBold.ttf.png)||
+|![EduAUVICWANTGuides_700Bold](.//700Bold/EduAUVICWANTGuides_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -206,10 +206,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![FunnelSans_300Light](./FunnelSans_300Light.ttf.png)|![FunnelSans_400Regular](./FunnelSans_400Regular.ttf.png)|![FunnelSans_500Medium](./FunnelSans_500Medium.ttf.png)||
-|![FunnelSans_600SemiBold](./FunnelSans_600SemiBold.ttf.png)|![FunnelSans_700Bold](./FunnelSans_700Bold.ttf.png)|![FunnelSans_800ExtraBold](./FunnelSans_800ExtraBold.ttf.png)||
-|![FunnelSans_300Light_Italic](./FunnelSans_300Light_Italic.ttf.png)|![FunnelSans_400Regular_Italic](./FunnelSans_400Regular_Italic.ttf.png)|![FunnelSans_500Medium_Italic](./FunnelSans_500Medium_Italic.ttf.png)||
-|![FunnelSans_600SemiBold_Italic](./FunnelSans_600SemiBold_Italic.ttf.png)|![FunnelSans_700Bold_Italic](./FunnelSans_700Bold_Italic.ttf.png)|![FunnelSans_800ExtraBold_Italic](./FunnelSans_800ExtraBold_Italic.ttf.png)||
+|![FunnelSans_300Light](.//300Light/FunnelSans_300Light.ttf.png)|![FunnelSans_400Regular](.//400Regular/FunnelSans_400Regular.ttf.png)|![FunnelSans_500Medium](.//500Medium/FunnelSans_500Medium.ttf.png)||
+|![FunnelSans_600SemiBold](.//600SemiBold/FunnelSans_600SemiBold.ttf.png)|![FunnelSans_700Bold](.//700Bold/FunnelSans_700Bold.ttf.png)|![FunnelSans_800ExtraBold](.//800ExtraBold/FunnelSans_800ExtraBold.ttf.png)||
+|![FunnelSans_300Light_Italic](.//300Light_Italic/FunnelSans_300Light_Italic.ttf.png)|![FunnelSans_400Regular_Italic](.//400Regular_Italic/FunnelSans_400Regular_Italic.ttf.png)|![FunnelSans_500Medium_Italic](.//500Medium_Italic/FunnelSans_500Medium_Italic.ttf.png)||
+|![FunnelSans_600SemiBold_Italic](.//600SemiBold_Italic/FunnelSans_600SemiBold_Italic.ttf.png)|![FunnelSans_700Bold_Italic](.//700Bold_Italic/FunnelSans_700Bold_Italic.ttf.png)|![FunnelSans_800ExtraBold_Italic](.//800ExtraBold_Italic/FunnelSans_800ExtraBold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Carlito_400Regular](./Carlito_400Regular.ttf.png)|![Carlito_400Regular_Italic](./Carlito_400Regular_Italic.ttf.png)|![Carlito_700Bold](./Carlito_700Bold.ttf.png)||
-|![Carlito_700Bold_Italic](./Carlito_700Bold_Italic.ttf.png)||||
+|![Carlito_400Regular](.//400Regular/Carlito_400Regular.ttf.png)|![Carlito_400Regular_Italic](.//400Regular_Italic/Carlito_400Regular_Italic.ttf.png)|![Carlito_700Bold](.//700Bold/Carlito_700Bold.ttf.png)||
+|![Carlito_700Bold_Italic](.//700Bold_Italic/Carlito_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

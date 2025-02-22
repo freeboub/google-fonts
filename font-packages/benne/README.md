@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Benne_400Regular](./Benne_400Regular.ttf.png)||||
+|![Benne_400Regular](.//400Regular/Benne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

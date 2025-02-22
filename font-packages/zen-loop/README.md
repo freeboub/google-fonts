@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![ZenLoop_400Regular](./ZenLoop_400Regular.ttf.png)|![ZenLoop_400Regular_Italic](./ZenLoop_400Regular_Italic.ttf.png)|||
+|![ZenLoop_400Regular](.//400Regular/ZenLoop_400Regular.ttf.png)|![ZenLoop_400Regular_Italic](.//400Regular_Italic/ZenLoop_400Regular_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

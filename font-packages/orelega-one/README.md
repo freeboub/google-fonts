@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![OrelegaOne_400Regular](./OrelegaOne_400Regular.ttf.png)||||
+|![OrelegaOne_400Regular](.//400Regular/OrelegaOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

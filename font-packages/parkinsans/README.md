@@ -128,8 +128,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Parkinsans_300Light](./Parkinsans_300Light.ttf.png)|![Parkinsans_400Regular](./Parkinsans_400Regular.ttf.png)|![Parkinsans_500Medium](./Parkinsans_500Medium.ttf.png)||
-|![Parkinsans_600SemiBold](./Parkinsans_600SemiBold.ttf.png)|![Parkinsans_700Bold](./Parkinsans_700Bold.ttf.png)|![Parkinsans_800ExtraBold](./Parkinsans_800ExtraBold.ttf.png)||
+|![Parkinsans_300Light](.//300Light/Parkinsans_300Light.ttf.png)|![Parkinsans_400Regular](.//400Regular/Parkinsans_400Regular.ttf.png)|![Parkinsans_500Medium](.//500Medium/Parkinsans_500Medium.ttf.png)||
+|![Parkinsans_600SemiBold](.//600SemiBold/Parkinsans_600SemiBold.ttf.png)|![Parkinsans_700Bold](.//700Bold/Parkinsans_700Bold.ttf.png)|![Parkinsans_800ExtraBold](.//800ExtraBold/Parkinsans_800ExtraBold.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![PoltawskiNowy_400Regular](./PoltawskiNowy_400Regular.ttf.png)|![PoltawskiNowy_500Medium](./PoltawskiNowy_500Medium.ttf.png)|![PoltawskiNowy_600SemiBold](./PoltawskiNowy_600SemiBold.ttf.png)||
-|![PoltawskiNowy_700Bold](./PoltawskiNowy_700Bold.ttf.png)|![PoltawskiNowy_400Regular_Italic](./PoltawskiNowy_400Regular_Italic.ttf.png)|![PoltawskiNowy_500Medium_Italic](./PoltawskiNowy_500Medium_Italic.ttf.png)||
-|![PoltawskiNowy_600SemiBold_Italic](./PoltawskiNowy_600SemiBold_Italic.ttf.png)|![PoltawskiNowy_700Bold_Italic](./PoltawskiNowy_700Bold_Italic.ttf.png)|||
+|![PoltawskiNowy_400Regular](.//400Regular/PoltawskiNowy_400Regular.ttf.png)|![PoltawskiNowy_500Medium](.//500Medium/PoltawskiNowy_500Medium.ttf.png)|![PoltawskiNowy_600SemiBold](.//600SemiBold/PoltawskiNowy_600SemiBold.ttf.png)||
+|![PoltawskiNowy_700Bold](.//700Bold/PoltawskiNowy_700Bold.ttf.png)|![PoltawskiNowy_400Regular_Italic](.//400Regular_Italic/PoltawskiNowy_400Regular_Italic.ttf.png)|![PoltawskiNowy_500Medium_Italic](.//500Medium_Italic/PoltawskiNowy_500Medium_Italic.ttf.png)||
+|![PoltawskiNowy_600SemiBold_Italic](.//600SemiBold_Italic/PoltawskiNowy_600SemiBold_Italic.ttf.png)|![PoltawskiNowy_700Bold_Italic](.//700Bold_Italic/PoltawskiNowy_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![BethEllen_400Regular](./BethEllen_400Regular.ttf.png)||||
+|![BethEllen_400Regular](.//400Regular/BethEllen_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Aclonica_400Regular](./Aclonica_400Regular.ttf.png)||||
+|![Aclonica_400Regular](.//400Regular/Aclonica_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansKannada_100Thin](./NotoSansKannada_100Thin.ttf.png)|![NotoSansKannada_200ExtraLight](./NotoSansKannada_200ExtraLight.ttf.png)|![NotoSansKannada_300Light](./NotoSansKannada_300Light.ttf.png)||
-|![NotoSansKannada_400Regular](./NotoSansKannada_400Regular.ttf.png)|![NotoSansKannada_500Medium](./NotoSansKannada_500Medium.ttf.png)|![NotoSansKannada_600SemiBold](./NotoSansKannada_600SemiBold.ttf.png)||
-|![NotoSansKannada_700Bold](./NotoSansKannada_700Bold.ttf.png)|![NotoSansKannada_800ExtraBold](./NotoSansKannada_800ExtraBold.ttf.png)|![NotoSansKannada_900Black](./NotoSansKannada_900Black.ttf.png)||
+|![NotoSansKannada_100Thin](.//100Thin/NotoSansKannada_100Thin.ttf.png)|![NotoSansKannada_200ExtraLight](.//200ExtraLight/NotoSansKannada_200ExtraLight.ttf.png)|![NotoSansKannada_300Light](.//300Light/NotoSansKannada_300Light.ttf.png)||
+|![NotoSansKannada_400Regular](.//400Regular/NotoSansKannada_400Regular.ttf.png)|![NotoSansKannada_500Medium](.//500Medium/NotoSansKannada_500Medium.ttf.png)|![NotoSansKannada_600SemiBold](.//600SemiBold/NotoSansKannada_600SemiBold.ttf.png)||
+|![NotoSansKannada_700Bold](.//700Bold/NotoSansKannada_700Bold.ttf.png)|![NotoSansKannada_800ExtraBold](.//800ExtraBold/NotoSansKannada_800ExtraBold.ttf.png)|![NotoSansKannada_900Black](.//900Black/NotoSansKannada_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

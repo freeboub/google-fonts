@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KaushanScript_400Regular](./KaushanScript_400Regular.ttf.png)||||
+|![KaushanScript_400Regular](.//400Regular/KaushanScript_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

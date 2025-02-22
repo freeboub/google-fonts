@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![IBMPlexSansThaiLooped_100Thin](./IBMPlexSansThaiLooped_100Thin.ttf.png)|![IBMPlexSansThaiLooped_200ExtraLight](./IBMPlexSansThaiLooped_200ExtraLight.ttf.png)|![IBMPlexSansThaiLooped_300Light](./IBMPlexSansThaiLooped_300Light.ttf.png)||
-|![IBMPlexSansThaiLooped_400Regular](./IBMPlexSansThaiLooped_400Regular.ttf.png)|![IBMPlexSansThaiLooped_500Medium](./IBMPlexSansThaiLooped_500Medium.ttf.png)|![IBMPlexSansThaiLooped_600SemiBold](./IBMPlexSansThaiLooped_600SemiBold.ttf.png)||
-|![IBMPlexSansThaiLooped_700Bold](./IBMPlexSansThaiLooped_700Bold.ttf.png)||||
+|![IBMPlexSansThaiLooped_100Thin](.//100Thin/IBMPlexSansThaiLooped_100Thin.ttf.png)|![IBMPlexSansThaiLooped_200ExtraLight](.//200ExtraLight/IBMPlexSansThaiLooped_200ExtraLight.ttf.png)|![IBMPlexSansThaiLooped_300Light](.//300Light/IBMPlexSansThaiLooped_300Light.ttf.png)||
+|![IBMPlexSansThaiLooped_400Regular](.//400Regular/IBMPlexSansThaiLooped_400Regular.ttf.png)|![IBMPlexSansThaiLooped_500Medium](.//500Medium/IBMPlexSansThaiLooped_500Medium.ttf.png)|![IBMPlexSansThaiLooped_600SemiBold](.//600SemiBold/IBMPlexSansThaiLooped_600SemiBold.ttf.png)||
+|![IBMPlexSansThaiLooped_700Bold](.//700Bold/IBMPlexSansThaiLooped_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

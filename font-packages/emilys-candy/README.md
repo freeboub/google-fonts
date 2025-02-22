@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![EmilysCandy_400Regular](./EmilysCandy_400Regular.ttf.png)||||
+|![EmilysCandy_400Regular](.//400Regular/EmilysCandy_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

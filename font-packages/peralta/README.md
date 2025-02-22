@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Peralta_400Regular](./Peralta_400Regular.ttf.png)||||
+|![Peralta_400Regular](.//400Regular/Peralta_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

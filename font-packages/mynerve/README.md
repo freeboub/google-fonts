@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Mynerve_400Regular](./Mynerve_400Regular.ttf.png)||||
+|![Mynerve_400Regular](.//400Regular/Mynerve_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

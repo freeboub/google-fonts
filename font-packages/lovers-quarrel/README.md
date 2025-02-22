@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LoversQuarrel_400Regular](./LoversQuarrel_400Regular.ttf.png)||||
+|![LoversQuarrel_400Regular](.//400Regular/LoversQuarrel_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

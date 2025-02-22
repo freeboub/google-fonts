@@ -141,9 +141,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![IBMPlexSansThai_100Thin](./IBMPlexSansThai_100Thin.ttf.png)|![IBMPlexSansThai_200ExtraLight](./IBMPlexSansThai_200ExtraLight.ttf.png)|![IBMPlexSansThai_300Light](./IBMPlexSansThai_300Light.ttf.png)||
-|![IBMPlexSansThai_400Regular](./IBMPlexSansThai_400Regular.ttf.png)|![IBMPlexSansThai_500Medium](./IBMPlexSansThai_500Medium.ttf.png)|![IBMPlexSansThai_600SemiBold](./IBMPlexSansThai_600SemiBold.ttf.png)||
-|![IBMPlexSansThai_700Bold](./IBMPlexSansThai_700Bold.ttf.png)||||
+|![IBMPlexSansThai_100Thin](.//100Thin/IBMPlexSansThai_100Thin.ttf.png)|![IBMPlexSansThai_200ExtraLight](.//200ExtraLight/IBMPlexSansThai_200ExtraLight.ttf.png)|![IBMPlexSansThai_300Light](.//300Light/IBMPlexSansThai_300Light.ttf.png)||
+|![IBMPlexSansThai_400Regular](.//400Regular/IBMPlexSansThai_400Regular.ttf.png)|![IBMPlexSansThai_500Medium](.//500Medium/IBMPlexSansThai_500Medium.ttf.png)|![IBMPlexSansThai_600SemiBold](.//600SemiBold/IBMPlexSansThai_600SemiBold.ttf.png)||
+|![IBMPlexSansThai_700Bold](.//700Bold/IBMPlexSansThai_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -154,9 +154,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![InstrumentSans_400Regular](./InstrumentSans_400Regular.ttf.png)|![InstrumentSans_500Medium](./InstrumentSans_500Medium.ttf.png)|![InstrumentSans_600SemiBold](./InstrumentSans_600SemiBold.ttf.png)||
-|![InstrumentSans_700Bold](./InstrumentSans_700Bold.ttf.png)|![InstrumentSans_400Regular_Italic](./InstrumentSans_400Regular_Italic.ttf.png)|![InstrumentSans_500Medium_Italic](./InstrumentSans_500Medium_Italic.ttf.png)||
-|![InstrumentSans_600SemiBold_Italic](./InstrumentSans_600SemiBold_Italic.ttf.png)|![InstrumentSans_700Bold_Italic](./InstrumentSans_700Bold_Italic.ttf.png)|||
+|![InstrumentSans_400Regular](.//400Regular/InstrumentSans_400Regular.ttf.png)|![InstrumentSans_500Medium](.//500Medium/InstrumentSans_500Medium.ttf.png)|![InstrumentSans_600SemiBold](.//600SemiBold/InstrumentSans_600SemiBold.ttf.png)||
+|![InstrumentSans_700Bold](.//700Bold/InstrumentSans_700Bold.ttf.png)|![InstrumentSans_400Regular_Italic](.//400Regular_Italic/InstrumentSans_400Regular_Italic.ttf.png)|![InstrumentSans_500Medium_Italic](.//500Medium_Italic/InstrumentSans_500Medium_Italic.ttf.png)||
+|![InstrumentSans_600SemiBold_Italic](.//600SemiBold_Italic/InstrumentSans_600SemiBold_Italic.ttf.png)|![InstrumentSans_700Bold_Italic](.//700Bold_Italic/InstrumentSans_700Bold_Italic.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

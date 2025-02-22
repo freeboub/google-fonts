@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansBuginese_400Regular](./NotoSansBuginese_400Regular.ttf.png)||||
+|![NotoSansBuginese_400Regular](.//400Regular/NotoSansBuginese_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

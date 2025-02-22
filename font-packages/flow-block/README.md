@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![FlowBlock_400Regular](./FlowBlock_400Regular.ttf.png)||||
+|![FlowBlock_400Regular](.//400Regular/FlowBlock_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

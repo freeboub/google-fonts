@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSansMarchen_400Regular](./NotoSansMarchen_400Regular.ttf.png)||||
+|![NotoSansMarchen_400Regular](.//400Regular/NotoSansMarchen_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

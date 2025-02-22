@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![CarroisGothicSC_400Regular](./CarroisGothicSC_400Regular.ttf.png)||||
+|![CarroisGothicSC_400Regular](.//400Regular/CarroisGothicSC_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

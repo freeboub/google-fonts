@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![KaiseiTokumin_400Regular](./KaiseiTokumin_400Regular.ttf.png)|![KaiseiTokumin_500Medium](./KaiseiTokumin_500Medium.ttf.png)|![KaiseiTokumin_700Bold](./KaiseiTokumin_700Bold.ttf.png)||
-|![KaiseiTokumin_800ExtraBold](./KaiseiTokumin_800ExtraBold.ttf.png)||||
+|![KaiseiTokumin_400Regular](.//400Regular/KaiseiTokumin_400Regular.ttf.png)|![KaiseiTokumin_500Medium](.//500Medium/KaiseiTokumin_500Medium.ttf.png)|![KaiseiTokumin_700Bold](.//700Bold/KaiseiTokumin_700Bold.ttf.png)||
+|![KaiseiTokumin_800ExtraBold](.//800ExtraBold/KaiseiTokumin_800ExtraBold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

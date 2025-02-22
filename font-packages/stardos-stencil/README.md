@@ -76,7 +76,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![StardosStencil_400Regular](./StardosStencil_400Regular.ttf.png)|![StardosStencil_700Bold](./StardosStencil_700Bold.ttf.png)|||
+|![StardosStencil_400Regular](.//400Regular/StardosStencil_400Regular.ttf.png)|![StardosStencil_700Bold](.//700Bold/StardosStencil_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

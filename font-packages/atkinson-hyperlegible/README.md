@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![AtkinsonHyperlegible_400Regular](./AtkinsonHyperlegible_400Regular.ttf.png)|![AtkinsonHyperlegible_400Regular_Italic](./AtkinsonHyperlegible_400Regular_Italic.ttf.png)|![AtkinsonHyperlegible_700Bold](./AtkinsonHyperlegible_700Bold.ttf.png)||
-|![AtkinsonHyperlegible_700Bold_Italic](./AtkinsonHyperlegible_700Bold_Italic.ttf.png)||||
+|![AtkinsonHyperlegible_400Regular](.//400Regular/AtkinsonHyperlegible_400Regular.ttf.png)|![AtkinsonHyperlegible_400Regular_Italic](.//400Regular_Italic/AtkinsonHyperlegible_400Regular_Italic.ttf.png)|![AtkinsonHyperlegible_700Bold](.//700Bold/AtkinsonHyperlegible_700Bold.ttf.png)||
+|![AtkinsonHyperlegible_700Bold_Italic](.//700Bold_Italic/AtkinsonHyperlegible_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

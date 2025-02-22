@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![MateSC_400Regular](./MateSC_400Regular.ttf.png)||||
+|![MateSC_400Regular](.//400Regular/MateSC_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

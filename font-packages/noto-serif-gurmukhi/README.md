@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifGurmukhi_100Thin](./NotoSerifGurmukhi_100Thin.ttf.png)|![NotoSerifGurmukhi_200ExtraLight](./NotoSerifGurmukhi_200ExtraLight.ttf.png)|![NotoSerifGurmukhi_300Light](./NotoSerifGurmukhi_300Light.ttf.png)||
-|![NotoSerifGurmukhi_400Regular](./NotoSerifGurmukhi_400Regular.ttf.png)|![NotoSerifGurmukhi_500Medium](./NotoSerifGurmukhi_500Medium.ttf.png)|![NotoSerifGurmukhi_600SemiBold](./NotoSerifGurmukhi_600SemiBold.ttf.png)||
-|![NotoSerifGurmukhi_700Bold](./NotoSerifGurmukhi_700Bold.ttf.png)|![NotoSerifGurmukhi_800ExtraBold](./NotoSerifGurmukhi_800ExtraBold.ttf.png)|![NotoSerifGurmukhi_900Black](./NotoSerifGurmukhi_900Black.ttf.png)||
+|![NotoSerifGurmukhi_100Thin](.//100Thin/NotoSerifGurmukhi_100Thin.ttf.png)|![NotoSerifGurmukhi_200ExtraLight](.//200ExtraLight/NotoSerifGurmukhi_200ExtraLight.ttf.png)|![NotoSerifGurmukhi_300Light](.//300Light/NotoSerifGurmukhi_300Light.ttf.png)||
+|![NotoSerifGurmukhi_400Regular](.//400Regular/NotoSerifGurmukhi_400Regular.ttf.png)|![NotoSerifGurmukhi_500Medium](.//500Medium/NotoSerifGurmukhi_500Medium.ttf.png)|![NotoSerifGurmukhi_600SemiBold](.//600SemiBold/NotoSerifGurmukhi_600SemiBold.ttf.png)||
+|![NotoSerifGurmukhi_700Bold](.//700Bold/NotoSerifGurmukhi_700Bold.ttf.png)|![NotoSerifGurmukhi_800ExtraBold](.//800ExtraBold/NotoSerifGurmukhi_800ExtraBold.ttf.png)|![NotoSerifGurmukhi_900Black](.//900Black/NotoSerifGurmukhi_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

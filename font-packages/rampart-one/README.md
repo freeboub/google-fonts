@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![RampartOne_400Regular](./RampartOne_400Regular.ttf.png)||||
+|![RampartOne_400Regular](.//400Regular/RampartOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

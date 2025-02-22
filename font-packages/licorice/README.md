@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Licorice_400Regular](./Licorice_400Regular.ttf.png)||||
+|![Licorice_400Regular](.//400Regular/Licorice_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

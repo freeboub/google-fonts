@@ -128,8 +128,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Ruda_400Regular](./Ruda_400Regular.ttf.png)|![Ruda_500Medium](./Ruda_500Medium.ttf.png)|![Ruda_600SemiBold](./Ruda_600SemiBold.ttf.png)||
-|![Ruda_700Bold](./Ruda_700Bold.ttf.png)|![Ruda_800ExtraBold](./Ruda_800ExtraBold.ttf.png)|![Ruda_900Black](./Ruda_900Black.ttf.png)||
+|![Ruda_400Regular](.//400Regular/Ruda_400Regular.ttf.png)|![Ruda_500Medium](.//500Medium/Ruda_500Medium.ttf.png)|![Ruda_600SemiBold](.//600SemiBold/Ruda_600SemiBold.ttf.png)||
+|![Ruda_700Bold](.//700Bold/Ruda_700Bold.ttf.png)|![Ruda_800ExtraBold](.//800ExtraBold/Ruda_800ExtraBold.ttf.png)|![Ruda_900Black](.//900Black/Ruda_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

@@ -284,12 +284,12 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Inter_100Thin](./Inter_100Thin.ttf.png)|![Inter_200ExtraLight](./Inter_200ExtraLight.ttf.png)|![Inter_300Light](./Inter_300Light.ttf.png)||
-|![Inter_400Regular](./Inter_400Regular.ttf.png)|![Inter_500Medium](./Inter_500Medium.ttf.png)|![Inter_600SemiBold](./Inter_600SemiBold.ttf.png)||
-|![Inter_700Bold](./Inter_700Bold.ttf.png)|![Inter_800ExtraBold](./Inter_800ExtraBold.ttf.png)|![Inter_900Black](./Inter_900Black.ttf.png)||
-|![Inter_100Thin_Italic](./Inter_100Thin_Italic.ttf.png)|![Inter_200ExtraLight_Italic](./Inter_200ExtraLight_Italic.ttf.png)|![Inter_300Light_Italic](./Inter_300Light_Italic.ttf.png)||
-|![Inter_400Regular_Italic](./Inter_400Regular_Italic.ttf.png)|![Inter_500Medium_Italic](./Inter_500Medium_Italic.ttf.png)|![Inter_600SemiBold_Italic](./Inter_600SemiBold_Italic.ttf.png)||
-|![Inter_700Bold_Italic](./Inter_700Bold_Italic.ttf.png)|![Inter_800ExtraBold_Italic](./Inter_800ExtraBold_Italic.ttf.png)|![Inter_900Black_Italic](./Inter_900Black_Italic.ttf.png)||
+|![Inter_100Thin](.//100Thin/Inter_100Thin.ttf.png)|![Inter_200ExtraLight](.//200ExtraLight/Inter_200ExtraLight.ttf.png)|![Inter_300Light](.//300Light/Inter_300Light.ttf.png)||
+|![Inter_400Regular](.//400Regular/Inter_400Regular.ttf.png)|![Inter_500Medium](.//500Medium/Inter_500Medium.ttf.png)|![Inter_600SemiBold](.//600SemiBold/Inter_600SemiBold.ttf.png)||
+|![Inter_700Bold](.//700Bold/Inter_700Bold.ttf.png)|![Inter_800ExtraBold](.//800ExtraBold/Inter_800ExtraBold.ttf.png)|![Inter_900Black](.//900Black/Inter_900Black.ttf.png)||
+|![Inter_100Thin_Italic](.//100Thin_Italic/Inter_100Thin_Italic.ttf.png)|![Inter_200ExtraLight_Italic](.//200ExtraLight_Italic/Inter_200ExtraLight_Italic.ttf.png)|![Inter_300Light_Italic](.//300Light_Italic/Inter_300Light_Italic.ttf.png)||
+|![Inter_400Regular_Italic](.//400Regular_Italic/Inter_400Regular_Italic.ttf.png)|![Inter_500Medium_Italic](.//500Medium_Italic/Inter_500Medium_Italic.ttf.png)|![Inter_600SemiBold_Italic](.//600SemiBold_Italic/Inter_600SemiBold_Italic.ttf.png)||
+|![Inter_700Bold_Italic](.//700Bold_Italic/Inter_700Bold_Italic.ttf.png)|![Inter_800ExtraBold_Italic](.//800ExtraBold_Italic/Inter_800ExtraBold_Italic.ttf.png)|![Inter_900Black_Italic](.//900Black_Italic/Inter_900Black_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

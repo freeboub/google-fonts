@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![IslandMoments_400Regular](./IslandMoments_400Regular.ttf.png)||||
+|![IslandMoments_400Regular](.//400Regular/IslandMoments_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

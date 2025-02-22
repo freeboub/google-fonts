@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![SofadiOne_400Regular](./SofadiOne_400Regular.ttf.png)||||
+|![SofadiOne_400Regular](.//400Regular/SofadiOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

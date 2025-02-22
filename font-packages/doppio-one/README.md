@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![DoppioOne_400Regular](./DoppioOne_400Regular.ttf.png)||||
+|![DoppioOne_400Regular](.//400Regular/DoppioOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

@@ -167,9 +167,9 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoRashiHebrew_100Thin](./NotoRashiHebrew_100Thin.ttf.png)|![NotoRashiHebrew_200ExtraLight](./NotoRashiHebrew_200ExtraLight.ttf.png)|![NotoRashiHebrew_300Light](./NotoRashiHebrew_300Light.ttf.png)||
-|![NotoRashiHebrew_400Regular](./NotoRashiHebrew_400Regular.ttf.png)|![NotoRashiHebrew_500Medium](./NotoRashiHebrew_500Medium.ttf.png)|![NotoRashiHebrew_600SemiBold](./NotoRashiHebrew_600SemiBold.ttf.png)||
-|![NotoRashiHebrew_700Bold](./NotoRashiHebrew_700Bold.ttf.png)|![NotoRashiHebrew_800ExtraBold](./NotoRashiHebrew_800ExtraBold.ttf.png)|![NotoRashiHebrew_900Black](./NotoRashiHebrew_900Black.ttf.png)||
+|![NotoRashiHebrew_100Thin](.//100Thin/NotoRashiHebrew_100Thin.ttf.png)|![NotoRashiHebrew_200ExtraLight](.//200ExtraLight/NotoRashiHebrew_200ExtraLight.ttf.png)|![NotoRashiHebrew_300Light](.//300Light/NotoRashiHebrew_300Light.ttf.png)||
+|![NotoRashiHebrew_400Regular](.//400Regular/NotoRashiHebrew_400Regular.ttf.png)|![NotoRashiHebrew_500Medium](.//500Medium/NotoRashiHebrew_500Medium.ttf.png)|![NotoRashiHebrew_600SemiBold](.//600SemiBold/NotoRashiHebrew_600SemiBold.ttf.png)||
+|![NotoRashiHebrew_700Bold](.//700Bold/NotoRashiHebrew_700Bold.ttf.png)|![NotoRashiHebrew_800ExtraBold](.//800ExtraBold/NotoRashiHebrew_800ExtraBold.ttf.png)|![NotoRashiHebrew_900Black](.//900Black/NotoRashiHebrew_900Black.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

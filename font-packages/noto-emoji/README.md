@@ -115,8 +115,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoEmoji_300Light](./NotoEmoji_300Light.ttf.png)|![NotoEmoji_400Regular](./NotoEmoji_400Regular.ttf.png)|![NotoEmoji_500Medium](./NotoEmoji_500Medium.ttf.png)||
-|![NotoEmoji_600SemiBold](./NotoEmoji_600SemiBold.ttf.png)|![NotoEmoji_700Bold](./NotoEmoji_700Bold.ttf.png)|||
+|![NotoEmoji_300Light](.//300Light/NotoEmoji_300Light.ttf.png)|![NotoEmoji_400Regular](.//400Regular/NotoEmoji_400Regular.ttf.png)|![NotoEmoji_500Medium](.//500Medium/NotoEmoji_500Medium.ttf.png)||
+|![NotoEmoji_600SemiBold](.//600SemiBold/NotoEmoji_600SemiBold.ttf.png)|![NotoEmoji_700Bold](.//700Bold/NotoEmoji_700Bold.ttf.png)|||
 
 
 ## 👩‍💻 Use During Development

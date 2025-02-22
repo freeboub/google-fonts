@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Tiny5_400Regular](./Tiny5_400Regular.ttf.png)||||
+|![Tiny5_400Regular](.//400Regular/Tiny5_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

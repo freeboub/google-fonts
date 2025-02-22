@@ -102,8 +102,8 @@ export default () => {
 
 ||||
 |-|-|-|
-|![NotoSerifOriya_400Regular](./NotoSerifOriya_400Regular.ttf.png)|![NotoSerifOriya_500Medium](./NotoSerifOriya_500Medium.ttf.png)|![NotoSerifOriya_600SemiBold](./NotoSerifOriya_600SemiBold.ttf.png)||
-|![NotoSerifOriya_700Bold](./NotoSerifOriya_700Bold.ttf.png)||||
+|![NotoSerifOriya_400Regular](.//400Regular/NotoSerifOriya_400Regular.ttf.png)|![NotoSerifOriya_500Medium](.//500Medium/NotoSerifOriya_500Medium.ttf.png)|![NotoSerifOriya_600SemiBold](.//600SemiBold/NotoSerifOriya_600SemiBold.ttf.png)||
+|![NotoSerifOriya_700Bold](.//700Bold/NotoSerifOriya_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

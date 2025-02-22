@@ -206,10 +206,10 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Platypi_300Light](./Platypi_300Light.ttf.png)|![Platypi_400Regular](./Platypi_400Regular.ttf.png)|![Platypi_500Medium](./Platypi_500Medium.ttf.png)||
-|![Platypi_600SemiBold](./Platypi_600SemiBold.ttf.png)|![Platypi_700Bold](./Platypi_700Bold.ttf.png)|![Platypi_800ExtraBold](./Platypi_800ExtraBold.ttf.png)||
-|![Platypi_300Light_Italic](./Platypi_300Light_Italic.ttf.png)|![Platypi_400Regular_Italic](./Platypi_400Regular_Italic.ttf.png)|![Platypi_500Medium_Italic](./Platypi_500Medium_Italic.ttf.png)||
-|![Platypi_600SemiBold_Italic](./Platypi_600SemiBold_Italic.ttf.png)|![Platypi_700Bold_Italic](./Platypi_700Bold_Italic.ttf.png)|![Platypi_800ExtraBold_Italic](./Platypi_800ExtraBold_Italic.ttf.png)||
+|![Platypi_300Light](.//300Light/Platypi_300Light.ttf.png)|![Platypi_400Regular](.//400Regular/Platypi_400Regular.ttf.png)|![Platypi_500Medium](.//500Medium/Platypi_500Medium.ttf.png)||
+|![Platypi_600SemiBold](.//600SemiBold/Platypi_600SemiBold.ttf.png)|![Platypi_700Bold](.//700Bold/Platypi_700Bold.ttf.png)|![Platypi_800ExtraBold](.//800ExtraBold/Platypi_800ExtraBold.ttf.png)||
+|![Platypi_300Light_Italic](.//300Light_Italic/Platypi_300Light_Italic.ttf.png)|![Platypi_400Regular_Italic](.//400Regular_Italic/Platypi_400Regular_Italic.ttf.png)|![Platypi_500Medium_Italic](.//500Medium_Italic/Platypi_500Medium_Italic.ttf.png)||
+|![Platypi_600SemiBold_Italic](.//600SemiBold_Italic/Platypi_600SemiBold_Italic.ttf.png)|![Platypi_700Bold_Italic](.//700Bold_Italic/Platypi_700Bold_Italic.ttf.png)|![Platypi_800ExtraBold_Italic](.//800ExtraBold_Italic/Platypi_800ExtraBold_Italic.ttf.png)||
 
 
 ## 👩‍💻 Use During Development

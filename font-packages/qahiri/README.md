@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Qahiri_400Regular](./Qahiri_400Regular.ttf.png)||||
+|![Qahiri_400Regular](.//400Regular/Qahiri_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development

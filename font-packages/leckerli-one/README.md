@@ -63,7 +63,7 @@ export default () => {
 
 ||||
 |-|-|-|
-|![LeckerliOne_400Regular](./LeckerliOne_400Regular.ttf.png)||||
+|![LeckerliOne_400Regular](.//400Regular/LeckerliOne_400Regular.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development
