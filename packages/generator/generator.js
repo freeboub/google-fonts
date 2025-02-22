@@ -1086,7 +1086,10 @@ function generateTableForVariants(webfont, pkgUrl) {
 `;
   let variantImageCells = [];
   for (let variantKey of webfont.variants) {
-    let styleImagePath = fontPackagesPrefix + filenameForFontVariant(webfont, variantKey) + '.png';
+
+    const variantSubDirectory = infoForVariantKey(variantKey).suffix;
+
+    let styleImagePath = fontPackagesPrefix + '/' + variantSubDirectory + '/' + filenameForFontVariant(webfont, variantKey) + '.png';
     let fi = varNameForFontVariant(webfont, variantKey);
     if (pkgUrl) {
       variantImageCells.push(`[![${fi}](${styleImagePath})](${pkgUrl})`);
