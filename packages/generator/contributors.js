@@ -17,4 +17,9 @@ module.exports = [
     github: 'byCedric',
     affiliation: 'Expo',
   },
+  {
+    name: 'Olivier Bouillet',
+    github: 'freeboub',
+    affiliation: 'Azzapp',
+  },
 ];
