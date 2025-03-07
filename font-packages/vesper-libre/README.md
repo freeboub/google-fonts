@@ -1,8 +1,8 @@
-# @expo-google-fonts/vesper-libre
+# expo-google-fonts-vesper-libre
 
-![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/vesper-libre)
+![npm version](https://flat.badgen.net/npm/v/expo-google-fonts-vesper-libre)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
-![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/vesper-libre)
+![publish size](https://flat.badgen.net/packagephobia/install/expo-google-fonts-vesper-libre)
 
 This package lets you use the [**Vesper Libre**](https://fonts.google.com/specimen/Vesper+Libre) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -21,7 +21,7 @@ This font family contains [4 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/vesper-libre expo-font
+expo install expo-google-fonts-vesper-libre expo-font
 ```
 
 Now add code like this to your project
@@ -29,11 +29,11 @@ Now add code like this to your project
 import React from 'react';
 
 import { Text, View } from 'react-native';
-import { useFonts } from '@expo-google-fonts/vesper-libre/useFonts';
-import { VesperLibre_400Regular } from '@expo-google-fonts/vesper-libre/400Regular';
-import { VesperLibre_500Medium } from '@expo-google-fonts/vesper-libre/500Medium';
-import { VesperLibre_700Bold } from '@expo-google-fonts/vesper-libre/700Bold';
-import { VesperLibre_900Black } from '@expo-google-fonts/vesper-libre/900Black';
+import { useFonts } from 'expo-google-fonts-vesper-libre/useFonts';
+import { VesperLibre_400Regular } from 'expo-google-fonts-vesper-libre/400Regular';
+import { VesperLibre_500Medium } from 'expo-google-fonts-vesper-libre/500Medium';
+import { VesperLibre_700Bold } from 'expo-google-fonts-vesper-libre/700Bold';
+import { VesperLibre_900Black } from 'expo-google-fonts-vesper-libre/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -108,7 +108,7 @@ export default () => {
 
 ## 👩‍💻 Use During Development
 
-If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
+If you are trying out lots of different fonts, you can try using the [`expo-google-fonts-dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
 
 You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
 over the network at runtime instead of adding the asset as a file to your project, so it may take longer
@@ -117,7 +117,7 @@ for playing around with any style that you want.
 
 ## 📖 License
 
-The `@expo-google-fonts/vesper-libre` package and its code are released under the MIT license.
+The `expo-google-fonts-vesper-libre` package and its code are released under the MIT license.
 
 All the fonts in the Google Fonts catalog are free and open source.
 
@@ -129,10 +129,10 @@ You can use these fonts freely in your products & projects - print or digital, c
 
 - [Vesper Libre on Google Fonts](https://fonts.google.com/specimen/Vesper+Libre)
 - [Google Fonts](https://fonts.google.com/)
-- [This package on npm](https://www.npmjs.com/package/@expo-google-fonts/vesper-libre)
+- [This package on npm](https://www.npmjs.com/package/expo-google-fonts-vesper-libre)
 - [This package on GitHub](https://github.com/freeboub/google-fonts/tree/master/font-packages/vesper-libre)
 - [The Expo Google Fonts project on GitHub](https://github.com/freeboub/google-fonts)
-- [`@expo-google-fonts/dev` Devlopment Package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev)
+- [`expo-google-fonts-dev` Devlopment Package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev)
 
 ## 🤝 Contributing
 

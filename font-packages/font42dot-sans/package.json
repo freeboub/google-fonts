@@ -1,6 +1,6 @@
 {
-  "name": "@expo-google-fonts/font42dot-sans",
-  "version": "0.2.3",
+  "name": "expo-google-fonts-font42dot-sans",
+  "version": "0.3.0",
   "description": "Use the 42dot Sans font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": "https://github.com/freeboub/google-fonts/google-fonts.git",

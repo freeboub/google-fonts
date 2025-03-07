@@ -1,8 +1,8 @@
-# @expo-google-fonts/big-shoulders-inline
+# expo-google-fonts-big-shoulders-inline
 
-![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/big-shoulders-inline)
+![npm version](https://flat.badgen.net/npm/v/expo-google-fonts-big-shoulders-inline)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
-![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/big-shoulders-inline)
+![publish size](https://flat.badgen.net/packagephobia/install/expo-google-fonts-big-shoulders-inline)
 
 This package lets you use the [**Big Shoulders Inline**](https://fonts.google.com/specimen/Big+Shoulders+Inline) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -26,7 +26,7 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/big-shoulders-inline expo-font
+expo install expo-google-fonts-big-shoulders-inline expo-font
 ```
 
 Now add code like this to your project
@@ -34,16 +34,16 @@ Now add code like this to your project
 import React from 'react';
 
 import { Text, View } from 'react-native';
-import { useFonts } from '@expo-google-fonts/big-shoulders-inline/useFonts';
-import { BigShouldersInline_100Thin } from '@expo-google-fonts/big-shoulders-inline/100Thin';
-import { BigShouldersInline_200ExtraLight } from '@expo-google-fonts/big-shoulders-inline/200ExtraLight';
-import { BigShouldersInline_300Light } from '@expo-google-fonts/big-shoulders-inline/300Light';
-import { BigShouldersInline_400Regular } from '@expo-google-fonts/big-shoulders-inline/400Regular';
-import { BigShouldersInline_500Medium } from '@expo-google-fonts/big-shoulders-inline/500Medium';
-import { BigShouldersInline_600SemiBold } from '@expo-google-fonts/big-shoulders-inline/600SemiBold';
-import { BigShouldersInline_700Bold } from '@expo-google-fonts/big-shoulders-inline/700Bold';
-import { BigShouldersInline_800ExtraBold } from '@expo-google-fonts/big-shoulders-inline/800ExtraBold';
-import { BigShouldersInline_900Black } from '@expo-google-fonts/big-shoulders-inline/900Black';
+import { useFonts } from 'expo-google-fonts-big-shoulders-inline/useFonts';
+import { BigShouldersInline_100Thin } from 'expo-google-fonts-big-shoulders-inline/100Thin';
+import { BigShouldersInline_200ExtraLight } from 'expo-google-fonts-big-shoulders-inline/200ExtraLight';
+import { BigShouldersInline_300Light } from 'expo-google-fonts-big-shoulders-inline/300Light';
+import { BigShouldersInline_400Regular } from 'expo-google-fonts-big-shoulders-inline/400Regular';
+import { BigShouldersInline_500Medium } from 'expo-google-fonts-big-shoulders-inline/500Medium';
+import { BigShouldersInline_600SemiBold } from 'expo-google-fonts-big-shoulders-inline/600SemiBold';
+import { BigShouldersInline_700Bold } from 'expo-google-fonts-big-shoulders-inline/700Bold';
+import { BigShouldersInline_800ExtraBold } from 'expo-google-fonts-big-shoulders-inline/800ExtraBold';
+import { BigShouldersInline_900Black } from 'expo-google-fonts-big-shoulders-inline/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -174,7 +174,7 @@ export default () => {
 
 ## 👩‍💻 Use During Development
 
-If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
+If you are trying out lots of different fonts, you can try using the [`expo-google-fonts-dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
 
 You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
 over the network at runtime instead of adding the asset as a file to your project, so it may take longer
@@ -183,7 +183,7 @@ for playing around with any style that you want.
 
 ## 📖 License
 
-The `@expo-google-fonts/big-shoulders-inline` package and its code are released under the MIT license.
+The `expo-google-fonts-big-shoulders-inline` package and its code are released under the MIT license.
 
 All the fonts in the Google Fonts catalog are free and open source.
 
@@ -195,10 +195,10 @@ You can use these fonts freely in your products & projects - print or digital, c
 
 - [Big Shoulders Inline on Google Fonts](https://fonts.google.com/specimen/Big+Shoulders+Inline)
 - [Google Fonts](https://fonts.google.com/)
-- [This package on npm](https://www.npmjs.com/package/@expo-google-fonts/big-shoulders-inline)
+- [This package on npm](https://www.npmjs.com/package/expo-google-fonts-big-shoulders-inline)
 - [This package on GitHub](https://github.com/freeboub/google-fonts/tree/master/font-packages/big-shoulders-inline)
 - [The Expo Google Fonts project on GitHub](https://github.com/freeboub/google-fonts)
-- [`@expo-google-fonts/dev` Devlopment Package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev)
+- [`expo-google-fonts-dev` Devlopment Package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev)
 
 ## 🤝 Contributing
 

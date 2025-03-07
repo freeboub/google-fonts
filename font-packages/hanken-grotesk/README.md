@@ -1,8 +1,8 @@
-# @expo-google-fonts/hanken-grotesk
+# expo-google-fonts-hanken-grotesk
 
-![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/hanken-grotesk)
+![npm version](https://flat.badgen.net/npm/v/expo-google-fonts-hanken-grotesk)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
-![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/hanken-grotesk)
+![publish size](https://flat.badgen.net/packagephobia/install/expo-google-fonts-hanken-grotesk)
 
 This package lets you use the [**Hanken Grotesk**](https://fonts.google.com/specimen/Hanken+Grotesk) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -35,7 +35,7 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/hanken-grotesk expo-font
+expo install expo-google-fonts-hanken-grotesk expo-font
 ```
 
 Now add code like this to your project
@@ -43,25 +43,25 @@ Now add code like this to your project
 import React from 'react';
 
 import { Text, View } from 'react-native';
-import { useFonts } from '@expo-google-fonts/hanken-grotesk/useFonts';
-import { HankenGrotesk_100Thin } from '@expo-google-fonts/hanken-grotesk/100Thin';
-import { HankenGrotesk_200ExtraLight } from '@expo-google-fonts/hanken-grotesk/200ExtraLight';
-import { HankenGrotesk_300Light } from '@expo-google-fonts/hanken-grotesk/300Light';
-import { HankenGrotesk_400Regular } from '@expo-google-fonts/hanken-grotesk/400Regular';
-import { HankenGrotesk_500Medium } from '@expo-google-fonts/hanken-grotesk/500Medium';
-import { HankenGrotesk_600SemiBold } from '@expo-google-fonts/hanken-grotesk/600SemiBold';
-import { HankenGrotesk_700Bold } from '@expo-google-fonts/hanken-grotesk/700Bold';
-import { HankenGrotesk_800ExtraBold } from '@expo-google-fonts/hanken-grotesk/800ExtraBold';
-import { HankenGrotesk_900Black } from '@expo-google-fonts/hanken-grotesk/900Black';
-import { HankenGrotesk_100Thin_Italic } from '@expo-google-fonts/hanken-grotesk/100Thin_Italic';
-import { HankenGrotesk_200ExtraLight_Italic } from '@expo-google-fonts/hanken-grotesk/200ExtraLight_Italic';
-import { HankenGrotesk_300Light_Italic } from '@expo-google-fonts/hanken-grotesk/300Light_Italic';
-import { HankenGrotesk_400Regular_Italic } from '@expo-google-fonts/hanken-grotesk/400Regular_Italic';
-import { HankenGrotesk_500Medium_Italic } from '@expo-google-fonts/hanken-grotesk/500Medium_Italic';
-import { HankenGrotesk_600SemiBold_Italic } from '@expo-google-fonts/hanken-grotesk/600SemiBold_Italic';
-import { HankenGrotesk_700Bold_Italic } from '@expo-google-fonts/hanken-grotesk/700Bold_Italic';
-import { HankenGrotesk_800ExtraBold_Italic } from '@expo-google-fonts/hanken-grotesk/800ExtraBold_Italic';
-import { HankenGrotesk_900Black_Italic } from '@expo-google-fonts/hanken-grotesk/900Black_Italic';
+import { useFonts } from 'expo-google-fonts-hanken-grotesk/useFonts';
+import { HankenGrotesk_100Thin } from 'expo-google-fonts-hanken-grotesk/100Thin';
+import { HankenGrotesk_200ExtraLight } from 'expo-google-fonts-hanken-grotesk/200ExtraLight';
+import { HankenGrotesk_300Light } from 'expo-google-fonts-hanken-grotesk/300Light';
+import { HankenGrotesk_400Regular } from 'expo-google-fonts-hanken-grotesk/400Regular';
+import { HankenGrotesk_500Medium } from 'expo-google-fonts-hanken-grotesk/500Medium';
+import { HankenGrotesk_600SemiBold } from 'expo-google-fonts-hanken-grotesk/600SemiBold';
+import { HankenGrotesk_700Bold } from 'expo-google-fonts-hanken-grotesk/700Bold';
+import { HankenGrotesk_800ExtraBold } from 'expo-google-fonts-hanken-grotesk/800ExtraBold';
+import { HankenGrotesk_900Black } from 'expo-google-fonts-hanken-grotesk/900Black';
+import { HankenGrotesk_100Thin_Italic } from 'expo-google-fonts-hanken-grotesk/100Thin_Italic';
+import { HankenGrotesk_200ExtraLight_Italic } from 'expo-google-fonts-hanken-grotesk/200ExtraLight_Italic';
+import { HankenGrotesk_300Light_Italic } from 'expo-google-fonts-hanken-grotesk/300Light_Italic';
+import { HankenGrotesk_400Regular_Italic } from 'expo-google-fonts-hanken-grotesk/400Regular_Italic';
+import { HankenGrotesk_500Medium_Italic } from 'expo-google-fonts-hanken-grotesk/500Medium_Italic';
+import { HankenGrotesk_600SemiBold_Italic } from 'expo-google-fonts-hanken-grotesk/600SemiBold_Italic';
+import { HankenGrotesk_700Bold_Italic } from 'expo-google-fonts-hanken-grotesk/700Bold_Italic';
+import { HankenGrotesk_800ExtraBold_Italic } from 'expo-google-fonts-hanken-grotesk/800ExtraBold_Italic';
+import { HankenGrotesk_900Black_Italic } from 'expo-google-fonts-hanken-grotesk/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -294,7 +294,7 @@ export default () => {
 
 ## 👩‍💻 Use During Development
 
-If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
+If you are trying out lots of different fonts, you can try using the [`expo-google-fonts-dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
 
 You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
 over the network at runtime instead of adding the asset as a file to your project, so it may take longer
@@ -303,7 +303,7 @@ for playing around with any style that you want.
 
 ## 📖 License
 
-The `@expo-google-fonts/hanken-grotesk` package and its code are released under the MIT license.
+The `expo-google-fonts-hanken-grotesk` package and its code are released under the MIT license.
 
 All the fonts in the Google Fonts catalog are free and open source.
 
@@ -315,10 +315,10 @@ You can use these fonts freely in your products & projects - print or digital, c
 
 - [Hanken Grotesk on Google Fonts](https://fonts.google.com/specimen/Hanken+Grotesk)
 - [Google Fonts](https://fonts.google.com/)
-- [This package on npm](https://www.npmjs.com/package/@expo-google-fonts/hanken-grotesk)
+- [This package on npm](https://www.npmjs.com/package/expo-google-fonts-hanken-grotesk)
 - [This package on GitHub](https://github.com/freeboub/google-fonts/tree/master/font-packages/hanken-grotesk)
 - [The Expo Google Fonts project on GitHub](https://github.com/freeboub/google-fonts)
-- [`@expo-google-fonts/dev` Devlopment Package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev)
+- [`expo-google-fonts-dev` Devlopment Package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev)
 
 ## 🤝 Contributing
 

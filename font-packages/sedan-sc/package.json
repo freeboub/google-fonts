@@ -1,6 +1,6 @@
 {
-  "name": "@expo-google-fonts/sedan-sc",
-  "version": "0.2.3",
+  "name": "expo-google-fonts-sedan-sc",
+  "version": "0.3.0",
   "description": "Use the Sedan SC font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": "https://github.com/freeboub/google-fonts/google-fonts.git",

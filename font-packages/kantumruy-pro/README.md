@@ -1,8 +1,8 @@
-# @expo-google-fonts/kantumruy-pro
+# expo-google-fonts-kantumruy-pro
 
-![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/kantumruy-pro)
+![npm version](https://flat.badgen.net/npm/v/expo-google-fonts-kantumruy-pro)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
-![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/kantumruy-pro)
+![publish size](https://flat.badgen.net/packagephobia/install/expo-google-fonts-kantumruy-pro)
 
 This package lets you use the [**Kantumruy Pro**](https://fonts.google.com/specimen/Kantumruy+Pro) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -31,7 +31,7 @@ This font family contains [14 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/kantumruy-pro expo-font
+expo install expo-google-fonts-kantumruy-pro expo-font
 ```
 
 Now add code like this to your project
@@ -39,21 +39,21 @@ Now add code like this to your project
 import React from 'react';
 
 import { Text, View } from 'react-native';
-import { useFonts } from '@expo-google-fonts/kantumruy-pro/useFonts';
-import { KantumruyPro_100Thin } from '@expo-google-fonts/kantumruy-pro/100Thin';
-import { KantumruyPro_200ExtraLight } from '@expo-google-fonts/kantumruy-pro/200ExtraLight';
-import { KantumruyPro_300Light } from '@expo-google-fonts/kantumruy-pro/300Light';
-import { KantumruyPro_400Regular } from '@expo-google-fonts/kantumruy-pro/400Regular';
-import { KantumruyPro_500Medium } from '@expo-google-fonts/kantumruy-pro/500Medium';
-import { KantumruyPro_600SemiBold } from '@expo-google-fonts/kantumruy-pro/600SemiBold';
-import { KantumruyPro_700Bold } from '@expo-google-fonts/kantumruy-pro/700Bold';
-import { KantumruyPro_100Thin_Italic } from '@expo-google-fonts/kantumruy-pro/100Thin_Italic';
-import { KantumruyPro_200ExtraLight_Italic } from '@expo-google-fonts/kantumruy-pro/200ExtraLight_Italic';
-import { KantumruyPro_300Light_Italic } from '@expo-google-fonts/kantumruy-pro/300Light_Italic';
-import { KantumruyPro_400Regular_Italic } from '@expo-google-fonts/kantumruy-pro/400Regular_Italic';
-import { KantumruyPro_500Medium_Italic } from '@expo-google-fonts/kantumruy-pro/500Medium_Italic';
-import { KantumruyPro_600SemiBold_Italic } from '@expo-google-fonts/kantumruy-pro/600SemiBold_Italic';
-import { KantumruyPro_700Bold_Italic } from '@expo-google-fonts/kantumruy-pro/700Bold_Italic';
+import { useFonts } from 'expo-google-fonts-kantumruy-pro/useFonts';
+import { KantumruyPro_100Thin } from 'expo-google-fonts-kantumruy-pro/100Thin';
+import { KantumruyPro_200ExtraLight } from 'expo-google-fonts-kantumruy-pro/200ExtraLight';
+import { KantumruyPro_300Light } from 'expo-google-fonts-kantumruy-pro/300Light';
+import { KantumruyPro_400Regular } from 'expo-google-fonts-kantumruy-pro/400Regular';
+import { KantumruyPro_500Medium } from 'expo-google-fonts-kantumruy-pro/500Medium';
+import { KantumruyPro_600SemiBold } from 'expo-google-fonts-kantumruy-pro/600SemiBold';
+import { KantumruyPro_700Bold } from 'expo-google-fonts-kantumruy-pro/700Bold';
+import { KantumruyPro_100Thin_Italic } from 'expo-google-fonts-kantumruy-pro/100Thin_Italic';
+import { KantumruyPro_200ExtraLight_Italic } from 'expo-google-fonts-kantumruy-pro/200ExtraLight_Italic';
+import { KantumruyPro_300Light_Italic } from 'expo-google-fonts-kantumruy-pro/300Light_Italic';
+import { KantumruyPro_400Regular_Italic } from 'expo-google-fonts-kantumruy-pro/400Regular_Italic';
+import { KantumruyPro_500Medium_Italic } from 'expo-google-fonts-kantumruy-pro/500Medium_Italic';
+import { KantumruyPro_600SemiBold_Italic } from 'expo-google-fonts-kantumruy-pro/600SemiBold_Italic';
+import { KantumruyPro_700Bold_Italic } from 'expo-google-fonts-kantumruy-pro/700Bold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -241,7 +241,7 @@ export default () => {
 
 ## 👩‍💻 Use During Development
 
-If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
+If you are trying out lots of different fonts, you can try using the [`expo-google-fonts-dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
 
 You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
 over the network at runtime instead of adding the asset as a file to your project, so it may take longer
@@ -250,7 +250,7 @@ for playing around with any style that you want.
 
 ## 📖 License
 
-The `@expo-google-fonts/kantumruy-pro` package and its code are released under the MIT license.
+The `expo-google-fonts-kantumruy-pro` package and its code are released under the MIT license.
 
 All the fonts in the Google Fonts catalog are free and open source.
 
@@ -262,10 +262,10 @@ You can use these fonts freely in your products & projects - print or digital, c
 
 - [Kantumruy Pro on Google Fonts](https://fonts.google.com/specimen/Kantumruy+Pro)
 - [Google Fonts](https://fonts.google.com/)
-- [This package on npm](https://www.npmjs.com/package/@expo-google-fonts/kantumruy-pro)
+- [This package on npm](https://www.npmjs.com/package/expo-google-fonts-kantumruy-pro)
 - [This package on GitHub](https://github.com/freeboub/google-fonts/tree/master/font-packages/kantumruy-pro)
 - [The Expo Google Fonts project on GitHub](https://github.com/freeboub/google-fonts)
-- [`@expo-google-fonts/dev` Devlopment Package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev)
+- [`expo-google-fonts-dev` Devlopment Package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev)
 
 ## 🤝 Contributing
 

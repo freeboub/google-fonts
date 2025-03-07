@@ -1,8 +1,8 @@
-# @expo-google-fonts/alumni-sans-collegiate-one
+# expo-google-fonts-alumni-sans-collegiate-one
 
-![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/alumni-sans-collegiate-one)
+![npm version](https://flat.badgen.net/npm/v/expo-google-fonts-alumni-sans-collegiate-one)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
-![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/alumni-sans-collegiate-one)
+![publish size](https://flat.badgen.net/packagephobia/install/expo-google-fonts-alumni-sans-collegiate-one)
 
 This package lets you use the [**Alumni Sans Collegiate One**](https://fonts.google.com/specimen/Alumni+Sans+Collegiate+One) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -19,7 +19,7 @@ This font family contains [2 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/alumni-sans-collegiate-one expo-font
+expo install expo-google-fonts-alumni-sans-collegiate-one expo-font
 ```
 
 Now add code like this to your project
@@ -27,9 +27,9 @@ Now add code like this to your project
 import React from 'react';
 
 import { Text, View } from 'react-native';
-import { useFonts } from '@expo-google-fonts/alumni-sans-collegiate-one/useFonts';
-import { AlumniSansCollegiateOne_400Regular } from '@expo-google-fonts/alumni-sans-collegiate-one/400Regular';
-import { AlumniSansCollegiateOne_400Regular_Italic } from '@expo-google-fonts/alumni-sans-collegiate-one/400Regular_Italic';
+import { useFonts } from 'expo-google-fonts-alumni-sans-collegiate-one/useFonts';
+import { AlumniSansCollegiateOne_400Regular } from 'expo-google-fonts-alumni-sans-collegiate-one/400Regular';
+import { AlumniSansCollegiateOne_400Regular_Italic } from 'expo-google-fonts-alumni-sans-collegiate-one/400Regular_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -81,7 +81,7 @@ export default () => {
 
 ## 👩‍💻 Use During Development
 
-If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
+If you are trying out lots of different fonts, you can try using the [`expo-google-fonts-dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
 
 You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
 over the network at runtime instead of adding the asset as a file to your project, so it may take longer
@@ -90,7 +90,7 @@ for playing around with any style that you want.
 
 ## 📖 License
 
-The `@expo-google-fonts/alumni-sans-collegiate-one` package and its code are released under the MIT license.
+The `expo-google-fonts-alumni-sans-collegiate-one` package and its code are released under the MIT license.
 
 All the fonts in the Google Fonts catalog are free and open source.
 
@@ -102,10 +102,10 @@ You can use these fonts freely in your products & projects - print or digital, c
 
 - [Alumni Sans Collegiate One on Google Fonts](https://fonts.google.com/specimen/Alumni+Sans+Collegiate+One)
 - [Google Fonts](https://fonts.google.com/)
-- [This package on npm](https://www.npmjs.com/package/@expo-google-fonts/alumni-sans-collegiate-one)
+- [This package on npm](https://www.npmjs.com/package/expo-google-fonts-alumni-sans-collegiate-one)
 - [This package on GitHub](https://github.com/freeboub/google-fonts/tree/master/font-packages/alumni-sans-collegiate-one)
 - [The Expo Google Fonts project on GitHub](https://github.com/freeboub/google-fonts)
-- [`@expo-google-fonts/dev` Devlopment Package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev)
+- [`expo-google-fonts-dev` Devlopment Package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev)
 
 ## 🤝 Contributing
 

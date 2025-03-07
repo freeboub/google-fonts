@@ -1,8 +1,8 @@
-# @expo-google-fonts/galdeano
+# expo-google-fonts-galdeano
 
-![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/galdeano)
+![npm version](https://flat.badgen.net/npm/v/expo-google-fonts-galdeano)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
-![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/galdeano)
+![publish size](https://flat.badgen.net/packagephobia/install/expo-google-fonts-galdeano)
 
 This package lets you use the [**Galdeano**](https://fonts.google.com/specimen/Galdeano) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -18,7 +18,7 @@ This font family contains [1 style](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/galdeano expo-font
+expo install expo-google-fonts-galdeano expo-font
 ```
 
 Now add code like this to your project
@@ -26,8 +26,8 @@ Now add code like this to your project
 import React from 'react';
 
 import { Text, View } from 'react-native';
-import { useFonts } from '@expo-google-fonts/galdeano/useFonts';
-import { Galdeano_400Regular } from '@expo-google-fonts/galdeano/400Regular';
+import { useFonts } from 'expo-google-fonts-galdeano/useFonts';
+import { Galdeano_400Regular } from 'expo-google-fonts-galdeano/400Regular';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -68,7 +68,7 @@ export default () => {
 
 ## 👩‍💻 Use During Development
 
-If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
+If you are trying out lots of different fonts, you can try using the [`expo-google-fonts-dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
 
 You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
 over the network at runtime instead of adding the asset as a file to your project, so it may take longer
@@ -77,7 +77,7 @@ for playing around with any style that you want.
 
 ## 📖 License
 
-The `@expo-google-fonts/galdeano` package and its code are released under the MIT license.
+The `expo-google-fonts-galdeano` package and its code are released under the MIT license.
 
 All the fonts in the Google Fonts catalog are free and open source.
 
@@ -89,10 +89,10 @@ You can use these fonts freely in your products & projects - print or digital, c
 
 - [Galdeano on Google Fonts](https://fonts.google.com/specimen/Galdeano)
 - [Google Fonts](https://fonts.google.com/)
-- [This package on npm](https://www.npmjs.com/package/@expo-google-fonts/galdeano)
+- [This package on npm](https://www.npmjs.com/package/expo-google-fonts-galdeano)
 - [This package on GitHub](https://github.com/freeboub/google-fonts/tree/master/font-packages/galdeano)
 - [The Expo Google Fonts project on GitHub](https://github.com/freeboub/google-fonts)
-- [`@expo-google-fonts/dev` Devlopment Package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev)
+- [`expo-google-fonts-dev` Devlopment Package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev)
 
 ## 🤝 Contributing
 

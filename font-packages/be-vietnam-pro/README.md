@@ -1,8 +1,8 @@
-# @expo-google-fonts/be-vietnam-pro
+# expo-google-fonts-be-vietnam-pro
 
-![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/be-vietnam-pro)
+![npm version](https://flat.badgen.net/npm/v/expo-google-fonts-be-vietnam-pro)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
-![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/be-vietnam-pro)
+![publish size](https://flat.badgen.net/packagephobia/install/expo-google-fonts-be-vietnam-pro)
 
 This package lets you use the [**Be Vietnam Pro**](https://fonts.google.com/specimen/Be+Vietnam+Pro) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -35,7 +35,7 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/be-vietnam-pro expo-font
+expo install expo-google-fonts-be-vietnam-pro expo-font
 ```
 
 Now add code like this to your project
@@ -43,25 +43,25 @@ Now add code like this to your project
 import React from 'react';
 
 import { Text, View } from 'react-native';
-import { useFonts } from '@expo-google-fonts/be-vietnam-pro/useFonts';
-import { BeVietnamPro_100Thin } from '@expo-google-fonts/be-vietnam-pro/100Thin';
-import { BeVietnamPro_100Thin_Italic } from '@expo-google-fonts/be-vietnam-pro/100Thin_Italic';
-import { BeVietnamPro_200ExtraLight } from '@expo-google-fonts/be-vietnam-pro/200ExtraLight';
-import { BeVietnamPro_200ExtraLight_Italic } from '@expo-google-fonts/be-vietnam-pro/200ExtraLight_Italic';
-import { BeVietnamPro_300Light } from '@expo-google-fonts/be-vietnam-pro/300Light';
-import { BeVietnamPro_300Light_Italic } from '@expo-google-fonts/be-vietnam-pro/300Light_Italic';
-import { BeVietnamPro_400Regular } from '@expo-google-fonts/be-vietnam-pro/400Regular';
-import { BeVietnamPro_400Regular_Italic } from '@expo-google-fonts/be-vietnam-pro/400Regular_Italic';
-import { BeVietnamPro_500Medium } from '@expo-google-fonts/be-vietnam-pro/500Medium';
-import { BeVietnamPro_500Medium_Italic } from '@expo-google-fonts/be-vietnam-pro/500Medium_Italic';
-import { BeVietnamPro_600SemiBold } from '@expo-google-fonts/be-vietnam-pro/600SemiBold';
-import { BeVietnamPro_600SemiBold_Italic } from '@expo-google-fonts/be-vietnam-pro/600SemiBold_Italic';
-import { BeVietnamPro_700Bold } from '@expo-google-fonts/be-vietnam-pro/700Bold';
-import { BeVietnamPro_700Bold_Italic } from '@expo-google-fonts/be-vietnam-pro/700Bold_Italic';
-import { BeVietnamPro_800ExtraBold } from '@expo-google-fonts/be-vietnam-pro/800ExtraBold';
-import { BeVietnamPro_800ExtraBold_Italic } from '@expo-google-fonts/be-vietnam-pro/800ExtraBold_Italic';
-import { BeVietnamPro_900Black } from '@expo-google-fonts/be-vietnam-pro/900Black';
-import { BeVietnamPro_900Black_Italic } from '@expo-google-fonts/be-vietnam-pro/900Black_Italic';
+import { useFonts } from 'expo-google-fonts-be-vietnam-pro/useFonts';
+import { BeVietnamPro_100Thin } from 'expo-google-fonts-be-vietnam-pro/100Thin';
+import { BeVietnamPro_100Thin_Italic } from 'expo-google-fonts-be-vietnam-pro/100Thin_Italic';
+import { BeVietnamPro_200ExtraLight } from 'expo-google-fonts-be-vietnam-pro/200ExtraLight';
+import { BeVietnamPro_200ExtraLight_Italic } from 'expo-google-fonts-be-vietnam-pro/200ExtraLight_Italic';
+import { BeVietnamPro_300Light } from 'expo-google-fonts-be-vietnam-pro/300Light';
+import { BeVietnamPro_300Light_Italic } from 'expo-google-fonts-be-vietnam-pro/300Light_Italic';
+import { BeVietnamPro_400Regular } from 'expo-google-fonts-be-vietnam-pro/400Regular';
+import { BeVietnamPro_400Regular_Italic } from 'expo-google-fonts-be-vietnam-pro/400Regular_Italic';
+import { BeVietnamPro_500Medium } from 'expo-google-fonts-be-vietnam-pro/500Medium';
+import { BeVietnamPro_500Medium_Italic } from 'expo-google-fonts-be-vietnam-pro/500Medium_Italic';
+import { BeVietnamPro_600SemiBold } from 'expo-google-fonts-be-vietnam-pro/600SemiBold';
+import { BeVietnamPro_600SemiBold_Italic } from 'expo-google-fonts-be-vietnam-pro/600SemiBold_Italic';
+import { BeVietnamPro_700Bold } from 'expo-google-fonts-be-vietnam-pro/700Bold';
+import { BeVietnamPro_700Bold_Italic } from 'expo-google-fonts-be-vietnam-pro/700Bold_Italic';
+import { BeVietnamPro_800ExtraBold } from 'expo-google-fonts-be-vietnam-pro/800ExtraBold';
+import { BeVietnamPro_800ExtraBold_Italic } from 'expo-google-fonts-be-vietnam-pro/800ExtraBold_Italic';
+import { BeVietnamPro_900Black } from 'expo-google-fonts-be-vietnam-pro/900Black';
+import { BeVietnamPro_900Black_Italic } from 'expo-google-fonts-be-vietnam-pro/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -294,7 +294,7 @@ export default () => {
 
 ## 👩‍💻 Use During Development
 
-If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
+If you are trying out lots of different fonts, you can try using the [`expo-google-fonts-dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
 
 You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
 over the network at runtime instead of adding the asset as a file to your project, so it may take longer
@@ -303,7 +303,7 @@ for playing around with any style that you want.
 
 ## 📖 License
 
-The `@expo-google-fonts/be-vietnam-pro` package and its code are released under the MIT license.
+The `expo-google-fonts-be-vietnam-pro` package and its code are released under the MIT license.
 
 All the fonts in the Google Fonts catalog are free and open source.
 
@@ -315,10 +315,10 @@ You can use these fonts freely in your products & projects - print or digital, c
 
 - [Be Vietnam Pro on Google Fonts](https://fonts.google.com/specimen/Be+Vietnam+Pro)
 - [Google Fonts](https://fonts.google.com/)
-- [This package on npm](https://www.npmjs.com/package/@expo-google-fonts/be-vietnam-pro)
+- [This package on npm](https://www.npmjs.com/package/expo-google-fonts-be-vietnam-pro)
 - [This package on GitHub](https://github.com/freeboub/google-fonts/tree/master/font-packages/be-vietnam-pro)
 - [The Expo Google Fonts project on GitHub](https://github.com/freeboub/google-fonts)
-- [`@expo-google-fonts/dev` Devlopment Package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev)
+- [`expo-google-fonts-dev` Devlopment Package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev)
 
 ## 🤝 Contributing
 

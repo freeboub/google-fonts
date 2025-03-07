@@ -1,6 +1,6 @@
 {
-  "name": "@expo-google-fonts/tai-heritage-pro",
-  "version": "0.2.3",
+  "name": "expo-google-fonts-tai-heritage-pro",
+  "version": "0.3.0",
   "description": "Use the Tai Heritage Pro font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": "https://github.com/freeboub/google-fonts/google-fonts.git",

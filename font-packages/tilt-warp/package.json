@@ -1,6 +1,6 @@
 {
-  "name": "@expo-google-fonts/tilt-warp",
-  "version": "0.2.3",
+  "name": "expo-google-fonts-tilt-warp",
+  "version": "0.3.0",
   "description": "Use the Tilt Warp font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": "https://github.com/freeboub/google-fonts/google-fonts.git",

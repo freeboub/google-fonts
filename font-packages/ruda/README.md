@@ -1,8 +1,8 @@
-# @expo-google-fonts/ruda
+# expo-google-fonts-ruda
 
-![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/ruda)
+![npm version](https://flat.badgen.net/npm/v/expo-google-fonts-ruda)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
-![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/ruda)
+![publish size](https://flat.badgen.net/packagephobia/install/expo-google-fonts-ruda)
 
 This package lets you use the [**Ruda**](https://fonts.google.com/specimen/Ruda) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -23,7 +23,7 @@ This font family contains [6 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/ruda expo-font
+expo install expo-google-fonts-ruda expo-font
 ```
 
 Now add code like this to your project
@@ -31,13 +31,13 @@ Now add code like this to your project
 import React from 'react';
 
 import { Text, View } from 'react-native';
-import { useFonts } from '@expo-google-fonts/ruda/useFonts';
-import { Ruda_400Regular } from '@expo-google-fonts/ruda/400Regular';
-import { Ruda_500Medium } from '@expo-google-fonts/ruda/500Medium';
-import { Ruda_600SemiBold } from '@expo-google-fonts/ruda/600SemiBold';
-import { Ruda_700Bold } from '@expo-google-fonts/ruda/700Bold';
-import { Ruda_800ExtraBold } from '@expo-google-fonts/ruda/800ExtraBold';
-import { Ruda_900Black } from '@expo-google-fonts/ruda/900Black';
+import { useFonts } from 'expo-google-fonts-ruda/useFonts';
+import { Ruda_400Regular } from 'expo-google-fonts-ruda/400Regular';
+import { Ruda_500Medium } from 'expo-google-fonts-ruda/500Medium';
+import { Ruda_600SemiBold } from 'expo-google-fonts-ruda/600SemiBold';
+import { Ruda_700Bold } from 'expo-google-fonts-ruda/700Bold';
+import { Ruda_800ExtraBold } from 'expo-google-fonts-ruda/800ExtraBold';
+import { Ruda_900Black } from 'expo-google-fonts-ruda/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -134,7 +134,7 @@ export default () => {
 
 ## 👩‍💻 Use During Development
 
-If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
+If you are trying out lots of different fonts, you can try using the [`expo-google-fonts-dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
 
 You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
 over the network at runtime instead of adding the asset as a file to your project, so it may take longer
@@ -143,7 +143,7 @@ for playing around with any style that you want.
 
 ## 📖 License
 
-The `@expo-google-fonts/ruda` package and its code are released under the MIT license.
+The `expo-google-fonts-ruda` package and its code are released under the MIT license.
 
 All the fonts in the Google Fonts catalog are free and open source.
 
@@ -155,10 +155,10 @@ You can use these fonts freely in your products & projects - print or digital, c
 
 - [Ruda on Google Fonts](https://fonts.google.com/specimen/Ruda)
 - [Google Fonts](https://fonts.google.com/)
-- [This package on npm](https://www.npmjs.com/package/@expo-google-fonts/ruda)
+- [This package on npm](https://www.npmjs.com/package/expo-google-fonts-ruda)
 - [This package on GitHub](https://github.com/freeboub/google-fonts/tree/master/font-packages/ruda)
 - [The Expo Google Fonts project on GitHub](https://github.com/freeboub/google-fonts)
-- [`@expo-google-fonts/dev` Devlopment Package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev)
+- [`expo-google-fonts-dev` Devlopment Package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev)
 
 ## 🤝 Contributing
 

@@ -1,8 +1,8 @@
-# @expo-google-fonts/noto-rashi-hebrew
+# expo-google-fonts-noto-rashi-hebrew
 
-![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-rashi-hebrew)
+![npm version](https://flat.badgen.net/npm/v/expo-google-fonts-noto-rashi-hebrew)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
-![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-rashi-hebrew)
+![publish size](https://flat.badgen.net/packagephobia/install/expo-google-fonts-noto-rashi-hebrew)
 
 This package lets you use the [**Noto Rashi Hebrew**](https://fonts.google.com/specimen/Noto+Rashi+Hebrew) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -26,7 +26,7 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/noto-rashi-hebrew expo-font
+expo install expo-google-fonts-noto-rashi-hebrew expo-font
 ```
 
 Now add code like this to your project
@@ -34,16 +34,16 @@ Now add code like this to your project
 import React from 'react';
 
 import { Text, View } from 'react-native';
-import { useFonts } from '@expo-google-fonts/noto-rashi-hebrew/useFonts';
-import { NotoRashiHebrew_100Thin } from '@expo-google-fonts/noto-rashi-hebrew/100Thin';
-import { NotoRashiHebrew_200ExtraLight } from '@expo-google-fonts/noto-rashi-hebrew/200ExtraLight';
-import { NotoRashiHebrew_300Light } from '@expo-google-fonts/noto-rashi-hebrew/300Light';
-import { NotoRashiHebrew_400Regular } from '@expo-google-fonts/noto-rashi-hebrew/400Regular';
-import { NotoRashiHebrew_500Medium } from '@expo-google-fonts/noto-rashi-hebrew/500Medium';
-import { NotoRashiHebrew_600SemiBold } from '@expo-google-fonts/noto-rashi-hebrew/600SemiBold';
-import { NotoRashiHebrew_700Bold } from '@expo-google-fonts/noto-rashi-hebrew/700Bold';
-import { NotoRashiHebrew_800ExtraBold } from '@expo-google-fonts/noto-rashi-hebrew/800ExtraBold';
-import { NotoRashiHebrew_900Black } from '@expo-google-fonts/noto-rashi-hebrew/900Black';
+import { useFonts } from 'expo-google-fonts-noto-rashi-hebrew/useFonts';
+import { NotoRashiHebrew_100Thin } from 'expo-google-fonts-noto-rashi-hebrew/100Thin';
+import { NotoRashiHebrew_200ExtraLight } from 'expo-google-fonts-noto-rashi-hebrew/200ExtraLight';
+import { NotoRashiHebrew_300Light } from 'expo-google-fonts-noto-rashi-hebrew/300Light';
+import { NotoRashiHebrew_400Regular } from 'expo-google-fonts-noto-rashi-hebrew/400Regular';
+import { NotoRashiHebrew_500Medium } from 'expo-google-fonts-noto-rashi-hebrew/500Medium';
+import { NotoRashiHebrew_600SemiBold } from 'expo-google-fonts-noto-rashi-hebrew/600SemiBold';
+import { NotoRashiHebrew_700Bold } from 'expo-google-fonts-noto-rashi-hebrew/700Bold';
+import { NotoRashiHebrew_800ExtraBold } from 'expo-google-fonts-noto-rashi-hebrew/800ExtraBold';
+import { NotoRashiHebrew_900Black } from 'expo-google-fonts-noto-rashi-hebrew/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -174,7 +174,7 @@ export default () => {
 
 ## 👩‍💻 Use During Development
 
-If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
+If you are trying out lots of different fonts, you can try using the [`expo-google-fonts-dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
 
 You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
 over the network at runtime instead of adding the asset as a file to your project, so it may take longer
@@ -183,7 +183,7 @@ for playing around with any style that you want.
 
 ## 📖 License
 
-The `@expo-google-fonts/noto-rashi-hebrew` package and its code are released under the MIT license.
+The `expo-google-fonts-noto-rashi-hebrew` package and its code are released under the MIT license.
 
 All the fonts in the Google Fonts catalog are free and open source.
 
@@ -195,10 +195,10 @@ You can use these fonts freely in your products & projects - print or digital, c
 
 - [Noto Rashi Hebrew on Google Fonts](https://fonts.google.com/specimen/Noto+Rashi+Hebrew)
 - [Google Fonts](https://fonts.google.com/)
-- [This package on npm](https://www.npmjs.com/package/@expo-google-fonts/noto-rashi-hebrew)
+- [This package on npm](https://www.npmjs.com/package/expo-google-fonts-noto-rashi-hebrew)
 - [This package on GitHub](https://github.com/freeboub/google-fonts/tree/master/font-packages/noto-rashi-hebrew)
 - [The Expo Google Fonts project on GitHub](https://github.com/freeboub/google-fonts)
-- [`@expo-google-fonts/dev` Devlopment Package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev)
+- [`expo-google-fonts-dev` Devlopment Package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev)
 
 ## 🤝 Contributing
 

@@ -1,8 +1,8 @@
-# @expo-google-fonts/spectral
+# expo-google-fonts-spectral
 
-![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/spectral)
+![npm version](https://flat.badgen.net/npm/v/expo-google-fonts-spectral)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
-![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/spectral)
+![publish size](https://flat.badgen.net/packagephobia/install/expo-google-fonts-spectral)
 
 This package lets you use the [**Spectral**](https://fonts.google.com/specimen/Spectral) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -31,7 +31,7 @@ This font family contains [14 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/spectral expo-font
+expo install expo-google-fonts-spectral expo-font
 ```
 
 Now add code like this to your project
@@ -39,21 +39,21 @@ Now add code like this to your project
 import React from 'react';
 
 import { Text, View } from 'react-native';
-import { useFonts } from '@expo-google-fonts/spectral/useFonts';
-import { Spectral_200ExtraLight } from '@expo-google-fonts/spectral/200ExtraLight';
-import { Spectral_200ExtraLight_Italic } from '@expo-google-fonts/spectral/200ExtraLight_Italic';
-import { Spectral_300Light } from '@expo-google-fonts/spectral/300Light';
-import { Spectral_300Light_Italic } from '@expo-google-fonts/spectral/300Light_Italic';
-import { Spectral_400Regular } from '@expo-google-fonts/spectral/400Regular';
-import { Spectral_400Regular_Italic } from '@expo-google-fonts/spectral/400Regular_Italic';
-import { Spectral_500Medium } from '@expo-google-fonts/spectral/500Medium';
-import { Spectral_500Medium_Italic } from '@expo-google-fonts/spectral/500Medium_Italic';
-import { Spectral_600SemiBold } from '@expo-google-fonts/spectral/600SemiBold';
-import { Spectral_600SemiBold_Italic } from '@expo-google-fonts/spectral/600SemiBold_Italic';
-import { Spectral_700Bold } from '@expo-google-fonts/spectral/700Bold';
-import { Spectral_700Bold_Italic } from '@expo-google-fonts/spectral/700Bold_Italic';
-import { Spectral_800ExtraBold } from '@expo-google-fonts/spectral/800ExtraBold';
-import { Spectral_800ExtraBold_Italic } from '@expo-google-fonts/spectral/800ExtraBold_Italic';
+import { useFonts } from 'expo-google-fonts-spectral/useFonts';
+import { Spectral_200ExtraLight } from 'expo-google-fonts-spectral/200ExtraLight';
+import { Spectral_200ExtraLight_Italic } from 'expo-google-fonts-spectral/200ExtraLight_Italic';
+import { Spectral_300Light } from 'expo-google-fonts-spectral/300Light';
+import { Spectral_300Light_Italic } from 'expo-google-fonts-spectral/300Light_Italic';
+import { Spectral_400Regular } from 'expo-google-fonts-spectral/400Regular';
+import { Spectral_400Regular_Italic } from 'expo-google-fonts-spectral/400Regular_Italic';
+import { Spectral_500Medium } from 'expo-google-fonts-spectral/500Medium';
+import { Spectral_500Medium_Italic } from 'expo-google-fonts-spectral/500Medium_Italic';
+import { Spectral_600SemiBold } from 'expo-google-fonts-spectral/600SemiBold';
+import { Spectral_600SemiBold_Italic } from 'expo-google-fonts-spectral/600SemiBold_Italic';
+import { Spectral_700Bold } from 'expo-google-fonts-spectral/700Bold';
+import { Spectral_700Bold_Italic } from 'expo-google-fonts-spectral/700Bold_Italic';
+import { Spectral_800ExtraBold } from 'expo-google-fonts-spectral/800ExtraBold';
+import { Spectral_800ExtraBold_Italic } from 'expo-google-fonts-spectral/800ExtraBold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -241,7 +241,7 @@ export default () => {
 
 ## 👩‍💻 Use During Development
 
-If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
+If you are trying out lots of different fonts, you can try using the [`expo-google-fonts-dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
 
 You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
 over the network at runtime instead of adding the asset as a file to your project, so it may take longer
@@ -250,7 +250,7 @@ for playing around with any style that you want.
 
 ## 📖 License
 
-The `@expo-google-fonts/spectral` package and its code are released under the MIT license.
+The `expo-google-fonts-spectral` package and its code are released under the MIT license.
 
 All the fonts in the Google Fonts catalog are free and open source.
 
@@ -262,10 +262,10 @@ You can use these fonts freely in your products & projects - print or digital, c
 
 - [Spectral on Google Fonts](https://fonts.google.com/specimen/Spectral)
 - [Google Fonts](https://fonts.google.com/)
-- [This package on npm](https://www.npmjs.com/package/@expo-google-fonts/spectral)
+- [This package on npm](https://www.npmjs.com/package/expo-google-fonts-spectral)
 - [This package on GitHub](https://github.com/freeboub/google-fonts/tree/master/font-packages/spectral)
 - [The Expo Google Fonts project on GitHub](https://github.com/freeboub/google-fonts)
-- [`@expo-google-fonts/dev` Devlopment Package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev)
+- [`expo-google-fonts-dev` Devlopment Package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev)
 
 ## 🤝 Contributing
 

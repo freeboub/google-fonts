@@ -54,7 +54,7 @@ let FontImagesDir = path.join(ProjectRootDir, 'font-images');
 let FontDirectoryPackageDir = path.join(ProjectRootDir, 'font-packages', 'font-directory');
 let DevPackageDir = path.join(FontPackagesDir, 'dev');
 
-let PackageScope = '@expo-google-fonts/';
+let PackageScope = 'expo-google-fonts-';
 let PackageFriendlyName = 'expo-google-fonts';
 let PackageVersion = require('../../package.json').version;
 const PackageGithubUrl = 'https://github.com/freeboub/google-fonts';
@@ -834,7 +834,7 @@ async function generateRootReadme(fontDirectory) {
   </a>
 </p>
 
-<p align="center">Use any of the ${fontDirectory.items.length} fonts and variants from <a href="https://fonts.google.com" target="_blank">fonts.google.com</a> in your Expo app</p>
+<p align="center">Use any of the ${fontDirectory.items.length} fonts and ${variantCount} variants from <a href="https://fonts.google.com" target="_blank">fonts.google.com</a> in your Expo app</p>
 
 <p align="center">
   <a aria-label="npm version" href="https://www.npmjs.com/org/${PackageFriendlyName}" target="_blank">
@@ -865,6 +865,33 @@ any of ${fontDirectory.items.length} fonts (and their variants) from
 These packages and all these fonts work across web, iOS, and Android and
 are free to use and open source.
 
+## Disclaimer
+
+This package is a fork of [@expo/google-fonts](https://github.com/expo/google-fonts).
+It is an updated version of the original package (many font are missing).
+It also bring an interesting feature which is the ability to load only selected font from generated packages.
+
+To update your application, you need to update your package.json
+\`\`\`package.json
+   "@expo-google-fonts/inter": "2.3.0",
+\`\`\`
+
+To:
+\`\`\`package.json
+"expo-google-fonts-inter": "3.0.0",
+\`\`\`
+
+And update your imports from:
+\`\`\`js
+import { Inter_900Black, Inter_700Bold } from '@expo-google-fonts/inter';
+\`\`\`
+To:
+\`\`\`js
+import { Inter_900Black } from 'expo-google-fonts-inter/900Black';
+import { Inter_700Bold } from 'expo-google-fonts-inter/700Bold';
+\`\`\`
+Then all unused font will not be included in your final application.
+
 ## Usage
 
 Here is an example of using the [Inter font family](https://fonts.google.com/specimen/Inter) in a very simple project.
@@ -882,9 +909,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import {
-  useFonts,
   Inter_900Black,
-} from '${PackageScope}inter';
+} from '${PackageScope}inter/900Black';
+
+import {
+  useFonts,
+} from '${PackageScope}useFonts';
 
 export default () => {
   let [fontsLoaded] = useFonts({

@@ -1,6 +1,6 @@
 {
-  "name": "@expo-google-fonts/grape-nuts",
-  "version": "0.2.3",
+  "name": "expo-google-fonts-grape-nuts",
+  "version": "0.3.0",
   "description": "Use the Grape Nuts font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": "https://github.com/freeboub/google-fonts/google-fonts.git",

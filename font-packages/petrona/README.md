@@ -1,8 +1,8 @@
-# @expo-google-fonts/petrona
+# expo-google-fonts-petrona
 
-![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/petrona)
+![npm version](https://flat.badgen.net/npm/v/expo-google-fonts-petrona)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
-![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/petrona)
+![publish size](https://flat.badgen.net/packagephobia/install/expo-google-fonts-petrona)
 
 This package lets you use the [**Petrona**](https://fonts.google.com/specimen/Petrona) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -35,7 +35,7 @@ This font family contains [18 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/petrona expo-font
+expo install expo-google-fonts-petrona expo-font
 ```
 
 Now add code like this to your project
@@ -43,25 +43,25 @@ Now add code like this to your project
 import React from 'react';
 
 import { Text, View } from 'react-native';
-import { useFonts } from '@expo-google-fonts/petrona/useFonts';
-import { Petrona_100Thin } from '@expo-google-fonts/petrona/100Thin';
-import { Petrona_200ExtraLight } from '@expo-google-fonts/petrona/200ExtraLight';
-import { Petrona_300Light } from '@expo-google-fonts/petrona/300Light';
-import { Petrona_400Regular } from '@expo-google-fonts/petrona/400Regular';
-import { Petrona_500Medium } from '@expo-google-fonts/petrona/500Medium';
-import { Petrona_600SemiBold } from '@expo-google-fonts/petrona/600SemiBold';
-import { Petrona_700Bold } from '@expo-google-fonts/petrona/700Bold';
-import { Petrona_800ExtraBold } from '@expo-google-fonts/petrona/800ExtraBold';
-import { Petrona_900Black } from '@expo-google-fonts/petrona/900Black';
-import { Petrona_100Thin_Italic } from '@expo-google-fonts/petrona/100Thin_Italic';
-import { Petrona_200ExtraLight_Italic } from '@expo-google-fonts/petrona/200ExtraLight_Italic';
-import { Petrona_300Light_Italic } from '@expo-google-fonts/petrona/300Light_Italic';
-import { Petrona_400Regular_Italic } from '@expo-google-fonts/petrona/400Regular_Italic';
-import { Petrona_500Medium_Italic } from '@expo-google-fonts/petrona/500Medium_Italic';
-import { Petrona_600SemiBold_Italic } from '@expo-google-fonts/petrona/600SemiBold_Italic';
-import { Petrona_700Bold_Italic } from '@expo-google-fonts/petrona/700Bold_Italic';
-import { Petrona_800ExtraBold_Italic } from '@expo-google-fonts/petrona/800ExtraBold_Italic';
-import { Petrona_900Black_Italic } from '@expo-google-fonts/petrona/900Black_Italic';
+import { useFonts } from 'expo-google-fonts-petrona/useFonts';
+import { Petrona_100Thin } from 'expo-google-fonts-petrona/100Thin';
+import { Petrona_200ExtraLight } from 'expo-google-fonts-petrona/200ExtraLight';
+import { Petrona_300Light } from 'expo-google-fonts-petrona/300Light';
+import { Petrona_400Regular } from 'expo-google-fonts-petrona/400Regular';
+import { Petrona_500Medium } from 'expo-google-fonts-petrona/500Medium';
+import { Petrona_600SemiBold } from 'expo-google-fonts-petrona/600SemiBold';
+import { Petrona_700Bold } from 'expo-google-fonts-petrona/700Bold';
+import { Petrona_800ExtraBold } from 'expo-google-fonts-petrona/800ExtraBold';
+import { Petrona_900Black } from 'expo-google-fonts-petrona/900Black';
+import { Petrona_100Thin_Italic } from 'expo-google-fonts-petrona/100Thin_Italic';
+import { Petrona_200ExtraLight_Italic } from 'expo-google-fonts-petrona/200ExtraLight_Italic';
+import { Petrona_300Light_Italic } from 'expo-google-fonts-petrona/300Light_Italic';
+import { Petrona_400Regular_Italic } from 'expo-google-fonts-petrona/400Regular_Italic';
+import { Petrona_500Medium_Italic } from 'expo-google-fonts-petrona/500Medium_Italic';
+import { Petrona_600SemiBold_Italic } from 'expo-google-fonts-petrona/600SemiBold_Italic';
+import { Petrona_700Bold_Italic } from 'expo-google-fonts-petrona/700Bold_Italic';
+import { Petrona_800ExtraBold_Italic } from 'expo-google-fonts-petrona/800ExtraBold_Italic';
+import { Petrona_900Black_Italic } from 'expo-google-fonts-petrona/900Black_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -294,7 +294,7 @@ export default () => {
 
 ## 👩‍💻 Use During Development
 
-If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
+If you are trying out lots of different fonts, you can try using the [`expo-google-fonts-dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
 
 You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
 over the network at runtime instead of adding the asset as a file to your project, so it may take longer
@@ -303,7 +303,7 @@ for playing around with any style that you want.
 
 ## 📖 License
 
-The `@expo-google-fonts/petrona` package and its code are released under the MIT license.
+The `expo-google-fonts-petrona` package and its code are released under the MIT license.
 
 All the fonts in the Google Fonts catalog are free and open source.
 
@@ -315,10 +315,10 @@ You can use these fonts freely in your products & projects - print or digital, c
 
 - [Petrona on Google Fonts](https://fonts.google.com/specimen/Petrona)
 - [Google Fonts](https://fonts.google.com/)
-- [This package on npm](https://www.npmjs.com/package/@expo-google-fonts/petrona)
+- [This package on npm](https://www.npmjs.com/package/expo-google-fonts-petrona)
 - [This package on GitHub](https://github.com/freeboub/google-fonts/tree/master/font-packages/petrona)
 - [The Expo Google Fonts project on GitHub](https://github.com/freeboub/google-fonts)
-- [`@expo-google-fonts/dev` Devlopment Package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev)
+- [`expo-google-fonts-dev` Devlopment Package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev)
 
 ## 🤝 Contributing
 

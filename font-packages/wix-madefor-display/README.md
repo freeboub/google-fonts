@@ -1,8 +1,8 @@
-# @expo-google-fonts/wix-madefor-display
+# expo-google-fonts-wix-madefor-display
 
-![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/wix-madefor-display)
+![npm version](https://flat.badgen.net/npm/v/expo-google-fonts-wix-madefor-display)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
-![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/wix-madefor-display)
+![publish size](https://flat.badgen.net/packagephobia/install/expo-google-fonts-wix-madefor-display)
 
 This package lets you use the [**Wix Madefor Display**](https://fonts.google.com/specimen/Wix+Madefor+Display) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -22,7 +22,7 @@ This font family contains [5 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/wix-madefor-display expo-font
+expo install expo-google-fonts-wix-madefor-display expo-font
 ```
 
 Now add code like this to your project
@@ -30,12 +30,12 @@ Now add code like this to your project
 import React from 'react';
 
 import { Text, View } from 'react-native';
-import { useFonts } from '@expo-google-fonts/wix-madefor-display/useFonts';
-import { WixMadeforDisplay_400Regular } from '@expo-google-fonts/wix-madefor-display/400Regular';
-import { WixMadeforDisplay_500Medium } from '@expo-google-fonts/wix-madefor-display/500Medium';
-import { WixMadeforDisplay_600SemiBold } from '@expo-google-fonts/wix-madefor-display/600SemiBold';
-import { WixMadeforDisplay_700Bold } from '@expo-google-fonts/wix-madefor-display/700Bold';
-import { WixMadeforDisplay_800ExtraBold } from '@expo-google-fonts/wix-madefor-display/800ExtraBold';
+import { useFonts } from 'expo-google-fonts-wix-madefor-display/useFonts';
+import { WixMadeforDisplay_400Regular } from 'expo-google-fonts-wix-madefor-display/400Regular';
+import { WixMadeforDisplay_500Medium } from 'expo-google-fonts-wix-madefor-display/500Medium';
+import { WixMadeforDisplay_600SemiBold } from 'expo-google-fonts-wix-madefor-display/600SemiBold';
+import { WixMadeforDisplay_700Bold } from 'expo-google-fonts-wix-madefor-display/700Bold';
+import { WixMadeforDisplay_800ExtraBold } from 'expo-google-fonts-wix-madefor-display/800ExtraBold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -121,7 +121,7 @@ export default () => {
 
 ## 👩‍💻 Use During Development
 
-If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
+If you are trying out lots of different fonts, you can try using the [`expo-google-fonts-dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
 
 You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
 over the network at runtime instead of adding the asset as a file to your project, so it may take longer
@@ -130,7 +130,7 @@ for playing around with any style that you want.
 
 ## 📖 License
 
-The `@expo-google-fonts/wix-madefor-display` package and its code are released under the MIT license.
+The `expo-google-fonts-wix-madefor-display` package and its code are released under the MIT license.
 
 All the fonts in the Google Fonts catalog are free and open source.
 
@@ -142,10 +142,10 @@ You can use these fonts freely in your products & projects - print or digital, c
 
 - [Wix Madefor Display on Google Fonts](https://fonts.google.com/specimen/Wix+Madefor+Display)
 - [Google Fonts](https://fonts.google.com/)
-- [This package on npm](https://www.npmjs.com/package/@expo-google-fonts/wix-madefor-display)
+- [This package on npm](https://www.npmjs.com/package/expo-google-fonts-wix-madefor-display)
 - [This package on GitHub](https://github.com/freeboub/google-fonts/tree/master/font-packages/wix-madefor-display)
 - [The Expo Google Fonts project on GitHub](https://github.com/freeboub/google-fonts)
-- [`@expo-google-fonts/dev` Devlopment Package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev)
+- [`expo-google-fonts-dev` Devlopment Package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev)
 
 ## 🤝 Contributing
 

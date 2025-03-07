@@ -1,8 +1,8 @@
-# @expo-google-fonts/gothic-a1
+# expo-google-fonts-gothic-a1
 
-![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/gothic-a1)
+![npm version](https://flat.badgen.net/npm/v/expo-google-fonts-gothic-a1)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
-![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/gothic-a1)
+![publish size](https://flat.badgen.net/packagephobia/install/expo-google-fonts-gothic-a1)
 
 This package lets you use the [**Gothic A1**](https://fonts.google.com/specimen/Gothic+A1) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -26,7 +26,7 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/gothic-a1 expo-font
+expo install expo-google-fonts-gothic-a1 expo-font
 ```
 
 Now add code like this to your project
@@ -34,16 +34,16 @@ Now add code like this to your project
 import React from 'react';
 
 import { Text, View } from 'react-native';
-import { useFonts } from '@expo-google-fonts/gothic-a1/useFonts';
-import { GothicA1_100Thin } from '@expo-google-fonts/gothic-a1/100Thin';
-import { GothicA1_200ExtraLight } from '@expo-google-fonts/gothic-a1/200ExtraLight';
-import { GothicA1_300Light } from '@expo-google-fonts/gothic-a1/300Light';
-import { GothicA1_400Regular } from '@expo-google-fonts/gothic-a1/400Regular';
-import { GothicA1_500Medium } from '@expo-google-fonts/gothic-a1/500Medium';
-import { GothicA1_600SemiBold } from '@expo-google-fonts/gothic-a1/600SemiBold';
-import { GothicA1_700Bold } from '@expo-google-fonts/gothic-a1/700Bold';
-import { GothicA1_800ExtraBold } from '@expo-google-fonts/gothic-a1/800ExtraBold';
-import { GothicA1_900Black } from '@expo-google-fonts/gothic-a1/900Black';
+import { useFonts } from 'expo-google-fonts-gothic-a1/useFonts';
+import { GothicA1_100Thin } from 'expo-google-fonts-gothic-a1/100Thin';
+import { GothicA1_200ExtraLight } from 'expo-google-fonts-gothic-a1/200ExtraLight';
+import { GothicA1_300Light } from 'expo-google-fonts-gothic-a1/300Light';
+import { GothicA1_400Regular } from 'expo-google-fonts-gothic-a1/400Regular';
+import { GothicA1_500Medium } from 'expo-google-fonts-gothic-a1/500Medium';
+import { GothicA1_600SemiBold } from 'expo-google-fonts-gothic-a1/600SemiBold';
+import { GothicA1_700Bold } from 'expo-google-fonts-gothic-a1/700Bold';
+import { GothicA1_800ExtraBold } from 'expo-google-fonts-gothic-a1/800ExtraBold';
+import { GothicA1_900Black } from 'expo-google-fonts-gothic-a1/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -174,7 +174,7 @@ export default () => {
 
 ## 👩‍💻 Use During Development
 
-If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
+If you are trying out lots of different fonts, you can try using the [`expo-google-fonts-dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
 
 You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
 over the network at runtime instead of adding the asset as a file to your project, so it may take longer
@@ -183,7 +183,7 @@ for playing around with any style that you want.
 
 ## 📖 License
 
-The `@expo-google-fonts/gothic-a1` package and its code are released under the MIT license.
+The `expo-google-fonts-gothic-a1` package and its code are released under the MIT license.
 
 All the fonts in the Google Fonts catalog are free and open source.
 
@@ -195,10 +195,10 @@ You can use these fonts freely in your products & projects - print or digital, c
 
 - [Gothic A1 on Google Fonts](https://fonts.google.com/specimen/Gothic+A1)
 - [Google Fonts](https://fonts.google.com/)
-- [This package on npm](https://www.npmjs.com/package/@expo-google-fonts/gothic-a1)
+- [This package on npm](https://www.npmjs.com/package/expo-google-fonts-gothic-a1)
 - [This package on GitHub](https://github.com/freeboub/google-fonts/tree/master/font-packages/gothic-a1)
 - [The Expo Google Fonts project on GitHub](https://github.com/freeboub/google-fonts)
-- [`@expo-google-fonts/dev` Devlopment Package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev)
+- [`expo-google-fonts-dev` Devlopment Package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev)
 
 ## 🤝 Contributing
 

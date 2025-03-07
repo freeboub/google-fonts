@@ -1,6 +1,6 @@
 {
-  "name": "@expo-google-fonts/puppies-play",
-  "version": "0.2.3",
+  "name": "expo-google-fonts-puppies-play",
+  "version": "0.3.0",
   "description": "Use the Puppies Play font family from Google Fonts in your Expo app",
   "main": "index.js",
   "repository": "https://github.com/freeboub/google-fonts/google-fonts.git",

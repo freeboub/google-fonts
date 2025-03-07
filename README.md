@@ -4,11 +4,11 @@
   </a>
 </p>
 
-<p align="center">Use any of the 1805 fonts and variants from <a href="https://fonts.google.com" target="_blank">fonts.google.com</a> in your Expo app</p>
+<p align="center">Use any of the 1805 fonts and 6781 variants from <a href="https://fonts.google.com" target="_blank">fonts.google.com</a> in your Expo app</p>
 
 <p align="center">
   <a aria-label="npm version" href="https://www.npmjs.com/org/expo-google-fonts" target="_blank">
-    <img alt="expo-google-fonts npm version" src="https://flat.badgen.net/npm/v/@expo-google-fonts/dev" />
+    <img alt="expo-google-fonts npm version" src="https://flat.badgen.net/npm/v/expo-google-fonts-dev" />
   </a>
   <a aria-label="Expo is free to use" href="https://github.com/expo/expo/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://flat.badgen.net/github/license/expo/google-fonts" target="_blank" />
@@ -35,6 +35,33 @@ any of 1805 fonts (and their variants) from
 These packages and all these fonts work across web, iOS, and Android and
 are free to use and open source.
 
+## Disclaimer
+
+This package is a fork of [@expo/google-fonts](https://github.com/expo/google-fonts).
+It is an updated version of the original package (many font are missing).
+It also bring an interesting feature which is the ability to load only selected font from generated packages.
+
+To update your application, you need to update your package.json
+```package.json
+   "@expo-google-fonts/inter": "2.3.0",
+```
+
+To:
+```package.json
+"expo-google-fonts-inter": "3.0.0",
+```
+
+And update your imports from:
+```js
+import { Inter_900Black, Inter_700Bold } from '@expo-google-fonts/inter';
+```
+To:
+```js
+import { Inter_900Black } from 'expo-google-fonts-inter/900Black';
+import { Inter_700Bold } from 'expo-google-fonts-inter/700Bold';
+```
+Then all unused font will not be included in your final application.
+
 ## Usage
 
 Here is an example of using the [Inter font family](https://fonts.google.com/specimen/Inter) in a very simple project.
@@ -42,7 +69,7 @@ Here is an example of using the [Inter font family](https://fonts.google.com/spe
 #### Install the package for the font you want
 
 ```sh
-expo install @expo-google-fonts/inter expo-font
+expo install expo-google-fonts-inter expo-font
 ```
 
 #### In your app
@@ -52,9 +79,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Text, View, StyleSheet } from 'react-native';
 import {
-  useFonts,
   Inter_900Black,
-} from '@expo-google-fonts/inter';
+} from 'expo-google-fonts-inter/900Black';
+
+import {
+  useFonts,
+} from 'expo-google-fonts-useFonts';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -108,10 +138,10 @@ Here are a few examples of the 6781 variants of 1805 fonts available:
 
 There is also a [gallery in this repo](./GALLERY.md#readme) showing every font family and variant available.
 
-## 👩‍💻 @expo-google-fonts/dev
+## 👩‍💻 expo-google-fonts-dev
 
 
-If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
+If you are trying out lots of different fonts, you can try using the [`expo-google-fonts-dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
 
 You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
 over the network at runtime instead of adding the asset as a file to your project, so it may take longer

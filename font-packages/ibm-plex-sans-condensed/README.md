@@ -1,8 +1,8 @@
-# @expo-google-fonts/ibm-plex-sans-condensed
+# expo-google-fonts-ibm-plex-sans-condensed
 
-![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/ibm-plex-sans-condensed)
+![npm version](https://flat.badgen.net/npm/v/expo-google-fonts-ibm-plex-sans-condensed)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
-![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/ibm-plex-sans-condensed)
+![publish size](https://flat.badgen.net/packagephobia/install/expo-google-fonts-ibm-plex-sans-condensed)
 
 This package lets you use the [**IBM Plex Sans Condensed**](https://fonts.google.com/specimen/IBM+Plex+Sans+Condensed) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -31,7 +31,7 @@ This font family contains [14 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/ibm-plex-sans-condensed expo-font
+expo install expo-google-fonts-ibm-plex-sans-condensed expo-font
 ```
 
 Now add code like this to your project
@@ -39,21 +39,21 @@ Now add code like this to your project
 import React from 'react';
 
 import { Text, View } from 'react-native';
-import { useFonts } from '@expo-google-fonts/ibm-plex-sans-condensed/useFonts';
-import { IBMPlexSansCondensed_100Thin } from '@expo-google-fonts/ibm-plex-sans-condensed/100Thin';
-import { IBMPlexSansCondensed_100Thin_Italic } from '@expo-google-fonts/ibm-plex-sans-condensed/100Thin_Italic';
-import { IBMPlexSansCondensed_200ExtraLight } from '@expo-google-fonts/ibm-plex-sans-condensed/200ExtraLight';
-import { IBMPlexSansCondensed_200ExtraLight_Italic } from '@expo-google-fonts/ibm-plex-sans-condensed/200ExtraLight_Italic';
-import { IBMPlexSansCondensed_300Light } from '@expo-google-fonts/ibm-plex-sans-condensed/300Light';
-import { IBMPlexSansCondensed_300Light_Italic } from '@expo-google-fonts/ibm-plex-sans-condensed/300Light_Italic';
-import { IBMPlexSansCondensed_400Regular } from '@expo-google-fonts/ibm-plex-sans-condensed/400Regular';
-import { IBMPlexSansCondensed_400Regular_Italic } from '@expo-google-fonts/ibm-plex-sans-condensed/400Regular_Italic';
-import { IBMPlexSansCondensed_500Medium } from '@expo-google-fonts/ibm-plex-sans-condensed/500Medium';
-import { IBMPlexSansCondensed_500Medium_Italic } from '@expo-google-fonts/ibm-plex-sans-condensed/500Medium_Italic';
-import { IBMPlexSansCondensed_600SemiBold } from '@expo-google-fonts/ibm-plex-sans-condensed/600SemiBold';
-import { IBMPlexSansCondensed_600SemiBold_Italic } from '@expo-google-fonts/ibm-plex-sans-condensed/600SemiBold_Italic';
-import { IBMPlexSansCondensed_700Bold } from '@expo-google-fonts/ibm-plex-sans-condensed/700Bold';
-import { IBMPlexSansCondensed_700Bold_Italic } from '@expo-google-fonts/ibm-plex-sans-condensed/700Bold_Italic';
+import { useFonts } from 'expo-google-fonts-ibm-plex-sans-condensed/useFonts';
+import { IBMPlexSansCondensed_100Thin } from 'expo-google-fonts-ibm-plex-sans-condensed/100Thin';
+import { IBMPlexSansCondensed_100Thin_Italic } from 'expo-google-fonts-ibm-plex-sans-condensed/100Thin_Italic';
+import { IBMPlexSansCondensed_200ExtraLight } from 'expo-google-fonts-ibm-plex-sans-condensed/200ExtraLight';
+import { IBMPlexSansCondensed_200ExtraLight_Italic } from 'expo-google-fonts-ibm-plex-sans-condensed/200ExtraLight_Italic';
+import { IBMPlexSansCondensed_300Light } from 'expo-google-fonts-ibm-plex-sans-condensed/300Light';
+import { IBMPlexSansCondensed_300Light_Italic } from 'expo-google-fonts-ibm-plex-sans-condensed/300Light_Italic';
+import { IBMPlexSansCondensed_400Regular } from 'expo-google-fonts-ibm-plex-sans-condensed/400Regular';
+import { IBMPlexSansCondensed_400Regular_Italic } from 'expo-google-fonts-ibm-plex-sans-condensed/400Regular_Italic';
+import { IBMPlexSansCondensed_500Medium } from 'expo-google-fonts-ibm-plex-sans-condensed/500Medium';
+import { IBMPlexSansCondensed_500Medium_Italic } from 'expo-google-fonts-ibm-plex-sans-condensed/500Medium_Italic';
+import { IBMPlexSansCondensed_600SemiBold } from 'expo-google-fonts-ibm-plex-sans-condensed/600SemiBold';
+import { IBMPlexSansCondensed_600SemiBold_Italic } from 'expo-google-fonts-ibm-plex-sans-condensed/600SemiBold_Italic';
+import { IBMPlexSansCondensed_700Bold } from 'expo-google-fonts-ibm-plex-sans-condensed/700Bold';
+import { IBMPlexSansCondensed_700Bold_Italic } from 'expo-google-fonts-ibm-plex-sans-condensed/700Bold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -241,7 +241,7 @@ export default () => {
 
 ## 👩‍💻 Use During Development
 
-If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
+If you are trying out lots of different fonts, you can try using the [`expo-google-fonts-dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
 
 You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
 over the network at runtime instead of adding the asset as a file to your project, so it may take longer
@@ -250,7 +250,7 @@ for playing around with any style that you want.
 
 ## 📖 License
 
-The `@expo-google-fonts/ibm-plex-sans-condensed` package and its code are released under the MIT license.
+The `expo-google-fonts-ibm-plex-sans-condensed` package and its code are released under the MIT license.
 
 All the fonts in the Google Fonts catalog are free and open source.
 
@@ -262,10 +262,10 @@ You can use these fonts freely in your products & projects - print or digital, c
 
 - [IBM Plex Sans Condensed on Google Fonts](https://fonts.google.com/specimen/IBM+Plex+Sans+Condensed)
 - [Google Fonts](https://fonts.google.com/)
-- [This package on npm](https://www.npmjs.com/package/@expo-google-fonts/ibm-plex-sans-condensed)
+- [This package on npm](https://www.npmjs.com/package/expo-google-fonts-ibm-plex-sans-condensed)
 - [This package on GitHub](https://github.com/freeboub/google-fonts/tree/master/font-packages/ibm-plex-sans-condensed)
 - [The Expo Google Fonts project on GitHub](https://github.com/freeboub/google-fonts)
-- [`@expo-google-fonts/dev` Devlopment Package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev)
+- [`expo-google-fonts-dev` Devlopment Package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev)
 
 ## 🤝 Contributing
 

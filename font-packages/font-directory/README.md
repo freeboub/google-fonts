@@ -1,4 +1,4 @@
-# @expo-google-fonts/font-directory
+# expo-google-fonts-font-directory
 
   This contains the font directory metadata downloaded from Google Fonts 
 that is used to generate all the packages in `expo-google-fonts`.

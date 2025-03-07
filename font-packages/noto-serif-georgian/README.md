@@ -1,8 +1,8 @@
-# @expo-google-fonts/noto-serif-georgian
+# expo-google-fonts-noto-serif-georgian
 
-![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/noto-serif-georgian)
+![npm version](https://flat.badgen.net/npm/v/expo-google-fonts-noto-serif-georgian)
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
-![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/noto-serif-georgian)
+![publish size](https://flat.badgen.net/packagephobia/install/expo-google-fonts-noto-serif-georgian)
 
 This package lets you use the [**Noto Serif Georgian**](https://fonts.google.com/specimen/Noto+Serif+Georgian) font family from [Google Fonts](https://fonts.google.com/) in your Expo app.
 
@@ -26,7 +26,7 @@ This font family contains [9 styles](#-gallery).
 
 Run this command from the shell in the root directory of your Expo project to add the font family package to your project
 ```sh
-expo install @expo-google-fonts/noto-serif-georgian expo-font
+expo install expo-google-fonts-noto-serif-georgian expo-font
 ```
 
 Now add code like this to your project
@@ -34,16 +34,16 @@ Now add code like this to your project
 import React from 'react';
 
 import { Text, View } from 'react-native';
-import { useFonts } from '@expo-google-fonts/noto-serif-georgian/useFonts';
-import { NotoSerifGeorgian_100Thin } from '@expo-google-fonts/noto-serif-georgian/100Thin';
-import { NotoSerifGeorgian_200ExtraLight } from '@expo-google-fonts/noto-serif-georgian/200ExtraLight';
-import { NotoSerifGeorgian_300Light } from '@expo-google-fonts/noto-serif-georgian/300Light';
-import { NotoSerifGeorgian_400Regular } from '@expo-google-fonts/noto-serif-georgian/400Regular';
-import { NotoSerifGeorgian_500Medium } from '@expo-google-fonts/noto-serif-georgian/500Medium';
-import { NotoSerifGeorgian_600SemiBold } from '@expo-google-fonts/noto-serif-georgian/600SemiBold';
-import { NotoSerifGeorgian_700Bold } from '@expo-google-fonts/noto-serif-georgian/700Bold';
-import { NotoSerifGeorgian_800ExtraBold } from '@expo-google-fonts/noto-serif-georgian/800ExtraBold';
-import { NotoSerifGeorgian_900Black } from '@expo-google-fonts/noto-serif-georgian/900Black';
+import { useFonts } from 'expo-google-fonts-noto-serif-georgian/useFonts';
+import { NotoSerifGeorgian_100Thin } from 'expo-google-fonts-noto-serif-georgian/100Thin';
+import { NotoSerifGeorgian_200ExtraLight } from 'expo-google-fonts-noto-serif-georgian/200ExtraLight';
+import { NotoSerifGeorgian_300Light } from 'expo-google-fonts-noto-serif-georgian/300Light';
+import { NotoSerifGeorgian_400Regular } from 'expo-google-fonts-noto-serif-georgian/400Regular';
+import { NotoSerifGeorgian_500Medium } from 'expo-google-fonts-noto-serif-georgian/500Medium';
+import { NotoSerifGeorgian_600SemiBold } from 'expo-google-fonts-noto-serif-georgian/600SemiBold';
+import { NotoSerifGeorgian_700Bold } from 'expo-google-fonts-noto-serif-georgian/700Bold';
+import { NotoSerifGeorgian_800ExtraBold } from 'expo-google-fonts-noto-serif-georgian/800ExtraBold';
+import { NotoSerifGeorgian_900Black } from 'expo-google-fonts-noto-serif-georgian/900Black';
 
 export default () => {
   let [fontsLoaded] = useFonts({
@@ -174,7 +174,7 @@ export default () => {
 
 ## 👩‍💻 Use During Development
 
-If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
+If you are trying out lots of different fonts, you can try using the [`expo-google-fonts-dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
 
 You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
 over the network at runtime instead of adding the asset as a file to your project, so it may take longer
@@ -183,7 +183,7 @@ for playing around with any style that you want.
 
 ## 📖 License
 
-The `@expo-google-fonts/noto-serif-georgian` package and its code are released under the MIT license.
+The `expo-google-fonts-noto-serif-georgian` package and its code are released under the MIT license.
 
 All the fonts in the Google Fonts catalog are free and open source.
 
@@ -195,10 +195,10 @@ You can use these fonts freely in your products & projects - print or digital, c
 
 - [Noto Serif Georgian on Google Fonts](https://fonts.google.com/specimen/Noto+Serif+Georgian)
 - [Google Fonts](https://fonts.google.com/)
-- [This package on npm](https://www.npmjs.com/package/@expo-google-fonts/noto-serif-georgian)
+- [This package on npm](https://www.npmjs.com/package/expo-google-fonts-noto-serif-georgian)
 - [This package on GitHub](https://github.com/freeboub/google-fonts/tree/master/font-packages/noto-serif-georgian)
 - [The Expo Google Fonts project on GitHub](https://github.com/freeboub/google-fonts)
-- [`@expo-google-fonts/dev` Devlopment Package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev)
+- [`expo-google-fonts-dev` Devlopment Package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev)
 
 ## 🤝 Contributing
 
