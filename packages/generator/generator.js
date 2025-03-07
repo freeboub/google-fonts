@@ -1025,6 +1025,8 @@ async function getFeaturedGalleryMarkdown(fontDirectory) {
         './font-packages/' +
         getPackageNameForWebfont(webfont) +
         '/' +
+        infoForVariantKey(variantKey).suffix +
+        '/' +
         filenameForFontVariant(webfont, variantKey) +
         '.png';
       let packageName = getPackageNameForWebfont(webfont);
