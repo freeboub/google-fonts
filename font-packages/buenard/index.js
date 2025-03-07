@@ -6,4 +6,6 @@ export * from './useFonts/';
 
 export { default as __metadata__ } from './metadata.json';
 export const Buenard_400Regular = require('./400Regular/Buenard_400Regular.ttf');
+export const Buenard_500Medium = require('./500Medium/Buenard_500Medium.ttf');
+export const Buenard_600SemiBold = require('./600SemiBold/Buenard_600SemiBold.ttf');
 export const Buenard_700Bold = require('./700Bold/Buenard_700Bold.ttf');

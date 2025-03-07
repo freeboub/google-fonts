@@ -13,14 +13,14 @@ This package lets you use the [**Cormorant Infant**](https://fonts.google.com/sp
 This font family contains [10 styles](#-gallery).
 
 - `CormorantInfant_300Light`
-- `CormorantInfant_300Light_Italic`
 - `CormorantInfant_400Regular`
-- `CormorantInfant_400Regular_Italic`
 - `CormorantInfant_500Medium`
-- `CormorantInfant_500Medium_Italic`
 - `CormorantInfant_600SemiBold`
-- `CormorantInfant_600SemiBold_Italic`
 - `CormorantInfant_700Bold`
+- `CormorantInfant_300Light_Italic`
+- `CormorantInfant_400Regular_Italic`
+- `CormorantInfant_500Medium_Italic`
+- `CormorantInfant_600SemiBold_Italic`
 - `CormorantInfant_700Bold_Italic`
 
 ## Usage
@@ -37,27 +37,27 @@ import React from 'react';
 import { Text, View } from 'react-native';
 import { useFonts } from '@expo-google-fonts/cormorant-infant/useFonts';
 import { CormorantInfant_300Light } from '@expo-google-fonts/cormorant-infant/300Light';
-import { CormorantInfant_300Light_Italic } from '@expo-google-fonts/cormorant-infant/300Light_Italic';
 import { CormorantInfant_400Regular } from '@expo-google-fonts/cormorant-infant/400Regular';
-import { CormorantInfant_400Regular_Italic } from '@expo-google-fonts/cormorant-infant/400Regular_Italic';
 import { CormorantInfant_500Medium } from '@expo-google-fonts/cormorant-infant/500Medium';
-import { CormorantInfant_500Medium_Italic } from '@expo-google-fonts/cormorant-infant/500Medium_Italic';
 import { CormorantInfant_600SemiBold } from '@expo-google-fonts/cormorant-infant/600SemiBold';
-import { CormorantInfant_600SemiBold_Italic } from '@expo-google-fonts/cormorant-infant/600SemiBold_Italic';
 import { CormorantInfant_700Bold } from '@expo-google-fonts/cormorant-infant/700Bold';
+import { CormorantInfant_300Light_Italic } from '@expo-google-fonts/cormorant-infant/300Light_Italic';
+import { CormorantInfant_400Regular_Italic } from '@expo-google-fonts/cormorant-infant/400Regular_Italic';
+import { CormorantInfant_500Medium_Italic } from '@expo-google-fonts/cormorant-infant/500Medium_Italic';
+import { CormorantInfant_600SemiBold_Italic } from '@expo-google-fonts/cormorant-infant/600SemiBold_Italic';
 import { CormorantInfant_700Bold_Italic } from '@expo-google-fonts/cormorant-infant/700Bold_Italic';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     CormorantInfant_300Light,
-    CormorantInfant_300Light_Italic,
     CormorantInfant_400Regular,
-    CormorantInfant_400Regular_Italic,
     CormorantInfant_500Medium,
-    CormorantInfant_500Medium_Italic,
     CormorantInfant_600SemiBold,
-    CormorantInfant_600SemiBold_Italic,
     CormorantInfant_700Bold,
+    CormorantInfant_300Light_Italic,
+    CormorantInfant_400Regular_Italic,
+    CormorantInfant_500Medium_Italic,
+    CormorantInfant_600SemiBold_Italic,
     CormorantInfant_700Bold_Italic,
   });
 
@@ -84,29 +84,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CormorantInfant_300Light_Italic',
-          }}>
-          Cormorant Infant Light Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'CormorantInfant_400Regular',
           }}>
           Cormorant Infant Regular
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CormorantInfant_400Regular_Italic',
-          }}>
-          Cormorant Infant Italic
         </Text>
 
         <Text
@@ -124,16 +104,6 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CormorantInfant_500Medium_Italic',
-          }}>
-          Cormorant Infant Medium Italic
-        </Text>
-
-        <Text
-          style={{
-            fontSize,
-            paddingVertical,
-            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'CormorantInfant_600SemiBold',
           }}>
           Cormorant Infant Semi Bold
@@ -144,9 +114,9 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CormorantInfant_600SemiBold_Italic',
+            fontFamily: 'CormorantInfant_700Bold',
           }}>
-          Cormorant Infant Semi Bold Italic
+          Cormorant Infant Bold
         </Text>
 
         <Text
@@ -154,9 +124,39 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CormorantInfant_700Bold',
+            fontFamily: 'CormorantInfant_300Light_Italic',
           }}>
-          Cormorant Infant Bold
+          Cormorant Infant Light Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CormorantInfant_400Regular_Italic',
+          }}>
+          Cormorant Infant Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CormorantInfant_500Medium_Italic',
+          }}>
+          Cormorant Infant Medium Italic
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'CormorantInfant_600SemiBold_Italic',
+          }}>
+          Cormorant Infant Semi Bold Italic
         </Text>
 
         <Text
@@ -180,15 +180,15 @@ export default () => {
 
 ||||
 |-|-|-|
-|![CormorantInfant_300Light](.//300Light/CormorantInfant_300Light.ttf.png)|![CormorantInfant_300Light_Italic](.//300Light_Italic/CormorantInfant_300Light_Italic.ttf.png)|![CormorantInfant_400Regular](.//400Regular/CormorantInfant_400Regular.ttf.png)||
-|![CormorantInfant_400Regular_Italic](.//400Regular_Italic/CormorantInfant_400Regular_Italic.ttf.png)|![CormorantInfant_500Medium](.//500Medium/CormorantInfant_500Medium.ttf.png)|![CormorantInfant_500Medium_Italic](.//500Medium_Italic/CormorantInfant_500Medium_Italic.ttf.png)||
-|![CormorantInfant_600SemiBold](.//600SemiBold/CormorantInfant_600SemiBold.ttf.png)|![CormorantInfant_600SemiBold_Italic](.//600SemiBold_Italic/CormorantInfant_600SemiBold_Italic.ttf.png)|![CormorantInfant_700Bold](.//700Bold/CormorantInfant_700Bold.ttf.png)||
+|![CormorantInfant_300Light](.//300Light/CormorantInfant_300Light.ttf.png)|![CormorantInfant_400Regular](.//400Regular/CormorantInfant_400Regular.ttf.png)|![CormorantInfant_500Medium](.//500Medium/CormorantInfant_500Medium.ttf.png)||
+|![CormorantInfant_600SemiBold](.//600SemiBold/CormorantInfant_600SemiBold.ttf.png)|![CormorantInfant_700Bold](.//700Bold/CormorantInfant_700Bold.ttf.png)|![CormorantInfant_300Light_Italic](.//300Light_Italic/CormorantInfant_300Light_Italic.ttf.png)||
+|![CormorantInfant_400Regular_Italic](.//400Regular_Italic/CormorantInfant_400Regular_Italic.ttf.png)|![CormorantInfant_500Medium_Italic](.//500Medium_Italic/CormorantInfant_500Medium_Italic.ttf.png)|![CormorantInfant_600SemiBold_Italic](.//600SemiBold_Italic/CormorantInfant_600SemiBold_Italic.ttf.png)||
 |![CormorantInfant_700Bold_Italic](.//700Bold_Italic/CormorantInfant_700Bold_Italic.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development
 
-If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
+If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
 
 You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
 over the network at runtime instead of adding the asset as a file to your project, so it may take longer
@@ -210,10 +210,10 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [Cormorant Infant on Google Fonts](https://fonts.google.com/specimen/Cormorant+Infant)
 - [Google Fonts](https://fonts.google.com/)
 - [This package on npm](https://www.npmjs.com/package/@expo-google-fonts/cormorant-infant)
-- [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/cormorant-infant)
-- [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
-- [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
+- [This package on GitHub](https://github.com/freeboub/google-fonts/tree/master/font-packages/cormorant-infant)
+- [The Expo Google Fonts project on GitHub](https://github.com/freeboub/google-fonts)
+- [`@expo-google-fonts/dev` Devlopment Package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev)
 
 ## 🤝 Contributing
 
-Contributions are very welcome! This entire directory, including what you are reading now, was generated from code. Instead of submitting PRs to this directly, please make contributions to [the generator](https://github.com/expo/google-fonts/tree/master/packages/generator) instead.
+Contributions are very welcome! This entire directory, including what you are reading now, was generated from code. Instead of submitting PRs to this directly, please make contributions to [the generator](https://github.com/freeboub/google-fonts/tree/master/packages/generator) instead.

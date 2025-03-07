@@ -68,7 +68,7 @@ export default () => {
 
 ## 👩‍💻 Use During Development
 
-If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
+If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
 
 You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
 over the network at runtime instead of adding the asset as a file to your project, so it may take longer
@@ -90,10 +90,10 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [Pattaya on Google Fonts](https://fonts.google.com/specimen/Pattaya)
 - [Google Fonts](https://fonts.google.com/)
 - [This package on npm](https://www.npmjs.com/package/@expo-google-fonts/pattaya)
-- [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/pattaya)
-- [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
-- [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
+- [This package on GitHub](https://github.com/freeboub/google-fonts/tree/master/font-packages/pattaya)
+- [The Expo Google Fonts project on GitHub](https://github.com/freeboub/google-fonts)
+- [`@expo-google-fonts/dev` Devlopment Package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev)
 
 ## 🤝 Contributing
 
-Contributions are very welcome! This entire directory, including what you are reading now, was generated from code. Instead of submitting PRs to this directly, please make contributions to [the generator](https://github.com/expo/google-fonts/tree/master/packages/generator) instead.
+Contributions are very welcome! This entire directory, including what you are reading now, was generated from code. Instead of submitting PRs to this directly, please make contributions to [the generator](https://github.com/freeboub/google-fonts/tree/master/packages/generator) instead.

@@ -10,9 +10,11 @@ This package lets you use the [**Buenard**](https://fonts.google.com/specimen/Bu
 
 ![Buenard](./font-family.png)
 
-This font family contains [2 styles](#-gallery).
+This font family contains [4 styles](#-gallery).
 
 - `Buenard_400Regular`
+- `Buenard_500Medium`
+- `Buenard_600SemiBold`
 - `Buenard_700Bold`
 
 ## Usage
@@ -29,11 +31,15 @@ import React from 'react';
 import { Text, View } from 'react-native';
 import { useFonts } from '@expo-google-fonts/buenard/useFonts';
 import { Buenard_400Regular } from '@expo-google-fonts/buenard/400Regular';
+import { Buenard_500Medium } from '@expo-google-fonts/buenard/500Medium';
+import { Buenard_600SemiBold } from '@expo-google-fonts/buenard/600SemiBold';
 import { Buenard_700Bold } from '@expo-google-fonts/buenard/700Bold';
 
 export default () => {
   let [fontsLoaded] = useFonts({
     Buenard_400Regular,
+    Buenard_500Medium,
+    Buenard_600SemiBold,
     Buenard_700Bold,
   });
 
@@ -60,6 +66,26 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Buenard_500Medium',
+          }}>
+          Buenard Medium
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
+            fontFamily: 'Buenard_600SemiBold',
+          }}>
+          Buenard Semi Bold
+        </Text>
+
+        <Text
+          style={{
+            fontSize,
+            paddingVertical,
+            // Note the quoting of the value for `fontFamily` here; it expects a string!
             fontFamily: 'Buenard_700Bold',
           }}>
           Buenard Bold
@@ -76,12 +102,13 @@ export default () => {
 
 ||||
 |-|-|-|
-|![Buenard_400Regular](.//400Regular/Buenard_400Regular.ttf.png)|![Buenard_700Bold](.//700Bold/Buenard_700Bold.ttf.png)|||
+|![Buenard_400Regular](.//400Regular/Buenard_400Regular.ttf.png)|![Buenard_500Medium](.//500Medium/Buenard_500Medium.ttf.png)|![Buenard_600SemiBold](.//600SemiBold/Buenard_600SemiBold.ttf.png)||
+|![Buenard_700Bold](.//700Bold/Buenard_700Bold.ttf.png)||||
 
 
 ## 👩‍💻 Use During Development
 
-If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme).
+If you are trying out lots of different fonts, you can try using the [`@expo-google-fonts/dev` package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme).
 
 You can import *any* font style from any Expo Google Fonts package from it. It will load the fonts
 over the network at runtime instead of adding the asset as a file to your project, so it may take longer
@@ -103,10 +130,10 @@ You can use these fonts freely in your products & projects - print or digital, c
 - [Buenard on Google Fonts](https://fonts.google.com/specimen/Buenard)
 - [Google Fonts](https://fonts.google.com/)
 - [This package on npm](https://www.npmjs.com/package/@expo-google-fonts/buenard)
-- [This package on GitHub](https://github.com/expo/google-fonts/tree/master/font-packages/buenard)
-- [The Expo Google Fonts project on GitHub](https://github.com/expo/google-fonts)
-- [`@expo-google-fonts/dev` Devlopment Package](https://github.com/expo/google-fonts/tree/master/font-packages/dev)
+- [This package on GitHub](https://github.com/freeboub/google-fonts/tree/master/font-packages/buenard)
+- [The Expo Google Fonts project on GitHub](https://github.com/freeboub/google-fonts)
+- [`@expo-google-fonts/dev` Devlopment Package](https://github.com/freeboub/google-fonts/tree/master/font-packages/dev)
 
 ## 🤝 Contributing
 
-Contributions are very welcome! This entire directory, including what you are reading now, was generated from code. Instead of submitting PRs to this directly, please make contributions to [the generator](https://github.com/expo/google-fonts/tree/master/packages/generator) instead.
+Contributions are very welcome! This entire directory, including what you are reading now, was generated from code. Instead of submitting PRs to this directly, please make contributions to [the generator](https://github.com/freeboub/google-fonts/tree/master/packages/generator) instead.

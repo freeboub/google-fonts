@@ -1,10 +1,10 @@
 {
   "name": "@expo-google-fonts/dev",
   "version": "0.2.3",
-  "description": "Load 1806 font families from Google Fonts over the network while developing your Expo app",
+  "description": "Load 1805 font families from Google Fonts over the network while developing your Expo app",
   "main": "index.js",
-  "repository": "https://github.com/expo/google-fonts.git",
-  "homepage": "https://github.com/expo/google-fonts/tree/master/font-packages/dev#readme",
+  "repository": "https://github.com/freeboub/google-fonts.git",
+  "homepage": "https://github.com/freeboub/google-fonts/tree/master/font-packages/dev#readme",
   "author": "Expo Team <team@expo.io>",
   "license": "MIT",
   "publishConfig": { "access": "public" }
