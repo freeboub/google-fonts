@@ -1,7 +1,12 @@
 {
   "family": "Kiwi Maru",
   "variants": ["300", "regular", "500"],
-  "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
+  "subsets": [
+    "cyrillic",
+    "japanese",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v19",
   "lastModified": "2024-11-20",
   "files": {

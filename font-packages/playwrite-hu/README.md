@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playwrite-hu/useFonts';
 import { PlaywriteHU_100Thin } from 'expo-google-fonts-playwrite-hu/100Thin';
 import { PlaywriteHU_200ExtraLight } from 'expo-google-fonts-playwrite-hu/200ExtraLight';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteHU_100Thin',
+            fontFamily:
+              'PlaywriteHU_100Thin',
           }}>
           Playwrite HU Thin
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteHU_200ExtraLight',
+            fontFamily:
+              'PlaywriteHU_200ExtraLight',
           }}>
           Playwrite HU Extra Light
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteHU_300Light',
+            fontFamily:
+              'PlaywriteHU_300Light',
           }}>
           Playwrite HU Light
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteHU_400Regular',
+            fontFamily:
+              'PlaywriteHU_400Regular',
           }}>
           Playwrite HU Regular
         </Text>

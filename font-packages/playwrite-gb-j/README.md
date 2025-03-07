@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playwrite-gb-j/useFonts';
 import { PlaywriteGBJ_100Thin } from 'expo-google-fonts-playwrite-gb-j/100Thin';
 import { PlaywriteGBJ_200ExtraLight } from 'expo-google-fonts-playwrite-gb-j/200ExtraLight';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteGBJ_100Thin',
+            fontFamily:
+              'PlaywriteGBJ_100Thin',
           }}>
           Playwrite GB J Thin
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteGBJ_200ExtraLight',
+            fontFamily:
+              'PlaywriteGBJ_200ExtraLight',
           }}>
           Playwrite GB J Extra Light
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteGBJ_300Light',
+            fontFamily:
+              'PlaywriteGBJ_300Light',
           }}>
           Playwrite GB J Light
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteGBJ_400Regular',
+            fontFamily:
+              'PlaywriteGBJ_400Regular',
           }}>
           Playwrite GB J Regular
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteGBJ_100Thin_Italic',
+            fontFamily:
+              'PlaywriteGBJ_100Thin_Italic',
           }}>
           Playwrite GB J Thin Italic
         </Text>
@@ -118,9 +131,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteGBJ_200ExtraLight_Italic',
+            fontFamily:
+              'PlaywriteGBJ_200ExtraLight_Italic',
           }}>
-          Playwrite GB J Extra Light Italic
+          Playwrite GB J Extra Light
+          Italic
         </Text>
 
         <Text
@@ -128,7 +143,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteGBJ_300Light_Italic',
+            fontFamily:
+              'PlaywriteGBJ_300Light_Italic',
           }}>
           Playwrite GB J Light Italic
         </Text>
@@ -138,7 +154,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteGBJ_400Regular_Italic',
+            fontFamily:
+              'PlaywriteGBJ_400Regular_Italic',
           }}>
           Playwrite GB J Italic
         </Text>

@@ -34,7 +34,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-rethink-sans/useFonts';
 import { RethinkSans_400Regular } from 'expo-google-fonts-rethink-sans/400Regular';
 import { RethinkSans_500Medium } from 'expo-google-fonts-rethink-sans/500Medium';
@@ -68,13 +71,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RethinkSans_400Regular',
+            fontFamily:
+              'RethinkSans_400Regular',
           }}>
           Rethink Sans Regular
         </Text>
@@ -84,7 +93,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RethinkSans_500Medium',
+            fontFamily:
+              'RethinkSans_500Medium',
           }}>
           Rethink Sans Medium
         </Text>
@@ -94,7 +104,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RethinkSans_600SemiBold',
+            fontFamily:
+              'RethinkSans_600SemiBold',
           }}>
           Rethink Sans Semi Bold
         </Text>
@@ -104,7 +115,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RethinkSans_700Bold',
+            fontFamily:
+              'RethinkSans_700Bold',
           }}>
           Rethink Sans Bold
         </Text>
@@ -114,7 +126,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RethinkSans_800ExtraBold',
+            fontFamily:
+              'RethinkSans_800ExtraBold',
           }}>
           Rethink Sans Extra Bold
         </Text>
@@ -124,7 +137,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RethinkSans_400Regular_Italic',
+            fontFamily:
+              'RethinkSans_400Regular_Italic',
           }}>
           Rethink Sans Italic
         </Text>
@@ -134,7 +148,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RethinkSans_500Medium_Italic',
+            fontFamily:
+              'RethinkSans_500Medium_Italic',
           }}>
           Rethink Sans Medium Italic
         </Text>
@@ -144,7 +159,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RethinkSans_600SemiBold_Italic',
+            fontFamily:
+              'RethinkSans_600SemiBold_Italic',
           }}>
           Rethink Sans Semi Bold Italic
         </Text>
@@ -154,7 +170,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RethinkSans_700Bold_Italic',
+            fontFamily:
+              'RethinkSans_700Bold_Italic',
           }}>
           Rethink Sans Bold Italic
         </Text>
@@ -164,7 +181,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RethinkSans_800ExtraBold_Italic',
+            fontFamily:
+              'RethinkSans_800ExtraBold_Italic',
           }}>
           Rethink Sans Extra Bold Italic
         </Text>

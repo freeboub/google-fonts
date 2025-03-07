@@ -27,7 +27,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-bona-nova/useFonts';
 import { BonaNova_400Regular } from 'expo-google-fonts-bona-nova/400Regular';
 import { BonaNova_400Regular_Italic } from 'expo-google-fonts-bona-nova/400Regular_Italic';
@@ -47,13 +50,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BonaNova_400Regular',
+            fontFamily:
+              'BonaNova_400Regular',
           }}>
           Bona Nova Regular
         </Text>
@@ -63,7 +72,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BonaNova_400Regular_Italic',
+            fontFamily:
+              'BonaNova_400Regular_Italic',
           }}>
           Bona Nova Italic
         </Text>
@@ -73,7 +83,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BonaNova_700Bold',
+            fontFamily:
+              'BonaNova_700Bold',
           }}>
           Bona Nova Bold
         </Text>

@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-kawi/useFonts';
 import { NotoSansKawi_400Regular } from 'expo-google-fonts-noto-sans-kawi/400Regular';
 import { NotoSansKawi_500Medium } from 'expo-google-fonts-noto-sans-kawi/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansKawi_400Regular',
+            fontFamily:
+              'NotoSansKawi_400Regular',
           }}>
           Noto Sans Kawi Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansKawi_500Medium',
+            fontFamily:
+              'NotoSansKawi_500Medium',
           }}>
           Noto Sans Kawi Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansKawi_600SemiBold',
+            fontFamily:
+              'NotoSansKawi_600SemiBold',
           }}>
           Noto Sans Kawi Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansKawi_700Bold',
+            fontFamily:
+              'NotoSansKawi_700Bold',
           }}>
           Noto Sans Kawi Bold
         </Text>

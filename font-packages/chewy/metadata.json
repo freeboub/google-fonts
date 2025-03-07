@@ -4,7 +4,9 @@
   "subsets": ["latin"],
   "version": "v18",
   "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/chewy/v18/uK_94ruUb-k-wk5xIDMfO-ed.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/chewy/v18/uK_94ruUb-k-wk5xIDMfO-ed.ttf"
+  },
   "category": "display",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/chewy/v18/uK_94ruUb-k-wn5wKjc.ttf"

@@ -1,7 +1,21 @@
 {
   "family": "Noto Sans Cham",
-  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
-  "subsets": ["cham", "latin", "latin-ext"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900"
+  ],
+  "subsets": [
+    "cham",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v31",
   "lastModified": "2024-07-30",
   "files": {

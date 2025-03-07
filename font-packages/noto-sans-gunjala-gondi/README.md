@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-gunjala-gondi/useFonts';
 import { NotoSansGunjalaGondi_400Regular } from 'expo-google-fonts-noto-sans-gunjala-gondi/400Regular';
 import { NotoSansGunjalaGondi_500Medium } from 'expo-google-fonts-noto-sans-gunjala-gondi/500Medium';
@@ -50,15 +53,22 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGunjalaGondi_400Regular',
+            fontFamily:
+              'NotoSansGunjalaGondi_400Regular',
           }}>
-          Noto Sans Gunjala Gondi Regular
+          Noto Sans Gunjala Gondi
+          Regular
         </Text>
 
         <Text
@@ -66,7 +76,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGunjalaGondi_500Medium',
+            fontFamily:
+              'NotoSansGunjalaGondi_500Medium',
           }}>
           Noto Sans Gunjala Gondi Medium
         </Text>
@@ -76,9 +87,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGunjalaGondi_600SemiBold',
+            fontFamily:
+              'NotoSansGunjalaGondi_600SemiBold',
           }}>
-          Noto Sans Gunjala Gondi Semi Bold
+          Noto Sans Gunjala Gondi Semi
+          Bold
         </Text>
 
         <Text
@@ -86,7 +99,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGunjalaGondi_700Bold',
+            fontFamily:
+              'NotoSansGunjalaGondi_700Bold',
           }}>
           Noto Sans Gunjala Gondi Bold
         </Text>

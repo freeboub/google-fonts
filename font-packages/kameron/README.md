@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-kameron/useFonts';
 import { Kameron_400Regular } from 'expo-google-fonts-kameron/400Regular';
 import { Kameron_500Medium } from 'expo-google-fonts-kameron/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kameron_400Regular',
+            fontFamily:
+              'Kameron_400Regular',
           }}>
           Kameron Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kameron_500Medium',
+            fontFamily:
+              'Kameron_500Medium',
           }}>
           Kameron Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kameron_600SemiBold',
+            fontFamily:
+              'Kameron_600SemiBold',
           }}>
           Kameron Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kameron_700Bold',
+            fontFamily:
+              'Kameron_700Bold',
           }}>
           Kameron Bold
         </Text>

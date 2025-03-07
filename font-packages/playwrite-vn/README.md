@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playwrite-vn/useFonts';
 import { PlaywriteVN_100Thin } from 'expo-google-fonts-playwrite-vn/100Thin';
 import { PlaywriteVN_200ExtraLight } from 'expo-google-fonts-playwrite-vn/200ExtraLight';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteVN_100Thin',
+            fontFamily:
+              'PlaywriteVN_100Thin',
           }}>
           Playwrite VN Thin
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteVN_200ExtraLight',
+            fontFamily:
+              'PlaywriteVN_200ExtraLight',
           }}>
           Playwrite VN Extra Light
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteVN_300Light',
+            fontFamily:
+              'PlaywriteVN_300Light',
           }}>
           Playwrite VN Light
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteVN_400Regular',
+            fontFamily:
+              'PlaywriteVN_400Regular',
           }}>
           Playwrite VN Regular
         </Text>

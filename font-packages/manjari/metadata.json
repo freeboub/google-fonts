@@ -1,7 +1,11 @@
 {
   "family": "Manjari",
   "variants": ["100", "regular", "700"],
-  "subsets": ["latin", "latin-ext", "malayalam"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "malayalam"
+  ],
   "version": "v12",
   "lastModified": "2024-09-04",
   "files": {

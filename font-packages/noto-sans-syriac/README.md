@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-syriac/useFonts';
 import { NotoSansSyriac_100Thin } from 'expo-google-fonts-noto-sans-syriac/100Thin';
 import { NotoSansSyriac_200ExtraLight } from 'expo-google-fonts-noto-sans-syriac/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSyriac_100Thin',
+            fontFamily:
+              'NotoSansSyriac_100Thin',
           }}>
           Noto Sans Syriac Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSyriac_200ExtraLight',
+            fontFamily:
+              'NotoSansSyriac_200ExtraLight',
           }}>
           Noto Sans Syriac Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSyriac_300Light',
+            fontFamily:
+              'NotoSansSyriac_300Light',
           }}>
           Noto Sans Syriac Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSyriac_400Regular',
+            fontFamily:
+              'NotoSansSyriac_400Regular',
           }}>
           Noto Sans Syriac Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSyriac_500Medium',
+            fontFamily:
+              'NotoSansSyriac_500Medium',
           }}>
           Noto Sans Syriac Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSyriac_600SemiBold',
+            fontFamily:
+              'NotoSansSyriac_600SemiBold',
           }}>
           Noto Sans Syriac Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSyriac_700Bold',
+            fontFamily:
+              'NotoSansSyriac_700Bold',
           }}>
           Noto Sans Syriac Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSyriac_800ExtraBold',
+            fontFamily:
+              'NotoSansSyriac_800ExtraBold',
           }}>
           Noto Sans Syriac Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSyriac_900Black',
+            fontFamily:
+              'NotoSansSyriac_900Black',
           }}>
           Noto Sans Syriac Black
         </Text>

@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-afacad/useFonts';
 import { Afacad_400Regular } from 'expo-google-fonts-afacad/400Regular';
 import { Afacad_500Medium } from 'expo-google-fonts-afacad/500Medium';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Afacad_400Regular',
+            fontFamily:
+              'Afacad_400Regular',
           }}>
           Afacad Regular
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Afacad_500Medium',
+            fontFamily:
+              'Afacad_500Medium',
           }}>
           Afacad Medium
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Afacad_600SemiBold',
+            fontFamily:
+              'Afacad_600SemiBold',
           }}>
           Afacad Semi Bold
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Afacad_700Bold',
+            fontFamily:
+              'Afacad_700Bold',
           }}>
           Afacad Bold
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Afacad_400Regular_Italic',
+            fontFamily:
+              'Afacad_400Regular_Italic',
           }}>
           Afacad Italic
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Afacad_500Medium_Italic',
+            fontFamily:
+              'Afacad_500Medium_Italic',
           }}>
           Afacad Medium Italic
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Afacad_600SemiBold_Italic',
+            fontFamily:
+              'Afacad_600SemiBold_Italic',
           }}>
           Afacad Semi Bold Italic
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Afacad_700Bold_Italic',
+            fontFamily:
+              'Afacad_700Bold_Italic',
           }}>
           Afacad Bold Italic
         </Text>

@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-markazi-text/useFonts';
 import { MarkaziText_400Regular } from 'expo-google-fonts-markazi-text/400Regular';
 import { MarkaziText_500Medium } from 'expo-google-fonts-markazi-text/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MarkaziText_400Regular',
+            fontFamily:
+              'MarkaziText_400Regular',
           }}>
           Markazi Text Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MarkaziText_500Medium',
+            fontFamily:
+              'MarkaziText_500Medium',
           }}>
           Markazi Text Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MarkaziText_600SemiBold',
+            fontFamily:
+              'MarkaziText_600SemiBold',
           }}>
           Markazi Text Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MarkaziText_700Bold',
+            fontFamily:
+              'MarkaziText_700Bold',
           }}>
           Markazi Text Bold
         </Text>

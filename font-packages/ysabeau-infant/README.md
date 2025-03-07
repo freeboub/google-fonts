@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-ysabeau-infant/useFonts';
 import { YsabeauInfant_100Thin } from 'expo-google-fonts-ysabeau-infant/100Thin';
 import { YsabeauInfant_200ExtraLight } from 'expo-google-fonts-ysabeau-infant/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauInfant_100Thin',
+            fontFamily:
+              'YsabeauInfant_100Thin',
           }}>
           Ysabeau Infant Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauInfant_200ExtraLight',
+            fontFamily:
+              'YsabeauInfant_200ExtraLight',
           }}>
           Ysabeau Infant Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauInfant_300Light',
+            fontFamily:
+              'YsabeauInfant_300Light',
           }}>
           Ysabeau Infant Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauInfant_400Regular',
+            fontFamily:
+              'YsabeauInfant_400Regular',
           }}>
           Ysabeau Infant Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauInfant_500Medium',
+            fontFamily:
+              'YsabeauInfant_500Medium',
           }}>
           Ysabeau Infant Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauInfant_600SemiBold',
+            fontFamily:
+              'YsabeauInfant_600SemiBold',
           }}>
           Ysabeau Infant Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauInfant_700Bold',
+            fontFamily:
+              'YsabeauInfant_700Bold',
           }}>
           Ysabeau Infant Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauInfant_800ExtraBold',
+            fontFamily:
+              'YsabeauInfant_800ExtraBold',
           }}>
           Ysabeau Infant Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauInfant_900Black',
+            fontFamily:
+              'YsabeauInfant_900Black',
           }}>
           Ysabeau Infant Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauInfant_100Thin_Italic',
+            fontFamily:
+              'YsabeauInfant_100Thin_Italic',
           }}>
           Ysabeau Infant Thin Italic
         </Text>
@@ -198,9 +216,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauInfant_200ExtraLight_Italic',
+            fontFamily:
+              'YsabeauInfant_200ExtraLight_Italic',
           }}>
-          Ysabeau Infant Extra Light Italic
+          Ysabeau Infant Extra Light
+          Italic
         </Text>
 
         <Text
@@ -208,7 +228,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauInfant_300Light_Italic',
+            fontFamily:
+              'YsabeauInfant_300Light_Italic',
           }}>
           Ysabeau Infant Light Italic
         </Text>
@@ -218,7 +239,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauInfant_400Regular_Italic',
+            fontFamily:
+              'YsabeauInfant_400Regular_Italic',
           }}>
           Ysabeau Infant Italic
         </Text>
@@ -228,7 +250,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauInfant_500Medium_Italic',
+            fontFamily:
+              'YsabeauInfant_500Medium_Italic',
           }}>
           Ysabeau Infant Medium Italic
         </Text>
@@ -238,9 +261,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauInfant_600SemiBold_Italic',
+            fontFamily:
+              'YsabeauInfant_600SemiBold_Italic',
           }}>
-          Ysabeau Infant Semi Bold Italic
+          Ysabeau Infant Semi Bold
+          Italic
         </Text>
 
         <Text
@@ -248,7 +273,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauInfant_700Bold_Italic',
+            fontFamily:
+              'YsabeauInfant_700Bold_Italic',
           }}>
           Ysabeau Infant Bold Italic
         </Text>
@@ -258,9 +284,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauInfant_800ExtraBold_Italic',
+            fontFamily:
+              'YsabeauInfant_800ExtraBold_Italic',
           }}>
-          Ysabeau Infant Extra Bold Italic
+          Ysabeau Infant Extra Bold
+          Italic
         </Text>
 
         <Text
@@ -268,7 +296,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauInfant_900Black_Italic',
+            fontFamily:
+              'YsabeauInfant_900Black_Italic',
           }}>
           Ysabeau Infant Black Italic
         </Text>

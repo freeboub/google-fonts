@@ -1,7 +1,12 @@
 {
   "family": "Jacquarda Bastarda 9 Charted",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "math", "symbols"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols"
+  ],
   "version": "v3",
   "lastModified": "2025-01-28",
   "files": {

@@ -1,7 +1,17 @@
 {
   "family": "Syne",
-  "variants": ["regular", "500", "600", "700", "800"],
-  "subsets": ["greek", "latin", "latin-ext"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800"
+  ],
+  "subsets": [
+    "greek",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v22",
   "lastModified": "2024-09-04",
   "files": {

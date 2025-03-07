@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-signika/useFonts';
 import { Signika_300Light } from 'expo-google-fonts-signika/300Light';
 import { Signika_400Regular } from 'expo-google-fonts-signika/400Regular';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Signika_300Light',
+            fontFamily:
+              'Signika_300Light',
           }}>
           Signika Light
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Signika_400Regular',
+            fontFamily:
+              'Signika_400Regular',
           }}>
           Signika Regular
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Signika_500Medium',
+            fontFamily:
+              'Signika_500Medium',
           }}>
           Signika Medium
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Signika_600SemiBold',
+            fontFamily:
+              'Signika_600SemiBold',
           }}>
           Signika Semi Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Signika_700Bold',
+            fontFamily:
+              'Signika_700Bold',
           }}>
           Signika Bold
         </Text>

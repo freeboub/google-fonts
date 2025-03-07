@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-phudu/useFonts';
 import { Phudu_300Light } from 'expo-google-fonts-phudu/300Light';
 import { Phudu_400Regular } from 'expo-google-fonts-phudu/400Regular';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Phudu_300Light',
+            fontFamily:
+              'Phudu_300Light',
           }}>
           Phudu Light
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Phudu_400Regular',
+            fontFamily:
+              'Phudu_400Regular',
           }}>
           Phudu Regular
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Phudu_500Medium',
+            fontFamily:
+              'Phudu_500Medium',
           }}>
           Phudu Medium
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Phudu_600SemiBold',
+            fontFamily:
+              'Phudu_600SemiBold',
           }}>
           Phudu Semi Bold
         </Text>
@@ -115,7 +127,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Phudu_800ExtraBold',
+            fontFamily:
+              'Phudu_800ExtraBold',
           }}>
           Phudu Extra Bold
         </Text>
@@ -125,7 +138,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Phudu_900Black',
+            fontFamily:
+              'Phudu_900Black',
           }}>
           Phudu Black
         </Text>

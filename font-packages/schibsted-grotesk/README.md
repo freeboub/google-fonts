@@ -36,7 +36,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-schibsted-grotesk/useFonts';
 import { SchibstedGrotesk_400Regular } from 'expo-google-fonts-schibsted-grotesk/400Regular';
 import { SchibstedGrotesk_500Medium } from 'expo-google-fonts-schibsted-grotesk/500Medium';
@@ -74,13 +77,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SchibstedGrotesk_400Regular',
+            fontFamily:
+              'SchibstedGrotesk_400Regular',
           }}>
           Schibsted Grotesk Regular
         </Text>
@@ -90,7 +99,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SchibstedGrotesk_500Medium',
+            fontFamily:
+              'SchibstedGrotesk_500Medium',
           }}>
           Schibsted Grotesk Medium
         </Text>
@@ -100,7 +110,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SchibstedGrotesk_600SemiBold',
+            fontFamily:
+              'SchibstedGrotesk_600SemiBold',
           }}>
           Schibsted Grotesk Semi Bold
         </Text>
@@ -110,7 +121,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SchibstedGrotesk_700Bold',
+            fontFamily:
+              'SchibstedGrotesk_700Bold',
           }}>
           Schibsted Grotesk Bold
         </Text>
@@ -120,7 +132,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SchibstedGrotesk_800ExtraBold',
+            fontFamily:
+              'SchibstedGrotesk_800ExtraBold',
           }}>
           Schibsted Grotesk Extra Bold
         </Text>
@@ -130,7 +143,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SchibstedGrotesk_900Black',
+            fontFamily:
+              'SchibstedGrotesk_900Black',
           }}>
           Schibsted Grotesk Black
         </Text>
@@ -140,7 +154,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SchibstedGrotesk_400Regular_Italic',
+            fontFamily:
+              'SchibstedGrotesk_400Regular_Italic',
           }}>
           Schibsted Grotesk Italic
         </Text>
@@ -150,9 +165,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SchibstedGrotesk_500Medium_Italic',
+            fontFamily:
+              'SchibstedGrotesk_500Medium_Italic',
           }}>
-          Schibsted Grotesk Medium Italic
+          Schibsted Grotesk Medium
+          Italic
         </Text>
 
         <Text
@@ -160,9 +177,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SchibstedGrotesk_600SemiBold_Italic',
+            fontFamily:
+              'SchibstedGrotesk_600SemiBold_Italic',
           }}>
-          Schibsted Grotesk Semi Bold Italic
+          Schibsted Grotesk Semi Bold
+          Italic
         </Text>
 
         <Text
@@ -170,7 +189,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SchibstedGrotesk_700Bold_Italic',
+            fontFamily:
+              'SchibstedGrotesk_700Bold_Italic',
           }}>
           Schibsted Grotesk Bold Italic
         </Text>
@@ -180,9 +200,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SchibstedGrotesk_800ExtraBold_Italic',
+            fontFamily:
+              'SchibstedGrotesk_800ExtraBold_Italic',
           }}>
-          Schibsted Grotesk Extra Bold Italic
+          Schibsted Grotesk Extra Bold
+          Italic
         </Text>
 
         <Text
@@ -190,7 +212,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SchibstedGrotesk_900Black_Italic',
+            fontFamily:
+              'SchibstedGrotesk_900Black_Italic',
           }}>
           Schibsted Grotesk Black Italic
         </Text>

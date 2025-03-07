@@ -26,7 +26,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-astloch/useFonts';
 import { Astloch_400Regular } from 'expo-google-fonts-astloch/400Regular';
 import { Astloch_700Bold } from 'expo-google-fonts-astloch/700Bold';
@@ -44,13 +47,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Astloch_400Regular',
+            fontFamily:
+              'Astloch_400Regular',
           }}>
           Astloch Regular
         </Text>
@@ -60,7 +69,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Astloch_700Bold',
+            fontFamily:
+              'Astloch_700Bold',
           }}>
           Astloch Bold
         </Text>

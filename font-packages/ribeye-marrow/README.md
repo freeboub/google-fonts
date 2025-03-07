@@ -25,7 +25,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-ribeye-marrow/useFonts';
 import { RibeyeMarrow_400Regular } from 'expo-google-fonts-ribeye-marrow/400Regular';
 
@@ -41,13 +44,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RibeyeMarrow_400Regular',
+            fontFamily:
+              'RibeyeMarrow_400Regular',
           }}>
           Ribeye Marrow Regular
         </Text>

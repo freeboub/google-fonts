@@ -1,7 +1,11 @@
 {
   "family": "Gurajada",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "telugu"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "telugu"
+  ],
   "version": "v20",
   "lastModified": "2024-11-20",
   "files": {

@@ -40,7 +40,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-sarabun/useFonts';
 import { Sarabun_100Thin } from 'expo-google-fonts-sarabun/100Thin';
 import { Sarabun_100Thin_Italic } from 'expo-google-fonts-sarabun/100Thin_Italic';
@@ -86,13 +89,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sarabun_100Thin',
+            fontFamily:
+              'Sarabun_100Thin',
           }}>
           Sarabun Thin
         </Text>
@@ -102,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sarabun_100Thin_Italic',
+            fontFamily:
+              'Sarabun_100Thin_Italic',
           }}>
           Sarabun Thin Italic
         </Text>
@@ -112,7 +122,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sarabun_200ExtraLight',
+            fontFamily:
+              'Sarabun_200ExtraLight',
           }}>
           Sarabun Extra Light
         </Text>
@@ -122,7 +133,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sarabun_200ExtraLight_Italic',
+            fontFamily:
+              'Sarabun_200ExtraLight_Italic',
           }}>
           Sarabun Extra Light Italic
         </Text>
@@ -132,7 +144,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sarabun_300Light',
+            fontFamily:
+              'Sarabun_300Light',
           }}>
           Sarabun Light
         </Text>
@@ -142,7 +155,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sarabun_300Light_Italic',
+            fontFamily:
+              'Sarabun_300Light_Italic',
           }}>
           Sarabun Light Italic
         </Text>
@@ -152,7 +166,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sarabun_400Regular',
+            fontFamily:
+              'Sarabun_400Regular',
           }}>
           Sarabun Regular
         </Text>
@@ -162,7 +177,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sarabun_400Regular_Italic',
+            fontFamily:
+              'Sarabun_400Regular_Italic',
           }}>
           Sarabun Italic
         </Text>
@@ -172,7 +188,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sarabun_500Medium',
+            fontFamily:
+              'Sarabun_500Medium',
           }}>
           Sarabun Medium
         </Text>
@@ -182,7 +199,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sarabun_500Medium_Italic',
+            fontFamily:
+              'Sarabun_500Medium_Italic',
           }}>
           Sarabun Medium Italic
         </Text>
@@ -192,7 +210,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sarabun_600SemiBold',
+            fontFamily:
+              'Sarabun_600SemiBold',
           }}>
           Sarabun Semi Bold
         </Text>
@@ -202,7 +221,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sarabun_600SemiBold_Italic',
+            fontFamily:
+              'Sarabun_600SemiBold_Italic',
           }}>
           Sarabun Semi Bold Italic
         </Text>
@@ -212,7 +232,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sarabun_700Bold',
+            fontFamily:
+              'Sarabun_700Bold',
           }}>
           Sarabun Bold
         </Text>
@@ -222,7 +243,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sarabun_700Bold_Italic',
+            fontFamily:
+              'Sarabun_700Bold_Italic',
           }}>
           Sarabun Bold Italic
         </Text>
@@ -232,7 +254,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sarabun_800ExtraBold',
+            fontFamily:
+              'Sarabun_800ExtraBold',
           }}>
           Sarabun Extra Bold
         </Text>
@@ -242,7 +265,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sarabun_800ExtraBold_Italic',
+            fontFamily:
+              'Sarabun_800ExtraBold_Italic',
           }}>
           Sarabun Extra Bold Italic
         </Text>

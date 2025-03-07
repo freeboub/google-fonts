@@ -36,7 +36,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-shantell-sans/useFonts';
 import { ShantellSans_300Light } from 'expo-google-fonts-shantell-sans/300Light';
 import { ShantellSans_400Regular } from 'expo-google-fonts-shantell-sans/400Regular';
@@ -74,13 +77,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ShantellSans_300Light',
+            fontFamily:
+              'ShantellSans_300Light',
           }}>
           Shantell Sans Light
         </Text>
@@ -90,7 +99,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ShantellSans_400Regular',
+            fontFamily:
+              'ShantellSans_400Regular',
           }}>
           Shantell Sans Regular
         </Text>
@@ -100,7 +110,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ShantellSans_500Medium',
+            fontFamily:
+              'ShantellSans_500Medium',
           }}>
           Shantell Sans Medium
         </Text>
@@ -110,7 +121,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ShantellSans_600SemiBold',
+            fontFamily:
+              'ShantellSans_600SemiBold',
           }}>
           Shantell Sans Semi Bold
         </Text>
@@ -120,7 +132,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ShantellSans_700Bold',
+            fontFamily:
+              'ShantellSans_700Bold',
           }}>
           Shantell Sans Bold
         </Text>
@@ -130,7 +143,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ShantellSans_800ExtraBold',
+            fontFamily:
+              'ShantellSans_800ExtraBold',
           }}>
           Shantell Sans Extra Bold
         </Text>
@@ -140,7 +154,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ShantellSans_300Light_Italic',
+            fontFamily:
+              'ShantellSans_300Light_Italic',
           }}>
           Shantell Sans Light Italic
         </Text>
@@ -150,7 +165,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ShantellSans_400Regular_Italic',
+            fontFamily:
+              'ShantellSans_400Regular_Italic',
           }}>
           Shantell Sans Italic
         </Text>
@@ -160,7 +176,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ShantellSans_500Medium_Italic',
+            fontFamily:
+              'ShantellSans_500Medium_Italic',
           }}>
           Shantell Sans Medium Italic
         </Text>
@@ -170,7 +187,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ShantellSans_600SemiBold_Italic',
+            fontFamily:
+              'ShantellSans_600SemiBold_Italic',
           }}>
           Shantell Sans Semi Bold Italic
         </Text>
@@ -180,7 +198,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ShantellSans_700Bold_Italic',
+            fontFamily:
+              'ShantellSans_700Bold_Italic',
           }}>
           Shantell Sans Bold Italic
         </Text>
@@ -190,9 +209,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ShantellSans_800ExtraBold_Italic',
+            fontFamily:
+              'ShantellSans_800ExtraBold_Italic',
           }}>
-          Shantell Sans Extra Bold Italic
+          Shantell Sans Extra Bold
+          Italic
         </Text>
       </View>
     );

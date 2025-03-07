@@ -1,7 +1,12 @@
 {
   "family": "Chokokutai",
   "variants": ["regular"],
-  "subsets": ["japanese", "latin", "latin-ext", "vietnamese"],
+  "subsets": [
+    "japanese",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v10",
   "lastModified": "2024-08-07",
   "files": {

@@ -1,7 +1,14 @@
 {
   "family": "Play",
   "variants": ["regular", "700"],
-  "subsets": ["cyrillic", "cyrillic-ext", "greek", "latin", "latin-ext", "vietnamese"],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v19",
   "lastModified": "2024-09-04",
   "files": {

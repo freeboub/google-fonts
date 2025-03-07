@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-quicksand/useFonts';
 import { Quicksand_300Light } from 'expo-google-fonts-quicksand/300Light';
 import { Quicksand_400Regular } from 'expo-google-fonts-quicksand/400Regular';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Quicksand_300Light',
+            fontFamily:
+              'Quicksand_300Light',
           }}>
           Quicksand Light
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Quicksand_400Regular',
+            fontFamily:
+              'Quicksand_400Regular',
           }}>
           Quicksand Regular
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Quicksand_500Medium',
+            fontFamily:
+              'Quicksand_500Medium',
           }}>
           Quicksand Medium
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Quicksand_600SemiBold',
+            fontFamily:
+              'Quicksand_600SemiBold',
           }}>
           Quicksand Semi Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Quicksand_700Bold',
+            fontFamily:
+              'Quicksand_700Bold',
           }}>
           Quicksand Bold
         </Text>

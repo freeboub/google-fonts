@@ -1,7 +1,20 @@
 {
   "family": "Anek Gujarati",
-  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
-  "subsets": ["gujarati", "latin", "latin-ext"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800"
+  ],
+  "subsets": [
+    "gujarati",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v16",
   "lastModified": "2024-12-04",
   "files": {

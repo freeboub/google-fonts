@@ -1,7 +1,21 @@
 {
   "family": "Martian Mono",
-  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
-  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800"
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v3",
   "lastModified": "2024-09-04",
   "files": {

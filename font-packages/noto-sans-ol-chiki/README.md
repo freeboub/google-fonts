@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-ol-chiki/useFonts';
 import { NotoSansOlChiki_400Regular } from 'expo-google-fonts-noto-sans-ol-chiki/400Regular';
 import { NotoSansOlChiki_500Medium } from 'expo-google-fonts-noto-sans-ol-chiki/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansOlChiki_400Regular',
+            fontFamily:
+              'NotoSansOlChiki_400Regular',
           }}>
           Noto Sans Ol Chiki Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansOlChiki_500Medium',
+            fontFamily:
+              'NotoSansOlChiki_500Medium',
           }}>
           Noto Sans Ol Chiki Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansOlChiki_600SemiBold',
+            fontFamily:
+              'NotoSansOlChiki_600SemiBold',
           }}>
           Noto Sans Ol Chiki Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansOlChiki_700Bold',
+            fontFamily:
+              'NotoSansOlChiki_700Bold',
           }}>
           Noto Sans Ol Chiki Bold
         </Text>

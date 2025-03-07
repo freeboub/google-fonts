@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-hepta-slab/useFonts';
 import { HeptaSlab_100Thin } from 'expo-google-fonts-hepta-slab/100Thin';
 import { HeptaSlab_200ExtraLight } from 'expo-google-fonts-hepta-slab/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HeptaSlab_100Thin',
+            fontFamily:
+              'HeptaSlab_100Thin',
           }}>
           Hepta Slab Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HeptaSlab_200ExtraLight',
+            fontFamily:
+              'HeptaSlab_200ExtraLight',
           }}>
           Hepta Slab Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HeptaSlab_300Light',
+            fontFamily:
+              'HeptaSlab_300Light',
           }}>
           Hepta Slab Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HeptaSlab_400Regular',
+            fontFamily:
+              'HeptaSlab_400Regular',
           }}>
           Hepta Slab Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HeptaSlab_500Medium',
+            fontFamily:
+              'HeptaSlab_500Medium',
           }}>
           Hepta Slab Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HeptaSlab_600SemiBold',
+            fontFamily:
+              'HeptaSlab_600SemiBold',
           }}>
           Hepta Slab Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HeptaSlab_700Bold',
+            fontFamily:
+              'HeptaSlab_700Bold',
           }}>
           Hepta Slab Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HeptaSlab_800ExtraBold',
+            fontFamily:
+              'HeptaSlab_800ExtraBold',
           }}>
           Hepta Slab Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HeptaSlab_900Black',
+            fontFamily:
+              'HeptaSlab_900Black',
           }}>
           Hepta Slab Black
         </Text>

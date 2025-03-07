@@ -40,7 +40,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-source-code-pro/useFonts';
 import { SourceCodePro_200ExtraLight } from 'expo-google-fonts-source-code-pro/200ExtraLight';
 import { SourceCodePro_300Light } from 'expo-google-fonts-source-code-pro/300Light';
@@ -86,13 +89,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceCodePro_200ExtraLight',
+            fontFamily:
+              'SourceCodePro_200ExtraLight',
           }}>
           Source Code Pro Extra Light
         </Text>
@@ -102,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceCodePro_300Light',
+            fontFamily:
+              'SourceCodePro_300Light',
           }}>
           Source Code Pro Light
         </Text>
@@ -112,7 +122,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceCodePro_400Regular',
+            fontFamily:
+              'SourceCodePro_400Regular',
           }}>
           Source Code Pro Regular
         </Text>
@@ -122,7 +133,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceCodePro_500Medium',
+            fontFamily:
+              'SourceCodePro_500Medium',
           }}>
           Source Code Pro Medium
         </Text>
@@ -132,7 +144,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceCodePro_600SemiBold',
+            fontFamily:
+              'SourceCodePro_600SemiBold',
           }}>
           Source Code Pro Semi Bold
         </Text>
@@ -142,7 +155,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceCodePro_700Bold',
+            fontFamily:
+              'SourceCodePro_700Bold',
           }}>
           Source Code Pro Bold
         </Text>
@@ -152,7 +166,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceCodePro_800ExtraBold',
+            fontFamily:
+              'SourceCodePro_800ExtraBold',
           }}>
           Source Code Pro Extra Bold
         </Text>
@@ -162,7 +177,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceCodePro_900Black',
+            fontFamily:
+              'SourceCodePro_900Black',
           }}>
           Source Code Pro Black
         </Text>
@@ -172,9 +188,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceCodePro_200ExtraLight_Italic',
+            fontFamily:
+              'SourceCodePro_200ExtraLight_Italic',
           }}>
-          Source Code Pro Extra Light Italic
+          Source Code Pro Extra Light
+          Italic
         </Text>
 
         <Text
@@ -182,7 +200,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceCodePro_300Light_Italic',
+            fontFamily:
+              'SourceCodePro_300Light_Italic',
           }}>
           Source Code Pro Light Italic
         </Text>
@@ -192,7 +211,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceCodePro_400Regular_Italic',
+            fontFamily:
+              'SourceCodePro_400Regular_Italic',
           }}>
           Source Code Pro Italic
         </Text>
@@ -202,7 +222,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceCodePro_500Medium_Italic',
+            fontFamily:
+              'SourceCodePro_500Medium_Italic',
           }}>
           Source Code Pro Medium Italic
         </Text>
@@ -212,9 +233,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceCodePro_600SemiBold_Italic',
+            fontFamily:
+              'SourceCodePro_600SemiBold_Italic',
           }}>
-          Source Code Pro Semi Bold Italic
+          Source Code Pro Semi Bold
+          Italic
         </Text>
 
         <Text
@@ -222,7 +245,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceCodePro_700Bold_Italic',
+            fontFamily:
+              'SourceCodePro_700Bold_Italic',
           }}>
           Source Code Pro Bold Italic
         </Text>
@@ -232,9 +256,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceCodePro_800ExtraBold_Italic',
+            fontFamily:
+              'SourceCodePro_800ExtraBold_Italic',
           }}>
-          Source Code Pro Extra Bold Italic
+          Source Code Pro Extra Bold
+          Italic
         </Text>
 
         <Text
@@ -242,7 +268,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceCodePro_900Black_Italic',
+            fontFamily:
+              'SourceCodePro_900Black_Italic',
           }}>
           Source Code Pro Black Italic
         </Text>

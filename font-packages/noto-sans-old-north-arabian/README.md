@@ -25,7 +25,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-old-north-arabian/useFonts';
 import { NotoSansOldNorthArabian_400Regular } from 'expo-google-fonts-noto-sans-old-north-arabian/400Regular';
 
@@ -41,15 +44,22 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansOldNorthArabian_400Regular',
+            fontFamily:
+              'NotoSansOldNorthArabian_400Regular',
           }}>
-          Noto Sans Old North Arabian Regular
+          Noto Sans Old North Arabian
+          Regular
         </Text>
       </View>
     );

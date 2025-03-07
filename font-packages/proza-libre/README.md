@@ -34,7 +34,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-proza-libre/useFonts';
 import { ProzaLibre_400Regular } from 'expo-google-fonts-proza-libre/400Regular';
 import { ProzaLibre_400Regular_Italic } from 'expo-google-fonts-proza-libre/400Regular_Italic';
@@ -68,13 +71,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ProzaLibre_400Regular',
+            fontFamily:
+              'ProzaLibre_400Regular',
           }}>
           Proza Libre Regular
         </Text>
@@ -84,7 +93,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ProzaLibre_400Regular_Italic',
+            fontFamily:
+              'ProzaLibre_400Regular_Italic',
           }}>
           Proza Libre Italic
         </Text>
@@ -94,7 +104,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ProzaLibre_500Medium',
+            fontFamily:
+              'ProzaLibre_500Medium',
           }}>
           Proza Libre Medium
         </Text>
@@ -104,7 +115,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ProzaLibre_500Medium_Italic',
+            fontFamily:
+              'ProzaLibre_500Medium_Italic',
           }}>
           Proza Libre Medium Italic
         </Text>
@@ -114,7 +126,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ProzaLibre_600SemiBold',
+            fontFamily:
+              'ProzaLibre_600SemiBold',
           }}>
           Proza Libre Semi Bold
         </Text>
@@ -124,7 +137,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ProzaLibre_600SemiBold_Italic',
+            fontFamily:
+              'ProzaLibre_600SemiBold_Italic',
           }}>
           Proza Libre Semi Bold Italic
         </Text>
@@ -134,7 +148,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ProzaLibre_700Bold',
+            fontFamily:
+              'ProzaLibre_700Bold',
           }}>
           Proza Libre Bold
         </Text>
@@ -144,7 +159,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ProzaLibre_700Bold_Italic',
+            fontFamily:
+              'ProzaLibre_700Bold_Italic',
           }}>
           Proza Libre Bold Italic
         </Text>
@@ -154,7 +170,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ProzaLibre_800ExtraBold',
+            fontFamily:
+              'ProzaLibre_800ExtraBold',
           }}>
           Proza Libre Extra Bold
         </Text>
@@ -164,7 +181,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ProzaLibre_800ExtraBold_Italic',
+            fontFamily:
+              'ProzaLibre_800ExtraBold_Italic',
           }}>
           Proza Libre Extra Bold Italic
         </Text>

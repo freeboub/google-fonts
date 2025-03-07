@@ -1,7 +1,11 @@
 {
   "family": "Kumar One Outline",
   "variants": ["regular"],
-  "subsets": ["gujarati", "latin", "latin-ext"],
+  "subsets": [
+    "gujarati",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v17",
   "lastModified": "2024-09-04",
   "files": {

@@ -1,7 +1,12 @@
 {
   "family": "Orelega One",
   "variants": ["regular"],
-  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v12",
   "lastModified": "2024-09-04",
   "files": {

@@ -1,7 +1,13 @@
 {
   "family": "Annapurna SIL",
   "variants": ["regular", "700"],
-  "subsets": ["devanagari", "latin", "latin-ext", "math", "symbols"],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols"
+  ],
   "version": "v2",
   "lastModified": "2024-09-04",
   "files": {

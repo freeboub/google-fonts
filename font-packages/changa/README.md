@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-changa/useFonts';
 import { Changa_200ExtraLight } from 'expo-google-fonts-changa/200ExtraLight';
 import { Changa_300Light } from 'expo-google-fonts-changa/300Light';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Changa_200ExtraLight',
+            fontFamily:
+              'Changa_200ExtraLight',
           }}>
           Changa Extra Light
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Changa_300Light',
+            fontFamily:
+              'Changa_300Light',
           }}>
           Changa Light
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Changa_400Regular',
+            fontFamily:
+              'Changa_400Regular',
           }}>
           Changa Regular
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Changa_500Medium',
+            fontFamily:
+              'Changa_500Medium',
           }}>
           Changa Medium
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Changa_600SemiBold',
+            fontFamily:
+              'Changa_600SemiBold',
           }}>
           Changa Semi Bold
         </Text>
@@ -115,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Changa_700Bold',
+            fontFamily:
+              'Changa_700Bold',
           }}>
           Changa Bold
         </Text>
@@ -125,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Changa_800ExtraBold',
+            fontFamily:
+              'Changa_800ExtraBold',
           }}>
           Changa Extra Bold
         </Text>

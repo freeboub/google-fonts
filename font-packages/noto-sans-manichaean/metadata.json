@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Manichaean",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "manichaean"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "manichaean"
+  ],
   "version": "v18",
   "lastModified": "2023-10-25",
   "files": {

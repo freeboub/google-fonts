@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-truculenta/useFonts';
 import { Truculenta_100Thin } from 'expo-google-fonts-truculenta/100Thin';
 import { Truculenta_200ExtraLight } from 'expo-google-fonts-truculenta/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Truculenta_100Thin',
+            fontFamily:
+              'Truculenta_100Thin',
           }}>
           Truculenta Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Truculenta_200ExtraLight',
+            fontFamily:
+              'Truculenta_200ExtraLight',
           }}>
           Truculenta Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Truculenta_300Light',
+            fontFamily:
+              'Truculenta_300Light',
           }}>
           Truculenta Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Truculenta_400Regular',
+            fontFamily:
+              'Truculenta_400Regular',
           }}>
           Truculenta Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Truculenta_500Medium',
+            fontFamily:
+              'Truculenta_500Medium',
           }}>
           Truculenta Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Truculenta_600SemiBold',
+            fontFamily:
+              'Truculenta_600SemiBold',
           }}>
           Truculenta Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Truculenta_700Bold',
+            fontFamily:
+              'Truculenta_700Bold',
           }}>
           Truculenta Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Truculenta_800ExtraBold',
+            fontFamily:
+              'Truculenta_800ExtraBold',
           }}>
           Truculenta Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Truculenta_900Black',
+            fontFamily:
+              'Truculenta_900Black',
           }}>
           Truculenta Black
         </Text>

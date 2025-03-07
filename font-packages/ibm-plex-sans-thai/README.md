@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-ibm-plex-sans-thai/useFonts';
 import { IBMPlexSansThai_100Thin } from 'expo-google-fonts-ibm-plex-sans-thai/100Thin';
 import { IBMPlexSansThai_200ExtraLight } from 'expo-google-fonts-ibm-plex-sans-thai/200ExtraLight';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansThai_100Thin',
+            fontFamily:
+              'IBMPlexSansThai_100Thin',
           }}>
           IBM Plex Sans Thai Thin
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansThai_200ExtraLight',
+            fontFamily:
+              'IBMPlexSansThai_200ExtraLight',
           }}>
           IBM Plex Sans Thai Extra Light
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansThai_300Light',
+            fontFamily:
+              'IBMPlexSansThai_300Light',
           }}>
           IBM Plex Sans Thai Light
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansThai_400Regular',
+            fontFamily:
+              'IBMPlexSansThai_400Regular',
           }}>
           IBM Plex Sans Thai Regular
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansThai_500Medium',
+            fontFamily:
+              'IBMPlexSansThai_500Medium',
           }}>
           IBM Plex Sans Thai Medium
         </Text>
@@ -115,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansThai_600SemiBold',
+            fontFamily:
+              'IBMPlexSansThai_600SemiBold',
           }}>
           IBM Plex Sans Thai Semi Bold
         </Text>
@@ -125,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansThai_700Bold',
+            fontFamily:
+              'IBMPlexSansThai_700Bold',
           }}>
           IBM Plex Sans Thai Bold
         </Text>

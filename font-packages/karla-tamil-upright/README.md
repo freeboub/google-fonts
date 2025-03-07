@@ -26,7 +26,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-karla-tamil-upright/useFonts';
 import { KarlaTamilUpright_400Regular } from 'expo-google-fonts-karla-tamil-upright/400Regular';
 import { KarlaTamilUpright_700Bold } from 'expo-google-fonts-karla-tamil-upright/700Bold';
@@ -44,13 +47,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KarlaTamilUpright_400Regular',
+            fontFamily:
+              'KarlaTamilUpright_400Regular',
           }}>
           Karla Tamil Upright Regular
         </Text>
@@ -60,7 +69,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KarlaTamilUpright_700Bold',
+            fontFamily:
+              'KarlaTamilUpright_700Bold',
           }}>
           Karla Tamil Upright Bold
         </Text>

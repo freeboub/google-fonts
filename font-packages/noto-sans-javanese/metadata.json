@@ -1,7 +1,16 @@
 {
   "family": "Noto Sans Javanese",
-  "variants": ["regular", "500", "600", "700"],
-  "subsets": ["javanese", "latin", "latin-ext"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "javanese",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v23",
   "lastModified": "2023-09-27",
   "files": {

@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-abhaya-libre/useFonts';
 import { AbhayaLibre_400Regular } from 'expo-google-fonts-abhaya-libre/400Regular';
 import { AbhayaLibre_500Medium } from 'expo-google-fonts-abhaya-libre/500Medium';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AbhayaLibre_400Regular',
+            fontFamily:
+              'AbhayaLibre_400Regular',
           }}>
           Abhaya Libre Regular
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AbhayaLibre_500Medium',
+            fontFamily:
+              'AbhayaLibre_500Medium',
           }}>
           Abhaya Libre Medium
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AbhayaLibre_600SemiBold',
+            fontFamily:
+              'AbhayaLibre_600SemiBold',
           }}>
           Abhaya Libre Semi Bold
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AbhayaLibre_700Bold',
+            fontFamily:
+              'AbhayaLibre_700Bold',
           }}>
           Abhaya Libre Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AbhayaLibre_800ExtraBold',
+            fontFamily:
+              'AbhayaLibre_800ExtraBold',
           }}>
           Abhaya Libre Extra Bold
         </Text>

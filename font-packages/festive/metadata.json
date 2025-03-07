@@ -1,10 +1,16 @@
 {
   "family": "Festive",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v9",
   "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/festive/v9/cY9Ffj6KX1xcoDWhFtfgy9HTkak.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/festive/v9/cY9Ffj6KX1xcoDWhFtfgy9HTkak.ttf"
+  },
   "category": "handwriting",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/festive/v9/cY9Ffj6KX1xcoDWhJtbqzw.ttf"

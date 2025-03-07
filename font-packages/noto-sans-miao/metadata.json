@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Miao",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "miao"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "miao"
+  ],
   "version": "v17",
   "lastModified": "2022-09-28",
   "files": {

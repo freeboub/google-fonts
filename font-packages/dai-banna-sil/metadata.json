@@ -12,7 +12,11 @@
     "700",
     "700italic"
   ],
-  "subsets": ["latin", "latin-ext", "new-tai-lue"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "new-tai-lue"
+  ],
   "version": "v2",
   "lastModified": "2024-09-04",
   "files": {

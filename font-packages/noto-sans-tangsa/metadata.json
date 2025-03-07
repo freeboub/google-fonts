@@ -1,7 +1,16 @@
 {
   "family": "Noto Sans Tangsa",
-  "variants": ["regular", "500", "600", "700"],
-  "subsets": ["latin", "latin-ext", "tangsa"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "tangsa"
+  ],
   "version": "v6",
   "lastModified": "2023-10-25",
   "files": {

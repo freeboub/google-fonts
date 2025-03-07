@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-anek-odia/useFonts';
 import { AnekOdia_100Thin } from 'expo-google-fonts-anek-odia/100Thin';
 import { AnekOdia_200ExtraLight } from 'expo-google-fonts-anek-odia/200ExtraLight';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekOdia_100Thin',
+            fontFamily:
+              'AnekOdia_100Thin',
           }}>
           Anek Odia Thin
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekOdia_200ExtraLight',
+            fontFamily:
+              'AnekOdia_200ExtraLight',
           }}>
           Anek Odia Extra Light
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekOdia_300Light',
+            fontFamily:
+              'AnekOdia_300Light',
           }}>
           Anek Odia Light
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekOdia_400Regular',
+            fontFamily:
+              'AnekOdia_400Regular',
           }}>
           Anek Odia Regular
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekOdia_500Medium',
+            fontFamily:
+              'AnekOdia_500Medium',
           }}>
           Anek Odia Medium
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekOdia_600SemiBold',
+            fontFamily:
+              'AnekOdia_600SemiBold',
           }}>
           Anek Odia Semi Bold
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekOdia_700Bold',
+            fontFamily:
+              'AnekOdia_700Bold',
           }}>
           Anek Odia Bold
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekOdia_800ExtraBold',
+            fontFamily:
+              'AnekOdia_800ExtraBold',
           }}>
           Anek Odia Extra Bold
         </Text>

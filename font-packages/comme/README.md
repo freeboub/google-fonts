@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-comme/useFonts';
 import { Comme_100Thin } from 'expo-google-fonts-comme/100Thin';
 import { Comme_200ExtraLight } from 'expo-google-fonts-comme/200ExtraLight';
@@ -65,7 +68,12 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
@@ -81,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Comme_200ExtraLight',
+            fontFamily:
+              'Comme_200ExtraLight',
           }}>
           Comme Extra Light
         </Text>
@@ -91,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Comme_300Light',
+            fontFamily:
+              'Comme_300Light',
           }}>
           Comme Light
         </Text>
@@ -101,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Comme_400Regular',
+            fontFamily:
+              'Comme_400Regular',
           }}>
           Comme Regular
         </Text>
@@ -111,7 +122,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Comme_500Medium',
+            fontFamily:
+              'Comme_500Medium',
           }}>
           Comme Medium
         </Text>
@@ -121,7 +133,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Comme_600SemiBold',
+            fontFamily:
+              'Comme_600SemiBold',
           }}>
           Comme Semi Bold
         </Text>
@@ -141,7 +154,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Comme_800ExtraBold',
+            fontFamily:
+              'Comme_800ExtraBold',
           }}>
           Comme Extra Bold
         </Text>
@@ -151,7 +165,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Comme_900Black',
+            fontFamily:
+              'Comme_900Black',
           }}>
           Comme Black
         </Text>

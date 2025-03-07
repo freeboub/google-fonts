@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-hanuman/useFonts';
 import { Hanuman_100Thin } from 'expo-google-fonts-hanuman/100Thin';
 import { Hanuman_300Light } from 'expo-google-fonts-hanuman/300Light';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Hanuman_100Thin',
+            fontFamily:
+              'Hanuman_100Thin',
           }}>
           Hanuman Thin
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Hanuman_300Light',
+            fontFamily:
+              'Hanuman_300Light',
           }}>
           Hanuman Light
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Hanuman_400Regular',
+            fontFamily:
+              'Hanuman_400Regular',
           }}>
           Hanuman Regular
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Hanuman_700Bold',
+            fontFamily:
+              'Hanuman_700Bold',
           }}>
           Hanuman Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Hanuman_900Black',
+            fontFamily:
+              'Hanuman_900Black',
           }}>
           Hanuman Black
         </Text>

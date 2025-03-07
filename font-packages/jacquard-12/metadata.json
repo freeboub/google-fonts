@@ -1,7 +1,12 @@
 {
   "family": "Jacquard 12",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "math", "symbols"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols"
+  ],
   "version": "v7",
   "lastModified": "2025-01-28",
   "files": {

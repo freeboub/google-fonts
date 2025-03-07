@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-sometype-mono/useFonts';
 import { SometypeMono_400Regular } from 'expo-google-fonts-sometype-mono/400Regular';
 import { SometypeMono_500Medium } from 'expo-google-fonts-sometype-mono/500Medium';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SometypeMono_400Regular',
+            fontFamily:
+              'SometypeMono_400Regular',
           }}>
           Sometype Mono Regular
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SometypeMono_500Medium',
+            fontFamily:
+              'SometypeMono_500Medium',
           }}>
           Sometype Mono Medium
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SometypeMono_600SemiBold',
+            fontFamily:
+              'SometypeMono_600SemiBold',
           }}>
           Sometype Mono Semi Bold
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SometypeMono_700Bold',
+            fontFamily:
+              'SometypeMono_700Bold',
           }}>
           Sometype Mono Bold
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SometypeMono_400Regular_Italic',
+            fontFamily:
+              'SometypeMono_400Regular_Italic',
           }}>
           Sometype Mono Italic
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SometypeMono_500Medium_Italic',
+            fontFamily:
+              'SometypeMono_500Medium_Italic',
           }}>
           Sometype Mono Medium Italic
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SometypeMono_600SemiBold_Italic',
+            fontFamily:
+              'SometypeMono_600SemiBold_Italic',
           }}>
           Sometype Mono Semi Bold Italic
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SometypeMono_700Bold_Italic',
+            fontFamily:
+              'SometypeMono_700Bold_Italic',
           }}>
           Sometype Mono Bold Italic
         </Text>

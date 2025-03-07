@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-gujarati/useFonts';
 import { NotoSansGujarati_100Thin } from 'expo-google-fonts-noto-sans-gujarati/100Thin';
 import { NotoSansGujarati_200ExtraLight } from 'expo-google-fonts-noto-sans-gujarati/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGujarati_100Thin',
+            fontFamily:
+              'NotoSansGujarati_100Thin',
           }}>
           Noto Sans Gujarati Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGujarati_200ExtraLight',
+            fontFamily:
+              'NotoSansGujarati_200ExtraLight',
           }}>
           Noto Sans Gujarati Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGujarati_300Light',
+            fontFamily:
+              'NotoSansGujarati_300Light',
           }}>
           Noto Sans Gujarati Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGujarati_400Regular',
+            fontFamily:
+              'NotoSansGujarati_400Regular',
           }}>
           Noto Sans Gujarati Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGujarati_500Medium',
+            fontFamily:
+              'NotoSansGujarati_500Medium',
           }}>
           Noto Sans Gujarati Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGujarati_600SemiBold',
+            fontFamily:
+              'NotoSansGujarati_600SemiBold',
           }}>
           Noto Sans Gujarati Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGujarati_700Bold',
+            fontFamily:
+              'NotoSansGujarati_700Bold',
           }}>
           Noto Sans Gujarati Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGujarati_800ExtraBold',
+            fontFamily:
+              'NotoSansGujarati_800ExtraBold',
           }}>
           Noto Sans Gujarati Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGujarati_900Black',
+            fontFamily:
+              'NotoSansGujarati_900Black',
           }}>
           Noto Sans Gujarati Black
         </Text>

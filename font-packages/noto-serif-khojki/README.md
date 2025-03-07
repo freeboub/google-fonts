@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-serif-khojki/useFonts';
 import { NotoSerifKhojki_400Regular } from 'expo-google-fonts-noto-serif-khojki/400Regular';
 import { NotoSerifKhojki_500Medium } from 'expo-google-fonts-noto-serif-khojki/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifKhojki_400Regular',
+            fontFamily:
+              'NotoSerifKhojki_400Regular',
           }}>
           Noto Serif Khojki Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifKhojki_500Medium',
+            fontFamily:
+              'NotoSerifKhojki_500Medium',
           }}>
           Noto Serif Khojki Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifKhojki_600SemiBold',
+            fontFamily:
+              'NotoSerifKhojki_600SemiBold',
           }}>
           Noto Serif Khojki Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifKhojki_700Bold',
+            fontFamily:
+              'NotoSerifKhojki_700Bold',
           }}>
           Noto Serif Khojki Bold
         </Text>

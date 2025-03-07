@@ -1,7 +1,11 @@
 {
   "family": "Grechen Fuemen",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v9",
   "lastModified": "2024-09-04",
   "files": {

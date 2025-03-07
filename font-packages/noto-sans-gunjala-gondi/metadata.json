@@ -1,7 +1,16 @@
 {
   "family": "Noto Sans Gunjala Gondi",
-  "variants": ["regular", "500", "600", "700"],
-  "subsets": ["gunjala-gondi", "latin", "latin-ext"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "gunjala-gondi",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v19",
   "lastModified": "2023-09-27",
   "files": {

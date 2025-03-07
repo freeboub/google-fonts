@@ -1,6 +1,15 @@
 {
   "family": "Playwrite AT",
-  "variants": ["100", "200", "300", "regular", "100italic", "200italic", "300italic", "italic"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "100italic",
+    "200italic",
+    "300italic",
+    "italic"
+  ],
   "subsets": ["latin"],
   "version": "v5",
   "lastModified": "2025-03-03",

@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Old Turkic",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "old-turkic"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "old-turkic"
+  ],
   "version": "v18",
   "lastModified": "2024-07-30",
   "files": {

@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-medefaidrin/useFonts';
 import { NotoSansMedefaidrin_400Regular } from 'expo-google-fonts-noto-sans-medefaidrin/400Regular';
 import { NotoSansMedefaidrin_500Medium } from 'expo-google-fonts-noto-sans-medefaidrin/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansMedefaidrin_400Regular',
+            fontFamily:
+              'NotoSansMedefaidrin_400Regular',
           }}>
           Noto Sans Medefaidrin Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansMedefaidrin_500Medium',
+            fontFamily:
+              'NotoSansMedefaidrin_500Medium',
           }}>
           Noto Sans Medefaidrin Medium
         </Text>
@@ -76,9 +86,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansMedefaidrin_600SemiBold',
+            fontFamily:
+              'NotoSansMedefaidrin_600SemiBold',
           }}>
-          Noto Sans Medefaidrin Semi Bold
+          Noto Sans Medefaidrin Semi
+          Bold
         </Text>
 
         <Text
@@ -86,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansMedefaidrin_700Bold',
+            fontFamily:
+              'NotoSansMedefaidrin_700Bold',
           }}>
           Noto Sans Medefaidrin Bold
         </Text>

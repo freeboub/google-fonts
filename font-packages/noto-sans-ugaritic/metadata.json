@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Ugaritic",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "ugaritic"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "ugaritic"
+  ],
   "version": "v16",
   "lastModified": "2023-05-23",
   "files": {

@@ -27,7 +27,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-sunflower/useFonts';
 import { Sunflower_300Light } from 'expo-google-fonts-sunflower/300Light';
 import { Sunflower_500Medium } from 'expo-google-fonts-sunflower/500Medium';
@@ -47,13 +50,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sunflower_300Light',
+            fontFamily:
+              'Sunflower_300Light',
           }}>
           Sunflower Light
         </Text>
@@ -63,7 +72,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sunflower_500Medium',
+            fontFamily:
+              'Sunflower_500Medium',
           }}>
           Sunflower Medium
         </Text>
@@ -73,7 +83,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sunflower_700Bold',
+            fontFamily:
+              'Sunflower_700Bold',
           }}>
           Sunflower Bold
         </Text>

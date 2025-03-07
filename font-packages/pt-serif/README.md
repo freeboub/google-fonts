@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-pt-serif/useFonts';
 import { PTSerif_400Regular } from 'expo-google-fonts-pt-serif/400Regular';
 import { PTSerif_400Regular_Italic } from 'expo-google-fonts-pt-serif/400Regular_Italic';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PTSerif_400Regular',
+            fontFamily:
+              'PTSerif_400Regular',
           }}>
           PT Serif Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PTSerif_400Regular_Italic',
+            fontFamily:
+              'PTSerif_400Regular_Italic',
           }}>
           PT Serif Italic
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PTSerif_700Bold',
+            fontFamily:
+              'PTSerif_700Bold',
           }}>
           PT Serif Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PTSerif_700Bold_Italic',
+            fontFamily:
+              'PTSerif_700Bold_Italic',
           }}>
           PT Serif Bold Italic
         </Text>

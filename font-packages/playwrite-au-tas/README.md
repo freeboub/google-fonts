@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playwrite-au-tas/useFonts';
 import { PlaywriteAUTAS_100Thin } from 'expo-google-fonts-playwrite-au-tas/100Thin';
 import { PlaywriteAUTAS_200ExtraLight } from 'expo-google-fonts-playwrite-au-tas/200ExtraLight';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteAUTAS_100Thin',
+            fontFamily:
+              'PlaywriteAUTAS_100Thin',
           }}>
           Playwrite AU TAS Thin
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteAUTAS_200ExtraLight',
+            fontFamily:
+              'PlaywriteAUTAS_200ExtraLight',
           }}>
           Playwrite AU TAS Extra Light
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteAUTAS_300Light',
+            fontFamily:
+              'PlaywriteAUTAS_300Light',
           }}>
           Playwrite AU TAS Light
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteAUTAS_400Regular',
+            fontFamily:
+              'PlaywriteAUTAS_400Regular',
           }}>
           Playwrite AU TAS Regular
         </Text>

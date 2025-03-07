@@ -1,7 +1,19 @@
 {
   "family": "Bona Nova",
-  "variants": ["regular", "italic", "700"],
-  "subsets": ["cyrillic", "cyrillic-ext", "greek", "hebrew", "latin", "latin-ext", "vietnamese"],
+  "variants": [
+    "regular",
+    "italic",
+    "700"
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "hebrew",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v11",
   "lastModified": "2024-09-30",
   "files": {

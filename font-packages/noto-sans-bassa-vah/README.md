@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-bassa-vah/useFonts';
 import { NotoSansBassaVah_400Regular } from 'expo-google-fonts-noto-sans-bassa-vah/400Regular';
 import { NotoSansBassaVah_500Medium } from 'expo-google-fonts-noto-sans-bassa-vah/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansBassaVah_400Regular',
+            fontFamily:
+              'NotoSansBassaVah_400Regular',
           }}>
           Noto Sans Bassa Vah Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansBassaVah_500Medium',
+            fontFamily:
+              'NotoSansBassaVah_500Medium',
           }}>
           Noto Sans Bassa Vah Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansBassaVah_600SemiBold',
+            fontFamily:
+              'NotoSansBassaVah_600SemiBold',
           }}>
           Noto Sans Bassa Vah Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansBassaVah_700Bold',
+            fontFamily:
+              'NotoSansBassaVah_700Bold',
           }}>
           Noto Sans Bassa Vah Bold
         </Text>

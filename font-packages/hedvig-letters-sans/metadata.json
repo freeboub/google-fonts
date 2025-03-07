@@ -1,7 +1,12 @@
 {
   "family": "Hedvig Letters Sans",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "math", "symbols"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols"
+  ],
   "version": "v2",
   "lastModified": "2024-09-04",
   "files": {

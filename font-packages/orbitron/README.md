@@ -30,7 +30,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-orbitron/useFonts';
 import { Orbitron_400Regular } from 'expo-google-fonts-orbitron/400Regular';
 import { Orbitron_500Medium } from 'expo-google-fonts-orbitron/500Medium';
@@ -56,13 +59,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Orbitron_400Regular',
+            fontFamily:
+              'Orbitron_400Regular',
           }}>
           Orbitron Regular
         </Text>
@@ -72,7 +81,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Orbitron_500Medium',
+            fontFamily:
+              'Orbitron_500Medium',
           }}>
           Orbitron Medium
         </Text>
@@ -82,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Orbitron_600SemiBold',
+            fontFamily:
+              'Orbitron_600SemiBold',
           }}>
           Orbitron Semi Bold
         </Text>
@@ -92,7 +103,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Orbitron_700Bold',
+            fontFamily:
+              'Orbitron_700Bold',
           }}>
           Orbitron Bold
         </Text>
@@ -102,7 +114,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Orbitron_800ExtraBold',
+            fontFamily:
+              'Orbitron_800ExtraBold',
           }}>
           Orbitron Extra Bold
         </Text>
@@ -112,7 +125,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Orbitron_900Black',
+            fontFamily:
+              'Orbitron_900Black',
           }}>
           Orbitron Black
         </Text>

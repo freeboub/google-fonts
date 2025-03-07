@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-rajdhani/useFonts';
 import { Rajdhani_300Light } from 'expo-google-fonts-rajdhani/300Light';
 import { Rajdhani_400Regular } from 'expo-google-fonts-rajdhani/400Regular';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rajdhani_300Light',
+            fontFamily:
+              'Rajdhani_300Light',
           }}>
           Rajdhani Light
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rajdhani_400Regular',
+            fontFamily:
+              'Rajdhani_400Regular',
           }}>
           Rajdhani Regular
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rajdhani_500Medium',
+            fontFamily:
+              'Rajdhani_500Medium',
           }}>
           Rajdhani Medium
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rajdhani_600SemiBold',
+            fontFamily:
+              'Rajdhani_600SemiBold',
           }}>
           Rajdhani Semi Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rajdhani_700Bold',
+            fontFamily:
+              'Rajdhani_700Bold',
           }}>
           Rajdhani Bold
         </Text>

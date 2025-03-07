@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-montagu-slab/useFonts';
 import { MontaguSlab_100Thin } from 'expo-google-fonts-montagu-slab/100Thin';
 import { MontaguSlab_200ExtraLight } from 'expo-google-fonts-montagu-slab/200ExtraLight';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MontaguSlab_100Thin',
+            fontFamily:
+              'MontaguSlab_100Thin',
           }}>
           Montagu Slab Thin
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MontaguSlab_200ExtraLight',
+            fontFamily:
+              'MontaguSlab_200ExtraLight',
           }}>
           Montagu Slab Extra Light
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MontaguSlab_300Light',
+            fontFamily:
+              'MontaguSlab_300Light',
           }}>
           Montagu Slab Light
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MontaguSlab_400Regular',
+            fontFamily:
+              'MontaguSlab_400Regular',
           }}>
           Montagu Slab Regular
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MontaguSlab_500Medium',
+            fontFamily:
+              'MontaguSlab_500Medium',
           }}>
           Montagu Slab Medium
         </Text>
@@ -115,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MontaguSlab_600SemiBold',
+            fontFamily:
+              'MontaguSlab_600SemiBold',
           }}>
           Montagu Slab Semi Bold
         </Text>
@@ -125,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MontaguSlab_700Bold',
+            fontFamily:
+              'MontaguSlab_700Bold',
           }}>
           Montagu Slab Bold
         </Text>

@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-gemunu-libre/useFonts';
 import { GemunuLibre_200ExtraLight } from 'expo-google-fonts-gemunu-libre/200ExtraLight';
 import { GemunuLibre_300Light } from 'expo-google-fonts-gemunu-libre/300Light';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GemunuLibre_200ExtraLight',
+            fontFamily:
+              'GemunuLibre_200ExtraLight',
           }}>
           Gemunu Libre Extra Light
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GemunuLibre_300Light',
+            fontFamily:
+              'GemunuLibre_300Light',
           }}>
           Gemunu Libre Light
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GemunuLibre_400Regular',
+            fontFamily:
+              'GemunuLibre_400Regular',
           }}>
           Gemunu Libre Regular
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GemunuLibre_500Medium',
+            fontFamily:
+              'GemunuLibre_500Medium',
           }}>
           Gemunu Libre Medium
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GemunuLibre_600SemiBold',
+            fontFamily:
+              'GemunuLibre_600SemiBold',
           }}>
           Gemunu Libre Semi Bold
         </Text>
@@ -115,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GemunuLibre_700Bold',
+            fontFamily:
+              'GemunuLibre_700Bold',
           }}>
           Gemunu Libre Bold
         </Text>
@@ -125,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GemunuLibre_800ExtraBold',
+            fontFamily:
+              'GemunuLibre_800ExtraBold',
           }}>
           Gemunu Libre Extra Bold
         </Text>

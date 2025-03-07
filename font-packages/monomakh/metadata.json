@@ -1,7 +1,12 @@
 {
   "family": "Monomakh",
   "variants": ["regular"],
-  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v1",
   "lastModified": "2025-02-12",
   "files": {

@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-anek-tamil/useFonts';
 import { AnekTamil_100Thin } from 'expo-google-fonts-anek-tamil/100Thin';
 import { AnekTamil_200ExtraLight } from 'expo-google-fonts-anek-tamil/200ExtraLight';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekTamil_100Thin',
+            fontFamily:
+              'AnekTamil_100Thin',
           }}>
           Anek Tamil Thin
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekTamil_200ExtraLight',
+            fontFamily:
+              'AnekTamil_200ExtraLight',
           }}>
           Anek Tamil Extra Light
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekTamil_300Light',
+            fontFamily:
+              'AnekTamil_300Light',
           }}>
           Anek Tamil Light
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekTamil_400Regular',
+            fontFamily:
+              'AnekTamil_400Regular',
           }}>
           Anek Tamil Regular
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekTamil_500Medium',
+            fontFamily:
+              'AnekTamil_500Medium',
           }}>
           Anek Tamil Medium
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekTamil_600SemiBold',
+            fontFamily:
+              'AnekTamil_600SemiBold',
           }}>
           Anek Tamil Semi Bold
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekTamil_700Bold',
+            fontFamily:
+              'AnekTamil_700Bold',
           }}>
           Anek Tamil Bold
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekTamil_800ExtraBold',
+            fontFamily:
+              'AnekTamil_800ExtraBold',
           }}>
           Anek Tamil Extra Bold
         </Text>

@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-karma/useFonts';
 import { Karma_300Light } from 'expo-google-fonts-karma/300Light';
 import { Karma_400Regular } from 'expo-google-fonts-karma/400Regular';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Karma_300Light',
+            fontFamily:
+              'Karma_300Light',
           }}>
           Karma Light
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Karma_400Regular',
+            fontFamily:
+              'Karma_400Regular',
           }}>
           Karma Regular
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Karma_500Medium',
+            fontFamily:
+              'Karma_500Medium',
           }}>
           Karma Medium
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Karma_600SemiBold',
+            fontFamily:
+              'Karma_600SemiBold',
           }}>
           Karma Semi Bold
         </Text>

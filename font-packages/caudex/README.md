@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-caudex/useFonts';
 import { Caudex_400Regular } from 'expo-google-fonts-caudex/400Regular';
 import { Caudex_400Regular_Italic } from 'expo-google-fonts-caudex/400Regular_Italic';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Caudex_400Regular',
+            fontFamily:
+              'Caudex_400Regular',
           }}>
           Caudex Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Caudex_400Regular_Italic',
+            fontFamily:
+              'Caudex_400Regular_Italic',
           }}>
           Caudex Italic
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Caudex_700Bold',
+            fontFamily:
+              'Caudex_700Bold',
           }}>
           Caudex Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Caudex_700Bold_Italic',
+            fontFamily:
+              'Caudex_700Bold_Italic',
           }}>
           Caudex Bold Italic
         </Text>

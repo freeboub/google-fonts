@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-buenard/useFonts';
 import { Buenard_400Regular } from 'expo-google-fonts-buenard/400Regular';
 import { Buenard_500Medium } from 'expo-google-fonts-buenard/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Buenard_400Regular',
+            fontFamily:
+              'Buenard_400Regular',
           }}>
           Buenard Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Buenard_500Medium',
+            fontFamily:
+              'Buenard_500Medium',
           }}>
           Buenard Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Buenard_600SemiBold',
+            fontFamily:
+              'Buenard_600SemiBold',
           }}>
           Buenard Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Buenard_700Bold',
+            fontFamily:
+              'Buenard_700Bold',
           }}>
           Buenard Bold
         </Text>

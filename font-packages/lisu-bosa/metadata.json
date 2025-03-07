@@ -18,7 +18,11 @@
     "900",
     "900italic"
   ],
-  "subsets": ["latin", "latin-ext", "lisu"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "lisu"
+  ],
   "version": "v2",
   "lastModified": "2024-09-04",
   "files": {

@@ -1,7 +1,12 @@
 {
   "family": "Kosugi Maru",
   "variants": ["regular"],
-  "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
+  "subsets": [
+    "cyrillic",
+    "japanese",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v14",
   "lastModified": "2024-08-12",
   "files": {

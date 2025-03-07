@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-adlam-unjoined/useFonts';
 import { NotoSansAdlamUnjoined_400Regular } from 'expo-google-fonts-noto-sans-adlam-unjoined/400Regular';
 import { NotoSansAdlamUnjoined_500Medium } from 'expo-google-fonts-noto-sans-adlam-unjoined/500Medium';
@@ -50,15 +53,22 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansAdlamUnjoined_400Regular',
+            fontFamily:
+              'NotoSansAdlamUnjoined_400Regular',
           }}>
-          Noto Sans Adlam Unjoined Regular
+          Noto Sans Adlam Unjoined
+          Regular
         </Text>
 
         <Text
@@ -66,9 +76,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansAdlamUnjoined_500Medium',
+            fontFamily:
+              'NotoSansAdlamUnjoined_500Medium',
           }}>
-          Noto Sans Adlam Unjoined Medium
+          Noto Sans Adlam Unjoined
+          Medium
         </Text>
 
         <Text
@@ -76,9 +88,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansAdlamUnjoined_600SemiBold',
+            fontFamily:
+              'NotoSansAdlamUnjoined_600SemiBold',
           }}>
-          Noto Sans Adlam Unjoined Semi Bold
+          Noto Sans Adlam Unjoined Semi
+          Bold
         </Text>
 
         <Text
@@ -86,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansAdlamUnjoined_700Bold',
+            fontFamily:
+              'NotoSansAdlamUnjoined_700Bold',
           }}>
           Noto Sans Adlam Unjoined Bold
         </Text>

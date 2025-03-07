@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Mahajani",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "mahajani"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "mahajani"
+  ],
   "version": "v19",
   "lastModified": "2023-09-13",
   "files": {

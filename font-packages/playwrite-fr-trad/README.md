@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playwrite-fr-trad/useFonts';
 import { PlaywriteFRTrad_100Thin } from 'expo-google-fonts-playwrite-fr-trad/100Thin';
 import { PlaywriteFRTrad_200ExtraLight } from 'expo-google-fonts-playwrite-fr-trad/200ExtraLight';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteFRTrad_100Thin',
+            fontFamily:
+              'PlaywriteFRTrad_100Thin',
           }}>
           Playwrite FR Trad Thin
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteFRTrad_200ExtraLight',
+            fontFamily:
+              'PlaywriteFRTrad_200ExtraLight',
           }}>
           Playwrite FR Trad Extra Light
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteFRTrad_300Light',
+            fontFamily:
+              'PlaywriteFRTrad_300Light',
           }}>
           Playwrite FR Trad Light
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteFRTrad_400Regular',
+            fontFamily:
+              'PlaywriteFRTrad_400Regular',
           }}>
           Playwrite FR Trad Regular
         </Text>

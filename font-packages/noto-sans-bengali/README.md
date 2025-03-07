@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-bengali/useFonts';
 import { NotoSansBengali_100Thin } from 'expo-google-fonts-noto-sans-bengali/100Thin';
 import { NotoSansBengali_200ExtraLight } from 'expo-google-fonts-noto-sans-bengali/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansBengali_100Thin',
+            fontFamily:
+              'NotoSansBengali_100Thin',
           }}>
           Noto Sans Bengali Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansBengali_200ExtraLight',
+            fontFamily:
+              'NotoSansBengali_200ExtraLight',
           }}>
           Noto Sans Bengali Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansBengali_300Light',
+            fontFamily:
+              'NotoSansBengali_300Light',
           }}>
           Noto Sans Bengali Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansBengali_400Regular',
+            fontFamily:
+              'NotoSansBengali_400Regular',
           }}>
           Noto Sans Bengali Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansBengali_500Medium',
+            fontFamily:
+              'NotoSansBengali_500Medium',
           }}>
           Noto Sans Bengali Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansBengali_600SemiBold',
+            fontFamily:
+              'NotoSansBengali_600SemiBold',
           }}>
           Noto Sans Bengali Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansBengali_700Bold',
+            fontFamily:
+              'NotoSansBengali_700Bold',
           }}>
           Noto Sans Bengali Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansBengali_800ExtraBold',
+            fontFamily:
+              'NotoSansBengali_800ExtraBold',
           }}>
           Noto Sans Bengali Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansBengali_900Black',
+            fontFamily:
+              'NotoSansBengali_900Black',
           }}>
           Noto Sans Bengali Black
         </Text>

@@ -27,7 +27,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-gupter/useFonts';
 import { Gupter_400Regular } from 'expo-google-fonts-gupter/400Regular';
 import { Gupter_500Medium } from 'expo-google-fonts-gupter/500Medium';
@@ -47,13 +50,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gupter_400Regular',
+            fontFamily:
+              'Gupter_400Regular',
           }}>
           Gupter Regular
         </Text>
@@ -63,7 +72,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gupter_500Medium',
+            fontFamily:
+              'Gupter_500Medium',
           }}>
           Gupter Medium
         </Text>
@@ -73,7 +83,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gupter_700Bold',
+            fontFamily:
+              'Gupter_700Bold',
           }}>
           Gupter Bold
         </Text>

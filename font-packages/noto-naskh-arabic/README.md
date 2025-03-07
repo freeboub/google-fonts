@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-naskh-arabic/useFonts';
 import { NotoNaskhArabic_400Regular } from 'expo-google-fonts-noto-naskh-arabic/400Regular';
 import { NotoNaskhArabic_500Medium } from 'expo-google-fonts-noto-naskh-arabic/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoNaskhArabic_400Regular',
+            fontFamily:
+              'NotoNaskhArabic_400Regular',
           }}>
           Noto Naskh Arabic Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoNaskhArabic_500Medium',
+            fontFamily:
+              'NotoNaskhArabic_500Medium',
           }}>
           Noto Naskh Arabic Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoNaskhArabic_600SemiBold',
+            fontFamily:
+              'NotoNaskhArabic_600SemiBold',
           }}>
           Noto Naskh Arabic Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoNaskhArabic_700Bold',
+            fontFamily:
+              'NotoNaskhArabic_700Bold',
           }}>
           Noto Naskh Arabic Bold
         </Text>

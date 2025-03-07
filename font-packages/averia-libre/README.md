@@ -30,7 +30,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-averia-libre/useFonts';
 import { AveriaLibre_300Light } from 'expo-google-fonts-averia-libre/300Light';
 import { AveriaLibre_300Light_Italic } from 'expo-google-fonts-averia-libre/300Light_Italic';
@@ -56,13 +59,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AveriaLibre_300Light',
+            fontFamily:
+              'AveriaLibre_300Light',
           }}>
           Averia Libre Light
         </Text>
@@ -72,7 +81,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AveriaLibre_300Light_Italic',
+            fontFamily:
+              'AveriaLibre_300Light_Italic',
           }}>
           Averia Libre Light Italic
         </Text>
@@ -82,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AveriaLibre_400Regular',
+            fontFamily:
+              'AveriaLibre_400Regular',
           }}>
           Averia Libre Regular
         </Text>
@@ -92,7 +103,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AveriaLibre_400Regular_Italic',
+            fontFamily:
+              'AveriaLibre_400Regular_Italic',
           }}>
           Averia Libre Italic
         </Text>
@@ -102,7 +114,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AveriaLibre_700Bold',
+            fontFamily:
+              'AveriaLibre_700Bold',
           }}>
           Averia Libre Bold
         </Text>
@@ -112,7 +125,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AveriaLibre_700Bold_Italic',
+            fontFamily:
+              'AveriaLibre_700Bold_Italic',
           }}>
           Averia Libre Bold Italic
         </Text>

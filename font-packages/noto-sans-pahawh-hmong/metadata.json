@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Pahawh Hmong",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "pahawh-hmong"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "pahawh-hmong"
+  ],
   "version": "v18",
   "lastModified": "2023-05-02",
   "files": {

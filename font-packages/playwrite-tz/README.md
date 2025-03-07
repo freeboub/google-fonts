@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playwrite-tz/useFonts';
 import { PlaywriteTZ_100Thin } from 'expo-google-fonts-playwrite-tz/100Thin';
 import { PlaywriteTZ_200ExtraLight } from 'expo-google-fonts-playwrite-tz/200ExtraLight';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteTZ_100Thin',
+            fontFamily:
+              'PlaywriteTZ_100Thin',
           }}>
           Playwrite TZ Thin
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteTZ_200ExtraLight',
+            fontFamily:
+              'PlaywriteTZ_200ExtraLight',
           }}>
           Playwrite TZ Extra Light
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteTZ_300Light',
+            fontFamily:
+              'PlaywriteTZ_300Light',
           }}>
           Playwrite TZ Light
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteTZ_400Regular',
+            fontFamily:
+              'PlaywriteTZ_400Regular',
           }}>
           Playwrite TZ Regular
         </Text>

@@ -1,7 +1,17 @@
 {
   "family": "Markazi Text",
-  "variants": ["regular", "500", "600", "700"],
-  "subsets": ["arabic", "latin", "latin-ext", "vietnamese"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v23",
   "lastModified": "2024-09-04",
   "files": {

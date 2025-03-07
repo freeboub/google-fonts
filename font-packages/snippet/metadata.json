@@ -4,7 +4,9 @@
   "subsets": ["latin"],
   "version": "v21",
   "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/snippet/v21/bWt47f7XfQH9Gupu2v_Afcp9QWc.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/snippet/v21/bWt47f7XfQH9Gupu2v_Afcp9QWc.ttf"
+  },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/snippet/v21/bWt47f7XfQH9Gupu6v7KeQ.ttf"

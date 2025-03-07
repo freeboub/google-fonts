@@ -1,7 +1,23 @@
 {
   "family": "Noto Sans Canadian Aboriginal",
-  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
-  "subsets": ["canadian-aboriginal", "latin", "latin-ext", "math", "symbols"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900"
+  ],
+  "subsets": [
+    "canadian-aboriginal",
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols"
+  ],
   "version": "v26",
   "lastModified": "2024-05-02",
   "files": {

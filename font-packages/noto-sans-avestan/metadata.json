@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Avestan",
   "variants": ["regular"],
-  "subsets": ["avestan", "latin", "latin-ext"],
+  "subsets": [
+    "avestan",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v21",
   "lastModified": "2023-09-13",
   "files": {

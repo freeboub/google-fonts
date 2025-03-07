@@ -26,7 +26,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-tiro-devanagari-sanskrit/useFonts';
 import { TiroDevanagariSanskrit_400Regular } from 'expo-google-fonts-tiro-devanagari-sanskrit/400Regular';
 import { TiroDevanagariSanskrit_400Regular_Italic } from 'expo-google-fonts-tiro-devanagari-sanskrit/400Regular_Italic';
@@ -44,15 +47,22 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'TiroDevanagariSanskrit_400Regular',
+            fontFamily:
+              'TiroDevanagariSanskrit_400Regular',
           }}>
-          Tiro Devanagari Sanskrit Regular
+          Tiro Devanagari Sanskrit
+          Regular
         </Text>
 
         <Text
@@ -60,9 +70,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'TiroDevanagariSanskrit_400Regular_Italic',
+            fontFamily:
+              'TiroDevanagariSanskrit_400Regular_Italic',
           }}>
-          Tiro Devanagari Sanskrit Italic
+          Tiro Devanagari Sanskrit
+          Italic
         </Text>
       </View>
     );

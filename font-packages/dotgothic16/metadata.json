@@ -1,7 +1,12 @@
 {
   "family": "DotGothic16",
   "variants": ["regular"],
-  "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
+  "subsets": [
+    "cyrillic",
+    "japanese",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v19",
   "lastModified": "2024-12-04",
   "files": {

@@ -25,7 +25,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-give-you-glory/useFonts';
 import { GiveYouGlory_400Regular } from 'expo-google-fonts-give-you-glory/400Regular';
 
@@ -41,13 +44,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GiveYouGlory_400Regular',
+            fontFamily:
+              'GiveYouGlory_400Regular',
           }}>
           Give You Glory Regular
         </Text>

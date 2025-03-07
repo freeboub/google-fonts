@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-recursive/useFonts';
 import { Recursive_300Light } from 'expo-google-fonts-recursive/300Light';
 import { Recursive_400Regular } from 'expo-google-fonts-recursive/400Regular';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Recursive_300Light',
+            fontFamily:
+              'Recursive_300Light',
           }}>
           Recursive Light
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Recursive_400Regular',
+            fontFamily:
+              'Recursive_400Regular',
           }}>
           Recursive Regular
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Recursive_500Medium',
+            fontFamily:
+              'Recursive_500Medium',
           }}>
           Recursive Medium
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Recursive_600SemiBold',
+            fontFamily:
+              'Recursive_600SemiBold',
           }}>
           Recursive Semi Bold
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Recursive_700Bold',
+            fontFamily:
+              'Recursive_700Bold',
           }}>
           Recursive Bold
         </Text>
@@ -115,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Recursive_800ExtraBold',
+            fontFamily:
+              'Recursive_800ExtraBold',
           }}>
           Recursive Extra Bold
         </Text>
@@ -125,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Recursive_900Black',
+            fontFamily:
+              'Recursive_900Black',
           }}>
           Recursive Black
         </Text>

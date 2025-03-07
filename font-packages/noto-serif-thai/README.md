@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-serif-thai/useFonts';
 import { NotoSerifThai_100Thin } from 'expo-google-fonts-noto-serif-thai/100Thin';
 import { NotoSerifThai_200ExtraLight } from 'expo-google-fonts-noto-serif-thai/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifThai_100Thin',
+            fontFamily:
+              'NotoSerifThai_100Thin',
           }}>
           Noto Serif Thai Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifThai_200ExtraLight',
+            fontFamily:
+              'NotoSerifThai_200ExtraLight',
           }}>
           Noto Serif Thai Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifThai_300Light',
+            fontFamily:
+              'NotoSerifThai_300Light',
           }}>
           Noto Serif Thai Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifThai_400Regular',
+            fontFamily:
+              'NotoSerifThai_400Regular',
           }}>
           Noto Serif Thai Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifThai_500Medium',
+            fontFamily:
+              'NotoSerifThai_500Medium',
           }}>
           Noto Serif Thai Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifThai_600SemiBold',
+            fontFamily:
+              'NotoSerifThai_600SemiBold',
           }}>
           Noto Serif Thai Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifThai_700Bold',
+            fontFamily:
+              'NotoSerifThai_700Bold',
           }}>
           Noto Serif Thai Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifThai_800ExtraBold',
+            fontFamily:
+              'NotoSerifThai_800ExtraBold',
           }}>
           Noto Serif Thai Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifThai_900Black',
+            fontFamily:
+              'NotoSerifThai_900Black',
           }}>
           Noto Serif Thai Black
         </Text>

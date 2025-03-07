@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-gluten/useFonts';
 import { Gluten_100Thin } from 'expo-google-fonts-gluten/100Thin';
 import { Gluten_200ExtraLight } from 'expo-google-fonts-gluten/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gluten_100Thin',
+            fontFamily:
+              'Gluten_100Thin',
           }}>
           Gluten Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gluten_200ExtraLight',
+            fontFamily:
+              'Gluten_200ExtraLight',
           }}>
           Gluten Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gluten_300Light',
+            fontFamily:
+              'Gluten_300Light',
           }}>
           Gluten Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gluten_400Regular',
+            fontFamily:
+              'Gluten_400Regular',
           }}>
           Gluten Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gluten_500Medium',
+            fontFamily:
+              'Gluten_500Medium',
           }}>
           Gluten Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gluten_600SemiBold',
+            fontFamily:
+              'Gluten_600SemiBold',
           }}>
           Gluten Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gluten_700Bold',
+            fontFamily:
+              'Gluten_700Bold',
           }}>
           Gluten Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gluten_800ExtraBold',
+            fontFamily:
+              'Gluten_800ExtraBold',
           }}>
           Gluten Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gluten_900Black',
+            fontFamily:
+              'Gluten_900Black',
           }}>
           Gluten Black
         </Text>

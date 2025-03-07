@@ -1,7 +1,20 @@
 {
   "family": "Fira Code",
-  "variants": ["300", "regular", "500", "600", "700"],
-  "subsets": ["cyrillic", "cyrillic-ext", "greek", "greek-ext", "latin", "latin-ext"],
+  "variants": [
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v22",
   "lastModified": "2024-09-04",
   "files": {

@@ -34,7 +34,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-rosario/useFonts';
 import { Rosario_300Light } from 'expo-google-fonts-rosario/300Light';
 import { Rosario_400Regular } from 'expo-google-fonts-rosario/400Regular';
@@ -68,13 +71,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rosario_300Light',
+            fontFamily:
+              'Rosario_300Light',
           }}>
           Rosario Light
         </Text>
@@ -84,7 +93,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rosario_400Regular',
+            fontFamily:
+              'Rosario_400Regular',
           }}>
           Rosario Regular
         </Text>
@@ -94,7 +104,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rosario_500Medium',
+            fontFamily:
+              'Rosario_500Medium',
           }}>
           Rosario Medium
         </Text>
@@ -104,7 +115,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rosario_600SemiBold',
+            fontFamily:
+              'Rosario_600SemiBold',
           }}>
           Rosario Semi Bold
         </Text>
@@ -114,7 +126,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rosario_700Bold',
+            fontFamily:
+              'Rosario_700Bold',
           }}>
           Rosario Bold
         </Text>
@@ -124,7 +137,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rosario_300Light_Italic',
+            fontFamily:
+              'Rosario_300Light_Italic',
           }}>
           Rosario Light Italic
         </Text>
@@ -134,7 +148,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rosario_400Regular_Italic',
+            fontFamily:
+              'Rosario_400Regular_Italic',
           }}>
           Rosario Italic
         </Text>
@@ -144,7 +159,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rosario_500Medium_Italic',
+            fontFamily:
+              'Rosario_500Medium_Italic',
           }}>
           Rosario Medium Italic
         </Text>
@@ -154,7 +170,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rosario_600SemiBold_Italic',
+            fontFamily:
+              'Rosario_600SemiBold_Italic',
           }}>
           Rosario Semi Bold Italic
         </Text>
@@ -164,7 +181,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rosario_700Bold_Italic',
+            fontFamily:
+              'Rosario_700Bold_Italic',
           }}>
           Rosario Bold Italic
         </Text>

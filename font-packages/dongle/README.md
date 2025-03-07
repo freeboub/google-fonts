@@ -27,7 +27,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-dongle/useFonts';
 import { Dongle_300Light } from 'expo-google-fonts-dongle/300Light';
 import { Dongle_400Regular } from 'expo-google-fonts-dongle/400Regular';
@@ -47,13 +50,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Dongle_300Light',
+            fontFamily:
+              'Dongle_300Light',
           }}>
           Dongle Light
         </Text>
@@ -63,7 +72,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Dongle_400Regular',
+            fontFamily:
+              'Dongle_400Regular',
           }}>
           Dongle Regular
         </Text>
@@ -73,7 +83,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Dongle_700Bold',
+            fontFamily:
+              'Dongle_700Bold',
           }}>
           Dongle Bold
         </Text>

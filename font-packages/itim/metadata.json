@@ -1,10 +1,17 @@
 {
   "family": "Itim",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "thai",
+    "vietnamese"
+  ],
   "version": "v14",
   "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/itim/v14/0nknC9ziJOYewARKkc7ZdwU.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/itim/v14/0nknC9ziJOYewARKkc7ZdwU.ttf"
+  },
   "category": "handwriting",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/itim/v14/0nknC9ziJOYe8AVAlQ.ttf"

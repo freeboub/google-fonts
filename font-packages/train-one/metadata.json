@@ -1,7 +1,12 @@
 {
   "family": "Train One",
   "variants": ["regular"],
-  "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
+  "subsets": [
+    "cyrillic",
+    "japanese",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v14",
   "lastModified": "2024-09-04",
   "files": {

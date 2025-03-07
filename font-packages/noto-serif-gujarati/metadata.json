@@ -1,7 +1,23 @@
 {
   "family": "Noto Serif Gujarati",
-  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
-  "subsets": ["gujarati", "latin", "latin-ext", "math", "symbols"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900"
+  ],
+  "subsets": [
+    "gujarati",
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols"
+  ],
   "version": "v27",
   "lastModified": "2023-11-28",
   "files": {

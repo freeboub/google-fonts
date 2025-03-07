@@ -1,7 +1,22 @@
 {
   "family": "Kumbh Sans",
-  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
-  "subsets": ["latin", "latin-ext", "math", "symbols"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols"
+  ],
   "version": "v22",
   "lastModified": "2024-09-04",
   "files": {

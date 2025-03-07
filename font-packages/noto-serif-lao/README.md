@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-serif-lao/useFonts';
 import { NotoSerifLao_100Thin } from 'expo-google-fonts-noto-serif-lao/100Thin';
 import { NotoSerifLao_200ExtraLight } from 'expo-google-fonts-noto-serif-lao/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifLao_100Thin',
+            fontFamily:
+              'NotoSerifLao_100Thin',
           }}>
           Noto Serif Lao Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifLao_200ExtraLight',
+            fontFamily:
+              'NotoSerifLao_200ExtraLight',
           }}>
           Noto Serif Lao Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifLao_300Light',
+            fontFamily:
+              'NotoSerifLao_300Light',
           }}>
           Noto Serif Lao Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifLao_400Regular',
+            fontFamily:
+              'NotoSerifLao_400Regular',
           }}>
           Noto Serif Lao Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifLao_500Medium',
+            fontFamily:
+              'NotoSerifLao_500Medium',
           }}>
           Noto Serif Lao Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifLao_600SemiBold',
+            fontFamily:
+              'NotoSerifLao_600SemiBold',
           }}>
           Noto Serif Lao Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifLao_700Bold',
+            fontFamily:
+              'NotoSerifLao_700Bold',
           }}>
           Noto Serif Lao Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifLao_800ExtraBold',
+            fontFamily:
+              'NotoSerifLao_800ExtraBold',
           }}>
           Noto Serif Lao Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifLao_900Black',
+            fontFamily:
+              'NotoSerifLao_900Black',
           }}>
           Noto Serif Lao Black
         </Text>

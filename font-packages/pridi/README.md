@@ -30,7 +30,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-pridi/useFonts';
 import { Pridi_200ExtraLight } from 'expo-google-fonts-pridi/200ExtraLight';
 import { Pridi_300Light } from 'expo-google-fonts-pridi/300Light';
@@ -56,13 +59,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Pridi_200ExtraLight',
+            fontFamily:
+              'Pridi_200ExtraLight',
           }}>
           Pridi Extra Light
         </Text>
@@ -72,7 +81,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Pridi_300Light',
+            fontFamily:
+              'Pridi_300Light',
           }}>
           Pridi Light
         </Text>
@@ -82,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Pridi_400Regular',
+            fontFamily:
+              'Pridi_400Regular',
           }}>
           Pridi Regular
         </Text>
@@ -92,7 +103,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Pridi_500Medium',
+            fontFamily:
+              'Pridi_500Medium',
           }}>
           Pridi Medium
         </Text>
@@ -102,7 +114,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Pridi_600SemiBold',
+            fontFamily:
+              'Pridi_600SemiBold',
           }}>
           Pridi Semi Bold
         </Text>

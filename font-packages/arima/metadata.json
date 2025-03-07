@@ -1,7 +1,23 @@
 {
   "family": "Arima",
-  "variants": ["100", "200", "300", "regular", "500", "600", "700"],
-  "subsets": ["greek", "greek-ext", "latin", "latin-ext", "malayalam", "tamil", "vietnamese"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "malayalam",
+    "tamil",
+    "vietnamese"
+  ],
   "version": "v5",
   "lastModified": "2024-09-04",
   "files": {

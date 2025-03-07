@@ -38,7 +38,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-josefin-sans/useFonts';
 import { JosefinSans_100Thin } from 'expo-google-fonts-josefin-sans/100Thin';
 import { JosefinSans_200ExtraLight } from 'expo-google-fonts-josefin-sans/200ExtraLight';
@@ -80,13 +83,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSans_100Thin',
+            fontFamily:
+              'JosefinSans_100Thin',
           }}>
           Josefin Sans Thin
         </Text>
@@ -96,7 +105,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSans_200ExtraLight',
+            fontFamily:
+              'JosefinSans_200ExtraLight',
           }}>
           Josefin Sans Extra Light
         </Text>
@@ -106,7 +116,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSans_300Light',
+            fontFamily:
+              'JosefinSans_300Light',
           }}>
           Josefin Sans Light
         </Text>
@@ -116,7 +127,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSans_400Regular',
+            fontFamily:
+              'JosefinSans_400Regular',
           }}>
           Josefin Sans Regular
         </Text>
@@ -126,7 +138,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSans_500Medium',
+            fontFamily:
+              'JosefinSans_500Medium',
           }}>
           Josefin Sans Medium
         </Text>
@@ -136,7 +149,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSans_600SemiBold',
+            fontFamily:
+              'JosefinSans_600SemiBold',
           }}>
           Josefin Sans Semi Bold
         </Text>
@@ -146,7 +160,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSans_700Bold',
+            fontFamily:
+              'JosefinSans_700Bold',
           }}>
           Josefin Sans Bold
         </Text>
@@ -156,7 +171,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSans_100Thin_Italic',
+            fontFamily:
+              'JosefinSans_100Thin_Italic',
           }}>
           Josefin Sans Thin Italic
         </Text>
@@ -166,9 +182,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSans_200ExtraLight_Italic',
+            fontFamily:
+              'JosefinSans_200ExtraLight_Italic',
           }}>
-          Josefin Sans Extra Light Italic
+          Josefin Sans Extra Light
+          Italic
         </Text>
 
         <Text
@@ -176,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSans_300Light_Italic',
+            fontFamily:
+              'JosefinSans_300Light_Italic',
           }}>
           Josefin Sans Light Italic
         </Text>
@@ -186,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSans_400Regular_Italic',
+            fontFamily:
+              'JosefinSans_400Regular_Italic',
           }}>
           Josefin Sans Italic
         </Text>
@@ -196,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSans_500Medium_Italic',
+            fontFamily:
+              'JosefinSans_500Medium_Italic',
           }}>
           Josefin Sans Medium Italic
         </Text>
@@ -206,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSans_600SemiBold_Italic',
+            fontFamily:
+              'JosefinSans_600SemiBold_Italic',
           }}>
           Josefin Sans Semi Bold Italic
         </Text>
@@ -216,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSans_700Bold_Italic',
+            fontFamily:
+              'JosefinSans_700Bold_Italic',
           }}>
           Josefin Sans Bold Italic
         </Text>

@@ -25,7 +25,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playwrite-id-guides/useFonts';
 import { PlaywriteIDGuides_400Regular } from 'expo-google-fonts-playwrite-id-guides/400Regular';
 
@@ -41,13 +44,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteIDGuides_400Regular',
+            fontFamily:
+              'PlaywriteIDGuides_400Regular',
           }}>
           Playwrite ID Guides Regular
         </Text>

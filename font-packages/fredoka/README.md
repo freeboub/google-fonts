@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-fredoka/useFonts';
 import { Fredoka_300Light } from 'expo-google-fonts-fredoka/300Light';
 import { Fredoka_400Regular } from 'expo-google-fonts-fredoka/400Regular';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fredoka_300Light',
+            fontFamily:
+              'Fredoka_300Light',
           }}>
           Fredoka Light
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fredoka_400Regular',
+            fontFamily:
+              'Fredoka_400Regular',
           }}>
           Fredoka Regular
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fredoka_500Medium',
+            fontFamily:
+              'Fredoka_500Medium',
           }}>
           Fredoka Medium
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fredoka_600SemiBold',
+            fontFamily:
+              'Fredoka_600SemiBold',
           }}>
           Fredoka Semi Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fredoka_700Bold',
+            fontFamily:
+              'Fredoka_700Bold',
           }}>
           Fredoka Bold
         </Text>

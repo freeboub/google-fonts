@@ -27,7 +27,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-judson/useFonts';
 import { Judson_400Regular } from 'expo-google-fonts-judson/400Regular';
 import { Judson_400Regular_Italic } from 'expo-google-fonts-judson/400Regular_Italic';
@@ -47,13 +50,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Judson_400Regular',
+            fontFamily:
+              'Judson_400Regular',
           }}>
           Judson Regular
         </Text>
@@ -63,7 +72,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Judson_400Regular_Italic',
+            fontFamily:
+              'Judson_400Regular_Italic',
           }}>
           Judson Italic
         </Text>
@@ -73,7 +83,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Judson_700Bold',
+            fontFamily:
+              'Judson_700Bold',
           }}>
           Judson Bold
         </Text>

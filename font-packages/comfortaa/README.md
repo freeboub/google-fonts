@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-comfortaa/useFonts';
 import { Comfortaa_300Light } from 'expo-google-fonts-comfortaa/300Light';
 import { Comfortaa_400Regular } from 'expo-google-fonts-comfortaa/400Regular';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Comfortaa_300Light',
+            fontFamily:
+              'Comfortaa_300Light',
           }}>
           Comfortaa Light
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Comfortaa_400Regular',
+            fontFamily:
+              'Comfortaa_400Regular',
           }}>
           Comfortaa Regular
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Comfortaa_500Medium',
+            fontFamily:
+              'Comfortaa_500Medium',
           }}>
           Comfortaa Medium
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Comfortaa_600SemiBold',
+            fontFamily:
+              'Comfortaa_600SemiBold',
           }}>
           Comfortaa Semi Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Comfortaa_700Bold',
+            fontFamily:
+              'Comfortaa_700Bold',
           }}>
           Comfortaa Bold
         </Text>

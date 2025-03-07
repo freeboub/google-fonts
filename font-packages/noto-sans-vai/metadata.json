@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Vai",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "vai"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "vai"
+  ],
   "version": "v17",
   "lastModified": "2022-09-28",
   "files": {

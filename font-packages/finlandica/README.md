@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-finlandica/useFonts';
 import { Finlandica_400Regular } from 'expo-google-fonts-finlandica/400Regular';
 import { Finlandica_500Medium } from 'expo-google-fonts-finlandica/500Medium';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Finlandica_400Regular',
+            fontFamily:
+              'Finlandica_400Regular',
           }}>
           Finlandica Regular
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Finlandica_500Medium',
+            fontFamily:
+              'Finlandica_500Medium',
           }}>
           Finlandica Medium
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Finlandica_600SemiBold',
+            fontFamily:
+              'Finlandica_600SemiBold',
           }}>
           Finlandica Semi Bold
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Finlandica_700Bold',
+            fontFamily:
+              'Finlandica_700Bold',
           }}>
           Finlandica Bold
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Finlandica_400Regular_Italic',
+            fontFamily:
+              'Finlandica_400Regular_Italic',
           }}>
           Finlandica Italic
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Finlandica_500Medium_Italic',
+            fontFamily:
+              'Finlandica_500Medium_Italic',
           }}>
           Finlandica Medium Italic
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Finlandica_600SemiBold_Italic',
+            fontFamily:
+              'Finlandica_600SemiBold_Italic',
           }}>
           Finlandica Semi Bold Italic
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Finlandica_700Bold_Italic',
+            fontFamily:
+              'Finlandica_700Bold_Italic',
           }}>
           Finlandica Bold Italic
         </Text>

@@ -1,7 +1,17 @@
 {
   "family": "Hind Siliguri",
-  "variants": ["300", "regular", "500", "600", "700"],
-  "subsets": ["bengali", "latin", "latin-ext"],
+  "variants": [
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "bengali",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v13",
   "lastModified": "2024-12-04",
   "files": {

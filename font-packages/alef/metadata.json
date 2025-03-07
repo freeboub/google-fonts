@@ -1,7 +1,11 @@
 {
   "family": "Alef",
   "variants": ["regular", "700"],
-  "subsets": ["hebrew", "latin", "latin-ext"],
+  "subsets": [
+    "hebrew",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v22",
   "lastModified": "2024-11-20",
   "files": {

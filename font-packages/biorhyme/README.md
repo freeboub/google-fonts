@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-biorhyme/useFonts';
 import { BioRhyme_200ExtraLight } from 'expo-google-fonts-biorhyme/200ExtraLight';
 import { BioRhyme_300Light } from 'expo-google-fonts-biorhyme/300Light';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BioRhyme_200ExtraLight',
+            fontFamily:
+              'BioRhyme_200ExtraLight',
           }}>
           BioRhyme Extra Light
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BioRhyme_300Light',
+            fontFamily:
+              'BioRhyme_300Light',
           }}>
           BioRhyme Light
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BioRhyme_400Regular',
+            fontFamily:
+              'BioRhyme_400Regular',
           }}>
           BioRhyme Regular
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BioRhyme_500Medium',
+            fontFamily:
+              'BioRhyme_500Medium',
           }}>
           BioRhyme Medium
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BioRhyme_600SemiBold',
+            fontFamily:
+              'BioRhyme_600SemiBold',
           }}>
           BioRhyme Semi Bold
         </Text>
@@ -115,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BioRhyme_700Bold',
+            fontFamily:
+              'BioRhyme_700Bold',
           }}>
           BioRhyme Bold
         </Text>
@@ -125,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BioRhyme_800ExtraBold',
+            fontFamily:
+              'BioRhyme_800ExtraBold',
           }}>
           BioRhyme Extra Bold
         </Text>

@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-serif-kannada/useFonts';
 import { NotoSerifKannada_100Thin } from 'expo-google-fonts-noto-serif-kannada/100Thin';
 import { NotoSerifKannada_200ExtraLight } from 'expo-google-fonts-noto-serif-kannada/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifKannada_100Thin',
+            fontFamily:
+              'NotoSerifKannada_100Thin',
           }}>
           Noto Serif Kannada Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifKannada_200ExtraLight',
+            fontFamily:
+              'NotoSerifKannada_200ExtraLight',
           }}>
           Noto Serif Kannada Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifKannada_300Light',
+            fontFamily:
+              'NotoSerifKannada_300Light',
           }}>
           Noto Serif Kannada Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifKannada_400Regular',
+            fontFamily:
+              'NotoSerifKannada_400Regular',
           }}>
           Noto Serif Kannada Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifKannada_500Medium',
+            fontFamily:
+              'NotoSerifKannada_500Medium',
           }}>
           Noto Serif Kannada Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifKannada_600SemiBold',
+            fontFamily:
+              'NotoSerifKannada_600SemiBold',
           }}>
           Noto Serif Kannada Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifKannada_700Bold',
+            fontFamily:
+              'NotoSerifKannada_700Bold',
           }}>
           Noto Serif Kannada Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifKannada_800ExtraBold',
+            fontFamily:
+              'NotoSerifKannada_800ExtraBold',
           }}>
           Noto Serif Kannada Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifKannada_900Black',
+            fontFamily:
+              'NotoSerifKannada_900Black',
           }}>
           Noto Serif Kannada Black
         </Text>

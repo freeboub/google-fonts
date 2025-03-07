@@ -30,7 +30,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-dm-mono/useFonts';
 import { DMMono_300Light } from 'expo-google-fonts-dm-mono/300Light';
 import { DMMono_300Light_Italic } from 'expo-google-fonts-dm-mono/300Light_Italic';
@@ -56,13 +59,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DMMono_300Light',
+            fontFamily:
+              'DMMono_300Light',
           }}>
           DM Mono Light
         </Text>
@@ -72,7 +81,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DMMono_300Light_Italic',
+            fontFamily:
+              'DMMono_300Light_Italic',
           }}>
           DM Mono Light Italic
         </Text>
@@ -82,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DMMono_400Regular',
+            fontFamily:
+              'DMMono_400Regular',
           }}>
           DM Mono Regular
         </Text>
@@ -92,7 +103,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DMMono_400Regular_Italic',
+            fontFamily:
+              'DMMono_400Regular_Italic',
           }}>
           DM Mono Italic
         </Text>
@@ -102,7 +114,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DMMono_500Medium',
+            fontFamily:
+              'DMMono_500Medium',
           }}>
           DM Mono Medium
         </Text>
@@ -112,7 +125,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DMMono_500Medium_Italic',
+            fontFamily:
+              'DMMono_500Medium_Italic',
           }}>
           DM Mono Medium Italic
         </Text>

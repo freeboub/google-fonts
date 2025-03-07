@@ -1,6 +1,11 @@
 {
   "family": "GFS Neohellenic",
-  "variants": ["regular", "italic", "700", "700italic"],
+  "variants": [
+    "regular",
+    "italic",
+    "700",
+    "700italic"
+  ],
   "subsets": ["greek"],
   "version": "v25",
   "lastModified": "2024-08-12",

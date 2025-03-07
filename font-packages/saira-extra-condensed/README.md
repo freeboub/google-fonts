@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-saira-extra-condensed/useFonts';
 import { SairaExtraCondensed_100Thin } from 'expo-google-fonts-saira-extra-condensed/100Thin';
 import { SairaExtraCondensed_200ExtraLight } from 'expo-google-fonts-saira-extra-condensed/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SairaExtraCondensed_100Thin',
+            fontFamily:
+              'SairaExtraCondensed_100Thin',
           }}>
           Saira Extra Condensed Thin
         </Text>
@@ -81,9 +90,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SairaExtraCondensed_200ExtraLight',
+            fontFamily:
+              'SairaExtraCondensed_200ExtraLight',
           }}>
-          Saira Extra Condensed Extra Light
+          Saira Extra Condensed Extra
+          Light
         </Text>
 
         <Text
@@ -91,7 +102,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SairaExtraCondensed_300Light',
+            fontFamily:
+              'SairaExtraCondensed_300Light',
           }}>
           Saira Extra Condensed Light
         </Text>
@@ -101,7 +113,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SairaExtraCondensed_400Regular',
+            fontFamily:
+              'SairaExtraCondensed_400Regular',
           }}>
           Saira Extra Condensed Regular
         </Text>
@@ -111,7 +124,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SairaExtraCondensed_500Medium',
+            fontFamily:
+              'SairaExtraCondensed_500Medium',
           }}>
           Saira Extra Condensed Medium
         </Text>
@@ -121,9 +135,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SairaExtraCondensed_600SemiBold',
+            fontFamily:
+              'SairaExtraCondensed_600SemiBold',
           }}>
-          Saira Extra Condensed Semi Bold
+          Saira Extra Condensed Semi
+          Bold
         </Text>
 
         <Text
@@ -131,7 +147,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SairaExtraCondensed_700Bold',
+            fontFamily:
+              'SairaExtraCondensed_700Bold',
           }}>
           Saira Extra Condensed Bold
         </Text>
@@ -141,9 +158,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SairaExtraCondensed_800ExtraBold',
+            fontFamily:
+              'SairaExtraCondensed_800ExtraBold',
           }}>
-          Saira Extra Condensed Extra Bold
+          Saira Extra Condensed Extra
+          Bold
         </Text>
 
         <Text
@@ -151,7 +170,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SairaExtraCondensed_900Black',
+            fontFamily:
+              'SairaExtraCondensed_900Black',
           }}>
           Saira Extra Condensed Black
         </Text>

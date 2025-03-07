@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-courier-prime/useFonts';
 import { CourierPrime_400Regular } from 'expo-google-fonts-courier-prime/400Regular';
 import { CourierPrime_400Regular_Italic } from 'expo-google-fonts-courier-prime/400Regular_Italic';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CourierPrime_400Regular',
+            fontFamily:
+              'CourierPrime_400Regular',
           }}>
           Courier Prime Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CourierPrime_400Regular_Italic',
+            fontFamily:
+              'CourierPrime_400Regular_Italic',
           }}>
           Courier Prime Italic
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CourierPrime_700Bold',
+            fontFamily:
+              'CourierPrime_700Bold',
           }}>
           Courier Prime Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CourierPrime_700Bold_Italic',
+            fontFamily:
+              'CourierPrime_700Bold_Italic',
           }}>
           Courier Prime Bold Italic
         </Text>

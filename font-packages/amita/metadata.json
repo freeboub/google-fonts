@@ -1,7 +1,11 @@
 {
   "family": "Amita",
   "variants": ["regular", "700"],
-  "subsets": ["devanagari", "latin", "latin-ext"],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v18",
   "lastModified": "2024-09-04",
   "files": {

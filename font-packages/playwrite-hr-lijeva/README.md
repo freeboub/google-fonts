@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playwrite-hr-lijeva/useFonts';
 import { PlaywriteHRLijeva_100Thin } from 'expo-google-fonts-playwrite-hr-lijeva/100Thin';
 import { PlaywriteHRLijeva_200ExtraLight } from 'expo-google-fonts-playwrite-hr-lijeva/200ExtraLight';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteHRLijeva_100Thin',
+            fontFamily:
+              'PlaywriteHRLijeva_100Thin',
           }}>
           Playwrite HR Lijeva Thin
         </Text>
@@ -66,9 +75,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteHRLijeva_200ExtraLight',
+            fontFamily:
+              'PlaywriteHRLijeva_200ExtraLight',
           }}>
-          Playwrite HR Lijeva Extra Light
+          Playwrite HR Lijeva Extra
+          Light
         </Text>
 
         <Text
@@ -76,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteHRLijeva_300Light',
+            fontFamily:
+              'PlaywriteHRLijeva_300Light',
           }}>
           Playwrite HR Lijeva Light
         </Text>
@@ -86,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteHRLijeva_400Regular',
+            fontFamily:
+              'PlaywriteHRLijeva_400Regular',
           }}>
           Playwrite HR Lijeva Regular
         </Text>

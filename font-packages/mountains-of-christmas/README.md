@@ -26,7 +26,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-mountains-of-christmas/useFonts';
 import { MountainsofChristmas_400Regular } from 'expo-google-fonts-mountains-of-christmas/400Regular';
 import { MountainsofChristmas_700Bold } from 'expo-google-fonts-mountains-of-christmas/700Bold';
@@ -44,13 +47,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MountainsofChristmas_400Regular',
+            fontFamily:
+              'MountainsofChristmas_400Regular',
           }}>
           Mountains of Christmas Regular
         </Text>
@@ -60,7 +69,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MountainsofChristmas_700Bold',
+            fontFamily:
+              'MountainsofChristmas_700Bold',
           }}>
           Mountains of Christmas Bold
         </Text>

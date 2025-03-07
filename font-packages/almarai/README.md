@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-almarai/useFonts';
 import { Almarai_300Light } from 'expo-google-fonts-almarai/300Light';
 import { Almarai_400Regular } from 'expo-google-fonts-almarai/400Regular';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Almarai_300Light',
+            fontFamily:
+              'Almarai_300Light',
           }}>
           Almarai Light
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Almarai_400Regular',
+            fontFamily:
+              'Almarai_400Regular',
           }}>
           Almarai Regular
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Almarai_700Bold',
+            fontFamily:
+              'Almarai_700Bold',
           }}>
           Almarai Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Almarai_800ExtraBold',
+            fontFamily:
+              'Almarai_800ExtraBold',
           }}>
           Almarai Extra Bold
         </Text>

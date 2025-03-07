@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Tamil Supplement",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "tamil-supplement"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "tamil-supplement"
+  ],
   "version": "v21",
   "lastModified": "2023-06-30",
   "files": {

@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Old Sogdian",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "old-sogdian"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "old-sogdian"
+  ],
   "version": "v17",
   "lastModified": "2024-07-30",
   "files": {

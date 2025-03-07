@@ -1,10 +1,18 @@
 {
   "family": "Lobster",
   "variants": ["regular"],
-  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v30",
   "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/lobster/v30/neILzCirqoswsqX9_oWsMqEzSJQ.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/lobster/v30/neILzCirqoswsqX9_oWsMqEzSJQ.ttf"
+  },
   "category": "display",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/lobster/v30/neILzCirqoswsqX9zoSmNg.ttf"

@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-roboto-serif/useFonts';
 import { RobotoSerif_100Thin } from 'expo-google-fonts-roboto-serif/100Thin';
 import { RobotoSerif_200ExtraLight } from 'expo-google-fonts-roboto-serif/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_100Thin',
+            fontFamily:
+              'RobotoSerif_100Thin',
           }}>
           Roboto Serif Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_200ExtraLight',
+            fontFamily:
+              'RobotoSerif_200ExtraLight',
           }}>
           Roboto Serif Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_300Light',
+            fontFamily:
+              'RobotoSerif_300Light',
           }}>
           Roboto Serif Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_400Regular',
+            fontFamily:
+              'RobotoSerif_400Regular',
           }}>
           Roboto Serif Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_500Medium',
+            fontFamily:
+              'RobotoSerif_500Medium',
           }}>
           Roboto Serif Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_600SemiBold',
+            fontFamily:
+              'RobotoSerif_600SemiBold',
           }}>
           Roboto Serif Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_700Bold',
+            fontFamily:
+              'RobotoSerif_700Bold',
           }}>
           Roboto Serif Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_800ExtraBold',
+            fontFamily:
+              'RobotoSerif_800ExtraBold',
           }}>
           Roboto Serif Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_900Black',
+            fontFamily:
+              'RobotoSerif_900Black',
           }}>
           Roboto Serif Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_100Thin_Italic',
+            fontFamily:
+              'RobotoSerif_100Thin_Italic',
           }}>
           Roboto Serif Thin Italic
         </Text>
@@ -198,9 +216,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_200ExtraLight_Italic',
+            fontFamily:
+              'RobotoSerif_200ExtraLight_Italic',
           }}>
-          Roboto Serif Extra Light Italic
+          Roboto Serif Extra Light
+          Italic
         </Text>
 
         <Text
@@ -208,7 +228,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_300Light_Italic',
+            fontFamily:
+              'RobotoSerif_300Light_Italic',
           }}>
           Roboto Serif Light Italic
         </Text>
@@ -218,7 +239,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_400Regular_Italic',
+            fontFamily:
+              'RobotoSerif_400Regular_Italic',
           }}>
           Roboto Serif Italic
         </Text>
@@ -228,7 +250,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_500Medium_Italic',
+            fontFamily:
+              'RobotoSerif_500Medium_Italic',
           }}>
           Roboto Serif Medium Italic
         </Text>
@@ -238,7 +261,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_600SemiBold_Italic',
+            fontFamily:
+              'RobotoSerif_600SemiBold_Italic',
           }}>
           Roboto Serif Semi Bold Italic
         </Text>
@@ -248,7 +272,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_700Bold_Italic',
+            fontFamily:
+              'RobotoSerif_700Bold_Italic',
           }}>
           Roboto Serif Bold Italic
         </Text>
@@ -258,7 +283,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_800ExtraBold_Italic',
+            fontFamily:
+              'RobotoSerif_800ExtraBold_Italic',
           }}>
           Roboto Serif Extra Bold Italic
         </Text>
@@ -268,7 +294,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSerif_900Black_Italic',
+            fontFamily:
+              'RobotoSerif_900Black_Italic',
           }}>
           Roboto Serif Black Italic
         </Text>

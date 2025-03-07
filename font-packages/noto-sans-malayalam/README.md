@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-malayalam/useFonts';
 import { NotoSansMalayalam_100Thin } from 'expo-google-fonts-noto-sans-malayalam/100Thin';
 import { NotoSansMalayalam_200ExtraLight } from 'expo-google-fonts-noto-sans-malayalam/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansMalayalam_100Thin',
+            fontFamily:
+              'NotoSansMalayalam_100Thin',
           }}>
           Noto Sans Malayalam Thin
         </Text>
@@ -81,9 +90,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansMalayalam_200ExtraLight',
+            fontFamily:
+              'NotoSansMalayalam_200ExtraLight',
           }}>
-          Noto Sans Malayalam Extra Light
+          Noto Sans Malayalam Extra
+          Light
         </Text>
 
         <Text
@@ -91,7 +102,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansMalayalam_300Light',
+            fontFamily:
+              'NotoSansMalayalam_300Light',
           }}>
           Noto Sans Malayalam Light
         </Text>
@@ -101,7 +113,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansMalayalam_400Regular',
+            fontFamily:
+              'NotoSansMalayalam_400Regular',
           }}>
           Noto Sans Malayalam Regular
         </Text>
@@ -111,7 +124,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansMalayalam_500Medium',
+            fontFamily:
+              'NotoSansMalayalam_500Medium',
           }}>
           Noto Sans Malayalam Medium
         </Text>
@@ -121,7 +135,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansMalayalam_600SemiBold',
+            fontFamily:
+              'NotoSansMalayalam_600SemiBold',
           }}>
           Noto Sans Malayalam Semi Bold
         </Text>
@@ -131,7 +146,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansMalayalam_700Bold',
+            fontFamily:
+              'NotoSansMalayalam_700Bold',
           }}>
           Noto Sans Malayalam Bold
         </Text>
@@ -141,7 +157,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansMalayalam_800ExtraBold',
+            fontFamily:
+              'NotoSansMalayalam_800ExtraBold',
           }}>
           Noto Sans Malayalam Extra Bold
         </Text>
@@ -151,7 +168,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansMalayalam_900Black',
+            fontFamily:
+              'NotoSansMalayalam_900Black',
           }}>
           Noto Sans Malayalam Black
         </Text>

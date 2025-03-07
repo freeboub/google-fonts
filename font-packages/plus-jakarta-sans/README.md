@@ -38,7 +38,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-plus-jakarta-sans/useFonts';
 import { PlusJakartaSans_200ExtraLight } from 'expo-google-fonts-plus-jakarta-sans/200ExtraLight';
 import { PlusJakartaSans_300Light } from 'expo-google-fonts-plus-jakarta-sans/300Light';
@@ -80,13 +83,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlusJakartaSans_200ExtraLight',
+            fontFamily:
+              'PlusJakartaSans_200ExtraLight',
           }}>
           Plus Jakarta Sans Extra Light
         </Text>
@@ -96,7 +105,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlusJakartaSans_300Light',
+            fontFamily:
+              'PlusJakartaSans_300Light',
           }}>
           Plus Jakarta Sans Light
         </Text>
@@ -106,7 +116,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlusJakartaSans_400Regular',
+            fontFamily:
+              'PlusJakartaSans_400Regular',
           }}>
           Plus Jakarta Sans Regular
         </Text>
@@ -116,7 +127,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlusJakartaSans_500Medium',
+            fontFamily:
+              'PlusJakartaSans_500Medium',
           }}>
           Plus Jakarta Sans Medium
         </Text>
@@ -126,7 +138,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlusJakartaSans_600SemiBold',
+            fontFamily:
+              'PlusJakartaSans_600SemiBold',
           }}>
           Plus Jakarta Sans Semi Bold
         </Text>
@@ -136,7 +149,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlusJakartaSans_700Bold',
+            fontFamily:
+              'PlusJakartaSans_700Bold',
           }}>
           Plus Jakarta Sans Bold
         </Text>
@@ -146,7 +160,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlusJakartaSans_800ExtraBold',
+            fontFamily:
+              'PlusJakartaSans_800ExtraBold',
           }}>
           Plus Jakarta Sans Extra Bold
         </Text>
@@ -156,9 +171,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlusJakartaSans_200ExtraLight_Italic',
+            fontFamily:
+              'PlusJakartaSans_200ExtraLight_Italic',
           }}>
-          Plus Jakarta Sans Extra Light Italic
+          Plus Jakarta Sans Extra Light
+          Italic
         </Text>
 
         <Text
@@ -166,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlusJakartaSans_300Light_Italic',
+            fontFamily:
+              'PlusJakartaSans_300Light_Italic',
           }}>
           Plus Jakarta Sans Light Italic
         </Text>
@@ -176,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlusJakartaSans_400Regular_Italic',
+            fontFamily:
+              'PlusJakartaSans_400Regular_Italic',
           }}>
           Plus Jakarta Sans Italic
         </Text>
@@ -186,9 +205,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlusJakartaSans_500Medium_Italic',
+            fontFamily:
+              'PlusJakartaSans_500Medium_Italic',
           }}>
-          Plus Jakarta Sans Medium Italic
+          Plus Jakarta Sans Medium
+          Italic
         </Text>
 
         <Text
@@ -196,9 +217,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlusJakartaSans_600SemiBold_Italic',
+            fontFamily:
+              'PlusJakartaSans_600SemiBold_Italic',
           }}>
-          Plus Jakarta Sans Semi Bold Italic
+          Plus Jakarta Sans Semi Bold
+          Italic
         </Text>
 
         <Text
@@ -206,7 +229,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlusJakartaSans_700Bold_Italic',
+            fontFamily:
+              'PlusJakartaSans_700Bold_Italic',
           }}>
           Plus Jakarta Sans Bold Italic
         </Text>
@@ -216,9 +240,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlusJakartaSans_800ExtraBold_Italic',
+            fontFamily:
+              'PlusJakartaSans_800ExtraBold_Italic',
           }}>
-          Plus Jakarta Sans Extra Bold Italic
+          Plus Jakarta Sans Extra Bold
+          Italic
         </Text>
       </View>
     );

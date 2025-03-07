@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playwrite-de-la/useFonts';
 import { PlaywriteDELA_100Thin } from 'expo-google-fonts-playwrite-de-la/100Thin';
 import { PlaywriteDELA_200ExtraLight } from 'expo-google-fonts-playwrite-de-la/200ExtraLight';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteDELA_100Thin',
+            fontFamily:
+              'PlaywriteDELA_100Thin',
           }}>
           Playwrite DE LA Thin
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteDELA_200ExtraLight',
+            fontFamily:
+              'PlaywriteDELA_200ExtraLight',
           }}>
           Playwrite DE LA Extra Light
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteDELA_300Light',
+            fontFamily:
+              'PlaywriteDELA_300Light',
           }}>
           Playwrite DE LA Light
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteDELA_400Regular',
+            fontFamily:
+              'PlaywriteDELA_400Regular',
           }}>
           Playwrite DE LA Regular
         </Text>

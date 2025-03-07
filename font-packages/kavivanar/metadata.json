@@ -1,7 +1,11 @@
 {
   "family": "Kavivanar",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "tamil"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "tamil"
+  ],
   "version": "v20",
   "lastModified": "2024-09-04",
   "files": {

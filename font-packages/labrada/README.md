@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-labrada/useFonts';
 import { Labrada_100Thin } from 'expo-google-fonts-labrada/100Thin';
 import { Labrada_200ExtraLight } from 'expo-google-fonts-labrada/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_100Thin',
+            fontFamily:
+              'Labrada_100Thin',
           }}>
           Labrada Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_200ExtraLight',
+            fontFamily:
+              'Labrada_200ExtraLight',
           }}>
           Labrada Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_300Light',
+            fontFamily:
+              'Labrada_300Light',
           }}>
           Labrada Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_400Regular',
+            fontFamily:
+              'Labrada_400Regular',
           }}>
           Labrada Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_500Medium',
+            fontFamily:
+              'Labrada_500Medium',
           }}>
           Labrada Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_600SemiBold',
+            fontFamily:
+              'Labrada_600SemiBold',
           }}>
           Labrada Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_700Bold',
+            fontFamily:
+              'Labrada_700Bold',
           }}>
           Labrada Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_800ExtraBold',
+            fontFamily:
+              'Labrada_800ExtraBold',
           }}>
           Labrada Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_900Black',
+            fontFamily:
+              'Labrada_900Black',
           }}>
           Labrada Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_100Thin_Italic',
+            fontFamily:
+              'Labrada_100Thin_Italic',
           }}>
           Labrada Thin Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_200ExtraLight_Italic',
+            fontFamily:
+              'Labrada_200ExtraLight_Italic',
           }}>
           Labrada Extra Light Italic
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_300Light_Italic',
+            fontFamily:
+              'Labrada_300Light_Italic',
           }}>
           Labrada Light Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_400Regular_Italic',
+            fontFamily:
+              'Labrada_400Regular_Italic',
           }}>
           Labrada Italic
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_500Medium_Italic',
+            fontFamily:
+              'Labrada_500Medium_Italic',
           }}>
           Labrada Medium Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_600SemiBold_Italic',
+            fontFamily:
+              'Labrada_600SemiBold_Italic',
           }}>
           Labrada Semi Bold Italic
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_700Bold_Italic',
+            fontFamily:
+              'Labrada_700Bold_Italic',
           }}>
           Labrada Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_800ExtraBold_Italic',
+            fontFamily:
+              'Labrada_800ExtraBold_Italic',
           }}>
           Labrada Extra Bold Italic
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Labrada_900Black_Italic',
+            fontFamily:
+              'Labrada_900Black_Italic',
           }}>
           Labrada Black Italic
         </Text>

@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-ubuntu-mono/useFonts';
 import { UbuntuMono_400Regular } from 'expo-google-fonts-ubuntu-mono/400Regular';
 import { UbuntuMono_400Regular_Italic } from 'expo-google-fonts-ubuntu-mono/400Regular_Italic';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuMono_400Regular',
+            fontFamily:
+              'UbuntuMono_400Regular',
           }}>
           Ubuntu Mono Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuMono_400Regular_Italic',
+            fontFamily:
+              'UbuntuMono_400Regular_Italic',
           }}>
           Ubuntu Mono Italic
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuMono_700Bold',
+            fontFamily:
+              'UbuntuMono_700Bold',
           }}>
           Ubuntu Mono Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuMono_700Bold_Italic',
+            fontFamily:
+              'UbuntuMono_700Bold_Italic',
           }}>
           Ubuntu Mono Bold Italic
         </Text>

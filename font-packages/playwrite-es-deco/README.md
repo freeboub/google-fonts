@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playwrite-es-deco/useFonts';
 import { PlaywriteESDeco_100Thin } from 'expo-google-fonts-playwrite-es-deco/100Thin';
 import { PlaywriteESDeco_200ExtraLight } from 'expo-google-fonts-playwrite-es-deco/200ExtraLight';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteESDeco_100Thin',
+            fontFamily:
+              'PlaywriteESDeco_100Thin',
           }}>
           Playwrite ES Deco Thin
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteESDeco_200ExtraLight',
+            fontFamily:
+              'PlaywriteESDeco_200ExtraLight',
           }}>
           Playwrite ES Deco Extra Light
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteESDeco_300Light',
+            fontFamily:
+              'PlaywriteESDeco_300Light',
           }}>
           Playwrite ES Deco Light
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteESDeco_400Regular',
+            fontFamily:
+              'PlaywriteESDeco_400Regular',
           }}>
           Playwrite ES Deco Regular
         </Text>

@@ -20,7 +20,12 @@
     "900",
     "900italic"
   ],
-  "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "thai",
+    "vietnamese"
+  ],
   "version": "v13",
   "lastModified": "2024-09-04",
   "files": {

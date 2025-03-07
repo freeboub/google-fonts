@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-piazzolla/useFonts';
 import { Piazzolla_100Thin } from 'expo-google-fonts-piazzolla/100Thin';
 import { Piazzolla_200ExtraLight } from 'expo-google-fonts-piazzolla/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Piazzolla_100Thin',
+            fontFamily:
+              'Piazzolla_100Thin',
           }}>
           Piazzolla Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Piazzolla_200ExtraLight',
+            fontFamily:
+              'Piazzolla_200ExtraLight',
           }}>
           Piazzolla Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Piazzolla_300Light',
+            fontFamily:
+              'Piazzolla_300Light',
           }}>
           Piazzolla Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Piazzolla_400Regular',
+            fontFamily:
+              'Piazzolla_400Regular',
           }}>
           Piazzolla Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Piazzolla_500Medium',
+            fontFamily:
+              'Piazzolla_500Medium',
           }}>
           Piazzolla Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Piazzolla_600SemiBold',
+            fontFamily:
+              'Piazzolla_600SemiBold',
           }}>
           Piazzolla Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Piazzolla_700Bold',
+            fontFamily:
+              'Piazzolla_700Bold',
           }}>
           Piazzolla Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Piazzolla_800ExtraBold',
+            fontFamily:
+              'Piazzolla_800ExtraBold',
           }}>
           Piazzolla Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Piazzolla_900Black',
+            fontFamily:
+              'Piazzolla_900Black',
           }}>
           Piazzolla Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Piazzolla_100Thin_Italic',
+            fontFamily:
+              'Piazzolla_100Thin_Italic',
           }}>
           Piazzolla Thin Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Piazzolla_200ExtraLight_Italic',
+            fontFamily:
+              'Piazzolla_200ExtraLight_Italic',
           }}>
           Piazzolla Extra Light Italic
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Piazzolla_300Light_Italic',
+            fontFamily:
+              'Piazzolla_300Light_Italic',
           }}>
           Piazzolla Light Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Piazzolla_400Regular_Italic',
+            fontFamily:
+              'Piazzolla_400Regular_Italic',
           }}>
           Piazzolla Italic
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Piazzolla_500Medium_Italic',
+            fontFamily:
+              'Piazzolla_500Medium_Italic',
           }}>
           Piazzolla Medium Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Piazzolla_600SemiBold_Italic',
+            fontFamily:
+              'Piazzolla_600SemiBold_Italic',
           }}>
           Piazzolla Semi Bold Italic
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Piazzolla_700Bold_Italic',
+            fontFamily:
+              'Piazzolla_700Bold_Italic',
           }}>
           Piazzolla Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Piazzolla_800ExtraBold_Italic',
+            fontFamily:
+              'Piazzolla_800ExtraBold_Italic',
           }}>
           Piazzolla Extra Bold Italic
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Piazzolla_900Black_Italic',
+            fontFamily:
+              'Piazzolla_900Black_Italic',
           }}>
           Piazzolla Black Italic
         </Text>

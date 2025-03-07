@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-saira-condensed/useFonts';
 import { SairaCondensed_100Thin } from 'expo-google-fonts-saira-condensed/100Thin';
 import { SairaCondensed_200ExtraLight } from 'expo-google-fonts-saira-condensed/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SairaCondensed_100Thin',
+            fontFamily:
+              'SairaCondensed_100Thin',
           }}>
           Saira Condensed Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SairaCondensed_200ExtraLight',
+            fontFamily:
+              'SairaCondensed_200ExtraLight',
           }}>
           Saira Condensed Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SairaCondensed_300Light',
+            fontFamily:
+              'SairaCondensed_300Light',
           }}>
           Saira Condensed Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SairaCondensed_400Regular',
+            fontFamily:
+              'SairaCondensed_400Regular',
           }}>
           Saira Condensed Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SairaCondensed_500Medium',
+            fontFamily:
+              'SairaCondensed_500Medium',
           }}>
           Saira Condensed Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SairaCondensed_600SemiBold',
+            fontFamily:
+              'SairaCondensed_600SemiBold',
           }}>
           Saira Condensed Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SairaCondensed_700Bold',
+            fontFamily:
+              'SairaCondensed_700Bold',
           }}>
           Saira Condensed Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SairaCondensed_800ExtraBold',
+            fontFamily:
+              'SairaCondensed_800ExtraBold',
           }}>
           Saira Condensed Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SairaCondensed_900Black',
+            fontFamily:
+              'SairaCondensed_900Black',
           }}>
           Saira Condensed Black
         </Text>

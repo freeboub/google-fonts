@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-fira-sans-extra-condensed/useFonts';
 import { FiraSansExtraCondensed_100Thin } from 'expo-google-fonts-fira-sans-extra-condensed/100Thin';
 import { FiraSansExtraCondensed_100Thin_Italic } from 'expo-google-fonts-fira-sans-extra-condensed/100Thin_Italic';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FiraSansExtraCondensed_100Thin',
+            fontFamily:
+              'FiraSansExtraCondensed_100Thin',
           }}>
           Fira Sans Extra Condensed Thin
         </Text>
@@ -108,9 +117,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FiraSansExtraCondensed_100Thin_Italic',
+            fontFamily:
+              'FiraSansExtraCondensed_100Thin_Italic',
           }}>
-          Fira Sans Extra Condensed Thin Italic
+          Fira Sans Extra Condensed Thin
+          Italic
         </Text>
 
         <Text
@@ -118,9 +129,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FiraSansExtraCondensed_200ExtraLight',
+            fontFamily:
+              'FiraSansExtraCondensed_200ExtraLight',
           }}>
-          Fira Sans Extra Condensed Extra Light
+          Fira Sans Extra Condensed
+          Extra Light
         </Text>
 
         <Text
@@ -128,9 +141,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FiraSansExtraCondensed_200ExtraLight_Italic',
+            fontFamily:
+              'FiraSansExtraCondensed_200ExtraLight_Italic',
           }}>
-          Fira Sans Extra Condensed Extra Light Italic
+          Fira Sans Extra Condensed
+          Extra Light Italic
         </Text>
 
         <Text
@@ -138,9 +153,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FiraSansExtraCondensed_300Light',
+            fontFamily:
+              'FiraSansExtraCondensed_300Light',
           }}>
-          Fira Sans Extra Condensed Light
+          Fira Sans Extra Condensed
+          Light
         </Text>
 
         <Text
@@ -148,9 +165,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FiraSansExtraCondensed_300Light_Italic',
+            fontFamily:
+              'FiraSansExtraCondensed_300Light_Italic',
           }}>
-          Fira Sans Extra Condensed Light Italic
+          Fira Sans Extra Condensed
+          Light Italic
         </Text>
 
         <Text
@@ -158,9 +177,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FiraSansExtraCondensed_400Regular',
+            fontFamily:
+              'FiraSansExtraCondensed_400Regular',
           }}>
-          Fira Sans Extra Condensed Regular
+          Fira Sans Extra Condensed
+          Regular
         </Text>
 
         <Text
@@ -168,9 +189,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FiraSansExtraCondensed_400Regular_Italic',
+            fontFamily:
+              'FiraSansExtraCondensed_400Regular_Italic',
           }}>
-          Fira Sans Extra Condensed Italic
+          Fira Sans Extra Condensed
+          Italic
         </Text>
 
         <Text
@@ -178,9 +201,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FiraSansExtraCondensed_500Medium',
+            fontFamily:
+              'FiraSansExtraCondensed_500Medium',
           }}>
-          Fira Sans Extra Condensed Medium
+          Fira Sans Extra Condensed
+          Medium
         </Text>
 
         <Text
@@ -188,9 +213,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FiraSansExtraCondensed_500Medium_Italic',
+            fontFamily:
+              'FiraSansExtraCondensed_500Medium_Italic',
           }}>
-          Fira Sans Extra Condensed Medium Italic
+          Fira Sans Extra Condensed
+          Medium Italic
         </Text>
 
         <Text
@@ -198,9 +225,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FiraSansExtraCondensed_600SemiBold',
+            fontFamily:
+              'FiraSansExtraCondensed_600SemiBold',
           }}>
-          Fira Sans Extra Condensed Semi Bold
+          Fira Sans Extra Condensed Semi
+          Bold
         </Text>
 
         <Text
@@ -208,9 +237,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FiraSansExtraCondensed_600SemiBold_Italic',
+            fontFamily:
+              'FiraSansExtraCondensed_600SemiBold_Italic',
           }}>
-          Fira Sans Extra Condensed Semi Bold Italic
+          Fira Sans Extra Condensed Semi
+          Bold Italic
         </Text>
 
         <Text
@@ -218,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FiraSansExtraCondensed_700Bold',
+            fontFamily:
+              'FiraSansExtraCondensed_700Bold',
           }}>
           Fira Sans Extra Condensed Bold
         </Text>
@@ -228,9 +260,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FiraSansExtraCondensed_700Bold_Italic',
+            fontFamily:
+              'FiraSansExtraCondensed_700Bold_Italic',
           }}>
-          Fira Sans Extra Condensed Bold Italic
+          Fira Sans Extra Condensed Bold
+          Italic
         </Text>
 
         <Text
@@ -238,9 +272,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FiraSansExtraCondensed_800ExtraBold',
+            fontFamily:
+              'FiraSansExtraCondensed_800ExtraBold',
           }}>
-          Fira Sans Extra Condensed Extra Bold
+          Fira Sans Extra Condensed
+          Extra Bold
         </Text>
 
         <Text
@@ -248,9 +284,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FiraSansExtraCondensed_800ExtraBold_Italic',
+            fontFamily:
+              'FiraSansExtraCondensed_800ExtraBold_Italic',
           }}>
-          Fira Sans Extra Condensed Extra Bold Italic
+          Fira Sans Extra Condensed
+          Extra Bold Italic
         </Text>
 
         <Text
@@ -258,9 +296,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FiraSansExtraCondensed_900Black',
+            fontFamily:
+              'FiraSansExtraCondensed_900Black',
           }}>
-          Fira Sans Extra Condensed Black
+          Fira Sans Extra Condensed
+          Black
         </Text>
 
         <Text
@@ -268,9 +308,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FiraSansExtraCondensed_900Black_Italic',
+            fontFamily:
+              'FiraSansExtraCondensed_900Black_Italic',
           }}>
-          Fira Sans Extra Condensed Black Italic
+          Fira Sans Extra Condensed
+          Black Italic
         </Text>
       </View>
     );

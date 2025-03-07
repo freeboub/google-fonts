@@ -1,7 +1,10 @@
 {
   "family": "ZCOOL QingKe HuangYou",
   "variants": ["regular"],
-  "subsets": ["chinese-simplified", "latin"],
+  "subsets": [
+    "chinese-simplified",
+    "latin"
+  ],
   "version": "v15",
   "lastModified": "2024-08-12",
   "files": {

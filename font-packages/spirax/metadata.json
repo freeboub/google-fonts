@@ -4,7 +4,9 @@
   "subsets": ["latin"],
   "version": "v21",
   "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/spirax/v21/buE3poKgYNLy0F3cXktt-Csn-Q.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/spirax/v21/buE3poKgYNLy0F3cXktt-Csn-Q.ttf"
+  },
   "category": "display",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/spirax/v21/buE3poKgYNLy0F3sX0Fp.ttf"

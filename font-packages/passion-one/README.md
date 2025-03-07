@@ -27,7 +27,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-passion-one/useFonts';
 import { PassionOne_400Regular } from 'expo-google-fonts-passion-one/400Regular';
 import { PassionOne_700Bold } from 'expo-google-fonts-passion-one/700Bold';
@@ -47,13 +50,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PassionOne_400Regular',
+            fontFamily:
+              'PassionOne_400Regular',
           }}>
           Passion One Regular
         </Text>
@@ -63,7 +72,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PassionOne_700Bold',
+            fontFamily:
+              'PassionOne_700Bold',
           }}>
           Passion One Bold
         </Text>
@@ -73,7 +83,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PassionOne_900Black',
+            fontFamily:
+              'PassionOne_900Black',
           }}>
           Passion One Black
         </Text>

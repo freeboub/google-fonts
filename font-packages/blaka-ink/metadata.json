@@ -1,7 +1,11 @@
 {
   "family": "Blaka Ink",
   "variants": ["regular"],
-  "subsets": ["arabic", "latin", "latin-ext"],
+  "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v10",
   "lastModified": "2025-03-03",
   "files": {

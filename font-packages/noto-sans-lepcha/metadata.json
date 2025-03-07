@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Lepcha",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "lepcha"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "lepcha"
+  ],
   "version": "v19",
   "lastModified": "2023-09-13",
   "files": {

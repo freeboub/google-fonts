@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Saurashtra",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "saurashtra"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "saurashtra"
+  ],
   "version": "v23",
   "lastModified": "2023-09-13",
   "files": {

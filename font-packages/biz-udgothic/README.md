@@ -26,7 +26,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-biz-udgothic/useFonts';
 import { BIZUDGothic_400Regular } from 'expo-google-fonts-biz-udgothic/400Regular';
 import { BIZUDGothic_700Bold } from 'expo-google-fonts-biz-udgothic/700Bold';
@@ -44,13 +47,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BIZUDGothic_400Regular',
+            fontFamily:
+              'BIZUDGothic_400Regular',
           }}>
           BIZ UDGothic Regular
         </Text>
@@ -60,7 +69,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BIZUDGothic_700Bold',
+            fontFamily:
+              'BIZUDGothic_700Bold',
           }}>
           BIZ UDGothic Bold
         </Text>

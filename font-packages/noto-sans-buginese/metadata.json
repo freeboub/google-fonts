@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Buginese",
   "variants": ["regular"],
-  "subsets": ["buginese", "latin", "latin-ext"],
+  "subsets": [
+    "buginese",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v18",
   "lastModified": "2023-05-02",
   "files": {

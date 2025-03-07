@@ -38,7 +38,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-rubik/useFonts';
 import { Rubik_300Light } from 'expo-google-fonts-rubik/300Light';
 import { Rubik_400Regular } from 'expo-google-fonts-rubik/400Regular';
@@ -80,13 +83,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rubik_300Light',
+            fontFamily:
+              'Rubik_300Light',
           }}>
           Rubik Light
         </Text>
@@ -96,7 +105,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rubik_400Regular',
+            fontFamily:
+              'Rubik_400Regular',
           }}>
           Rubik Regular
         </Text>
@@ -106,7 +116,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rubik_500Medium',
+            fontFamily:
+              'Rubik_500Medium',
           }}>
           Rubik Medium
         </Text>
@@ -116,7 +127,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rubik_600SemiBold',
+            fontFamily:
+              'Rubik_600SemiBold',
           }}>
           Rubik Semi Bold
         </Text>
@@ -136,7 +148,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rubik_800ExtraBold',
+            fontFamily:
+              'Rubik_800ExtraBold',
           }}>
           Rubik Extra Bold
         </Text>
@@ -146,7 +159,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rubik_900Black',
+            fontFamily:
+              'Rubik_900Black',
           }}>
           Rubik Black
         </Text>
@@ -156,7 +170,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rubik_300Light_Italic',
+            fontFamily:
+              'Rubik_300Light_Italic',
           }}>
           Rubik Light Italic
         </Text>
@@ -166,7 +181,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rubik_400Regular_Italic',
+            fontFamily:
+              'Rubik_400Regular_Italic',
           }}>
           Rubik Italic
         </Text>
@@ -176,7 +192,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rubik_500Medium_Italic',
+            fontFamily:
+              'Rubik_500Medium_Italic',
           }}>
           Rubik Medium Italic
         </Text>
@@ -186,7 +203,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rubik_600SemiBold_Italic',
+            fontFamily:
+              'Rubik_600SemiBold_Italic',
           }}>
           Rubik Semi Bold Italic
         </Text>
@@ -196,7 +214,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rubik_700Bold_Italic',
+            fontFamily:
+              'Rubik_700Bold_Italic',
           }}>
           Rubik Bold Italic
         </Text>
@@ -206,7 +225,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rubik_800ExtraBold_Italic',
+            fontFamily:
+              'Rubik_800ExtraBold_Italic',
           }}>
           Rubik Extra Bold Italic
         </Text>
@@ -216,7 +236,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rubik_900Black_Italic',
+            fontFamily:
+              'Rubik_900Black_Italic',
           }}>
           Rubik Black Italic
         </Text>

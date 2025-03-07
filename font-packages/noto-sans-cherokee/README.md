@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-cherokee/useFonts';
 import { NotoSansCherokee_100Thin } from 'expo-google-fonts-noto-sans-cherokee/100Thin';
 import { NotoSansCherokee_200ExtraLight } from 'expo-google-fonts-noto-sans-cherokee/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansCherokee_100Thin',
+            fontFamily:
+              'NotoSansCherokee_100Thin',
           }}>
           Noto Sans Cherokee Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansCherokee_200ExtraLight',
+            fontFamily:
+              'NotoSansCherokee_200ExtraLight',
           }}>
           Noto Sans Cherokee Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansCherokee_300Light',
+            fontFamily:
+              'NotoSansCherokee_300Light',
           }}>
           Noto Sans Cherokee Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansCherokee_400Regular',
+            fontFamily:
+              'NotoSansCherokee_400Regular',
           }}>
           Noto Sans Cherokee Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansCherokee_500Medium',
+            fontFamily:
+              'NotoSansCherokee_500Medium',
           }}>
           Noto Sans Cherokee Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansCherokee_600SemiBold',
+            fontFamily:
+              'NotoSansCherokee_600SemiBold',
           }}>
           Noto Sans Cherokee Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansCherokee_700Bold',
+            fontFamily:
+              'NotoSansCherokee_700Bold',
           }}>
           Noto Sans Cherokee Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansCherokee_800ExtraBold',
+            fontFamily:
+              'NotoSansCherokee_800ExtraBold',
           }}>
           Noto Sans Cherokee Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansCherokee_900Black',
+            fontFamily:
+              'NotoSansCherokee_900Black',
           }}>
           Noto Sans Cherokee Black
         </Text>

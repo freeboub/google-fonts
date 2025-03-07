@@ -26,7 +26,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-elsie/useFonts';
 import { Elsie_400Regular } from 'expo-google-fonts-elsie/400Regular';
 import { Elsie_900Black } from 'expo-google-fonts-elsie/900Black';
@@ -44,13 +47,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Elsie_400Regular',
+            fontFamily:
+              'Elsie_400Regular',
           }}>
           Elsie Regular
         </Text>
@@ -60,7 +69,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Elsie_900Black',
+            fontFamily:
+              'Elsie_900Black',
           }}>
           Elsie Black
         </Text>

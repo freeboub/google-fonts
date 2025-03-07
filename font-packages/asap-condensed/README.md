@@ -40,7 +40,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-asap-condensed/useFonts';
 import { AsapCondensed_200ExtraLight } from 'expo-google-fonts-asap-condensed/200ExtraLight';
 import { AsapCondensed_200ExtraLight_Italic } from 'expo-google-fonts-asap-condensed/200ExtraLight_Italic';
@@ -86,13 +89,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AsapCondensed_200ExtraLight',
+            fontFamily:
+              'AsapCondensed_200ExtraLight',
           }}>
           Asap Condensed Extra Light
         </Text>
@@ -102,9 +111,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AsapCondensed_200ExtraLight_Italic',
+            fontFamily:
+              'AsapCondensed_200ExtraLight_Italic',
           }}>
-          Asap Condensed Extra Light Italic
+          Asap Condensed Extra Light
+          Italic
         </Text>
 
         <Text
@@ -112,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AsapCondensed_300Light',
+            fontFamily:
+              'AsapCondensed_300Light',
           }}>
           Asap Condensed Light
         </Text>
@@ -122,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AsapCondensed_300Light_Italic',
+            fontFamily:
+              'AsapCondensed_300Light_Italic',
           }}>
           Asap Condensed Light Italic
         </Text>
@@ -132,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AsapCondensed_400Regular',
+            fontFamily:
+              'AsapCondensed_400Regular',
           }}>
           Asap Condensed Regular
         </Text>
@@ -142,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AsapCondensed_400Regular_Italic',
+            fontFamily:
+              'AsapCondensed_400Regular_Italic',
           }}>
           Asap Condensed Italic
         </Text>
@@ -152,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AsapCondensed_500Medium',
+            fontFamily:
+              'AsapCondensed_500Medium',
           }}>
           Asap Condensed Medium
         </Text>
@@ -162,7 +178,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AsapCondensed_500Medium_Italic',
+            fontFamily:
+              'AsapCondensed_500Medium_Italic',
           }}>
           Asap Condensed Medium Italic
         </Text>
@@ -172,7 +189,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AsapCondensed_600SemiBold',
+            fontFamily:
+              'AsapCondensed_600SemiBold',
           }}>
           Asap Condensed Semi Bold
         </Text>
@@ -182,9 +200,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AsapCondensed_600SemiBold_Italic',
+            fontFamily:
+              'AsapCondensed_600SemiBold_Italic',
           }}>
-          Asap Condensed Semi Bold Italic
+          Asap Condensed Semi Bold
+          Italic
         </Text>
 
         <Text
@@ -192,7 +212,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AsapCondensed_700Bold',
+            fontFamily:
+              'AsapCondensed_700Bold',
           }}>
           Asap Condensed Bold
         </Text>
@@ -202,7 +223,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AsapCondensed_700Bold_Italic',
+            fontFamily:
+              'AsapCondensed_700Bold_Italic',
           }}>
           Asap Condensed Bold Italic
         </Text>
@@ -212,7 +234,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AsapCondensed_800ExtraBold',
+            fontFamily:
+              'AsapCondensed_800ExtraBold',
           }}>
           Asap Condensed Extra Bold
         </Text>
@@ -222,9 +245,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AsapCondensed_800ExtraBold_Italic',
+            fontFamily:
+              'AsapCondensed_800ExtraBold_Italic',
           }}>
-          Asap Condensed Extra Bold Italic
+          Asap Condensed Extra Bold
+          Italic
         </Text>
 
         <Text
@@ -232,7 +257,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AsapCondensed_900Black',
+            fontFamily:
+              'AsapCondensed_900Black',
           }}>
           Asap Condensed Black
         </Text>
@@ -242,7 +268,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AsapCondensed_900Black_Italic',
+            fontFamily:
+              'AsapCondensed_900Black_Italic',
           }}>
           Asap Condensed Black Italic
         </Text>

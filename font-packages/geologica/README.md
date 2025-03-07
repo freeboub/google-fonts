@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-geologica/useFonts';
 import { Geologica_100Thin } from 'expo-google-fonts-geologica/100Thin';
 import { Geologica_200ExtraLight } from 'expo-google-fonts-geologica/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Geologica_100Thin',
+            fontFamily:
+              'Geologica_100Thin',
           }}>
           Geologica Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Geologica_200ExtraLight',
+            fontFamily:
+              'Geologica_200ExtraLight',
           }}>
           Geologica Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Geologica_300Light',
+            fontFamily:
+              'Geologica_300Light',
           }}>
           Geologica Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Geologica_400Regular',
+            fontFamily:
+              'Geologica_400Regular',
           }}>
           Geologica Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Geologica_500Medium',
+            fontFamily:
+              'Geologica_500Medium',
           }}>
           Geologica Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Geologica_600SemiBold',
+            fontFamily:
+              'Geologica_600SemiBold',
           }}>
           Geologica Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Geologica_700Bold',
+            fontFamily:
+              'Geologica_700Bold',
           }}>
           Geologica Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Geologica_800ExtraBold',
+            fontFamily:
+              'Geologica_800ExtraBold',
           }}>
           Geologica Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Geologica_900Black',
+            fontFamily:
+              'Geologica_900Black',
           }}>
           Geologica Black
         </Text>

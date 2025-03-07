@@ -1,7 +1,12 @@
 {
   "family": "Yuji Syuku",
   "variants": ["regular"],
-  "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
+  "subsets": [
+    "cyrillic",
+    "japanese",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v6",
   "lastModified": "2024-09-04",
   "files": {

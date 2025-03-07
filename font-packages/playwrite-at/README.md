@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playwrite-at/useFonts';
 import { PlaywriteAT_100Thin } from 'expo-google-fonts-playwrite-at/100Thin';
 import { PlaywriteAT_200ExtraLight } from 'expo-google-fonts-playwrite-at/200ExtraLight';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteAT_100Thin',
+            fontFamily:
+              'PlaywriteAT_100Thin',
           }}>
           Playwrite AT Thin
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteAT_200ExtraLight',
+            fontFamily:
+              'PlaywriteAT_200ExtraLight',
           }}>
           Playwrite AT Extra Light
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteAT_300Light',
+            fontFamily:
+              'PlaywriteAT_300Light',
           }}>
           Playwrite AT Light
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteAT_400Regular',
+            fontFamily:
+              'PlaywriteAT_400Regular',
           }}>
           Playwrite AT Regular
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteAT_100Thin_Italic',
+            fontFamily:
+              'PlaywriteAT_100Thin_Italic',
           }}>
           Playwrite AT Thin Italic
         </Text>
@@ -118,9 +131,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteAT_200ExtraLight_Italic',
+            fontFamily:
+              'PlaywriteAT_200ExtraLight_Italic',
           }}>
-          Playwrite AT Extra Light Italic
+          Playwrite AT Extra Light
+          Italic
         </Text>
 
         <Text
@@ -128,7 +143,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteAT_300Light_Italic',
+            fontFamily:
+              'PlaywriteAT_300Light_Italic',
           }}>
           Playwrite AT Light Italic
         </Text>
@@ -138,7 +154,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteAT_400Regular_Italic',
+            fontFamily:
+              'PlaywriteAT_400Regular_Italic',
           }}>
           Playwrite AT Italic
         </Text>

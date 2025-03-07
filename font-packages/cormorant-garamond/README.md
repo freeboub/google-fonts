@@ -34,7 +34,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-cormorant-garamond/useFonts';
 import { CormorantGaramond_300Light } from 'expo-google-fonts-cormorant-garamond/300Light';
 import { CormorantGaramond_400Regular } from 'expo-google-fonts-cormorant-garamond/400Regular';
@@ -68,13 +71,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CormorantGaramond_300Light',
+            fontFamily:
+              'CormorantGaramond_300Light',
           }}>
           Cormorant Garamond Light
         </Text>
@@ -84,7 +93,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CormorantGaramond_400Regular',
+            fontFamily:
+              'CormorantGaramond_400Regular',
           }}>
           Cormorant Garamond Regular
         </Text>
@@ -94,7 +104,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CormorantGaramond_500Medium',
+            fontFamily:
+              'CormorantGaramond_500Medium',
           }}>
           Cormorant Garamond Medium
         </Text>
@@ -104,7 +115,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CormorantGaramond_600SemiBold',
+            fontFamily:
+              'CormorantGaramond_600SemiBold',
           }}>
           Cormorant Garamond Semi Bold
         </Text>
@@ -114,7 +126,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CormorantGaramond_700Bold',
+            fontFamily:
+              'CormorantGaramond_700Bold',
           }}>
           Cormorant Garamond Bold
         </Text>
@@ -124,9 +137,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CormorantGaramond_300Light_Italic',
+            fontFamily:
+              'CormorantGaramond_300Light_Italic',
           }}>
-          Cormorant Garamond Light Italic
+          Cormorant Garamond Light
+          Italic
         </Text>
 
         <Text
@@ -134,7 +149,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CormorantGaramond_400Regular_Italic',
+            fontFamily:
+              'CormorantGaramond_400Regular_Italic',
           }}>
           Cormorant Garamond Italic
         </Text>
@@ -144,9 +160,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CormorantGaramond_500Medium_Italic',
+            fontFamily:
+              'CormorantGaramond_500Medium_Italic',
           }}>
-          Cormorant Garamond Medium Italic
+          Cormorant Garamond Medium
+          Italic
         </Text>
 
         <Text
@@ -154,9 +172,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CormorantGaramond_600SemiBold_Italic',
+            fontFamily:
+              'CormorantGaramond_600SemiBold_Italic',
           }}>
-          Cormorant Garamond Semi Bold Italic
+          Cormorant Garamond Semi Bold
+          Italic
         </Text>
 
         <Text
@@ -164,7 +184,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CormorantGaramond_700Bold_Italic',
+            fontFamily:
+              'CormorantGaramond_700Bold_Italic',
           }}>
           Cormorant Garamond Bold Italic
         </Text>

@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-serif-hentaigana/useFonts';
 import { NotoSerifHentaigana_200ExtraLight } from 'expo-google-fonts-noto-serif-hentaigana/200ExtraLight';
 import { NotoSerifHentaigana_300Light } from 'expo-google-fonts-noto-serif-hentaigana/300Light';
@@ -62,15 +65,22 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifHentaigana_200ExtraLight',
+            fontFamily:
+              'NotoSerifHentaigana_200ExtraLight',
           }}>
-          Noto Serif Hentaigana Extra Light
+          Noto Serif Hentaigana Extra
+          Light
         </Text>
 
         <Text
@@ -78,7 +88,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifHentaigana_300Light',
+            fontFamily:
+              'NotoSerifHentaigana_300Light',
           }}>
           Noto Serif Hentaigana Light
         </Text>
@@ -88,7 +99,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifHentaigana_400Regular',
+            fontFamily:
+              'NotoSerifHentaigana_400Regular',
           }}>
           Noto Serif Hentaigana Regular
         </Text>
@@ -98,7 +110,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifHentaigana_500Medium',
+            fontFamily:
+              'NotoSerifHentaigana_500Medium',
           }}>
           Noto Serif Hentaigana Medium
         </Text>
@@ -108,9 +121,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifHentaigana_600SemiBold',
+            fontFamily:
+              'NotoSerifHentaigana_600SemiBold',
           }}>
-          Noto Serif Hentaigana Semi Bold
+          Noto Serif Hentaigana Semi
+          Bold
         </Text>
 
         <Text
@@ -118,7 +133,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifHentaigana_700Bold',
+            fontFamily:
+              'NotoSerifHentaigana_700Bold',
           }}>
           Noto Serif Hentaigana Bold
         </Text>
@@ -128,9 +144,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifHentaigana_800ExtraBold',
+            fontFamily:
+              'NotoSerifHentaigana_800ExtraBold',
           }}>
-          Noto Serif Hentaigana Extra Bold
+          Noto Serif Hentaigana Extra
+          Bold
         </Text>
 
         <Text
@@ -138,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifHentaigana_900Black',
+            fontFamily:
+              'NotoSerifHentaigana_900Black',
           }}>
           Noto Serif Hentaigana Black
         </Text>

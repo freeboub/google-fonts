@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-serif-khmer/useFonts';
 import { NotoSerifKhmer_100Thin } from 'expo-google-fonts-noto-serif-khmer/100Thin';
 import { NotoSerifKhmer_200ExtraLight } from 'expo-google-fonts-noto-serif-khmer/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifKhmer_100Thin',
+            fontFamily:
+              'NotoSerifKhmer_100Thin',
           }}>
           Noto Serif Khmer Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifKhmer_200ExtraLight',
+            fontFamily:
+              'NotoSerifKhmer_200ExtraLight',
           }}>
           Noto Serif Khmer Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifKhmer_300Light',
+            fontFamily:
+              'NotoSerifKhmer_300Light',
           }}>
           Noto Serif Khmer Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifKhmer_400Regular',
+            fontFamily:
+              'NotoSerifKhmer_400Regular',
           }}>
           Noto Serif Khmer Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifKhmer_500Medium',
+            fontFamily:
+              'NotoSerifKhmer_500Medium',
           }}>
           Noto Serif Khmer Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifKhmer_600SemiBold',
+            fontFamily:
+              'NotoSerifKhmer_600SemiBold',
           }}>
           Noto Serif Khmer Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifKhmer_700Bold',
+            fontFamily:
+              'NotoSerifKhmer_700Bold',
           }}>
           Noto Serif Khmer Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifKhmer_800ExtraBold',
+            fontFamily:
+              'NotoSerifKhmer_800ExtraBold',
           }}>
           Noto Serif Khmer Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifKhmer_900Black',
+            fontFamily:
+              'NotoSerifKhmer_900Black',
           }}>
           Noto Serif Khmer Black
         </Text>

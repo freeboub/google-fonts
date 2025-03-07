@@ -1,7 +1,11 @@
 {
   "family": "ADLaM Display",
   "variants": ["regular"],
-  "subsets": ["adlam", "latin", "latin-ext"],
+  "subsets": [
+    "adlam",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v1",
   "lastModified": "2024-09-04",
   "files": {

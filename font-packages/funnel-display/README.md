@@ -30,7 +30,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-funnel-display/useFonts';
 import { FunnelDisplay_300Light } from 'expo-google-fonts-funnel-display/300Light';
 import { FunnelDisplay_400Regular } from 'expo-google-fonts-funnel-display/400Regular';
@@ -56,13 +59,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FunnelDisplay_300Light',
+            fontFamily:
+              'FunnelDisplay_300Light',
           }}>
           Funnel Display Light
         </Text>
@@ -72,7 +81,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FunnelDisplay_400Regular',
+            fontFamily:
+              'FunnelDisplay_400Regular',
           }}>
           Funnel Display Regular
         </Text>
@@ -82,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FunnelDisplay_500Medium',
+            fontFamily:
+              'FunnelDisplay_500Medium',
           }}>
           Funnel Display Medium
         </Text>
@@ -92,7 +103,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FunnelDisplay_600SemiBold',
+            fontFamily:
+              'FunnelDisplay_600SemiBold',
           }}>
           Funnel Display Semi Bold
         </Text>
@@ -102,7 +114,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FunnelDisplay_700Bold',
+            fontFamily:
+              'FunnelDisplay_700Bold',
           }}>
           Funnel Display Bold
         </Text>
@@ -112,7 +125,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FunnelDisplay_800ExtraBold',
+            fontFamily:
+              'FunnelDisplay_800ExtraBold',
           }}>
           Funnel Display Extra Bold
         </Text>

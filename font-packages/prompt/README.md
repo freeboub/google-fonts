@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-prompt/useFonts';
 import { Prompt_100Thin } from 'expo-google-fonts-prompt/100Thin';
 import { Prompt_100Thin_Italic } from 'expo-google-fonts-prompt/100Thin_Italic';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_100Thin',
+            fontFamily:
+              'Prompt_100Thin',
           }}>
           Prompt Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_100Thin_Italic',
+            fontFamily:
+              'Prompt_100Thin_Italic',
           }}>
           Prompt Thin Italic
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_200ExtraLight',
+            fontFamily:
+              'Prompt_200ExtraLight',
           }}>
           Prompt Extra Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_200ExtraLight_Italic',
+            fontFamily:
+              'Prompt_200ExtraLight_Italic',
           }}>
           Prompt Extra Light Italic
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_300Light',
+            fontFamily:
+              'Prompt_300Light',
           }}>
           Prompt Light
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_300Light_Italic',
+            fontFamily:
+              'Prompt_300Light_Italic',
           }}>
           Prompt Light Italic
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_400Regular',
+            fontFamily:
+              'Prompt_400Regular',
           }}>
           Prompt Regular
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_400Regular_Italic',
+            fontFamily:
+              'Prompt_400Regular_Italic',
           }}>
           Prompt Italic
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_500Medium',
+            fontFamily:
+              'Prompt_500Medium',
           }}>
           Prompt Medium
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_500Medium_Italic',
+            fontFamily:
+              'Prompt_500Medium_Italic',
           }}>
           Prompt Medium Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_600SemiBold',
+            fontFamily:
+              'Prompt_600SemiBold',
           }}>
           Prompt Semi Bold
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_600SemiBold_Italic',
+            fontFamily:
+              'Prompt_600SemiBold_Italic',
           }}>
           Prompt Semi Bold Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_700Bold',
+            fontFamily:
+              'Prompt_700Bold',
           }}>
           Prompt Bold
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_700Bold_Italic',
+            fontFamily:
+              'Prompt_700Bold_Italic',
           }}>
           Prompt Bold Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_800ExtraBold',
+            fontFamily:
+              'Prompt_800ExtraBold',
           }}>
           Prompt Extra Bold
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_800ExtraBold_Italic',
+            fontFamily:
+              'Prompt_800ExtraBold_Italic',
           }}>
           Prompt Extra Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_900Black',
+            fontFamily:
+              'Prompt_900Black',
           }}>
           Prompt Black
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Prompt_900Black_Italic',
+            fontFamily:
+              'Prompt_900Black_Italic',
           }}>
           Prompt Black Italic
         </Text>

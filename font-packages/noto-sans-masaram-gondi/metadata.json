@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Masaram Gondi",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "masaram-gondi"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "masaram-gondi"
+  ],
   "version": "v17",
   "lastModified": "2022-11-09",
   "files": {

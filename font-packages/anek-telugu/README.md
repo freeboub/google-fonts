@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-anek-telugu/useFonts';
 import { AnekTelugu_100Thin } from 'expo-google-fonts-anek-telugu/100Thin';
 import { AnekTelugu_200ExtraLight } from 'expo-google-fonts-anek-telugu/200ExtraLight';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekTelugu_100Thin',
+            fontFamily:
+              'AnekTelugu_100Thin',
           }}>
           Anek Telugu Thin
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekTelugu_200ExtraLight',
+            fontFamily:
+              'AnekTelugu_200ExtraLight',
           }}>
           Anek Telugu Extra Light
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekTelugu_300Light',
+            fontFamily:
+              'AnekTelugu_300Light',
           }}>
           Anek Telugu Light
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekTelugu_400Regular',
+            fontFamily:
+              'AnekTelugu_400Regular',
           }}>
           Anek Telugu Regular
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekTelugu_500Medium',
+            fontFamily:
+              'AnekTelugu_500Medium',
           }}>
           Anek Telugu Medium
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekTelugu_600SemiBold',
+            fontFamily:
+              'AnekTelugu_600SemiBold',
           }}>
           Anek Telugu Semi Bold
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekTelugu_700Bold',
+            fontFamily:
+              'AnekTelugu_700Bold',
           }}>
           Anek Telugu Bold
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekTelugu_800ExtraBold',
+            fontFamily:
+              'AnekTelugu_800ExtraBold',
           }}>
           Anek Telugu Extra Bold
         </Text>

@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-cuprum/useFonts';
 import { Cuprum_400Regular } from 'expo-google-fonts-cuprum/400Regular';
 import { Cuprum_500Medium } from 'expo-google-fonts-cuprum/500Medium';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cuprum_400Regular',
+            fontFamily:
+              'Cuprum_400Regular',
           }}>
           Cuprum Regular
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cuprum_500Medium',
+            fontFamily:
+              'Cuprum_500Medium',
           }}>
           Cuprum Medium
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cuprum_600SemiBold',
+            fontFamily:
+              'Cuprum_600SemiBold',
           }}>
           Cuprum Semi Bold
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cuprum_700Bold',
+            fontFamily:
+              'Cuprum_700Bold',
           }}>
           Cuprum Bold
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cuprum_400Regular_Italic',
+            fontFamily:
+              'Cuprum_400Regular_Italic',
           }}>
           Cuprum Italic
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cuprum_500Medium_Italic',
+            fontFamily:
+              'Cuprum_500Medium_Italic',
           }}>
           Cuprum Medium Italic
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cuprum_600SemiBold_Italic',
+            fontFamily:
+              'Cuprum_600SemiBold_Italic',
           }}>
           Cuprum Semi Bold Italic
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cuprum_700Bold_Italic',
+            fontFamily:
+              'Cuprum_700Bold_Italic',
           }}>
           Cuprum Bold Italic
         </Text>

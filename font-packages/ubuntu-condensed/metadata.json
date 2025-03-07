@@ -1,7 +1,14 @@
 {
   "family": "Ubuntu Condensed",
   "variants": ["regular"],
-  "subsets": ["cyrillic", "cyrillic-ext", "greek", "greek-ext", "latin", "latin-ext"],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v16",
   "lastModified": "2024-09-04",
   "files": {

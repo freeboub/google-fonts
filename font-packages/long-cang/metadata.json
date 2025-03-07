@@ -1,7 +1,10 @@
 {
   "family": "Long Cang",
   "variants": ["regular"],
-  "subsets": ["chinese-simplified", "latin"],
+  "subsets": [
+    "chinese-simplified",
+    "latin"
+  ],
   "version": "v20",
   "lastModified": "2025-01-06",
   "files": {

@@ -38,7 +38,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-victor-mono/useFonts';
 import { VictorMono_100Thin } from 'expo-google-fonts-victor-mono/100Thin';
 import { VictorMono_200ExtraLight } from 'expo-google-fonts-victor-mono/200ExtraLight';
@@ -80,13 +83,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VictorMono_100Thin',
+            fontFamily:
+              'VictorMono_100Thin',
           }}>
           Victor Mono Thin
         </Text>
@@ -96,7 +105,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VictorMono_200ExtraLight',
+            fontFamily:
+              'VictorMono_200ExtraLight',
           }}>
           Victor Mono Extra Light
         </Text>
@@ -106,7 +116,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VictorMono_300Light',
+            fontFamily:
+              'VictorMono_300Light',
           }}>
           Victor Mono Light
         </Text>
@@ -116,7 +127,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VictorMono_400Regular',
+            fontFamily:
+              'VictorMono_400Regular',
           }}>
           Victor Mono Regular
         </Text>
@@ -126,7 +138,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VictorMono_500Medium',
+            fontFamily:
+              'VictorMono_500Medium',
           }}>
           Victor Mono Medium
         </Text>
@@ -136,7 +149,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VictorMono_600SemiBold',
+            fontFamily:
+              'VictorMono_600SemiBold',
           }}>
           Victor Mono Semi Bold
         </Text>
@@ -146,7 +160,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VictorMono_700Bold',
+            fontFamily:
+              'VictorMono_700Bold',
           }}>
           Victor Mono Bold
         </Text>
@@ -156,7 +171,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VictorMono_100Thin_Italic',
+            fontFamily:
+              'VictorMono_100Thin_Italic',
           }}>
           Victor Mono Thin Italic
         </Text>
@@ -166,7 +182,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VictorMono_200ExtraLight_Italic',
+            fontFamily:
+              'VictorMono_200ExtraLight_Italic',
           }}>
           Victor Mono Extra Light Italic
         </Text>
@@ -176,7 +193,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VictorMono_300Light_Italic',
+            fontFamily:
+              'VictorMono_300Light_Italic',
           }}>
           Victor Mono Light Italic
         </Text>
@@ -186,7 +204,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VictorMono_400Regular_Italic',
+            fontFamily:
+              'VictorMono_400Regular_Italic',
           }}>
           Victor Mono Italic
         </Text>
@@ -196,7 +215,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VictorMono_500Medium_Italic',
+            fontFamily:
+              'VictorMono_500Medium_Italic',
           }}>
           Victor Mono Medium Italic
         </Text>
@@ -206,7 +226,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VictorMono_600SemiBold_Italic',
+            fontFamily:
+              'VictorMono_600SemiBold_Italic',
           }}>
           Victor Mono Semi Bold Italic
         </Text>
@@ -216,7 +237,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VictorMono_700Bold_Italic',
+            fontFamily:
+              'VictorMono_700Bold_Italic',
           }}>
           Victor Mono Bold Italic
         </Text>

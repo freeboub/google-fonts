@@ -1,7 +1,16 @@
 {
   "family": "Noto Sans Nag Mundari",
-  "variants": ["regular", "500", "600", "700"],
-  "subsets": ["latin", "latin-ext", "nag-mundari"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "nag-mundari"
+  ],
   "version": "v2",
   "lastModified": "2024-07-30",
   "files": {

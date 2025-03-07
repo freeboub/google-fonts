@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Old Hungarian",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "old-hungarian"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "old-hungarian"
+  ],
   "version": "v18",
   "lastModified": "2023-09-13",
   "files": {

@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-exo-2/useFonts';
 import { Exo2_100Thin } from 'expo-google-fonts-exo-2/100Thin';
 import { Exo2_200ExtraLight } from 'expo-google-fonts-exo-2/200ExtraLight';
@@ -92,7 +95,12 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
@@ -108,7 +116,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Exo2_200ExtraLight',
+            fontFamily:
+              'Exo2_200ExtraLight',
           }}>
           Exo 2 Extra Light
         </Text>
@@ -128,7 +137,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Exo2_400Regular',
+            fontFamily:
+              'Exo2_400Regular',
           }}>
           Exo 2 Regular
         </Text>
@@ -138,7 +148,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Exo2_500Medium',
+            fontFamily:
+              'Exo2_500Medium',
           }}>
           Exo 2 Medium
         </Text>
@@ -148,7 +159,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Exo2_600SemiBold',
+            fontFamily:
+              'Exo2_600SemiBold',
           }}>
           Exo 2 Semi Bold
         </Text>
@@ -168,7 +180,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Exo2_800ExtraBold',
+            fontFamily:
+              'Exo2_800ExtraBold',
           }}>
           Exo 2 Extra Bold
         </Text>
@@ -188,7 +201,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Exo2_100Thin_Italic',
+            fontFamily:
+              'Exo2_100Thin_Italic',
           }}>
           Exo 2 Thin Italic
         </Text>
@@ -198,7 +212,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Exo2_200ExtraLight_Italic',
+            fontFamily:
+              'Exo2_200ExtraLight_Italic',
           }}>
           Exo 2 Extra Light Italic
         </Text>
@@ -208,7 +223,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Exo2_300Light_Italic',
+            fontFamily:
+              'Exo2_300Light_Italic',
           }}>
           Exo 2 Light Italic
         </Text>
@@ -218,7 +234,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Exo2_400Regular_Italic',
+            fontFamily:
+              'Exo2_400Regular_Italic',
           }}>
           Exo 2 Italic
         </Text>
@@ -228,7 +245,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Exo2_500Medium_Italic',
+            fontFamily:
+              'Exo2_500Medium_Italic',
           }}>
           Exo 2 Medium Italic
         </Text>
@@ -238,7 +256,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Exo2_600SemiBold_Italic',
+            fontFamily:
+              'Exo2_600SemiBold_Italic',
           }}>
           Exo 2 Semi Bold Italic
         </Text>
@@ -248,7 +267,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Exo2_700Bold_Italic',
+            fontFamily:
+              'Exo2_700Bold_Italic',
           }}>
           Exo 2 Bold Italic
         </Text>
@@ -258,7 +278,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Exo2_800ExtraBold_Italic',
+            fontFamily:
+              'Exo2_800ExtraBold_Italic',
           }}>
           Exo 2 Extra Bold Italic
         </Text>
@@ -268,7 +289,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Exo2_900Black_Italic',
+            fontFamily:
+              'Exo2_900Black_Italic',
           }}>
           Exo 2 Black Italic
         </Text>

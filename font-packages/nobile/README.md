@@ -30,7 +30,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-nobile/useFonts';
 import { Nobile_400Regular } from 'expo-google-fonts-nobile/400Regular';
 import { Nobile_400Regular_Italic } from 'expo-google-fonts-nobile/400Regular_Italic';
@@ -56,13 +59,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Nobile_400Regular',
+            fontFamily:
+              'Nobile_400Regular',
           }}>
           Nobile Regular
         </Text>
@@ -72,7 +81,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Nobile_400Regular_Italic',
+            fontFamily:
+              'Nobile_400Regular_Italic',
           }}>
           Nobile Italic
         </Text>
@@ -82,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Nobile_500Medium',
+            fontFamily:
+              'Nobile_500Medium',
           }}>
           Nobile Medium
         </Text>
@@ -92,7 +103,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Nobile_500Medium_Italic',
+            fontFamily:
+              'Nobile_500Medium_Italic',
           }}>
           Nobile Medium Italic
         </Text>
@@ -102,7 +114,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Nobile_700Bold',
+            fontFamily:
+              'Nobile_700Bold',
           }}>
           Nobile Bold
         </Text>
@@ -112,7 +125,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Nobile_700Bold_Italic',
+            fontFamily:
+              'Nobile_700Bold_Italic',
           }}>
           Nobile Bold Italic
         </Text>

@@ -1,7 +1,16 @@
 {
   "family": "Cambay",
-  "variants": ["regular", "italic", "700", "700italic"],
-  "subsets": ["devanagari", "latin", "latin-ext"],
+  "variants": [
+    "regular",
+    "italic",
+    "700",
+    "700italic"
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v13",
   "lastModified": "2024-12-04",
   "files": {

@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-ar-one-sans/useFonts';
 import { AROneSans_400Regular } from 'expo-google-fonts-ar-one-sans/400Regular';
 import { AROneSans_500Medium } from 'expo-google-fonts-ar-one-sans/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AROneSans_400Regular',
+            fontFamily:
+              'AROneSans_400Regular',
           }}>
           AR One Sans Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AROneSans_500Medium',
+            fontFamily:
+              'AROneSans_500Medium',
           }}>
           AR One Sans Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AROneSans_600SemiBold',
+            fontFamily:
+              'AROneSans_600SemiBold',
           }}>
           AR One Sans Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AROneSans_700Bold',
+            fontFamily:
+              'AROneSans_700Bold',
           }}>
           AR One Sans Bold
         </Text>

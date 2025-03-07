@@ -1,7 +1,13 @@
 {
   "family": "Rubik Bubbles",
   "variants": ["regular"],
-  "subsets": ["cyrillic", "cyrillic-ext", "hebrew", "latin", "latin-ext"],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "hebrew",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v3",
   "lastModified": "2024-09-04",
   "files": {

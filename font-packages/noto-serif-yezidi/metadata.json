@@ -1,7 +1,16 @@
 {
   "family": "Noto Serif Yezidi",
-  "variants": ["regular", "500", "600", "700"],
-  "subsets": ["latin", "latin-ext", "yezidi"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "yezidi"
+  ],
   "version": "v21",
   "lastModified": "2023-07-24",
   "files": {

@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-podkova/useFonts';
 import { Podkova_400Regular } from 'expo-google-fonts-podkova/400Regular';
 import { Podkova_500Medium } from 'expo-google-fonts-podkova/500Medium';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Podkova_400Regular',
+            fontFamily:
+              'Podkova_400Regular',
           }}>
           Podkova Regular
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Podkova_500Medium',
+            fontFamily:
+              'Podkova_500Medium',
           }}>
           Podkova Medium
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Podkova_600SemiBold',
+            fontFamily:
+              'Podkova_600SemiBold',
           }}>
           Podkova Semi Bold
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Podkova_700Bold',
+            fontFamily:
+              'Podkova_700Bold',
           }}>
           Podkova Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Podkova_800ExtraBold',
+            fontFamily:
+              'Podkova_800ExtraBold',
           }}>
           Podkova Extra Bold
         </Text>

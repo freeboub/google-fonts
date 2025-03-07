@@ -26,7 +26,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-birthstone-bounce/useFonts';
 import { BirthstoneBounce_400Regular } from 'expo-google-fonts-birthstone-bounce/400Regular';
 import { BirthstoneBounce_500Medium } from 'expo-google-fonts-birthstone-bounce/500Medium';
@@ -44,13 +47,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BirthstoneBounce_400Regular',
+            fontFamily:
+              'BirthstoneBounce_400Regular',
           }}>
           Birthstone Bounce Regular
         </Text>
@@ -60,7 +69,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BirthstoneBounce_500Medium',
+            fontFamily:
+              'BirthstoneBounce_500Medium',
           }}>
           Birthstone Bounce Medium
         </Text>

@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-hind-vadodara/useFonts';
 import { HindVadodara_300Light } from 'expo-google-fonts-hind-vadodara/300Light';
 import { HindVadodara_400Regular } from 'expo-google-fonts-hind-vadodara/400Regular';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HindVadodara_300Light',
+            fontFamily:
+              'HindVadodara_300Light',
           }}>
           Hind Vadodara Light
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HindVadodara_400Regular',
+            fontFamily:
+              'HindVadodara_400Regular',
           }}>
           Hind Vadodara Regular
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HindVadodara_500Medium',
+            fontFamily:
+              'HindVadodara_500Medium',
           }}>
           Hind Vadodara Medium
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HindVadodara_600SemiBold',
+            fontFamily:
+              'HindVadodara_600SemiBold',
           }}>
           Hind Vadodara Semi Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HindVadodara_700Bold',
+            fontFamily:
+              'HindVadodara_700Bold',
           }}>
           Hind Vadodara Bold
         </Text>

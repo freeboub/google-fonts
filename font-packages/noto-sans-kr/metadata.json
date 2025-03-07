@@ -1,7 +1,23 @@
 {
   "family": "Noto Sans KR",
-  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
-  "subsets": ["cyrillic", "korean", "latin", "latin-ext", "vietnamese"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900"
+  ],
+  "subsets": [
+    "cyrillic",
+    "korean",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v36",
   "lastModified": "2023-08-17",
   "files": {

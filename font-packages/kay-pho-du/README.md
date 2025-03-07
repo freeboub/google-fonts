@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-kay-pho-du/useFonts';
 import { KayPhoDu_400Regular } from 'expo-google-fonts-kay-pho-du/400Regular';
 import { KayPhoDu_500Medium } from 'expo-google-fonts-kay-pho-du/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KayPhoDu_400Regular',
+            fontFamily:
+              'KayPhoDu_400Regular',
           }}>
           Kay Pho Du Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KayPhoDu_500Medium',
+            fontFamily:
+              'KayPhoDu_500Medium',
           }}>
           Kay Pho Du Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KayPhoDu_600SemiBold',
+            fontFamily:
+              'KayPhoDu_600SemiBold',
           }}>
           Kay Pho Du Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KayPhoDu_700Bold',
+            fontFamily:
+              'KayPhoDu_700Bold',
           }}>
           Kay Pho Du Bold
         </Text>

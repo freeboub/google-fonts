@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-vesper-libre/useFonts';
 import { VesperLibre_400Regular } from 'expo-google-fonts-vesper-libre/400Regular';
 import { VesperLibre_500Medium } from 'expo-google-fonts-vesper-libre/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VesperLibre_400Regular',
+            fontFamily:
+              'VesperLibre_400Regular',
           }}>
           Vesper Libre Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VesperLibre_500Medium',
+            fontFamily:
+              'VesperLibre_500Medium',
           }}>
           Vesper Libre Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VesperLibre_700Bold',
+            fontFamily:
+              'VesperLibre_700Bold',
           }}>
           Vesper Libre Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VesperLibre_900Black',
+            fontFamily:
+              'VesperLibre_900Black',
           }}>
           Vesper Libre Black
         </Text>

@@ -4,7 +4,9 @@
   "subsets": ["latin", "latin-ext"],
   "version": "v24",
   "lastModified": "2024-11-20",
-  "files": { "regular": "https://fonts.gstatic.com/s/ultra/v24/zOLy4prXmrtY-tT6yLOD6NxF.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/ultra/v24/zOLy4prXmrtY-tT6yLOD6NxF.ttf"
+  },
   "category": "serif",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/ultra/v24/zOLy4prXmrtY-uT7wrc.ttf"

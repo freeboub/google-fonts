@@ -26,7 +26,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-unkempt/useFonts';
 import { Unkempt_400Regular } from 'expo-google-fonts-unkempt/400Regular';
 import { Unkempt_700Bold } from 'expo-google-fonts-unkempt/700Bold';
@@ -44,13 +47,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Unkempt_400Regular',
+            fontFamily:
+              'Unkempt_400Regular',
           }}>
           Unkempt Regular
         </Text>
@@ -60,7 +69,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Unkempt_700Bold',
+            fontFamily:
+              'Unkempt_700Bold',
           }}>
           Unkempt Bold
         </Text>

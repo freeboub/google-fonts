@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-myanmar/useFonts';
 import { NotoSansMyanmar_100Thin } from 'expo-google-fonts-noto-sans-myanmar/100Thin';
 import { NotoSansMyanmar_200ExtraLight } from 'expo-google-fonts-noto-sans-myanmar/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansMyanmar_100Thin',
+            fontFamily:
+              'NotoSansMyanmar_100Thin',
           }}>
           Noto Sans Myanmar Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansMyanmar_200ExtraLight',
+            fontFamily:
+              'NotoSansMyanmar_200ExtraLight',
           }}>
           Noto Sans Myanmar Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansMyanmar_300Light',
+            fontFamily:
+              'NotoSansMyanmar_300Light',
           }}>
           Noto Sans Myanmar Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansMyanmar_400Regular',
+            fontFamily:
+              'NotoSansMyanmar_400Regular',
           }}>
           Noto Sans Myanmar Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansMyanmar_500Medium',
+            fontFamily:
+              'NotoSansMyanmar_500Medium',
           }}>
           Noto Sans Myanmar Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansMyanmar_600SemiBold',
+            fontFamily:
+              'NotoSansMyanmar_600SemiBold',
           }}>
           Noto Sans Myanmar Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansMyanmar_700Bold',
+            fontFamily:
+              'NotoSansMyanmar_700Bold',
           }}>
           Noto Sans Myanmar Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansMyanmar_800ExtraBold',
+            fontFamily:
+              'NotoSansMyanmar_800ExtraBold',
           }}>
           Noto Sans Myanmar Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansMyanmar_900Black',
+            fontFamily:
+              'NotoSansMyanmar_900Black',
           }}>
           Noto Sans Myanmar Black
         </Text>

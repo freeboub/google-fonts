@@ -1,7 +1,23 @@
 {
   "family": "Ubuntu",
-  "variants": ["300", "300italic", "regular", "italic", "500", "500italic", "700", "700italic"],
-  "subsets": ["cyrillic", "cyrillic-ext", "greek", "greek-ext", "latin", "latin-ext"],
+  "variants": [
+    "300",
+    "300italic",
+    "regular",
+    "italic",
+    "500",
+    "500italic",
+    "700",
+    "700italic"
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v20",
   "lastModified": "2024-09-04",
   "files": {

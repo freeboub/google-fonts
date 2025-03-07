@@ -1,7 +1,15 @@
 {
   "family": "Rubik Lines",
   "variants": ["regular"],
-  "subsets": ["cyrillic", "cyrillic-ext", "hebrew", "latin", "latin-ext", "math", "symbols"],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "hebrew",
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols"
+  ],
   "version": "v1",
   "lastModified": "2024-09-04",
   "files": {

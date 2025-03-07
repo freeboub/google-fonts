@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Cuneiform",
   "variants": ["regular"],
-  "subsets": ["cuneiform", "latin", "latin-ext"],
+  "subsets": [
+    "cuneiform",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v17",
   "lastModified": "2023-07-24",
   "files": {

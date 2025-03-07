@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-sour-gummy/useFonts';
 import { SourGummy_100Thin } from 'expo-google-fonts-sour-gummy/100Thin';
 import { SourGummy_200ExtraLight } from 'expo-google-fonts-sour-gummy/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourGummy_100Thin',
+            fontFamily:
+              'SourGummy_100Thin',
           }}>
           Sour Gummy Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourGummy_200ExtraLight',
+            fontFamily:
+              'SourGummy_200ExtraLight',
           }}>
           Sour Gummy Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourGummy_300Light',
+            fontFamily:
+              'SourGummy_300Light',
           }}>
           Sour Gummy Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourGummy_400Regular',
+            fontFamily:
+              'SourGummy_400Regular',
           }}>
           Sour Gummy Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourGummy_500Medium',
+            fontFamily:
+              'SourGummy_500Medium',
           }}>
           Sour Gummy Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourGummy_600SemiBold',
+            fontFamily:
+              'SourGummy_600SemiBold',
           }}>
           Sour Gummy Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourGummy_700Bold',
+            fontFamily:
+              'SourGummy_700Bold',
           }}>
           Sour Gummy Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourGummy_800ExtraBold',
+            fontFamily:
+              'SourGummy_800ExtraBold',
           }}>
           Sour Gummy Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourGummy_900Black',
+            fontFamily:
+              'SourGummy_900Black',
           }}>
           Sour Gummy Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourGummy_100Thin_Italic',
+            fontFamily:
+              'SourGummy_100Thin_Italic',
           }}>
           Sour Gummy Thin Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourGummy_200ExtraLight_Italic',
+            fontFamily:
+              'SourGummy_200ExtraLight_Italic',
           }}>
           Sour Gummy Extra Light Italic
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourGummy_300Light_Italic',
+            fontFamily:
+              'SourGummy_300Light_Italic',
           }}>
           Sour Gummy Light Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourGummy_400Regular_Italic',
+            fontFamily:
+              'SourGummy_400Regular_Italic',
           }}>
           Sour Gummy Italic
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourGummy_500Medium_Italic',
+            fontFamily:
+              'SourGummy_500Medium_Italic',
           }}>
           Sour Gummy Medium Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourGummy_600SemiBold_Italic',
+            fontFamily:
+              'SourGummy_600SemiBold_Italic',
           }}>
           Sour Gummy Semi Bold Italic
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourGummy_700Bold_Italic',
+            fontFamily:
+              'SourGummy_700Bold_Italic',
           }}>
           Sour Gummy Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourGummy_800ExtraBold_Italic',
+            fontFamily:
+              'SourGummy_800ExtraBold_Italic',
           }}>
           Sour Gummy Extra Bold Italic
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourGummy_900Black_Italic',
+            fontFamily:
+              'SourGummy_900Black_Italic',
           }}>
           Sour Gummy Black Italic
         </Text>

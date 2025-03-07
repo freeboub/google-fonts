@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Mandaic",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "mandaic"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "mandaic"
+  ],
   "version": "v17",
   "lastModified": "2024-07-30",
   "files": {

@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-dynapuff/useFonts';
 import { DynaPuff_400Regular } from 'expo-google-fonts-dynapuff/400Regular';
 import { DynaPuff_500Medium } from 'expo-google-fonts-dynapuff/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DynaPuff_400Regular',
+            fontFamily:
+              'DynaPuff_400Regular',
           }}>
           DynaPuff Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DynaPuff_500Medium',
+            fontFamily:
+              'DynaPuff_500Medium',
           }}>
           DynaPuff Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DynaPuff_600SemiBold',
+            fontFamily:
+              'DynaPuff_600SemiBold',
           }}>
           DynaPuff Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DynaPuff_700Bold',
+            fontFamily:
+              'DynaPuff_700Bold',
           }}>
           DynaPuff Bold
         </Text>

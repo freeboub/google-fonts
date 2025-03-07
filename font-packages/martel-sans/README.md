@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-martel-sans/useFonts';
 import { MartelSans_200ExtraLight } from 'expo-google-fonts-martel-sans/200ExtraLight';
 import { MartelSans_300Light } from 'expo-google-fonts-martel-sans/300Light';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MartelSans_200ExtraLight',
+            fontFamily:
+              'MartelSans_200ExtraLight',
           }}>
           Martel Sans Extra Light
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MartelSans_300Light',
+            fontFamily:
+              'MartelSans_300Light',
           }}>
           Martel Sans Light
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MartelSans_400Regular',
+            fontFamily:
+              'MartelSans_400Regular',
           }}>
           Martel Sans Regular
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MartelSans_600SemiBold',
+            fontFamily:
+              'MartelSans_600SemiBold',
           }}>
           Martel Sans Semi Bold
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MartelSans_700Bold',
+            fontFamily:
+              'MartelSans_700Bold',
           }}>
           Martel Sans Bold
         </Text>
@@ -115,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MartelSans_800ExtraBold',
+            fontFamily:
+              'MartelSans_800ExtraBold',
           }}>
           Martel Sans Extra Bold
         </Text>
@@ -125,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MartelSans_900Black',
+            fontFamily:
+              'MartelSans_900Black',
           }}>
           Martel Sans Black
         </Text>

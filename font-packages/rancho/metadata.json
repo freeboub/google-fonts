@@ -4,7 +4,9 @@
   "subsets": ["latin"],
   "version": "v21",
   "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/rancho/v21/46kulbzmXjLaqZRlbWXgd0RY1g.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/rancho/v21/46kulbzmXjLaqZRlbWXgd0RY1g.ttf"
+  },
   "category": "handwriting",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/rancho/v21/46kulbzmXjLaqZRVbG_k.ttf"

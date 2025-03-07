@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-expletus-sans/useFonts';
 import { ExpletusSans_400Regular } from 'expo-google-fonts-expletus-sans/400Regular';
 import { ExpletusSans_500Medium } from 'expo-google-fonts-expletus-sans/500Medium';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ExpletusSans_400Regular',
+            fontFamily:
+              'ExpletusSans_400Regular',
           }}>
           Expletus Sans Regular
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ExpletusSans_500Medium',
+            fontFamily:
+              'ExpletusSans_500Medium',
           }}>
           Expletus Sans Medium
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ExpletusSans_600SemiBold',
+            fontFamily:
+              'ExpletusSans_600SemiBold',
           }}>
           Expletus Sans Semi Bold
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ExpletusSans_700Bold',
+            fontFamily:
+              'ExpletusSans_700Bold',
           }}>
           Expletus Sans Bold
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ExpletusSans_400Regular_Italic',
+            fontFamily:
+              'ExpletusSans_400Regular_Italic',
           }}>
           Expletus Sans Italic
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ExpletusSans_500Medium_Italic',
+            fontFamily:
+              'ExpletusSans_500Medium_Italic',
           }}>
           Expletus Sans Medium Italic
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ExpletusSans_600SemiBold_Italic',
+            fontFamily:
+              'ExpletusSans_600SemiBold_Italic',
           }}>
           Expletus Sans Semi Bold Italic
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ExpletusSans_700Bold_Italic',
+            fontFamily:
+              'ExpletusSans_700Bold_Italic',
           }}>
           Expletus Sans Bold Italic
         </Text>

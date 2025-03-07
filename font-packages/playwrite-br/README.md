@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playwrite-br/useFonts';
 import { PlaywriteBR_100Thin } from 'expo-google-fonts-playwrite-br/100Thin';
 import { PlaywriteBR_200ExtraLight } from 'expo-google-fonts-playwrite-br/200ExtraLight';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteBR_100Thin',
+            fontFamily:
+              'PlaywriteBR_100Thin',
           }}>
           Playwrite BR Thin
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteBR_200ExtraLight',
+            fontFamily:
+              'PlaywriteBR_200ExtraLight',
           }}>
           Playwrite BR Extra Light
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteBR_300Light',
+            fontFamily:
+              'PlaywriteBR_300Light',
           }}>
           Playwrite BR Light
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteBR_400Regular',
+            fontFamily:
+              'PlaywriteBR_400Regular',
           }}>
           Playwrite BR Regular
         </Text>

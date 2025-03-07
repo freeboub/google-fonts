@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-dm-sans/useFonts';
 import { DMSans_100Thin } from 'expo-google-fonts-dm-sans/100Thin';
 import { DMSans_200ExtraLight } from 'expo-google-fonts-dm-sans/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DMSans_100Thin',
+            fontFamily:
+              'DMSans_100Thin',
           }}>
           DM Sans Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DMSans_200ExtraLight',
+            fontFamily:
+              'DMSans_200ExtraLight',
           }}>
           DM Sans Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DMSans_300Light',
+            fontFamily:
+              'DMSans_300Light',
           }}>
           DM Sans Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DMSans_400Regular',
+            fontFamily:
+              'DMSans_400Regular',
           }}>
           DM Sans Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DMSans_500Medium',
+            fontFamily:
+              'DMSans_500Medium',
           }}>
           DM Sans Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DMSans_600SemiBold',
+            fontFamily:
+              'DMSans_600SemiBold',
           }}>
           DM Sans Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DMSans_700Bold',
+            fontFamily:
+              'DMSans_700Bold',
           }}>
           DM Sans Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DMSans_800ExtraBold',
+            fontFamily:
+              'DMSans_800ExtraBold',
           }}>
           DM Sans Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DMSans_900Black',
+            fontFamily:
+              'DMSans_900Black',
           }}>
           DM Sans Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DMSans_100Thin_Italic',
+            fontFamily:
+              'DMSans_100Thin_Italic',
           }}>
           DM Sans Thin Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DMSans_200ExtraLight_Italic',
+            fontFamily:
+              'DMSans_200ExtraLight_Italic',
           }}>
           DM Sans Extra Light Italic
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DMSans_300Light_Italic',
+            fontFamily:
+              'DMSans_300Light_Italic',
           }}>
           DM Sans Light Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DMSans_400Regular_Italic',
+            fontFamily:
+              'DMSans_400Regular_Italic',
           }}>
           DM Sans Italic
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DMSans_500Medium_Italic',
+            fontFamily:
+              'DMSans_500Medium_Italic',
           }}>
           DM Sans Medium Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DMSans_600SemiBold_Italic',
+            fontFamily:
+              'DMSans_600SemiBold_Italic',
           }}>
           DM Sans Semi Bold Italic
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DMSans_700Bold_Italic',
+            fontFamily:
+              'DMSans_700Bold_Italic',
           }}>
           DM Sans Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DMSans_800ExtraBold_Italic',
+            fontFamily:
+              'DMSans_800ExtraBold_Italic',
           }}>
           DM Sans Extra Bold Italic
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DMSans_900Black_Italic',
+            fontFamily:
+              'DMSans_900Black_Italic',
           }}>
           DM Sans Black Italic
         </Text>

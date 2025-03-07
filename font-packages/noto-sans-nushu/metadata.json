@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Nushu",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "nushu"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "nushu"
+  ],
   "version": "v19",
   "lastModified": "2023-04-27",
   "files": {

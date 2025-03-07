@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-rokkitt/useFonts';
 import { Rokkitt_100Thin } from 'expo-google-fonts-rokkitt/100Thin';
 import { Rokkitt_200ExtraLight } from 'expo-google-fonts-rokkitt/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rokkitt_100Thin',
+            fontFamily:
+              'Rokkitt_100Thin',
           }}>
           Rokkitt Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rokkitt_200ExtraLight',
+            fontFamily:
+              'Rokkitt_200ExtraLight',
           }}>
           Rokkitt Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rokkitt_300Light',
+            fontFamily:
+              'Rokkitt_300Light',
           }}>
           Rokkitt Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rokkitt_400Regular',
+            fontFamily:
+              'Rokkitt_400Regular',
           }}>
           Rokkitt Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rokkitt_500Medium',
+            fontFamily:
+              'Rokkitt_500Medium',
           }}>
           Rokkitt Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rokkitt_600SemiBold',
+            fontFamily:
+              'Rokkitt_600SemiBold',
           }}>
           Rokkitt Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rokkitt_700Bold',
+            fontFamily:
+              'Rokkitt_700Bold',
           }}>
           Rokkitt Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rokkitt_800ExtraBold',
+            fontFamily:
+              'Rokkitt_800ExtraBold',
           }}>
           Rokkitt Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rokkitt_900Black',
+            fontFamily:
+              'Rokkitt_900Black',
           }}>
           Rokkitt Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rokkitt_100Thin_Italic',
+            fontFamily:
+              'Rokkitt_100Thin_Italic',
           }}>
           Rokkitt Thin Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rokkitt_200ExtraLight_Italic',
+            fontFamily:
+              'Rokkitt_200ExtraLight_Italic',
           }}>
           Rokkitt Extra Light Italic
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rokkitt_300Light_Italic',
+            fontFamily:
+              'Rokkitt_300Light_Italic',
           }}>
           Rokkitt Light Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rokkitt_400Regular_Italic',
+            fontFamily:
+              'Rokkitt_400Regular_Italic',
           }}>
           Rokkitt Italic
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rokkitt_500Medium_Italic',
+            fontFamily:
+              'Rokkitt_500Medium_Italic',
           }}>
           Rokkitt Medium Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rokkitt_600SemiBold_Italic',
+            fontFamily:
+              'Rokkitt_600SemiBold_Italic',
           }}>
           Rokkitt Semi Bold Italic
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rokkitt_700Bold_Italic',
+            fontFamily:
+              'Rokkitt_700Bold_Italic',
           }}>
           Rokkitt Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rokkitt_800ExtraBold_Italic',
+            fontFamily:
+              'Rokkitt_800ExtraBold_Italic',
           }}>
           Rokkitt Extra Bold Italic
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rokkitt_900Black_Italic',
+            fontFamily:
+              'Rokkitt_900Black_Italic',
           }}>
           Rokkitt Black Italic
         </Text>

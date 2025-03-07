@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-frank-ruhl-libre/useFonts';
 import { FrankRuhlLibre_300Light } from 'expo-google-fonts-frank-ruhl-libre/300Light';
 import { FrankRuhlLibre_400Regular } from 'expo-google-fonts-frank-ruhl-libre/400Regular';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FrankRuhlLibre_300Light',
+            fontFamily:
+              'FrankRuhlLibre_300Light',
           }}>
           Frank Ruhl Libre Light
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FrankRuhlLibre_400Regular',
+            fontFamily:
+              'FrankRuhlLibre_400Regular',
           }}>
           Frank Ruhl Libre Regular
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FrankRuhlLibre_500Medium',
+            fontFamily:
+              'FrankRuhlLibre_500Medium',
           }}>
           Frank Ruhl Libre Medium
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FrankRuhlLibre_600SemiBold',
+            fontFamily:
+              'FrankRuhlLibre_600SemiBold',
           }}>
           Frank Ruhl Libre Semi Bold
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FrankRuhlLibre_700Bold',
+            fontFamily:
+              'FrankRuhlLibre_700Bold',
           }}>
           Frank Ruhl Libre Bold
         </Text>
@@ -115,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FrankRuhlLibre_800ExtraBold',
+            fontFamily:
+              'FrankRuhlLibre_800ExtraBold',
           }}>
           Frank Ruhl Libre Extra Bold
         </Text>
@@ -125,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FrankRuhlLibre_900Black',
+            fontFamily:
+              'FrankRuhlLibre_900Black',
           }}>
           Frank Ruhl Libre Black
         </Text>

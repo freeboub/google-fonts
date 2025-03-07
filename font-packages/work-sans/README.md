@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-work-sans/useFonts';
 import { WorkSans_100Thin } from 'expo-google-fonts-work-sans/100Thin';
 import { WorkSans_200ExtraLight } from 'expo-google-fonts-work-sans/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'WorkSans_100Thin',
+            fontFamily:
+              'WorkSans_100Thin',
           }}>
           Work Sans Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'WorkSans_200ExtraLight',
+            fontFamily:
+              'WorkSans_200ExtraLight',
           }}>
           Work Sans Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'WorkSans_300Light',
+            fontFamily:
+              'WorkSans_300Light',
           }}>
           Work Sans Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'WorkSans_400Regular',
+            fontFamily:
+              'WorkSans_400Regular',
           }}>
           Work Sans Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'WorkSans_500Medium',
+            fontFamily:
+              'WorkSans_500Medium',
           }}>
           Work Sans Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'WorkSans_600SemiBold',
+            fontFamily:
+              'WorkSans_600SemiBold',
           }}>
           Work Sans Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'WorkSans_700Bold',
+            fontFamily:
+              'WorkSans_700Bold',
           }}>
           Work Sans Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'WorkSans_800ExtraBold',
+            fontFamily:
+              'WorkSans_800ExtraBold',
           }}>
           Work Sans Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'WorkSans_900Black',
+            fontFamily:
+              'WorkSans_900Black',
           }}>
           Work Sans Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'WorkSans_100Thin_Italic',
+            fontFamily:
+              'WorkSans_100Thin_Italic',
           }}>
           Work Sans Thin Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'WorkSans_200ExtraLight_Italic',
+            fontFamily:
+              'WorkSans_200ExtraLight_Italic',
           }}>
           Work Sans Extra Light Italic
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'WorkSans_300Light_Italic',
+            fontFamily:
+              'WorkSans_300Light_Italic',
           }}>
           Work Sans Light Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'WorkSans_400Regular_Italic',
+            fontFamily:
+              'WorkSans_400Regular_Italic',
           }}>
           Work Sans Italic
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'WorkSans_500Medium_Italic',
+            fontFamily:
+              'WorkSans_500Medium_Italic',
           }}>
           Work Sans Medium Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'WorkSans_600SemiBold_Italic',
+            fontFamily:
+              'WorkSans_600SemiBold_Italic',
           }}>
           Work Sans Semi Bold Italic
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'WorkSans_700Bold_Italic',
+            fontFamily:
+              'WorkSans_700Bold_Italic',
           }}>
           Work Sans Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'WorkSans_800ExtraBold_Italic',
+            fontFamily:
+              'WorkSans_800ExtraBold_Italic',
           }}>
           Work Sans Extra Bold Italic
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'WorkSans_900Black_Italic',
+            fontFamily:
+              'WorkSans_900Black_Italic',
           }}>
           Work Sans Black Italic
         </Text>

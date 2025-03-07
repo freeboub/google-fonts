@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-martian-mono/useFonts';
 import { MartianMono_100Thin } from 'expo-google-fonts-martian-mono/100Thin';
 import { MartianMono_200ExtraLight } from 'expo-google-fonts-martian-mono/200ExtraLight';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MartianMono_100Thin',
+            fontFamily:
+              'MartianMono_100Thin',
           }}>
           Martian Mono Thin
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MartianMono_200ExtraLight',
+            fontFamily:
+              'MartianMono_200ExtraLight',
           }}>
           Martian Mono Extra Light
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MartianMono_300Light',
+            fontFamily:
+              'MartianMono_300Light',
           }}>
           Martian Mono Light
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MartianMono_400Regular',
+            fontFamily:
+              'MartianMono_400Regular',
           }}>
           Martian Mono Regular
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MartianMono_500Medium',
+            fontFamily:
+              'MartianMono_500Medium',
           }}>
           Martian Mono Medium
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MartianMono_600SemiBold',
+            fontFamily:
+              'MartianMono_600SemiBold',
           }}>
           Martian Mono Semi Bold
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MartianMono_700Bold',
+            fontFamily:
+              'MartianMono_700Bold',
           }}>
           Martian Mono Bold
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MartianMono_800ExtraBold',
+            fontFamily:
+              'MartianMono_800ExtraBold',
           }}>
           Martian Mono Extra Bold
         </Text>

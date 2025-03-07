@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-overpass/useFonts';
 import { Overpass_100Thin } from 'expo-google-fonts-overpass/100Thin';
 import { Overpass_200ExtraLight } from 'expo-google-fonts-overpass/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Overpass_100Thin',
+            fontFamily:
+              'Overpass_100Thin',
           }}>
           Overpass Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Overpass_200ExtraLight',
+            fontFamily:
+              'Overpass_200ExtraLight',
           }}>
           Overpass Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Overpass_300Light',
+            fontFamily:
+              'Overpass_300Light',
           }}>
           Overpass Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Overpass_400Regular',
+            fontFamily:
+              'Overpass_400Regular',
           }}>
           Overpass Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Overpass_500Medium',
+            fontFamily:
+              'Overpass_500Medium',
           }}>
           Overpass Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Overpass_600SemiBold',
+            fontFamily:
+              'Overpass_600SemiBold',
           }}>
           Overpass Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Overpass_700Bold',
+            fontFamily:
+              'Overpass_700Bold',
           }}>
           Overpass Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Overpass_800ExtraBold',
+            fontFamily:
+              'Overpass_800ExtraBold',
           }}>
           Overpass Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Overpass_900Black',
+            fontFamily:
+              'Overpass_900Black',
           }}>
           Overpass Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Overpass_100Thin_Italic',
+            fontFamily:
+              'Overpass_100Thin_Italic',
           }}>
           Overpass Thin Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Overpass_200ExtraLight_Italic',
+            fontFamily:
+              'Overpass_200ExtraLight_Italic',
           }}>
           Overpass Extra Light Italic
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Overpass_300Light_Italic',
+            fontFamily:
+              'Overpass_300Light_Italic',
           }}>
           Overpass Light Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Overpass_400Regular_Italic',
+            fontFamily:
+              'Overpass_400Regular_Italic',
           }}>
           Overpass Italic
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Overpass_500Medium_Italic',
+            fontFamily:
+              'Overpass_500Medium_Italic',
           }}>
           Overpass Medium Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Overpass_600SemiBold_Italic',
+            fontFamily:
+              'Overpass_600SemiBold_Italic',
           }}>
           Overpass Semi Bold Italic
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Overpass_700Bold_Italic',
+            fontFamily:
+              'Overpass_700Bold_Italic',
           }}>
           Overpass Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Overpass_800ExtraBold_Italic',
+            fontFamily:
+              'Overpass_800ExtraBold_Italic',
           }}>
           Overpass Extra Bold Italic
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Overpass_900Black_Italic',
+            fontFamily:
+              'Overpass_900Black_Italic',
           }}>
           Overpass Black Italic
         </Text>

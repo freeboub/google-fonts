@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-enriqueta/useFonts';
 import { Enriqueta_400Regular } from 'expo-google-fonts-enriqueta/400Regular';
 import { Enriqueta_500Medium } from 'expo-google-fonts-enriqueta/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Enriqueta_400Regular',
+            fontFamily:
+              'Enriqueta_400Regular',
           }}>
           Enriqueta Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Enriqueta_500Medium',
+            fontFamily:
+              'Enriqueta_500Medium',
           }}>
           Enriqueta Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Enriqueta_600SemiBold',
+            fontFamily:
+              'Enriqueta_600SemiBold',
           }}>
           Enriqueta Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Enriqueta_700Bold',
+            fontFamily:
+              'Enriqueta_700Bold',
           }}>
           Enriqueta Bold
         </Text>

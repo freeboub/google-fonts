@@ -1,7 +1,19 @@
 {
   "family": "Fustat",
-  "variants": ["200", "300", "regular", "500", "600", "700", "800"],
-  "subsets": ["arabic", "latin", "latin-ext"],
+  "variants": [
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800"
+  ],
+  "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v1",
   "lastModified": "2024-09-04",
   "files": {

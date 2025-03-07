@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-roboto-slab/useFonts';
 import { RobotoSlab_100Thin } from 'expo-google-fonts-roboto-slab/100Thin';
 import { RobotoSlab_200ExtraLight } from 'expo-google-fonts-roboto-slab/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSlab_100Thin',
+            fontFamily:
+              'RobotoSlab_100Thin',
           }}>
           Roboto Slab Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSlab_200ExtraLight',
+            fontFamily:
+              'RobotoSlab_200ExtraLight',
           }}>
           Roboto Slab Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSlab_300Light',
+            fontFamily:
+              'RobotoSlab_300Light',
           }}>
           Roboto Slab Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSlab_400Regular',
+            fontFamily:
+              'RobotoSlab_400Regular',
           }}>
           Roboto Slab Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSlab_500Medium',
+            fontFamily:
+              'RobotoSlab_500Medium',
           }}>
           Roboto Slab Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSlab_600SemiBold',
+            fontFamily:
+              'RobotoSlab_600SemiBold',
           }}>
           Roboto Slab Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSlab_700Bold',
+            fontFamily:
+              'RobotoSlab_700Bold',
           }}>
           Roboto Slab Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSlab_800ExtraBold',
+            fontFamily:
+              'RobotoSlab_800ExtraBold',
           }}>
           Roboto Slab Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoSlab_900Black',
+            fontFamily:
+              'RobotoSlab_900Black',
           }}>
           Roboto Slab Black
         </Text>

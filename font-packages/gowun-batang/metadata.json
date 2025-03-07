@@ -1,7 +1,12 @@
 {
   "family": "Gowun Batang",
   "variants": ["regular", "700"],
-  "subsets": ["korean", "latin", "latin-ext", "vietnamese"],
+  "subsets": [
+    "korean",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v11",
   "lastModified": "2024-11-20",
   "files": {

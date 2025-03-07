@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-wavefont/useFonts';
 import { Wavefont_100Thin } from 'expo-google-fonts-wavefont/100Thin';
 import { Wavefont_200ExtraLight } from 'expo-google-fonts-wavefont/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Wavefont_100Thin',
+            fontFamily:
+              'Wavefont_100Thin',
           }}>
           Wavefont Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Wavefont_200ExtraLight',
+            fontFamily:
+              'Wavefont_200ExtraLight',
           }}>
           Wavefont Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Wavefont_300Light',
+            fontFamily:
+              'Wavefont_300Light',
           }}>
           Wavefont Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Wavefont_400Regular',
+            fontFamily:
+              'Wavefont_400Regular',
           }}>
           Wavefont Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Wavefont_500Medium',
+            fontFamily:
+              'Wavefont_500Medium',
           }}>
           Wavefont Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Wavefont_600SemiBold',
+            fontFamily:
+              'Wavefont_600SemiBold',
           }}>
           Wavefont Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Wavefont_700Bold',
+            fontFamily:
+              'Wavefont_700Bold',
           }}>
           Wavefont Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Wavefont_800ExtraBold',
+            fontFamily:
+              'Wavefont_800ExtraBold',
           }}>
           Wavefont Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Wavefont_900Black',
+            fontFamily:
+              'Wavefont_900Black',
           }}>
           Wavefont Black
         </Text>

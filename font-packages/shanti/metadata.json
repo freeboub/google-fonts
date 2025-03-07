@@ -4,7 +4,9 @@
   "subsets": ["latin", "latin-ext"],
   "version": "v25",
   "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/shanti/v25/t5thIREMM4uSDgzgU0ezpKfwzA.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/shanti/v25/t5thIREMM4uSDgzgU0ezpKfwzA.ttf"
+  },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/shanti/v25/t5thIREMM4uSDgzQUk23.ttf"

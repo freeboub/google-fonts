@@ -26,7 +26,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-zen-loop/useFonts';
 import { ZenLoop_400Regular } from 'expo-google-fonts-zen-loop/400Regular';
 import { ZenLoop_400Regular_Italic } from 'expo-google-fonts-zen-loop/400Regular_Italic';
@@ -44,13 +47,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ZenLoop_400Regular',
+            fontFamily:
+              'ZenLoop_400Regular',
           }}>
           Zen Loop Regular
         </Text>
@@ -60,7 +69,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ZenLoop_400Regular_Italic',
+            fontFamily:
+              'ZenLoop_400Regular_Italic',
           }}>
           Zen Loop Italic
         </Text>

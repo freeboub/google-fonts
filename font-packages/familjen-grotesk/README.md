@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-familjen-grotesk/useFonts';
 import { FamiljenGrotesk_400Regular } from 'expo-google-fonts-familjen-grotesk/400Regular';
 import { FamiljenGrotesk_500Medium } from 'expo-google-fonts-familjen-grotesk/500Medium';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FamiljenGrotesk_400Regular',
+            fontFamily:
+              'FamiljenGrotesk_400Regular',
           }}>
           Familjen Grotesk Regular
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FamiljenGrotesk_500Medium',
+            fontFamily:
+              'FamiljenGrotesk_500Medium',
           }}>
           Familjen Grotesk Medium
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FamiljenGrotesk_600SemiBold',
+            fontFamily:
+              'FamiljenGrotesk_600SemiBold',
           }}>
           Familjen Grotesk Semi Bold
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FamiljenGrotesk_700Bold',
+            fontFamily:
+              'FamiljenGrotesk_700Bold',
           }}>
           Familjen Grotesk Bold
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FamiljenGrotesk_400Regular_Italic',
+            fontFamily:
+              'FamiljenGrotesk_400Regular_Italic',
           }}>
           Familjen Grotesk Italic
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FamiljenGrotesk_500Medium_Italic',
+            fontFamily:
+              'FamiljenGrotesk_500Medium_Italic',
           }}>
           Familjen Grotesk Medium Italic
         </Text>
@@ -128,9 +142,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FamiljenGrotesk_600SemiBold_Italic',
+            fontFamily:
+              'FamiljenGrotesk_600SemiBold_Italic',
           }}>
-          Familjen Grotesk Semi Bold Italic
+          Familjen Grotesk Semi Bold
+          Italic
         </Text>
 
         <Text
@@ -138,7 +154,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FamiljenGrotesk_700Bold_Italic',
+            fontFamily:
+              'FamiljenGrotesk_700Bold_Italic',
           }}>
           Familjen Grotesk Bold Italic
         </Text>

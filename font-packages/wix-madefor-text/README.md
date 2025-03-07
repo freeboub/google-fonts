@@ -34,7 +34,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-wix-madefor-text/useFonts';
 import { WixMadeforText_400Regular } from 'expo-google-fonts-wix-madefor-text/400Regular';
 import { WixMadeforText_400Regular_Italic } from 'expo-google-fonts-wix-madefor-text/400Regular_Italic';
@@ -68,13 +71,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'WixMadeforText_400Regular',
+            fontFamily:
+              'WixMadeforText_400Regular',
           }}>
           Wix Madefor Text Regular
         </Text>
@@ -84,7 +93,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'WixMadeforText_400Regular_Italic',
+            fontFamily:
+              'WixMadeforText_400Regular_Italic',
           }}>
           Wix Madefor Text Italic
         </Text>
@@ -94,7 +104,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'WixMadeforText_500Medium',
+            fontFamily:
+              'WixMadeforText_500Medium',
           }}>
           Wix Madefor Text Medium
         </Text>
@@ -104,7 +115,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'WixMadeforText_500Medium_Italic',
+            fontFamily:
+              'WixMadeforText_500Medium_Italic',
           }}>
           Wix Madefor Text Medium Italic
         </Text>
@@ -114,7 +126,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'WixMadeforText_600SemiBold',
+            fontFamily:
+              'WixMadeforText_600SemiBold',
           }}>
           Wix Madefor Text Semi Bold
         </Text>
@@ -124,9 +137,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'WixMadeforText_600SemiBold_Italic',
+            fontFamily:
+              'WixMadeforText_600SemiBold_Italic',
           }}>
-          Wix Madefor Text Semi Bold Italic
+          Wix Madefor Text Semi Bold
+          Italic
         </Text>
 
         <Text
@@ -134,7 +149,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'WixMadeforText_700Bold',
+            fontFamily:
+              'WixMadeforText_700Bold',
           }}>
           Wix Madefor Text Bold
         </Text>
@@ -144,7 +160,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'WixMadeforText_700Bold_Italic',
+            fontFamily:
+              'WixMadeforText_700Bold_Italic',
           }}>
           Wix Madefor Text Bold Italic
         </Text>
@@ -154,7 +171,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'WixMadeforText_800ExtraBold',
+            fontFamily:
+              'WixMadeforText_800ExtraBold',
           }}>
           Wix Madefor Text Extra Bold
         </Text>
@@ -164,9 +182,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'WixMadeforText_800ExtraBold_Italic',
+            fontFamily:
+              'WixMadeforText_800ExtraBold_Italic',
           }}>
-          Wix Madefor Text Extra Bold Italic
+          Wix Madefor Text Extra Bold
+          Italic
         </Text>
       </View>
     );

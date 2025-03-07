@@ -27,7 +27,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-amiko/useFonts';
 import { Amiko_400Regular } from 'expo-google-fonts-amiko/400Regular';
 import { Amiko_600SemiBold } from 'expo-google-fonts-amiko/600SemiBold';
@@ -47,13 +50,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Amiko_400Regular',
+            fontFamily:
+              'Amiko_400Regular',
           }}>
           Amiko Regular
         </Text>
@@ -63,7 +72,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Amiko_600SemiBold',
+            fontFamily:
+              'Amiko_600SemiBold',
           }}>
           Amiko Semi Bold
         </Text>

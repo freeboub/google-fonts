@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-martel/useFonts';
 import { Martel_200ExtraLight } from 'expo-google-fonts-martel/200ExtraLight';
 import { Martel_300Light } from 'expo-google-fonts-martel/300Light';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Martel_200ExtraLight',
+            fontFamily:
+              'Martel_200ExtraLight',
           }}>
           Martel Extra Light
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Martel_300Light',
+            fontFamily:
+              'Martel_300Light',
           }}>
           Martel Light
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Martel_400Regular',
+            fontFamily:
+              'Martel_400Regular',
           }}>
           Martel Regular
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Martel_600SemiBold',
+            fontFamily:
+              'Martel_600SemiBold',
           }}>
           Martel Semi Bold
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Martel_700Bold',
+            fontFamily:
+              'Martel_700Bold',
           }}>
           Martel Bold
         </Text>
@@ -115,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Martel_800ExtraBold',
+            fontFamily:
+              'Martel_800ExtraBold',
           }}>
           Martel Extra Bold
         </Text>
@@ -125,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Martel_900Black',
+            fontFamily:
+              'Martel_900Black',
           }}>
           Martel Black
         </Text>

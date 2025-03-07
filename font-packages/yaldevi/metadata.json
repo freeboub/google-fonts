@@ -1,7 +1,18 @@
 {
   "family": "Yaldevi",
-  "variants": ["200", "300", "regular", "500", "600", "700"],
-  "subsets": ["latin", "latin-ext", "sinhala"],
+  "variants": [
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "sinhala"
+  ],
   "version": "v12",
   "lastModified": "2024-09-04",
   "files": {

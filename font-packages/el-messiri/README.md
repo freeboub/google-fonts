@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-el-messiri/useFonts';
 import { ElMessiri_400Regular } from 'expo-google-fonts-el-messiri/400Regular';
 import { ElMessiri_500Medium } from 'expo-google-fonts-el-messiri/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ElMessiri_400Regular',
+            fontFamily:
+              'ElMessiri_400Regular',
           }}>
           El Messiri Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ElMessiri_500Medium',
+            fontFamily:
+              'ElMessiri_500Medium',
           }}>
           El Messiri Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ElMessiri_600SemiBold',
+            fontFamily:
+              'ElMessiri_600SemiBold',
           }}>
           El Messiri Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ElMessiri_700Bold',
+            fontFamily:
+              'ElMessiri_700Bold',
           }}>
           El Messiri Bold
         </Text>

@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-chivo/useFonts';
 import { Chivo_100Thin } from 'expo-google-fonts-chivo/100Thin';
 import { Chivo_200ExtraLight } from 'expo-google-fonts-chivo/200ExtraLight';
@@ -92,7 +95,12 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
@@ -108,7 +116,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Chivo_200ExtraLight',
+            fontFamily:
+              'Chivo_200ExtraLight',
           }}>
           Chivo Extra Light
         </Text>
@@ -118,7 +127,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Chivo_300Light',
+            fontFamily:
+              'Chivo_300Light',
           }}>
           Chivo Light
         </Text>
@@ -128,7 +138,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Chivo_400Regular',
+            fontFamily:
+              'Chivo_400Regular',
           }}>
           Chivo Regular
         </Text>
@@ -138,7 +149,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Chivo_500Medium',
+            fontFamily:
+              'Chivo_500Medium',
           }}>
           Chivo Medium
         </Text>
@@ -148,7 +160,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Chivo_600SemiBold',
+            fontFamily:
+              'Chivo_600SemiBold',
           }}>
           Chivo Semi Bold
         </Text>
@@ -168,7 +181,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Chivo_800ExtraBold',
+            fontFamily:
+              'Chivo_800ExtraBold',
           }}>
           Chivo Extra Bold
         </Text>
@@ -178,7 +192,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Chivo_900Black',
+            fontFamily:
+              'Chivo_900Black',
           }}>
           Chivo Black
         </Text>
@@ -188,7 +203,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Chivo_100Thin_Italic',
+            fontFamily:
+              'Chivo_100Thin_Italic',
           }}>
           Chivo Thin Italic
         </Text>
@@ -198,7 +214,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Chivo_200ExtraLight_Italic',
+            fontFamily:
+              'Chivo_200ExtraLight_Italic',
           }}>
           Chivo Extra Light Italic
         </Text>
@@ -208,7 +225,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Chivo_300Light_Italic',
+            fontFamily:
+              'Chivo_300Light_Italic',
           }}>
           Chivo Light Italic
         </Text>
@@ -218,7 +236,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Chivo_400Regular_Italic',
+            fontFamily:
+              'Chivo_400Regular_Italic',
           }}>
           Chivo Italic
         </Text>
@@ -228,7 +247,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Chivo_500Medium_Italic',
+            fontFamily:
+              'Chivo_500Medium_Italic',
           }}>
           Chivo Medium Italic
         </Text>
@@ -238,7 +258,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Chivo_600SemiBold_Italic',
+            fontFamily:
+              'Chivo_600SemiBold_Italic',
           }}>
           Chivo Semi Bold Italic
         </Text>
@@ -248,7 +269,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Chivo_700Bold_Italic',
+            fontFamily:
+              'Chivo_700Bold_Italic',
           }}>
           Chivo Bold Italic
         </Text>
@@ -258,7 +280,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Chivo_800ExtraBold_Italic',
+            fontFamily:
+              'Chivo_800ExtraBold_Italic',
           }}>
           Chivo Extra Bold Italic
         </Text>
@@ -268,7 +291,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Chivo_900Black_Italic',
+            fontFamily:
+              'Chivo_900Black_Italic',
           }}>
           Chivo Black Italic
         </Text>

@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-anek-latin/useFonts';
 import { AnekLatin_100Thin } from 'expo-google-fonts-anek-latin/100Thin';
 import { AnekLatin_200ExtraLight } from 'expo-google-fonts-anek-latin/200ExtraLight';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekLatin_100Thin',
+            fontFamily:
+              'AnekLatin_100Thin',
           }}>
           Anek Latin Thin
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekLatin_200ExtraLight',
+            fontFamily:
+              'AnekLatin_200ExtraLight',
           }}>
           Anek Latin Extra Light
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekLatin_300Light',
+            fontFamily:
+              'AnekLatin_300Light',
           }}>
           Anek Latin Light
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekLatin_400Regular',
+            fontFamily:
+              'AnekLatin_400Regular',
           }}>
           Anek Latin Regular
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekLatin_500Medium',
+            fontFamily:
+              'AnekLatin_500Medium',
           }}>
           Anek Latin Medium
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekLatin_600SemiBold',
+            fontFamily:
+              'AnekLatin_600SemiBold',
           }}>
           Anek Latin Semi Bold
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekLatin_700Bold',
+            fontFamily:
+              'AnekLatin_700Bold',
           }}>
           Anek Latin Bold
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekLatin_800ExtraBold',
+            fontFamily:
+              'AnekLatin_800ExtraBold',
           }}>
           Anek Latin Extra Bold
         </Text>

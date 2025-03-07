@@ -30,7 +30,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-neuton/useFonts';
 import { Neuton_200ExtraLight } from 'expo-google-fonts-neuton/200ExtraLight';
 import { Neuton_300Light } from 'expo-google-fonts-neuton/300Light';
@@ -56,13 +59,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Neuton_200ExtraLight',
+            fontFamily:
+              'Neuton_200ExtraLight',
           }}>
           Neuton Extra Light
         </Text>
@@ -72,7 +81,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Neuton_300Light',
+            fontFamily:
+              'Neuton_300Light',
           }}>
           Neuton Light
         </Text>
@@ -82,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Neuton_400Regular',
+            fontFamily:
+              'Neuton_400Regular',
           }}>
           Neuton Regular
         </Text>
@@ -92,7 +103,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Neuton_400Regular_Italic',
+            fontFamily:
+              'Neuton_400Regular_Italic',
           }}>
           Neuton Italic
         </Text>
@@ -102,7 +114,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Neuton_700Bold',
+            fontFamily:
+              'Neuton_700Bold',
           }}>
           Neuton Bold
         </Text>
@@ -112,7 +125,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Neuton_800ExtraBold',
+            fontFamily:
+              'Neuton_800ExtraBold',
           }}>
           Neuton Extra Bold
         </Text>

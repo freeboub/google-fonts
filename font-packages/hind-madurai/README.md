@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-hind-madurai/useFonts';
 import { HindMadurai_300Light } from 'expo-google-fonts-hind-madurai/300Light';
 import { HindMadurai_400Regular } from 'expo-google-fonts-hind-madurai/400Regular';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HindMadurai_300Light',
+            fontFamily:
+              'HindMadurai_300Light',
           }}>
           Hind Madurai Light
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HindMadurai_400Regular',
+            fontFamily:
+              'HindMadurai_400Regular',
           }}>
           Hind Madurai Regular
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HindMadurai_500Medium',
+            fontFamily:
+              'HindMadurai_500Medium',
           }}>
           Hind Madurai Medium
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HindMadurai_600SemiBold',
+            fontFamily:
+              'HindMadurai_600SemiBold',
           }}>
           Hind Madurai Semi Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HindMadurai_700Bold',
+            fontFamily:
+              'HindMadurai_700Bold',
           }}>
           Hind Madurai Bold
         </Text>

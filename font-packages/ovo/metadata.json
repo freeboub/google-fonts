@@ -4,7 +4,9 @@
   "subsets": ["latin"],
   "version": "v17",
   "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/ovo/v17/yYLl0h7Wyfzjy4Q5_3WVxA.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/ovo/v17/yYLl0h7Wyfzjy4Q5_3WVxA.ttf"
+  },
   "category": "serif",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/ovo/v17/yYLl0h7WyfzTyo49.ttf"

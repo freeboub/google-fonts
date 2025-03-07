@@ -1,7 +1,11 @@
 {
   "family": "Nova Mono",
   "variants": ["regular"],
-  "subsets": ["greek", "latin", "latin-ext"],
+  "subsets": [
+    "greek",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v21",
   "lastModified": "2024-11-20",
   "files": {

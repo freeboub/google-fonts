@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-lateef/useFonts';
 import { Lateef_200ExtraLight } from 'expo-google-fonts-lateef/200ExtraLight';
 import { Lateef_300Light } from 'expo-google-fonts-lateef/300Light';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Lateef_200ExtraLight',
+            fontFamily:
+              'Lateef_200ExtraLight',
           }}>
           Lateef Extra Light
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Lateef_300Light',
+            fontFamily:
+              'Lateef_300Light',
           }}>
           Lateef Light
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Lateef_400Regular',
+            fontFamily:
+              'Lateef_400Regular',
           }}>
           Lateef Regular
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Lateef_500Medium',
+            fontFamily:
+              'Lateef_500Medium',
           }}>
           Lateef Medium
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Lateef_600SemiBold',
+            fontFamily:
+              'Lateef_600SemiBold',
           }}>
           Lateef Semi Bold
         </Text>
@@ -115,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Lateef_700Bold',
+            fontFamily:
+              'Lateef_700Bold',
           }}>
           Lateef Bold
         </Text>
@@ -125,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Lateef_800ExtraBold',
+            fontFamily:
+              'Lateef_800ExtraBold',
           }}>
           Lateef Extra Bold
         </Text>

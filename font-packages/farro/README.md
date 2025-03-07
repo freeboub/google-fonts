@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-farro/useFonts';
 import { Farro_300Light } from 'expo-google-fonts-farro/300Light';
 import { Farro_400Regular } from 'expo-google-fonts-farro/400Regular';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Farro_300Light',
+            fontFamily:
+              'Farro_300Light',
           }}>
           Farro Light
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Farro_400Regular',
+            fontFamily:
+              'Farro_400Regular',
           }}>
           Farro Regular
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Farro_500Medium',
+            fontFamily:
+              'Farro_500Medium',
           }}>
           Farro Medium
         </Text>

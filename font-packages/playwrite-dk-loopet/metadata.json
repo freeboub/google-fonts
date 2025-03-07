@@ -1,6 +1,11 @@
 {
   "family": "Playwrite DK Loopet",
-  "variants": ["100", "200", "300", "regular"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular"
+  ],
   "subsets": ["latin"],
   "version": "v5",
   "lastModified": "2025-02-12",

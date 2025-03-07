@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Khudawadi",
   "variants": ["regular"],
-  "subsets": ["khudawadi", "latin", "latin-ext"],
+  "subsets": [
+    "khudawadi",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v22",
   "lastModified": "2024-08-21",
   "files": {

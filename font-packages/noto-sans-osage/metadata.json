@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Osage",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "osage"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "osage"
+  ],
   "version": "v18",
   "lastModified": "2022-11-09",
   "files": {

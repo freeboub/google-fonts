@@ -30,7 +30,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-athiti/useFonts';
 import { Athiti_200ExtraLight } from 'expo-google-fonts-athiti/200ExtraLight';
 import { Athiti_300Light } from 'expo-google-fonts-athiti/300Light';
@@ -56,13 +59,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Athiti_200ExtraLight',
+            fontFamily:
+              'Athiti_200ExtraLight',
           }}>
           Athiti Extra Light
         </Text>
@@ -72,7 +81,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Athiti_300Light',
+            fontFamily:
+              'Athiti_300Light',
           }}>
           Athiti Light
         </Text>
@@ -82,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Athiti_400Regular',
+            fontFamily:
+              'Athiti_400Regular',
           }}>
           Athiti Regular
         </Text>
@@ -92,7 +103,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Athiti_500Medium',
+            fontFamily:
+              'Athiti_500Medium',
           }}>
           Athiti Medium
         </Text>
@@ -102,7 +114,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Athiti_600SemiBold',
+            fontFamily:
+              'Athiti_600SemiBold',
           }}>
           Athiti Semi Bold
         </Text>
@@ -112,7 +125,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Athiti_700Bold',
+            fontFamily:
+              'Athiti_700Bold',
           }}>
           Athiti Bold
         </Text>

@@ -1,10 +1,16 @@
 {
   "family": "Modak",
   "variants": ["regular"],
-  "subsets": ["devanagari", "latin", "latin-ext"],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v20",
   "lastModified": "2025-01-23",
-  "files": { "regular": "https://fonts.gstatic.com/s/modak/v20/EJRYQgs1XtIEsnMH8BVZ76KU.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/modak/v20/EJRYQgs1XtIEsnMH8BVZ76KU.ttf"
+  },
   "category": "display",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/modak/v20/EJRYQgs1XtIEskMG-hE.ttf"

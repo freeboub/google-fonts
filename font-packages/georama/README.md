@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-georama/useFonts';
 import { Georama_100Thin } from 'expo-google-fonts-georama/100Thin';
 import { Georama_200ExtraLight } from 'expo-google-fonts-georama/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_100Thin',
+            fontFamily:
+              'Georama_100Thin',
           }}>
           Georama Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_200ExtraLight',
+            fontFamily:
+              'Georama_200ExtraLight',
           }}>
           Georama Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_300Light',
+            fontFamily:
+              'Georama_300Light',
           }}>
           Georama Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_400Regular',
+            fontFamily:
+              'Georama_400Regular',
           }}>
           Georama Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_500Medium',
+            fontFamily:
+              'Georama_500Medium',
           }}>
           Georama Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_600SemiBold',
+            fontFamily:
+              'Georama_600SemiBold',
           }}>
           Georama Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_700Bold',
+            fontFamily:
+              'Georama_700Bold',
           }}>
           Georama Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_800ExtraBold',
+            fontFamily:
+              'Georama_800ExtraBold',
           }}>
           Georama Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_900Black',
+            fontFamily:
+              'Georama_900Black',
           }}>
           Georama Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_100Thin_Italic',
+            fontFamily:
+              'Georama_100Thin_Italic',
           }}>
           Georama Thin Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_200ExtraLight_Italic',
+            fontFamily:
+              'Georama_200ExtraLight_Italic',
           }}>
           Georama Extra Light Italic
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_300Light_Italic',
+            fontFamily:
+              'Georama_300Light_Italic',
           }}>
           Georama Light Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_400Regular_Italic',
+            fontFamily:
+              'Georama_400Regular_Italic',
           }}>
           Georama Italic
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_500Medium_Italic',
+            fontFamily:
+              'Georama_500Medium_Italic',
           }}>
           Georama Medium Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_600SemiBold_Italic',
+            fontFamily:
+              'Georama_600SemiBold_Italic',
           }}>
           Georama Semi Bold Italic
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_700Bold_Italic',
+            fontFamily:
+              'Georama_700Bold_Italic',
           }}>
           Georama Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_800ExtraBold_Italic',
+            fontFamily:
+              'Georama_800ExtraBold_Italic',
           }}>
           Georama Extra Bold Italic
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Georama_900Black_Italic',
+            fontFamily:
+              'Georama_900Black_Italic',
           }}>
           Georama Black Italic
         </Text>

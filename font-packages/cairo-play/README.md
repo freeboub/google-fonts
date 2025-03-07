@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-cairo-play/useFonts';
 import { CairoPlay_200ExtraLight } from 'expo-google-fonts-cairo-play/200ExtraLight';
 import { CairoPlay_300Light } from 'expo-google-fonts-cairo-play/300Light';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CairoPlay_200ExtraLight',
+            fontFamily:
+              'CairoPlay_200ExtraLight',
           }}>
           Cairo Play Extra Light
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CairoPlay_300Light',
+            fontFamily:
+              'CairoPlay_300Light',
           }}>
           Cairo Play Light
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CairoPlay_400Regular',
+            fontFamily:
+              'CairoPlay_400Regular',
           }}>
           Cairo Play Regular
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CairoPlay_500Medium',
+            fontFamily:
+              'CairoPlay_500Medium',
           }}>
           Cairo Play Medium
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CairoPlay_600SemiBold',
+            fontFamily:
+              'CairoPlay_600SemiBold',
           }}>
           Cairo Play Semi Bold
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CairoPlay_700Bold',
+            fontFamily:
+              'CairoPlay_700Bold',
           }}>
           Cairo Play Bold
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CairoPlay_800ExtraBold',
+            fontFamily:
+              'CairoPlay_800ExtraBold',
           }}>
           Cairo Play Extra Bold
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CairoPlay_900Black',
+            fontFamily:
+              'CairoPlay_900Black',
           }}>
           Cairo Play Black
         </Text>

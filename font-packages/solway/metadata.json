@@ -1,6 +1,12 @@
 {
   "family": "Solway",
-  "variants": ["300", "regular", "500", "700", "800"],
+  "variants": [
+    "300",
+    "regular",
+    "500",
+    "700",
+    "800"
+  ],
   "subsets": ["latin"],
   "version": "v18",
   "lastModified": "2024-09-04",

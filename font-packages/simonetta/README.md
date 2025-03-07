@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-simonetta/useFonts';
 import { Simonetta_400Regular } from 'expo-google-fonts-simonetta/400Regular';
 import { Simonetta_400Regular_Italic } from 'expo-google-fonts-simonetta/400Regular_Italic';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Simonetta_400Regular',
+            fontFamily:
+              'Simonetta_400Regular',
           }}>
           Simonetta Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Simonetta_400Regular_Italic',
+            fontFamily:
+              'Simonetta_400Regular_Italic',
           }}>
           Simonetta Italic
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Simonetta_900Black',
+            fontFamily:
+              'Simonetta_900Black',
           }}>
           Simonetta Black
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Simonetta_900Black_Italic',
+            fontFamily:
+              'Simonetta_900Black_Italic',
           }}>
           Simonetta Black Italic
         </Text>

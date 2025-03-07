@@ -1,7 +1,13 @@
 {
   "family": "Nabla",
   "variants": ["regular"],
-  "subsets": ["cyrillic-ext", "latin", "latin-ext", "math", "vietnamese"],
+  "subsets": [
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "math",
+    "vietnamese"
+  ],
   "version": "v16",
   "lastModified": "2025-03-03",
   "files": {

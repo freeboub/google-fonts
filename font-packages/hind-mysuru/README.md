@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-hind-mysuru/useFonts';
 import { HindMysuru_300Light } from 'expo-google-fonts-hind-mysuru/300Light';
 import { HindMysuru_400Regular } from 'expo-google-fonts-hind-mysuru/400Regular';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HindMysuru_300Light',
+            fontFamily:
+              'HindMysuru_300Light',
           }}>
           Hind Mysuru Light
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HindMysuru_400Regular',
+            fontFamily:
+              'HindMysuru_400Regular',
           }}>
           Hind Mysuru Regular
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HindMysuru_500Medium',
+            fontFamily:
+              'HindMysuru_500Medium',
           }}>
           Hind Mysuru Medium
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HindMysuru_600SemiBold',
+            fontFamily:
+              'HindMysuru_600SemiBold',
           }}>
           Hind Mysuru Semi Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HindMysuru_700Bold',
+            fontFamily:
+              'HindMysuru_700Bold',
           }}>
           Hind Mysuru Bold
         </Text>

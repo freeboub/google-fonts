@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-cham/useFonts';
 import { NotoSansCham_100Thin } from 'expo-google-fonts-noto-sans-cham/100Thin';
 import { NotoSansCham_200ExtraLight } from 'expo-google-fonts-noto-sans-cham/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansCham_100Thin',
+            fontFamily:
+              'NotoSansCham_100Thin',
           }}>
           Noto Sans Cham Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansCham_200ExtraLight',
+            fontFamily:
+              'NotoSansCham_200ExtraLight',
           }}>
           Noto Sans Cham Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansCham_300Light',
+            fontFamily:
+              'NotoSansCham_300Light',
           }}>
           Noto Sans Cham Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansCham_400Regular',
+            fontFamily:
+              'NotoSansCham_400Regular',
           }}>
           Noto Sans Cham Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansCham_500Medium',
+            fontFamily:
+              'NotoSansCham_500Medium',
           }}>
           Noto Sans Cham Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansCham_600SemiBold',
+            fontFamily:
+              'NotoSansCham_600SemiBold',
           }}>
           Noto Sans Cham Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansCham_700Bold',
+            fontFamily:
+              'NotoSansCham_700Bold',
           }}>
           Noto Sans Cham Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansCham_800ExtraBold',
+            fontFamily:
+              'NotoSansCham_800ExtraBold',
           }}>
           Noto Sans Cham Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansCham_900Black',
+            fontFamily:
+              'NotoSansCham_900Black',
           }}>
           Noto Sans Cham Black
         </Text>

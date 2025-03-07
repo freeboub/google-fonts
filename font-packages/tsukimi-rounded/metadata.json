@@ -1,7 +1,17 @@
 {
   "family": "Tsukimi Rounded",
-  "variants": ["300", "regular", "500", "600", "700"],
-  "subsets": ["japanese", "latin", "latin-ext"],
+  "variants": [
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "japanese",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v11",
   "lastModified": "2024-08-07",
   "files": {

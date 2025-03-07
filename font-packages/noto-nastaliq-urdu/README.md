@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-nastaliq-urdu/useFonts';
 import { NotoNastaliqUrdu_400Regular } from 'expo-google-fonts-noto-nastaliq-urdu/400Regular';
 import { NotoNastaliqUrdu_500Medium } from 'expo-google-fonts-noto-nastaliq-urdu/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoNastaliqUrdu_400Regular',
+            fontFamily:
+              'NotoNastaliqUrdu_400Regular',
           }}>
           Noto Nastaliq Urdu Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoNastaliqUrdu_500Medium',
+            fontFamily:
+              'NotoNastaliqUrdu_500Medium',
           }}>
           Noto Nastaliq Urdu Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoNastaliqUrdu_600SemiBold',
+            fontFamily:
+              'NotoNastaliqUrdu_600SemiBold',
           }}>
           Noto Nastaliq Urdu Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoNastaliqUrdu_700Bold',
+            fontFamily:
+              'NotoNastaliqUrdu_700Bold',
           }}>
           Noto Nastaliq Urdu Bold
         </Text>

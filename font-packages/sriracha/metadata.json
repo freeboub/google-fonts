@@ -1,7 +1,12 @@
 {
   "family": "Sriracha",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "thai",
+    "vietnamese"
+  ],
   "version": "v14",
   "lastModified": "2024-09-04",
   "files": {

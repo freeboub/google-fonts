@@ -1,7 +1,12 @@
 {
   "family": "Reem Kufi Ink",
   "variants": ["regular"],
-  "subsets": ["arabic", "latin", "latin-ext", "vietnamese"],
+  "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v10",
   "lastModified": "2025-03-03",
   "files": {

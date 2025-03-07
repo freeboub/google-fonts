@@ -34,7 +34,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-kulim-park/useFonts';
 import { KulimPark_200ExtraLight } from 'expo-google-fonts-kulim-park/200ExtraLight';
 import { KulimPark_200ExtraLight_Italic } from 'expo-google-fonts-kulim-park/200ExtraLight_Italic';
@@ -68,13 +71,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KulimPark_200ExtraLight',
+            fontFamily:
+              'KulimPark_200ExtraLight',
           }}>
           Kulim Park Extra Light
         </Text>
@@ -84,7 +93,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KulimPark_200ExtraLight_Italic',
+            fontFamily:
+              'KulimPark_200ExtraLight_Italic',
           }}>
           Kulim Park Extra Light Italic
         </Text>
@@ -94,7 +104,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KulimPark_300Light',
+            fontFamily:
+              'KulimPark_300Light',
           }}>
           Kulim Park Light
         </Text>
@@ -104,7 +115,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KulimPark_300Light_Italic',
+            fontFamily:
+              'KulimPark_300Light_Italic',
           }}>
           Kulim Park Light Italic
         </Text>
@@ -114,7 +126,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KulimPark_400Regular',
+            fontFamily:
+              'KulimPark_400Regular',
           }}>
           Kulim Park Regular
         </Text>
@@ -124,7 +137,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KulimPark_400Regular_Italic',
+            fontFamily:
+              'KulimPark_400Regular_Italic',
           }}>
           Kulim Park Italic
         </Text>
@@ -134,7 +148,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KulimPark_600SemiBold',
+            fontFamily:
+              'KulimPark_600SemiBold',
           }}>
           Kulim Park Semi Bold
         </Text>
@@ -144,7 +159,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KulimPark_600SemiBold_Italic',
+            fontFamily:
+              'KulimPark_600SemiBold_Italic',
           }}>
           Kulim Park Semi Bold Italic
         </Text>
@@ -154,7 +170,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KulimPark_700Bold',
+            fontFamily:
+              'KulimPark_700Bold',
           }}>
           Kulim Park Bold
         </Text>
@@ -164,7 +181,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KulimPark_700Bold_Italic',
+            fontFamily:
+              'KulimPark_700Bold_Italic',
           }}>
           Kulim Park Bold Italic
         </Text>

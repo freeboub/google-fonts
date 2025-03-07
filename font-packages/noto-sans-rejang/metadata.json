@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Rejang",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "rejang"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "rejang"
+  ],
   "version": "v21",
   "lastModified": "2023-09-27",
   "files": {

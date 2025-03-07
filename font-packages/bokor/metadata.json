@@ -4,7 +4,9 @@
   "subsets": ["khmer", "latin"],
   "version": "v31",
   "lastModified": "2024-12-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/bokor/v31/m8JcjfpeeaqTiR2WdInbcaxE.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/bokor/v31/m8JcjfpeeaqTiR2WdInbcaxE.ttf"
+  },
   "category": "display",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/bokor/v31/m8JcjfpeeaqTiS2Xfo0.ttf"

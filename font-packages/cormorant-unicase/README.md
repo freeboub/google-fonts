@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-cormorant-unicase/useFonts';
 import { CormorantUnicase_300Light } from 'expo-google-fonts-cormorant-unicase/300Light';
 import { CormorantUnicase_400Regular } from 'expo-google-fonts-cormorant-unicase/400Regular';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CormorantUnicase_300Light',
+            fontFamily:
+              'CormorantUnicase_300Light',
           }}>
           Cormorant Unicase Light
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CormorantUnicase_400Regular',
+            fontFamily:
+              'CormorantUnicase_400Regular',
           }}>
           Cormorant Unicase Regular
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CormorantUnicase_500Medium',
+            fontFamily:
+              'CormorantUnicase_500Medium',
           }}>
           Cormorant Unicase Medium
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CormorantUnicase_600SemiBold',
+            fontFamily:
+              'CormorantUnicase_600SemiBold',
           }}>
           Cormorant Unicase Semi Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CormorantUnicase_700Bold',
+            fontFamily:
+              'CormorantUnicase_700Bold',
           }}>
           Cormorant Unicase Bold
         </Text>

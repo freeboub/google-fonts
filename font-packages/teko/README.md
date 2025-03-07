@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-teko/useFonts';
 import { Teko_300Light } from 'expo-google-fonts-teko/300Light';
 import { Teko_400Regular } from 'expo-google-fonts-teko/400Regular';
@@ -53,7 +56,12 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
@@ -69,7 +77,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Teko_400Regular',
+            fontFamily:
+              'Teko_400Regular',
           }}>
           Teko Regular
         </Text>
@@ -79,7 +88,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Teko_500Medium',
+            fontFamily:
+              'Teko_500Medium',
           }}>
           Teko Medium
         </Text>
@@ -89,7 +99,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Teko_600SemiBold',
+            fontFamily:
+              'Teko_600SemiBold',
           }}>
           Teko Semi Bold
         </Text>

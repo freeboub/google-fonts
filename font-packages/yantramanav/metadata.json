@@ -1,7 +1,18 @@
 {
   "family": "Yantramanav",
-  "variants": ["100", "300", "regular", "500", "700", "900"],
-  "subsets": ["devanagari", "latin", "latin-ext"],
+  "variants": [
+    "100",
+    "300",
+    "regular",
+    "500",
+    "700",
+    "900"
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v13",
   "lastModified": "2024-09-04",
   "files": {

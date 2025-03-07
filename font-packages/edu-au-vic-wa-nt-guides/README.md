@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-edu-au-vic-wa-nt-guides/useFonts';
 import { EduAUVICWANTGuides_400Regular } from 'expo-google-fonts-edu-au-vic-wa-nt-guides/400Regular';
 import { EduAUVICWANTGuides_500Medium } from 'expo-google-fonts-edu-au-vic-wa-nt-guides/500Medium';
@@ -50,15 +53,22 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EduAUVICWANTGuides_400Regular',
+            fontFamily:
+              'EduAUVICWANTGuides_400Regular',
           }}>
-          Edu AU VIC WA NT Guides Regular
+          Edu AU VIC WA NT Guides
+          Regular
         </Text>
 
         <Text
@@ -66,7 +76,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EduAUVICWANTGuides_500Medium',
+            fontFamily:
+              'EduAUVICWANTGuides_500Medium',
           }}>
           Edu AU VIC WA NT Guides Medium
         </Text>
@@ -76,9 +87,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EduAUVICWANTGuides_600SemiBold',
+            fontFamily:
+              'EduAUVICWANTGuides_600SemiBold',
           }}>
-          Edu AU VIC WA NT Guides Semi Bold
+          Edu AU VIC WA NT Guides Semi
+          Bold
         </Text>
 
         <Text
@@ -86,7 +99,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EduAUVICWANTGuides_700Bold',
+            fontFamily:
+              'EduAUVICWANTGuides_700Bold',
           }}>
           Edu AU VIC WA NT Guides Bold
         </Text>

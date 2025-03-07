@@ -1,10 +1,17 @@
 {
   "family": "Forum",
   "variants": ["regular"],
-  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v18",
   "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/forum/v18/6aey4Ky-Vb8Ew_IWMJMa3mnT.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/forum/v18/6aey4Ky-Vb8Ew_IWMJMa3mnT.ttf"
+  },
   "category": "display",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/forum/v18/6aey4Ky-Vb8Ew8IXOpc.ttf"

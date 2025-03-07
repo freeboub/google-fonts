@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-sora/useFonts';
 import { Sora_100Thin } from 'expo-google-fonts-sora/100Thin';
 import { Sora_200ExtraLight } from 'expo-google-fonts-sora/200ExtraLight';
@@ -62,7 +65,12 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
@@ -78,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sora_200ExtraLight',
+            fontFamily:
+              'Sora_200ExtraLight',
           }}>
           Sora Extra Light
         </Text>
@@ -98,7 +107,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sora_400Regular',
+            fontFamily:
+              'Sora_400Regular',
           }}>
           Sora Regular
         </Text>
@@ -108,7 +118,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sora_500Medium',
+            fontFamily:
+              'Sora_500Medium',
           }}>
           Sora Medium
         </Text>
@@ -118,7 +129,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sora_600SemiBold',
+            fontFamily:
+              'Sora_600SemiBold',
           }}>
           Sora Semi Bold
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sora_800ExtraBold',
+            fontFamily:
+              'Sora_800ExtraBold',
           }}>
           Sora Extra Bold
         </Text>

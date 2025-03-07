@@ -40,7 +40,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-hubot-sans/useFonts';
 import { HubotSans_200ExtraLight } from 'expo-google-fonts-hubot-sans/200ExtraLight';
 import { HubotSans_300Light } from 'expo-google-fonts-hubot-sans/300Light';
@@ -86,13 +89,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HubotSans_200ExtraLight',
+            fontFamily:
+              'HubotSans_200ExtraLight',
           }}>
           Hubot Sans Extra Light
         </Text>
@@ -102,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HubotSans_300Light',
+            fontFamily:
+              'HubotSans_300Light',
           }}>
           Hubot Sans Light
         </Text>
@@ -112,7 +122,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HubotSans_400Regular',
+            fontFamily:
+              'HubotSans_400Regular',
           }}>
           Hubot Sans Regular
         </Text>
@@ -122,7 +133,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HubotSans_500Medium',
+            fontFamily:
+              'HubotSans_500Medium',
           }}>
           Hubot Sans Medium
         </Text>
@@ -132,7 +144,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HubotSans_600SemiBold',
+            fontFamily:
+              'HubotSans_600SemiBold',
           }}>
           Hubot Sans Semi Bold
         </Text>
@@ -142,7 +155,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HubotSans_700Bold',
+            fontFamily:
+              'HubotSans_700Bold',
           }}>
           Hubot Sans Bold
         </Text>
@@ -152,7 +166,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HubotSans_800ExtraBold',
+            fontFamily:
+              'HubotSans_800ExtraBold',
           }}>
           Hubot Sans Extra Bold
         </Text>
@@ -162,7 +177,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HubotSans_900Black',
+            fontFamily:
+              'HubotSans_900Black',
           }}>
           Hubot Sans Black
         </Text>
@@ -172,7 +188,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HubotSans_200ExtraLight_Italic',
+            fontFamily:
+              'HubotSans_200ExtraLight_Italic',
           }}>
           Hubot Sans Extra Light Italic
         </Text>
@@ -182,7 +199,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HubotSans_300Light_Italic',
+            fontFamily:
+              'HubotSans_300Light_Italic',
           }}>
           Hubot Sans Light Italic
         </Text>
@@ -192,7 +210,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HubotSans_400Regular_Italic',
+            fontFamily:
+              'HubotSans_400Regular_Italic',
           }}>
           Hubot Sans Italic
         </Text>
@@ -202,7 +221,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HubotSans_500Medium_Italic',
+            fontFamily:
+              'HubotSans_500Medium_Italic',
           }}>
           Hubot Sans Medium Italic
         </Text>
@@ -212,7 +232,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HubotSans_600SemiBold_Italic',
+            fontFamily:
+              'HubotSans_600SemiBold_Italic',
           }}>
           Hubot Sans Semi Bold Italic
         </Text>
@@ -222,7 +243,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HubotSans_700Bold_Italic',
+            fontFamily:
+              'HubotSans_700Bold_Italic',
           }}>
           Hubot Sans Bold Italic
         </Text>
@@ -232,7 +254,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HubotSans_800ExtraBold_Italic',
+            fontFamily:
+              'HubotSans_800ExtraBold_Italic',
           }}>
           Hubot Sans Extra Bold Italic
         </Text>
@@ -242,7 +265,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HubotSans_900Black_Italic',
+            fontFamily:
+              'HubotSans_900Black_Italic',
           }}>
           Hubot Sans Black Italic
         </Text>

@@ -1,7 +1,13 @@
 {
   "family": "Flow Rounded",
   "variants": ["regular"],
-  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v12",
   "lastModified": "2025-01-08",
   "files": {

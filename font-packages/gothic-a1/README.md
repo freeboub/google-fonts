@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-gothic-a1/useFonts';
 import { GothicA1_100Thin } from 'expo-google-fonts-gothic-a1/100Thin';
 import { GothicA1_200ExtraLight } from 'expo-google-fonts-gothic-a1/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GothicA1_100Thin',
+            fontFamily:
+              'GothicA1_100Thin',
           }}>
           Gothic A1 Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GothicA1_200ExtraLight',
+            fontFamily:
+              'GothicA1_200ExtraLight',
           }}>
           Gothic A1 Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GothicA1_300Light',
+            fontFamily:
+              'GothicA1_300Light',
           }}>
           Gothic A1 Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GothicA1_400Regular',
+            fontFamily:
+              'GothicA1_400Regular',
           }}>
           Gothic A1 Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GothicA1_500Medium',
+            fontFamily:
+              'GothicA1_500Medium',
           }}>
           Gothic A1 Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GothicA1_600SemiBold',
+            fontFamily:
+              'GothicA1_600SemiBold',
           }}>
           Gothic A1 Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GothicA1_700Bold',
+            fontFamily:
+              'GothicA1_700Bold',
           }}>
           Gothic A1 Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GothicA1_800ExtraBold',
+            fontFamily:
+              'GothicA1_800ExtraBold',
           }}>
           Gothic A1 Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GothicA1_900Black',
+            fontFamily:
+              'GothicA1_900Black',
           }}>
           Gothic A1 Black
         </Text>

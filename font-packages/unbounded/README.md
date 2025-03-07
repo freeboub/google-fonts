@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-unbounded/useFonts';
 import { Unbounded_200ExtraLight } from 'expo-google-fonts-unbounded/200ExtraLight';
 import { Unbounded_300Light } from 'expo-google-fonts-unbounded/300Light';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Unbounded_200ExtraLight',
+            fontFamily:
+              'Unbounded_200ExtraLight',
           }}>
           Unbounded Extra Light
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Unbounded_300Light',
+            fontFamily:
+              'Unbounded_300Light',
           }}>
           Unbounded Light
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Unbounded_400Regular',
+            fontFamily:
+              'Unbounded_400Regular',
           }}>
           Unbounded Regular
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Unbounded_500Medium',
+            fontFamily:
+              'Unbounded_500Medium',
           }}>
           Unbounded Medium
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Unbounded_600SemiBold',
+            fontFamily:
+              'Unbounded_600SemiBold',
           }}>
           Unbounded Semi Bold
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Unbounded_700Bold',
+            fontFamily:
+              'Unbounded_700Bold',
           }}>
           Unbounded Bold
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Unbounded_800ExtraBold',
+            fontFamily:
+              'Unbounded_800ExtraBold',
           }}>
           Unbounded Extra Bold
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Unbounded_900Black',
+            fontFamily:
+              'Unbounded_900Black',
           }}>
           Unbounded Black
         </Text>

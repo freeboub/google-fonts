@@ -27,7 +27,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-lekton/useFonts';
 import { Lekton_400Regular } from 'expo-google-fonts-lekton/400Regular';
 import { Lekton_400Regular_Italic } from 'expo-google-fonts-lekton/400Regular_Italic';
@@ -47,13 +50,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Lekton_400Regular',
+            fontFamily:
+              'Lekton_400Regular',
           }}>
           Lekton Regular
         </Text>
@@ -63,7 +72,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Lekton_400Regular_Italic',
+            fontFamily:
+              'Lekton_400Regular_Italic',
           }}>
           Lekton Italic
         </Text>
@@ -73,7 +83,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Lekton_700Bold',
+            fontFamily:
+              'Lekton_700Bold',
           }}>
           Lekton Bold
         </Text>

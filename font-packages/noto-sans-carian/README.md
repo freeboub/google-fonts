@@ -25,7 +25,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-carian/useFonts';
 import { NotoSansCarian_400Regular } from 'expo-google-fonts-noto-sans-carian/400Regular';
 
@@ -41,13 +44,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansCarian_400Regular',
+            fontFamily:
+              'NotoSansCarian_400Regular',
           }}>
           Noto Sans Carian Regular
         </Text>

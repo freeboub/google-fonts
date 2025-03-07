@@ -1,7 +1,12 @@
 {
   "family": "Micro 5 Charted",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "math", "symbols"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols"
+  ],
   "version": "v2",
   "lastModified": "2025-01-28",
   "files": {

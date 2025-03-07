@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-mada/useFonts';
 import { Mada_200ExtraLight } from 'expo-google-fonts-mada/200ExtraLight';
 import { Mada_300Light } from 'expo-google-fonts-mada/300Light';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mada_200ExtraLight',
+            fontFamily:
+              'Mada_200ExtraLight',
           }}>
           Mada Extra Light
         </Text>
@@ -88,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mada_400Regular',
+            fontFamily:
+              'Mada_400Regular',
           }}>
           Mada Regular
         </Text>
@@ -98,7 +108,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mada_500Medium',
+            fontFamily:
+              'Mada_500Medium',
           }}>
           Mada Medium
         </Text>
@@ -108,7 +119,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mada_600SemiBold',
+            fontFamily:
+              'Mada_600SemiBold',
           }}>
           Mada Semi Bold
         </Text>
@@ -128,7 +140,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mada_800ExtraBold',
+            fontFamily:
+              'Mada_800ExtraBold',
           }}>
           Mada Extra Bold
         </Text>

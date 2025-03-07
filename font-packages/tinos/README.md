@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-tinos/useFonts';
 import { Tinos_400Regular } from 'expo-google-fonts-tinos/400Regular';
 import { Tinos_400Regular_Italic } from 'expo-google-fonts-tinos/400Regular_Italic';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tinos_400Regular',
+            fontFamily:
+              'Tinos_400Regular',
           }}>
           Tinos Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tinos_400Regular_Italic',
+            fontFamily:
+              'Tinos_400Regular_Italic',
           }}>
           Tinos Italic
         </Text>
@@ -86,7 +96,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tinos_700Bold_Italic',
+            fontFamily:
+              'Tinos_700Bold_Italic',
           }}>
           Tinos Bold Italic
         </Text>

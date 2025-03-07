@@ -1,7 +1,22 @@
 {
   "family": "Noto Serif TC",
-  "variants": ["200", "300", "regular", "500", "600", "700", "800", "900"],
-  "subsets": ["chinese-traditional", "cyrillic", "latin", "latin-ext", "vietnamese"],
+  "variants": [
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900"
+  ],
+  "subsets": [
+    "chinese-traditional",
+    "cyrillic",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v32",
   "lastModified": "2024-09-23",
   "files": {

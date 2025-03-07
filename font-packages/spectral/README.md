@@ -38,7 +38,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-spectral/useFonts';
 import { Spectral_200ExtraLight } from 'expo-google-fonts-spectral/200ExtraLight';
 import { Spectral_200ExtraLight_Italic } from 'expo-google-fonts-spectral/200ExtraLight_Italic';
@@ -80,13 +83,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Spectral_200ExtraLight',
+            fontFamily:
+              'Spectral_200ExtraLight',
           }}>
           Spectral Extra Light
         </Text>
@@ -96,7 +105,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Spectral_200ExtraLight_Italic',
+            fontFamily:
+              'Spectral_200ExtraLight_Italic',
           }}>
           Spectral Extra Light Italic
         </Text>
@@ -106,7 +116,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Spectral_300Light',
+            fontFamily:
+              'Spectral_300Light',
           }}>
           Spectral Light
         </Text>
@@ -116,7 +127,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Spectral_300Light_Italic',
+            fontFamily:
+              'Spectral_300Light_Italic',
           }}>
           Spectral Light Italic
         </Text>
@@ -126,7 +138,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Spectral_400Regular',
+            fontFamily:
+              'Spectral_400Regular',
           }}>
           Spectral Regular
         </Text>
@@ -136,7 +149,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Spectral_400Regular_Italic',
+            fontFamily:
+              'Spectral_400Regular_Italic',
           }}>
           Spectral Italic
         </Text>
@@ -146,7 +160,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Spectral_500Medium',
+            fontFamily:
+              'Spectral_500Medium',
           }}>
           Spectral Medium
         </Text>
@@ -156,7 +171,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Spectral_500Medium_Italic',
+            fontFamily:
+              'Spectral_500Medium_Italic',
           }}>
           Spectral Medium Italic
         </Text>
@@ -166,7 +182,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Spectral_600SemiBold',
+            fontFamily:
+              'Spectral_600SemiBold',
           }}>
           Spectral Semi Bold
         </Text>
@@ -176,7 +193,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Spectral_600SemiBold_Italic',
+            fontFamily:
+              'Spectral_600SemiBold_Italic',
           }}>
           Spectral Semi Bold Italic
         </Text>
@@ -186,7 +204,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Spectral_700Bold',
+            fontFamily:
+              'Spectral_700Bold',
           }}>
           Spectral Bold
         </Text>
@@ -196,7 +215,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Spectral_700Bold_Italic',
+            fontFamily:
+              'Spectral_700Bold_Italic',
           }}>
           Spectral Bold Italic
         </Text>
@@ -206,7 +226,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Spectral_800ExtraBold',
+            fontFamily:
+              'Spectral_800ExtraBold',
           }}>
           Spectral Extra Bold
         </Text>
@@ -216,7 +237,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Spectral_800ExtraBold_Italic',
+            fontFamily:
+              'Spectral_800ExtraBold_Italic',
           }}>
           Spectral Extra Bold Italic
         </Text>

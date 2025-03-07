@@ -1,7 +1,18 @@
 {
   "family": "Noto Naskh Arabic",
-  "variants": ["regular", "500", "600", "700"],
-  "subsets": ["arabic", "latin", "latin-ext", "math", "symbols"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols"
+  ],
   "version": "v34",
   "lastModified": "2024-04-12",
   "files": {

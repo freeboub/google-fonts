@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-gentium-plus/useFonts';
 import { GentiumPlus_400Regular } from 'expo-google-fonts-gentium-plus/400Regular';
 import { GentiumPlus_400Regular_Italic } from 'expo-google-fonts-gentium-plus/400Regular_Italic';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GentiumPlus_400Regular',
+            fontFamily:
+              'GentiumPlus_400Regular',
           }}>
           Gentium Plus Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GentiumPlus_400Regular_Italic',
+            fontFamily:
+              'GentiumPlus_400Regular_Italic',
           }}>
           Gentium Plus Italic
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GentiumPlus_700Bold',
+            fontFamily:
+              'GentiumPlus_700Bold',
           }}>
           Gentium Plus Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GentiumPlus_700Bold_Italic',
+            fontFamily:
+              'GentiumPlus_700Bold_Italic',
           }}>
           Gentium Plus Bold Italic
         </Text>

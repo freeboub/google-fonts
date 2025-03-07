@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-nag-mundari/useFonts';
 import { NotoSansNagMundari_400Regular } from 'expo-google-fonts-noto-sans-nag-mundari/400Regular';
 import { NotoSansNagMundari_500Medium } from 'expo-google-fonts-noto-sans-nag-mundari/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansNagMundari_400Regular',
+            fontFamily:
+              'NotoSansNagMundari_400Regular',
           }}>
           Noto Sans Nag Mundari Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansNagMundari_500Medium',
+            fontFamily:
+              'NotoSansNagMundari_500Medium',
           }}>
           Noto Sans Nag Mundari Medium
         </Text>
@@ -76,9 +86,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansNagMundari_600SemiBold',
+            fontFamily:
+              'NotoSansNagMundari_600SemiBold',
           }}>
-          Noto Sans Nag Mundari Semi Bold
+          Noto Sans Nag Mundari Semi
+          Bold
         </Text>
 
         <Text
@@ -86,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansNagMundari_700Bold',
+            fontFamily:
+              'NotoSansNagMundari_700Bold',
           }}>
           Noto Sans Nag Mundari Bold
         </Text>

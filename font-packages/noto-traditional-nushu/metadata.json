@@ -1,7 +1,17 @@
 {
   "family": "Noto Traditional Nushu",
-  "variants": ["300", "regular", "500", "600", "700"],
-  "subsets": ["latin", "latin-ext", "nushu"],
+  "variants": [
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "nushu"
+  ],
   "version": "v22",
   "lastModified": "2024-12-04",
   "files": {

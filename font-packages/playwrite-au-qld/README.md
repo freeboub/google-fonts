@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playwrite-au-qld/useFonts';
 import { PlaywriteAUQLD_100Thin } from 'expo-google-fonts-playwrite-au-qld/100Thin';
 import { PlaywriteAUQLD_200ExtraLight } from 'expo-google-fonts-playwrite-au-qld/200ExtraLight';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteAUQLD_100Thin',
+            fontFamily:
+              'PlaywriteAUQLD_100Thin',
           }}>
           Playwrite AU QLD Thin
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteAUQLD_200ExtraLight',
+            fontFamily:
+              'PlaywriteAUQLD_200ExtraLight',
           }}>
           Playwrite AU QLD Extra Light
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteAUQLD_300Light',
+            fontFamily:
+              'PlaywriteAUQLD_300Light',
           }}>
           Playwrite AU QLD Light
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteAUQLD_400Regular',
+            fontFamily:
+              'PlaywriteAUQLD_400Regular',
           }}>
           Playwrite AU QLD Regular
         </Text>

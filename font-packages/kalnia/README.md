@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-kalnia/useFonts';
 import { Kalnia_100Thin } from 'expo-google-fonts-kalnia/100Thin';
 import { Kalnia_200ExtraLight } from 'expo-google-fonts-kalnia/200ExtraLight';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kalnia_100Thin',
+            fontFamily:
+              'Kalnia_100Thin',
           }}>
           Kalnia Thin
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kalnia_200ExtraLight',
+            fontFamily:
+              'Kalnia_200ExtraLight',
           }}>
           Kalnia Extra Light
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kalnia_300Light',
+            fontFamily:
+              'Kalnia_300Light',
           }}>
           Kalnia Light
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kalnia_400Regular',
+            fontFamily:
+              'Kalnia_400Regular',
           }}>
           Kalnia Regular
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kalnia_500Medium',
+            fontFamily:
+              'Kalnia_500Medium',
           }}>
           Kalnia Medium
         </Text>
@@ -115,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kalnia_600SemiBold',
+            fontFamily:
+              'Kalnia_600SemiBold',
           }}>
           Kalnia Semi Bold
         </Text>
@@ -125,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kalnia_700Bold',
+            fontFamily:
+              'Kalnia_700Bold',
           }}>
           Kalnia Bold
         </Text>

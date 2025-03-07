@@ -1,7 +1,11 @@
 {
   "family": "Pragati Narrow",
   "variants": ["regular", "700"],
-  "subsets": ["devanagari", "latin", "latin-ext"],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v14",
   "lastModified": "2024-12-04",
   "files": {

@@ -1,6 +1,13 @@
 {
   "family": "Turret Road",
-  "variants": ["200", "300", "regular", "500", "700", "800"],
+  "variants": [
+    "200",
+    "300",
+    "regular",
+    "500",
+    "700",
+    "800"
+  ],
   "subsets": ["latin", "latin-ext"],
   "version": "v9",
   "lastModified": "2024-09-04",

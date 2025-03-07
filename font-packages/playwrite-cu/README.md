@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playwrite-cu/useFonts';
 import { PlaywriteCU_100Thin } from 'expo-google-fonts-playwrite-cu/100Thin';
 import { PlaywriteCU_200ExtraLight } from 'expo-google-fonts-playwrite-cu/200ExtraLight';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteCU_100Thin',
+            fontFamily:
+              'PlaywriteCU_100Thin',
           }}>
           Playwrite CU Thin
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteCU_200ExtraLight',
+            fontFamily:
+              'PlaywriteCU_200ExtraLight',
           }}>
           Playwrite CU Extra Light
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteCU_300Light',
+            fontFamily:
+              'PlaywriteCU_300Light',
           }}>
           Playwrite CU Light
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteCU_400Regular',
+            fontFamily:
+              'PlaywriteCU_400Regular',
           }}>
           Playwrite CU Regular
         </Text>

@@ -1,7 +1,11 @@
 {
   "family": "Aref Ruqaa Ink",
   "variants": ["regular", "700"],
-  "subsets": ["arabic", "latin", "latin-ext"],
+  "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v11",
   "lastModified": "2025-03-03",
   "files": {

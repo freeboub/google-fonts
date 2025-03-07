@@ -1,7 +1,16 @@
 {
   "family": "Mirza",
-  "variants": ["regular", "500", "600", "700"],
-  "subsets": ["arabic", "latin", "latin-ext"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v18",
   "lastModified": "2025-01-23",
   "files": {

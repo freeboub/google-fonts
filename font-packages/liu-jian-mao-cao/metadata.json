@@ -1,7 +1,10 @@
 {
   "family": "Liu Jian Mao Cao",
   "variants": ["regular"],
-  "subsets": ["chinese-simplified", "latin"],
+  "subsets": [
+    "chinese-simplified",
+    "latin"
+  ],
   "version": "v23",
   "lastModified": "2024-11-20",
   "files": {

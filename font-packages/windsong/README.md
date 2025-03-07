@@ -26,7 +26,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-windsong/useFonts';
 import { WindSong_400Regular } from 'expo-google-fonts-windsong/400Regular';
 import { WindSong_500Medium } from 'expo-google-fonts-windsong/500Medium';
@@ -44,13 +47,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'WindSong_400Regular',
+            fontFamily:
+              'WindSong_400Regular',
           }}>
           WindSong Regular
         </Text>
@@ -60,7 +69,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'WindSong_500Medium',
+            fontFamily:
+              'WindSong_500Medium',
           }}>
           WindSong Medium
         </Text>

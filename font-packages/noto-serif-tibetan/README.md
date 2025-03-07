@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-serif-tibetan/useFonts';
 import { NotoSerifTibetan_100Thin } from 'expo-google-fonts-noto-serif-tibetan/100Thin';
 import { NotoSerifTibetan_200ExtraLight } from 'expo-google-fonts-noto-serif-tibetan/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifTibetan_100Thin',
+            fontFamily:
+              'NotoSerifTibetan_100Thin',
           }}>
           Noto Serif Tibetan Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifTibetan_200ExtraLight',
+            fontFamily:
+              'NotoSerifTibetan_200ExtraLight',
           }}>
           Noto Serif Tibetan Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifTibetan_300Light',
+            fontFamily:
+              'NotoSerifTibetan_300Light',
           }}>
           Noto Serif Tibetan Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifTibetan_400Regular',
+            fontFamily:
+              'NotoSerifTibetan_400Regular',
           }}>
           Noto Serif Tibetan Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifTibetan_500Medium',
+            fontFamily:
+              'NotoSerifTibetan_500Medium',
           }}>
           Noto Serif Tibetan Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifTibetan_600SemiBold',
+            fontFamily:
+              'NotoSerifTibetan_600SemiBold',
           }}>
           Noto Serif Tibetan Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifTibetan_700Bold',
+            fontFamily:
+              'NotoSerifTibetan_700Bold',
           }}>
           Noto Serif Tibetan Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifTibetan_800ExtraBold',
+            fontFamily:
+              'NotoSerifTibetan_800ExtraBold',
           }}>
           Noto Serif Tibetan Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifTibetan_900Black',
+            fontFamily:
+              'NotoSerifTibetan_900Black',
           }}>
           Noto Serif Tibetan Black
         </Text>

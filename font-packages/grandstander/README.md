@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-grandstander/useFonts';
 import { Grandstander_100Thin } from 'expo-google-fonts-grandstander/100Thin';
 import { Grandstander_200ExtraLight } from 'expo-google-fonts-grandstander/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grandstander_100Thin',
+            fontFamily:
+              'Grandstander_100Thin',
           }}>
           Grandstander Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grandstander_200ExtraLight',
+            fontFamily:
+              'Grandstander_200ExtraLight',
           }}>
           Grandstander Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grandstander_300Light',
+            fontFamily:
+              'Grandstander_300Light',
           }}>
           Grandstander Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grandstander_400Regular',
+            fontFamily:
+              'Grandstander_400Regular',
           }}>
           Grandstander Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grandstander_500Medium',
+            fontFamily:
+              'Grandstander_500Medium',
           }}>
           Grandstander Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grandstander_600SemiBold',
+            fontFamily:
+              'Grandstander_600SemiBold',
           }}>
           Grandstander Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grandstander_700Bold',
+            fontFamily:
+              'Grandstander_700Bold',
           }}>
           Grandstander Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grandstander_800ExtraBold',
+            fontFamily:
+              'Grandstander_800ExtraBold',
           }}>
           Grandstander Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grandstander_900Black',
+            fontFamily:
+              'Grandstander_900Black',
           }}>
           Grandstander Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grandstander_100Thin_Italic',
+            fontFamily:
+              'Grandstander_100Thin_Italic',
           }}>
           Grandstander Thin Italic
         </Text>
@@ -198,9 +216,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grandstander_200ExtraLight_Italic',
+            fontFamily:
+              'Grandstander_200ExtraLight_Italic',
           }}>
-          Grandstander Extra Light Italic
+          Grandstander Extra Light
+          Italic
         </Text>
 
         <Text
@@ -208,7 +228,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grandstander_300Light_Italic',
+            fontFamily:
+              'Grandstander_300Light_Italic',
           }}>
           Grandstander Light Italic
         </Text>
@@ -218,7 +239,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grandstander_400Regular_Italic',
+            fontFamily:
+              'Grandstander_400Regular_Italic',
           }}>
           Grandstander Italic
         </Text>
@@ -228,7 +250,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grandstander_500Medium_Italic',
+            fontFamily:
+              'Grandstander_500Medium_Italic',
           }}>
           Grandstander Medium Italic
         </Text>
@@ -238,7 +261,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grandstander_600SemiBold_Italic',
+            fontFamily:
+              'Grandstander_600SemiBold_Italic',
           }}>
           Grandstander Semi Bold Italic
         </Text>
@@ -248,7 +272,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grandstander_700Bold_Italic',
+            fontFamily:
+              'Grandstander_700Bold_Italic',
           }}>
           Grandstander Bold Italic
         </Text>
@@ -258,7 +283,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grandstander_800ExtraBold_Italic',
+            fontFamily:
+              'Grandstander_800ExtraBold_Italic',
           }}>
           Grandstander Extra Bold Italic
         </Text>
@@ -268,7 +294,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grandstander_900Black_Italic',
+            fontFamily:
+              'Grandstander_900Black_Italic',
           }}>
           Grandstander Black Italic
         </Text>

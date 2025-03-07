@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-pathway-extreme/useFonts';
 import { PathwayExtreme_100Thin } from 'expo-google-fonts-pathway-extreme/100Thin';
 import { PathwayExtreme_200ExtraLight } from 'expo-google-fonts-pathway-extreme/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_100Thin',
+            fontFamily:
+              'PathwayExtreme_100Thin',
           }}>
           Pathway Extreme Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_200ExtraLight',
+            fontFamily:
+              'PathwayExtreme_200ExtraLight',
           }}>
           Pathway Extreme Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_300Light',
+            fontFamily:
+              'PathwayExtreme_300Light',
           }}>
           Pathway Extreme Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_400Regular',
+            fontFamily:
+              'PathwayExtreme_400Regular',
           }}>
           Pathway Extreme Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_500Medium',
+            fontFamily:
+              'PathwayExtreme_500Medium',
           }}>
           Pathway Extreme Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_600SemiBold',
+            fontFamily:
+              'PathwayExtreme_600SemiBold',
           }}>
           Pathway Extreme Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_700Bold',
+            fontFamily:
+              'PathwayExtreme_700Bold',
           }}>
           Pathway Extreme Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_800ExtraBold',
+            fontFamily:
+              'PathwayExtreme_800ExtraBold',
           }}>
           Pathway Extreme Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_900Black',
+            fontFamily:
+              'PathwayExtreme_900Black',
           }}>
           Pathway Extreme Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_100Thin_Italic',
+            fontFamily:
+              'PathwayExtreme_100Thin_Italic',
           }}>
           Pathway Extreme Thin Italic
         </Text>
@@ -198,9 +216,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_200ExtraLight_Italic',
+            fontFamily:
+              'PathwayExtreme_200ExtraLight_Italic',
           }}>
-          Pathway Extreme Extra Light Italic
+          Pathway Extreme Extra Light
+          Italic
         </Text>
 
         <Text
@@ -208,7 +228,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_300Light_Italic',
+            fontFamily:
+              'PathwayExtreme_300Light_Italic',
           }}>
           Pathway Extreme Light Italic
         </Text>
@@ -218,7 +239,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_400Regular_Italic',
+            fontFamily:
+              'PathwayExtreme_400Regular_Italic',
           }}>
           Pathway Extreme Italic
         </Text>
@@ -228,7 +250,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_500Medium_Italic',
+            fontFamily:
+              'PathwayExtreme_500Medium_Italic',
           }}>
           Pathway Extreme Medium Italic
         </Text>
@@ -238,9 +261,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_600SemiBold_Italic',
+            fontFamily:
+              'PathwayExtreme_600SemiBold_Italic',
           }}>
-          Pathway Extreme Semi Bold Italic
+          Pathway Extreme Semi Bold
+          Italic
         </Text>
 
         <Text
@@ -248,7 +273,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_700Bold_Italic',
+            fontFamily:
+              'PathwayExtreme_700Bold_Italic',
           }}>
           Pathway Extreme Bold Italic
         </Text>
@@ -258,9 +284,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_800ExtraBold_Italic',
+            fontFamily:
+              'PathwayExtreme_800ExtraBold_Italic',
           }}>
-          Pathway Extreme Extra Bold Italic
+          Pathway Extreme Extra Bold
+          Italic
         </Text>
 
         <Text
@@ -268,7 +296,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PathwayExtreme_900Black_Italic',
+            fontFamily:
+              'PathwayExtreme_900Black_Italic',
           }}>
           Pathway Extreme Black Italic
         </Text>

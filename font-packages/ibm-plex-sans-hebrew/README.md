@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-ibm-plex-sans-hebrew/useFonts';
 import { IBMPlexSansHebrew_100Thin } from 'expo-google-fonts-ibm-plex-sans-hebrew/100Thin';
 import { IBMPlexSansHebrew_200ExtraLight } from 'expo-google-fonts-ibm-plex-sans-hebrew/200ExtraLight';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansHebrew_100Thin',
+            fontFamily:
+              'IBMPlexSansHebrew_100Thin',
           }}>
           IBM Plex Sans Hebrew Thin
         </Text>
@@ -75,9 +84,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansHebrew_200ExtraLight',
+            fontFamily:
+              'IBMPlexSansHebrew_200ExtraLight',
           }}>
-          IBM Plex Sans Hebrew Extra Light
+          IBM Plex Sans Hebrew Extra
+          Light
         </Text>
 
         <Text
@@ -85,7 +96,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansHebrew_300Light',
+            fontFamily:
+              'IBMPlexSansHebrew_300Light',
           }}>
           IBM Plex Sans Hebrew Light
         </Text>
@@ -95,7 +107,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansHebrew_400Regular',
+            fontFamily:
+              'IBMPlexSansHebrew_400Regular',
           }}>
           IBM Plex Sans Hebrew Regular
         </Text>
@@ -105,7 +118,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansHebrew_500Medium',
+            fontFamily:
+              'IBMPlexSansHebrew_500Medium',
           }}>
           IBM Plex Sans Hebrew Medium
         </Text>
@@ -115,7 +129,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansHebrew_600SemiBold',
+            fontFamily:
+              'IBMPlexSansHebrew_600SemiBold',
           }}>
           IBM Plex Sans Hebrew Semi Bold
         </Text>
@@ -125,7 +140,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansHebrew_700Bold',
+            fontFamily:
+              'IBMPlexSansHebrew_700Bold',
           }}>
           IBM Plex Sans Hebrew Bold
         </Text>

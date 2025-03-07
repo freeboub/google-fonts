@@ -1,7 +1,12 @@
 {
   "family": "Potta One",
   "variants": ["regular"],
-  "subsets": ["japanese", "latin", "latin-ext", "vietnamese"],
+  "subsets": [
+    "japanese",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v18",
   "lastModified": "2024-12-04",
   "files": {

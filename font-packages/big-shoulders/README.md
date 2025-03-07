@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-big-shoulders/useFonts';
 import { BigShoulders_100Thin } from 'expo-google-fonts-big-shoulders/100Thin';
 import { BigShoulders_200ExtraLight } from 'expo-google-fonts-big-shoulders/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BigShoulders_100Thin',
+            fontFamily:
+              'BigShoulders_100Thin',
           }}>
           Big Shoulders Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BigShoulders_200ExtraLight',
+            fontFamily:
+              'BigShoulders_200ExtraLight',
           }}>
           Big Shoulders Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BigShoulders_300Light',
+            fontFamily:
+              'BigShoulders_300Light',
           }}>
           Big Shoulders Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BigShoulders_400Regular',
+            fontFamily:
+              'BigShoulders_400Regular',
           }}>
           Big Shoulders Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BigShoulders_500Medium',
+            fontFamily:
+              'BigShoulders_500Medium',
           }}>
           Big Shoulders Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BigShoulders_600SemiBold',
+            fontFamily:
+              'BigShoulders_600SemiBold',
           }}>
           Big Shoulders Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BigShoulders_700Bold',
+            fontFamily:
+              'BigShoulders_700Bold',
           }}>
           Big Shoulders Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BigShoulders_800ExtraBold',
+            fontFamily:
+              'BigShoulders_800ExtraBold',
           }}>
           Big Shoulders Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BigShoulders_900Black',
+            fontFamily:
+              'BigShoulders_900Black',
           }}>
           Big Shoulders Black
         </Text>

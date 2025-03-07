@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-anek-gujarati/useFonts';
 import { AnekGujarati_100Thin } from 'expo-google-fonts-anek-gujarati/100Thin';
 import { AnekGujarati_200ExtraLight } from 'expo-google-fonts-anek-gujarati/200ExtraLight';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekGujarati_100Thin',
+            fontFamily:
+              'AnekGujarati_100Thin',
           }}>
           Anek Gujarati Thin
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekGujarati_200ExtraLight',
+            fontFamily:
+              'AnekGujarati_200ExtraLight',
           }}>
           Anek Gujarati Extra Light
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekGujarati_300Light',
+            fontFamily:
+              'AnekGujarati_300Light',
           }}>
           Anek Gujarati Light
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekGujarati_400Regular',
+            fontFamily:
+              'AnekGujarati_400Regular',
           }}>
           Anek Gujarati Regular
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekGujarati_500Medium',
+            fontFamily:
+              'AnekGujarati_500Medium',
           }}>
           Anek Gujarati Medium
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekGujarati_600SemiBold',
+            fontFamily:
+              'AnekGujarati_600SemiBold',
           }}>
           Anek Gujarati Semi Bold
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekGujarati_700Bold',
+            fontFamily:
+              'AnekGujarati_700Bold',
           }}>
           Anek Gujarati Bold
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekGujarati_800ExtraBold',
+            fontFamily:
+              'AnekGujarati_800ExtraBold',
           }}>
           Anek Gujarati Extra Bold
         </Text>

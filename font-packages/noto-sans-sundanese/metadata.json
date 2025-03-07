@@ -1,7 +1,16 @@
 {
   "family": "Noto Sans Sundanese",
-  "variants": ["regular", "500", "600", "700"],
-  "subsets": ["latin", "latin-ext", "sundanese"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "sundanese"
+  ],
   "version": "v26",
   "lastModified": "2024-05-02",
   "files": {

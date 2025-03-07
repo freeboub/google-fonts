@@ -1,7 +1,11 @@
 {
   "family": "Kdam Thmor Pro",
   "variants": ["regular"],
-  "subsets": ["khmer", "latin", "latin-ext"],
+  "subsets": [
+    "khmer",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v5",
   "lastModified": "2024-10-29",
   "files": {

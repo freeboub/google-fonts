@@ -30,7 +30,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-inria-serif/useFonts';
 import { InriaSerif_300Light } from 'expo-google-fonts-inria-serif/300Light';
 import { InriaSerif_300Light_Italic } from 'expo-google-fonts-inria-serif/300Light_Italic';
@@ -56,13 +59,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InriaSerif_300Light',
+            fontFamily:
+              'InriaSerif_300Light',
           }}>
           Inria Serif Light
         </Text>
@@ -72,7 +81,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InriaSerif_300Light_Italic',
+            fontFamily:
+              'InriaSerif_300Light_Italic',
           }}>
           Inria Serif Light Italic
         </Text>
@@ -82,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InriaSerif_400Regular',
+            fontFamily:
+              'InriaSerif_400Regular',
           }}>
           Inria Serif Regular
         </Text>
@@ -92,7 +103,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InriaSerif_400Regular_Italic',
+            fontFamily:
+              'InriaSerif_400Regular_Italic',
           }}>
           Inria Serif Italic
         </Text>
@@ -102,7 +114,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InriaSerif_700Bold',
+            fontFamily:
+              'InriaSerif_700Bold',
           }}>
           Inria Serif Bold
         </Text>
@@ -112,7 +125,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InriaSerif_700Bold_Italic',
+            fontFamily:
+              'InriaSerif_700Bold_Italic',
           }}>
           Inria Serif Bold Italic
         </Text>

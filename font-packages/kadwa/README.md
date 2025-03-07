@@ -26,7 +26,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-kadwa/useFonts';
 import { Kadwa_400Regular } from 'expo-google-fonts-kadwa/400Regular';
 import { Kadwa_700Bold } from 'expo-google-fonts-kadwa/700Bold';
@@ -44,13 +47,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kadwa_400Regular',
+            fontFamily:
+              'Kadwa_400Regular',
           }}>
           Kadwa Regular
         </Text>

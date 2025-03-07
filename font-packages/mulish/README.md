@@ -40,7 +40,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-mulish/useFonts';
 import { Mulish_200ExtraLight } from 'expo-google-fonts-mulish/200ExtraLight';
 import { Mulish_300Light } from 'expo-google-fonts-mulish/300Light';
@@ -86,13 +89,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mulish_200ExtraLight',
+            fontFamily:
+              'Mulish_200ExtraLight',
           }}>
           Mulish Extra Light
         </Text>
@@ -102,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mulish_300Light',
+            fontFamily:
+              'Mulish_300Light',
           }}>
           Mulish Light
         </Text>
@@ -112,7 +122,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mulish_400Regular',
+            fontFamily:
+              'Mulish_400Regular',
           }}>
           Mulish Regular
         </Text>
@@ -122,7 +133,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mulish_500Medium',
+            fontFamily:
+              'Mulish_500Medium',
           }}>
           Mulish Medium
         </Text>
@@ -132,7 +144,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mulish_600SemiBold',
+            fontFamily:
+              'Mulish_600SemiBold',
           }}>
           Mulish Semi Bold
         </Text>
@@ -142,7 +155,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mulish_700Bold',
+            fontFamily:
+              'Mulish_700Bold',
           }}>
           Mulish Bold
         </Text>
@@ -152,7 +166,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mulish_800ExtraBold',
+            fontFamily:
+              'Mulish_800ExtraBold',
           }}>
           Mulish Extra Bold
         </Text>
@@ -162,7 +177,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mulish_900Black',
+            fontFamily:
+              'Mulish_900Black',
           }}>
           Mulish Black
         </Text>
@@ -172,7 +188,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mulish_200ExtraLight_Italic',
+            fontFamily:
+              'Mulish_200ExtraLight_Italic',
           }}>
           Mulish Extra Light Italic
         </Text>
@@ -182,7 +199,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mulish_300Light_Italic',
+            fontFamily:
+              'Mulish_300Light_Italic',
           }}>
           Mulish Light Italic
         </Text>
@@ -192,7 +210,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mulish_400Regular_Italic',
+            fontFamily:
+              'Mulish_400Regular_Italic',
           }}>
           Mulish Italic
         </Text>
@@ -202,7 +221,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mulish_500Medium_Italic',
+            fontFamily:
+              'Mulish_500Medium_Italic',
           }}>
           Mulish Medium Italic
         </Text>
@@ -212,7 +232,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mulish_600SemiBold_Italic',
+            fontFamily:
+              'Mulish_600SemiBold_Italic',
           }}>
           Mulish Semi Bold Italic
         </Text>
@@ -222,7 +243,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mulish_700Bold_Italic',
+            fontFamily:
+              'Mulish_700Bold_Italic',
           }}>
           Mulish Bold Italic
         </Text>
@@ -232,7 +254,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mulish_800ExtraBold_Italic',
+            fontFamily:
+              'Mulish_800ExtraBold_Italic',
           }}>
           Mulish Extra Bold Italic
         </Text>
@@ -242,7 +265,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mulish_900Black_Italic',
+            fontFamily:
+              'Mulish_900Black_Italic',
           }}>
           Mulish Black Italic
         </Text>

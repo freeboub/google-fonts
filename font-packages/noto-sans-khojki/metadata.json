@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Khojki",
   "variants": ["regular"],
-  "subsets": ["khojki", "latin", "latin-ext"],
+  "subsets": [
+    "khojki",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v19",
   "lastModified": "2024-02-16",
   "files": {

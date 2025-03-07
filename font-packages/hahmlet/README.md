@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-hahmlet/useFonts';
 import { Hahmlet_100Thin } from 'expo-google-fonts-hahmlet/100Thin';
 import { Hahmlet_200ExtraLight } from 'expo-google-fonts-hahmlet/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Hahmlet_100Thin',
+            fontFamily:
+              'Hahmlet_100Thin',
           }}>
           Hahmlet Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Hahmlet_200ExtraLight',
+            fontFamily:
+              'Hahmlet_200ExtraLight',
           }}>
           Hahmlet Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Hahmlet_300Light',
+            fontFamily:
+              'Hahmlet_300Light',
           }}>
           Hahmlet Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Hahmlet_400Regular',
+            fontFamily:
+              'Hahmlet_400Regular',
           }}>
           Hahmlet Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Hahmlet_500Medium',
+            fontFamily:
+              'Hahmlet_500Medium',
           }}>
           Hahmlet Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Hahmlet_600SemiBold',
+            fontFamily:
+              'Hahmlet_600SemiBold',
           }}>
           Hahmlet Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Hahmlet_700Bold',
+            fontFamily:
+              'Hahmlet_700Bold',
           }}>
           Hahmlet Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Hahmlet_800ExtraBold',
+            fontFamily:
+              'Hahmlet_800ExtraBold',
           }}>
           Hahmlet Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Hahmlet_900Black',
+            fontFamily:
+              'Hahmlet_900Black',
           }}>
           Hahmlet Black
         </Text>

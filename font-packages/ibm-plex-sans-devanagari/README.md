@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-ibm-plex-sans-devanagari/useFonts';
 import { IBMPlexSansDevanagari_100Thin } from 'expo-google-fonts-ibm-plex-sans-devanagari/100Thin';
 import { IBMPlexSansDevanagari_200ExtraLight } from 'expo-google-fonts-ibm-plex-sans-devanagari/200ExtraLight';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansDevanagari_100Thin',
+            fontFamily:
+              'IBMPlexSansDevanagari_100Thin',
           }}>
           IBM Plex Sans Devanagari Thin
         </Text>
@@ -75,9 +84,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansDevanagari_200ExtraLight',
+            fontFamily:
+              'IBMPlexSansDevanagari_200ExtraLight',
           }}>
-          IBM Plex Sans Devanagari Extra Light
+          IBM Plex Sans Devanagari Extra
+          Light
         </Text>
 
         <Text
@@ -85,7 +96,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansDevanagari_300Light',
+            fontFamily:
+              'IBMPlexSansDevanagari_300Light',
           }}>
           IBM Plex Sans Devanagari Light
         </Text>
@@ -95,9 +107,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansDevanagari_400Regular',
+            fontFamily:
+              'IBMPlexSansDevanagari_400Regular',
           }}>
-          IBM Plex Sans Devanagari Regular
+          IBM Plex Sans Devanagari
+          Regular
         </Text>
 
         <Text
@@ -105,9 +119,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansDevanagari_500Medium',
+            fontFamily:
+              'IBMPlexSansDevanagari_500Medium',
           }}>
-          IBM Plex Sans Devanagari Medium
+          IBM Plex Sans Devanagari
+          Medium
         </Text>
 
         <Text
@@ -115,9 +131,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansDevanagari_600SemiBold',
+            fontFamily:
+              'IBMPlexSansDevanagari_600SemiBold',
           }}>
-          IBM Plex Sans Devanagari Semi Bold
+          IBM Plex Sans Devanagari Semi
+          Bold
         </Text>
 
         <Text
@@ -125,7 +143,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansDevanagari_700Bold',
+            fontFamily:
+              'IBMPlexSansDevanagari_700Bold',
           }}>
           IBM Plex Sans Devanagari Bold
         </Text>

@@ -1,7 +1,11 @@
 {
   "family": "Solitreo",
   "variants": ["regular"],
-  "subsets": ["hebrew", "latin", "latin-ext"],
+  "subsets": [
+    "hebrew",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v2",
   "lastModified": "2024-09-04",
   "files": {

@@ -1,7 +1,11 @@
 {
   "family": "Shippori Antique B1",
   "variants": ["regular"],
-  "subsets": ["japanese", "latin", "latin-ext"],
+  "subsets": [
+    "japanese",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v9",
   "lastModified": "2024-09-04",
   "files": {

@@ -30,7 +30,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playfair-display-sc/useFonts';
 import { PlayfairDisplaySC_400Regular } from 'expo-google-fonts-playfair-display-sc/400Regular';
 import { PlayfairDisplaySC_400Regular_Italic } from 'expo-google-fonts-playfair-display-sc/400Regular_Italic';
@@ -56,13 +59,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlayfairDisplaySC_400Regular',
+            fontFamily:
+              'PlayfairDisplaySC_400Regular',
           }}>
           Playfair Display SC Regular
         </Text>
@@ -72,7 +81,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlayfairDisplaySC_400Regular_Italic',
+            fontFamily:
+              'PlayfairDisplaySC_400Regular_Italic',
           }}>
           Playfair Display SC Italic
         </Text>
@@ -82,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlayfairDisplaySC_700Bold',
+            fontFamily:
+              'PlayfairDisplaySC_700Bold',
           }}>
           Playfair Display SC Bold
         </Text>
@@ -92,9 +103,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlayfairDisplaySC_700Bold_Italic',
+            fontFamily:
+              'PlayfairDisplaySC_700Bold_Italic',
           }}>
-          Playfair Display SC Bold Italic
+          Playfair Display SC Bold
+          Italic
         </Text>
 
         <Text
@@ -102,7 +115,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlayfairDisplaySC_900Black',
+            fontFamily:
+              'PlayfairDisplaySC_900Black',
           }}>
           Playfair Display SC Black
         </Text>
@@ -112,9 +126,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlayfairDisplaySC_900Black_Italic',
+            fontFamily:
+              'PlayfairDisplaySC_900Black_Italic',
           }}>
-          Playfair Display SC Black Italic
+          Playfair Display SC Black
+          Italic
         </Text>
       </View>
     );

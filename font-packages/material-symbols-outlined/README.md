@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-material-symbols-outlined/useFonts';
 import { MaterialSymbolsOutlined_100Thin } from 'expo-google-fonts-material-symbols-outlined/100Thin';
 import { MaterialSymbolsOutlined_200ExtraLight } from 'expo-google-fonts-material-symbols-outlined/200ExtraLight';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MaterialSymbolsOutlined_100Thin',
+            fontFamily:
+              'MaterialSymbolsOutlined_100Thin',
           }}>
           Material Symbols Outlined Thin
         </Text>
@@ -75,9 +84,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MaterialSymbolsOutlined_200ExtraLight',
+            fontFamily:
+              'MaterialSymbolsOutlined_200ExtraLight',
           }}>
-          Material Symbols Outlined Extra Light
+          Material Symbols Outlined
+          Extra Light
         </Text>
 
         <Text
@@ -85,9 +96,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MaterialSymbolsOutlined_300Light',
+            fontFamily:
+              'MaterialSymbolsOutlined_300Light',
           }}>
-          Material Symbols Outlined Light
+          Material Symbols Outlined
+          Light
         </Text>
 
         <Text
@@ -95,9 +108,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MaterialSymbolsOutlined_400Regular',
+            fontFamily:
+              'MaterialSymbolsOutlined_400Regular',
           }}>
-          Material Symbols Outlined Regular
+          Material Symbols Outlined
+          Regular
         </Text>
 
         <Text
@@ -105,9 +120,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MaterialSymbolsOutlined_500Medium',
+            fontFamily:
+              'MaterialSymbolsOutlined_500Medium',
           }}>
-          Material Symbols Outlined Medium
+          Material Symbols Outlined
+          Medium
         </Text>
 
         <Text
@@ -115,9 +132,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MaterialSymbolsOutlined_600SemiBold',
+            fontFamily:
+              'MaterialSymbolsOutlined_600SemiBold',
           }}>
-          Material Symbols Outlined Semi Bold
+          Material Symbols Outlined Semi
+          Bold
         </Text>
 
         <Text
@@ -125,7 +144,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MaterialSymbolsOutlined_700Bold',
+            fontFamily:
+              'MaterialSymbolsOutlined_700Bold',
           }}>
           Material Symbols Outlined Bold
         </Text>

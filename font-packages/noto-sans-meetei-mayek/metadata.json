@@ -1,7 +1,21 @@
 {
   "family": "Noto Sans Meetei Mayek",
-  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
-  "subsets": ["latin", "latin-ext", "meetei-mayek"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "meetei-mayek"
+  ],
   "version": "v15",
   "lastModified": "2023-09-14",
   "files": {

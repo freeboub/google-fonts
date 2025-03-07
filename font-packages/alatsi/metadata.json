@@ -1,10 +1,17 @@
 {
   "family": "Alatsi",
   "variants": ["regular"],
-  "subsets": ["cyrillic-ext", "latin", "latin-ext", "vietnamese"],
+  "subsets": [
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v13",
   "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/alatsi/v13/TK3iWkUJAxQ2nLNGHjUHte5fKg.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/alatsi/v13/TK3iWkUJAxQ2nLNGHjUHte5fKg.ttf"
+  },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/alatsi/v13/TK3iWkUJAxQ2nLN2Hz8D.ttf"

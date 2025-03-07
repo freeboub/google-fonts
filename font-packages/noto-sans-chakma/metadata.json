@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Chakma",
   "variants": ["regular"],
-  "subsets": ["chakma", "latin", "latin-ext"],
+  "subsets": [
+    "chakma",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v17",
   "lastModified": "2022-11-09",
   "files": {

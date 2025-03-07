@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-big-shoulders-inline/useFonts';
 import { BigShouldersInline_100Thin } from 'expo-google-fonts-big-shoulders-inline/100Thin';
 import { BigShouldersInline_200ExtraLight } from 'expo-google-fonts-big-shoulders-inline/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BigShouldersInline_100Thin',
+            fontFamily:
+              'BigShouldersInline_100Thin',
           }}>
           Big Shoulders Inline Thin
         </Text>
@@ -81,9 +90,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BigShouldersInline_200ExtraLight',
+            fontFamily:
+              'BigShouldersInline_200ExtraLight',
           }}>
-          Big Shoulders Inline Extra Light
+          Big Shoulders Inline Extra
+          Light
         </Text>
 
         <Text
@@ -91,7 +102,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BigShouldersInline_300Light',
+            fontFamily:
+              'BigShouldersInline_300Light',
           }}>
           Big Shoulders Inline Light
         </Text>
@@ -101,7 +113,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BigShouldersInline_400Regular',
+            fontFamily:
+              'BigShouldersInline_400Regular',
           }}>
           Big Shoulders Inline Regular
         </Text>
@@ -111,7 +124,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BigShouldersInline_500Medium',
+            fontFamily:
+              'BigShouldersInline_500Medium',
           }}>
           Big Shoulders Inline Medium
         </Text>
@@ -121,7 +135,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BigShouldersInline_600SemiBold',
+            fontFamily:
+              'BigShouldersInline_600SemiBold',
           }}>
           Big Shoulders Inline Semi Bold
         </Text>
@@ -131,7 +146,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BigShouldersInline_700Bold',
+            fontFamily:
+              'BigShouldersInline_700Bold',
           }}>
           Big Shoulders Inline Bold
         </Text>
@@ -141,9 +157,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BigShouldersInline_800ExtraBold',
+            fontFamily:
+              'BigShouldersInline_800ExtraBold',
           }}>
-          Big Shoulders Inline Extra Bold
+          Big Shoulders Inline Extra
+          Bold
         </Text>
 
         <Text
@@ -151,7 +169,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BigShouldersInline_900Black',
+            fontFamily:
+              'BigShouldersInline_900Black',
           }}>
           Big Shoulders Inline Black
         </Text>

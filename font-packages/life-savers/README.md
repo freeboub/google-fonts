@@ -27,7 +27,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-life-savers/useFonts';
 import { LifeSavers_400Regular } from 'expo-google-fonts-life-savers/400Regular';
 import { LifeSavers_700Bold } from 'expo-google-fonts-life-savers/700Bold';
@@ -47,13 +50,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LifeSavers_400Regular',
+            fontFamily:
+              'LifeSavers_400Regular',
           }}>
           Life Savers Regular
         </Text>
@@ -63,7 +72,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LifeSavers_700Bold',
+            fontFamily:
+              'LifeSavers_700Bold',
           }}>
           Life Savers Bold
         </Text>
@@ -73,7 +83,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LifeSavers_800ExtraBold',
+            fontFamily:
+              'LifeSavers_800ExtraBold',
           }}>
           Life Savers Extra Bold
         </Text>

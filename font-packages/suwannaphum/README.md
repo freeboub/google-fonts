@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-suwannaphum/useFonts';
 import { Suwannaphum_100Thin } from 'expo-google-fonts-suwannaphum/100Thin';
 import { Suwannaphum_300Light } from 'expo-google-fonts-suwannaphum/300Light';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Suwannaphum_100Thin',
+            fontFamily:
+              'Suwannaphum_100Thin',
           }}>
           Suwannaphum Thin
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Suwannaphum_300Light',
+            fontFamily:
+              'Suwannaphum_300Light',
           }}>
           Suwannaphum Light
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Suwannaphum_400Regular',
+            fontFamily:
+              'Suwannaphum_400Regular',
           }}>
           Suwannaphum Regular
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Suwannaphum_700Bold',
+            fontFamily:
+              'Suwannaphum_700Bold',
           }}>
           Suwannaphum Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Suwannaphum_900Black',
+            fontFamily:
+              'Suwannaphum_900Black',
           }}>
           Suwannaphum Black
         </Text>

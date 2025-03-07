@@ -36,7 +36,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-besley/useFonts';
 import { Besley_400Regular } from 'expo-google-fonts-besley/400Regular';
 import { Besley_500Medium } from 'expo-google-fonts-besley/500Medium';
@@ -74,13 +77,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Besley_400Regular',
+            fontFamily:
+              'Besley_400Regular',
           }}>
           Besley Regular
         </Text>
@@ -90,7 +99,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Besley_500Medium',
+            fontFamily:
+              'Besley_500Medium',
           }}>
           Besley Medium
         </Text>
@@ -100,7 +110,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Besley_600SemiBold',
+            fontFamily:
+              'Besley_600SemiBold',
           }}>
           Besley Semi Bold
         </Text>
@@ -110,7 +121,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Besley_700Bold',
+            fontFamily:
+              'Besley_700Bold',
           }}>
           Besley Bold
         </Text>
@@ -120,7 +132,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Besley_800ExtraBold',
+            fontFamily:
+              'Besley_800ExtraBold',
           }}>
           Besley Extra Bold
         </Text>
@@ -130,7 +143,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Besley_900Black',
+            fontFamily:
+              'Besley_900Black',
           }}>
           Besley Black
         </Text>
@@ -140,7 +154,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Besley_400Regular_Italic',
+            fontFamily:
+              'Besley_400Regular_Italic',
           }}>
           Besley Italic
         </Text>
@@ -150,7 +165,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Besley_500Medium_Italic',
+            fontFamily:
+              'Besley_500Medium_Italic',
           }}>
           Besley Medium Italic
         </Text>
@@ -160,7 +176,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Besley_600SemiBold_Italic',
+            fontFamily:
+              'Besley_600SemiBold_Italic',
           }}>
           Besley Semi Bold Italic
         </Text>
@@ -170,7 +187,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Besley_700Bold_Italic',
+            fontFamily:
+              'Besley_700Bold_Italic',
           }}>
           Besley Bold Italic
         </Text>
@@ -180,7 +198,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Besley_800ExtraBold_Italic',
+            fontFamily:
+              'Besley_800ExtraBold_Italic',
           }}>
           Besley Extra Bold Italic
         </Text>
@@ -190,7 +209,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Besley_900Black_Italic',
+            fontFamily:
+              'Besley_900Black_Italic',
           }}>
           Besley Black Italic
         </Text>

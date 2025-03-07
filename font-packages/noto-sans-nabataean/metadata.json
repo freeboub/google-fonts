@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Nabataean",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "nabataean"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "nabataean"
+  ],
   "version": "v16",
   "lastModified": "2023-06-22",
   "files": {

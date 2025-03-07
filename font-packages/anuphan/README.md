@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-anuphan/useFonts';
 import { Anuphan_100Thin } from 'expo-google-fonts-anuphan/100Thin';
 import { Anuphan_200ExtraLight } from 'expo-google-fonts-anuphan/200ExtraLight';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anuphan_100Thin',
+            fontFamily:
+              'Anuphan_100Thin',
           }}>
           Anuphan Thin
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anuphan_200ExtraLight',
+            fontFamily:
+              'Anuphan_200ExtraLight',
           }}>
           Anuphan Extra Light
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anuphan_300Light',
+            fontFamily:
+              'Anuphan_300Light',
           }}>
           Anuphan Light
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anuphan_400Regular',
+            fontFamily:
+              'Anuphan_400Regular',
           }}>
           Anuphan Regular
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anuphan_500Medium',
+            fontFamily:
+              'Anuphan_500Medium',
           }}>
           Anuphan Medium
         </Text>
@@ -115,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anuphan_600SemiBold',
+            fontFamily:
+              'Anuphan_600SemiBold',
           }}>
           Anuphan Semi Bold
         </Text>
@@ -125,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anuphan_700Bold',
+            fontFamily:
+              'Anuphan_700Bold',
           }}>
           Anuphan Bold
         </Text>

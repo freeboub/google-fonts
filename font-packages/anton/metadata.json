@@ -1,10 +1,16 @@
 {
   "family": "Anton",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v25",
   "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/anton/v25/1Ptgg87LROyAm0K08i4gS7lu.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/anton/v25/1Ptgg87LROyAm0K08i4gS7lu.ttf"
+  },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/anton/v25/1Ptgg87LROyAm3K1-Co.ttf"

@@ -4,7 +4,9 @@
   "subsets": ["latin"],
   "version": "v29",
   "lastModified": "2024-09-04",
-  "files": { "300": "https://fonts.gstatic.com/s/buda/v29/GFDqWAN8mnyIJSSrG7UBr7pZKA0.ttf" },
+  "files": {
+    "300": "https://fonts.gstatic.com/s/buda/v29/GFDqWAN8mnyIJSSrG7UBr7pZKA0.ttf"
+  },
   "category": "display",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/buda/v29/GFDqWAN8mnyIJSSrK7QLqw.ttf"

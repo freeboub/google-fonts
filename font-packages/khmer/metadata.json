@@ -4,7 +4,9 @@
   "subsets": ["khmer"],
   "version": "v35",
   "lastModified": "2025-01-08",
-  "files": { "regular": "https://fonts.gstatic.com/s/khmer/v35/MjQImit_vPPwpF-BpN2EeYmD.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/khmer/v35/MjQImit_vPPwpF-BpN2EeYmD.ttf"
+  },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/khmer/v35/MjQImit_vPPwpG-Artk.ttf"

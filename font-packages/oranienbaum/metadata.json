@@ -1,7 +1,12 @@
 {
   "family": "Oranienbaum",
   "variants": ["regular"],
-  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v15",
   "lastModified": "2024-09-04",
   "files": {

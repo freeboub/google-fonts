@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-lexend-deca/useFonts';
 import { LexendDeca_100Thin } from 'expo-google-fonts-lexend-deca/100Thin';
 import { LexendDeca_200ExtraLight } from 'expo-google-fonts-lexend-deca/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendDeca_100Thin',
+            fontFamily:
+              'LexendDeca_100Thin',
           }}>
           Lexend Deca Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendDeca_200ExtraLight',
+            fontFamily:
+              'LexendDeca_200ExtraLight',
           }}>
           Lexend Deca Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendDeca_300Light',
+            fontFamily:
+              'LexendDeca_300Light',
           }}>
           Lexend Deca Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendDeca_400Regular',
+            fontFamily:
+              'LexendDeca_400Regular',
           }}>
           Lexend Deca Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendDeca_500Medium',
+            fontFamily:
+              'LexendDeca_500Medium',
           }}>
           Lexend Deca Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendDeca_600SemiBold',
+            fontFamily:
+              'LexendDeca_600SemiBold',
           }}>
           Lexend Deca Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendDeca_700Bold',
+            fontFamily:
+              'LexendDeca_700Bold',
           }}>
           Lexend Deca Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendDeca_800ExtraBold',
+            fontFamily:
+              'LexendDeca_800ExtraBold',
           }}>
           Lexend Deca Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendDeca_900Black',
+            fontFamily:
+              'LexendDeca_900Black',
           }}>
           Lexend Deca Black
         </Text>

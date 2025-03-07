@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-imbue/useFonts';
 import { Imbue_100Thin } from 'expo-google-fonts-imbue/100Thin';
 import { Imbue_200ExtraLight } from 'expo-google-fonts-imbue/200ExtraLight';
@@ -65,7 +68,12 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
@@ -81,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Imbue_200ExtraLight',
+            fontFamily:
+              'Imbue_200ExtraLight',
           }}>
           Imbue Extra Light
         </Text>
@@ -91,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Imbue_300Light',
+            fontFamily:
+              'Imbue_300Light',
           }}>
           Imbue Light
         </Text>
@@ -101,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Imbue_400Regular',
+            fontFamily:
+              'Imbue_400Regular',
           }}>
           Imbue Regular
         </Text>
@@ -111,7 +122,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Imbue_500Medium',
+            fontFamily:
+              'Imbue_500Medium',
           }}>
           Imbue Medium
         </Text>
@@ -121,7 +133,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Imbue_600SemiBold',
+            fontFamily:
+              'Imbue_600SemiBold',
           }}>
           Imbue Semi Bold
         </Text>
@@ -141,7 +154,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Imbue_800ExtraBold',
+            fontFamily:
+              'Imbue_800ExtraBold',
           }}>
           Imbue Extra Bold
         </Text>
@@ -151,7 +165,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Imbue_900Black',
+            fontFamily:
+              'Imbue_900Black',
           }}>
           Imbue Black
         </Text>

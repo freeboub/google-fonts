@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Bhaiksuki",
   "variants": ["regular"],
-  "subsets": ["bhaiksuki", "latin", "latin-ext"],
+  "subsets": [
+    "bhaiksuki",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v17",
   "lastModified": "2023-09-27",
   "files": {

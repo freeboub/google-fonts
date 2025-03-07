@@ -26,7 +26,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-sniglet/useFonts';
 import { Sniglet_400Regular } from 'expo-google-fonts-sniglet/400Regular';
 import { Sniglet_800ExtraBold } from 'expo-google-fonts-sniglet/800ExtraBold';
@@ -44,13 +47,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sniglet_400Regular',
+            fontFamily:
+              'Sniglet_400Regular',
           }}>
           Sniglet Regular
         </Text>
@@ -60,7 +69,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sniglet_800ExtraBold',
+            fontFamily:
+              'Sniglet_800ExtraBold',
           }}>
           Sniglet Extra Bold
         </Text>

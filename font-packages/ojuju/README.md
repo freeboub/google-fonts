@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-ojuju/useFonts';
 import { Ojuju_200ExtraLight } from 'expo-google-fonts-ojuju/200ExtraLight';
 import { Ojuju_300Light } from 'expo-google-fonts-ojuju/300Light';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Ojuju_200ExtraLight',
+            fontFamily:
+              'Ojuju_200ExtraLight',
           }}>
           Ojuju Extra Light
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Ojuju_300Light',
+            fontFamily:
+              'Ojuju_300Light',
           }}>
           Ojuju Light
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Ojuju_400Regular',
+            fontFamily:
+              'Ojuju_400Regular',
           }}>
           Ojuju Regular
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Ojuju_500Medium',
+            fontFamily:
+              'Ojuju_500Medium',
           }}>
           Ojuju Medium
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Ojuju_600SemiBold',
+            fontFamily:
+              'Ojuju_600SemiBold',
           }}>
           Ojuju Semi Bold
         </Text>
@@ -125,7 +138,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Ojuju_800ExtraBold',
+            fontFamily:
+              'Ojuju_800ExtraBold',
           }}>
           Ojuju Extra Bold
         </Text>

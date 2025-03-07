@@ -1,6 +1,14 @@
 {
   "family": "Tajawal",
-  "variants": ["200", "300", "regular", "500", "700", "800", "900"],
+  "variants": [
+    "200",
+    "300",
+    "regular",
+    "500",
+    "700",
+    "800",
+    "900"
+  ],
   "subsets": ["arabic", "latin"],
   "version": "v10",
   "lastModified": "2024-09-04",

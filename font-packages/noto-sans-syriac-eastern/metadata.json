@@ -1,7 +1,21 @@
 {
   "family": "Noto Sans Syriac Eastern",
-  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
-  "subsets": ["latin", "latin-ext", "syriac"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "syriac"
+  ],
   "version": "v1",
   "lastModified": "2023-07-13",
   "files": {

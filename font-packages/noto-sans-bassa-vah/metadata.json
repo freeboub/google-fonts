@@ -1,7 +1,16 @@
 {
   "family": "Noto Sans Bassa Vah",
-  "variants": ["regular", "500", "600", "700"],
-  "subsets": ["bassa-vah", "latin", "latin-ext"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "bassa-vah",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v17",
   "lastModified": "2022-11-09",
   "files": {

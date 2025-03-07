@@ -1,6 +1,12 @@
 {
   "family": "Battambang",
-  "variants": ["100", "300", "regular", "700", "900"],
+  "variants": [
+    "100",
+    "300",
+    "regular",
+    "700",
+    "900"
+  ],
   "subsets": ["khmer", "latin"],
   "version": "v25",
   "lastModified": "2024-12-04",

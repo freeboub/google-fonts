@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-ruwudu/useFonts';
 import { Ruwudu_400Regular } from 'expo-google-fonts-ruwudu/400Regular';
 import { Ruwudu_500Medium } from 'expo-google-fonts-ruwudu/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Ruwudu_400Regular',
+            fontFamily:
+              'Ruwudu_400Regular',
           }}>
           Ruwudu Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Ruwudu_500Medium',
+            fontFamily:
+              'Ruwudu_500Medium',
           }}>
           Ruwudu Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Ruwudu_600SemiBold',
+            fontFamily:
+              'Ruwudu_600SemiBold',
           }}>
           Ruwudu Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Ruwudu_700Bold',
+            fontFamily:
+              'Ruwudu_700Bold',
           }}>
           Ruwudu Bold
         </Text>

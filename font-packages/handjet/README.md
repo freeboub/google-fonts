@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-handjet/useFonts';
 import { Handjet_100Thin } from 'expo-google-fonts-handjet/100Thin';
 import { Handjet_200ExtraLight } from 'expo-google-fonts-handjet/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Handjet_100Thin',
+            fontFamily:
+              'Handjet_100Thin',
           }}>
           Handjet Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Handjet_200ExtraLight',
+            fontFamily:
+              'Handjet_200ExtraLight',
           }}>
           Handjet Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Handjet_300Light',
+            fontFamily:
+              'Handjet_300Light',
           }}>
           Handjet Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Handjet_400Regular',
+            fontFamily:
+              'Handjet_400Regular',
           }}>
           Handjet Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Handjet_500Medium',
+            fontFamily:
+              'Handjet_500Medium',
           }}>
           Handjet Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Handjet_600SemiBold',
+            fontFamily:
+              'Handjet_600SemiBold',
           }}>
           Handjet Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Handjet_700Bold',
+            fontFamily:
+              'Handjet_700Bold',
           }}>
           Handjet Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Handjet_800ExtraBold',
+            fontFamily:
+              'Handjet_800ExtraBold',
           }}>
           Handjet Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Handjet_900Black',
+            fontFamily:
+              'Handjet_900Black',
           }}>
           Handjet Black
         </Text>

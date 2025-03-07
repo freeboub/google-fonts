@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-public-sans/useFonts';
 import { PublicSans_100Thin } from 'expo-google-fonts-public-sans/100Thin';
 import { PublicSans_200ExtraLight } from 'expo-google-fonts-public-sans/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_100Thin',
+            fontFamily:
+              'PublicSans_100Thin',
           }}>
           Public Sans Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_200ExtraLight',
+            fontFamily:
+              'PublicSans_200ExtraLight',
           }}>
           Public Sans Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_300Light',
+            fontFamily:
+              'PublicSans_300Light',
           }}>
           Public Sans Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_400Regular',
+            fontFamily:
+              'PublicSans_400Regular',
           }}>
           Public Sans Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_500Medium',
+            fontFamily:
+              'PublicSans_500Medium',
           }}>
           Public Sans Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_600SemiBold',
+            fontFamily:
+              'PublicSans_600SemiBold',
           }}>
           Public Sans Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_700Bold',
+            fontFamily:
+              'PublicSans_700Bold',
           }}>
           Public Sans Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_800ExtraBold',
+            fontFamily:
+              'PublicSans_800ExtraBold',
           }}>
           Public Sans Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_900Black',
+            fontFamily:
+              'PublicSans_900Black',
           }}>
           Public Sans Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_100Thin_Italic',
+            fontFamily:
+              'PublicSans_100Thin_Italic',
           }}>
           Public Sans Thin Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_200ExtraLight_Italic',
+            fontFamily:
+              'PublicSans_200ExtraLight_Italic',
           }}>
           Public Sans Extra Light Italic
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_300Light_Italic',
+            fontFamily:
+              'PublicSans_300Light_Italic',
           }}>
           Public Sans Light Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_400Regular_Italic',
+            fontFamily:
+              'PublicSans_400Regular_Italic',
           }}>
           Public Sans Italic
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_500Medium_Italic',
+            fontFamily:
+              'PublicSans_500Medium_Italic',
           }}>
           Public Sans Medium Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_600SemiBold_Italic',
+            fontFamily:
+              'PublicSans_600SemiBold_Italic',
           }}>
           Public Sans Semi Bold Italic
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_700Bold_Italic',
+            fontFamily:
+              'PublicSans_700Bold_Italic',
           }}>
           Public Sans Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_800ExtraBold_Italic',
+            fontFamily:
+              'PublicSans_800ExtraBold_Italic',
           }}>
           Public Sans Extra Bold Italic
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PublicSans_900Black_Italic',
+            fontFamily:
+              'PublicSans_900Black_Italic',
           }}>
           Public Sans Black Italic
         </Text>

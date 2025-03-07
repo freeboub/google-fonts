@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-gentium-book-plus/useFonts';
 import { GentiumBookPlus_400Regular } from 'expo-google-fonts-gentium-book-plus/400Regular';
 import { GentiumBookPlus_400Regular_Italic } from 'expo-google-fonts-gentium-book-plus/400Regular_Italic';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GentiumBookPlus_400Regular',
+            fontFamily:
+              'GentiumBookPlus_400Regular',
           }}>
           Gentium Book Plus Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GentiumBookPlus_400Regular_Italic',
+            fontFamily:
+              'GentiumBookPlus_400Regular_Italic',
           }}>
           Gentium Book Plus Italic
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GentiumBookPlus_700Bold',
+            fontFamily:
+              'GentiumBookPlus_700Bold',
           }}>
           Gentium Book Plus Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GentiumBookPlus_700Bold_Italic',
+            fontFamily:
+              'GentiumBookPlus_700Bold_Italic',
           }}>
           Gentium Book Plus Bold Italic
         </Text>

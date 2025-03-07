@@ -27,7 +27,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-belanosima/useFonts';
 import { Belanosima_400Regular } from 'expo-google-fonts-belanosima/400Regular';
 import { Belanosima_600SemiBold } from 'expo-google-fonts-belanosima/600SemiBold';
@@ -47,13 +50,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Belanosima_400Regular',
+            fontFamily:
+              'Belanosima_400Regular',
           }}>
           Belanosima Regular
         </Text>
@@ -63,7 +72,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Belanosima_600SemiBold',
+            fontFamily:
+              'Belanosima_600SemiBold',
           }}>
           Belanosima Semi Bold
         </Text>
@@ -73,7 +83,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Belanosima_700Bold',
+            fontFamily:
+              'Belanosima_700Bold',
           }}>
           Belanosima Bold
         </Text>

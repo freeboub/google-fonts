@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playwrite-dk-loopet/useFonts';
 import { PlaywriteDKLoopet_100Thin } from 'expo-google-fonts-playwrite-dk-loopet/100Thin';
 import { PlaywriteDKLoopet_200ExtraLight } from 'expo-google-fonts-playwrite-dk-loopet/200ExtraLight';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteDKLoopet_100Thin',
+            fontFamily:
+              'PlaywriteDKLoopet_100Thin',
           }}>
           Playwrite DK Loopet Thin
         </Text>
@@ -66,9 +75,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteDKLoopet_200ExtraLight',
+            fontFamily:
+              'PlaywriteDKLoopet_200ExtraLight',
           }}>
-          Playwrite DK Loopet Extra Light
+          Playwrite DK Loopet Extra
+          Light
         </Text>
 
         <Text
@@ -76,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteDKLoopet_300Light',
+            fontFamily:
+              'PlaywriteDKLoopet_300Light',
           }}>
           Playwrite DK Loopet Light
         </Text>
@@ -86,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteDKLoopet_400Regular',
+            fontFamily:
+              'PlaywriteDKLoopet_400Regular',
           }}>
           Playwrite DK Loopet Regular
         </Text>

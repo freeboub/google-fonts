@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-cabin-condensed/useFonts';
 import { CabinCondensed_400Regular } from 'expo-google-fonts-cabin-condensed/400Regular';
 import { CabinCondensed_500Medium } from 'expo-google-fonts-cabin-condensed/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CabinCondensed_400Regular',
+            fontFamily:
+              'CabinCondensed_400Regular',
           }}>
           Cabin Condensed Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CabinCondensed_500Medium',
+            fontFamily:
+              'CabinCondensed_500Medium',
           }}>
           Cabin Condensed Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CabinCondensed_600SemiBold',
+            fontFamily:
+              'CabinCondensed_600SemiBold',
           }}>
           Cabin Condensed Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CabinCondensed_700Bold',
+            fontFamily:
+              'CabinCondensed_700Bold',
           }}>
           Cabin Condensed Bold
         </Text>

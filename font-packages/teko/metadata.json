@@ -1,7 +1,17 @@
 {
   "family": "Teko",
-  "variants": ["300", "regular", "500", "600", "700"],
-  "subsets": ["devanagari", "latin", "latin-ext"],
+  "variants": [
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v20",
   "lastModified": "2024-09-04",
   "files": {

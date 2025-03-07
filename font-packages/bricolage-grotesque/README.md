@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-bricolage-grotesque/useFonts';
 import { BricolageGrotesque_200ExtraLight } from 'expo-google-fonts-bricolage-grotesque/200ExtraLight';
 import { BricolageGrotesque_300Light } from 'expo-google-fonts-bricolage-grotesque/300Light';
@@ -59,15 +62,22 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BricolageGrotesque_200ExtraLight',
+            fontFamily:
+              'BricolageGrotesque_200ExtraLight',
           }}>
-          Bricolage Grotesque Extra Light
+          Bricolage Grotesque Extra
+          Light
         </Text>
 
         <Text
@@ -75,7 +85,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BricolageGrotesque_300Light',
+            fontFamily:
+              'BricolageGrotesque_300Light',
           }}>
           Bricolage Grotesque Light
         </Text>
@@ -85,7 +96,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BricolageGrotesque_400Regular',
+            fontFamily:
+              'BricolageGrotesque_400Regular',
           }}>
           Bricolage Grotesque Regular
         </Text>
@@ -95,7 +107,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BricolageGrotesque_500Medium',
+            fontFamily:
+              'BricolageGrotesque_500Medium',
           }}>
           Bricolage Grotesque Medium
         </Text>
@@ -105,7 +118,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BricolageGrotesque_600SemiBold',
+            fontFamily:
+              'BricolageGrotesque_600SemiBold',
           }}>
           Bricolage Grotesque Semi Bold
         </Text>
@@ -115,7 +129,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BricolageGrotesque_700Bold',
+            fontFamily:
+              'BricolageGrotesque_700Bold',
           }}>
           Bricolage Grotesque Bold
         </Text>
@@ -125,7 +140,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BricolageGrotesque_800ExtraBold',
+            fontFamily:
+              'BricolageGrotesque_800ExtraBold',
           }}>
           Bricolage Grotesque Extra Bold
         </Text>

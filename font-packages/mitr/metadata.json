@@ -1,7 +1,19 @@
 {
   "family": "Mitr",
-  "variants": ["200", "300", "regular", "500", "600", "700"],
-  "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
+  "variants": [
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "thai",
+    "vietnamese"
+  ],
   "version": "v11",
   "lastModified": "2024-09-04",
   "files": {

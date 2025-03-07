@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-onest/useFonts';
 import { Onest_100Thin } from 'expo-google-fonts-onest/100Thin';
 import { Onest_200ExtraLight } from 'expo-google-fonts-onest/200ExtraLight';
@@ -65,7 +68,12 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
@@ -81,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Onest_200ExtraLight',
+            fontFamily:
+              'Onest_200ExtraLight',
           }}>
           Onest Extra Light
         </Text>
@@ -91,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Onest_300Light',
+            fontFamily:
+              'Onest_300Light',
           }}>
           Onest Light
         </Text>
@@ -101,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Onest_400Regular',
+            fontFamily:
+              'Onest_400Regular',
           }}>
           Onest Regular
         </Text>
@@ -111,7 +122,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Onest_500Medium',
+            fontFamily:
+              'Onest_500Medium',
           }}>
           Onest Medium
         </Text>
@@ -121,7 +133,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Onest_600SemiBold',
+            fontFamily:
+              'Onest_600SemiBold',
           }}>
           Onest Semi Bold
         </Text>
@@ -141,7 +154,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Onest_800ExtraBold',
+            fontFamily:
+              'Onest_800ExtraBold',
           }}>
           Onest Extra Bold
         </Text>
@@ -151,7 +165,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Onest_900Black',
+            fontFamily:
+              'Onest_900Black',
           }}>
           Onest Black
         </Text>

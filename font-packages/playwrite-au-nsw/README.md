@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playwrite-au-nsw/useFonts';
 import { PlaywriteAUNSW_100Thin } from 'expo-google-fonts-playwrite-au-nsw/100Thin';
 import { PlaywriteAUNSW_200ExtraLight } from 'expo-google-fonts-playwrite-au-nsw/200ExtraLight';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteAUNSW_100Thin',
+            fontFamily:
+              'PlaywriteAUNSW_100Thin',
           }}>
           Playwrite AU NSW Thin
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteAUNSW_200ExtraLight',
+            fontFamily:
+              'PlaywriteAUNSW_200ExtraLight',
           }}>
           Playwrite AU NSW Extra Light
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteAUNSW_300Light',
+            fontFamily:
+              'PlaywriteAUNSW_300Light',
           }}>
           Playwrite AU NSW Light
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteAUNSW_400Regular',
+            fontFamily:
+              'PlaywriteAUNSW_400Regular',
           }}>
           Playwrite AU NSW Regular
         </Text>

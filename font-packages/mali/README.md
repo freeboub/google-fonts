@@ -36,7 +36,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-mali/useFonts';
 import { Mali_200ExtraLight } from 'expo-google-fonts-mali/200ExtraLight';
 import { Mali_200ExtraLight_Italic } from 'expo-google-fonts-mali/200ExtraLight_Italic';
@@ -74,13 +77,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mali_200ExtraLight',
+            fontFamily:
+              'Mali_200ExtraLight',
           }}>
           Mali Extra Light
         </Text>
@@ -90,7 +99,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mali_200ExtraLight_Italic',
+            fontFamily:
+              'Mali_200ExtraLight_Italic',
           }}>
           Mali Extra Light Italic
         </Text>
@@ -110,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mali_300Light_Italic',
+            fontFamily:
+              'Mali_300Light_Italic',
           }}>
           Mali Light Italic
         </Text>
@@ -120,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mali_400Regular',
+            fontFamily:
+              'Mali_400Regular',
           }}>
           Mali Regular
         </Text>
@@ -130,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mali_400Regular_Italic',
+            fontFamily:
+              'Mali_400Regular_Italic',
           }}>
           Mali Italic
         </Text>
@@ -140,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mali_500Medium',
+            fontFamily:
+              'Mali_500Medium',
           }}>
           Mali Medium
         </Text>
@@ -150,7 +164,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mali_500Medium_Italic',
+            fontFamily:
+              'Mali_500Medium_Italic',
           }}>
           Mali Medium Italic
         </Text>
@@ -160,7 +175,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mali_600SemiBold',
+            fontFamily:
+              'Mali_600SemiBold',
           }}>
           Mali Semi Bold
         </Text>
@@ -170,7 +186,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mali_600SemiBold_Italic',
+            fontFamily:
+              'Mali_600SemiBold_Italic',
           }}>
           Mali Semi Bold Italic
         </Text>
@@ -190,7 +207,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mali_700Bold_Italic',
+            fontFamily:
+              'Mali_700Bold_Italic',
           }}>
           Mali Bold Italic
         </Text>

@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Deseret",
   "variants": ["regular"],
-  "subsets": ["deseret", "latin", "latin-ext"],
+  "subsets": [
+    "deseret",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v17",
   "lastModified": "2023-07-24",
   "files": {

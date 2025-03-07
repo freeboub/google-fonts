@@ -1,7 +1,16 @@
 {
   "family": "Scheherazade New",
-  "variants": ["regular", "500", "600", "700"],
-  "subsets": ["arabic", "latin", "latin-ext"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v17",
   "lastModified": "2024-11-20",
   "files": {

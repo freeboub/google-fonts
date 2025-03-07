@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-big-shoulders-stencil/useFonts';
 import { BigShouldersStencil_100Thin } from 'expo-google-fonts-big-shoulders-stencil/100Thin';
 import { BigShouldersStencil_200ExtraLight } from 'expo-google-fonts-big-shoulders-stencil/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BigShouldersStencil_100Thin',
+            fontFamily:
+              'BigShouldersStencil_100Thin',
           }}>
           Big Shoulders Stencil Thin
         </Text>
@@ -81,9 +90,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BigShouldersStencil_200ExtraLight',
+            fontFamily:
+              'BigShouldersStencil_200ExtraLight',
           }}>
-          Big Shoulders Stencil Extra Light
+          Big Shoulders Stencil Extra
+          Light
         </Text>
 
         <Text
@@ -91,7 +102,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BigShouldersStencil_300Light',
+            fontFamily:
+              'BigShouldersStencil_300Light',
           }}>
           Big Shoulders Stencil Light
         </Text>
@@ -101,7 +113,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BigShouldersStencil_400Regular',
+            fontFamily:
+              'BigShouldersStencil_400Regular',
           }}>
           Big Shoulders Stencil Regular
         </Text>
@@ -111,7 +124,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BigShouldersStencil_500Medium',
+            fontFamily:
+              'BigShouldersStencil_500Medium',
           }}>
           Big Shoulders Stencil Medium
         </Text>
@@ -121,9 +135,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BigShouldersStencil_600SemiBold',
+            fontFamily:
+              'BigShouldersStencil_600SemiBold',
           }}>
-          Big Shoulders Stencil Semi Bold
+          Big Shoulders Stencil Semi
+          Bold
         </Text>
 
         <Text
@@ -131,7 +147,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BigShouldersStencil_700Bold',
+            fontFamily:
+              'BigShouldersStencil_700Bold',
           }}>
           Big Shoulders Stencil Bold
         </Text>
@@ -141,9 +158,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BigShouldersStencil_800ExtraBold',
+            fontFamily:
+              'BigShouldersStencil_800ExtraBold',
           }}>
-          Big Shoulders Stencil Extra Bold
+          Big Shoulders Stencil Extra
+          Bold
         </Text>
 
         <Text
@@ -151,7 +170,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BigShouldersStencil_900Black',
+            fontFamily:
+              'BigShouldersStencil_900Black',
           }}>
           Big Shoulders Stencil Black
         </Text>

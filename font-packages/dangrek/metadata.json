@@ -4,7 +4,9 @@
   "subsets": ["khmer", "latin"],
   "version": "v31",
   "lastModified": "2024-12-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/dangrek/v31/LYjCdG30nEgoH8E2gCNqqVIuTN4.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/dangrek/v31/LYjCdG30nEgoH8E2gCNqqVIuTN4.ttf"
+  },
   "category": "display",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/dangrek/v31/LYjCdG30nEgoH8E2sCJgrQ.ttf"

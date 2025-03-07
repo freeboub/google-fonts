@@ -1,7 +1,13 @@
 {
   "family": "Zen Kurenaido",
   "variants": ["regular"],
-  "subsets": ["cyrillic", "greek", "japanese", "latin", "latin-ext"],
+  "subsets": [
+    "cyrillic",
+    "greek",
+    "japanese",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v17",
   "lastModified": "2024-08-07",
   "files": {

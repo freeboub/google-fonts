@@ -36,7 +36,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-merriweather-sans/useFonts';
 import { MerriweatherSans_300Light } from 'expo-google-fonts-merriweather-sans/300Light';
 import { MerriweatherSans_400Regular } from 'expo-google-fonts-merriweather-sans/400Regular';
@@ -74,13 +77,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MerriweatherSans_300Light',
+            fontFamily:
+              'MerriweatherSans_300Light',
           }}>
           Merriweather Sans Light
         </Text>
@@ -90,7 +99,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MerriweatherSans_400Regular',
+            fontFamily:
+              'MerriweatherSans_400Regular',
           }}>
           Merriweather Sans Regular
         </Text>
@@ -100,7 +110,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MerriweatherSans_500Medium',
+            fontFamily:
+              'MerriweatherSans_500Medium',
           }}>
           Merriweather Sans Medium
         </Text>
@@ -110,7 +121,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MerriweatherSans_600SemiBold',
+            fontFamily:
+              'MerriweatherSans_600SemiBold',
           }}>
           Merriweather Sans Semi Bold
         </Text>
@@ -120,7 +132,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MerriweatherSans_700Bold',
+            fontFamily:
+              'MerriweatherSans_700Bold',
           }}>
           Merriweather Sans Bold
         </Text>
@@ -130,7 +143,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MerriweatherSans_800ExtraBold',
+            fontFamily:
+              'MerriweatherSans_800ExtraBold',
           }}>
           Merriweather Sans Extra Bold
         </Text>
@@ -140,7 +154,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MerriweatherSans_300Light_Italic',
+            fontFamily:
+              'MerriweatherSans_300Light_Italic',
           }}>
           Merriweather Sans Light Italic
         </Text>
@@ -150,7 +165,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MerriweatherSans_400Regular_Italic',
+            fontFamily:
+              'MerriweatherSans_400Regular_Italic',
           }}>
           Merriweather Sans Italic
         </Text>
@@ -160,9 +176,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MerriweatherSans_500Medium_Italic',
+            fontFamily:
+              'MerriweatherSans_500Medium_Italic',
           }}>
-          Merriweather Sans Medium Italic
+          Merriweather Sans Medium
+          Italic
         </Text>
 
         <Text
@@ -170,9 +188,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MerriweatherSans_600SemiBold_Italic',
+            fontFamily:
+              'MerriweatherSans_600SemiBold_Italic',
           }}>
-          Merriweather Sans Semi Bold Italic
+          Merriweather Sans Semi Bold
+          Italic
         </Text>
 
         <Text
@@ -180,7 +200,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MerriweatherSans_700Bold_Italic',
+            fontFamily:
+              'MerriweatherSans_700Bold_Italic',
           }}>
           Merriweather Sans Bold Italic
         </Text>
@@ -190,9 +211,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MerriweatherSans_800ExtraBold_Italic',
+            fontFamily:
+              'MerriweatherSans_800ExtraBold_Italic',
           }}>
-          Merriweather Sans Extra Bold Italic
+          Merriweather Sans Extra Bold
+          Italic
         </Text>
       </View>
     );

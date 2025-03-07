@@ -1,10 +1,16 @@
 {
   "family": "Updock",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v5",
   "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/updock/v5/nuF4D_3dVZ70UI9SjLK3602XBw.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/updock/v5/nuF4D_3dVZ70UI9SjLK3602XBw.ttf"
+  },
   "category": "handwriting",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/updock/v5/nuF4D_3dVZ70UI9ijbiz.ttf"

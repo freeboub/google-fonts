@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-tamil/useFonts';
 import { NotoSansTamil_100Thin } from 'expo-google-fonts-noto-sans-tamil/100Thin';
 import { NotoSansTamil_200ExtraLight } from 'expo-google-fonts-noto-sans-tamil/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTamil_100Thin',
+            fontFamily:
+              'NotoSansTamil_100Thin',
           }}>
           Noto Sans Tamil Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTamil_200ExtraLight',
+            fontFamily:
+              'NotoSansTamil_200ExtraLight',
           }}>
           Noto Sans Tamil Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTamil_300Light',
+            fontFamily:
+              'NotoSansTamil_300Light',
           }}>
           Noto Sans Tamil Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTamil_400Regular',
+            fontFamily:
+              'NotoSansTamil_400Regular',
           }}>
           Noto Sans Tamil Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTamil_500Medium',
+            fontFamily:
+              'NotoSansTamil_500Medium',
           }}>
           Noto Sans Tamil Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTamil_600SemiBold',
+            fontFamily:
+              'NotoSansTamil_600SemiBold',
           }}>
           Noto Sans Tamil Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTamil_700Bold',
+            fontFamily:
+              'NotoSansTamil_700Bold',
           }}>
           Noto Sans Tamil Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTamil_800ExtraBold',
+            fontFamily:
+              'NotoSansTamil_800ExtraBold',
           }}>
           Noto Sans Tamil Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTamil_900Black',
+            fontFamily:
+              'NotoSansTamil_900Black',
           }}>
           Noto Sans Tamil Black
         </Text>

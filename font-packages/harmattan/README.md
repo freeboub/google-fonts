@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-harmattan/useFonts';
 import { Harmattan_400Regular } from 'expo-google-fonts-harmattan/400Regular';
 import { Harmattan_500Medium } from 'expo-google-fonts-harmattan/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Harmattan_400Regular',
+            fontFamily:
+              'Harmattan_400Regular',
           }}>
           Harmattan Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Harmattan_500Medium',
+            fontFamily:
+              'Harmattan_500Medium',
           }}>
           Harmattan Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Harmattan_600SemiBold',
+            fontFamily:
+              'Harmattan_600SemiBold',
           }}>
           Harmattan Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Harmattan_700Bold',
+            fontFamily:
+              'Harmattan_700Bold',
           }}>
           Harmattan Bold
         </Text>

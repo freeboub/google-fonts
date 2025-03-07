@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-asap/useFonts';
 import { Asap_100Thin } from 'expo-google-fonts-asap/100Thin';
 import { Asap_200ExtraLight } from 'expo-google-fonts-asap/200ExtraLight';
@@ -92,7 +95,12 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
@@ -108,7 +116,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Asap_200ExtraLight',
+            fontFamily:
+              'Asap_200ExtraLight',
           }}>
           Asap Extra Light
         </Text>
@@ -128,7 +137,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Asap_400Regular',
+            fontFamily:
+              'Asap_400Regular',
           }}>
           Asap Regular
         </Text>
@@ -138,7 +148,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Asap_500Medium',
+            fontFamily:
+              'Asap_500Medium',
           }}>
           Asap Medium
         </Text>
@@ -148,7 +159,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Asap_600SemiBold',
+            fontFamily:
+              'Asap_600SemiBold',
           }}>
           Asap Semi Bold
         </Text>
@@ -168,7 +180,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Asap_800ExtraBold',
+            fontFamily:
+              'Asap_800ExtraBold',
           }}>
           Asap Extra Bold
         </Text>
@@ -188,7 +201,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Asap_100Thin_Italic',
+            fontFamily:
+              'Asap_100Thin_Italic',
           }}>
           Asap Thin Italic
         </Text>
@@ -198,7 +212,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Asap_200ExtraLight_Italic',
+            fontFamily:
+              'Asap_200ExtraLight_Italic',
           }}>
           Asap Extra Light Italic
         </Text>
@@ -208,7 +223,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Asap_300Light_Italic',
+            fontFamily:
+              'Asap_300Light_Italic',
           }}>
           Asap Light Italic
         </Text>
@@ -218,7 +234,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Asap_400Regular_Italic',
+            fontFamily:
+              'Asap_400Regular_Italic',
           }}>
           Asap Italic
         </Text>
@@ -228,7 +245,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Asap_500Medium_Italic',
+            fontFamily:
+              'Asap_500Medium_Italic',
           }}>
           Asap Medium Italic
         </Text>
@@ -238,7 +256,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Asap_600SemiBold_Italic',
+            fontFamily:
+              'Asap_600SemiBold_Italic',
           }}>
           Asap Semi Bold Italic
         </Text>
@@ -248,7 +267,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Asap_700Bold_Italic',
+            fontFamily:
+              'Asap_700Bold_Italic',
           }}>
           Asap Bold Italic
         </Text>
@@ -258,7 +278,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Asap_800ExtraBold_Italic',
+            fontFamily:
+              'Asap_800ExtraBold_Italic',
           }}>
           Asap Extra Bold Italic
         </Text>
@@ -268,7 +289,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Asap_900Black_Italic',
+            fontFamily:
+              'Asap_900Black_Italic',
           }}>
           Asap Black Italic
         </Text>

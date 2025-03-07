@@ -1,6 +1,11 @@
 {
   "family": "Playwrite FR Trad",
-  "variants": ["100", "200", "300", "regular"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular"
+  ],
   "subsets": ["latin"],
   "version": "v12",
   "lastModified": "2025-02-12",

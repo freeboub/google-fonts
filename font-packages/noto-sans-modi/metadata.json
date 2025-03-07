@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Modi",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "modi"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "modi"
+  ],
   "version": "v23",
   "lastModified": "2023-09-27",
   "files": {

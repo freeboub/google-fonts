@@ -1,7 +1,17 @@
 {
   "family": "Thasadith",
-  "variants": ["regular", "italic", "700", "700italic"],
-  "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
+  "variants": [
+    "regular",
+    "italic",
+    "700",
+    "700italic"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "thai",
+    "vietnamese"
+  ],
   "version": "v11",
   "lastModified": "2024-09-04",
   "files": {

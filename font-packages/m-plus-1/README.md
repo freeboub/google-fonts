@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-m-plus-1/useFonts';
 import { MPLUS1_100Thin } from 'expo-google-fonts-m-plus-1/100Thin';
 import { MPLUS1_200ExtraLight } from 'expo-google-fonts-m-plus-1/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUS1_100Thin',
+            fontFamily:
+              'MPLUS1_100Thin',
           }}>
           M PLUS 1 Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUS1_200ExtraLight',
+            fontFamily:
+              'MPLUS1_200ExtraLight',
           }}>
           M PLUS 1 Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUS1_300Light',
+            fontFamily:
+              'MPLUS1_300Light',
           }}>
           M PLUS 1 Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUS1_400Regular',
+            fontFamily:
+              'MPLUS1_400Regular',
           }}>
           M PLUS 1 Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUS1_500Medium',
+            fontFamily:
+              'MPLUS1_500Medium',
           }}>
           M PLUS 1 Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUS1_600SemiBold',
+            fontFamily:
+              'MPLUS1_600SemiBold',
           }}>
           M PLUS 1 Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUS1_700Bold',
+            fontFamily:
+              'MPLUS1_700Bold',
           }}>
           M PLUS 1 Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUS1_800ExtraBold',
+            fontFamily:
+              'MPLUS1_800ExtraBold',
           }}>
           M PLUS 1 Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUS1_900Black',
+            fontFamily:
+              'MPLUS1_900Black',
           }}>
           M PLUS 1 Black
         </Text>

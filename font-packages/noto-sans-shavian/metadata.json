@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Shavian",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "shavian"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "shavian"
+  ],
   "version": "v17",
   "lastModified": "2023-07-24",
   "files": {

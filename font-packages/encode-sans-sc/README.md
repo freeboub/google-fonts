@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-encode-sans-sc/useFonts';
 import { EncodeSansSC_100Thin } from 'expo-google-fonts-encode-sans-sc/100Thin';
 import { EncodeSansSC_200ExtraLight } from 'expo-google-fonts-encode-sans-sc/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansSC_100Thin',
+            fontFamily:
+              'EncodeSansSC_100Thin',
           }}>
           Encode Sans SC Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansSC_200ExtraLight',
+            fontFamily:
+              'EncodeSansSC_200ExtraLight',
           }}>
           Encode Sans SC Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansSC_300Light',
+            fontFamily:
+              'EncodeSansSC_300Light',
           }}>
           Encode Sans SC Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansSC_400Regular',
+            fontFamily:
+              'EncodeSansSC_400Regular',
           }}>
           Encode Sans SC Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansSC_500Medium',
+            fontFamily:
+              'EncodeSansSC_500Medium',
           }}>
           Encode Sans SC Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansSC_600SemiBold',
+            fontFamily:
+              'EncodeSansSC_600SemiBold',
           }}>
           Encode Sans SC Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansSC_700Bold',
+            fontFamily:
+              'EncodeSansSC_700Bold',
           }}>
           Encode Sans SC Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansSC_800ExtraBold',
+            fontFamily:
+              'EncodeSansSC_800ExtraBold',
           }}>
           Encode Sans SC Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansSC_900Black',
+            fontFamily:
+              'EncodeSansSC_900Black',
           }}>
           Encode Sans SC Black
         </Text>

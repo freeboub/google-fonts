@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-serif-devanagari/useFonts';
 import { NotoSerifDevanagari_100Thin } from 'expo-google-fonts-noto-serif-devanagari/100Thin';
 import { NotoSerifDevanagari_200ExtraLight } from 'expo-google-fonts-noto-serif-devanagari/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifDevanagari_100Thin',
+            fontFamily:
+              'NotoSerifDevanagari_100Thin',
           }}>
           Noto Serif Devanagari Thin
         </Text>
@@ -81,9 +90,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifDevanagari_200ExtraLight',
+            fontFamily:
+              'NotoSerifDevanagari_200ExtraLight',
           }}>
-          Noto Serif Devanagari Extra Light
+          Noto Serif Devanagari Extra
+          Light
         </Text>
 
         <Text
@@ -91,7 +102,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifDevanagari_300Light',
+            fontFamily:
+              'NotoSerifDevanagari_300Light',
           }}>
           Noto Serif Devanagari Light
         </Text>
@@ -101,7 +113,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifDevanagari_400Regular',
+            fontFamily:
+              'NotoSerifDevanagari_400Regular',
           }}>
           Noto Serif Devanagari Regular
         </Text>
@@ -111,7 +124,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifDevanagari_500Medium',
+            fontFamily:
+              'NotoSerifDevanagari_500Medium',
           }}>
           Noto Serif Devanagari Medium
         </Text>
@@ -121,9 +135,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifDevanagari_600SemiBold',
+            fontFamily:
+              'NotoSerifDevanagari_600SemiBold',
           }}>
-          Noto Serif Devanagari Semi Bold
+          Noto Serif Devanagari Semi
+          Bold
         </Text>
 
         <Text
@@ -131,7 +147,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifDevanagari_700Bold',
+            fontFamily:
+              'NotoSerifDevanagari_700Bold',
           }}>
           Noto Serif Devanagari Bold
         </Text>
@@ -141,9 +158,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifDevanagari_800ExtraBold',
+            fontFamily:
+              'NotoSerifDevanagari_800ExtraBold',
           }}>
-          Noto Serif Devanagari Extra Bold
+          Noto Serif Devanagari Extra
+          Bold
         </Text>
 
         <Text
@@ -151,7 +170,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifDevanagari_900Black',
+            fontFamily:
+              'NotoSerifDevanagari_900Black',
           }}>
           Noto Serif Devanagari Black
         </Text>

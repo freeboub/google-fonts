@@ -4,7 +4,9 @@
   "subsets": ["latin", "telugu"],
   "version": "v23",
   "lastModified": "2024-11-20",
-  "files": { "regular": "https://fonts.gstatic.com/s/peddana/v23/aFTU7PBhaX89UcKWhh2aBYyMcKw.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/peddana/v23/aFTU7PBhaX89UcKWhh2aBYyMcKw.ttf"
+  },
   "category": "serif",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/peddana/v23/aFTU7PBhaX89UcKWthyQAQ.ttf"

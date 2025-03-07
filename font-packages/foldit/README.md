@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-foldit/useFonts';
 import { Foldit_100Thin } from 'expo-google-fonts-foldit/100Thin';
 import { Foldit_200ExtraLight } from 'expo-google-fonts-foldit/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Foldit_100Thin',
+            fontFamily:
+              'Foldit_100Thin',
           }}>
           Foldit Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Foldit_200ExtraLight',
+            fontFamily:
+              'Foldit_200ExtraLight',
           }}>
           Foldit Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Foldit_300Light',
+            fontFamily:
+              'Foldit_300Light',
           }}>
           Foldit Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Foldit_400Regular',
+            fontFamily:
+              'Foldit_400Regular',
           }}>
           Foldit Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Foldit_500Medium',
+            fontFamily:
+              'Foldit_500Medium',
           }}>
           Foldit Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Foldit_600SemiBold',
+            fontFamily:
+              'Foldit_600SemiBold',
           }}>
           Foldit Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Foldit_700Bold',
+            fontFamily:
+              'Foldit_700Bold',
           }}>
           Foldit Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Foldit_800ExtraBold',
+            fontFamily:
+              'Foldit_800ExtraBold',
           }}>
           Foldit Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Foldit_900Black',
+            fontFamily:
+              'Foldit_900Black',
           }}>
           Foldit Black
         </Text>

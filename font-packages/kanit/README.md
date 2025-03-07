@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-kanit/useFonts';
 import { Kanit_100Thin } from 'expo-google-fonts-kanit/100Thin';
 import { Kanit_100Thin_Italic } from 'expo-google-fonts-kanit/100Thin_Italic';
@@ -92,7 +95,12 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
@@ -108,7 +116,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kanit_100Thin_Italic',
+            fontFamily:
+              'Kanit_100Thin_Italic',
           }}>
           Kanit Thin Italic
         </Text>
@@ -118,7 +127,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kanit_200ExtraLight',
+            fontFamily:
+              'Kanit_200ExtraLight',
           }}>
           Kanit Extra Light
         </Text>
@@ -128,7 +138,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kanit_200ExtraLight_Italic',
+            fontFamily:
+              'Kanit_200ExtraLight_Italic',
           }}>
           Kanit Extra Light Italic
         </Text>
@@ -138,7 +149,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kanit_300Light',
+            fontFamily:
+              'Kanit_300Light',
           }}>
           Kanit Light
         </Text>
@@ -148,7 +160,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kanit_300Light_Italic',
+            fontFamily:
+              'Kanit_300Light_Italic',
           }}>
           Kanit Light Italic
         </Text>
@@ -158,7 +171,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kanit_400Regular',
+            fontFamily:
+              'Kanit_400Regular',
           }}>
           Kanit Regular
         </Text>
@@ -168,7 +182,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kanit_400Regular_Italic',
+            fontFamily:
+              'Kanit_400Regular_Italic',
           }}>
           Kanit Italic
         </Text>
@@ -178,7 +193,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kanit_500Medium',
+            fontFamily:
+              'Kanit_500Medium',
           }}>
           Kanit Medium
         </Text>
@@ -188,7 +204,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kanit_500Medium_Italic',
+            fontFamily:
+              'Kanit_500Medium_Italic',
           }}>
           Kanit Medium Italic
         </Text>
@@ -198,7 +215,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kanit_600SemiBold',
+            fontFamily:
+              'Kanit_600SemiBold',
           }}>
           Kanit Semi Bold
         </Text>
@@ -208,7 +226,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kanit_600SemiBold_Italic',
+            fontFamily:
+              'Kanit_600SemiBold_Italic',
           }}>
           Kanit Semi Bold Italic
         </Text>
@@ -228,7 +247,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kanit_700Bold_Italic',
+            fontFamily:
+              'Kanit_700Bold_Italic',
           }}>
           Kanit Bold Italic
         </Text>
@@ -238,7 +258,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kanit_800ExtraBold',
+            fontFamily:
+              'Kanit_800ExtraBold',
           }}>
           Kanit Extra Bold
         </Text>
@@ -248,7 +269,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kanit_800ExtraBold_Italic',
+            fontFamily:
+              'Kanit_800ExtraBold_Italic',
           }}>
           Kanit Extra Bold Italic
         </Text>
@@ -258,7 +280,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kanit_900Black',
+            fontFamily:
+              'Kanit_900Black',
           }}>
           Kanit Black
         </Text>
@@ -268,7 +291,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kanit_900Black_Italic',
+            fontFamily:
+              'Kanit_900Black_Italic',
           }}>
           Kanit Black Italic
         </Text>

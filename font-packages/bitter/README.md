@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-bitter/useFonts';
 import { Bitter_100Thin } from 'expo-google-fonts-bitter/100Thin';
 import { Bitter_200ExtraLight } from 'expo-google-fonts-bitter/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Bitter_100Thin',
+            fontFamily:
+              'Bitter_100Thin',
           }}>
           Bitter Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Bitter_200ExtraLight',
+            fontFamily:
+              'Bitter_200ExtraLight',
           }}>
           Bitter Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Bitter_300Light',
+            fontFamily:
+              'Bitter_300Light',
           }}>
           Bitter Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Bitter_400Regular',
+            fontFamily:
+              'Bitter_400Regular',
           }}>
           Bitter Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Bitter_500Medium',
+            fontFamily:
+              'Bitter_500Medium',
           }}>
           Bitter Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Bitter_600SemiBold',
+            fontFamily:
+              'Bitter_600SemiBold',
           }}>
           Bitter Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Bitter_700Bold',
+            fontFamily:
+              'Bitter_700Bold',
           }}>
           Bitter Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Bitter_800ExtraBold',
+            fontFamily:
+              'Bitter_800ExtraBold',
           }}>
           Bitter Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Bitter_900Black',
+            fontFamily:
+              'Bitter_900Black',
           }}>
           Bitter Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Bitter_100Thin_Italic',
+            fontFamily:
+              'Bitter_100Thin_Italic',
           }}>
           Bitter Thin Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Bitter_200ExtraLight_Italic',
+            fontFamily:
+              'Bitter_200ExtraLight_Italic',
           }}>
           Bitter Extra Light Italic
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Bitter_300Light_Italic',
+            fontFamily:
+              'Bitter_300Light_Italic',
           }}>
           Bitter Light Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Bitter_400Regular_Italic',
+            fontFamily:
+              'Bitter_400Regular_Italic',
           }}>
           Bitter Italic
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Bitter_500Medium_Italic',
+            fontFamily:
+              'Bitter_500Medium_Italic',
           }}>
           Bitter Medium Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Bitter_600SemiBold_Italic',
+            fontFamily:
+              'Bitter_600SemiBold_Italic',
           }}>
           Bitter Semi Bold Italic
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Bitter_700Bold_Italic',
+            fontFamily:
+              'Bitter_700Bold_Italic',
           }}>
           Bitter Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Bitter_800ExtraBold_Italic',
+            fontFamily:
+              'Bitter_800ExtraBold_Italic',
           }}>
           Bitter Extra Bold Italic
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Bitter_900Black_Italic',
+            fontFamily:
+              'Bitter_900Black_Italic',
           }}>
           Bitter Black Italic
         </Text>

@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-akshar/useFonts';
 import { Akshar_300Light } from 'expo-google-fonts-akshar/300Light';
 import { Akshar_400Regular } from 'expo-google-fonts-akshar/400Regular';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Akshar_300Light',
+            fontFamily:
+              'Akshar_300Light',
           }}>
           Akshar Light
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Akshar_400Regular',
+            fontFamily:
+              'Akshar_400Regular',
           }}>
           Akshar Regular
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Akshar_500Medium',
+            fontFamily:
+              'Akshar_500Medium',
           }}>
           Akshar Medium
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Akshar_600SemiBold',
+            fontFamily:
+              'Akshar_600SemiBold',
           }}>
           Akshar Semi Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Akshar_700Bold',
+            fontFamily:
+              'Akshar_700Bold',
           }}>
           Akshar Bold
         </Text>

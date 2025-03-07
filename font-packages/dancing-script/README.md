@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-dancing-script/useFonts';
 import { DancingScript_400Regular } from 'expo-google-fonts-dancing-script/400Regular';
 import { DancingScript_500Medium } from 'expo-google-fonts-dancing-script/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DancingScript_400Regular',
+            fontFamily:
+              'DancingScript_400Regular',
           }}>
           Dancing Script Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DancingScript_500Medium',
+            fontFamily:
+              'DancingScript_500Medium',
           }}>
           Dancing Script Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DancingScript_600SemiBold',
+            fontFamily:
+              'DancingScript_600SemiBold',
           }}>
           Dancing Script Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DancingScript_700Bold',
+            fontFamily:
+              'DancingScript_700Bold',
           }}>
           Dancing Script Bold
         </Text>

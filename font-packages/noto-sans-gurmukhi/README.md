@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-gurmukhi/useFonts';
 import { NotoSansGurmukhi_100Thin } from 'expo-google-fonts-noto-sans-gurmukhi/100Thin';
 import { NotoSansGurmukhi_200ExtraLight } from 'expo-google-fonts-noto-sans-gurmukhi/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGurmukhi_100Thin',
+            fontFamily:
+              'NotoSansGurmukhi_100Thin',
           }}>
           Noto Sans Gurmukhi Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGurmukhi_200ExtraLight',
+            fontFamily:
+              'NotoSansGurmukhi_200ExtraLight',
           }}>
           Noto Sans Gurmukhi Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGurmukhi_300Light',
+            fontFamily:
+              'NotoSansGurmukhi_300Light',
           }}>
           Noto Sans Gurmukhi Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGurmukhi_400Regular',
+            fontFamily:
+              'NotoSansGurmukhi_400Regular',
           }}>
           Noto Sans Gurmukhi Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGurmukhi_500Medium',
+            fontFamily:
+              'NotoSansGurmukhi_500Medium',
           }}>
           Noto Sans Gurmukhi Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGurmukhi_600SemiBold',
+            fontFamily:
+              'NotoSansGurmukhi_600SemiBold',
           }}>
           Noto Sans Gurmukhi Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGurmukhi_700Bold',
+            fontFamily:
+              'NotoSansGurmukhi_700Bold',
           }}>
           Noto Sans Gurmukhi Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGurmukhi_800ExtraBold',
+            fontFamily:
+              'NotoSansGurmukhi_800ExtraBold',
           }}>
           Noto Sans Gurmukhi Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGurmukhi_900Black',
+            fontFamily:
+              'NotoSansGurmukhi_900Black',
           }}>
           Noto Sans Gurmukhi Black
         </Text>

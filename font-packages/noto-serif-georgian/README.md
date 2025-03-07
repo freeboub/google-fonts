@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-serif-georgian/useFonts';
 import { NotoSerifGeorgian_100Thin } from 'expo-google-fonts-noto-serif-georgian/100Thin';
 import { NotoSerifGeorgian_200ExtraLight } from 'expo-google-fonts-noto-serif-georgian/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifGeorgian_100Thin',
+            fontFamily:
+              'NotoSerifGeorgian_100Thin',
           }}>
           Noto Serif Georgian Thin
         </Text>
@@ -81,9 +90,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifGeorgian_200ExtraLight',
+            fontFamily:
+              'NotoSerifGeorgian_200ExtraLight',
           }}>
-          Noto Serif Georgian Extra Light
+          Noto Serif Georgian Extra
+          Light
         </Text>
 
         <Text
@@ -91,7 +102,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifGeorgian_300Light',
+            fontFamily:
+              'NotoSerifGeorgian_300Light',
           }}>
           Noto Serif Georgian Light
         </Text>
@@ -101,7 +113,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifGeorgian_400Regular',
+            fontFamily:
+              'NotoSerifGeorgian_400Regular',
           }}>
           Noto Serif Georgian Regular
         </Text>
@@ -111,7 +124,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifGeorgian_500Medium',
+            fontFamily:
+              'NotoSerifGeorgian_500Medium',
           }}>
           Noto Serif Georgian Medium
         </Text>
@@ -121,7 +135,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifGeorgian_600SemiBold',
+            fontFamily:
+              'NotoSerifGeorgian_600SemiBold',
           }}>
           Noto Serif Georgian Semi Bold
         </Text>
@@ -131,7 +146,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifGeorgian_700Bold',
+            fontFamily:
+              'NotoSerifGeorgian_700Bold',
           }}>
           Noto Serif Georgian Bold
         </Text>
@@ -141,7 +157,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifGeorgian_800ExtraBold',
+            fontFamily:
+              'NotoSerifGeorgian_800ExtraBold',
           }}>
           Noto Serif Georgian Extra Bold
         </Text>
@@ -151,7 +168,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifGeorgian_900Black',
+            fontFamily:
+              'NotoSerifGeorgian_900Black',
           }}>
           Noto Serif Georgian Black
         </Text>

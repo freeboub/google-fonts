@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Linear B",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "linear-b"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "linear-b"
+  ],
   "version": "v17",
   "lastModified": "2023-07-24",
   "files": {

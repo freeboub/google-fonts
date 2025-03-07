@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-antonio/useFonts';
 import { Antonio_100Thin } from 'expo-google-fonts-antonio/100Thin';
 import { Antonio_200ExtraLight } from 'expo-google-fonts-antonio/200ExtraLight';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Antonio_100Thin',
+            fontFamily:
+              'Antonio_100Thin',
           }}>
           Antonio Thin
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Antonio_200ExtraLight',
+            fontFamily:
+              'Antonio_200ExtraLight',
           }}>
           Antonio Extra Light
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Antonio_300Light',
+            fontFamily:
+              'Antonio_300Light',
           }}>
           Antonio Light
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Antonio_400Regular',
+            fontFamily:
+              'Antonio_400Regular',
           }}>
           Antonio Regular
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Antonio_500Medium',
+            fontFamily:
+              'Antonio_500Medium',
           }}>
           Antonio Medium
         </Text>
@@ -115,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Antonio_600SemiBold',
+            fontFamily:
+              'Antonio_600SemiBold',
           }}>
           Antonio Semi Bold
         </Text>
@@ -125,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Antonio_700Bold',
+            fontFamily:
+              'Antonio_700Bold',
           }}>
           Antonio Bold
         </Text>

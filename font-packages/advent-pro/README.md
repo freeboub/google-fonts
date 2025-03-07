@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-advent-pro/useFonts';
 import { AdventPro_100Thin } from 'expo-google-fonts-advent-pro/100Thin';
 import { AdventPro_200ExtraLight } from 'expo-google-fonts-advent-pro/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_100Thin',
+            fontFamily:
+              'AdventPro_100Thin',
           }}>
           Advent Pro Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_200ExtraLight',
+            fontFamily:
+              'AdventPro_200ExtraLight',
           }}>
           Advent Pro Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_300Light',
+            fontFamily:
+              'AdventPro_300Light',
           }}>
           Advent Pro Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_400Regular',
+            fontFamily:
+              'AdventPro_400Regular',
           }}>
           Advent Pro Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_500Medium',
+            fontFamily:
+              'AdventPro_500Medium',
           }}>
           Advent Pro Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_600SemiBold',
+            fontFamily:
+              'AdventPro_600SemiBold',
           }}>
           Advent Pro Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_700Bold',
+            fontFamily:
+              'AdventPro_700Bold',
           }}>
           Advent Pro Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_800ExtraBold',
+            fontFamily:
+              'AdventPro_800ExtraBold',
           }}>
           Advent Pro Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_900Black',
+            fontFamily:
+              'AdventPro_900Black',
           }}>
           Advent Pro Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_100Thin_Italic',
+            fontFamily:
+              'AdventPro_100Thin_Italic',
           }}>
           Advent Pro Thin Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_200ExtraLight_Italic',
+            fontFamily:
+              'AdventPro_200ExtraLight_Italic',
           }}>
           Advent Pro Extra Light Italic
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_300Light_Italic',
+            fontFamily:
+              'AdventPro_300Light_Italic',
           }}>
           Advent Pro Light Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_400Regular_Italic',
+            fontFamily:
+              'AdventPro_400Regular_Italic',
           }}>
           Advent Pro Italic
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_500Medium_Italic',
+            fontFamily:
+              'AdventPro_500Medium_Italic',
           }}>
           Advent Pro Medium Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_600SemiBold_Italic',
+            fontFamily:
+              'AdventPro_600SemiBold_Italic',
           }}>
           Advent Pro Semi Bold Italic
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_700Bold_Italic',
+            fontFamily:
+              'AdventPro_700Bold_Italic',
           }}>
           Advent Pro Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_800ExtraBold_Italic',
+            fontFamily:
+              'AdventPro_800ExtraBold_Italic',
           }}>
           Advent Pro Extra Bold Italic
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AdventPro_900Black_Italic',
+            fontFamily:
+              'AdventPro_900Black_Italic',
           }}>
           Advent Pro Black Italic
         </Text>

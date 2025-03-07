@@ -1,7 +1,11 @@
 {
   "family": "Noto Serif Dogra",
   "variants": ["regular"],
-  "subsets": ["dogra", "latin", "latin-ext"],
+  "subsets": [
+    "dogra",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v23",
   "lastModified": "2023-11-28",
   "files": {

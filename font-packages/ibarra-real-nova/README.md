@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-ibarra-real-nova/useFonts';
 import { IbarraRealNova_400Regular } from 'expo-google-fonts-ibarra-real-nova/400Regular';
 import { IbarraRealNova_500Medium } from 'expo-google-fonts-ibarra-real-nova/500Medium';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IbarraRealNova_400Regular',
+            fontFamily:
+              'IbarraRealNova_400Regular',
           }}>
           Ibarra Real Nova Regular
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IbarraRealNova_500Medium',
+            fontFamily:
+              'IbarraRealNova_500Medium',
           }}>
           Ibarra Real Nova Medium
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IbarraRealNova_600SemiBold',
+            fontFamily:
+              'IbarraRealNova_600SemiBold',
           }}>
           Ibarra Real Nova Semi Bold
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IbarraRealNova_700Bold',
+            fontFamily:
+              'IbarraRealNova_700Bold',
           }}>
           Ibarra Real Nova Bold
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IbarraRealNova_400Regular_Italic',
+            fontFamily:
+              'IbarraRealNova_400Regular_Italic',
           }}>
           Ibarra Real Nova Italic
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IbarraRealNova_500Medium_Italic',
+            fontFamily:
+              'IbarraRealNova_500Medium_Italic',
           }}>
           Ibarra Real Nova Medium Italic
         </Text>
@@ -128,9 +142,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IbarraRealNova_600SemiBold_Italic',
+            fontFamily:
+              'IbarraRealNova_600SemiBold_Italic',
           }}>
-          Ibarra Real Nova Semi Bold Italic
+          Ibarra Real Nova Semi Bold
+          Italic
         </Text>
 
         <Text
@@ -138,7 +154,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IbarraRealNova_700Bold_Italic',
+            fontFamily:
+              'IbarraRealNova_700Bold_Italic',
           }}>
           Ibarra Real Nova Bold Italic
         </Text>

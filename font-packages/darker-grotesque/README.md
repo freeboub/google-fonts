@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-darker-grotesque/useFonts';
 import { DarkerGrotesque_300Light } from 'expo-google-fonts-darker-grotesque/300Light';
 import { DarkerGrotesque_400Regular } from 'expo-google-fonts-darker-grotesque/400Regular';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DarkerGrotesque_300Light',
+            fontFamily:
+              'DarkerGrotesque_300Light',
           }}>
           Darker Grotesque Light
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DarkerGrotesque_400Regular',
+            fontFamily:
+              'DarkerGrotesque_400Regular',
           }}>
           Darker Grotesque Regular
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DarkerGrotesque_500Medium',
+            fontFamily:
+              'DarkerGrotesque_500Medium',
           }}>
           Darker Grotesque Medium
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DarkerGrotesque_600SemiBold',
+            fontFamily:
+              'DarkerGrotesque_600SemiBold',
           }}>
           Darker Grotesque Semi Bold
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DarkerGrotesque_700Bold',
+            fontFamily:
+              'DarkerGrotesque_700Bold',
           }}>
           Darker Grotesque Bold
         </Text>
@@ -115,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DarkerGrotesque_800ExtraBold',
+            fontFamily:
+              'DarkerGrotesque_800ExtraBold',
           }}>
           Darker Grotesque Extra Bold
         </Text>
@@ -125,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DarkerGrotesque_900Black',
+            fontFamily:
+              'DarkerGrotesque_900Black',
           }}>
           Darker Grotesque Black
         </Text>

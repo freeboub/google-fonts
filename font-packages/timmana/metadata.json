@@ -4,7 +4,9 @@
   "subsets": ["latin", "telugu"],
   "version": "v12",
   "lastModified": "2024-08-12",
-  "files": { "regular": "https://fonts.gstatic.com/s/timmana/v12/6xKvdShfL9yK-rvpCmvbKHwJUOM.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/timmana/v12/6xKvdShfL9yK-rvpCmvbKHwJUOM.ttf"
+  },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/timmana/v12/6xKvdShfL9yK-rvpOmrRLA.ttf"

@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-doto/useFonts';
 import { Doto_100Thin } from 'expo-google-fonts-doto/100Thin';
 import { Doto_200ExtraLight } from 'expo-google-fonts-doto/200ExtraLight';
@@ -65,7 +68,12 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
@@ -81,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Doto_200ExtraLight',
+            fontFamily:
+              'Doto_200ExtraLight',
           }}>
           Doto Extra Light
         </Text>
@@ -101,7 +110,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Doto_400Regular',
+            fontFamily:
+              'Doto_400Regular',
           }}>
           Doto Regular
         </Text>
@@ -111,7 +121,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Doto_500Medium',
+            fontFamily:
+              'Doto_500Medium',
           }}>
           Doto Medium
         </Text>
@@ -121,7 +132,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Doto_600SemiBold',
+            fontFamily:
+              'Doto_600SemiBold',
           }}>
           Doto Semi Bold
         </Text>
@@ -141,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Doto_800ExtraBold',
+            fontFamily:
+              'Doto_800ExtraBold',
           }}>
           Doto Extra Bold
         </Text>

@@ -36,7 +36,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-krub/useFonts';
 import { Krub_200ExtraLight } from 'expo-google-fonts-krub/200ExtraLight';
 import { Krub_200ExtraLight_Italic } from 'expo-google-fonts-krub/200ExtraLight_Italic';
@@ -74,13 +77,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Krub_200ExtraLight',
+            fontFamily:
+              'Krub_200ExtraLight',
           }}>
           Krub Extra Light
         </Text>
@@ -90,7 +99,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Krub_200ExtraLight_Italic',
+            fontFamily:
+              'Krub_200ExtraLight_Italic',
           }}>
           Krub Extra Light Italic
         </Text>
@@ -110,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Krub_300Light_Italic',
+            fontFamily:
+              'Krub_300Light_Italic',
           }}>
           Krub Light Italic
         </Text>
@@ -120,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Krub_400Regular',
+            fontFamily:
+              'Krub_400Regular',
           }}>
           Krub Regular
         </Text>
@@ -130,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Krub_400Regular_Italic',
+            fontFamily:
+              'Krub_400Regular_Italic',
           }}>
           Krub Italic
         </Text>
@@ -140,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Krub_500Medium',
+            fontFamily:
+              'Krub_500Medium',
           }}>
           Krub Medium
         </Text>
@@ -150,7 +164,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Krub_500Medium_Italic',
+            fontFamily:
+              'Krub_500Medium_Italic',
           }}>
           Krub Medium Italic
         </Text>
@@ -160,7 +175,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Krub_600SemiBold',
+            fontFamily:
+              'Krub_600SemiBold',
           }}>
           Krub Semi Bold
         </Text>
@@ -170,7 +186,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Krub_600SemiBold_Italic',
+            fontFamily:
+              'Krub_600SemiBold_Italic',
           }}>
           Krub Semi Bold Italic
         </Text>
@@ -190,7 +207,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Krub_700Bold_Italic',
+            fontFamily:
+              'Krub_700Bold_Italic',
           }}>
           Krub Bold Italic
         </Text>

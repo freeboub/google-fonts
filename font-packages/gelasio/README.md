@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-gelasio/useFonts';
 import { Gelasio_400Regular } from 'expo-google-fonts-gelasio/400Regular';
 import { Gelasio_500Medium } from 'expo-google-fonts-gelasio/500Medium';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gelasio_400Regular',
+            fontFamily:
+              'Gelasio_400Regular',
           }}>
           Gelasio Regular
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gelasio_500Medium',
+            fontFamily:
+              'Gelasio_500Medium',
           }}>
           Gelasio Medium
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gelasio_600SemiBold',
+            fontFamily:
+              'Gelasio_600SemiBold',
           }}>
           Gelasio Semi Bold
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gelasio_700Bold',
+            fontFamily:
+              'Gelasio_700Bold',
           }}>
           Gelasio Bold
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gelasio_400Regular_Italic',
+            fontFamily:
+              'Gelasio_400Regular_Italic',
           }}>
           Gelasio Italic
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gelasio_500Medium_Italic',
+            fontFamily:
+              'Gelasio_500Medium_Italic',
           }}>
           Gelasio Medium Italic
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gelasio_600SemiBold_Italic',
+            fontFamily:
+              'Gelasio_600SemiBold_Italic',
           }}>
           Gelasio Semi Bold Italic
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gelasio_700Bold_Italic',
+            fontFamily:
+              'Gelasio_700Bold_Italic',
           }}>
           Gelasio Bold Italic
         </Text>

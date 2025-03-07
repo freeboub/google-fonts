@@ -27,7 +27,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-redacted-script/useFonts';
 import { RedactedScript_300Light } from 'expo-google-fonts-redacted-script/300Light';
 import { RedactedScript_400Regular } from 'expo-google-fonts-redacted-script/400Regular';
@@ -47,13 +50,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedactedScript_300Light',
+            fontFamily:
+              'RedactedScript_300Light',
           }}>
           Redacted Script Light
         </Text>
@@ -63,7 +72,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedactedScript_400Regular',
+            fontFamily:
+              'RedactedScript_400Regular',
           }}>
           Redacted Script Regular
         </Text>
@@ -73,7 +83,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedactedScript_700Bold',
+            fontFamily:
+              'RedactedScript_700Bold',
           }}>
           Redacted Script Bold
         </Text>

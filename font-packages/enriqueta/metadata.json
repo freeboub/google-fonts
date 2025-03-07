@@ -1,6 +1,11 @@
 {
   "family": "Enriqueta",
-  "variants": ["regular", "500", "600", "700"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
   "subsets": ["latin", "latin-ext"],
   "version": "v17",
   "lastModified": "2024-09-04",

@@ -34,7 +34,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-radio-canada/useFonts';
 import { RadioCanada_300Light } from 'expo-google-fonts-radio-canada/300Light';
 import { RadioCanada_400Regular } from 'expo-google-fonts-radio-canada/400Regular';
@@ -68,13 +71,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RadioCanada_300Light',
+            fontFamily:
+              'RadioCanada_300Light',
           }}>
           Radio Canada Light
         </Text>
@@ -84,7 +93,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RadioCanada_400Regular',
+            fontFamily:
+              'RadioCanada_400Regular',
           }}>
           Radio Canada Regular
         </Text>
@@ -94,7 +104,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RadioCanada_500Medium',
+            fontFamily:
+              'RadioCanada_500Medium',
           }}>
           Radio Canada Medium
         </Text>
@@ -104,7 +115,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RadioCanada_600SemiBold',
+            fontFamily:
+              'RadioCanada_600SemiBold',
           }}>
           Radio Canada Semi Bold
         </Text>
@@ -114,7 +126,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RadioCanada_700Bold',
+            fontFamily:
+              'RadioCanada_700Bold',
           }}>
           Radio Canada Bold
         </Text>
@@ -124,7 +137,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RadioCanada_300Light_Italic',
+            fontFamily:
+              'RadioCanada_300Light_Italic',
           }}>
           Radio Canada Light Italic
         </Text>
@@ -134,7 +148,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RadioCanada_400Regular_Italic',
+            fontFamily:
+              'RadioCanada_400Regular_Italic',
           }}>
           Radio Canada Italic
         </Text>
@@ -144,7 +159,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RadioCanada_500Medium_Italic',
+            fontFamily:
+              'RadioCanada_500Medium_Italic',
           }}>
           Radio Canada Medium Italic
         </Text>
@@ -154,7 +170,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RadioCanada_600SemiBold_Italic',
+            fontFamily:
+              'RadioCanada_600SemiBold_Italic',
           }}>
           Radio Canada Semi Bold Italic
         </Text>
@@ -164,7 +181,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RadioCanada_700Bold_Italic',
+            fontFamily:
+              'RadioCanada_700Bold_Italic',
           }}>
           Radio Canada Bold Italic
         </Text>

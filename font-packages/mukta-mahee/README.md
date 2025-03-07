@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-mukta-mahee/useFonts';
 import { MuktaMahee_200ExtraLight } from 'expo-google-fonts-mukta-mahee/200ExtraLight';
 import { MuktaMahee_300Light } from 'expo-google-fonts-mukta-mahee/300Light';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuktaMahee_200ExtraLight',
+            fontFamily:
+              'MuktaMahee_200ExtraLight',
           }}>
           Mukta Mahee Extra Light
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuktaMahee_300Light',
+            fontFamily:
+              'MuktaMahee_300Light',
           }}>
           Mukta Mahee Light
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuktaMahee_400Regular',
+            fontFamily:
+              'MuktaMahee_400Regular',
           }}>
           Mukta Mahee Regular
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuktaMahee_500Medium',
+            fontFamily:
+              'MuktaMahee_500Medium',
           }}>
           Mukta Mahee Medium
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuktaMahee_600SemiBold',
+            fontFamily:
+              'MuktaMahee_600SemiBold',
           }}>
           Mukta Mahee Semi Bold
         </Text>
@@ -115,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuktaMahee_700Bold',
+            fontFamily:
+              'MuktaMahee_700Bold',
           }}>
           Mukta Mahee Bold
         </Text>
@@ -125,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuktaMahee_800ExtraBold',
+            fontFamily:
+              'MuktaMahee_800ExtraBold',
           }}>
           Mukta Mahee Extra Bold
         </Text>

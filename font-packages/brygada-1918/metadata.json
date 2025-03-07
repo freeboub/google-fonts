@@ -1,7 +1,23 @@
 {
   "family": "Brygada 1918",
-  "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
-  "subsets": ["cyrillic", "cyrillic-ext", "greek", "latin", "latin-ext", "vietnamese"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700",
+    "italic",
+    "500italic",
+    "600italic",
+    "700italic"
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v25",
   "lastModified": "2024-09-30",
   "files": {

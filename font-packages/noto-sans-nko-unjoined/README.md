@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-nko-unjoined/useFonts';
 import { NotoSansNKoUnjoined_400Regular } from 'expo-google-fonts-noto-sans-nko-unjoined/400Regular';
 import { NotoSansNKoUnjoined_500Medium } from 'expo-google-fonts-noto-sans-nko-unjoined/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansNKoUnjoined_400Regular',
+            fontFamily:
+              'NotoSansNKoUnjoined_400Regular',
           }}>
           Noto Sans NKo Unjoined Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansNKoUnjoined_500Medium',
+            fontFamily:
+              'NotoSansNKoUnjoined_500Medium',
           }}>
           Noto Sans NKo Unjoined Medium
         </Text>
@@ -76,9 +86,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansNKoUnjoined_600SemiBold',
+            fontFamily:
+              'NotoSansNKoUnjoined_600SemiBold',
           }}>
-          Noto Sans NKo Unjoined Semi Bold
+          Noto Sans NKo Unjoined Semi
+          Bold
         </Text>
 
         <Text
@@ -86,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansNKoUnjoined_700Bold',
+            fontFamily:
+              'NotoSansNKoUnjoined_700Bold',
           }}>
           Noto Sans NKo Unjoined Bold
         </Text>

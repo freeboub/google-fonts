@@ -4,7 +4,9 @@
   "subsets": ["latin"],
   "version": "v21",
   "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/cookie/v21/syky-y18lb0tSbfNlQCT9tPdpw.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/cookie/v21/syky-y18lb0tSbfNlQCT9tPdpw.ttf"
+  },
   "category": "handwriting",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/cookie/v21/syky-y18lb0tSbf9lAqX.ttf"

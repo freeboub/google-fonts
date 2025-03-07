@@ -38,7 +38,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-ibm-plex-serif/useFonts';
 import { IBMPlexSerif_100Thin } from 'expo-google-fonts-ibm-plex-serif/100Thin';
 import { IBMPlexSerif_100Thin_Italic } from 'expo-google-fonts-ibm-plex-serif/100Thin_Italic';
@@ -80,13 +83,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSerif_100Thin',
+            fontFamily:
+              'IBMPlexSerif_100Thin',
           }}>
           IBM Plex Serif Thin
         </Text>
@@ -96,7 +105,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSerif_100Thin_Italic',
+            fontFamily:
+              'IBMPlexSerif_100Thin_Italic',
           }}>
           IBM Plex Serif Thin Italic
         </Text>
@@ -106,7 +116,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSerif_200ExtraLight',
+            fontFamily:
+              'IBMPlexSerif_200ExtraLight',
           }}>
           IBM Plex Serif Extra Light
         </Text>
@@ -116,9 +127,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSerif_200ExtraLight_Italic',
+            fontFamily:
+              'IBMPlexSerif_200ExtraLight_Italic',
           }}>
-          IBM Plex Serif Extra Light Italic
+          IBM Plex Serif Extra Light
+          Italic
         </Text>
 
         <Text
@@ -126,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSerif_300Light',
+            fontFamily:
+              'IBMPlexSerif_300Light',
           }}>
           IBM Plex Serif Light
         </Text>
@@ -136,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSerif_300Light_Italic',
+            fontFamily:
+              'IBMPlexSerif_300Light_Italic',
           }}>
           IBM Plex Serif Light Italic
         </Text>
@@ -146,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSerif_400Regular',
+            fontFamily:
+              'IBMPlexSerif_400Regular',
           }}>
           IBM Plex Serif Regular
         </Text>
@@ -156,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSerif_400Regular_Italic',
+            fontFamily:
+              'IBMPlexSerif_400Regular_Italic',
           }}>
           IBM Plex Serif Italic
         </Text>
@@ -166,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSerif_500Medium',
+            fontFamily:
+              'IBMPlexSerif_500Medium',
           }}>
           IBM Plex Serif Medium
         </Text>
@@ -176,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSerif_500Medium_Italic',
+            fontFamily:
+              'IBMPlexSerif_500Medium_Italic',
           }}>
           IBM Plex Serif Medium Italic
         </Text>
@@ -186,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSerif_600SemiBold',
+            fontFamily:
+              'IBMPlexSerif_600SemiBold',
           }}>
           IBM Plex Serif Semi Bold
         </Text>
@@ -196,9 +216,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSerif_600SemiBold_Italic',
+            fontFamily:
+              'IBMPlexSerif_600SemiBold_Italic',
           }}>
-          IBM Plex Serif Semi Bold Italic
+          IBM Plex Serif Semi Bold
+          Italic
         </Text>
 
         <Text
@@ -206,7 +228,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSerif_700Bold',
+            fontFamily:
+              'IBMPlexSerif_700Bold',
           }}>
           IBM Plex Serif Bold
         </Text>
@@ -216,7 +239,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSerif_700Bold_Italic',
+            fontFamily:
+              'IBMPlexSerif_700Bold_Italic',
           }}>
           IBM Plex Serif Bold Italic
         </Text>

@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-inconsolata/useFonts';
 import { Inconsolata_200ExtraLight } from 'expo-google-fonts-inconsolata/200ExtraLight';
 import { Inconsolata_300Light } from 'expo-google-fonts-inconsolata/300Light';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Inconsolata_200ExtraLight',
+            fontFamily:
+              'Inconsolata_200ExtraLight',
           }}>
           Inconsolata Extra Light
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Inconsolata_300Light',
+            fontFamily:
+              'Inconsolata_300Light',
           }}>
           Inconsolata Light
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Inconsolata_400Regular',
+            fontFamily:
+              'Inconsolata_400Regular',
           }}>
           Inconsolata Regular
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Inconsolata_500Medium',
+            fontFamily:
+              'Inconsolata_500Medium',
           }}>
           Inconsolata Medium
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Inconsolata_600SemiBold',
+            fontFamily:
+              'Inconsolata_600SemiBold',
           }}>
           Inconsolata Semi Bold
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Inconsolata_700Bold',
+            fontFamily:
+              'Inconsolata_700Bold',
           }}>
           Inconsolata Bold
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Inconsolata_800ExtraBold',
+            fontFamily:
+              'Inconsolata_800ExtraBold',
           }}>
           Inconsolata Extra Bold
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Inconsolata_900Black',
+            fontFamily:
+              'Inconsolata_900Black',
           }}>
           Inconsolata Black
         </Text>

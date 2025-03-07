@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-hind-guntur/useFonts';
 import { HindGuntur_300Light } from 'expo-google-fonts-hind-guntur/300Light';
 import { HindGuntur_400Regular } from 'expo-google-fonts-hind-guntur/400Regular';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HindGuntur_300Light',
+            fontFamily:
+              'HindGuntur_300Light',
           }}>
           Hind Guntur Light
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HindGuntur_400Regular',
+            fontFamily:
+              'HindGuntur_400Regular',
           }}>
           Hind Guntur Regular
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HindGuntur_500Medium',
+            fontFamily:
+              'HindGuntur_500Medium',
           }}>
           Hind Guntur Medium
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HindGuntur_600SemiBold',
+            fontFamily:
+              'HindGuntur_600SemiBold',
           }}>
           Hind Guntur Semi Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HindGuntur_700Bold',
+            fontFamily:
+              'HindGuntur_700Bold',
           }}>
           Hind Guntur Bold
         </Text>

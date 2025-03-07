@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-merienda/useFonts';
 import { Merienda_300Light } from 'expo-google-fonts-merienda/300Light';
 import { Merienda_400Regular } from 'expo-google-fonts-merienda/400Regular';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Merienda_300Light',
+            fontFamily:
+              'Merienda_300Light',
           }}>
           Merienda Light
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Merienda_400Regular',
+            fontFamily:
+              'Merienda_400Regular',
           }}>
           Merienda Regular
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Merienda_500Medium',
+            fontFamily:
+              'Merienda_500Medium',
           }}>
           Merienda Medium
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Merienda_600SemiBold',
+            fontFamily:
+              'Merienda_600SemiBold',
           }}>
           Merienda Semi Bold
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Merienda_700Bold',
+            fontFamily:
+              'Merienda_700Bold',
           }}>
           Merienda Bold
         </Text>
@@ -115,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Merienda_800ExtraBold',
+            fontFamily:
+              'Merienda_800ExtraBold',
           }}>
           Merienda Extra Bold
         </Text>
@@ -125,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Merienda_900Black',
+            fontFamily:
+              'Merienda_900Black',
           }}>
           Merienda Black
         </Text>

@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-encode-sans-semi-expanded/useFonts';
 import { EncodeSansSemiExpanded_100Thin } from 'expo-google-fonts-encode-sans-semi-expanded/100Thin';
 import { EncodeSansSemiExpanded_200ExtraLight } from 'expo-google-fonts-encode-sans-semi-expanded/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansSemiExpanded_100Thin',
+            fontFamily:
+              'EncodeSansSemiExpanded_100Thin',
           }}>
           Encode Sans Semi Expanded Thin
         </Text>
@@ -81,9 +90,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansSemiExpanded_200ExtraLight',
+            fontFamily:
+              'EncodeSansSemiExpanded_200ExtraLight',
           }}>
-          Encode Sans Semi Expanded Extra Light
+          Encode Sans Semi Expanded
+          Extra Light
         </Text>
 
         <Text
@@ -91,9 +102,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansSemiExpanded_300Light',
+            fontFamily:
+              'EncodeSansSemiExpanded_300Light',
           }}>
-          Encode Sans Semi Expanded Light
+          Encode Sans Semi Expanded
+          Light
         </Text>
 
         <Text
@@ -101,9 +114,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansSemiExpanded_400Regular',
+            fontFamily:
+              'EncodeSansSemiExpanded_400Regular',
           }}>
-          Encode Sans Semi Expanded Regular
+          Encode Sans Semi Expanded
+          Regular
         </Text>
 
         <Text
@@ -111,9 +126,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansSemiExpanded_500Medium',
+            fontFamily:
+              'EncodeSansSemiExpanded_500Medium',
           }}>
-          Encode Sans Semi Expanded Medium
+          Encode Sans Semi Expanded
+          Medium
         </Text>
 
         <Text
@@ -121,9 +138,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansSemiExpanded_600SemiBold',
+            fontFamily:
+              'EncodeSansSemiExpanded_600SemiBold',
           }}>
-          Encode Sans Semi Expanded Semi Bold
+          Encode Sans Semi Expanded Semi
+          Bold
         </Text>
 
         <Text
@@ -131,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansSemiExpanded_700Bold',
+            fontFamily:
+              'EncodeSansSemiExpanded_700Bold',
           }}>
           Encode Sans Semi Expanded Bold
         </Text>
@@ -141,9 +161,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansSemiExpanded_800ExtraBold',
+            fontFamily:
+              'EncodeSansSemiExpanded_800ExtraBold',
           }}>
-          Encode Sans Semi Expanded Extra Bold
+          Encode Sans Semi Expanded
+          Extra Bold
         </Text>
 
         <Text
@@ -151,9 +173,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansSemiExpanded_900Black',
+            fontFamily:
+              'EncodeSansSemiExpanded_900Black',
           }}>
-          Encode Sans Semi Expanded Black
+          Encode Sans Semi Expanded
+          Black
         </Text>
       </View>
     );

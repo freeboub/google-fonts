@@ -4,7 +4,9 @@
   "subsets": ["latin", "latin-ext"],
   "version": "v19",
   "lastModified": "2024-11-20",
-  "files": { "regular": "https://fonts.gstatic.com/s/bentham/v19/VdGeAZQPEpYfmHglKWw7CJaK_y4.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/bentham/v19/VdGeAZQPEpYfmHglKWw7CJaK_y4.ttf"
+  },
   "category": "serif",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/bentham/v19/VdGeAZQPEpYfmHglGW0xDA.ttf"

@@ -1,10 +1,16 @@
 {
   "family": "Rakkas",
   "variants": ["regular"],
-  "subsets": ["arabic", "latin", "latin-ext"],
+  "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v20",
   "lastModified": "2024-12-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/rakkas/v20/Qw3cZQlNHiblL3j_lttPOeMcCw.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/rakkas/v20/Qw3cZQlNHiblL3j_lttPOeMcCw.ttf"
+  },
   "category": "display",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/rakkas/v20/Qw3cZQlNHiblL3jPl9FL.ttf"

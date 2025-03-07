@@ -1,6 +1,11 @@
 {
   "family": "Londrina Solid",
-  "variants": ["100", "300", "regular", "900"],
+  "variants": [
+    "100",
+    "300",
+    "regular",
+    "900"
+  ],
   "subsets": ["latin"],
   "version": "v17",
   "lastModified": "2024-09-04",

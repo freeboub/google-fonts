@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-anek-malayalam/useFonts';
 import { AnekMalayalam_100Thin } from 'expo-google-fonts-anek-malayalam/100Thin';
 import { AnekMalayalam_200ExtraLight } from 'expo-google-fonts-anek-malayalam/200ExtraLight';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekMalayalam_100Thin',
+            fontFamily:
+              'AnekMalayalam_100Thin',
           }}>
           Anek Malayalam Thin
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekMalayalam_200ExtraLight',
+            fontFamily:
+              'AnekMalayalam_200ExtraLight',
           }}>
           Anek Malayalam Extra Light
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekMalayalam_300Light',
+            fontFamily:
+              'AnekMalayalam_300Light',
           }}>
           Anek Malayalam Light
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekMalayalam_400Regular',
+            fontFamily:
+              'AnekMalayalam_400Regular',
           }}>
           Anek Malayalam Regular
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekMalayalam_500Medium',
+            fontFamily:
+              'AnekMalayalam_500Medium',
           }}>
           Anek Malayalam Medium
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekMalayalam_600SemiBold',
+            fontFamily:
+              'AnekMalayalam_600SemiBold',
           }}>
           Anek Malayalam Semi Bold
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekMalayalam_700Bold',
+            fontFamily:
+              'AnekMalayalam_700Bold',
           }}>
           Anek Malayalam Bold
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekMalayalam_800ExtraBold',
+            fontFamily:
+              'AnekMalayalam_800ExtraBold',
           }}>
           Anek Malayalam Extra Bold
         </Text>

@@ -1,7 +1,12 @@
 {
   "family": "Tai Heritage Pro",
   "variants": ["regular", "700"],
-  "subsets": ["latin", "latin-ext", "tai-viet", "vietnamese"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "tai-viet",
+    "vietnamese"
+  ],
   "version": "v6",
   "lastModified": "2023-05-31",
   "files": {

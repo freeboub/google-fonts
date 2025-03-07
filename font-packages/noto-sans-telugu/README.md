@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-telugu/useFonts';
 import { NotoSansTelugu_100Thin } from 'expo-google-fonts-noto-sans-telugu/100Thin';
 import { NotoSansTelugu_200ExtraLight } from 'expo-google-fonts-noto-sans-telugu/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTelugu_100Thin',
+            fontFamily:
+              'NotoSansTelugu_100Thin',
           }}>
           Noto Sans Telugu Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTelugu_200ExtraLight',
+            fontFamily:
+              'NotoSansTelugu_200ExtraLight',
           }}>
           Noto Sans Telugu Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTelugu_300Light',
+            fontFamily:
+              'NotoSansTelugu_300Light',
           }}>
           Noto Sans Telugu Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTelugu_400Regular',
+            fontFamily:
+              'NotoSansTelugu_400Regular',
           }}>
           Noto Sans Telugu Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTelugu_500Medium',
+            fontFamily:
+              'NotoSansTelugu_500Medium',
           }}>
           Noto Sans Telugu Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTelugu_600SemiBold',
+            fontFamily:
+              'NotoSansTelugu_600SemiBold',
           }}>
           Noto Sans Telugu Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTelugu_700Bold',
+            fontFamily:
+              'NotoSansTelugu_700Bold',
           }}>
           Noto Sans Telugu Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTelugu_800ExtraBold',
+            fontFamily:
+              'NotoSansTelugu_800ExtraBold',
           }}>
           Noto Sans Telugu Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTelugu_900Black',
+            fontFamily:
+              'NotoSansTelugu_900Black',
           }}>
           Noto Sans Telugu Black
         </Text>

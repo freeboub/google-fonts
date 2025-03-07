@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playwrite-cz/useFonts';
 import { PlaywriteCZ_100Thin } from 'expo-google-fonts-playwrite-cz/100Thin';
 import { PlaywriteCZ_200ExtraLight } from 'expo-google-fonts-playwrite-cz/200ExtraLight';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteCZ_100Thin',
+            fontFamily:
+              'PlaywriteCZ_100Thin',
           }}>
           Playwrite CZ Thin
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteCZ_200ExtraLight',
+            fontFamily:
+              'PlaywriteCZ_200ExtraLight',
           }}>
           Playwrite CZ Extra Light
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteCZ_300Light',
+            fontFamily:
+              'PlaywriteCZ_300Light',
           }}>
           Playwrite CZ Light
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteCZ_400Regular',
+            fontFamily:
+              'PlaywriteCZ_400Regular',
           }}>
           Playwrite CZ Regular
         </Text>

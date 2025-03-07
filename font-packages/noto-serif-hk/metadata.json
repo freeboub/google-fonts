@@ -1,7 +1,22 @@
 {
   "family": "Noto Serif HK",
-  "variants": ["200", "300", "regular", "500", "600", "700", "800", "900"],
-  "subsets": ["chinese-hongkong", "cyrillic", "latin", "latin-ext", "vietnamese"],
+  "variants": [
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900"
+  ],
+  "subsets": [
+    "chinese-hongkong",
+    "cyrillic",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v9",
   "lastModified": "2024-09-23",
   "files": {

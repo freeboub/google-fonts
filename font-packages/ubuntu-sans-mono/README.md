@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-ubuntu-sans-mono/useFonts';
 import { UbuntuSansMono_400Regular } from 'expo-google-fonts-ubuntu-sans-mono/400Regular';
 import { UbuntuSansMono_500Medium } from 'expo-google-fonts-ubuntu-sans-mono/500Medium';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSansMono_400Regular',
+            fontFamily:
+              'UbuntuSansMono_400Regular',
           }}>
           Ubuntu Sans Mono Regular
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSansMono_500Medium',
+            fontFamily:
+              'UbuntuSansMono_500Medium',
           }}>
           Ubuntu Sans Mono Medium
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSansMono_600SemiBold',
+            fontFamily:
+              'UbuntuSansMono_600SemiBold',
           }}>
           Ubuntu Sans Mono Semi Bold
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSansMono_700Bold',
+            fontFamily:
+              'UbuntuSansMono_700Bold',
           }}>
           Ubuntu Sans Mono Bold
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSansMono_400Regular_Italic',
+            fontFamily:
+              'UbuntuSansMono_400Regular_Italic',
           }}>
           Ubuntu Sans Mono Italic
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSansMono_500Medium_Italic',
+            fontFamily:
+              'UbuntuSansMono_500Medium_Italic',
           }}>
           Ubuntu Sans Mono Medium Italic
         </Text>
@@ -128,9 +142,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSansMono_600SemiBold_Italic',
+            fontFamily:
+              'UbuntuSansMono_600SemiBold_Italic',
           }}>
-          Ubuntu Sans Mono Semi Bold Italic
+          Ubuntu Sans Mono Semi Bold
+          Italic
         </Text>
 
         <Text
@@ -138,7 +154,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSansMono_700Bold_Italic',
+            fontFamily:
+              'UbuntuSansMono_700Bold_Italic',
           }}>
           Ubuntu Sans Mono Bold Italic
         </Text>

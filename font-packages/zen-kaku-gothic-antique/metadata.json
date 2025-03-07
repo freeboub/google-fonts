@@ -1,7 +1,18 @@
 {
   "family": "Zen Kaku Gothic Antique",
-  "variants": ["300", "regular", "500", "700", "900"],
-  "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
+  "variants": [
+    "300",
+    "regular",
+    "500",
+    "700",
+    "900"
+  ],
+  "subsets": [
+    "cyrillic",
+    "japanese",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v16",
   "lastModified": "2024-08-07",
   "files": {

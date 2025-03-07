@@ -34,7 +34,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-spline-sans-mono/useFonts';
 import { SplineSansMono_300Light } from 'expo-google-fonts-spline-sans-mono/300Light';
 import { SplineSansMono_400Regular } from 'expo-google-fonts-spline-sans-mono/400Regular';
@@ -68,13 +71,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SplineSansMono_300Light',
+            fontFamily:
+              'SplineSansMono_300Light',
           }}>
           Spline Sans Mono Light
         </Text>
@@ -84,7 +93,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SplineSansMono_400Regular',
+            fontFamily:
+              'SplineSansMono_400Regular',
           }}>
           Spline Sans Mono Regular
         </Text>
@@ -94,7 +104,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SplineSansMono_500Medium',
+            fontFamily:
+              'SplineSansMono_500Medium',
           }}>
           Spline Sans Mono Medium
         </Text>
@@ -104,7 +115,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SplineSansMono_600SemiBold',
+            fontFamily:
+              'SplineSansMono_600SemiBold',
           }}>
           Spline Sans Mono Semi Bold
         </Text>
@@ -114,7 +126,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SplineSansMono_700Bold',
+            fontFamily:
+              'SplineSansMono_700Bold',
           }}>
           Spline Sans Mono Bold
         </Text>
@@ -124,7 +137,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SplineSansMono_300Light_Italic',
+            fontFamily:
+              'SplineSansMono_300Light_Italic',
           }}>
           Spline Sans Mono Light Italic
         </Text>
@@ -134,7 +148,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SplineSansMono_400Regular_Italic',
+            fontFamily:
+              'SplineSansMono_400Regular_Italic',
           }}>
           Spline Sans Mono Italic
         </Text>
@@ -144,7 +159,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SplineSansMono_500Medium_Italic',
+            fontFamily:
+              'SplineSansMono_500Medium_Italic',
           }}>
           Spline Sans Mono Medium Italic
         </Text>
@@ -154,9 +170,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SplineSansMono_600SemiBold_Italic',
+            fontFamily:
+              'SplineSansMono_600SemiBold_Italic',
           }}>
-          Spline Sans Mono Semi Bold Italic
+          Spline Sans Mono Semi Bold
+          Italic
         </Text>
 
         <Text
@@ -164,7 +182,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SplineSansMono_700Bold_Italic',
+            fontFamily:
+              'SplineSansMono_700Bold_Italic',
           }}>
           Spline Sans Mono Bold Italic
         </Text>

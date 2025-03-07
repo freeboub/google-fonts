@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-cabin/useFonts';
 import { Cabin_400Regular } from 'expo-google-fonts-cabin/400Regular';
 import { Cabin_500Medium } from 'expo-google-fonts-cabin/500Medium';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cabin_400Regular',
+            fontFamily:
+              'Cabin_400Regular',
           }}>
           Cabin Regular
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cabin_500Medium',
+            fontFamily:
+              'Cabin_500Medium',
           }}>
           Cabin Medium
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cabin_600SemiBold',
+            fontFamily:
+              'Cabin_600SemiBold',
           }}>
           Cabin Semi Bold
         </Text>
@@ -108,7 +119,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cabin_400Regular_Italic',
+            fontFamily:
+              'Cabin_400Regular_Italic',
           }}>
           Cabin Italic
         </Text>
@@ -118,7 +130,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cabin_500Medium_Italic',
+            fontFamily:
+              'Cabin_500Medium_Italic',
           }}>
           Cabin Medium Italic
         </Text>
@@ -128,7 +141,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cabin_600SemiBold_Italic',
+            fontFamily:
+              'Cabin_600SemiBold_Italic',
           }}>
           Cabin Semi Bold Italic
         </Text>
@@ -138,7 +152,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cabin_700Bold_Italic',
+            fontFamily:
+              'Cabin_700Bold_Italic',
           }}>
           Cabin Bold Italic
         </Text>

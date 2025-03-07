@@ -27,7 +27,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-kalam/useFonts';
 import { Kalam_300Light } from 'expo-google-fonts-kalam/300Light';
 import { Kalam_400Regular } from 'expo-google-fonts-kalam/400Regular';
@@ -47,13 +50,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kalam_300Light',
+            fontFamily:
+              'Kalam_300Light',
           }}>
           Kalam Light
         </Text>
@@ -63,7 +72,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kalam_400Regular',
+            fontFamily:
+              'Kalam_400Regular',
           }}>
           Kalam Regular
         </Text>

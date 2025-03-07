@@ -1,7 +1,21 @@
 {
   "family": "Noto Serif Bengali",
-  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
-  "subsets": ["bengali", "latin", "latin-ext"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900"
+  ],
+  "subsets": [
+    "bengali",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v25",
   "lastModified": "2024-11-20",
   "files": {

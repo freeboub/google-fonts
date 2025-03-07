@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-hanken-grotesk/useFonts';
 import { HankenGrotesk_100Thin } from 'expo-google-fonts-hanken-grotesk/100Thin';
 import { HankenGrotesk_200ExtraLight } from 'expo-google-fonts-hanken-grotesk/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_100Thin',
+            fontFamily:
+              'HankenGrotesk_100Thin',
           }}>
           Hanken Grotesk Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_200ExtraLight',
+            fontFamily:
+              'HankenGrotesk_200ExtraLight',
           }}>
           Hanken Grotesk Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_300Light',
+            fontFamily:
+              'HankenGrotesk_300Light',
           }}>
           Hanken Grotesk Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_400Regular',
+            fontFamily:
+              'HankenGrotesk_400Regular',
           }}>
           Hanken Grotesk Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_500Medium',
+            fontFamily:
+              'HankenGrotesk_500Medium',
           }}>
           Hanken Grotesk Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_600SemiBold',
+            fontFamily:
+              'HankenGrotesk_600SemiBold',
           }}>
           Hanken Grotesk Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_700Bold',
+            fontFamily:
+              'HankenGrotesk_700Bold',
           }}>
           Hanken Grotesk Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_800ExtraBold',
+            fontFamily:
+              'HankenGrotesk_800ExtraBold',
           }}>
           Hanken Grotesk Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_900Black',
+            fontFamily:
+              'HankenGrotesk_900Black',
           }}>
           Hanken Grotesk Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_100Thin_Italic',
+            fontFamily:
+              'HankenGrotesk_100Thin_Italic',
           }}>
           Hanken Grotesk Thin Italic
         </Text>
@@ -198,9 +216,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_200ExtraLight_Italic',
+            fontFamily:
+              'HankenGrotesk_200ExtraLight_Italic',
           }}>
-          Hanken Grotesk Extra Light Italic
+          Hanken Grotesk Extra Light
+          Italic
         </Text>
 
         <Text
@@ -208,7 +228,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_300Light_Italic',
+            fontFamily:
+              'HankenGrotesk_300Light_Italic',
           }}>
           Hanken Grotesk Light Italic
         </Text>
@@ -218,7 +239,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_400Regular_Italic',
+            fontFamily:
+              'HankenGrotesk_400Regular_Italic',
           }}>
           Hanken Grotesk Italic
         </Text>
@@ -228,7 +250,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_500Medium_Italic',
+            fontFamily:
+              'HankenGrotesk_500Medium_Italic',
           }}>
           Hanken Grotesk Medium Italic
         </Text>
@@ -238,9 +261,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_600SemiBold_Italic',
+            fontFamily:
+              'HankenGrotesk_600SemiBold_Italic',
           }}>
-          Hanken Grotesk Semi Bold Italic
+          Hanken Grotesk Semi Bold
+          Italic
         </Text>
 
         <Text
@@ -248,7 +273,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_700Bold_Italic',
+            fontFamily:
+              'HankenGrotesk_700Bold_Italic',
           }}>
           Hanken Grotesk Bold Italic
         </Text>
@@ -258,9 +284,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_800ExtraBold_Italic',
+            fontFamily:
+              'HankenGrotesk_800ExtraBold_Italic',
           }}>
-          Hanken Grotesk Extra Bold Italic
+          Hanken Grotesk Extra Bold
+          Italic
         </Text>
 
         <Text
@@ -268,7 +296,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HankenGrotesk_900Black_Italic',
+            fontFamily:
+              'HankenGrotesk_900Black_Italic',
           }}>
           Hanken Grotesk Black Italic
         </Text>

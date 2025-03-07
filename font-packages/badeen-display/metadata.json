@@ -1,7 +1,11 @@
 {
   "family": "Badeen Display",
   "variants": ["regular"],
-  "subsets": ["arabic", "latin", "latin-ext"],
+  "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v1",
   "lastModified": "2024-12-10",
   "files": {

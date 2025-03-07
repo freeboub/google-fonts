@@ -1,7 +1,16 @@
 {
   "family": "Noto Sans NKo Unjoined",
-  "variants": ["regular", "500", "600", "700"],
-  "subsets": ["latin", "latin-ext", "nko"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "nko"
+  ],
   "version": "v2",
   "lastModified": "2023-09-27",
   "files": {

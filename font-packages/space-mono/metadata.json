@@ -1,7 +1,16 @@
 {
   "family": "Space Mono",
-  "variants": ["regular", "italic", "700", "700italic"],
-  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "variants": [
+    "regular",
+    "italic",
+    "700",
+    "700italic"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v15",
   "lastModified": "2025-02-12",
   "files": {

@@ -26,7 +26,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-pt-sans-narrow/useFonts';
 import { PTSansNarrow_400Regular } from 'expo-google-fonts-pt-sans-narrow/400Regular';
 import { PTSansNarrow_700Bold } from 'expo-google-fonts-pt-sans-narrow/700Bold';
@@ -44,13 +47,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PTSansNarrow_400Regular',
+            fontFamily:
+              'PTSansNarrow_400Regular',
           }}>
           PT Sans Narrow Regular
         </Text>
@@ -60,7 +69,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PTSansNarrow_700Bold',
+            fontFamily:
+              'PTSansNarrow_700Bold',
           }}>
           PT Sans Narrow Bold
         </Text>

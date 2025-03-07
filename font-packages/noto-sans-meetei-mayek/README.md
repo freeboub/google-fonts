@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-meetei-mayek/useFonts';
 import { NotoSansMeeteiMayek_100Thin } from 'expo-google-fonts-noto-sans-meetei-mayek/100Thin';
 import { NotoSansMeeteiMayek_200ExtraLight } from 'expo-google-fonts-noto-sans-meetei-mayek/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansMeeteiMayek_100Thin',
+            fontFamily:
+              'NotoSansMeeteiMayek_100Thin',
           }}>
           Noto Sans Meetei Mayek Thin
         </Text>
@@ -81,9 +90,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansMeeteiMayek_200ExtraLight',
+            fontFamily:
+              'NotoSansMeeteiMayek_200ExtraLight',
           }}>
-          Noto Sans Meetei Mayek Extra Light
+          Noto Sans Meetei Mayek Extra
+          Light
         </Text>
 
         <Text
@@ -91,7 +102,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansMeeteiMayek_300Light',
+            fontFamily:
+              'NotoSansMeeteiMayek_300Light',
           }}>
           Noto Sans Meetei Mayek Light
         </Text>
@@ -101,7 +113,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansMeeteiMayek_400Regular',
+            fontFamily:
+              'NotoSansMeeteiMayek_400Regular',
           }}>
           Noto Sans Meetei Mayek Regular
         </Text>
@@ -111,7 +124,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansMeeteiMayek_500Medium',
+            fontFamily:
+              'NotoSansMeeteiMayek_500Medium',
           }}>
           Noto Sans Meetei Mayek Medium
         </Text>
@@ -121,9 +135,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansMeeteiMayek_600SemiBold',
+            fontFamily:
+              'NotoSansMeeteiMayek_600SemiBold',
           }}>
-          Noto Sans Meetei Mayek Semi Bold
+          Noto Sans Meetei Mayek Semi
+          Bold
         </Text>
 
         <Text
@@ -131,7 +147,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansMeeteiMayek_700Bold',
+            fontFamily:
+              'NotoSansMeeteiMayek_700Bold',
           }}>
           Noto Sans Meetei Mayek Bold
         </Text>
@@ -141,9 +158,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansMeeteiMayek_800ExtraBold',
+            fontFamily:
+              'NotoSansMeeteiMayek_800ExtraBold',
           }}>
-          Noto Sans Meetei Mayek Extra Bold
+          Noto Sans Meetei Mayek Extra
+          Bold
         </Text>
 
         <Text
@@ -151,7 +170,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansMeeteiMayek_900Black',
+            fontFamily:
+              'NotoSansMeeteiMayek_900Black',
           }}>
           Noto Sans Meetei Mayek Black
         </Text>

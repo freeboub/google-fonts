@@ -1,7 +1,16 @@
 {
   "family": "Noto Sans Medefaidrin",
-  "variants": ["regular", "500", "600", "700"],
-  "subsets": ["latin", "latin-ext", "medefaidrin"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "medefaidrin"
+  ],
   "version": "v23",
   "lastModified": "2023-09-14",
   "files": {

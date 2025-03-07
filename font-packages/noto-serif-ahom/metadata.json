@@ -1,7 +1,11 @@
 {
   "family": "Noto Serif Ahom",
   "variants": ["regular"],
-  "subsets": ["ahom", "latin", "latin-ext"],
+  "subsets": [
+    "ahom",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v20",
   "lastModified": "2023-11-09",
   "files": {

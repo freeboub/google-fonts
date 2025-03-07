@@ -36,7 +36,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-manuale/useFonts';
 import { Manuale_300Light } from 'expo-google-fonts-manuale/300Light';
 import { Manuale_400Regular } from 'expo-google-fonts-manuale/400Regular';
@@ -74,13 +77,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Manuale_300Light',
+            fontFamily:
+              'Manuale_300Light',
           }}>
           Manuale Light
         </Text>
@@ -90,7 +99,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Manuale_400Regular',
+            fontFamily:
+              'Manuale_400Regular',
           }}>
           Manuale Regular
         </Text>
@@ -100,7 +110,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Manuale_500Medium',
+            fontFamily:
+              'Manuale_500Medium',
           }}>
           Manuale Medium
         </Text>
@@ -110,7 +121,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Manuale_600SemiBold',
+            fontFamily:
+              'Manuale_600SemiBold',
           }}>
           Manuale Semi Bold
         </Text>
@@ -120,7 +132,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Manuale_700Bold',
+            fontFamily:
+              'Manuale_700Bold',
           }}>
           Manuale Bold
         </Text>
@@ -130,7 +143,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Manuale_800ExtraBold',
+            fontFamily:
+              'Manuale_800ExtraBold',
           }}>
           Manuale Extra Bold
         </Text>
@@ -140,7 +154,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Manuale_300Light_Italic',
+            fontFamily:
+              'Manuale_300Light_Italic',
           }}>
           Manuale Light Italic
         </Text>
@@ -150,7 +165,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Manuale_400Regular_Italic',
+            fontFamily:
+              'Manuale_400Regular_Italic',
           }}>
           Manuale Italic
         </Text>
@@ -160,7 +176,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Manuale_500Medium_Italic',
+            fontFamily:
+              'Manuale_500Medium_Italic',
           }}>
           Manuale Medium Italic
         </Text>
@@ -170,7 +187,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Manuale_600SemiBold_Italic',
+            fontFamily:
+              'Manuale_600SemiBold_Italic',
           }}>
           Manuale Semi Bold Italic
         </Text>
@@ -180,7 +198,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Manuale_700Bold_Italic',
+            fontFamily:
+              'Manuale_700Bold_Italic',
           }}>
           Manuale Bold Italic
         </Text>
@@ -190,7 +209,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Manuale_800ExtraBold_Italic',
+            fontFamily:
+              'Manuale_800ExtraBold_Italic',
           }}>
           Manuale Extra Bold Italic
         </Text>

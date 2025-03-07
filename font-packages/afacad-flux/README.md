@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-afacad-flux/useFonts';
 import { AfacadFlux_100Thin } from 'expo-google-fonts-afacad-flux/100Thin';
 import { AfacadFlux_200ExtraLight } from 'expo-google-fonts-afacad-flux/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AfacadFlux_100Thin',
+            fontFamily:
+              'AfacadFlux_100Thin',
           }}>
           Afacad Flux Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AfacadFlux_200ExtraLight',
+            fontFamily:
+              'AfacadFlux_200ExtraLight',
           }}>
           Afacad Flux Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AfacadFlux_300Light',
+            fontFamily:
+              'AfacadFlux_300Light',
           }}>
           Afacad Flux Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AfacadFlux_400Regular',
+            fontFamily:
+              'AfacadFlux_400Regular',
           }}>
           Afacad Flux Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AfacadFlux_500Medium',
+            fontFamily:
+              'AfacadFlux_500Medium',
           }}>
           Afacad Flux Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AfacadFlux_600SemiBold',
+            fontFamily:
+              'AfacadFlux_600SemiBold',
           }}>
           Afacad Flux Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AfacadFlux_700Bold',
+            fontFamily:
+              'AfacadFlux_700Bold',
           }}>
           Afacad Flux Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AfacadFlux_800ExtraBold',
+            fontFamily:
+              'AfacadFlux_800ExtraBold',
           }}>
           Afacad Flux Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AfacadFlux_900Black',
+            fontFamily:
+              'AfacadFlux_900Black',
           }}>
           Afacad Flux Black
         </Text>

@@ -38,7 +38,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-newsreader/useFonts';
 import { Newsreader_200ExtraLight } from 'expo-google-fonts-newsreader/200ExtraLight';
 import { Newsreader_300Light } from 'expo-google-fonts-newsreader/300Light';
@@ -80,13 +83,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Newsreader_200ExtraLight',
+            fontFamily:
+              'Newsreader_200ExtraLight',
           }}>
           Newsreader Extra Light
         </Text>
@@ -96,7 +105,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Newsreader_300Light',
+            fontFamily:
+              'Newsreader_300Light',
           }}>
           Newsreader Light
         </Text>
@@ -106,7 +116,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Newsreader_400Regular',
+            fontFamily:
+              'Newsreader_400Regular',
           }}>
           Newsreader Regular
         </Text>
@@ -116,7 +127,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Newsreader_500Medium',
+            fontFamily:
+              'Newsreader_500Medium',
           }}>
           Newsreader Medium
         </Text>
@@ -126,7 +138,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Newsreader_600SemiBold',
+            fontFamily:
+              'Newsreader_600SemiBold',
           }}>
           Newsreader Semi Bold
         </Text>
@@ -136,7 +149,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Newsreader_700Bold',
+            fontFamily:
+              'Newsreader_700Bold',
           }}>
           Newsreader Bold
         </Text>
@@ -146,7 +160,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Newsreader_800ExtraBold',
+            fontFamily:
+              'Newsreader_800ExtraBold',
           }}>
           Newsreader Extra Bold
         </Text>
@@ -156,7 +171,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Newsreader_200ExtraLight_Italic',
+            fontFamily:
+              'Newsreader_200ExtraLight_Italic',
           }}>
           Newsreader Extra Light Italic
         </Text>
@@ -166,7 +182,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Newsreader_300Light_Italic',
+            fontFamily:
+              'Newsreader_300Light_Italic',
           }}>
           Newsreader Light Italic
         </Text>
@@ -176,7 +193,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Newsreader_400Regular_Italic',
+            fontFamily:
+              'Newsreader_400Regular_Italic',
           }}>
           Newsreader Italic
         </Text>
@@ -186,7 +204,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Newsreader_500Medium_Italic',
+            fontFamily:
+              'Newsreader_500Medium_Italic',
           }}>
           Newsreader Medium Italic
         </Text>
@@ -196,7 +215,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Newsreader_600SemiBold_Italic',
+            fontFamily:
+              'Newsreader_600SemiBold_Italic',
           }}>
           Newsreader Semi Bold Italic
         </Text>
@@ -206,7 +226,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Newsreader_700Bold_Italic',
+            fontFamily:
+              'Newsreader_700Bold_Italic',
           }}>
           Newsreader Bold Italic
         </Text>
@@ -216,7 +237,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Newsreader_800ExtraBold_Italic',
+            fontFamily:
+              'Newsreader_800ExtraBold_Italic',
           }}>
           Newsreader Extra Bold Italic
         </Text>

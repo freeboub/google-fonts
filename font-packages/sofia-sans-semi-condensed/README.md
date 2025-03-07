@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-sofia-sans-semi-condensed/useFonts';
 import { SofiaSansSemiCondensed_100Thin } from 'expo-google-fonts-sofia-sans-semi-condensed/100Thin';
 import { SofiaSansSemiCondensed_200ExtraLight } from 'expo-google-fonts-sofia-sans-semi-condensed/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansSemiCondensed_100Thin',
+            fontFamily:
+              'SofiaSansSemiCondensed_100Thin',
           }}>
           Sofia Sans Semi Condensed Thin
         </Text>
@@ -108,9 +117,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansSemiCondensed_200ExtraLight',
+            fontFamily:
+              'SofiaSansSemiCondensed_200ExtraLight',
           }}>
-          Sofia Sans Semi Condensed Extra Light
+          Sofia Sans Semi Condensed
+          Extra Light
         </Text>
 
         <Text
@@ -118,9 +129,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansSemiCondensed_300Light',
+            fontFamily:
+              'SofiaSansSemiCondensed_300Light',
           }}>
-          Sofia Sans Semi Condensed Light
+          Sofia Sans Semi Condensed
+          Light
         </Text>
 
         <Text
@@ -128,9 +141,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansSemiCondensed_400Regular',
+            fontFamily:
+              'SofiaSansSemiCondensed_400Regular',
           }}>
-          Sofia Sans Semi Condensed Regular
+          Sofia Sans Semi Condensed
+          Regular
         </Text>
 
         <Text
@@ -138,9 +153,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansSemiCondensed_500Medium',
+            fontFamily:
+              'SofiaSansSemiCondensed_500Medium',
           }}>
-          Sofia Sans Semi Condensed Medium
+          Sofia Sans Semi Condensed
+          Medium
         </Text>
 
         <Text
@@ -148,9 +165,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansSemiCondensed_600SemiBold',
+            fontFamily:
+              'SofiaSansSemiCondensed_600SemiBold',
           }}>
-          Sofia Sans Semi Condensed Semi Bold
+          Sofia Sans Semi Condensed Semi
+          Bold
         </Text>
 
         <Text
@@ -158,7 +177,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansSemiCondensed_700Bold',
+            fontFamily:
+              'SofiaSansSemiCondensed_700Bold',
           }}>
           Sofia Sans Semi Condensed Bold
         </Text>
@@ -168,9 +188,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansSemiCondensed_800ExtraBold',
+            fontFamily:
+              'SofiaSansSemiCondensed_800ExtraBold',
           }}>
-          Sofia Sans Semi Condensed Extra Bold
+          Sofia Sans Semi Condensed
+          Extra Bold
         </Text>
 
         <Text
@@ -178,9 +200,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansSemiCondensed_900Black',
+            fontFamily:
+              'SofiaSansSemiCondensed_900Black',
           }}>
-          Sofia Sans Semi Condensed Black
+          Sofia Sans Semi Condensed
+          Black
         </Text>
 
         <Text
@@ -188,9 +212,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansSemiCondensed_100Thin_Italic',
+            fontFamily:
+              'SofiaSansSemiCondensed_100Thin_Italic',
           }}>
-          Sofia Sans Semi Condensed Thin Italic
+          Sofia Sans Semi Condensed Thin
+          Italic
         </Text>
 
         <Text
@@ -198,9 +224,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansSemiCondensed_200ExtraLight_Italic',
+            fontFamily:
+              'SofiaSansSemiCondensed_200ExtraLight_Italic',
           }}>
-          Sofia Sans Semi Condensed Extra Light Italic
+          Sofia Sans Semi Condensed
+          Extra Light Italic
         </Text>
 
         <Text
@@ -208,9 +236,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansSemiCondensed_300Light_Italic',
+            fontFamily:
+              'SofiaSansSemiCondensed_300Light_Italic',
           }}>
-          Sofia Sans Semi Condensed Light Italic
+          Sofia Sans Semi Condensed
+          Light Italic
         </Text>
 
         <Text
@@ -218,9 +248,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansSemiCondensed_400Regular_Italic',
+            fontFamily:
+              'SofiaSansSemiCondensed_400Regular_Italic',
           }}>
-          Sofia Sans Semi Condensed Italic
+          Sofia Sans Semi Condensed
+          Italic
         </Text>
 
         <Text
@@ -228,9 +260,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansSemiCondensed_500Medium_Italic',
+            fontFamily:
+              'SofiaSansSemiCondensed_500Medium_Italic',
           }}>
-          Sofia Sans Semi Condensed Medium Italic
+          Sofia Sans Semi Condensed
+          Medium Italic
         </Text>
 
         <Text
@@ -238,9 +272,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansSemiCondensed_600SemiBold_Italic',
+            fontFamily:
+              'SofiaSansSemiCondensed_600SemiBold_Italic',
           }}>
-          Sofia Sans Semi Condensed Semi Bold Italic
+          Sofia Sans Semi Condensed Semi
+          Bold Italic
         </Text>
 
         <Text
@@ -248,9 +284,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansSemiCondensed_700Bold_Italic',
+            fontFamily:
+              'SofiaSansSemiCondensed_700Bold_Italic',
           }}>
-          Sofia Sans Semi Condensed Bold Italic
+          Sofia Sans Semi Condensed Bold
+          Italic
         </Text>
 
         <Text
@@ -258,9 +296,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansSemiCondensed_800ExtraBold_Italic',
+            fontFamily:
+              'SofiaSansSemiCondensed_800ExtraBold_Italic',
           }}>
-          Sofia Sans Semi Condensed Extra Bold Italic
+          Sofia Sans Semi Condensed
+          Extra Bold Italic
         </Text>
 
         <Text
@@ -268,9 +308,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SofiaSansSemiCondensed_900Black_Italic',
+            fontFamily:
+              'SofiaSansSemiCondensed_900Black_Italic',
           }}>
-          Sofia Sans Semi Condensed Black Italic
+          Sofia Sans Semi Condensed
+          Black Italic
         </Text>
       </View>
     );

@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-serif-vithkuqi/useFonts';
 import { NotoSerifVithkuqi_400Regular } from 'expo-google-fonts-noto-serif-vithkuqi/400Regular';
 import { NotoSerifVithkuqi_500Medium } from 'expo-google-fonts-noto-serif-vithkuqi/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifVithkuqi_400Regular',
+            fontFamily:
+              'NotoSerifVithkuqi_400Regular',
           }}>
           Noto Serif Vithkuqi Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifVithkuqi_500Medium',
+            fontFamily:
+              'NotoSerifVithkuqi_500Medium',
           }}>
           Noto Serif Vithkuqi Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifVithkuqi_600SemiBold',
+            fontFamily:
+              'NotoSerifVithkuqi_600SemiBold',
           }}>
           Noto Serif Vithkuqi Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifVithkuqi_700Bold',
+            fontFamily:
+              'NotoSerifVithkuqi_700Bold',
           }}>
           Noto Serif Vithkuqi Bold
         </Text>

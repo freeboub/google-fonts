@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-tai-tham/useFonts';
 import { NotoSansTaiTham_400Regular } from 'expo-google-fonts-noto-sans-tai-tham/400Regular';
 import { NotoSansTaiTham_500Medium } from 'expo-google-fonts-noto-sans-tai-tham/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTaiTham_400Regular',
+            fontFamily:
+              'NotoSansTaiTham_400Regular',
           }}>
           Noto Sans Tai Tham Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTaiTham_500Medium',
+            fontFamily:
+              'NotoSansTaiTham_500Medium',
           }}>
           Noto Sans Tai Tham Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTaiTham_600SemiBold',
+            fontFamily:
+              'NotoSansTaiTham_600SemiBold',
           }}>
           Noto Sans Tai Tham Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTaiTham_700Bold',
+            fontFamily:
+              'NotoSansTaiTham_700Bold',
           }}>
           Noto Sans Tai Tham Bold
         </Text>

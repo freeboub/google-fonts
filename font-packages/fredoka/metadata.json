@@ -1,7 +1,17 @@
 {
   "family": "Fredoka",
-  "variants": ["300", "regular", "500", "600", "700"],
-  "subsets": ["hebrew", "latin", "latin-ext"],
+  "variants": [
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "hebrew",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v14",
   "lastModified": "2024-09-04",
   "files": {

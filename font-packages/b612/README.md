@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-b612/useFonts';
 import { B612_400Regular } from 'expo-google-fonts-b612/400Regular';
 import { B612_400Regular_Italic } from 'expo-google-fonts-b612/400Regular_Italic';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'B612_400Regular',
+            fontFamily:
+              'B612_400Regular',
           }}>
           B612 Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'B612_400Regular_Italic',
+            fontFamily:
+              'B612_400Regular_Italic',
           }}>
           B612 Italic
         </Text>
@@ -86,7 +96,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'B612_700Bold_Italic',
+            fontFamily:
+              'B612_700Bold_Italic',
           }}>
           B612 Bold Italic
         </Text>

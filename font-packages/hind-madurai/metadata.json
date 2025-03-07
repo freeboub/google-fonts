@@ -1,7 +1,17 @@
 {
   "family": "Hind Madurai",
-  "variants": ["300", "regular", "500", "600", "700"],
-  "subsets": ["latin", "latin-ext", "tamil"],
+  "variants": [
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "tamil"
+  ],
   "version": "v11",
   "lastModified": "2024-09-04",
   "files": {

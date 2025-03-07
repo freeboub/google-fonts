@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-ysabeau-sc/useFonts';
 import { YsabeauSC_100Thin } from 'expo-google-fonts-ysabeau-sc/100Thin';
 import { YsabeauSC_200ExtraLight } from 'expo-google-fonts-ysabeau-sc/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauSC_100Thin',
+            fontFamily:
+              'YsabeauSC_100Thin',
           }}>
           Ysabeau SC Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauSC_200ExtraLight',
+            fontFamily:
+              'YsabeauSC_200ExtraLight',
           }}>
           Ysabeau SC Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauSC_300Light',
+            fontFamily:
+              'YsabeauSC_300Light',
           }}>
           Ysabeau SC Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauSC_400Regular',
+            fontFamily:
+              'YsabeauSC_400Regular',
           }}>
           Ysabeau SC Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauSC_500Medium',
+            fontFamily:
+              'YsabeauSC_500Medium',
           }}>
           Ysabeau SC Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauSC_600SemiBold',
+            fontFamily:
+              'YsabeauSC_600SemiBold',
           }}>
           Ysabeau SC Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauSC_700Bold',
+            fontFamily:
+              'YsabeauSC_700Bold',
           }}>
           Ysabeau SC Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauSC_800ExtraBold',
+            fontFamily:
+              'YsabeauSC_800ExtraBold',
           }}>
           Ysabeau SC Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauSC_900Black',
+            fontFamily:
+              'YsabeauSC_900Black',
           }}>
           Ysabeau SC Black
         </Text>

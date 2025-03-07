@@ -4,7 +4,9 @@
   "subsets": ["latin", "latin-ext"],
   "version": "v15",
   "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/damion/v15/hv-XlzJ3KEUe_YZUbWY3MTFgVg.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/damion/v15/hv-XlzJ3KEUe_YZUbWY3MTFgVg.ttf"
+  },
   "category": "handwriting",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/damion/v15/hv-XlzJ3KEUe_YZkbGwz.ttf"

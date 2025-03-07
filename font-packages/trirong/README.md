@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-trirong/useFonts';
 import { Trirong_100Thin } from 'expo-google-fonts-trirong/100Thin';
 import { Trirong_100Thin_Italic } from 'expo-google-fonts-trirong/100Thin_Italic';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_100Thin',
+            fontFamily:
+              'Trirong_100Thin',
           }}>
           Trirong Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_100Thin_Italic',
+            fontFamily:
+              'Trirong_100Thin_Italic',
           }}>
           Trirong Thin Italic
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_200ExtraLight',
+            fontFamily:
+              'Trirong_200ExtraLight',
           }}>
           Trirong Extra Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_200ExtraLight_Italic',
+            fontFamily:
+              'Trirong_200ExtraLight_Italic',
           }}>
           Trirong Extra Light Italic
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_300Light',
+            fontFamily:
+              'Trirong_300Light',
           }}>
           Trirong Light
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_300Light_Italic',
+            fontFamily:
+              'Trirong_300Light_Italic',
           }}>
           Trirong Light Italic
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_400Regular',
+            fontFamily:
+              'Trirong_400Regular',
           }}>
           Trirong Regular
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_400Regular_Italic',
+            fontFamily:
+              'Trirong_400Regular_Italic',
           }}>
           Trirong Italic
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_500Medium',
+            fontFamily:
+              'Trirong_500Medium',
           }}>
           Trirong Medium
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_500Medium_Italic',
+            fontFamily:
+              'Trirong_500Medium_Italic',
           }}>
           Trirong Medium Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_600SemiBold',
+            fontFamily:
+              'Trirong_600SemiBold',
           }}>
           Trirong Semi Bold
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_600SemiBold_Italic',
+            fontFamily:
+              'Trirong_600SemiBold_Italic',
           }}>
           Trirong Semi Bold Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_700Bold',
+            fontFamily:
+              'Trirong_700Bold',
           }}>
           Trirong Bold
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_700Bold_Italic',
+            fontFamily:
+              'Trirong_700Bold_Italic',
           }}>
           Trirong Bold Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_800ExtraBold',
+            fontFamily:
+              'Trirong_800ExtraBold',
           }}>
           Trirong Extra Bold
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_800ExtraBold_Italic',
+            fontFamily:
+              'Trirong_800ExtraBold_Italic',
           }}>
           Trirong Extra Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_900Black',
+            fontFamily:
+              'Trirong_900Black',
           }}>
           Trirong Black
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trirong_900Black_Italic',
+            fontFamily:
+              'Trirong_900Black_Italic',
           }}>
           Trirong Black Italic
         </Text>

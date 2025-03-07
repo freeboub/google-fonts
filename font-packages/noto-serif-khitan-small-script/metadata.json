@@ -1,7 +1,11 @@
 {
   "family": "Noto Serif Khitan Small Script",
   "variants": ["regular"],
-  "subsets": ["khitan-small-script", "latin", "latin-ext"],
+  "subsets": [
+    "khitan-small-script",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v4",
   "lastModified": "2024-09-04",
   "files": {

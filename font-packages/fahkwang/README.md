@@ -36,7 +36,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-fahkwang/useFonts';
 import { Fahkwang_200ExtraLight } from 'expo-google-fonts-fahkwang/200ExtraLight';
 import { Fahkwang_200ExtraLight_Italic } from 'expo-google-fonts-fahkwang/200ExtraLight_Italic';
@@ -74,13 +77,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fahkwang_200ExtraLight',
+            fontFamily:
+              'Fahkwang_200ExtraLight',
           }}>
           Fahkwang Extra Light
         </Text>
@@ -90,7 +99,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fahkwang_200ExtraLight_Italic',
+            fontFamily:
+              'Fahkwang_200ExtraLight_Italic',
           }}>
           Fahkwang Extra Light Italic
         </Text>
@@ -100,7 +110,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fahkwang_300Light',
+            fontFamily:
+              'Fahkwang_300Light',
           }}>
           Fahkwang Light
         </Text>
@@ -110,7 +121,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fahkwang_300Light_Italic',
+            fontFamily:
+              'Fahkwang_300Light_Italic',
           }}>
           Fahkwang Light Italic
         </Text>
@@ -120,7 +132,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fahkwang_400Regular',
+            fontFamily:
+              'Fahkwang_400Regular',
           }}>
           Fahkwang Regular
         </Text>
@@ -130,7 +143,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fahkwang_400Regular_Italic',
+            fontFamily:
+              'Fahkwang_400Regular_Italic',
           }}>
           Fahkwang Italic
         </Text>
@@ -140,7 +154,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fahkwang_500Medium',
+            fontFamily:
+              'Fahkwang_500Medium',
           }}>
           Fahkwang Medium
         </Text>
@@ -150,7 +165,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fahkwang_500Medium_Italic',
+            fontFamily:
+              'Fahkwang_500Medium_Italic',
           }}>
           Fahkwang Medium Italic
         </Text>
@@ -160,7 +176,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fahkwang_600SemiBold',
+            fontFamily:
+              'Fahkwang_600SemiBold',
           }}>
           Fahkwang Semi Bold
         </Text>
@@ -170,7 +187,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fahkwang_600SemiBold_Italic',
+            fontFamily:
+              'Fahkwang_600SemiBold_Italic',
           }}>
           Fahkwang Semi Bold Italic
         </Text>
@@ -180,7 +198,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fahkwang_700Bold',
+            fontFamily:
+              'Fahkwang_700Bold',
           }}>
           Fahkwang Bold
         </Text>
@@ -190,7 +209,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fahkwang_700Bold_Italic',
+            fontFamily:
+              'Fahkwang_700Bold_Italic',
           }}>
           Fahkwang Bold Italic
         </Text>

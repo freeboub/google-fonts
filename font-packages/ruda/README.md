@@ -30,7 +30,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-ruda/useFonts';
 import { Ruda_400Regular } from 'expo-google-fonts-ruda/400Regular';
 import { Ruda_500Medium } from 'expo-google-fonts-ruda/500Medium';
@@ -56,13 +59,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Ruda_400Regular',
+            fontFamily:
+              'Ruda_400Regular',
           }}>
           Ruda Regular
         </Text>
@@ -72,7 +81,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Ruda_500Medium',
+            fontFamily:
+              'Ruda_500Medium',
           }}>
           Ruda Medium
         </Text>
@@ -82,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Ruda_600SemiBold',
+            fontFamily:
+              'Ruda_600SemiBold',
           }}>
           Ruda Semi Bold
         </Text>
@@ -102,7 +113,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Ruda_800ExtraBold',
+            fontFamily:
+              'Ruda_800ExtraBold',
           }}>
           Ruda Extra Bold
         </Text>

@@ -30,7 +30,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-turret-road/useFonts';
 import { TurretRoad_200ExtraLight } from 'expo-google-fonts-turret-road/200ExtraLight';
 import { TurretRoad_300Light } from 'expo-google-fonts-turret-road/300Light';
@@ -56,13 +59,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'TurretRoad_200ExtraLight',
+            fontFamily:
+              'TurretRoad_200ExtraLight',
           }}>
           Turret Road Extra Light
         </Text>
@@ -72,7 +81,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'TurretRoad_300Light',
+            fontFamily:
+              'TurretRoad_300Light',
           }}>
           Turret Road Light
         </Text>
@@ -82,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'TurretRoad_400Regular',
+            fontFamily:
+              'TurretRoad_400Regular',
           }}>
           Turret Road Regular
         </Text>
@@ -92,7 +103,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'TurretRoad_500Medium',
+            fontFamily:
+              'TurretRoad_500Medium',
           }}>
           Turret Road Medium
         </Text>
@@ -102,7 +114,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'TurretRoad_700Bold',
+            fontFamily:
+              'TurretRoad_700Bold',
           }}>
           Turret Road Bold
         </Text>
@@ -112,7 +125,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'TurretRoad_800ExtraBold',
+            fontFamily:
+              'TurretRoad_800ExtraBold',
           }}>
           Turret Road Extra Bold
         </Text>

@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-serif-hk/useFonts';
 import { NotoSerifHK_200ExtraLight } from 'expo-google-fonts-noto-serif-hk/200ExtraLight';
 import { NotoSerifHK_300Light } from 'expo-google-fonts-noto-serif-hk/300Light';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifHK_200ExtraLight',
+            fontFamily:
+              'NotoSerifHK_200ExtraLight',
           }}>
           Noto Serif HK Extra Light
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifHK_300Light',
+            fontFamily:
+              'NotoSerifHK_300Light',
           }}>
           Noto Serif HK Light
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifHK_400Regular',
+            fontFamily:
+              'NotoSerifHK_400Regular',
           }}>
           Noto Serif HK Regular
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifHK_500Medium',
+            fontFamily:
+              'NotoSerifHK_500Medium',
           }}>
           Noto Serif HK Medium
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifHK_600SemiBold',
+            fontFamily:
+              'NotoSerifHK_600SemiBold',
           }}>
           Noto Serif HK Semi Bold
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifHK_700Bold',
+            fontFamily:
+              'NotoSerifHK_700Bold',
           }}>
           Noto Serif HK Bold
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifHK_800ExtraBold',
+            fontFamily:
+              'NotoSerifHK_800ExtraBold',
           }}>
           Noto Serif HK Extra Bold
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifHK_900Black',
+            fontFamily:
+              'NotoSerifHK_900Black',
           }}>
           Noto Serif HK Black
         </Text>

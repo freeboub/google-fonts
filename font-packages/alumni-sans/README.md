@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-alumni-sans/useFonts';
 import { AlumniSans_100Thin } from 'expo-google-fonts-alumni-sans/100Thin';
 import { AlumniSans_200ExtraLight } from 'expo-google-fonts-alumni-sans/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_100Thin',
+            fontFamily:
+              'AlumniSans_100Thin',
           }}>
           Alumni Sans Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_200ExtraLight',
+            fontFamily:
+              'AlumniSans_200ExtraLight',
           }}>
           Alumni Sans Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_300Light',
+            fontFamily:
+              'AlumniSans_300Light',
           }}>
           Alumni Sans Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_400Regular',
+            fontFamily:
+              'AlumniSans_400Regular',
           }}>
           Alumni Sans Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_500Medium',
+            fontFamily:
+              'AlumniSans_500Medium',
           }}>
           Alumni Sans Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_600SemiBold',
+            fontFamily:
+              'AlumniSans_600SemiBold',
           }}>
           Alumni Sans Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_700Bold',
+            fontFamily:
+              'AlumniSans_700Bold',
           }}>
           Alumni Sans Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_800ExtraBold',
+            fontFamily:
+              'AlumniSans_800ExtraBold',
           }}>
           Alumni Sans Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_900Black',
+            fontFamily:
+              'AlumniSans_900Black',
           }}>
           Alumni Sans Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_100Thin_Italic',
+            fontFamily:
+              'AlumniSans_100Thin_Italic',
           }}>
           Alumni Sans Thin Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_200ExtraLight_Italic',
+            fontFamily:
+              'AlumniSans_200ExtraLight_Italic',
           }}>
           Alumni Sans Extra Light Italic
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_300Light_Italic',
+            fontFamily:
+              'AlumniSans_300Light_Italic',
           }}>
           Alumni Sans Light Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_400Regular_Italic',
+            fontFamily:
+              'AlumniSans_400Regular_Italic',
           }}>
           Alumni Sans Italic
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_500Medium_Italic',
+            fontFamily:
+              'AlumniSans_500Medium_Italic',
           }}>
           Alumni Sans Medium Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_600SemiBold_Italic',
+            fontFamily:
+              'AlumniSans_600SemiBold_Italic',
           }}>
           Alumni Sans Semi Bold Italic
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_700Bold_Italic',
+            fontFamily:
+              'AlumniSans_700Bold_Italic',
           }}>
           Alumni Sans Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_800ExtraBold_Italic',
+            fontFamily:
+              'AlumniSans_800ExtraBold_Italic',
           }}>
           Alumni Sans Extra Bold Italic
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlumniSans_900Black_Italic',
+            fontFamily:
+              'AlumniSans_900Black_Italic',
           }}>
           Alumni Sans Black Italic
         </Text>

@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-display/useFonts';
 import { NotoSansDisplay_100Thin } from 'expo-google-fonts-noto-sans-display/100Thin';
 import { NotoSansDisplay_200ExtraLight } from 'expo-google-fonts-noto-sans-display/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_100Thin',
+            fontFamily:
+              'NotoSansDisplay_100Thin',
           }}>
           Noto Sans Display Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_200ExtraLight',
+            fontFamily:
+              'NotoSansDisplay_200ExtraLight',
           }}>
           Noto Sans Display Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_300Light',
+            fontFamily:
+              'NotoSansDisplay_300Light',
           }}>
           Noto Sans Display Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_400Regular',
+            fontFamily:
+              'NotoSansDisplay_400Regular',
           }}>
           Noto Sans Display Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_500Medium',
+            fontFamily:
+              'NotoSansDisplay_500Medium',
           }}>
           Noto Sans Display Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_600SemiBold',
+            fontFamily:
+              'NotoSansDisplay_600SemiBold',
           }}>
           Noto Sans Display Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_700Bold',
+            fontFamily:
+              'NotoSansDisplay_700Bold',
           }}>
           Noto Sans Display Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_800ExtraBold',
+            fontFamily:
+              'NotoSansDisplay_800ExtraBold',
           }}>
           Noto Sans Display Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_900Black',
+            fontFamily:
+              'NotoSansDisplay_900Black',
           }}>
           Noto Sans Display Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_100Thin_Italic',
+            fontFamily:
+              'NotoSansDisplay_100Thin_Italic',
           }}>
           Noto Sans Display Thin Italic
         </Text>
@@ -198,9 +216,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_200ExtraLight_Italic',
+            fontFamily:
+              'NotoSansDisplay_200ExtraLight_Italic',
           }}>
-          Noto Sans Display Extra Light Italic
+          Noto Sans Display Extra Light
+          Italic
         </Text>
 
         <Text
@@ -208,7 +228,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_300Light_Italic',
+            fontFamily:
+              'NotoSansDisplay_300Light_Italic',
           }}>
           Noto Sans Display Light Italic
         </Text>
@@ -218,7 +239,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_400Regular_Italic',
+            fontFamily:
+              'NotoSansDisplay_400Regular_Italic',
           }}>
           Noto Sans Display Italic
         </Text>
@@ -228,9 +250,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_500Medium_Italic',
+            fontFamily:
+              'NotoSansDisplay_500Medium_Italic',
           }}>
-          Noto Sans Display Medium Italic
+          Noto Sans Display Medium
+          Italic
         </Text>
 
         <Text
@@ -238,9 +262,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_600SemiBold_Italic',
+            fontFamily:
+              'NotoSansDisplay_600SemiBold_Italic',
           }}>
-          Noto Sans Display Semi Bold Italic
+          Noto Sans Display Semi Bold
+          Italic
         </Text>
 
         <Text
@@ -248,7 +274,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_700Bold_Italic',
+            fontFamily:
+              'NotoSansDisplay_700Bold_Italic',
           }}>
           Noto Sans Display Bold Italic
         </Text>
@@ -258,9 +285,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_800ExtraBold_Italic',
+            fontFamily:
+              'NotoSansDisplay_800ExtraBold_Italic',
           }}>
-          Noto Sans Display Extra Bold Italic
+          Noto Sans Display Extra Bold
+          Italic
         </Text>
 
         <Text
@@ -268,7 +297,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDisplay_900Black_Italic',
+            fontFamily:
+              'NotoSansDisplay_900Black_Italic',
           }}>
           Noto Sans Display Black Italic
         </Text>

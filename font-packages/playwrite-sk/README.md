@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playwrite-sk/useFonts';
 import { PlaywriteSK_100Thin } from 'expo-google-fonts-playwrite-sk/100Thin';
 import { PlaywriteSK_200ExtraLight } from 'expo-google-fonts-playwrite-sk/200ExtraLight';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteSK_100Thin',
+            fontFamily:
+              'PlaywriteSK_100Thin',
           }}>
           Playwrite SK Thin
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteSK_200ExtraLight',
+            fontFamily:
+              'PlaywriteSK_200ExtraLight',
           }}>
           Playwrite SK Extra Light
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteSK_300Light',
+            fontFamily:
+              'PlaywriteSK_300Light',
           }}>
           Playwrite SK Light
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteSK_400Regular',
+            fontFamily:
+              'PlaywriteSK_400Regular',
           }}>
           Playwrite SK Regular
         </Text>

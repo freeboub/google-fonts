@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playwrite-za/useFonts';
 import { PlaywriteZA_100Thin } from 'expo-google-fonts-playwrite-za/100Thin';
 import { PlaywriteZA_200ExtraLight } from 'expo-google-fonts-playwrite-za/200ExtraLight';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteZA_100Thin',
+            fontFamily:
+              'PlaywriteZA_100Thin',
           }}>
           Playwrite ZA Thin
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteZA_200ExtraLight',
+            fontFamily:
+              'PlaywriteZA_200ExtraLight',
           }}>
           Playwrite ZA Extra Light
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteZA_300Light',
+            fontFamily:
+              'PlaywriteZA_300Light',
           }}>
           Playwrite ZA Light
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteZA_400Regular',
+            fontFamily:
+              'PlaywriteZA_400Regular',
           }}>
           Playwrite ZA Regular
         </Text>

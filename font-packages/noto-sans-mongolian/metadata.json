@@ -1,7 +1,13 @@
 {
   "family": "Noto Sans Mongolian",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "math", "mongolian", "symbols"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "math",
+    "mongolian",
+    "symbols"
+  ],
   "version": "v22",
   "lastModified": "2024-09-30",
   "files": {

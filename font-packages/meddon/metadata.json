@@ -4,7 +4,9 @@
   "subsets": ["latin", "latin-ext"],
   "version": "v25",
   "lastModified": "2024-11-20",
-  "files": { "regular": "https://fonts.gstatic.com/s/meddon/v25/kmK8ZqA2EgDNeHTZhBdB3y_Aow.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/meddon/v25/kmK8ZqA2EgDNeHTZhBdB3y_Aow.ttf"
+  },
   "category": "handwriting",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/meddon/v25/kmK8ZqA2EgDNeHTphR1F.ttf"

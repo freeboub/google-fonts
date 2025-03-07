@@ -30,7 +30,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-golos-text/useFonts';
 import { GolosText_400Regular } from 'expo-google-fonts-golos-text/400Regular';
 import { GolosText_500Medium } from 'expo-google-fonts-golos-text/500Medium';
@@ -56,13 +59,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GolosText_400Regular',
+            fontFamily:
+              'GolosText_400Regular',
           }}>
           Golos Text Regular
         </Text>
@@ -72,7 +81,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GolosText_500Medium',
+            fontFamily:
+              'GolosText_500Medium',
           }}>
           Golos Text Medium
         </Text>
@@ -82,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GolosText_600SemiBold',
+            fontFamily:
+              'GolosText_600SemiBold',
           }}>
           Golos Text Semi Bold
         </Text>
@@ -92,7 +103,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GolosText_700Bold',
+            fontFamily:
+              'GolosText_700Bold',
           }}>
           Golos Text Bold
         </Text>
@@ -102,7 +114,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GolosText_800ExtraBold',
+            fontFamily:
+              'GolosText_800ExtraBold',
           }}>
           Golos Text Extra Bold
         </Text>
@@ -112,7 +125,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GolosText_900Black',
+            fontFamily:
+              'GolosText_900Black',
           }}>
           Golos Text Black
         </Text>

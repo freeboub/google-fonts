@@ -4,7 +4,9 @@
   "subsets": ["khmer", "latin"],
   "version": "v28",
   "lastModified": "2024-08-12",
-  "files": { "regular": "https://fonts.gstatic.com/s/koulen/v28/AMOQz46as3KIBPeWgnA9kuYMUg.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/koulen/v28/AMOQz46as3KIBPeWgnA9kuYMUg.ttf"
+  },
   "category": "display",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/koulen/v28/AMOQz46as3KIBPemg3o5.ttf"

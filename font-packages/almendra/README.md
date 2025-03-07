@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-almendra/useFonts';
 import { Almendra_400Regular } from 'expo-google-fonts-almendra/400Regular';
 import { Almendra_400Regular_Italic } from 'expo-google-fonts-almendra/400Regular_Italic';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Almendra_400Regular',
+            fontFamily:
+              'Almendra_400Regular',
           }}>
           Almendra Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Almendra_400Regular_Italic',
+            fontFamily:
+              'Almendra_400Regular_Italic',
           }}>
           Almendra Italic
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Almendra_700Bold',
+            fontFamily:
+              'Almendra_700Bold',
           }}>
           Almendra Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Almendra_700Bold_Italic',
+            fontFamily:
+              'Almendra_700Bold_Italic',
           }}>
           Almendra Bold Italic
         </Text>

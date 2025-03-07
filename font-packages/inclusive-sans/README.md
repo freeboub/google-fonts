@@ -34,7 +34,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-inclusive-sans/useFonts';
 import { InclusiveSans_300Light } from 'expo-google-fonts-inclusive-sans/300Light';
 import { InclusiveSans_400Regular } from 'expo-google-fonts-inclusive-sans/400Regular';
@@ -68,13 +71,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InclusiveSans_300Light',
+            fontFamily:
+              'InclusiveSans_300Light',
           }}>
           Inclusive Sans Light
         </Text>
@@ -84,7 +93,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InclusiveSans_400Regular',
+            fontFamily:
+              'InclusiveSans_400Regular',
           }}>
           Inclusive Sans Regular
         </Text>
@@ -94,7 +104,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InclusiveSans_500Medium',
+            fontFamily:
+              'InclusiveSans_500Medium',
           }}>
           Inclusive Sans Medium
         </Text>
@@ -104,7 +115,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InclusiveSans_600SemiBold',
+            fontFamily:
+              'InclusiveSans_600SemiBold',
           }}>
           Inclusive Sans Semi Bold
         </Text>
@@ -114,7 +126,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InclusiveSans_700Bold',
+            fontFamily:
+              'InclusiveSans_700Bold',
           }}>
           Inclusive Sans Bold
         </Text>
@@ -124,7 +137,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InclusiveSans_300Light_Italic',
+            fontFamily:
+              'InclusiveSans_300Light_Italic',
           }}>
           Inclusive Sans Light Italic
         </Text>
@@ -134,7 +148,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InclusiveSans_400Regular_Italic',
+            fontFamily:
+              'InclusiveSans_400Regular_Italic',
           }}>
           Inclusive Sans Italic
         </Text>
@@ -144,7 +159,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InclusiveSans_500Medium_Italic',
+            fontFamily:
+              'InclusiveSans_500Medium_Italic',
           }}>
           Inclusive Sans Medium Italic
         </Text>
@@ -154,9 +170,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InclusiveSans_600SemiBold_Italic',
+            fontFamily:
+              'InclusiveSans_600SemiBold_Italic',
           }}>
-          Inclusive Sans Semi Bold Italic
+          Inclusive Sans Semi Bold
+          Italic
         </Text>
 
         <Text
@@ -164,7 +182,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InclusiveSans_700Bold_Italic',
+            fontFamily:
+              'InclusiveSans_700Bold_Italic',
           }}>
           Inclusive Sans Bold Italic
         </Text>

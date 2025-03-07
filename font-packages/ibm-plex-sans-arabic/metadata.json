@@ -1,7 +1,20 @@
 {
   "family": "IBM Plex Sans Arabic",
-  "variants": ["100", "200", "300", "regular", "500", "600", "700"],
-  "subsets": ["arabic", "cyrillic-ext", "latin", "latin-ext"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "arabic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v13",
   "lastModified": "2024-12-04",
   "files": {

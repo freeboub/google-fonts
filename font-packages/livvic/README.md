@@ -40,7 +40,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-livvic/useFonts';
 import { Livvic_100Thin } from 'expo-google-fonts-livvic/100Thin';
 import { Livvic_100Thin_Italic } from 'expo-google-fonts-livvic/100Thin_Italic';
@@ -86,13 +89,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Livvic_100Thin',
+            fontFamily:
+              'Livvic_100Thin',
           }}>
           Livvic Thin
         </Text>
@@ -102,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Livvic_100Thin_Italic',
+            fontFamily:
+              'Livvic_100Thin_Italic',
           }}>
           Livvic Thin Italic
         </Text>
@@ -112,7 +122,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Livvic_200ExtraLight',
+            fontFamily:
+              'Livvic_200ExtraLight',
           }}>
           Livvic Extra Light
         </Text>
@@ -122,7 +133,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Livvic_200ExtraLight_Italic',
+            fontFamily:
+              'Livvic_200ExtraLight_Italic',
           }}>
           Livvic Extra Light Italic
         </Text>
@@ -132,7 +144,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Livvic_300Light',
+            fontFamily:
+              'Livvic_300Light',
           }}>
           Livvic Light
         </Text>
@@ -142,7 +155,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Livvic_300Light_Italic',
+            fontFamily:
+              'Livvic_300Light_Italic',
           }}>
           Livvic Light Italic
         </Text>
@@ -152,7 +166,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Livvic_400Regular',
+            fontFamily:
+              'Livvic_400Regular',
           }}>
           Livvic Regular
         </Text>
@@ -162,7 +177,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Livvic_400Regular_Italic',
+            fontFamily:
+              'Livvic_400Regular_Italic',
           }}>
           Livvic Italic
         </Text>
@@ -172,7 +188,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Livvic_500Medium',
+            fontFamily:
+              'Livvic_500Medium',
           }}>
           Livvic Medium
         </Text>
@@ -182,7 +199,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Livvic_500Medium_Italic',
+            fontFamily:
+              'Livvic_500Medium_Italic',
           }}>
           Livvic Medium Italic
         </Text>
@@ -192,7 +210,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Livvic_600SemiBold',
+            fontFamily:
+              'Livvic_600SemiBold',
           }}>
           Livvic Semi Bold
         </Text>
@@ -202,7 +221,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Livvic_600SemiBold_Italic',
+            fontFamily:
+              'Livvic_600SemiBold_Italic',
           }}>
           Livvic Semi Bold Italic
         </Text>
@@ -212,7 +232,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Livvic_700Bold',
+            fontFamily:
+              'Livvic_700Bold',
           }}>
           Livvic Bold
         </Text>
@@ -222,7 +243,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Livvic_700Bold_Italic',
+            fontFamily:
+              'Livvic_700Bold_Italic',
           }}>
           Livvic Bold Italic
         </Text>
@@ -232,7 +254,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Livvic_900Black',
+            fontFamily:
+              'Livvic_900Black',
           }}>
           Livvic Black
         </Text>
@@ -242,7 +265,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Livvic_900Black_Italic',
+            fontFamily:
+              'Livvic_900Black_Italic',
           }}>
           Livvic Black Italic
         </Text>

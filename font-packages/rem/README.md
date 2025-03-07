@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-rem/useFonts';
 import { REM_100Thin } from 'expo-google-fonts-rem/100Thin';
 import { REM_200ExtraLight } from 'expo-google-fonts-rem/200ExtraLight';
@@ -92,7 +95,12 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
@@ -108,7 +116,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'REM_200ExtraLight',
+            fontFamily:
+              'REM_200ExtraLight',
           }}>
           REM Extra Light
         </Text>
@@ -128,7 +137,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'REM_400Regular',
+            fontFamily:
+              'REM_400Regular',
           }}>
           REM Regular
         </Text>
@@ -148,7 +158,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'REM_600SemiBold',
+            fontFamily:
+              'REM_600SemiBold',
           }}>
           REM Semi Bold
         </Text>
@@ -168,7 +179,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'REM_800ExtraBold',
+            fontFamily:
+              'REM_800ExtraBold',
           }}>
           REM Extra Bold
         </Text>
@@ -188,7 +200,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'REM_100Thin_Italic',
+            fontFamily:
+              'REM_100Thin_Italic',
           }}>
           REM Thin Italic
         </Text>
@@ -198,7 +211,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'REM_200ExtraLight_Italic',
+            fontFamily:
+              'REM_200ExtraLight_Italic',
           }}>
           REM Extra Light Italic
         </Text>
@@ -208,7 +222,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'REM_300Light_Italic',
+            fontFamily:
+              'REM_300Light_Italic',
           }}>
           REM Light Italic
         </Text>
@@ -218,7 +233,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'REM_400Regular_Italic',
+            fontFamily:
+              'REM_400Regular_Italic',
           }}>
           REM Italic
         </Text>
@@ -228,7 +244,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'REM_500Medium_Italic',
+            fontFamily:
+              'REM_500Medium_Italic',
           }}>
           REM Medium Italic
         </Text>
@@ -238,7 +255,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'REM_600SemiBold_Italic',
+            fontFamily:
+              'REM_600SemiBold_Italic',
           }}>
           REM Semi Bold Italic
         </Text>
@@ -248,7 +266,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'REM_700Bold_Italic',
+            fontFamily:
+              'REM_700Bold_Italic',
           }}>
           REM Bold Italic
         </Text>
@@ -258,7 +277,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'REM_800ExtraBold_Italic',
+            fontFamily:
+              'REM_800ExtraBold_Italic',
           }}>
           REM Extra Bold Italic
         </Text>
@@ -268,7 +288,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'REM_900Black_Italic',
+            fontFamily:
+              'REM_900Black_Italic',
           }}>
           REM Black Italic
         </Text>

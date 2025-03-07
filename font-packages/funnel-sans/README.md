@@ -36,7 +36,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-funnel-sans/useFonts';
 import { FunnelSans_300Light } from 'expo-google-fonts-funnel-sans/300Light';
 import { FunnelSans_400Regular } from 'expo-google-fonts-funnel-sans/400Regular';
@@ -74,13 +77,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FunnelSans_300Light',
+            fontFamily:
+              'FunnelSans_300Light',
           }}>
           Funnel Sans Light
         </Text>
@@ -90,7 +99,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FunnelSans_400Regular',
+            fontFamily:
+              'FunnelSans_400Regular',
           }}>
           Funnel Sans Regular
         </Text>
@@ -100,7 +110,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FunnelSans_500Medium',
+            fontFamily:
+              'FunnelSans_500Medium',
           }}>
           Funnel Sans Medium
         </Text>
@@ -110,7 +121,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FunnelSans_600SemiBold',
+            fontFamily:
+              'FunnelSans_600SemiBold',
           }}>
           Funnel Sans Semi Bold
         </Text>
@@ -120,7 +132,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FunnelSans_700Bold',
+            fontFamily:
+              'FunnelSans_700Bold',
           }}>
           Funnel Sans Bold
         </Text>
@@ -130,7 +143,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FunnelSans_800ExtraBold',
+            fontFamily:
+              'FunnelSans_800ExtraBold',
           }}>
           Funnel Sans Extra Bold
         </Text>
@@ -140,7 +154,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FunnelSans_300Light_Italic',
+            fontFamily:
+              'FunnelSans_300Light_Italic',
           }}>
           Funnel Sans Light Italic
         </Text>
@@ -150,7 +165,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FunnelSans_400Regular_Italic',
+            fontFamily:
+              'FunnelSans_400Regular_Italic',
           }}>
           Funnel Sans Italic
         </Text>
@@ -160,7 +176,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FunnelSans_500Medium_Italic',
+            fontFamily:
+              'FunnelSans_500Medium_Italic',
           }}>
           Funnel Sans Medium Italic
         </Text>
@@ -170,7 +187,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FunnelSans_600SemiBold_Italic',
+            fontFamily:
+              'FunnelSans_600SemiBold_Italic',
           }}>
           Funnel Sans Semi Bold Italic
         </Text>
@@ -180,7 +198,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FunnelSans_700Bold_Italic',
+            fontFamily:
+              'FunnelSans_700Bold_Italic',
           }}>
           Funnel Sans Bold Italic
         </Text>
@@ -190,7 +209,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FunnelSans_800ExtraBold_Italic',
+            fontFamily:
+              'FunnelSans_800ExtraBold_Italic',
           }}>
           Funnel Sans Extra Bold Italic
         </Text>

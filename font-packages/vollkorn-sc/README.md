@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-vollkorn-sc/useFonts';
 import { VollkornSC_400Regular } from 'expo-google-fonts-vollkorn-sc/400Regular';
 import { VollkornSC_600SemiBold } from 'expo-google-fonts-vollkorn-sc/600SemiBold';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VollkornSC_400Regular',
+            fontFamily:
+              'VollkornSC_400Regular',
           }}>
           Vollkorn SC Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VollkornSC_600SemiBold',
+            fontFamily:
+              'VollkornSC_600SemiBold',
           }}>
           Vollkorn SC Semi Bold
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VollkornSC_700Bold',
+            fontFamily:
+              'VollkornSC_700Bold',
           }}>
           Vollkorn SC Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'VollkornSC_900Black',
+            fontFamily:
+              'VollkornSC_900Black',
           }}>
           Vollkorn SC Black
         </Text>

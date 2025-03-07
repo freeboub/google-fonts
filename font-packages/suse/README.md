@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-suse/useFonts';
 import { SUSE_100Thin } from 'expo-google-fonts-suse/100Thin';
 import { SUSE_200ExtraLight } from 'expo-google-fonts-suse/200ExtraLight';
@@ -62,7 +65,12 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
@@ -78,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SUSE_200ExtraLight',
+            fontFamily:
+              'SUSE_200ExtraLight',
           }}>
           SUSE Extra Light
         </Text>
@@ -98,7 +107,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SUSE_400Regular',
+            fontFamily:
+              'SUSE_400Regular',
           }}>
           SUSE Regular
         </Text>
@@ -108,7 +118,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SUSE_500Medium',
+            fontFamily:
+              'SUSE_500Medium',
           }}>
           SUSE Medium
         </Text>
@@ -118,7 +129,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SUSE_600SemiBold',
+            fontFamily:
+              'SUSE_600SemiBold',
           }}>
           SUSE Semi Bold
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SUSE_800ExtraBold',
+            fontFamily:
+              'SUSE_800ExtraBold',
           }}>
           SUSE Extra Bold
         </Text>

@@ -1,7 +1,17 @@
 {
   "family": "Hind Mysuru",
-  "variants": ["300", "regular", "500", "600", "700"],
-  "subsets": ["kannada", "latin", "latin-ext"],
+  "variants": [
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "kannada",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v1",
   "lastModified": "2024-12-04",
   "files": {

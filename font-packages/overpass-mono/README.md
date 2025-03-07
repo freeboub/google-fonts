@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-overpass-mono/useFonts';
 import { OverpassMono_300Light } from 'expo-google-fonts-overpass-mono/300Light';
 import { OverpassMono_400Regular } from 'expo-google-fonts-overpass-mono/400Regular';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'OverpassMono_300Light',
+            fontFamily:
+              'OverpassMono_300Light',
           }}>
           Overpass Mono Light
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'OverpassMono_400Regular',
+            fontFamily:
+              'OverpassMono_400Regular',
           }}>
           Overpass Mono Regular
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'OverpassMono_500Medium',
+            fontFamily:
+              'OverpassMono_500Medium',
           }}>
           Overpass Mono Medium
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'OverpassMono_600SemiBold',
+            fontFamily:
+              'OverpassMono_600SemiBold',
           }}>
           Overpass Mono Semi Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'OverpassMono_700Bold',
+            fontFamily:
+              'OverpassMono_700Bold',
           }}>
           Overpass Mono Bold
         </Text>

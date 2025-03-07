@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-dosis/useFonts';
 import { Dosis_200ExtraLight } from 'expo-google-fonts-dosis/200ExtraLight';
 import { Dosis_300Light } from 'expo-google-fonts-dosis/300Light';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Dosis_200ExtraLight',
+            fontFamily:
+              'Dosis_200ExtraLight',
           }}>
           Dosis Extra Light
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Dosis_300Light',
+            fontFamily:
+              'Dosis_300Light',
           }}>
           Dosis Light
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Dosis_400Regular',
+            fontFamily:
+              'Dosis_400Regular',
           }}>
           Dosis Regular
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Dosis_500Medium',
+            fontFamily:
+              'Dosis_500Medium',
           }}>
           Dosis Medium
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Dosis_600SemiBold',
+            fontFamily:
+              'Dosis_600SemiBold',
           }}>
           Dosis Semi Bold
         </Text>
@@ -125,7 +138,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Dosis_800ExtraBold',
+            fontFamily:
+              'Dosis_800ExtraBold',
           }}>
           Dosis Extra Bold
         </Text>

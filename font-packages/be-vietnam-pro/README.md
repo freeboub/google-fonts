@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-be-vietnam-pro/useFonts';
 import { BeVietnamPro_100Thin } from 'expo-google-fonts-be-vietnam-pro/100Thin';
 import { BeVietnamPro_100Thin_Italic } from 'expo-google-fonts-be-vietnam-pro/100Thin_Italic';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_100Thin',
+            fontFamily:
+              'BeVietnamPro_100Thin',
           }}>
           Be Vietnam Pro Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_100Thin_Italic',
+            fontFamily:
+              'BeVietnamPro_100Thin_Italic',
           }}>
           Be Vietnam Pro Thin Italic
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_200ExtraLight',
+            fontFamily:
+              'BeVietnamPro_200ExtraLight',
           }}>
           Be Vietnam Pro Extra Light
         </Text>
@@ -128,9 +139,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_200ExtraLight_Italic',
+            fontFamily:
+              'BeVietnamPro_200ExtraLight_Italic',
           }}>
-          Be Vietnam Pro Extra Light Italic
+          Be Vietnam Pro Extra Light
+          Italic
         </Text>
 
         <Text
@@ -138,7 +151,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_300Light',
+            fontFamily:
+              'BeVietnamPro_300Light',
           }}>
           Be Vietnam Pro Light
         </Text>
@@ -148,7 +162,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_300Light_Italic',
+            fontFamily:
+              'BeVietnamPro_300Light_Italic',
           }}>
           Be Vietnam Pro Light Italic
         </Text>
@@ -158,7 +173,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_400Regular',
+            fontFamily:
+              'BeVietnamPro_400Regular',
           }}>
           Be Vietnam Pro Regular
         </Text>
@@ -168,7 +184,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_400Regular_Italic',
+            fontFamily:
+              'BeVietnamPro_400Regular_Italic',
           }}>
           Be Vietnam Pro Italic
         </Text>
@@ -178,7 +195,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_500Medium',
+            fontFamily:
+              'BeVietnamPro_500Medium',
           }}>
           Be Vietnam Pro Medium
         </Text>
@@ -188,7 +206,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_500Medium_Italic',
+            fontFamily:
+              'BeVietnamPro_500Medium_Italic',
           }}>
           Be Vietnam Pro Medium Italic
         </Text>
@@ -198,7 +217,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_600SemiBold',
+            fontFamily:
+              'BeVietnamPro_600SemiBold',
           }}>
           Be Vietnam Pro Semi Bold
         </Text>
@@ -208,9 +228,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_600SemiBold_Italic',
+            fontFamily:
+              'BeVietnamPro_600SemiBold_Italic',
           }}>
-          Be Vietnam Pro Semi Bold Italic
+          Be Vietnam Pro Semi Bold
+          Italic
         </Text>
 
         <Text
@@ -218,7 +240,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_700Bold',
+            fontFamily:
+              'BeVietnamPro_700Bold',
           }}>
           Be Vietnam Pro Bold
         </Text>
@@ -228,7 +251,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_700Bold_Italic',
+            fontFamily:
+              'BeVietnamPro_700Bold_Italic',
           }}>
           Be Vietnam Pro Bold Italic
         </Text>
@@ -238,7 +262,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_800ExtraBold',
+            fontFamily:
+              'BeVietnamPro_800ExtraBold',
           }}>
           Be Vietnam Pro Extra Bold
         </Text>
@@ -248,9 +273,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_800ExtraBold_Italic',
+            fontFamily:
+              'BeVietnamPro_800ExtraBold_Italic',
           }}>
-          Be Vietnam Pro Extra Bold Italic
+          Be Vietnam Pro Extra Bold
+          Italic
         </Text>
 
         <Text
@@ -258,7 +285,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_900Black',
+            fontFamily:
+              'BeVietnamPro_900Black',
           }}>
           Be Vietnam Pro Black
         </Text>
@@ -268,7 +296,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BeVietnamPro_900Black_Italic',
+            fontFamily:
+              'BeVietnamPro_900Black_Italic',
           }}>
           Be Vietnam Pro Black Italic
         </Text>

@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Imperial Aramaic",
   "variants": ["regular"],
-  "subsets": ["imperial-aramaic", "latin", "latin-ext"],
+  "subsets": [
+    "imperial-aramaic",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v17",
   "lastModified": "2024-07-01",
   "files": {

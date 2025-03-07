@@ -1,7 +1,23 @@
 {
   "family": "Noto Sans Gujarati",
-  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
-  "subsets": ["gujarati", "latin", "latin-ext", "math", "symbols"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900"
+  ],
+  "subsets": [
+    "gujarati",
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols"
+  ],
   "version": "v25",
   "lastModified": "2023-11-28",
   "files": {

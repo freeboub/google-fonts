@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-arima/useFonts';
 import { Arima_100Thin } from 'expo-google-fonts-arima/100Thin';
 import { Arima_200ExtraLight } from 'expo-google-fonts-arima/200ExtraLight';
@@ -59,7 +62,12 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
@@ -75,7 +83,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Arima_200ExtraLight',
+            fontFamily:
+              'Arima_200ExtraLight',
           }}>
           Arima Extra Light
         </Text>
@@ -85,7 +94,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Arima_300Light',
+            fontFamily:
+              'Arima_300Light',
           }}>
           Arima Light
         </Text>
@@ -95,7 +105,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Arima_400Regular',
+            fontFamily:
+              'Arima_400Regular',
           }}>
           Arima Regular
         </Text>
@@ -105,7 +116,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Arima_500Medium',
+            fontFamily:
+              'Arima_500Medium',
           }}>
           Arima Medium
         </Text>
@@ -115,7 +127,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Arima_600SemiBold',
+            fontFamily:
+              'Arima_600SemiBold',
           }}>
           Arima Semi Bold
         </Text>

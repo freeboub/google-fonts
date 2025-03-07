@@ -26,7 +26,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-sorts-mill-goudy/useFonts';
 import { SortsMillGoudy_400Regular } from 'expo-google-fonts-sorts-mill-goudy/400Regular';
 import { SortsMillGoudy_400Regular_Italic } from 'expo-google-fonts-sorts-mill-goudy/400Regular_Italic';
@@ -44,13 +47,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SortsMillGoudy_400Regular',
+            fontFamily:
+              'SortsMillGoudy_400Regular',
           }}>
           Sorts Mill Goudy Regular
         </Text>
@@ -60,7 +69,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SortsMillGoudy_400Regular_Italic',
+            fontFamily:
+              'SortsMillGoudy_400Regular_Italic',
           }}>
           Sorts Mill Goudy Italic
         </Text>

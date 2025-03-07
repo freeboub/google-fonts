@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playwrite-de-sas/useFonts';
 import { PlaywriteDESAS_100Thin } from 'expo-google-fonts-playwrite-de-sas/100Thin';
 import { PlaywriteDESAS_200ExtraLight } from 'expo-google-fonts-playwrite-de-sas/200ExtraLight';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteDESAS_100Thin',
+            fontFamily:
+              'PlaywriteDESAS_100Thin',
           }}>
           Playwrite DE SAS Thin
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteDESAS_200ExtraLight',
+            fontFamily:
+              'PlaywriteDESAS_200ExtraLight',
           }}>
           Playwrite DE SAS Extra Light
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteDESAS_300Light',
+            fontFamily:
+              'PlaywriteDESAS_300Light',
           }}>
           Playwrite DE SAS Light
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteDESAS_400Regular',
+            fontFamily:
+              'PlaywriteDESAS_400Regular',
           }}>
           Playwrite DE SAS Regular
         </Text>

@@ -1,7 +1,13 @@
 {
   "family": "Noto Sans Brahmi",
   "variants": ["regular"],
-  "subsets": ["brahmi", "latin", "latin-ext", "math", "symbols"],
+  "subsets": [
+    "brahmi",
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols"
+  ],
   "version": "v19",
   "lastModified": "2024-02-29",
   "files": {

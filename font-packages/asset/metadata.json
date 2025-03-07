@@ -1,10 +1,18 @@
 {
   "family": "Asset",
   "variants": ["regular"],
-  "subsets": ["cyrillic-ext", "latin", "latin-ext", "math", "symbols"],
+  "subsets": [
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols"
+  ],
   "version": "v29",
   "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/asset/v29/SLXGc1na-mM4cWImRJqExst1.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/asset/v29/SLXGc1na-mM4cWImRJqExst1.ttf"
+  },
   "category": "display",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/asset/v29/SLXGc1na-mM4cVInTp4.ttf"

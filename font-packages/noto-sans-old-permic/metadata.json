@@ -1,7 +1,12 @@
 {
   "family": "Noto Sans Old Permic",
   "variants": ["regular"],
-  "subsets": ["cyrillic-ext", "latin", "latin-ext", "old-permic"],
+  "subsets": [
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "old-permic"
+  ],
   "version": "v17",
   "lastModified": "2023-07-13",
   "files": {

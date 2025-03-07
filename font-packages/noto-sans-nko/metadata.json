@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans NKo",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "nko"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "nko"
+  ],
   "version": "v6",
   "lastModified": "2023-09-27",
   "files": {

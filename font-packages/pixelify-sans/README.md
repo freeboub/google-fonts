@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-pixelify-sans/useFonts';
 import { PixelifySans_400Regular } from 'expo-google-fonts-pixelify-sans/400Regular';
 import { PixelifySans_500Medium } from 'expo-google-fonts-pixelify-sans/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PixelifySans_400Regular',
+            fontFamily:
+              'PixelifySans_400Regular',
           }}>
           Pixelify Sans Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PixelifySans_500Medium',
+            fontFamily:
+              'PixelifySans_500Medium',
           }}>
           Pixelify Sans Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PixelifySans_600SemiBold',
+            fontFamily:
+              'PixelifySans_600SemiBold',
           }}>
           Pixelify Sans Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PixelifySans_700Bold',
+            fontFamily:
+              'PixelifySans_700Bold',
           }}>
           Pixelify Sans Bold
         </Text>

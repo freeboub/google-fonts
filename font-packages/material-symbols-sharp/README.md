@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-material-symbols-sharp/useFonts';
 import { MaterialSymbolsSharp_100Thin } from 'expo-google-fonts-material-symbols-sharp/100Thin';
 import { MaterialSymbolsSharp_200ExtraLight } from 'expo-google-fonts-material-symbols-sharp/200ExtraLight';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MaterialSymbolsSharp_100Thin',
+            fontFamily:
+              'MaterialSymbolsSharp_100Thin',
           }}>
           Material Symbols Sharp Thin
         </Text>
@@ -75,9 +84,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MaterialSymbolsSharp_200ExtraLight',
+            fontFamily:
+              'MaterialSymbolsSharp_200ExtraLight',
           }}>
-          Material Symbols Sharp Extra Light
+          Material Symbols Sharp Extra
+          Light
         </Text>
 
         <Text
@@ -85,7 +96,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MaterialSymbolsSharp_300Light',
+            fontFamily:
+              'MaterialSymbolsSharp_300Light',
           }}>
           Material Symbols Sharp Light
         </Text>
@@ -95,7 +107,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MaterialSymbolsSharp_400Regular',
+            fontFamily:
+              'MaterialSymbolsSharp_400Regular',
           }}>
           Material Symbols Sharp Regular
         </Text>
@@ -105,7 +118,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MaterialSymbolsSharp_500Medium',
+            fontFamily:
+              'MaterialSymbolsSharp_500Medium',
           }}>
           Material Symbols Sharp Medium
         </Text>
@@ -115,9 +129,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MaterialSymbolsSharp_600SemiBold',
+            fontFamily:
+              'MaterialSymbolsSharp_600SemiBold',
           }}>
-          Material Symbols Sharp Semi Bold
+          Material Symbols Sharp Semi
+          Bold
         </Text>
 
         <Text
@@ -125,7 +141,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MaterialSymbolsSharp_700Bold',
+            fontFamily:
+              'MaterialSymbolsSharp_700Bold',
           }}>
           Material Symbols Sharp Bold
         </Text>

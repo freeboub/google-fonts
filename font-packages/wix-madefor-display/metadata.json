@@ -1,7 +1,19 @@
 {
   "family": "Wix Madefor Display",
-  "variants": ["regular", "500", "600", "700", "800"],
-  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800"
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v10",
   "lastModified": "2024-09-04",
   "files": {

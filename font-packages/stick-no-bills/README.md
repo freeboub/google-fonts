@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-stick-no-bills/useFonts';
 import { StickNoBills_200ExtraLight } from 'expo-google-fonts-stick-no-bills/200ExtraLight';
 import { StickNoBills_300Light } from 'expo-google-fonts-stick-no-bills/300Light';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'StickNoBills_200ExtraLight',
+            fontFamily:
+              'StickNoBills_200ExtraLight',
           }}>
           Stick No Bills Extra Light
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'StickNoBills_300Light',
+            fontFamily:
+              'StickNoBills_300Light',
           }}>
           Stick No Bills Light
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'StickNoBills_400Regular',
+            fontFamily:
+              'StickNoBills_400Regular',
           }}>
           Stick No Bills Regular
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'StickNoBills_500Medium',
+            fontFamily:
+              'StickNoBills_500Medium',
           }}>
           Stick No Bills Medium
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'StickNoBills_600SemiBold',
+            fontFamily:
+              'StickNoBills_600SemiBold',
           }}>
           Stick No Bills Semi Bold
         </Text>
@@ -115,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'StickNoBills_700Bold',
+            fontFamily:
+              'StickNoBills_700Bold',
           }}>
           Stick No Bills Bold
         </Text>
@@ -125,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'StickNoBills_800ExtraBold',
+            fontFamily:
+              'StickNoBills_800ExtraBold',
           }}>
           Stick No Bills Extra Bold
         </Text>

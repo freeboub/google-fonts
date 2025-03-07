@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-baloo-paaji-2/useFonts';
 import { BalooPaaji2_400Regular } from 'expo-google-fonts-baloo-paaji-2/400Regular';
 import { BalooPaaji2_500Medium } from 'expo-google-fonts-baloo-paaji-2/500Medium';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BalooPaaji2_400Regular',
+            fontFamily:
+              'BalooPaaji2_400Regular',
           }}>
           Baloo Paaji 2 Regular
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BalooPaaji2_500Medium',
+            fontFamily:
+              'BalooPaaji2_500Medium',
           }}>
           Baloo Paaji 2 Medium
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BalooPaaji2_600SemiBold',
+            fontFamily:
+              'BalooPaaji2_600SemiBold',
           }}>
           Baloo Paaji 2 Semi Bold
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BalooPaaji2_700Bold',
+            fontFamily:
+              'BalooPaaji2_700Bold',
           }}>
           Baloo Paaji 2 Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BalooPaaji2_800ExtraBold',
+            fontFamily:
+              'BalooPaaji2_800ExtraBold',
           }}>
           Baloo Paaji 2 Extra Bold
         </Text>

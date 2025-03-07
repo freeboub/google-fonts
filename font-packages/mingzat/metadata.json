@@ -1,10 +1,16 @@
 {
   "family": "Mingzat",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "lepcha"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "lepcha"
+  ],
   "version": "v8",
   "lastModified": "2023-09-13",
-  "files": { "regular": "https://fonts.gstatic.com/s/mingzat/v8/0QIgMX5C-o-oWWyvBttkm_mv670.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/mingzat/v8/0QIgMX5C-o-oWWyvBttkm_mv670.ttf"
+  },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/mingzat/v8/0QIgMX5C-o-oWWyvNtpunw.ttf"

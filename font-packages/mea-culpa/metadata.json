@@ -1,7 +1,11 @@
 {
   "family": "Mea Culpa",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v6",
   "lastModified": "2024-09-04",
   "files": {

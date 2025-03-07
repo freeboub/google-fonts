@@ -1,7 +1,11 @@
 {
   "family": "Suez One",
   "variants": ["regular"],
-  "subsets": ["hebrew", "latin", "latin-ext"],
+  "subsets": [
+    "hebrew",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v13",
   "lastModified": "2024-09-04",
   "files": {

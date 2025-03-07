@@ -1,7 +1,18 @@
 {
   "family": "Vollkorn SC",
-  "variants": ["regular", "600", "700", "900"],
-  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
+  "variants": [
+    "regular",
+    "600",
+    "700",
+    "900"
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v11",
   "lastModified": "2024-09-04",
   "files": {

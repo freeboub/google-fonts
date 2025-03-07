@@ -34,7 +34,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-yrsa/useFonts';
 import { Yrsa_300Light } from 'expo-google-fonts-yrsa/300Light';
 import { Yrsa_400Regular } from 'expo-google-fonts-yrsa/400Regular';
@@ -68,7 +71,12 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
@@ -84,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Yrsa_400Regular',
+            fontFamily:
+              'Yrsa_400Regular',
           }}>
           Yrsa Regular
         </Text>
@@ -94,7 +103,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Yrsa_500Medium',
+            fontFamily:
+              'Yrsa_500Medium',
           }}>
           Yrsa Medium
         </Text>
@@ -104,7 +114,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Yrsa_600SemiBold',
+            fontFamily:
+              'Yrsa_600SemiBold',
           }}>
           Yrsa Semi Bold
         </Text>
@@ -124,7 +135,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Yrsa_300Light_Italic',
+            fontFamily:
+              'Yrsa_300Light_Italic',
           }}>
           Yrsa Light Italic
         </Text>
@@ -134,7 +146,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Yrsa_400Regular_Italic',
+            fontFamily:
+              'Yrsa_400Regular_Italic',
           }}>
           Yrsa Italic
         </Text>
@@ -144,7 +157,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Yrsa_500Medium_Italic',
+            fontFamily:
+              'Yrsa_500Medium_Italic',
           }}>
           Yrsa Medium Italic
         </Text>
@@ -154,7 +168,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Yrsa_600SemiBold_Italic',
+            fontFamily:
+              'Yrsa_600SemiBold_Italic',
           }}>
           Yrsa Semi Bold Italic
         </Text>
@@ -164,7 +179,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Yrsa_700Bold_Italic',
+            fontFamily:
+              'Yrsa_700Bold_Italic',
           }}>
           Yrsa Bold Italic
         </Text>

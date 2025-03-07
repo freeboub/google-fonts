@@ -36,7 +36,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-alegreya/useFonts';
 import { Alegreya_400Regular } from 'expo-google-fonts-alegreya/400Regular';
 import { Alegreya_500Medium } from 'expo-google-fonts-alegreya/500Medium';
@@ -74,13 +77,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Alegreya_400Regular',
+            fontFamily:
+              'Alegreya_400Regular',
           }}>
           Alegreya Regular
         </Text>
@@ -90,7 +99,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Alegreya_500Medium',
+            fontFamily:
+              'Alegreya_500Medium',
           }}>
           Alegreya Medium
         </Text>
@@ -100,7 +110,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Alegreya_600SemiBold',
+            fontFamily:
+              'Alegreya_600SemiBold',
           }}>
           Alegreya Semi Bold
         </Text>
@@ -110,7 +121,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Alegreya_700Bold',
+            fontFamily:
+              'Alegreya_700Bold',
           }}>
           Alegreya Bold
         </Text>
@@ -120,7 +132,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Alegreya_800ExtraBold',
+            fontFamily:
+              'Alegreya_800ExtraBold',
           }}>
           Alegreya Extra Bold
         </Text>
@@ -130,7 +143,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Alegreya_900Black',
+            fontFamily:
+              'Alegreya_900Black',
           }}>
           Alegreya Black
         </Text>
@@ -140,7 +154,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Alegreya_400Regular_Italic',
+            fontFamily:
+              'Alegreya_400Regular_Italic',
           }}>
           Alegreya Italic
         </Text>
@@ -150,7 +165,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Alegreya_500Medium_Italic',
+            fontFamily:
+              'Alegreya_500Medium_Italic',
           }}>
           Alegreya Medium Italic
         </Text>
@@ -160,7 +176,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Alegreya_600SemiBold_Italic',
+            fontFamily:
+              'Alegreya_600SemiBold_Italic',
           }}>
           Alegreya Semi Bold Italic
         </Text>
@@ -170,7 +187,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Alegreya_700Bold_Italic',
+            fontFamily:
+              'Alegreya_700Bold_Italic',
           }}>
           Alegreya Bold Italic
         </Text>
@@ -180,7 +198,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Alegreya_800ExtraBold_Italic',
+            fontFamily:
+              'Alegreya_800ExtraBold_Italic',
           }}>
           Alegreya Extra Bold Italic
         </Text>
@@ -190,7 +209,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Alegreya_900Black_Italic',
+            fontFamily:
+              'Alegreya_900Black_Italic',
           }}>
           Alegreya Black Italic
         </Text>

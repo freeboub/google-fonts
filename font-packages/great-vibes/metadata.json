@@ -1,7 +1,14 @@
 {
   "family": "Great Vibes",
   "variants": ["regular"],
-  "subsets": ["cyrillic", "cyrillic-ext", "greek-ext", "latin", "latin-ext", "vietnamese"],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v19",
   "lastModified": "2024-09-04",
   "files": {

@@ -1,7 +1,22 @@
 {
   "family": "Playpen Sans",
-  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
-  "subsets": ["emoji", "latin", "latin-ext", "math", "vietnamese"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800"
+  ],
+  "subsets": [
+    "emoji",
+    "latin",
+    "latin-ext",
+    "math",
+    "vietnamese"
+  ],
   "version": "v13",
   "lastModified": "2024-08-12",
   "files": {

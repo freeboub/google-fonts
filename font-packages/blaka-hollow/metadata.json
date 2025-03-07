@@ -1,7 +1,11 @@
 {
   "family": "Blaka Hollow",
   "variants": ["regular"],
-  "subsets": ["arabic", "latin", "latin-ext"],
+  "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v7",
   "lastModified": "2024-09-04",
   "files": {

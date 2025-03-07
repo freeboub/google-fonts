@@ -25,7 +25,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-masaram-gondi/useFonts';
 import { NotoSansMasaramGondi_400Regular } from 'expo-google-fonts-noto-sans-masaram-gondi/400Regular';
 
@@ -41,15 +44,22 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansMasaramGondi_400Regular',
+            fontFamily:
+              'NotoSansMasaramGondi_400Regular',
           }}>
-          Noto Sans Masaram Gondi Regular
+          Noto Sans Masaram Gondi
+          Regular
         </Text>
       </View>
     );

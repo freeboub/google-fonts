@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-serif-gujarati/useFonts';
 import { NotoSerifGujarati_100Thin } from 'expo-google-fonts-noto-serif-gujarati/100Thin';
 import { NotoSerifGujarati_200ExtraLight } from 'expo-google-fonts-noto-serif-gujarati/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifGujarati_100Thin',
+            fontFamily:
+              'NotoSerifGujarati_100Thin',
           }}>
           Noto Serif Gujarati Thin
         </Text>
@@ -81,9 +90,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifGujarati_200ExtraLight',
+            fontFamily:
+              'NotoSerifGujarati_200ExtraLight',
           }}>
-          Noto Serif Gujarati Extra Light
+          Noto Serif Gujarati Extra
+          Light
         </Text>
 
         <Text
@@ -91,7 +102,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifGujarati_300Light',
+            fontFamily:
+              'NotoSerifGujarati_300Light',
           }}>
           Noto Serif Gujarati Light
         </Text>
@@ -101,7 +113,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifGujarati_400Regular',
+            fontFamily:
+              'NotoSerifGujarati_400Regular',
           }}>
           Noto Serif Gujarati Regular
         </Text>
@@ -111,7 +124,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifGujarati_500Medium',
+            fontFamily:
+              'NotoSerifGujarati_500Medium',
           }}>
           Noto Serif Gujarati Medium
         </Text>
@@ -121,7 +135,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifGujarati_600SemiBold',
+            fontFamily:
+              'NotoSerifGujarati_600SemiBold',
           }}>
           Noto Serif Gujarati Semi Bold
         </Text>
@@ -131,7 +146,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifGujarati_700Bold',
+            fontFamily:
+              'NotoSerifGujarati_700Bold',
           }}>
           Noto Serif Gujarati Bold
         </Text>
@@ -141,7 +157,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifGujarati_800ExtraBold',
+            fontFamily:
+              'NotoSerifGujarati_800ExtraBold',
           }}>
           Noto Serif Gujarati Extra Bold
         </Text>
@@ -151,7 +168,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifGujarati_900Black',
+            fontFamily:
+              'NotoSerifGujarati_900Black',
           }}>
           Noto Serif Gujarati Black
         </Text>

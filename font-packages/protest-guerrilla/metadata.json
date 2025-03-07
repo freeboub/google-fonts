@@ -1,7 +1,13 @@
 {
   "family": "Protest Guerrilla",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "math", "symbols", "vietnamese"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols",
+    "vietnamese"
+  ],
   "version": "v2",
   "lastModified": "2024-09-04",
   "files": {

@@ -25,7 +25,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-just-me-again-down-here/useFonts';
 import { JustMeAgainDownHere_400Regular } from 'expo-google-fonts-just-me-again-down-here/400Regular';
 
@@ -41,15 +44,22 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JustMeAgainDownHere_400Regular',
+            fontFamily:
+              'JustMeAgainDownHere_400Regular',
           }}>
-          Just Me Again Down Here Regular
+          Just Me Again Down Here
+          Regular
         </Text>
       </View>
     );

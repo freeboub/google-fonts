@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-tajawal/useFonts';
 import { Tajawal_200ExtraLight } from 'expo-google-fonts-tajawal/200ExtraLight';
 import { Tajawal_300Light } from 'expo-google-fonts-tajawal/300Light';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tajawal_200ExtraLight',
+            fontFamily:
+              'Tajawal_200ExtraLight',
           }}>
           Tajawal Extra Light
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tajawal_300Light',
+            fontFamily:
+              'Tajawal_300Light',
           }}>
           Tajawal Light
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tajawal_400Regular',
+            fontFamily:
+              'Tajawal_400Regular',
           }}>
           Tajawal Regular
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tajawal_500Medium',
+            fontFamily:
+              'Tajawal_500Medium',
           }}>
           Tajawal Medium
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tajawal_700Bold',
+            fontFamily:
+              'Tajawal_700Bold',
           }}>
           Tajawal Bold
         </Text>
@@ -115,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tajawal_800ExtraBold',
+            fontFamily:
+              'Tajawal_800ExtraBold',
           }}>
           Tajawal Extra Bold
         </Text>
@@ -125,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tajawal_900Black',
+            fontFamily:
+              'Tajawal_900Black',
           }}>
           Tajawal Black
         </Text>

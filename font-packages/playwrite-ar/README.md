@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playwrite-ar/useFonts';
 import { PlaywriteAR_100Thin } from 'expo-google-fonts-playwrite-ar/100Thin';
 import { PlaywriteAR_200ExtraLight } from 'expo-google-fonts-playwrite-ar/200ExtraLight';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteAR_100Thin',
+            fontFamily:
+              'PlaywriteAR_100Thin',
           }}>
           Playwrite AR Thin
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteAR_200ExtraLight',
+            fontFamily:
+              'PlaywriteAR_200ExtraLight',
           }}>
           Playwrite AR Extra Light
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteAR_300Light',
+            fontFamily:
+              'PlaywriteAR_300Light',
           }}>
           Playwrite AR Light
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteAR_400Regular',
+            fontFamily:
+              'PlaywriteAR_400Regular',
           }}>
           Playwrite AR Regular
         </Text>

@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-edu-nsw-act-foundation/useFonts';
 import { EduNSWACTFoundation_400Regular } from 'expo-google-fonts-edu-nsw-act-foundation/400Regular';
 import { EduNSWACTFoundation_500Medium } from 'expo-google-fonts-edu-nsw-act-foundation/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EduNSWACTFoundation_400Regular',
+            fontFamily:
+              'EduNSWACTFoundation_400Regular',
           }}>
           Edu NSW ACT Foundation Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EduNSWACTFoundation_500Medium',
+            fontFamily:
+              'EduNSWACTFoundation_500Medium',
           }}>
           Edu NSW ACT Foundation Medium
         </Text>
@@ -76,9 +86,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EduNSWACTFoundation_600SemiBold',
+            fontFamily:
+              'EduNSWACTFoundation_600SemiBold',
           }}>
-          Edu NSW ACT Foundation Semi Bold
+          Edu NSW ACT Foundation Semi
+          Bold
         </Text>
 
         <Text
@@ -86,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EduNSWACTFoundation_700Bold',
+            fontFamily:
+              'EduNSWACTFoundation_700Bold',
           }}>
           Edu NSW ACT Foundation Bold
         </Text>

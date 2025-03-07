@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-sinhala/useFonts';
 import { NotoSansSinhala_100Thin } from 'expo-google-fonts-noto-sans-sinhala/100Thin';
 import { NotoSansSinhala_200ExtraLight } from 'expo-google-fonts-noto-sans-sinhala/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSinhala_100Thin',
+            fontFamily:
+              'NotoSansSinhala_100Thin',
           }}>
           Noto Sans Sinhala Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSinhala_200ExtraLight',
+            fontFamily:
+              'NotoSansSinhala_200ExtraLight',
           }}>
           Noto Sans Sinhala Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSinhala_300Light',
+            fontFamily:
+              'NotoSansSinhala_300Light',
           }}>
           Noto Sans Sinhala Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSinhala_400Regular',
+            fontFamily:
+              'NotoSansSinhala_400Regular',
           }}>
           Noto Sans Sinhala Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSinhala_500Medium',
+            fontFamily:
+              'NotoSansSinhala_500Medium',
           }}>
           Noto Sans Sinhala Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSinhala_600SemiBold',
+            fontFamily:
+              'NotoSansSinhala_600SemiBold',
           }}>
           Noto Sans Sinhala Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSinhala_700Bold',
+            fontFamily:
+              'NotoSansSinhala_700Bold',
           }}>
           Noto Sans Sinhala Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSinhala_800ExtraBold',
+            fontFamily:
+              'NotoSansSinhala_800ExtraBold',
           }}>
           Noto Sans Sinhala Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSinhala_900Black',
+            fontFamily:
+              'NotoSansSinhala_900Black',
           }}>
           Noto Sans Sinhala Black
         </Text>

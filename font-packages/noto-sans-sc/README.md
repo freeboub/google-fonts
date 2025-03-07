@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-sc/useFonts';
 import { NotoSansSC_100Thin } from 'expo-google-fonts-noto-sans-sc/100Thin';
 import { NotoSansSC_200ExtraLight } from 'expo-google-fonts-noto-sans-sc/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSC_100Thin',
+            fontFamily:
+              'NotoSansSC_100Thin',
           }}>
           Noto Sans SC Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSC_200ExtraLight',
+            fontFamily:
+              'NotoSansSC_200ExtraLight',
           }}>
           Noto Sans SC Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSC_300Light',
+            fontFamily:
+              'NotoSansSC_300Light',
           }}>
           Noto Sans SC Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSC_400Regular',
+            fontFamily:
+              'NotoSansSC_400Regular',
           }}>
           Noto Sans SC Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSC_500Medium',
+            fontFamily:
+              'NotoSansSC_500Medium',
           }}>
           Noto Sans SC Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSC_600SemiBold',
+            fontFamily:
+              'NotoSansSC_600SemiBold',
           }}>
           Noto Sans SC Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSC_700Bold',
+            fontFamily:
+              'NotoSansSC_700Bold',
           }}>
           Noto Sans SC Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSC_800ExtraBold',
+            fontFamily:
+              'NotoSansSC_800ExtraBold',
           }}>
           Noto Sans SC Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSC_900Black',
+            fontFamily:
+              'NotoSansSC_900Black',
           }}>
           Noto Sans SC Black
         </Text>

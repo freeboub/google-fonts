@@ -1,7 +1,11 @@
 {
   "family": "Triodion",
   "variants": ["regular"],
-  "subsets": ["cyrillic", "cyrillic-ext", "latin"],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin"
+  ],
   "version": "v3",
   "lastModified": "2025-02-12",
   "files": {

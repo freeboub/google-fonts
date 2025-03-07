@@ -1,7 +1,12 @@
 {
   "family": "PT Sans Narrow",
   "variants": ["regular", "700"],
-  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v18",
   "lastModified": "2024-08-12",
   "files": {

@@ -4,7 +4,9 @@
   "subsets": ["latin", "latin-ext"],
   "version": "v19",
   "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/peralta/v19/hYkJPu0-RP_9d3kRGxAhrv956B8.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/peralta/v19/hYkJPu0-RP_9d3kRGxAhrv956B8.ttf"
+  },
   "category": "serif",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/peralta/v19/hYkJPu0-RP_9d3kRKxErqg.ttf"

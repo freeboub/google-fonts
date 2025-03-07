@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-smooch-sans/useFonts';
 import { SmoochSans_100Thin } from 'expo-google-fonts-smooch-sans/100Thin';
 import { SmoochSans_200ExtraLight } from 'expo-google-fonts-smooch-sans/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SmoochSans_100Thin',
+            fontFamily:
+              'SmoochSans_100Thin',
           }}>
           Smooch Sans Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SmoochSans_200ExtraLight',
+            fontFamily:
+              'SmoochSans_200ExtraLight',
           }}>
           Smooch Sans Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SmoochSans_300Light',
+            fontFamily:
+              'SmoochSans_300Light',
           }}>
           Smooch Sans Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SmoochSans_400Regular',
+            fontFamily:
+              'SmoochSans_400Regular',
           }}>
           Smooch Sans Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SmoochSans_500Medium',
+            fontFamily:
+              'SmoochSans_500Medium',
           }}>
           Smooch Sans Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SmoochSans_600SemiBold',
+            fontFamily:
+              'SmoochSans_600SemiBold',
           }}>
           Smooch Sans Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SmoochSans_700Bold',
+            fontFamily:
+              'SmoochSans_700Bold',
           }}>
           Smooch Sans Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SmoochSans_800ExtraBold',
+            fontFamily:
+              'SmoochSans_800ExtraBold',
           }}>
           Smooch Sans Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SmoochSans_900Black',
+            fontFamily:
+              'SmoochSans_900Black',
           }}>
           Smooch Sans Black
         </Text>

@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-mukta-malar/useFonts';
 import { MuktaMalar_200ExtraLight } from 'expo-google-fonts-mukta-malar/200ExtraLight';
 import { MuktaMalar_300Light } from 'expo-google-fonts-mukta-malar/300Light';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuktaMalar_200ExtraLight',
+            fontFamily:
+              'MuktaMalar_200ExtraLight',
           }}>
           Mukta Malar Extra Light
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuktaMalar_300Light',
+            fontFamily:
+              'MuktaMalar_300Light',
           }}>
           Mukta Malar Light
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuktaMalar_400Regular',
+            fontFamily:
+              'MuktaMalar_400Regular',
           }}>
           Mukta Malar Regular
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuktaMalar_500Medium',
+            fontFamily:
+              'MuktaMalar_500Medium',
           }}>
           Mukta Malar Medium
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuktaMalar_600SemiBold',
+            fontFamily:
+              'MuktaMalar_600SemiBold',
           }}>
           Mukta Malar Semi Bold
         </Text>
@@ -115,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuktaMalar_700Bold',
+            fontFamily:
+              'MuktaMalar_700Bold',
           }}>
           Mukta Malar Bold
         </Text>
@@ -125,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuktaMalar_800ExtraBold',
+            fontFamily:
+              'MuktaMalar_800ExtraBold',
           }}>
           Mukta Malar Extra Bold
         </Text>

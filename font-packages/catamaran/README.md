@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-catamaran/useFonts';
 import { Catamaran_100Thin } from 'expo-google-fonts-catamaran/100Thin';
 import { Catamaran_200ExtraLight } from 'expo-google-fonts-catamaran/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Catamaran_100Thin',
+            fontFamily:
+              'Catamaran_100Thin',
           }}>
           Catamaran Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Catamaran_200ExtraLight',
+            fontFamily:
+              'Catamaran_200ExtraLight',
           }}>
           Catamaran Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Catamaran_300Light',
+            fontFamily:
+              'Catamaran_300Light',
           }}>
           Catamaran Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Catamaran_400Regular',
+            fontFamily:
+              'Catamaran_400Regular',
           }}>
           Catamaran Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Catamaran_500Medium',
+            fontFamily:
+              'Catamaran_500Medium',
           }}>
           Catamaran Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Catamaran_600SemiBold',
+            fontFamily:
+              'Catamaran_600SemiBold',
           }}>
           Catamaran Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Catamaran_700Bold',
+            fontFamily:
+              'Catamaran_700Bold',
           }}>
           Catamaran Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Catamaran_800ExtraBold',
+            fontFamily:
+              'Catamaran_800ExtraBold',
           }}>
           Catamaran Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Catamaran_900Black',
+            fontFamily:
+              'Catamaran_900Black',
           }}>
           Catamaran Black
         </Text>

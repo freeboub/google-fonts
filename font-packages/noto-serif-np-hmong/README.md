@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-serif-np-hmong/useFonts';
 import { NotoSerifNPHmong_400Regular } from 'expo-google-fonts-noto-serif-np-hmong/400Regular';
 import { NotoSerifNPHmong_500Medium } from 'expo-google-fonts-noto-serif-np-hmong/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifNPHmong_400Regular',
+            fontFamily:
+              'NotoSerifNPHmong_400Regular',
           }}>
           Noto Serif NP Hmong Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifNPHmong_500Medium',
+            fontFamily:
+              'NotoSerifNPHmong_500Medium',
           }}>
           Noto Serif NP Hmong Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifNPHmong_600SemiBold',
+            fontFamily:
+              'NotoSerifNPHmong_600SemiBold',
           }}>
           Noto Serif NP Hmong Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifNPHmong_700Bold',
+            fontFamily:
+              'NotoSerifNPHmong_700Bold',
           }}>
           Noto Serif NP Hmong Bold
         </Text>

@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-cousine/useFonts';
 import { Cousine_400Regular } from 'expo-google-fonts-cousine/400Regular';
 import { Cousine_400Regular_Italic } from 'expo-google-fonts-cousine/400Regular_Italic';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cousine_400Regular',
+            fontFamily:
+              'Cousine_400Regular',
           }}>
           Cousine Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cousine_400Regular_Italic',
+            fontFamily:
+              'Cousine_400Regular_Italic',
           }}>
           Cousine Italic
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cousine_700Bold',
+            fontFamily:
+              'Cousine_700Bold',
           }}>
           Cousine Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cousine_700Bold_Italic',
+            fontFamily:
+              'Cousine_700Bold_Italic',
           }}>
           Cousine Bold Italic
         </Text>

@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-mukta-vaani/useFonts';
 import { MuktaVaani_200ExtraLight } from 'expo-google-fonts-mukta-vaani/200ExtraLight';
 import { MuktaVaani_300Light } from 'expo-google-fonts-mukta-vaani/300Light';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuktaVaani_200ExtraLight',
+            fontFamily:
+              'MuktaVaani_200ExtraLight',
           }}>
           Mukta Vaani Extra Light
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuktaVaani_300Light',
+            fontFamily:
+              'MuktaVaani_300Light',
           }}>
           Mukta Vaani Light
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuktaVaani_400Regular',
+            fontFamily:
+              'MuktaVaani_400Regular',
           }}>
           Mukta Vaani Regular
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuktaVaani_500Medium',
+            fontFamily:
+              'MuktaVaani_500Medium',
           }}>
           Mukta Vaani Medium
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuktaVaani_600SemiBold',
+            fontFamily:
+              'MuktaVaani_600SemiBold',
           }}>
           Mukta Vaani Semi Bold
         </Text>
@@ -115,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuktaVaani_700Bold',
+            fontFamily:
+              'MuktaVaani_700Bold',
           }}>
           Mukta Vaani Bold
         </Text>
@@ -125,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuktaVaani_800ExtraBold',
+            fontFamily:
+              'MuktaVaani_800ExtraBold',
           }}>
           Mukta Vaani Extra Bold
         </Text>

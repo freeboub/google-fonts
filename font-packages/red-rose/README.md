@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-red-rose/useFonts';
 import { RedRose_300Light } from 'expo-google-fonts-red-rose/300Light';
 import { RedRose_400Regular } from 'expo-google-fonts-red-rose/400Regular';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedRose_300Light',
+            fontFamily:
+              'RedRose_300Light',
           }}>
           Red Rose Light
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedRose_400Regular',
+            fontFamily:
+              'RedRose_400Regular',
           }}>
           Red Rose Regular
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedRose_500Medium',
+            fontFamily:
+              'RedRose_500Medium',
           }}>
           Red Rose Medium
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedRose_600SemiBold',
+            fontFamily:
+              'RedRose_600SemiBold',
           }}>
           Red Rose Semi Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedRose_700Bold',
+            fontFamily:
+              'RedRose_700Bold',
           }}>
           Red Rose Bold
         </Text>

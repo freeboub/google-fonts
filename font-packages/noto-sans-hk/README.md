@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-hk/useFonts';
 import { NotoSansHK_100Thin } from 'expo-google-fonts-noto-sans-hk/100Thin';
 import { NotoSansHK_200ExtraLight } from 'expo-google-fonts-noto-sans-hk/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansHK_100Thin',
+            fontFamily:
+              'NotoSansHK_100Thin',
           }}>
           Noto Sans HK Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansHK_200ExtraLight',
+            fontFamily:
+              'NotoSansHK_200ExtraLight',
           }}>
           Noto Sans HK Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansHK_300Light',
+            fontFamily:
+              'NotoSansHK_300Light',
           }}>
           Noto Sans HK Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansHK_400Regular',
+            fontFamily:
+              'NotoSansHK_400Regular',
           }}>
           Noto Sans HK Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansHK_500Medium',
+            fontFamily:
+              'NotoSansHK_500Medium',
           }}>
           Noto Sans HK Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansHK_600SemiBold',
+            fontFamily:
+              'NotoSansHK_600SemiBold',
           }}>
           Noto Sans HK Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansHK_700Bold',
+            fontFamily:
+              'NotoSansHK_700Bold',
           }}>
           Noto Sans HK Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansHK_800ExtraBold',
+            fontFamily:
+              'NotoSansHK_800ExtraBold',
           }}>
           Noto Sans HK Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansHK_900Black',
+            fontFamily:
+              'NotoSansHK_900Black',
           }}>
           Noto Sans HK Black
         </Text>

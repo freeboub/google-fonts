@@ -1,7 +1,20 @@
 {
   "family": "Anek Malayalam",
-  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
-  "subsets": ["latin", "latin-ext", "malayalam"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "malayalam"
+  ],
   "version": "v17",
   "lastModified": "2024-12-04",
   "files": {

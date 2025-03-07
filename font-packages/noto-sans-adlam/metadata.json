@@ -1,7 +1,16 @@
 {
   "family": "Noto Sans Adlam",
-  "variants": ["regular", "500", "600", "700"],
-  "subsets": ["adlam", "latin", "latin-ext"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "adlam",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v22",
   "lastModified": "2023-09-14",
   "files": {

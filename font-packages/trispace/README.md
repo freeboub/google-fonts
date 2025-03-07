@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-trispace/useFonts';
 import { Trispace_100Thin } from 'expo-google-fonts-trispace/100Thin';
 import { Trispace_200ExtraLight } from 'expo-google-fonts-trispace/200ExtraLight';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trispace_100Thin',
+            fontFamily:
+              'Trispace_100Thin',
           }}>
           Trispace Thin
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trispace_200ExtraLight',
+            fontFamily:
+              'Trispace_200ExtraLight',
           }}>
           Trispace Extra Light
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trispace_300Light',
+            fontFamily:
+              'Trispace_300Light',
           }}>
           Trispace Light
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trispace_400Regular',
+            fontFamily:
+              'Trispace_400Regular',
           }}>
           Trispace Regular
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trispace_500Medium',
+            fontFamily:
+              'Trispace_500Medium',
           }}>
           Trispace Medium
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trispace_600SemiBold',
+            fontFamily:
+              'Trispace_600SemiBold',
           }}>
           Trispace Semi Bold
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trispace_700Bold',
+            fontFamily:
+              'Trispace_700Bold',
           }}>
           Trispace Bold
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Trispace_800ExtraBold',
+            fontFamily:
+              'Trispace_800ExtraBold',
           }}>
           Trispace Extra Bold
         </Text>

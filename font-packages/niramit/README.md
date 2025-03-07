@@ -36,7 +36,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-niramit/useFonts';
 import { Niramit_200ExtraLight } from 'expo-google-fonts-niramit/200ExtraLight';
 import { Niramit_200ExtraLight_Italic } from 'expo-google-fonts-niramit/200ExtraLight_Italic';
@@ -74,13 +77,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Niramit_200ExtraLight',
+            fontFamily:
+              'Niramit_200ExtraLight',
           }}>
           Niramit Extra Light
         </Text>
@@ -90,7 +99,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Niramit_200ExtraLight_Italic',
+            fontFamily:
+              'Niramit_200ExtraLight_Italic',
           }}>
           Niramit Extra Light Italic
         </Text>
@@ -100,7 +110,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Niramit_300Light',
+            fontFamily:
+              'Niramit_300Light',
           }}>
           Niramit Light
         </Text>
@@ -110,7 +121,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Niramit_300Light_Italic',
+            fontFamily:
+              'Niramit_300Light_Italic',
           }}>
           Niramit Light Italic
         </Text>
@@ -120,7 +132,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Niramit_400Regular',
+            fontFamily:
+              'Niramit_400Regular',
           }}>
           Niramit Regular
         </Text>
@@ -130,7 +143,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Niramit_400Regular_Italic',
+            fontFamily:
+              'Niramit_400Regular_Italic',
           }}>
           Niramit Italic
         </Text>
@@ -140,7 +154,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Niramit_500Medium',
+            fontFamily:
+              'Niramit_500Medium',
           }}>
           Niramit Medium
         </Text>
@@ -150,7 +165,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Niramit_500Medium_Italic',
+            fontFamily:
+              'Niramit_500Medium_Italic',
           }}>
           Niramit Medium Italic
         </Text>
@@ -160,7 +176,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Niramit_600SemiBold',
+            fontFamily:
+              'Niramit_600SemiBold',
           }}>
           Niramit Semi Bold
         </Text>
@@ -170,7 +187,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Niramit_600SemiBold_Italic',
+            fontFamily:
+              'Niramit_600SemiBold_Italic',
           }}>
           Niramit Semi Bold Italic
         </Text>
@@ -180,7 +198,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Niramit_700Bold',
+            fontFamily:
+              'Niramit_700Bold',
           }}>
           Niramit Bold
         </Text>
@@ -190,7 +209,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Niramit_700Bold_Italic',
+            fontFamily:
+              'Niramit_700Bold_Italic',
           }}>
           Niramit Bold Italic
         </Text>

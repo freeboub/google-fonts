@@ -1,7 +1,13 @@
 {
   "family": "Zen Antique",
   "variants": ["regular"],
-  "subsets": ["cyrillic", "greek", "japanese", "latin", "latin-ext"],
+  "subsets": [
+    "cyrillic",
+    "greek",
+    "japanese",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v13",
   "lastModified": "2024-08-07",
   "files": {

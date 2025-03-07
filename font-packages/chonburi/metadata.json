@@ -1,7 +1,12 @@
 {
   "family": "Chonburi",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "thai",
+    "vietnamese"
+  ],
   "version": "v12",
   "lastModified": "2024-09-04",
   "files": {

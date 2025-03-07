@@ -40,7 +40,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-crimson-pro/useFonts';
 import { CrimsonPro_200ExtraLight } from 'expo-google-fonts-crimson-pro/200ExtraLight';
 import { CrimsonPro_300Light } from 'expo-google-fonts-crimson-pro/300Light';
@@ -86,13 +89,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CrimsonPro_200ExtraLight',
+            fontFamily:
+              'CrimsonPro_200ExtraLight',
           }}>
           Crimson Pro Extra Light
         </Text>
@@ -102,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CrimsonPro_300Light',
+            fontFamily:
+              'CrimsonPro_300Light',
           }}>
           Crimson Pro Light
         </Text>
@@ -112,7 +122,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CrimsonPro_400Regular',
+            fontFamily:
+              'CrimsonPro_400Regular',
           }}>
           Crimson Pro Regular
         </Text>
@@ -122,7 +133,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CrimsonPro_500Medium',
+            fontFamily:
+              'CrimsonPro_500Medium',
           }}>
           Crimson Pro Medium
         </Text>
@@ -132,7 +144,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CrimsonPro_600SemiBold',
+            fontFamily:
+              'CrimsonPro_600SemiBold',
           }}>
           Crimson Pro Semi Bold
         </Text>
@@ -142,7 +155,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CrimsonPro_700Bold',
+            fontFamily:
+              'CrimsonPro_700Bold',
           }}>
           Crimson Pro Bold
         </Text>
@@ -152,7 +166,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CrimsonPro_800ExtraBold',
+            fontFamily:
+              'CrimsonPro_800ExtraBold',
           }}>
           Crimson Pro Extra Bold
         </Text>
@@ -162,7 +177,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CrimsonPro_900Black',
+            fontFamily:
+              'CrimsonPro_900Black',
           }}>
           Crimson Pro Black
         </Text>
@@ -172,7 +188,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CrimsonPro_200ExtraLight_Italic',
+            fontFamily:
+              'CrimsonPro_200ExtraLight_Italic',
           }}>
           Crimson Pro Extra Light Italic
         </Text>
@@ -182,7 +199,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CrimsonPro_300Light_Italic',
+            fontFamily:
+              'CrimsonPro_300Light_Italic',
           }}>
           Crimson Pro Light Italic
         </Text>
@@ -192,7 +210,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CrimsonPro_400Regular_Italic',
+            fontFamily:
+              'CrimsonPro_400Regular_Italic',
           }}>
           Crimson Pro Italic
         </Text>
@@ -202,7 +221,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CrimsonPro_500Medium_Italic',
+            fontFamily:
+              'CrimsonPro_500Medium_Italic',
           }}>
           Crimson Pro Medium Italic
         </Text>
@@ -212,7 +232,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CrimsonPro_600SemiBold_Italic',
+            fontFamily:
+              'CrimsonPro_600SemiBold_Italic',
           }}>
           Crimson Pro Semi Bold Italic
         </Text>
@@ -222,7 +243,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CrimsonPro_700Bold_Italic',
+            fontFamily:
+              'CrimsonPro_700Bold_Italic',
           }}>
           Crimson Pro Bold Italic
         </Text>
@@ -232,7 +254,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CrimsonPro_800ExtraBold_Italic',
+            fontFamily:
+              'CrimsonPro_800ExtraBold_Italic',
           }}>
           Crimson Pro Extra Bold Italic
         </Text>
@@ -242,7 +265,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CrimsonPro_900Black_Italic',
+            fontFamily:
+              'CrimsonPro_900Black_Italic',
           }}>
           Crimson Pro Black Italic
         </Text>

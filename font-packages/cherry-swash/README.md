@@ -26,7 +26,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-cherry-swash/useFonts';
 import { CherrySwash_400Regular } from 'expo-google-fonts-cherry-swash/400Regular';
 import { CherrySwash_700Bold } from 'expo-google-fonts-cherry-swash/700Bold';
@@ -44,13 +47,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CherrySwash_400Regular',
+            fontFamily:
+              'CherrySwash_400Regular',
           }}>
           Cherry Swash Regular
         </Text>
@@ -60,7 +69,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CherrySwash_700Bold',
+            fontFamily:
+              'CherrySwash_700Bold',
           }}>
           Cherry Swash Bold
         </Text>

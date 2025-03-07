@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-raleway/useFonts';
 import { Raleway_100Thin } from 'expo-google-fonts-raleway/100Thin';
 import { Raleway_200ExtraLight } from 'expo-google-fonts-raleway/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Raleway_100Thin',
+            fontFamily:
+              'Raleway_100Thin',
           }}>
           Raleway Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Raleway_200ExtraLight',
+            fontFamily:
+              'Raleway_200ExtraLight',
           }}>
           Raleway Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Raleway_300Light',
+            fontFamily:
+              'Raleway_300Light',
           }}>
           Raleway Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Raleway_400Regular',
+            fontFamily:
+              'Raleway_400Regular',
           }}>
           Raleway Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Raleway_500Medium',
+            fontFamily:
+              'Raleway_500Medium',
           }}>
           Raleway Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Raleway_600SemiBold',
+            fontFamily:
+              'Raleway_600SemiBold',
           }}>
           Raleway Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Raleway_700Bold',
+            fontFamily:
+              'Raleway_700Bold',
           }}>
           Raleway Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Raleway_800ExtraBold',
+            fontFamily:
+              'Raleway_800ExtraBold',
           }}>
           Raleway Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Raleway_900Black',
+            fontFamily:
+              'Raleway_900Black',
           }}>
           Raleway Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Raleway_100Thin_Italic',
+            fontFamily:
+              'Raleway_100Thin_Italic',
           }}>
           Raleway Thin Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Raleway_200ExtraLight_Italic',
+            fontFamily:
+              'Raleway_200ExtraLight_Italic',
           }}>
           Raleway Extra Light Italic
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Raleway_300Light_Italic',
+            fontFamily:
+              'Raleway_300Light_Italic',
           }}>
           Raleway Light Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Raleway_400Regular_Italic',
+            fontFamily:
+              'Raleway_400Regular_Italic',
           }}>
           Raleway Italic
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Raleway_500Medium_Italic',
+            fontFamily:
+              'Raleway_500Medium_Italic',
           }}>
           Raleway Medium Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Raleway_600SemiBold_Italic',
+            fontFamily:
+              'Raleway_600SemiBold_Italic',
           }}>
           Raleway Semi Bold Italic
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Raleway_700Bold_Italic',
+            fontFamily:
+              'Raleway_700Bold_Italic',
           }}>
           Raleway Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Raleway_800ExtraBold_Italic',
+            fontFamily:
+              'Raleway_800ExtraBold_Italic',
           }}>
           Raleway Extra Bold Italic
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Raleway_900Black_Italic',
+            fontFamily:
+              'Raleway_900Black_Italic',
           }}>
           Raleway Black Italic
         </Text>

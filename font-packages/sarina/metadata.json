@@ -4,7 +4,9 @@
   "subsets": ["latin", "latin-ext"],
   "version": "v23",
   "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/sarina/v23/-F6wfjF3ITQwasLhLkDUriBQxw.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/sarina/v23/-F6wfjF3ITQwasLhLkDUriBQxw.ttf"
+  },
   "category": "display",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/sarina/v23/-F6wfjF3ITQwasLRL0rQ.ttf"

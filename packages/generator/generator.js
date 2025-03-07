@@ -62,7 +62,7 @@ const PackageAuthor = 'Expo Team <team@expo.io>';
 
 
 let PrettierOptions = {
-  printWidth: 100,
+  printWidth: 40,
   tabWidth: 2,
   singleQuote: true,
   jsxBracketSameLine: true,
@@ -376,7 +376,10 @@ async function generateFontPackage(webfont) {
         version: PackageVersion,
         description: `Use the ${webfont.family} font family from Google Fonts in your Expo app`,
         main: 'index.js',
-        repository: `${PackageGithubUrl}/google-fonts.git`,
+        repository: {
+          type: 'git',
+          url: `${PackageGithubUrl}/google-fonts.git`,
+        },
         homepage: `${PackageGithubUrl}/tree/master/font-packages/${packageName}#readme`,
         author: PackageAuthor,
         license: 'MIT',
@@ -674,7 +677,10 @@ async function generateFontDirectoryPackage(fontDirectory) {
           version: PackageVersion,
           description: `A directory of metadata about the fonts available in \`${PackageFriendlyName}\``,
           main: 'fontDirectory.json',
-          repository: `${PackageGithubUrl}.git`,
+          repository: {
+            type: 'git',
+            url: `${PackageGithubUrl}.git`,
+          },
           homepage: `${PackageGithubUrl}/tree/master/font-packages/font-directory#readme`,
           author: PackageAuthor,
           license: 'MIT',
@@ -718,7 +724,10 @@ async function generateDevPackage(fontDirectory) {
         version: PackageVersion,
         description: `Load ${fontDirectory.items.length} font families from Google Fonts over the network while developing your Expo app`,
         main: 'index.js',
-        repository: `${PackageGithubUrl}.git`,
+        repository: {
+          type: 'git',
+          url: `${PackageGithubUrl}.git`,
+        },
         homepage: `${PackageGithubUrl}/tree/master/font-packages/${packageName}#readme`,
         author: 'Expo Team <team@expo.io>',
         license: 'MIT',

@@ -4,7 +4,9 @@
   "subsets": ["latin", "latin-ext"],
   "version": "v18",
   "lastModified": "2024-09-30",
-  "files": { "regular": "https://fonts.gstatic.com/s/cambo/v18/IFSqHeNEk8FJk416ok7xkPm8.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/cambo/v18/IFSqHeNEk8FJk416ok7xkPm8.ttf"
+  },
   "category": "serif",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/cambo/v18/IFSqHeNEk8FJk717qEo.ttf"

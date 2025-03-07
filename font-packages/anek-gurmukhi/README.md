@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-anek-gurmukhi/useFonts';
 import { AnekGurmukhi_100Thin } from 'expo-google-fonts-anek-gurmukhi/100Thin';
 import { AnekGurmukhi_200ExtraLight } from 'expo-google-fonts-anek-gurmukhi/200ExtraLight';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekGurmukhi_100Thin',
+            fontFamily:
+              'AnekGurmukhi_100Thin',
           }}>
           Anek Gurmukhi Thin
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekGurmukhi_200ExtraLight',
+            fontFamily:
+              'AnekGurmukhi_200ExtraLight',
           }}>
           Anek Gurmukhi Extra Light
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekGurmukhi_300Light',
+            fontFamily:
+              'AnekGurmukhi_300Light',
           }}>
           Anek Gurmukhi Light
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekGurmukhi_400Regular',
+            fontFamily:
+              'AnekGurmukhi_400Regular',
           }}>
           Anek Gurmukhi Regular
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekGurmukhi_500Medium',
+            fontFamily:
+              'AnekGurmukhi_500Medium',
           }}>
           Anek Gurmukhi Medium
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekGurmukhi_600SemiBold',
+            fontFamily:
+              'AnekGurmukhi_600SemiBold',
           }}>
           Anek Gurmukhi Semi Bold
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekGurmukhi_700Bold',
+            fontFamily:
+              'AnekGurmukhi_700Bold',
           }}>
           Anek Gurmukhi Bold
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekGurmukhi_800ExtraBold',
+            fontFamily:
+              'AnekGurmukhi_800ExtraBold',
           }}>
           Anek Gurmukhi Extra Bold
         </Text>

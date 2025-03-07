@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-sansita-swashed/useFonts';
 import { SansitaSwashed_300Light } from 'expo-google-fonts-sansita-swashed/300Light';
 import { SansitaSwashed_400Regular } from 'expo-google-fonts-sansita-swashed/400Regular';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SansitaSwashed_300Light',
+            fontFamily:
+              'SansitaSwashed_300Light',
           }}>
           Sansita Swashed Light
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SansitaSwashed_400Regular',
+            fontFamily:
+              'SansitaSwashed_400Regular',
           }}>
           Sansita Swashed Regular
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SansitaSwashed_500Medium',
+            fontFamily:
+              'SansitaSwashed_500Medium',
           }}>
           Sansita Swashed Medium
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SansitaSwashed_600SemiBold',
+            fontFamily:
+              'SansitaSwashed_600SemiBold',
           }}>
           Sansita Swashed Semi Bold
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SansitaSwashed_700Bold',
+            fontFamily:
+              'SansitaSwashed_700Bold',
           }}>
           Sansita Swashed Bold
         </Text>
@@ -115,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SansitaSwashed_800ExtraBold',
+            fontFamily:
+              'SansitaSwashed_800ExtraBold',
           }}>
           Sansita Swashed Extra Bold
         </Text>
@@ -125,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SansitaSwashed_900Black',
+            fontFamily:
+              'SansitaSwashed_900Black',
           }}>
           Sansita Swashed Black
         </Text>

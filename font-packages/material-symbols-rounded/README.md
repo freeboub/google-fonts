@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-material-symbols-rounded/useFonts';
 import { MaterialSymbolsRounded_100Thin } from 'expo-google-fonts-material-symbols-rounded/100Thin';
 import { MaterialSymbolsRounded_200ExtraLight } from 'expo-google-fonts-material-symbols-rounded/200ExtraLight';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MaterialSymbolsRounded_100Thin',
+            fontFamily:
+              'MaterialSymbolsRounded_100Thin',
           }}>
           Material Symbols Rounded Thin
         </Text>
@@ -75,9 +84,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MaterialSymbolsRounded_200ExtraLight',
+            fontFamily:
+              'MaterialSymbolsRounded_200ExtraLight',
           }}>
-          Material Symbols Rounded Extra Light
+          Material Symbols Rounded Extra
+          Light
         </Text>
 
         <Text
@@ -85,7 +96,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MaterialSymbolsRounded_300Light',
+            fontFamily:
+              'MaterialSymbolsRounded_300Light',
           }}>
           Material Symbols Rounded Light
         </Text>
@@ -95,9 +107,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MaterialSymbolsRounded_400Regular',
+            fontFamily:
+              'MaterialSymbolsRounded_400Regular',
           }}>
-          Material Symbols Rounded Regular
+          Material Symbols Rounded
+          Regular
         </Text>
 
         <Text
@@ -105,9 +119,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MaterialSymbolsRounded_500Medium',
+            fontFamily:
+              'MaterialSymbolsRounded_500Medium',
           }}>
-          Material Symbols Rounded Medium
+          Material Symbols Rounded
+          Medium
         </Text>
 
         <Text
@@ -115,9 +131,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MaterialSymbolsRounded_600SemiBold',
+            fontFamily:
+              'MaterialSymbolsRounded_600SemiBold',
           }}>
-          Material Symbols Rounded Semi Bold
+          Material Symbols Rounded Semi
+          Bold
         </Text>
 
         <Text
@@ -125,7 +143,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MaterialSymbolsRounded_700Bold',
+            fontFamily:
+              'MaterialSymbolsRounded_700Bold',
           }}>
           Material Symbols Rounded Bold
         </Text>

@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-ysabeau-office/useFonts';
 import { YsabeauOffice_100Thin } from 'expo-google-fonts-ysabeau-office/100Thin';
 import { YsabeauOffice_200ExtraLight } from 'expo-google-fonts-ysabeau-office/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_100Thin',
+            fontFamily:
+              'YsabeauOffice_100Thin',
           }}>
           Ysabeau Office Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_200ExtraLight',
+            fontFamily:
+              'YsabeauOffice_200ExtraLight',
           }}>
           Ysabeau Office Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_300Light',
+            fontFamily:
+              'YsabeauOffice_300Light',
           }}>
           Ysabeau Office Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_400Regular',
+            fontFamily:
+              'YsabeauOffice_400Regular',
           }}>
           Ysabeau Office Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_500Medium',
+            fontFamily:
+              'YsabeauOffice_500Medium',
           }}>
           Ysabeau Office Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_600SemiBold',
+            fontFamily:
+              'YsabeauOffice_600SemiBold',
           }}>
           Ysabeau Office Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_700Bold',
+            fontFamily:
+              'YsabeauOffice_700Bold',
           }}>
           Ysabeau Office Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_800ExtraBold',
+            fontFamily:
+              'YsabeauOffice_800ExtraBold',
           }}>
           Ysabeau Office Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_900Black',
+            fontFamily:
+              'YsabeauOffice_900Black',
           }}>
           Ysabeau Office Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_100Thin_Italic',
+            fontFamily:
+              'YsabeauOffice_100Thin_Italic',
           }}>
           Ysabeau Office Thin Italic
         </Text>
@@ -198,9 +216,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_200ExtraLight_Italic',
+            fontFamily:
+              'YsabeauOffice_200ExtraLight_Italic',
           }}>
-          Ysabeau Office Extra Light Italic
+          Ysabeau Office Extra Light
+          Italic
         </Text>
 
         <Text
@@ -208,7 +228,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_300Light_Italic',
+            fontFamily:
+              'YsabeauOffice_300Light_Italic',
           }}>
           Ysabeau Office Light Italic
         </Text>
@@ -218,7 +239,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_400Regular_Italic',
+            fontFamily:
+              'YsabeauOffice_400Regular_Italic',
           }}>
           Ysabeau Office Italic
         </Text>
@@ -228,7 +250,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_500Medium_Italic',
+            fontFamily:
+              'YsabeauOffice_500Medium_Italic',
           }}>
           Ysabeau Office Medium Italic
         </Text>
@@ -238,9 +261,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_600SemiBold_Italic',
+            fontFamily:
+              'YsabeauOffice_600SemiBold_Italic',
           }}>
-          Ysabeau Office Semi Bold Italic
+          Ysabeau Office Semi Bold
+          Italic
         </Text>
 
         <Text
@@ -248,7 +273,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_700Bold_Italic',
+            fontFamily:
+              'YsabeauOffice_700Bold_Italic',
           }}>
           Ysabeau Office Bold Italic
         </Text>
@@ -258,9 +284,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_800ExtraBold_Italic',
+            fontFamily:
+              'YsabeauOffice_800ExtraBold_Italic',
           }}>
-          Ysabeau Office Extra Bold Italic
+          Ysabeau Office Extra Bold
+          Italic
         </Text>
 
         <Text
@@ -268,7 +296,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YsabeauOffice_900Black_Italic',
+            fontFamily:
+              'YsabeauOffice_900Black_Italic',
           }}>
           Ysabeau Office Black Italic
         </Text>

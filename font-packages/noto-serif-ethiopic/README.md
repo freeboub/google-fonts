@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-serif-ethiopic/useFonts';
 import { NotoSerifEthiopic_100Thin } from 'expo-google-fonts-noto-serif-ethiopic/100Thin';
 import { NotoSerifEthiopic_200ExtraLight } from 'expo-google-fonts-noto-serif-ethiopic/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifEthiopic_100Thin',
+            fontFamily:
+              'NotoSerifEthiopic_100Thin',
           }}>
           Noto Serif Ethiopic Thin
         </Text>
@@ -81,9 +90,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifEthiopic_200ExtraLight',
+            fontFamily:
+              'NotoSerifEthiopic_200ExtraLight',
           }}>
-          Noto Serif Ethiopic Extra Light
+          Noto Serif Ethiopic Extra
+          Light
         </Text>
 
         <Text
@@ -91,7 +102,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifEthiopic_300Light',
+            fontFamily:
+              'NotoSerifEthiopic_300Light',
           }}>
           Noto Serif Ethiopic Light
         </Text>
@@ -101,7 +113,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifEthiopic_400Regular',
+            fontFamily:
+              'NotoSerifEthiopic_400Regular',
           }}>
           Noto Serif Ethiopic Regular
         </Text>
@@ -111,7 +124,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifEthiopic_500Medium',
+            fontFamily:
+              'NotoSerifEthiopic_500Medium',
           }}>
           Noto Serif Ethiopic Medium
         </Text>
@@ -121,7 +135,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifEthiopic_600SemiBold',
+            fontFamily:
+              'NotoSerifEthiopic_600SemiBold',
           }}>
           Noto Serif Ethiopic Semi Bold
         </Text>
@@ -131,7 +146,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifEthiopic_700Bold',
+            fontFamily:
+              'NotoSerifEthiopic_700Bold',
           }}>
           Noto Serif Ethiopic Bold
         </Text>
@@ -141,7 +157,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifEthiopic_800ExtraBold',
+            fontFamily:
+              'NotoSerifEthiopic_800ExtraBold',
           }}>
           Noto Serif Ethiopic Extra Bold
         </Text>
@@ -151,7 +168,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifEthiopic_900Black',
+            fontFamily:
+              'NotoSerifEthiopic_900Black',
           }}>
           Noto Serif Ethiopic Black
         </Text>

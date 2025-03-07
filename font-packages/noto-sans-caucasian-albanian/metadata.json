@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Caucasian Albanian",
   "variants": ["regular"],
-  "subsets": ["caucasian-albanian", "latin", "latin-ext"],
+  "subsets": [
+    "caucasian-albanian",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v18",
   "lastModified": "2023-10-25",
   "files": {

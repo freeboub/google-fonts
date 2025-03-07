@@ -1,7 +1,11 @@
 {
   "family": "Konkhmer Sleokchher",
   "variants": ["regular"],
-  "subsets": ["khmer", "latin", "latin-ext"],
+  "subsets": [
+    "khmer",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v2",
   "lastModified": "2024-09-04",
   "files": {

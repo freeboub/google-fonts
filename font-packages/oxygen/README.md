@@ -27,7 +27,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-oxygen/useFonts';
 import { Oxygen_300Light } from 'expo-google-fonts-oxygen/300Light';
 import { Oxygen_400Regular } from 'expo-google-fonts-oxygen/400Regular';
@@ -47,13 +50,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Oxygen_300Light',
+            fontFamily:
+              'Oxygen_300Light',
           }}>
           Oxygen Light
         </Text>
@@ -63,7 +72,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Oxygen_400Regular',
+            fontFamily:
+              'Oxygen_400Regular',
           }}>
           Oxygen Regular
         </Text>
@@ -73,7 +83,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Oxygen_700Bold',
+            fontFamily:
+              'Oxygen_700Bold',
           }}>
           Oxygen Bold
         </Text>

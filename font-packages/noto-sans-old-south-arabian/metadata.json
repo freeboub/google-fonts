@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Old South Arabian",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "old-south-arabian"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "old-south-arabian"
+  ],
   "version": "v16",
   "lastModified": "2023-07-13",
   "files": {

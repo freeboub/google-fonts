@@ -1,7 +1,11 @@
 {
   "family": "Chilanka",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "malayalam"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "malayalam"
+  ],
   "version": "v22",
   "lastModified": "2024-12-04",
   "files": {

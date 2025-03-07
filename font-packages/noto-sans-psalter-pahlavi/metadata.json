@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Psalter Pahlavi",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "psalter-pahlavi"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "psalter-pahlavi"
+  ],
   "version": "v17",
   "lastModified": "2024-07-30",
   "files": {

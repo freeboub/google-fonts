@@ -1,7 +1,11 @@
 {
   "family": "Kadwa",
   "variants": ["regular", "700"],
-  "subsets": ["devanagari", "latin", "latin-ext"],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v11",
   "lastModified": "2024-11-20",
   "files": {

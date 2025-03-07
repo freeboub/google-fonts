@@ -1,7 +1,11 @@
 {
   "family": "Tiro Gurmukhi",
   "variants": ["regular", "italic"],
-  "subsets": ["gurmukhi", "latin", "latin-ext"],
+  "subsets": [
+    "gurmukhi",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v6",
   "lastModified": "2024-09-04",
   "files": {

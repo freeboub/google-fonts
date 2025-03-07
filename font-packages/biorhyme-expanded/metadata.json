@@ -1,6 +1,12 @@
 {
   "family": "BioRhyme Expanded",
-  "variants": ["200", "300", "regular", "700", "800"],
+  "variants": [
+    "200",
+    "300",
+    "regular",
+    "700",
+    "800"
+  ],
   "subsets": ["latin", "latin-ext"],
   "version": "v21",
   "lastModified": "2024-09-04",

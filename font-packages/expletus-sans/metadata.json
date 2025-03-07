@@ -1,6 +1,15 @@
 {
   "family": "Expletus Sans",
-  "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700",
+    "italic",
+    "500italic",
+    "600italic",
+    "700italic"
+  ],
   "subsets": ["latin", "latin-ext"],
   "version": "v29",
   "lastModified": "2024-09-04",

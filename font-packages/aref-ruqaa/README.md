@@ -26,7 +26,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-aref-ruqaa/useFonts';
 import { ArefRuqaa_400Regular } from 'expo-google-fonts-aref-ruqaa/400Regular';
 import { ArefRuqaa_700Bold } from 'expo-google-fonts-aref-ruqaa/700Bold';
@@ -44,13 +47,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ArefRuqaa_400Regular',
+            fontFamily:
+              'ArefRuqaa_400Regular',
           }}>
           Aref Ruqaa Regular
         </Text>
@@ -60,7 +69,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ArefRuqaa_700Bold',
+            fontFamily:
+              'ArefRuqaa_700Bold',
           }}>
           Aref Ruqaa Bold
         </Text>

@@ -1,7 +1,16 @@
 {
   "family": "Palanquin Dark",
-  "variants": ["regular", "500", "600", "700"],
-  "subsets": ["devanagari", "latin", "latin-ext"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v16",
   "lastModified": "2024-11-20",
   "files": {

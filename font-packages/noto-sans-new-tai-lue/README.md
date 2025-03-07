@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-new-tai-lue/useFonts';
 import { NotoSansNewTaiLue_400Regular } from 'expo-google-fonts-noto-sans-new-tai-lue/400Regular';
 import { NotoSansNewTaiLue_500Medium } from 'expo-google-fonts-noto-sans-new-tai-lue/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansNewTaiLue_400Regular',
+            fontFamily:
+              'NotoSansNewTaiLue_400Regular',
           }}>
           Noto Sans New Tai Lue Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansNewTaiLue_500Medium',
+            fontFamily:
+              'NotoSansNewTaiLue_500Medium',
           }}>
           Noto Sans New Tai Lue Medium
         </Text>
@@ -76,9 +86,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansNewTaiLue_600SemiBold',
+            fontFamily:
+              'NotoSansNewTaiLue_600SemiBold',
           }}>
-          Noto Sans New Tai Lue Semi Bold
+          Noto Sans New Tai Lue Semi
+          Bold
         </Text>
 
         <Text
@@ -86,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansNewTaiLue_700Bold',
+            fontFamily:
+              'NotoSansNewTaiLue_700Bold',
           }}>
           Noto Sans New Tai Lue Bold
         </Text>

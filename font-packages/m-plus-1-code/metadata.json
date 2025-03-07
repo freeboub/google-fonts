@@ -1,7 +1,20 @@
 {
   "family": "M PLUS 1 Code",
-  "variants": ["100", "200", "300", "regular", "500", "600", "700"],
-  "subsets": ["japanese", "latin", "latin-ext", "vietnamese"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "japanese",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v14",
   "lastModified": "2024-11-07",
   "files": {

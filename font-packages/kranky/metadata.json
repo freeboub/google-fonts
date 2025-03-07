@@ -4,7 +4,9 @@
   "subsets": ["latin"],
   "version": "v28",
   "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/kranky/v28/hESw6XVgJzlPsFnMpheEZo_H_w.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/kranky/v28/hESw6XVgJzlPsFnMpheEZo_H_w.ttf"
+  },
   "category": "display",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/kranky/v28/hESw6XVgJzlPsFn8px2A.ttf"

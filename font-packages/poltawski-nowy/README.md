@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-poltawski-nowy/useFonts';
 import { PoltawskiNowy_400Regular } from 'expo-google-fonts-poltawski-nowy/400Regular';
 import { PoltawskiNowy_500Medium } from 'expo-google-fonts-poltawski-nowy/500Medium';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PoltawskiNowy_400Regular',
+            fontFamily:
+              'PoltawskiNowy_400Regular',
           }}>
           Poltawski Nowy Regular
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PoltawskiNowy_500Medium',
+            fontFamily:
+              'PoltawskiNowy_500Medium',
           }}>
           Poltawski Nowy Medium
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PoltawskiNowy_600SemiBold',
+            fontFamily:
+              'PoltawskiNowy_600SemiBold',
           }}>
           Poltawski Nowy Semi Bold
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PoltawskiNowy_700Bold',
+            fontFamily:
+              'PoltawskiNowy_700Bold',
           }}>
           Poltawski Nowy Bold
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PoltawskiNowy_400Regular_Italic',
+            fontFamily:
+              'PoltawskiNowy_400Regular_Italic',
           }}>
           Poltawski Nowy Italic
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PoltawskiNowy_500Medium_Italic',
+            fontFamily:
+              'PoltawskiNowy_500Medium_Italic',
           }}>
           Poltawski Nowy Medium Italic
         </Text>
@@ -128,9 +142,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PoltawskiNowy_600SemiBold_Italic',
+            fontFamily:
+              'PoltawskiNowy_600SemiBold_Italic',
           }}>
-          Poltawski Nowy Semi Bold Italic
+          Poltawski Nowy Semi Bold
+          Italic
         </Text>
 
         <Text
@@ -138,7 +154,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PoltawskiNowy_700Bold_Italic',
+            fontFamily:
+              'PoltawskiNowy_700Bold_Italic',
           }}>
           Poltawski Nowy Bold Italic
         </Text>

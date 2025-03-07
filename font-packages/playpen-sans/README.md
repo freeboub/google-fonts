@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playpen-sans/useFonts';
 import { PlaypenSans_100Thin } from 'expo-google-fonts-playpen-sans/100Thin';
 import { PlaypenSans_200ExtraLight } from 'expo-google-fonts-playpen-sans/200ExtraLight';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaypenSans_100Thin',
+            fontFamily:
+              'PlaypenSans_100Thin',
           }}>
           Playpen Sans Thin
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaypenSans_200ExtraLight',
+            fontFamily:
+              'PlaypenSans_200ExtraLight',
           }}>
           Playpen Sans Extra Light
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaypenSans_300Light',
+            fontFamily:
+              'PlaypenSans_300Light',
           }}>
           Playpen Sans Light
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaypenSans_400Regular',
+            fontFamily:
+              'PlaypenSans_400Regular',
           }}>
           Playpen Sans Regular
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaypenSans_500Medium',
+            fontFamily:
+              'PlaypenSans_500Medium',
           }}>
           Playpen Sans Medium
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaypenSans_600SemiBold',
+            fontFamily:
+              'PlaypenSans_600SemiBold',
           }}>
           Playpen Sans Semi Bold
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaypenSans_700Bold',
+            fontFamily:
+              'PlaypenSans_700Bold',
           }}>
           Playpen Sans Bold
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaypenSans_800ExtraBold',
+            fontFamily:
+              'PlaypenSans_800ExtraBold',
           }}>
           Playpen Sans Extra Bold
         </Text>

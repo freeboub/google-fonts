@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Buhid",
   "variants": ["regular"],
-  "subsets": ["buhid", "latin", "latin-ext"],
+  "subsets": [
+    "buhid",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v22",
   "lastModified": "2023-09-13",
   "files": {

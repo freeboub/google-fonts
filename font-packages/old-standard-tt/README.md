@@ -27,7 +27,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-old-standard-tt/useFonts';
 import { OldStandardTT_400Regular } from 'expo-google-fonts-old-standard-tt/400Regular';
 import { OldStandardTT_400Regular_Italic } from 'expo-google-fonts-old-standard-tt/400Regular_Italic';
@@ -47,13 +50,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'OldStandardTT_400Regular',
+            fontFamily:
+              'OldStandardTT_400Regular',
           }}>
           Old Standard TT Regular
         </Text>
@@ -63,7 +72,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'OldStandardTT_400Regular_Italic',
+            fontFamily:
+              'OldStandardTT_400Regular_Italic',
           }}>
           Old Standard TT Italic
         </Text>
@@ -73,7 +83,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'OldStandardTT_700Bold',
+            fontFamily:
+              'OldStandardTT_700Bold',
           }}>
           Old Standard TT Bold
         </Text>

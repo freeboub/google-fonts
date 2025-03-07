@@ -1,7 +1,13 @@
 {
   "family": "Amatic SC",
   "variants": ["regular", "700"],
-  "subsets": ["cyrillic", "hebrew", "latin", "latin-ext", "vietnamese"],
+  "subsets": [
+    "cyrillic",
+    "hebrew",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v26",
   "lastModified": "2024-09-04",
   "files": {

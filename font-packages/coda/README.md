@@ -26,7 +26,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-coda/useFonts';
 import { Coda_400Regular } from 'expo-google-fonts-coda/400Regular';
 import { Coda_800ExtraBold } from 'expo-google-fonts-coda/800ExtraBold';
@@ -44,13 +47,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Coda_400Regular',
+            fontFamily:
+              'Coda_400Regular',
           }}>
           Coda Regular
         </Text>
@@ -60,7 +69,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Coda_800ExtraBold',
+            fontFamily:
+              'Coda_800ExtraBold',
           }}>
           Coda Extra Bold
         </Text>

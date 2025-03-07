@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-genos/useFonts';
 import { Genos_100Thin } from 'expo-google-fonts-genos/100Thin';
 import { Genos_200ExtraLight } from 'expo-google-fonts-genos/200ExtraLight';
@@ -92,7 +95,12 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
@@ -108,7 +116,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Genos_200ExtraLight',
+            fontFamily:
+              'Genos_200ExtraLight',
           }}>
           Genos Extra Light
         </Text>
@@ -118,7 +127,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Genos_300Light',
+            fontFamily:
+              'Genos_300Light',
           }}>
           Genos Light
         </Text>
@@ -128,7 +138,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Genos_400Regular',
+            fontFamily:
+              'Genos_400Regular',
           }}>
           Genos Regular
         </Text>
@@ -138,7 +149,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Genos_500Medium',
+            fontFamily:
+              'Genos_500Medium',
           }}>
           Genos Medium
         </Text>
@@ -148,7 +160,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Genos_600SemiBold',
+            fontFamily:
+              'Genos_600SemiBold',
           }}>
           Genos Semi Bold
         </Text>
@@ -168,7 +181,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Genos_800ExtraBold',
+            fontFamily:
+              'Genos_800ExtraBold',
           }}>
           Genos Extra Bold
         </Text>
@@ -178,7 +192,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Genos_900Black',
+            fontFamily:
+              'Genos_900Black',
           }}>
           Genos Black
         </Text>
@@ -188,7 +203,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Genos_100Thin_Italic',
+            fontFamily:
+              'Genos_100Thin_Italic',
           }}>
           Genos Thin Italic
         </Text>
@@ -198,7 +214,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Genos_200ExtraLight_Italic',
+            fontFamily:
+              'Genos_200ExtraLight_Italic',
           }}>
           Genos Extra Light Italic
         </Text>
@@ -208,7 +225,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Genos_300Light_Italic',
+            fontFamily:
+              'Genos_300Light_Italic',
           }}>
           Genos Light Italic
         </Text>
@@ -218,7 +236,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Genos_400Regular_Italic',
+            fontFamily:
+              'Genos_400Regular_Italic',
           }}>
           Genos Italic
         </Text>
@@ -228,7 +247,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Genos_500Medium_Italic',
+            fontFamily:
+              'Genos_500Medium_Italic',
           }}>
           Genos Medium Italic
         </Text>
@@ -238,7 +258,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Genos_600SemiBold_Italic',
+            fontFamily:
+              'Genos_600SemiBold_Italic',
           }}>
           Genos Semi Bold Italic
         </Text>
@@ -248,7 +269,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Genos_700Bold_Italic',
+            fontFamily:
+              'Genos_700Bold_Italic',
           }}>
           Genos Bold Italic
         </Text>
@@ -258,7 +280,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Genos_800ExtraBold_Italic',
+            fontFamily:
+              'Genos_800ExtraBold_Italic',
           }}>
           Genos Extra Bold Italic
         </Text>
@@ -268,7 +291,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Genos_900Black_Italic',
+            fontFamily:
+              'Genos_900Black_Italic',
           }}>
           Genos Black Italic
         </Text>

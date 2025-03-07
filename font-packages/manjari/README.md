@@ -27,7 +27,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-manjari/useFonts';
 import { Manjari_100Thin } from 'expo-google-fonts-manjari/100Thin';
 import { Manjari_400Regular } from 'expo-google-fonts-manjari/400Regular';
@@ -47,13 +50,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Manjari_100Thin',
+            fontFamily:
+              'Manjari_100Thin',
           }}>
           Manjari Thin
         </Text>
@@ -63,7 +72,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Manjari_400Regular',
+            fontFamily:
+              'Manjari_400Regular',
           }}>
           Manjari Regular
         </Text>
@@ -73,7 +83,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Manjari_700Bold',
+            fontFamily:
+              'Manjari_700Bold',
           }}>
           Manjari Bold
         </Text>

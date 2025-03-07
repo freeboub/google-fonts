@@ -13,7 +13,9 @@
   ],
   "version": "v20",
   "lastModified": "2024-11-20",
-  "files": { "regular": "https://fonts.gstatic.com/s/oi/v20/w8gXH2EuRqtaut6yjBOG.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/oi/v20/w8gXH2EuRqtaut6yjBOG.ttf"
+  },
   "category": "display",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/oi/v20/w8gXH2EuRptbsNo.ttf"

@@ -1,7 +1,11 @@
 {
   "family": "Sawarabi Mincho",
   "variants": ["regular"],
-  "subsets": ["japanese", "latin", "latin-ext"],
+  "subsets": [
+    "japanese",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v18",
   "lastModified": "2024-09-04",
   "files": {

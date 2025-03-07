@@ -1,7 +1,11 @@
 {
   "family": "Noto Serif Grantha",
   "variants": ["regular"],
-  "subsets": ["grantha", "latin", "latin-ext"],
+  "subsets": [
+    "grantha",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v21",
   "lastModified": "2024-06-10",
   "files": {

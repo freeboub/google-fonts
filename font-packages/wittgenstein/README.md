@@ -36,7 +36,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-wittgenstein/useFonts';
 import { Wittgenstein_400Regular } from 'expo-google-fonts-wittgenstein/400Regular';
 import { Wittgenstein_500Medium } from 'expo-google-fonts-wittgenstein/500Medium';
@@ -74,13 +77,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Wittgenstein_400Regular',
+            fontFamily:
+              'Wittgenstein_400Regular',
           }}>
           Wittgenstein Regular
         </Text>
@@ -90,7 +99,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Wittgenstein_500Medium',
+            fontFamily:
+              'Wittgenstein_500Medium',
           }}>
           Wittgenstein Medium
         </Text>
@@ -100,7 +110,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Wittgenstein_600SemiBold',
+            fontFamily:
+              'Wittgenstein_600SemiBold',
           }}>
           Wittgenstein Semi Bold
         </Text>
@@ -110,7 +121,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Wittgenstein_700Bold',
+            fontFamily:
+              'Wittgenstein_700Bold',
           }}>
           Wittgenstein Bold
         </Text>
@@ -120,7 +132,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Wittgenstein_800ExtraBold',
+            fontFamily:
+              'Wittgenstein_800ExtraBold',
           }}>
           Wittgenstein Extra Bold
         </Text>
@@ -130,7 +143,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Wittgenstein_900Black',
+            fontFamily:
+              'Wittgenstein_900Black',
           }}>
           Wittgenstein Black
         </Text>
@@ -140,7 +154,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Wittgenstein_400Regular_Italic',
+            fontFamily:
+              'Wittgenstein_400Regular_Italic',
           }}>
           Wittgenstein Italic
         </Text>
@@ -150,7 +165,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Wittgenstein_500Medium_Italic',
+            fontFamily:
+              'Wittgenstein_500Medium_Italic',
           }}>
           Wittgenstein Medium Italic
         </Text>
@@ -160,7 +176,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Wittgenstein_600SemiBold_Italic',
+            fontFamily:
+              'Wittgenstein_600SemiBold_Italic',
           }}>
           Wittgenstein Semi Bold Italic
         </Text>
@@ -170,7 +187,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Wittgenstein_700Bold_Italic',
+            fontFamily:
+              'Wittgenstein_700Bold_Italic',
           }}>
           Wittgenstein Bold Italic
         </Text>
@@ -180,7 +198,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Wittgenstein_800ExtraBold_Italic',
+            fontFamily:
+              'Wittgenstein_800ExtraBold_Italic',
           }}>
           Wittgenstein Extra Bold Italic
         </Text>
@@ -190,7 +209,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Wittgenstein_900Black_Italic',
+            fontFamily:
+              'Wittgenstein_900Black_Italic',
           }}>
           Wittgenstein Black Italic
         </Text>

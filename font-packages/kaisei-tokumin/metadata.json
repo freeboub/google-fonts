@@ -1,7 +1,17 @@
 {
   "family": "Kaisei Tokumin",
-  "variants": ["regular", "500", "700", "800"],
-  "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
+  "variants": [
+    "regular",
+    "500",
+    "700",
+    "800"
+  ],
+  "subsets": [
+    "cyrillic",
+    "japanese",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v10",
   "lastModified": "2024-10-29",
   "files": {

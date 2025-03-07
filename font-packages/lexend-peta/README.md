@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-lexend-peta/useFonts';
 import { LexendPeta_100Thin } from 'expo-google-fonts-lexend-peta/100Thin';
 import { LexendPeta_200ExtraLight } from 'expo-google-fonts-lexend-peta/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendPeta_100Thin',
+            fontFamily:
+              'LexendPeta_100Thin',
           }}>
           Lexend Peta Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendPeta_200ExtraLight',
+            fontFamily:
+              'LexendPeta_200ExtraLight',
           }}>
           Lexend Peta Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendPeta_300Light',
+            fontFamily:
+              'LexendPeta_300Light',
           }}>
           Lexend Peta Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendPeta_400Regular',
+            fontFamily:
+              'LexendPeta_400Regular',
           }}>
           Lexend Peta Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendPeta_500Medium',
+            fontFamily:
+              'LexendPeta_500Medium',
           }}>
           Lexend Peta Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendPeta_600SemiBold',
+            fontFamily:
+              'LexendPeta_600SemiBold',
           }}>
           Lexend Peta Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendPeta_700Bold',
+            fontFamily:
+              'LexendPeta_700Bold',
           }}>
           Lexend Peta Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendPeta_800ExtraBold',
+            fontFamily:
+              'LexendPeta_800ExtraBold',
           }}>
           Lexend Peta Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendPeta_900Black',
+            fontFamily:
+              'LexendPeta_900Black',
           }}>
           Lexend Peta Black
         </Text>

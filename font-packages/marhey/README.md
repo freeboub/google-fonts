@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-marhey/useFonts';
 import { Marhey_300Light } from 'expo-google-fonts-marhey/300Light';
 import { Marhey_400Regular } from 'expo-google-fonts-marhey/400Regular';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Marhey_300Light',
+            fontFamily:
+              'Marhey_300Light',
           }}>
           Marhey Light
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Marhey_400Regular',
+            fontFamily:
+              'Marhey_400Regular',
           }}>
           Marhey Regular
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Marhey_500Medium',
+            fontFamily:
+              'Marhey_500Medium',
           }}>
           Marhey Medium
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Marhey_600SemiBold',
+            fontFamily:
+              'Marhey_600SemiBold',
           }}>
           Marhey Semi Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Marhey_700Bold',
+            fontFamily:
+              'Marhey_700Bold',
           }}>
           Marhey Bold
         </Text>

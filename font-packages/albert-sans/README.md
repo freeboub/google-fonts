@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-albert-sans/useFonts';
 import { AlbertSans_100Thin } from 'expo-google-fonts-albert-sans/100Thin';
 import { AlbertSans_200ExtraLight } from 'expo-google-fonts-albert-sans/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlbertSans_100Thin',
+            fontFamily:
+              'AlbertSans_100Thin',
           }}>
           Albert Sans Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlbertSans_200ExtraLight',
+            fontFamily:
+              'AlbertSans_200ExtraLight',
           }}>
           Albert Sans Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlbertSans_300Light',
+            fontFamily:
+              'AlbertSans_300Light',
           }}>
           Albert Sans Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlbertSans_400Regular',
+            fontFamily:
+              'AlbertSans_400Regular',
           }}>
           Albert Sans Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlbertSans_500Medium',
+            fontFamily:
+              'AlbertSans_500Medium',
           }}>
           Albert Sans Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlbertSans_600SemiBold',
+            fontFamily:
+              'AlbertSans_600SemiBold',
           }}>
           Albert Sans Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlbertSans_700Bold',
+            fontFamily:
+              'AlbertSans_700Bold',
           }}>
           Albert Sans Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlbertSans_800ExtraBold',
+            fontFamily:
+              'AlbertSans_800ExtraBold',
           }}>
           Albert Sans Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlbertSans_900Black',
+            fontFamily:
+              'AlbertSans_900Black',
           }}>
           Albert Sans Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlbertSans_100Thin_Italic',
+            fontFamily:
+              'AlbertSans_100Thin_Italic',
           }}>
           Albert Sans Thin Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlbertSans_200ExtraLight_Italic',
+            fontFamily:
+              'AlbertSans_200ExtraLight_Italic',
           }}>
           Albert Sans Extra Light Italic
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlbertSans_300Light_Italic',
+            fontFamily:
+              'AlbertSans_300Light_Italic',
           }}>
           Albert Sans Light Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlbertSans_400Regular_Italic',
+            fontFamily:
+              'AlbertSans_400Regular_Italic',
           }}>
           Albert Sans Italic
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlbertSans_500Medium_Italic',
+            fontFamily:
+              'AlbertSans_500Medium_Italic',
           }}>
           Albert Sans Medium Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlbertSans_600SemiBold_Italic',
+            fontFamily:
+              'AlbertSans_600SemiBold_Italic',
           }}>
           Albert Sans Semi Bold Italic
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlbertSans_700Bold_Italic',
+            fontFamily:
+              'AlbertSans_700Bold_Italic',
           }}>
           Albert Sans Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlbertSans_800ExtraBold_Italic',
+            fontFamily:
+              'AlbertSans_800ExtraBold_Italic',
           }}>
           Albert Sans Extra Bold Italic
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlbertSans_900Black_Italic',
+            fontFamily:
+              'AlbertSans_900Black_Italic',
           }}>
           Albert Sans Black Italic
         </Text>

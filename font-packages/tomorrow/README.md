@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-tomorrow/useFonts';
 import { Tomorrow_100Thin } from 'expo-google-fonts-tomorrow/100Thin';
 import { Tomorrow_100Thin_Italic } from 'expo-google-fonts-tomorrow/100Thin_Italic';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_100Thin',
+            fontFamily:
+              'Tomorrow_100Thin',
           }}>
           Tomorrow Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_100Thin_Italic',
+            fontFamily:
+              'Tomorrow_100Thin_Italic',
           }}>
           Tomorrow Thin Italic
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_200ExtraLight',
+            fontFamily:
+              'Tomorrow_200ExtraLight',
           }}>
           Tomorrow Extra Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_200ExtraLight_Italic',
+            fontFamily:
+              'Tomorrow_200ExtraLight_Italic',
           }}>
           Tomorrow Extra Light Italic
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_300Light',
+            fontFamily:
+              'Tomorrow_300Light',
           }}>
           Tomorrow Light
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_300Light_Italic',
+            fontFamily:
+              'Tomorrow_300Light_Italic',
           }}>
           Tomorrow Light Italic
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_400Regular',
+            fontFamily:
+              'Tomorrow_400Regular',
           }}>
           Tomorrow Regular
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_400Regular_Italic',
+            fontFamily:
+              'Tomorrow_400Regular_Italic',
           }}>
           Tomorrow Italic
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_500Medium',
+            fontFamily:
+              'Tomorrow_500Medium',
           }}>
           Tomorrow Medium
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_500Medium_Italic',
+            fontFamily:
+              'Tomorrow_500Medium_Italic',
           }}>
           Tomorrow Medium Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_600SemiBold',
+            fontFamily:
+              'Tomorrow_600SemiBold',
           }}>
           Tomorrow Semi Bold
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_600SemiBold_Italic',
+            fontFamily:
+              'Tomorrow_600SemiBold_Italic',
           }}>
           Tomorrow Semi Bold Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_700Bold',
+            fontFamily:
+              'Tomorrow_700Bold',
           }}>
           Tomorrow Bold
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_700Bold_Italic',
+            fontFamily:
+              'Tomorrow_700Bold_Italic',
           }}>
           Tomorrow Bold Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_800ExtraBold',
+            fontFamily:
+              'Tomorrow_800ExtraBold',
           }}>
           Tomorrow Extra Bold
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_800ExtraBold_Italic',
+            fontFamily:
+              'Tomorrow_800ExtraBold_Italic',
           }}>
           Tomorrow Extra Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_900Black',
+            fontFamily:
+              'Tomorrow_900Black',
           }}>
           Tomorrow Black
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tomorrow_900Black_Italic',
+            fontFamily:
+              'Tomorrow_900Black_Italic',
           }}>
           Tomorrow Black Italic
         </Text>

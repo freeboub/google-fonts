@@ -16,7 +16,15 @@
     "900",
     "900italic"
   ],
-  "subsets": ["cyrillic", "cyrillic-ext", "greek", "greek-ext", "latin", "latin-ext", "vietnamese"],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v25",
   "lastModified": "2024-09-30",
   "files": {

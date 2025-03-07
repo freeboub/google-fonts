@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-serif-gurmukhi/useFonts';
 import { NotoSerifGurmukhi_100Thin } from 'expo-google-fonts-noto-serif-gurmukhi/100Thin';
 import { NotoSerifGurmukhi_200ExtraLight } from 'expo-google-fonts-noto-serif-gurmukhi/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifGurmukhi_100Thin',
+            fontFamily:
+              'NotoSerifGurmukhi_100Thin',
           }}>
           Noto Serif Gurmukhi Thin
         </Text>
@@ -81,9 +90,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifGurmukhi_200ExtraLight',
+            fontFamily:
+              'NotoSerifGurmukhi_200ExtraLight',
           }}>
-          Noto Serif Gurmukhi Extra Light
+          Noto Serif Gurmukhi Extra
+          Light
         </Text>
 
         <Text
@@ -91,7 +102,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifGurmukhi_300Light',
+            fontFamily:
+              'NotoSerifGurmukhi_300Light',
           }}>
           Noto Serif Gurmukhi Light
         </Text>
@@ -101,7 +113,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifGurmukhi_400Regular',
+            fontFamily:
+              'NotoSerifGurmukhi_400Regular',
           }}>
           Noto Serif Gurmukhi Regular
         </Text>
@@ -111,7 +124,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifGurmukhi_500Medium',
+            fontFamily:
+              'NotoSerifGurmukhi_500Medium',
           }}>
           Noto Serif Gurmukhi Medium
         </Text>
@@ -121,7 +135,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifGurmukhi_600SemiBold',
+            fontFamily:
+              'NotoSerifGurmukhi_600SemiBold',
           }}>
           Noto Serif Gurmukhi Semi Bold
         </Text>
@@ -131,7 +146,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifGurmukhi_700Bold',
+            fontFamily:
+              'NotoSerifGurmukhi_700Bold',
           }}>
           Noto Serif Gurmukhi Bold
         </Text>
@@ -141,7 +157,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifGurmukhi_800ExtraBold',
+            fontFamily:
+              'NotoSerifGurmukhi_800ExtraBold',
           }}>
           Noto Serif Gurmukhi Extra Bold
         </Text>
@@ -151,7 +168,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifGurmukhi_900Black',
+            fontFamily:
+              'NotoSerifGurmukhi_900Black',
           }}>
           Noto Serif Gurmukhi Black
         </Text>

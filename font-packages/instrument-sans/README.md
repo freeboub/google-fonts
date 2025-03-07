@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-instrument-sans/useFonts';
 import { InstrumentSans_400Regular } from 'expo-google-fonts-instrument-sans/400Regular';
 import { InstrumentSans_500Medium } from 'expo-google-fonts-instrument-sans/500Medium';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InstrumentSans_400Regular',
+            fontFamily:
+              'InstrumentSans_400Regular',
           }}>
           Instrument Sans Regular
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InstrumentSans_500Medium',
+            fontFamily:
+              'InstrumentSans_500Medium',
           }}>
           Instrument Sans Medium
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InstrumentSans_600SemiBold',
+            fontFamily:
+              'InstrumentSans_600SemiBold',
           }}>
           Instrument Sans Semi Bold
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InstrumentSans_700Bold',
+            fontFamily:
+              'InstrumentSans_700Bold',
           }}>
           Instrument Sans Bold
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InstrumentSans_400Regular_Italic',
+            fontFamily:
+              'InstrumentSans_400Regular_Italic',
           }}>
           Instrument Sans Italic
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InstrumentSans_500Medium_Italic',
+            fontFamily:
+              'InstrumentSans_500Medium_Italic',
           }}>
           Instrument Sans Medium Italic
         </Text>
@@ -128,9 +142,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InstrumentSans_600SemiBold_Italic',
+            fontFamily:
+              'InstrumentSans_600SemiBold_Italic',
           }}>
-          Instrument Sans Semi Bold Italic
+          Instrument Sans Semi Bold
+          Italic
         </Text>
 
         <Text
@@ -138,7 +154,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InstrumentSans_700Bold_Italic',
+            fontFamily:
+              'InstrumentSans_700Bold_Italic',
           }}>
           Instrument Sans Bold Italic
         </Text>

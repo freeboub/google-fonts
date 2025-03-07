@@ -1,7 +1,18 @@
 {
   "family": "Baloo Bhaijaan 2",
-  "variants": ["regular", "500", "600", "700", "800"],
-  "subsets": ["arabic", "latin", "latin-ext", "vietnamese"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800"
+  ],
+  "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v19",
   "lastModified": "2024-09-04",
   "files": {

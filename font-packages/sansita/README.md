@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-sansita/useFonts';
 import { Sansita_400Regular } from 'expo-google-fonts-sansita/400Regular';
 import { Sansita_400Regular_Italic } from 'expo-google-fonts-sansita/400Regular_Italic';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sansita_400Regular',
+            fontFamily:
+              'Sansita_400Regular',
           }}>
           Sansita Regular
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sansita_400Regular_Italic',
+            fontFamily:
+              'Sansita_400Regular_Italic',
           }}>
           Sansita Italic
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sansita_700Bold',
+            fontFamily:
+              'Sansita_700Bold',
           }}>
           Sansita Bold
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sansita_700Bold_Italic',
+            fontFamily:
+              'Sansita_700Bold_Italic',
           }}>
           Sansita Bold Italic
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sansita_800ExtraBold',
+            fontFamily:
+              'Sansita_800ExtraBold',
           }}>
           Sansita Extra Bold
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sansita_800ExtraBold_Italic',
+            fontFamily:
+              'Sansita_800ExtraBold_Italic',
           }}>
           Sansita Extra Bold Italic
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sansita_900Black',
+            fontFamily:
+              'Sansita_900Black',
           }}>
           Sansita Black
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sansita_900Black_Italic',
+            fontFamily:
+              'Sansita_900Black_Italic',
           }}>
           Sansita Black Italic
         </Text>

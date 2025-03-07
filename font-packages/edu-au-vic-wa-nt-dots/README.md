@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-edu-au-vic-wa-nt-dots/useFonts';
 import { EduAUVICWANTDots_400Regular } from 'expo-google-fonts-edu-au-vic-wa-nt-dots/400Regular';
 import { EduAUVICWANTDots_500Medium } from 'expo-google-fonts-edu-au-vic-wa-nt-dots/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EduAUVICWANTDots_400Regular',
+            fontFamily:
+              'EduAUVICWANTDots_400Regular',
           }}>
           Edu AU VIC WA NT Dots Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EduAUVICWANTDots_500Medium',
+            fontFamily:
+              'EduAUVICWANTDots_500Medium',
           }}>
           Edu AU VIC WA NT Dots Medium
         </Text>
@@ -76,9 +86,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EduAUVICWANTDots_600SemiBold',
+            fontFamily:
+              'EduAUVICWANTDots_600SemiBold',
           }}>
-          Edu AU VIC WA NT Dots Semi Bold
+          Edu AU VIC WA NT Dots Semi
+          Bold
         </Text>
 
         <Text
@@ -86,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EduAUVICWANTDots_700Bold',
+            fontFamily:
+              'EduAUVICWANTDots_700Bold',
           }}>
           Edu AU VIC WA NT Dots Bold
         </Text>

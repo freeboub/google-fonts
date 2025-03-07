@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-m-plus-code-latin/useFonts';
 import { MPLUSCodeLatin_100Thin } from 'expo-google-fonts-m-plus-code-latin/100Thin';
 import { MPLUSCodeLatin_200ExtraLight } from 'expo-google-fonts-m-plus-code-latin/200ExtraLight';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUSCodeLatin_100Thin',
+            fontFamily:
+              'MPLUSCodeLatin_100Thin',
           }}>
           M PLUS Code Latin Thin
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUSCodeLatin_200ExtraLight',
+            fontFamily:
+              'MPLUSCodeLatin_200ExtraLight',
           }}>
           M PLUS Code Latin Extra Light
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUSCodeLatin_300Light',
+            fontFamily:
+              'MPLUSCodeLatin_300Light',
           }}>
           M PLUS Code Latin Light
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUSCodeLatin_400Regular',
+            fontFamily:
+              'MPLUSCodeLatin_400Regular',
           }}>
           M PLUS Code Latin Regular
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUSCodeLatin_500Medium',
+            fontFamily:
+              'MPLUSCodeLatin_500Medium',
           }}>
           M PLUS Code Latin Medium
         </Text>
@@ -115,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUSCodeLatin_600SemiBold',
+            fontFamily:
+              'MPLUSCodeLatin_600SemiBold',
           }}>
           M PLUS Code Latin Semi Bold
         </Text>
@@ -125,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUSCodeLatin_700Bold',
+            fontFamily:
+              'MPLUSCodeLatin_700Bold',
           }}>
           M PLUS Code Latin Bold
         </Text>

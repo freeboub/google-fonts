@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-baloo-chettan-2/useFonts';
 import { BalooChettan2_400Regular } from 'expo-google-fonts-baloo-chettan-2/400Regular';
 import { BalooChettan2_500Medium } from 'expo-google-fonts-baloo-chettan-2/500Medium';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BalooChettan2_400Regular',
+            fontFamily:
+              'BalooChettan2_400Regular',
           }}>
           Baloo Chettan 2 Regular
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BalooChettan2_500Medium',
+            fontFamily:
+              'BalooChettan2_500Medium',
           }}>
           Baloo Chettan 2 Medium
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BalooChettan2_600SemiBold',
+            fontFamily:
+              'BalooChettan2_600SemiBold',
           }}>
           Baloo Chettan 2 Semi Bold
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BalooChettan2_700Bold',
+            fontFamily:
+              'BalooChettan2_700Bold',
           }}>
           Baloo Chettan 2 Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BalooChettan2_800ExtraBold',
+            fontFamily:
+              'BalooChettan2_800ExtraBold',
           }}>
           Baloo Chettan 2 Extra Bold
         </Text>

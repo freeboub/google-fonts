@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-serif-myanmar/useFonts';
 import { NotoSerifMyanmar_100Thin } from 'expo-google-fonts-noto-serif-myanmar/100Thin';
 import { NotoSerifMyanmar_200ExtraLight } from 'expo-google-fonts-noto-serif-myanmar/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMyanmar_100Thin',
+            fontFamily:
+              'NotoSerifMyanmar_100Thin',
           }}>
           Noto Serif Myanmar Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMyanmar_200ExtraLight',
+            fontFamily:
+              'NotoSerifMyanmar_200ExtraLight',
           }}>
           Noto Serif Myanmar Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMyanmar_300Light',
+            fontFamily:
+              'NotoSerifMyanmar_300Light',
           }}>
           Noto Serif Myanmar Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMyanmar_400Regular',
+            fontFamily:
+              'NotoSerifMyanmar_400Regular',
           }}>
           Noto Serif Myanmar Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMyanmar_500Medium',
+            fontFamily:
+              'NotoSerifMyanmar_500Medium',
           }}>
           Noto Serif Myanmar Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMyanmar_600SemiBold',
+            fontFamily:
+              'NotoSerifMyanmar_600SemiBold',
           }}>
           Noto Serif Myanmar Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMyanmar_700Bold',
+            fontFamily:
+              'NotoSerifMyanmar_700Bold',
           }}>
           Noto Serif Myanmar Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMyanmar_800ExtraBold',
+            fontFamily:
+              'NotoSerifMyanmar_800ExtraBold',
           }}>
           Noto Serif Myanmar Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMyanmar_900Black',
+            fontFamily:
+              'NotoSerifMyanmar_900Black',
           }}>
           Noto Serif Myanmar Black
         </Text>

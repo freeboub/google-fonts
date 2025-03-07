@@ -1,7 +1,21 @@
 {
   "family": "Noto Sans Oriya",
-  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
-  "subsets": ["latin", "latin-ext", "oriya"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "oriya"
+  ],
   "version": "v31",
   "lastModified": "2024-04-12",
   "files": {

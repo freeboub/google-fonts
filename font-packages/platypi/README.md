@@ -36,7 +36,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-platypi/useFonts';
 import { Platypi_300Light } from 'expo-google-fonts-platypi/300Light';
 import { Platypi_400Regular } from 'expo-google-fonts-platypi/400Regular';
@@ -74,13 +77,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Platypi_300Light',
+            fontFamily:
+              'Platypi_300Light',
           }}>
           Platypi Light
         </Text>
@@ -90,7 +99,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Platypi_400Regular',
+            fontFamily:
+              'Platypi_400Regular',
           }}>
           Platypi Regular
         </Text>
@@ -100,7 +110,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Platypi_500Medium',
+            fontFamily:
+              'Platypi_500Medium',
           }}>
           Platypi Medium
         </Text>
@@ -110,7 +121,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Platypi_600SemiBold',
+            fontFamily:
+              'Platypi_600SemiBold',
           }}>
           Platypi Semi Bold
         </Text>
@@ -120,7 +132,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Platypi_700Bold',
+            fontFamily:
+              'Platypi_700Bold',
           }}>
           Platypi Bold
         </Text>
@@ -130,7 +143,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Platypi_800ExtraBold',
+            fontFamily:
+              'Platypi_800ExtraBold',
           }}>
           Platypi Extra Bold
         </Text>
@@ -140,7 +154,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Platypi_300Light_Italic',
+            fontFamily:
+              'Platypi_300Light_Italic',
           }}>
           Platypi Light Italic
         </Text>
@@ -150,7 +165,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Platypi_400Regular_Italic',
+            fontFamily:
+              'Platypi_400Regular_Italic',
           }}>
           Platypi Italic
         </Text>
@@ -160,7 +176,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Platypi_500Medium_Italic',
+            fontFamily:
+              'Platypi_500Medium_Italic',
           }}>
           Platypi Medium Italic
         </Text>
@@ -170,7 +187,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Platypi_600SemiBold_Italic',
+            fontFamily:
+              'Platypi_600SemiBold_Italic',
           }}>
           Platypi Semi Bold Italic
         </Text>
@@ -180,7 +198,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Platypi_700Bold_Italic',
+            fontFamily:
+              'Platypi_700Bold_Italic',
           }}>
           Platypi Bold Italic
         </Text>
@@ -190,7 +209,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Platypi_800ExtraBold_Italic',
+            fontFamily:
+              'Platypi_800ExtraBold_Italic',
           }}>
           Platypi Extra Bold Italic
         </Text>

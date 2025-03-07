@@ -1,7 +1,11 @@
 {
   "family": "Bungee Hairline",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v24",
   "lastModified": "2024-12-10",
   "files": {

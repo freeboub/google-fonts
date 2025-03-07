@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Hanunoo",
   "variants": ["regular"],
-  "subsets": ["hanunoo", "latin", "latin-ext"],
+  "subsets": [
+    "hanunoo",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v21",
   "lastModified": "2023-11-09",
   "files": {

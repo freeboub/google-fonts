@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-anaheim/useFonts';
 import { Anaheim_400Regular } from 'expo-google-fonts-anaheim/400Regular';
 import { Anaheim_500Medium } from 'expo-google-fonts-anaheim/500Medium';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anaheim_400Regular',
+            fontFamily:
+              'Anaheim_400Regular',
           }}>
           Anaheim Regular
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anaheim_500Medium',
+            fontFamily:
+              'Anaheim_500Medium',
           }}>
           Anaheim Medium
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anaheim_600SemiBold',
+            fontFamily:
+              'Anaheim_600SemiBold',
           }}>
           Anaheim Semi Bold
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anaheim_700Bold',
+            fontFamily:
+              'Anaheim_700Bold',
           }}>
           Anaheim Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anaheim_800ExtraBold',
+            fontFamily:
+              'Anaheim_800ExtraBold',
           }}>
           Anaheim Extra Bold
         </Text>

@@ -25,7 +25,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-waiting-for-the-sunrise/useFonts';
 import { WaitingfortheSunrise_400Regular } from 'expo-google-fonts-waiting-for-the-sunrise/400Regular';
 
@@ -41,15 +44,22 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'WaitingfortheSunrise_400Regular',
+            fontFamily:
+              'WaitingfortheSunrise_400Regular',
           }}>
-          Waiting for the Sunrise Regular
+          Waiting for the Sunrise
+          Regular
         </Text>
       </View>
     );

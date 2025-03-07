@@ -1,7 +1,10 @@
 {
   "family": "Zhi Mang Xing",
   "variants": ["regular"],
-  "subsets": ["chinese-simplified", "latin"],
+  "subsets": [
+    "chinese-simplified",
+    "latin"
+  ],
   "version": "v18",
   "lastModified": "2025-01-06",
   "files": {

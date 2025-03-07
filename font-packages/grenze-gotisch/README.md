@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-grenze-gotisch/useFonts';
 import { GrenzeGotisch_100Thin } from 'expo-google-fonts-grenze-gotisch/100Thin';
 import { GrenzeGotisch_200ExtraLight } from 'expo-google-fonts-grenze-gotisch/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GrenzeGotisch_100Thin',
+            fontFamily:
+              'GrenzeGotisch_100Thin',
           }}>
           Grenze Gotisch Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GrenzeGotisch_200ExtraLight',
+            fontFamily:
+              'GrenzeGotisch_200ExtraLight',
           }}>
           Grenze Gotisch Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GrenzeGotisch_300Light',
+            fontFamily:
+              'GrenzeGotisch_300Light',
           }}>
           Grenze Gotisch Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GrenzeGotisch_400Regular',
+            fontFamily:
+              'GrenzeGotisch_400Regular',
           }}>
           Grenze Gotisch Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GrenzeGotisch_500Medium',
+            fontFamily:
+              'GrenzeGotisch_500Medium',
           }}>
           Grenze Gotisch Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GrenzeGotisch_600SemiBold',
+            fontFamily:
+              'GrenzeGotisch_600SemiBold',
           }}>
           Grenze Gotisch Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GrenzeGotisch_700Bold',
+            fontFamily:
+              'GrenzeGotisch_700Bold',
           }}>
           Grenze Gotisch Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GrenzeGotisch_800ExtraBold',
+            fontFamily:
+              'GrenzeGotisch_800ExtraBold',
           }}>
           Grenze Gotisch Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'GrenzeGotisch_900Black',
+            fontFamily:
+              'GrenzeGotisch_900Black',
           }}>
           Grenze Gotisch Black
         </Text>

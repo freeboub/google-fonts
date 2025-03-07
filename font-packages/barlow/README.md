@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-barlow/useFonts';
 import { Barlow_100Thin } from 'expo-google-fonts-barlow/100Thin';
 import { Barlow_100Thin_Italic } from 'expo-google-fonts-barlow/100Thin_Italic';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Barlow_100Thin',
+            fontFamily:
+              'Barlow_100Thin',
           }}>
           Barlow Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Barlow_100Thin_Italic',
+            fontFamily:
+              'Barlow_100Thin_Italic',
           }}>
           Barlow Thin Italic
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Barlow_200ExtraLight',
+            fontFamily:
+              'Barlow_200ExtraLight',
           }}>
           Barlow Extra Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Barlow_200ExtraLight_Italic',
+            fontFamily:
+              'Barlow_200ExtraLight_Italic',
           }}>
           Barlow Extra Light Italic
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Barlow_300Light',
+            fontFamily:
+              'Barlow_300Light',
           }}>
           Barlow Light
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Barlow_300Light_Italic',
+            fontFamily:
+              'Barlow_300Light_Italic',
           }}>
           Barlow Light Italic
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Barlow_400Regular',
+            fontFamily:
+              'Barlow_400Regular',
           }}>
           Barlow Regular
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Barlow_400Regular_Italic',
+            fontFamily:
+              'Barlow_400Regular_Italic',
           }}>
           Barlow Italic
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Barlow_500Medium',
+            fontFamily:
+              'Barlow_500Medium',
           }}>
           Barlow Medium
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Barlow_500Medium_Italic',
+            fontFamily:
+              'Barlow_500Medium_Italic',
           }}>
           Barlow Medium Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Barlow_600SemiBold',
+            fontFamily:
+              'Barlow_600SemiBold',
           }}>
           Barlow Semi Bold
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Barlow_600SemiBold_Italic',
+            fontFamily:
+              'Barlow_600SemiBold_Italic',
           }}>
           Barlow Semi Bold Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Barlow_700Bold',
+            fontFamily:
+              'Barlow_700Bold',
           }}>
           Barlow Bold
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Barlow_700Bold_Italic',
+            fontFamily:
+              'Barlow_700Bold_Italic',
           }}>
           Barlow Bold Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Barlow_800ExtraBold',
+            fontFamily:
+              'Barlow_800ExtraBold',
           }}>
           Barlow Extra Bold
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Barlow_800ExtraBold_Italic',
+            fontFamily:
+              'Barlow_800ExtraBold_Italic',
           }}>
           Barlow Extra Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Barlow_900Black',
+            fontFamily:
+              'Barlow_900Black',
           }}>
           Barlow Black
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Barlow_900Black_Italic',
+            fontFamily:
+              'Barlow_900Black_Italic',
           }}>
           Barlow Black Italic
         </Text>

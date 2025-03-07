@@ -1,7 +1,16 @@
 {
   "family": "Noto Sans Lisu",
-  "variants": ["regular", "500", "600", "700"],
-  "subsets": ["latin", "latin-ext", "lisu"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "lisu"
+  ],
   "version": "v25",
   "lastModified": "2023-03-09",
   "files": {

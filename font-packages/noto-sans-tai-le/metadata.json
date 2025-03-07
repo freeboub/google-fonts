@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Tai Le",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "tai-le"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "tai-le"
+  ],
   "version": "v17",
   "lastModified": "2022-11-09",
   "files": {

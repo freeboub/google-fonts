@@ -1,7 +1,11 @@
 {
   "family": "Workbench",
   "variants": ["regular"],
-  "subsets": ["latin", "math", "symbols"],
+  "subsets": [
+    "latin",
+    "math",
+    "symbols"
+  ],
   "version": "v1",
   "lastModified": "2024-09-04",
   "files": {

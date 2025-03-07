@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Lydian",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "lydian"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "lydian"
+  ],
   "version": "v18",
   "lastModified": "2023-12-14",
   "files": {

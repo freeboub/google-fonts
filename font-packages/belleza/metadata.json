@@ -4,7 +4,9 @@
   "subsets": ["latin", "latin-ext"],
   "version": "v17",
   "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/belleza/v17/0nkoC9_pNeMfhX4BtcbyawzruP8.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/belleza/v17/0nkoC9_pNeMfhX4BtcbyawzruP8.ttf"
+  },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/belleza/v17/0nkoC9_pNeMfhX4Bhcf4bw.ttf"

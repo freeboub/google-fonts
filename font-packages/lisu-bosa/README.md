@@ -40,7 +40,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-lisu-bosa/useFonts';
 import { LisuBosa_200ExtraLight } from 'expo-google-fonts-lisu-bosa/200ExtraLight';
 import { LisuBosa_200ExtraLight_Italic } from 'expo-google-fonts-lisu-bosa/200ExtraLight_Italic';
@@ -86,13 +89,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LisuBosa_200ExtraLight',
+            fontFamily:
+              'LisuBosa_200ExtraLight',
           }}>
           Lisu Bosa Extra Light
         </Text>
@@ -102,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LisuBosa_200ExtraLight_Italic',
+            fontFamily:
+              'LisuBosa_200ExtraLight_Italic',
           }}>
           Lisu Bosa Extra Light Italic
         </Text>
@@ -112,7 +122,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LisuBosa_300Light',
+            fontFamily:
+              'LisuBosa_300Light',
           }}>
           Lisu Bosa Light
         </Text>
@@ -122,7 +133,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LisuBosa_300Light_Italic',
+            fontFamily:
+              'LisuBosa_300Light_Italic',
           }}>
           Lisu Bosa Light Italic
         </Text>
@@ -132,7 +144,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LisuBosa_400Regular',
+            fontFamily:
+              'LisuBosa_400Regular',
           }}>
           Lisu Bosa Regular
         </Text>
@@ -142,7 +155,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LisuBosa_400Regular_Italic',
+            fontFamily:
+              'LisuBosa_400Regular_Italic',
           }}>
           Lisu Bosa Italic
         </Text>
@@ -152,7 +166,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LisuBosa_500Medium',
+            fontFamily:
+              'LisuBosa_500Medium',
           }}>
           Lisu Bosa Medium
         </Text>
@@ -162,7 +177,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LisuBosa_500Medium_Italic',
+            fontFamily:
+              'LisuBosa_500Medium_Italic',
           }}>
           Lisu Bosa Medium Italic
         </Text>
@@ -172,7 +188,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LisuBosa_600SemiBold',
+            fontFamily:
+              'LisuBosa_600SemiBold',
           }}>
           Lisu Bosa Semi Bold
         </Text>
@@ -182,7 +199,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LisuBosa_600SemiBold_Italic',
+            fontFamily:
+              'LisuBosa_600SemiBold_Italic',
           }}>
           Lisu Bosa Semi Bold Italic
         </Text>
@@ -192,7 +210,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LisuBosa_700Bold',
+            fontFamily:
+              'LisuBosa_700Bold',
           }}>
           Lisu Bosa Bold
         </Text>
@@ -202,7 +221,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LisuBosa_700Bold_Italic',
+            fontFamily:
+              'LisuBosa_700Bold_Italic',
           }}>
           Lisu Bosa Bold Italic
         </Text>
@@ -212,7 +232,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LisuBosa_800ExtraBold',
+            fontFamily:
+              'LisuBosa_800ExtraBold',
           }}>
           Lisu Bosa Extra Bold
         </Text>
@@ -222,7 +243,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LisuBosa_800ExtraBold_Italic',
+            fontFamily:
+              'LisuBosa_800ExtraBold_Italic',
           }}>
           Lisu Bosa Extra Bold Italic
         </Text>
@@ -232,7 +254,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LisuBosa_900Black',
+            fontFamily:
+              'LisuBosa_900Black',
           }}>
           Lisu Bosa Black
         </Text>
@@ -242,7 +265,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LisuBosa_900Black_Italic',
+            fontFamily:
+              'LisuBosa_900Black_Italic',
           }}>
           Lisu Bosa Black Italic
         </Text>

@@ -1,7 +1,11 @@
 {
   "family": "Abyssinica SIL",
   "variants": ["regular"],
-  "subsets": ["ethiopic", "latin", "latin-ext"],
+  "subsets": [
+    "ethiopic",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v8",
   "lastModified": "2024-11-20",
   "files": {

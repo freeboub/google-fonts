@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-kode-mono/useFonts';
 import { KodeMono_400Regular } from 'expo-google-fonts-kode-mono/400Regular';
 import { KodeMono_500Medium } from 'expo-google-fonts-kode-mono/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KodeMono_400Regular',
+            fontFamily:
+              'KodeMono_400Regular',
           }}>
           Kode Mono Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KodeMono_500Medium',
+            fontFamily:
+              'KodeMono_500Medium',
           }}>
           Kode Mono Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KodeMono_600SemiBold',
+            fontFamily:
+              'KodeMono_600SemiBold',
           }}>
           Kode Mono Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KodeMono_700Bold',
+            fontFamily:
+              'KodeMono_700Bold',
           }}>
           Kode Mono Bold
         </Text>

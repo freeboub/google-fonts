@@ -1,6 +1,11 @@
 {
   "family": "Tinos",
-  "variants": ["regular", "italic", "700", "700italic"],
+  "variants": [
+    "regular",
+    "italic",
+    "700",
+    "700italic"
+  ],
   "subsets": [
     "cyrillic",
     "cyrillic-ext",

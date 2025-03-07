@@ -1,6 +1,14 @@
 {
   "family": "Antonio",
-  "variants": ["100", "200", "300", "regular", "500", "600", "700"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
   "subsets": ["latin", "latin-ext"],
   "version": "v19",
   "lastModified": "2024-09-04",

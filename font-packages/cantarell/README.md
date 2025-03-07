@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-cantarell/useFonts';
 import { Cantarell_400Regular } from 'expo-google-fonts-cantarell/400Regular';
 import { Cantarell_400Regular_Italic } from 'expo-google-fonts-cantarell/400Regular_Italic';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cantarell_400Regular',
+            fontFamily:
+              'Cantarell_400Regular',
           }}>
           Cantarell Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cantarell_400Regular_Italic',
+            fontFamily:
+              'Cantarell_400Regular_Italic',
           }}>
           Cantarell Italic
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cantarell_700Bold',
+            fontFamily:
+              'Cantarell_700Bold',
           }}>
           Cantarell Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cantarell_700Bold_Italic',
+            fontFamily:
+              'Cantarell_700Bold_Italic',
           }}>
           Cantarell Bold Italic
         </Text>

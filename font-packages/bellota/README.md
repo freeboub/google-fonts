@@ -30,7 +30,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-bellota/useFonts';
 import { Bellota_300Light } from 'expo-google-fonts-bellota/300Light';
 import { Bellota_300Light_Italic } from 'expo-google-fonts-bellota/300Light_Italic';
@@ -56,13 +59,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Bellota_300Light',
+            fontFamily:
+              'Bellota_300Light',
           }}>
           Bellota Light
         </Text>
@@ -72,7 +81,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Bellota_300Light_Italic',
+            fontFamily:
+              'Bellota_300Light_Italic',
           }}>
           Bellota Light Italic
         </Text>
@@ -82,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Bellota_400Regular',
+            fontFamily:
+              'Bellota_400Regular',
           }}>
           Bellota Regular
         </Text>
@@ -92,7 +103,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Bellota_400Regular_Italic',
+            fontFamily:
+              'Bellota_400Regular_Italic',
           }}>
           Bellota Italic
         </Text>
@@ -102,7 +114,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Bellota_700Bold',
+            fontFamily:
+              'Bellota_700Bold',
           }}>
           Bellota Bold
         </Text>
@@ -112,7 +125,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Bellota_700Bold_Italic',
+            fontFamily:
+              'Bellota_700Bold_Italic',
           }}>
           Bellota Bold Italic
         </Text>

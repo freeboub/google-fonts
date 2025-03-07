@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-ethiopic/useFonts';
 import { NotoSansEthiopic_100Thin } from 'expo-google-fonts-noto-sans-ethiopic/100Thin';
 import { NotoSansEthiopic_200ExtraLight } from 'expo-google-fonts-noto-sans-ethiopic/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansEthiopic_100Thin',
+            fontFamily:
+              'NotoSansEthiopic_100Thin',
           }}>
           Noto Sans Ethiopic Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansEthiopic_200ExtraLight',
+            fontFamily:
+              'NotoSansEthiopic_200ExtraLight',
           }}>
           Noto Sans Ethiopic Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansEthiopic_300Light',
+            fontFamily:
+              'NotoSansEthiopic_300Light',
           }}>
           Noto Sans Ethiopic Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansEthiopic_400Regular',
+            fontFamily:
+              'NotoSansEthiopic_400Regular',
           }}>
           Noto Sans Ethiopic Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansEthiopic_500Medium',
+            fontFamily:
+              'NotoSansEthiopic_500Medium',
           }}>
           Noto Sans Ethiopic Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansEthiopic_600SemiBold',
+            fontFamily:
+              'NotoSansEthiopic_600SemiBold',
           }}>
           Noto Sans Ethiopic Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansEthiopic_700Bold',
+            fontFamily:
+              'NotoSansEthiopic_700Bold',
           }}>
           Noto Sans Ethiopic Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansEthiopic_800ExtraBold',
+            fontFamily:
+              'NotoSansEthiopic_800ExtraBold',
           }}>
           Noto Sans Ethiopic Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansEthiopic_900Black',
+            fontFamily:
+              'NotoSansEthiopic_900Black',
           }}>
           Noto Sans Ethiopic Black
         </Text>

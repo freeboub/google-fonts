@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-miriam-libre/useFonts';
 import { MiriamLibre_400Regular } from 'expo-google-fonts-miriam-libre/400Regular';
 import { MiriamLibre_500Medium } from 'expo-google-fonts-miriam-libre/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MiriamLibre_400Regular',
+            fontFamily:
+              'MiriamLibre_400Regular',
           }}>
           Miriam Libre Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MiriamLibre_500Medium',
+            fontFamily:
+              'MiriamLibre_500Medium',
           }}>
           Miriam Libre Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MiriamLibre_600SemiBold',
+            fontFamily:
+              'MiriamLibre_600SemiBold',
           }}>
           Miriam Libre Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MiriamLibre_700Bold',
+            fontFamily:
+              'MiriamLibre_700Bold',
           }}>
           Miriam Libre Bold
         </Text>

@@ -1,6 +1,11 @@
 {
   "family": "Simonetta",
-  "variants": ["regular", "italic", "900", "900italic"],
+  "variants": [
+    "regular",
+    "italic",
+    "900",
+    "900italic"
+  ],
   "subsets": ["latin", "latin-ext"],
   "version": "v27",
   "lastModified": "2024-09-04",

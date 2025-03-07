@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-serif-tc/useFonts';
 import { NotoSerifTC_200ExtraLight } from 'expo-google-fonts-noto-serif-tc/200ExtraLight';
 import { NotoSerifTC_300Light } from 'expo-google-fonts-noto-serif-tc/300Light';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifTC_200ExtraLight',
+            fontFamily:
+              'NotoSerifTC_200ExtraLight',
           }}>
           Noto Serif TC Extra Light
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifTC_300Light',
+            fontFamily:
+              'NotoSerifTC_300Light',
           }}>
           Noto Serif TC Light
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifTC_400Regular',
+            fontFamily:
+              'NotoSerifTC_400Regular',
           }}>
           Noto Serif TC Regular
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifTC_500Medium',
+            fontFamily:
+              'NotoSerifTC_500Medium',
           }}>
           Noto Serif TC Medium
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifTC_600SemiBold',
+            fontFamily:
+              'NotoSerifTC_600SemiBold',
           }}>
           Noto Serif TC Semi Bold
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifTC_700Bold',
+            fontFamily:
+              'NotoSerifTC_700Bold',
           }}>
           Noto Serif TC Bold
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifTC_800ExtraBold',
+            fontFamily:
+              'NotoSerifTC_800ExtraBold',
           }}>
           Noto Serif TC Extra Bold
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifTC_900Black',
+            fontFamily:
+              'NotoSerifTC_900Black',
           }}>
           Noto Serif TC Black
         </Text>

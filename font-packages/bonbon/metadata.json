@@ -4,7 +4,9 @@
   "subsets": ["latin"],
   "version": "v30",
   "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/bonbon/v30/0FlVVPeVlFec4ee_cDEAbQY5-A.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/bonbon/v30/0FlVVPeVlFec4ee_cDEAbQY5-A.ttf"
+  },
   "category": "handwriting",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/bonbon/v30/0FlVVPeVlFec4eePcTsE.ttf"

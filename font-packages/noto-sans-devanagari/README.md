@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-devanagari/useFonts';
 import { NotoSansDevanagari_100Thin } from 'expo-google-fonts-noto-sans-devanagari/100Thin';
 import { NotoSansDevanagari_200ExtraLight } from 'expo-google-fonts-noto-sans-devanagari/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDevanagari_100Thin',
+            fontFamily:
+              'NotoSansDevanagari_100Thin',
           }}>
           Noto Sans Devanagari Thin
         </Text>
@@ -81,9 +90,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDevanagari_200ExtraLight',
+            fontFamily:
+              'NotoSansDevanagari_200ExtraLight',
           }}>
-          Noto Sans Devanagari Extra Light
+          Noto Sans Devanagari Extra
+          Light
         </Text>
 
         <Text
@@ -91,7 +102,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDevanagari_300Light',
+            fontFamily:
+              'NotoSansDevanagari_300Light',
           }}>
           Noto Sans Devanagari Light
         </Text>
@@ -101,7 +113,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDevanagari_400Regular',
+            fontFamily:
+              'NotoSansDevanagari_400Regular',
           }}>
           Noto Sans Devanagari Regular
         </Text>
@@ -111,7 +124,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDevanagari_500Medium',
+            fontFamily:
+              'NotoSansDevanagari_500Medium',
           }}>
           Noto Sans Devanagari Medium
         </Text>
@@ -121,7 +135,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDevanagari_600SemiBold',
+            fontFamily:
+              'NotoSansDevanagari_600SemiBold',
           }}>
           Noto Sans Devanagari Semi Bold
         </Text>
@@ -131,7 +146,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDevanagari_700Bold',
+            fontFamily:
+              'NotoSansDevanagari_700Bold',
           }}>
           Noto Sans Devanagari Bold
         </Text>
@@ -141,9 +157,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDevanagari_800ExtraBold',
+            fontFamily:
+              'NotoSansDevanagari_800ExtraBold',
           }}>
-          Noto Sans Devanagari Extra Bold
+          Noto Sans Devanagari Extra
+          Bold
         </Text>
 
         <Text
@@ -151,7 +169,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansDevanagari_900Black',
+            fontFamily:
+              'NotoSansDevanagari_900Black',
           }}>
           Noto Sans Devanagari Black
         </Text>

@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-petrona/useFonts';
 import { Petrona_100Thin } from 'expo-google-fonts-petrona/100Thin';
 import { Petrona_200ExtraLight } from 'expo-google-fonts-petrona/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Petrona_100Thin',
+            fontFamily:
+              'Petrona_100Thin',
           }}>
           Petrona Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Petrona_200ExtraLight',
+            fontFamily:
+              'Petrona_200ExtraLight',
           }}>
           Petrona Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Petrona_300Light',
+            fontFamily:
+              'Petrona_300Light',
           }}>
           Petrona Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Petrona_400Regular',
+            fontFamily:
+              'Petrona_400Regular',
           }}>
           Petrona Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Petrona_500Medium',
+            fontFamily:
+              'Petrona_500Medium',
           }}>
           Petrona Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Petrona_600SemiBold',
+            fontFamily:
+              'Petrona_600SemiBold',
           }}>
           Petrona Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Petrona_700Bold',
+            fontFamily:
+              'Petrona_700Bold',
           }}>
           Petrona Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Petrona_800ExtraBold',
+            fontFamily:
+              'Petrona_800ExtraBold',
           }}>
           Petrona Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Petrona_900Black',
+            fontFamily:
+              'Petrona_900Black',
           }}>
           Petrona Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Petrona_100Thin_Italic',
+            fontFamily:
+              'Petrona_100Thin_Italic',
           }}>
           Petrona Thin Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Petrona_200ExtraLight_Italic',
+            fontFamily:
+              'Petrona_200ExtraLight_Italic',
           }}>
           Petrona Extra Light Italic
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Petrona_300Light_Italic',
+            fontFamily:
+              'Petrona_300Light_Italic',
           }}>
           Petrona Light Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Petrona_400Regular_Italic',
+            fontFamily:
+              'Petrona_400Regular_Italic',
           }}>
           Petrona Italic
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Petrona_500Medium_Italic',
+            fontFamily:
+              'Petrona_500Medium_Italic',
           }}>
           Petrona Medium Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Petrona_600SemiBold_Italic',
+            fontFamily:
+              'Petrona_600SemiBold_Italic',
           }}>
           Petrona Semi Bold Italic
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Petrona_700Bold_Italic',
+            fontFamily:
+              'Petrona_700Bold_Italic',
           }}>
           Petrona Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Petrona_800ExtraBold_Italic',
+            fontFamily:
+              'Petrona_800ExtraBold_Italic',
           }}>
           Petrona Extra Bold Italic
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Petrona_900Black_Italic',
+            fontFamily:
+              'Petrona_900Black_Italic',
           }}>
           Petrona Black Italic
         </Text>

@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-serif-sinhala/useFonts';
 import { NotoSerifSinhala_100Thin } from 'expo-google-fonts-noto-serif-sinhala/100Thin';
 import { NotoSerifSinhala_200ExtraLight } from 'expo-google-fonts-noto-serif-sinhala/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifSinhala_100Thin',
+            fontFamily:
+              'NotoSerifSinhala_100Thin',
           }}>
           Noto Serif Sinhala Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifSinhala_200ExtraLight',
+            fontFamily:
+              'NotoSerifSinhala_200ExtraLight',
           }}>
           Noto Serif Sinhala Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifSinhala_300Light',
+            fontFamily:
+              'NotoSerifSinhala_300Light',
           }}>
           Noto Serif Sinhala Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifSinhala_400Regular',
+            fontFamily:
+              'NotoSerifSinhala_400Regular',
           }}>
           Noto Serif Sinhala Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifSinhala_500Medium',
+            fontFamily:
+              'NotoSerifSinhala_500Medium',
           }}>
           Noto Serif Sinhala Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifSinhala_600SemiBold',
+            fontFamily:
+              'NotoSerifSinhala_600SemiBold',
           }}>
           Noto Serif Sinhala Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifSinhala_700Bold',
+            fontFamily:
+              'NotoSerifSinhala_700Bold',
           }}>
           Noto Serif Sinhala Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifSinhala_800ExtraBold',
+            fontFamily:
+              'NotoSerifSinhala_800ExtraBold',
           }}>
           Noto Serif Sinhala Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifSinhala_900Black',
+            fontFamily:
+              'NotoSerifSinhala_900Black',
           }}>
           Noto Serif Sinhala Black
         </Text>

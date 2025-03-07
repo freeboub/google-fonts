@@ -1,7 +1,13 @@
 {
   "family": "Noto Sans Meroitic",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "meroitic", "meroitic-cursive", "meroitic-hieroglyphs"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "meroitic",
+    "meroitic-cursive",
+    "meroitic-hieroglyphs"
+  ],
   "version": "v18",
   "lastModified": "2023-11-09",
   "files": {

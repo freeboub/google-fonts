@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-namdhinggo/useFonts';
 import { Namdhinggo_400Regular } from 'expo-google-fonts-namdhinggo/400Regular';
 import { Namdhinggo_500Medium } from 'expo-google-fonts-namdhinggo/500Medium';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Namdhinggo_400Regular',
+            fontFamily:
+              'Namdhinggo_400Regular',
           }}>
           Namdhinggo Regular
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Namdhinggo_500Medium',
+            fontFamily:
+              'Namdhinggo_500Medium',
           }}>
           Namdhinggo Medium
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Namdhinggo_600SemiBold',
+            fontFamily:
+              'Namdhinggo_600SemiBold',
           }}>
           Namdhinggo Semi Bold
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Namdhinggo_700Bold',
+            fontFamily:
+              'Namdhinggo_700Bold',
           }}>
           Namdhinggo Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Namdhinggo_800ExtraBold',
+            fontFamily:
+              'Namdhinggo_800ExtraBold',
           }}>
           Namdhinggo Extra Bold
         </Text>

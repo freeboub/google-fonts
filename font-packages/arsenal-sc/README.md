@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-arsenal-sc/useFonts';
 import { ArsenalSC_400Regular } from 'expo-google-fonts-arsenal-sc/400Regular';
 import { ArsenalSC_400Regular_Italic } from 'expo-google-fonts-arsenal-sc/400Regular_Italic';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ArsenalSC_400Regular',
+            fontFamily:
+              'ArsenalSC_400Regular',
           }}>
           Arsenal SC Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ArsenalSC_400Regular_Italic',
+            fontFamily:
+              'ArsenalSC_400Regular_Italic',
           }}>
           Arsenal SC Italic
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ArsenalSC_700Bold',
+            fontFamily:
+              'ArsenalSC_700Bold',
           }}>
           Arsenal SC Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ArsenalSC_700Bold_Italic',
+            fontFamily:
+              'ArsenalSC_700Bold_Italic',
           }}>
           Arsenal SC Bold Italic
         </Text>

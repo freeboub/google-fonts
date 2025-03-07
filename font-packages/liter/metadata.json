@@ -1,10 +1,16 @@
 {
   "family": "Liter",
   "variants": ["regular"],
-  "subsets": ["cyrillic", "latin", "latin-ext"],
+  "subsets": [
+    "cyrillic",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v3",
   "lastModified": "2025-03-03",
-  "files": { "regular": "https://fonts.gstatic.com/s/liter/v3/SLXGc1nX4GQ4d2ImRJqExst1.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/liter/v3/SLXGc1nX4GQ4d2ImRJqExst1.ttf"
+  },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/liter/v3/SLXGc1nX4GQ4d1InTp4.ttf"

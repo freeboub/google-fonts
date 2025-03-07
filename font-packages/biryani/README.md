@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-biryani/useFonts';
 import { Biryani_200ExtraLight } from 'expo-google-fonts-biryani/200ExtraLight';
 import { Biryani_300Light } from 'expo-google-fonts-biryani/300Light';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Biryani_200ExtraLight',
+            fontFamily:
+              'Biryani_200ExtraLight',
           }}>
           Biryani Extra Light
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Biryani_300Light',
+            fontFamily:
+              'Biryani_300Light',
           }}>
           Biryani Light
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Biryani_400Regular',
+            fontFamily:
+              'Biryani_400Regular',
           }}>
           Biryani Regular
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Biryani_600SemiBold',
+            fontFamily:
+              'Biryani_600SemiBold',
           }}>
           Biryani Semi Bold
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Biryani_700Bold',
+            fontFamily:
+              'Biryani_700Bold',
           }}>
           Biryani Bold
         </Text>
@@ -115,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Biryani_800ExtraBold',
+            fontFamily:
+              'Biryani_800ExtraBold',
           }}>
           Biryani Extra Bold
         </Text>
@@ -125,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Biryani_900Black',
+            fontFamily:
+              'Biryani_900Black',
           }}>
           Biryani Black
         </Text>

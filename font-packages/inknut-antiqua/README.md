@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-inknut-antiqua/useFonts';
 import { InknutAntiqua_300Light } from 'expo-google-fonts-inknut-antiqua/300Light';
 import { InknutAntiqua_400Regular } from 'expo-google-fonts-inknut-antiqua/400Regular';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InknutAntiqua_300Light',
+            fontFamily:
+              'InknutAntiqua_300Light',
           }}>
           Inknut Antiqua Light
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InknutAntiqua_400Regular',
+            fontFamily:
+              'InknutAntiqua_400Regular',
           }}>
           Inknut Antiqua Regular
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InknutAntiqua_500Medium',
+            fontFamily:
+              'InknutAntiqua_500Medium',
           }}>
           Inknut Antiqua Medium
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InknutAntiqua_600SemiBold',
+            fontFamily:
+              'InknutAntiqua_600SemiBold',
           }}>
           Inknut Antiqua Semi Bold
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InknutAntiqua_700Bold',
+            fontFamily:
+              'InknutAntiqua_700Bold',
           }}>
           Inknut Antiqua Bold
         </Text>
@@ -115,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InknutAntiqua_800ExtraBold',
+            fontFamily:
+              'InknutAntiqua_800ExtraBold',
           }}>
           Inknut Antiqua Extra Bold
         </Text>
@@ -125,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InknutAntiqua_900Black',
+            fontFamily:
+              'InknutAntiqua_900Black',
           }}>
           Inknut Antiqua Black
         </Text>

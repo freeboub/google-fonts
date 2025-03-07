@@ -1,7 +1,11 @@
 {
   "family": "Grandiflora One",
   "variants": ["regular"],
-  "subsets": ["korean", "latin", "latin-ext"],
+  "subsets": [
+    "korean",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v3",
   "lastModified": "2024-09-04",
   "files": {

@@ -1,7 +1,12 @@
 {
   "family": "Gabriela",
   "variants": ["regular"],
-  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v21",
   "lastModified": "2024-09-04",
   "files": {

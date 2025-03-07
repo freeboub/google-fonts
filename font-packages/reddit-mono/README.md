@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-reddit-mono/useFonts';
 import { RedditMono_200ExtraLight } from 'expo-google-fonts-reddit-mono/200ExtraLight';
 import { RedditMono_300Light } from 'expo-google-fonts-reddit-mono/300Light';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditMono_200ExtraLight',
+            fontFamily:
+              'RedditMono_200ExtraLight',
           }}>
           Reddit Mono Extra Light
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditMono_300Light',
+            fontFamily:
+              'RedditMono_300Light',
           }}>
           Reddit Mono Light
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditMono_400Regular',
+            fontFamily:
+              'RedditMono_400Regular',
           }}>
           Reddit Mono Regular
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditMono_500Medium',
+            fontFamily:
+              'RedditMono_500Medium',
           }}>
           Reddit Mono Medium
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditMono_600SemiBold',
+            fontFamily:
+              'RedditMono_600SemiBold',
           }}>
           Reddit Mono Semi Bold
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditMono_700Bold',
+            fontFamily:
+              'RedditMono_700Bold',
           }}>
           Reddit Mono Bold
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditMono_800ExtraBold',
+            fontFamily:
+              'RedditMono_800ExtraBold',
           }}>
           Reddit Mono Extra Bold
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditMono_900Black',
+            fontFamily:
+              'RedditMono_900Black',
           }}>
           Reddit Mono Black
         </Text>

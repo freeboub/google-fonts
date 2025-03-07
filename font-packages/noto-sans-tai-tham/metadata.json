@@ -1,7 +1,16 @@
 {
   "family": "Noto Sans Tai Tham",
-  "variants": ["regular", "500", "600", "700"],
-  "subsets": ["latin", "latin-ext", "tai-tham"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "tai-tham"
+  ],
   "version": "v20",
   "lastModified": "2023-09-14",
   "files": {

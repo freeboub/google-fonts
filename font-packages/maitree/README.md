@@ -30,7 +30,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-maitree/useFonts';
 import { Maitree_200ExtraLight } from 'expo-google-fonts-maitree/200ExtraLight';
 import { Maitree_300Light } from 'expo-google-fonts-maitree/300Light';
@@ -56,13 +59,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Maitree_200ExtraLight',
+            fontFamily:
+              'Maitree_200ExtraLight',
           }}>
           Maitree Extra Light
         </Text>
@@ -72,7 +81,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Maitree_300Light',
+            fontFamily:
+              'Maitree_300Light',
           }}>
           Maitree Light
         </Text>
@@ -82,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Maitree_400Regular',
+            fontFamily:
+              'Maitree_400Regular',
           }}>
           Maitree Regular
         </Text>
@@ -92,7 +103,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Maitree_500Medium',
+            fontFamily:
+              'Maitree_500Medium',
           }}>
           Maitree Medium
         </Text>
@@ -102,7 +114,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Maitree_600SemiBold',
+            fontFamily:
+              'Maitree_600SemiBold',
           }}>
           Maitree Semi Bold
         </Text>
@@ -112,7 +125,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Maitree_700Bold',
+            fontFamily:
+              'Maitree_700Bold',
           }}>
           Maitree Bold
         </Text>

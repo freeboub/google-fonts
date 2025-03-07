@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-lao/useFonts';
 import { NotoSansLao_100Thin } from 'expo-google-fonts-noto-sans-lao/100Thin';
 import { NotoSansLao_200ExtraLight } from 'expo-google-fonts-noto-sans-lao/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansLao_100Thin',
+            fontFamily:
+              'NotoSansLao_100Thin',
           }}>
           Noto Sans Lao Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansLao_200ExtraLight',
+            fontFamily:
+              'NotoSansLao_200ExtraLight',
           }}>
           Noto Sans Lao Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansLao_300Light',
+            fontFamily:
+              'NotoSansLao_300Light',
           }}>
           Noto Sans Lao Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansLao_400Regular',
+            fontFamily:
+              'NotoSansLao_400Regular',
           }}>
           Noto Sans Lao Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansLao_500Medium',
+            fontFamily:
+              'NotoSansLao_500Medium',
           }}>
           Noto Sans Lao Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansLao_600SemiBold',
+            fontFamily:
+              'NotoSansLao_600SemiBold',
           }}>
           Noto Sans Lao Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansLao_700Bold',
+            fontFamily:
+              'NotoSansLao_700Bold',
           }}>
           Noto Sans Lao Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansLao_800ExtraBold',
+            fontFamily:
+              'NotoSansLao_800ExtraBold',
           }}>
           Noto Sans Lao Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansLao_900Black',
+            fontFamily:
+              'NotoSansLao_900Black',
           }}>
           Noto Sans Lao Black
         </Text>

@@ -1,7 +1,18 @@
 {
   "family": "Maven Pro",
-  "variants": ["regular", "500", "600", "700", "800", "900"],
-  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v39",
   "lastModified": "2025-03-03",
   "files": {

@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-fraunces/useFonts';
 import { Fraunces_100Thin } from 'expo-google-fonts-fraunces/100Thin';
 import { Fraunces_200ExtraLight } from 'expo-google-fonts-fraunces/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fraunces_100Thin',
+            fontFamily:
+              'Fraunces_100Thin',
           }}>
           Fraunces Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fraunces_200ExtraLight',
+            fontFamily:
+              'Fraunces_200ExtraLight',
           }}>
           Fraunces Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fraunces_300Light',
+            fontFamily:
+              'Fraunces_300Light',
           }}>
           Fraunces Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fraunces_400Regular',
+            fontFamily:
+              'Fraunces_400Regular',
           }}>
           Fraunces Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fraunces_500Medium',
+            fontFamily:
+              'Fraunces_500Medium',
           }}>
           Fraunces Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fraunces_600SemiBold',
+            fontFamily:
+              'Fraunces_600SemiBold',
           }}>
           Fraunces Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fraunces_700Bold',
+            fontFamily:
+              'Fraunces_700Bold',
           }}>
           Fraunces Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fraunces_800ExtraBold',
+            fontFamily:
+              'Fraunces_800ExtraBold',
           }}>
           Fraunces Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fraunces_900Black',
+            fontFamily:
+              'Fraunces_900Black',
           }}>
           Fraunces Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fraunces_100Thin_Italic',
+            fontFamily:
+              'Fraunces_100Thin_Italic',
           }}>
           Fraunces Thin Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fraunces_200ExtraLight_Italic',
+            fontFamily:
+              'Fraunces_200ExtraLight_Italic',
           }}>
           Fraunces Extra Light Italic
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fraunces_300Light_Italic',
+            fontFamily:
+              'Fraunces_300Light_Italic',
           }}>
           Fraunces Light Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fraunces_400Regular_Italic',
+            fontFamily:
+              'Fraunces_400Regular_Italic',
           }}>
           Fraunces Italic
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fraunces_500Medium_Italic',
+            fontFamily:
+              'Fraunces_500Medium_Italic',
           }}>
           Fraunces Medium Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fraunces_600SemiBold_Italic',
+            fontFamily:
+              'Fraunces_600SemiBold_Italic',
           }}>
           Fraunces Semi Bold Italic
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fraunces_700Bold_Italic',
+            fontFamily:
+              'Fraunces_700Bold_Italic',
           }}>
           Fraunces Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fraunces_800ExtraBold_Italic',
+            fontFamily:
+              'Fraunces_800ExtraBold_Italic',
           }}>
           Fraunces Extra Bold Italic
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fraunces_900Black_Italic',
+            fontFamily:
+              'Fraunces_900Black_Italic',
           }}>
           Fraunces Black Italic
         </Text>

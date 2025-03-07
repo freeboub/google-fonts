@@ -16,7 +16,11 @@
     "600italic",
     "700italic"
   ],
-  "subsets": ["khmer", "latin", "latin-ext"],
+  "subsets": [
+    "khmer",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v9",
   "lastModified": "2024-10-29",
   "files": {

@@ -1,7 +1,16 @@
 {
   "family": "Noto Sans Ol Chiki",
-  "variants": ["regular", "500", "600", "700"],
-  "subsets": ["latin", "latin-ext", "ol-chiki"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "ol-chiki"
+  ],
   "version": "v29",
   "lastModified": "2023-09-14",
   "files": {

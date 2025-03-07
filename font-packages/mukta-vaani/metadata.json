@@ -1,7 +1,19 @@
 {
   "family": "Mukta Vaani",
-  "variants": ["200", "300", "regular", "500", "600", "700", "800"],
-  "subsets": ["gujarati", "latin", "latin-ext"],
+  "variants": [
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800"
+  ],
+  "subsets": [
+    "gujarati",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v14",
   "lastModified": "2024-11-07",
   "files": {

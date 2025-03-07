@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Kaithi",
   "variants": ["regular"],
-  "subsets": ["kaithi", "latin", "latin-ext"],
+  "subsets": [
+    "kaithi",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v22",
   "lastModified": "2024-07-30",
   "files": {

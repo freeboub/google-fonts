@@ -1,7 +1,13 @@
 {
   "family": "Shafarik",
   "variants": ["regular"],
-  "subsets": ["cyrillic", "cyrillic-ext", "glagolitic", "latin", "latin-ext"],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "glagolitic",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v3",
   "lastModified": "2025-02-12",
   "files": {

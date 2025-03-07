@@ -1,7 +1,11 @@
 {
   "family": "Tilt Warp",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v12",
   "lastModified": "2024-09-04",
   "files": {

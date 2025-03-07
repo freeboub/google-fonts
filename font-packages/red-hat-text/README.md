@@ -34,7 +34,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-red-hat-text/useFonts';
 import { RedHatText_300Light } from 'expo-google-fonts-red-hat-text/300Light';
 import { RedHatText_400Regular } from 'expo-google-fonts-red-hat-text/400Regular';
@@ -68,13 +71,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedHatText_300Light',
+            fontFamily:
+              'RedHatText_300Light',
           }}>
           Red Hat Text Light
         </Text>
@@ -84,7 +93,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedHatText_400Regular',
+            fontFamily:
+              'RedHatText_400Regular',
           }}>
           Red Hat Text Regular
         </Text>
@@ -94,7 +104,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedHatText_500Medium',
+            fontFamily:
+              'RedHatText_500Medium',
           }}>
           Red Hat Text Medium
         </Text>
@@ -104,7 +115,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedHatText_600SemiBold',
+            fontFamily:
+              'RedHatText_600SemiBold',
           }}>
           Red Hat Text Semi Bold
         </Text>
@@ -114,7 +126,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedHatText_700Bold',
+            fontFamily:
+              'RedHatText_700Bold',
           }}>
           Red Hat Text Bold
         </Text>
@@ -124,7 +137,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedHatText_300Light_Italic',
+            fontFamily:
+              'RedHatText_300Light_Italic',
           }}>
           Red Hat Text Light Italic
         </Text>
@@ -134,7 +148,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedHatText_400Regular_Italic',
+            fontFamily:
+              'RedHatText_400Regular_Italic',
           }}>
           Red Hat Text Italic
         </Text>
@@ -144,7 +159,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedHatText_500Medium_Italic',
+            fontFamily:
+              'RedHatText_500Medium_Italic',
           }}>
           Red Hat Text Medium Italic
         </Text>
@@ -154,7 +170,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedHatText_600SemiBold_Italic',
+            fontFamily:
+              'RedHatText_600SemiBold_Italic',
           }}>
           Red Hat Text Semi Bold Italic
         </Text>
@@ -164,7 +181,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedHatText_700Bold_Italic',
+            fontFamily:
+              'RedHatText_700Bold_Italic',
           }}>
           Red Hat Text Bold Italic
         </Text>

@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Warang Citi",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "warang-citi"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "warang-citi"
+  ],
   "version": "v17",
   "lastModified": "2022-09-28",
   "files": {

@@ -1,6 +1,13 @@
 {
   "family": "42dot Sans",
-  "variants": ["300", "regular", "500", "600", "700", "800"],
+  "variants": [
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800"
+  ],
   "subsets": ["korean", "latin"],
   "version": "v1",
   "lastModified": "2025-01-28",

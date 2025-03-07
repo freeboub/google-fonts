@@ -38,7 +38,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-alegreya-sans-sc/useFonts';
 import { AlegreyaSansSC_100Thin } from 'expo-google-fonts-alegreya-sans-sc/100Thin';
 import { AlegreyaSansSC_100Thin_Italic } from 'expo-google-fonts-alegreya-sans-sc/100Thin_Italic';
@@ -80,13 +83,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlegreyaSansSC_100Thin',
+            fontFamily:
+              'AlegreyaSansSC_100Thin',
           }}>
           Alegreya Sans SC Thin
         </Text>
@@ -96,7 +105,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlegreyaSansSC_100Thin_Italic',
+            fontFamily:
+              'AlegreyaSansSC_100Thin_Italic',
           }}>
           Alegreya Sans SC Thin Italic
         </Text>
@@ -106,7 +116,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlegreyaSansSC_300Light',
+            fontFamily:
+              'AlegreyaSansSC_300Light',
           }}>
           Alegreya Sans SC Light
         </Text>
@@ -116,7 +127,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlegreyaSansSC_300Light_Italic',
+            fontFamily:
+              'AlegreyaSansSC_300Light_Italic',
           }}>
           Alegreya Sans SC Light Italic
         </Text>
@@ -126,7 +138,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlegreyaSansSC_400Regular',
+            fontFamily:
+              'AlegreyaSansSC_400Regular',
           }}>
           Alegreya Sans SC Regular
         </Text>
@@ -136,7 +149,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlegreyaSansSC_400Regular_Italic',
+            fontFamily:
+              'AlegreyaSansSC_400Regular_Italic',
           }}>
           Alegreya Sans SC Italic
         </Text>
@@ -146,7 +160,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlegreyaSansSC_500Medium',
+            fontFamily:
+              'AlegreyaSansSC_500Medium',
           }}>
           Alegreya Sans SC Medium
         </Text>
@@ -156,7 +171,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlegreyaSansSC_500Medium_Italic',
+            fontFamily:
+              'AlegreyaSansSC_500Medium_Italic',
           }}>
           Alegreya Sans SC Medium Italic
         </Text>
@@ -166,7 +182,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlegreyaSansSC_700Bold',
+            fontFamily:
+              'AlegreyaSansSC_700Bold',
           }}>
           Alegreya Sans SC Bold
         </Text>
@@ -176,7 +193,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlegreyaSansSC_700Bold_Italic',
+            fontFamily:
+              'AlegreyaSansSC_700Bold_Italic',
           }}>
           Alegreya Sans SC Bold Italic
         </Text>
@@ -186,7 +204,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlegreyaSansSC_800ExtraBold',
+            fontFamily:
+              'AlegreyaSansSC_800ExtraBold',
           }}>
           Alegreya Sans SC Extra Bold
         </Text>
@@ -196,9 +215,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlegreyaSansSC_800ExtraBold_Italic',
+            fontFamily:
+              'AlegreyaSansSC_800ExtraBold_Italic',
           }}>
-          Alegreya Sans SC Extra Bold Italic
+          Alegreya Sans SC Extra Bold
+          Italic
         </Text>
 
         <Text
@@ -206,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlegreyaSansSC_900Black',
+            fontFamily:
+              'AlegreyaSansSC_900Black',
           }}>
           Alegreya Sans SC Black
         </Text>
@@ -216,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AlegreyaSansSC_900Black_Italic',
+            fontFamily:
+              'AlegreyaSansSC_900Black_Italic',
           }}>
           Alegreya Sans SC Black Italic
         </Text>

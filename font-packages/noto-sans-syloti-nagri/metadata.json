@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Syloti Nagri",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "syloti-nagri"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "syloti-nagri"
+  ],
   "version": "v23",
   "lastModified": "2024-08-12",
   "files": {

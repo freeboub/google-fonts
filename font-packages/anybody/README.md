@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-anybody/useFonts';
 import { Anybody_100Thin } from 'expo-google-fonts-anybody/100Thin';
 import { Anybody_200ExtraLight } from 'expo-google-fonts-anybody/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_100Thin',
+            fontFamily:
+              'Anybody_100Thin',
           }}>
           Anybody Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_200ExtraLight',
+            fontFamily:
+              'Anybody_200ExtraLight',
           }}>
           Anybody Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_300Light',
+            fontFamily:
+              'Anybody_300Light',
           }}>
           Anybody Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_400Regular',
+            fontFamily:
+              'Anybody_400Regular',
           }}>
           Anybody Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_500Medium',
+            fontFamily:
+              'Anybody_500Medium',
           }}>
           Anybody Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_600SemiBold',
+            fontFamily:
+              'Anybody_600SemiBold',
           }}>
           Anybody Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_700Bold',
+            fontFamily:
+              'Anybody_700Bold',
           }}>
           Anybody Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_800ExtraBold',
+            fontFamily:
+              'Anybody_800ExtraBold',
           }}>
           Anybody Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_900Black',
+            fontFamily:
+              'Anybody_900Black',
           }}>
           Anybody Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_100Thin_Italic',
+            fontFamily:
+              'Anybody_100Thin_Italic',
           }}>
           Anybody Thin Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_200ExtraLight_Italic',
+            fontFamily:
+              'Anybody_200ExtraLight_Italic',
           }}>
           Anybody Extra Light Italic
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_300Light_Italic',
+            fontFamily:
+              'Anybody_300Light_Italic',
           }}>
           Anybody Light Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_400Regular_Italic',
+            fontFamily:
+              'Anybody_400Regular_Italic',
           }}>
           Anybody Italic
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_500Medium_Italic',
+            fontFamily:
+              'Anybody_500Medium_Italic',
           }}>
           Anybody Medium Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_600SemiBold_Italic',
+            fontFamily:
+              'Anybody_600SemiBold_Italic',
           }}>
           Anybody Semi Bold Italic
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_700Bold_Italic',
+            fontFamily:
+              'Anybody_700Bold_Italic',
           }}>
           Anybody Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_800ExtraBold_Italic',
+            fontFamily:
+              'Anybody_800ExtraBold_Italic',
           }}>
           Anybody Extra Bold Italic
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Anybody_900Black_Italic',
+            fontFamily:
+              'Anybody_900Black_Italic',
           }}>
           Anybody Black Italic
         </Text>

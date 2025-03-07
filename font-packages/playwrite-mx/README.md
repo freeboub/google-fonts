@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playwrite-mx/useFonts';
 import { PlaywriteMX_100Thin } from 'expo-google-fonts-playwrite-mx/100Thin';
 import { PlaywriteMX_200ExtraLight } from 'expo-google-fonts-playwrite-mx/200ExtraLight';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteMX_100Thin',
+            fontFamily:
+              'PlaywriteMX_100Thin',
           }}>
           Playwrite MX Thin
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteMX_200ExtraLight',
+            fontFamily:
+              'PlaywriteMX_200ExtraLight',
           }}>
           Playwrite MX Extra Light
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteMX_300Light',
+            fontFamily:
+              'PlaywriteMX_300Light',
           }}>
           Playwrite MX Light
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteMX_400Regular',
+            fontFamily:
+              'PlaywriteMX_400Regular',
           }}>
           Playwrite MX Regular
         </Text>

@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-edu-tas-beginner/useFonts';
 import { EduTASBeginner_400Regular } from 'expo-google-fonts-edu-tas-beginner/400Regular';
 import { EduTASBeginner_500Medium } from 'expo-google-fonts-edu-tas-beginner/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EduTASBeginner_400Regular',
+            fontFamily:
+              'EduTASBeginner_400Regular',
           }}>
           Edu TAS Beginner Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EduTASBeginner_500Medium',
+            fontFamily:
+              'EduTASBeginner_500Medium',
           }}>
           Edu TAS Beginner Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EduTASBeginner_600SemiBold',
+            fontFamily:
+              'EduTASBeginner_600SemiBold',
           }}>
           Edu TAS Beginner Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EduTASBeginner_700Bold',
+            fontFamily:
+              'EduTASBeginner_700Bold',
           }}>
           Edu TAS Beginner Bold
         </Text>

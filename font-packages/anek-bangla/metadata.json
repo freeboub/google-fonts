@@ -1,7 +1,20 @@
 {
   "family": "Anek Bangla",
-  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
-  "subsets": ["bengali", "latin", "latin-ext"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800"
+  ],
+  "subsets": [
+    "bengali",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v15",
   "lastModified": "2024-12-04",
   "files": {

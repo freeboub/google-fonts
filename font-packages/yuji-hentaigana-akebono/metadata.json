@@ -1,7 +1,11 @@
 {
   "family": "Yuji Hentaigana Akebono",
   "variants": ["regular"],
-  "subsets": ["japanese", "latin", "latin-ext"],
+  "subsets": [
+    "japanese",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v13",
   "lastModified": "2024-08-07",
   "files": {

@@ -1,7 +1,17 @@
 {
   "family": "Hind Vadodara",
-  "variants": ["300", "regular", "500", "600", "700"],
-  "subsets": ["gujarati", "latin", "latin-ext"],
+  "variants": [
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "gujarati",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v15",
   "lastModified": "2024-12-04",
   "files": {

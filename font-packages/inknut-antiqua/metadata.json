@@ -1,7 +1,19 @@
 {
   "family": "Inknut Antiqua",
-  "variants": ["300", "regular", "500", "600", "700", "800", "900"],
-  "subsets": ["devanagari", "latin", "latin-ext"],
+  "variants": [
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900"
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v14",
   "lastModified": "2024-08-12",
   "files": {

@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-serif-oriya/useFonts';
 import { NotoSerifOriya_400Regular } from 'expo-google-fonts-noto-serif-oriya/400Regular';
 import { NotoSerifOriya_500Medium } from 'expo-google-fonts-noto-serif-oriya/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifOriya_400Regular',
+            fontFamily:
+              'NotoSerifOriya_400Regular',
           }}>
           Noto Serif Oriya Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifOriya_500Medium',
+            fontFamily:
+              'NotoSerifOriya_500Medium',
           }}>
           Noto Serif Oriya Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifOriya_600SemiBold',
+            fontFamily:
+              'NotoSerifOriya_600SemiBold',
           }}>
           Noto Serif Oriya Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifOriya_700Bold',
+            fontFamily:
+              'NotoSerifOriya_700Bold',
           }}>
           Noto Serif Oriya Bold
         </Text>

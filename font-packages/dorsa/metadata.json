@@ -4,7 +4,9 @@
   "subsets": ["latin"],
   "version": "v27",
   "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/dorsa/v27/yYLn0hjd0OGwqo493XCFxAnQ.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/dorsa/v27/yYLn0hjd0OGwqo493XCFxAnQ.ttf"
+  },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/dorsa/v27/yYLn0hjd0OGwqr4813Q.ttf"

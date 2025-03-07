@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-nokora/useFonts';
 import { Nokora_100Thin } from 'expo-google-fonts-nokora/100Thin';
 import { Nokora_300Light } from 'expo-google-fonts-nokora/300Light';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Nokora_100Thin',
+            fontFamily:
+              'Nokora_100Thin',
           }}>
           Nokora Thin
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Nokora_300Light',
+            fontFamily:
+              'Nokora_300Light',
           }}>
           Nokora Light
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Nokora_400Regular',
+            fontFamily:
+              'Nokora_400Regular',
           }}>
           Nokora Regular
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Nokora_700Bold',
+            fontFamily:
+              'Nokora_700Bold',
           }}>
           Nokora Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Nokora_900Black',
+            fontFamily:
+              'Nokora_900Black',
           }}>
           Nokora Black
         </Text>

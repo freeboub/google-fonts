@@ -36,7 +36,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-host-grotesk/useFonts';
 import { HostGrotesk_300Light } from 'expo-google-fonts-host-grotesk/300Light';
 import { HostGrotesk_400Regular } from 'expo-google-fonts-host-grotesk/400Regular';
@@ -74,13 +77,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HostGrotesk_300Light',
+            fontFamily:
+              'HostGrotesk_300Light',
           }}>
           Host Grotesk Light
         </Text>
@@ -90,7 +99,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HostGrotesk_400Regular',
+            fontFamily:
+              'HostGrotesk_400Regular',
           }}>
           Host Grotesk Regular
         </Text>
@@ -100,7 +110,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HostGrotesk_500Medium',
+            fontFamily:
+              'HostGrotesk_500Medium',
           }}>
           Host Grotesk Medium
         </Text>
@@ -110,7 +121,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HostGrotesk_600SemiBold',
+            fontFamily:
+              'HostGrotesk_600SemiBold',
           }}>
           Host Grotesk Semi Bold
         </Text>
@@ -120,7 +132,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HostGrotesk_700Bold',
+            fontFamily:
+              'HostGrotesk_700Bold',
           }}>
           Host Grotesk Bold
         </Text>
@@ -130,7 +143,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HostGrotesk_800ExtraBold',
+            fontFamily:
+              'HostGrotesk_800ExtraBold',
           }}>
           Host Grotesk Extra Bold
         </Text>
@@ -140,7 +154,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HostGrotesk_300Light_Italic',
+            fontFamily:
+              'HostGrotesk_300Light_Italic',
           }}>
           Host Grotesk Light Italic
         </Text>
@@ -150,7 +165,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HostGrotesk_400Regular_Italic',
+            fontFamily:
+              'HostGrotesk_400Regular_Italic',
           }}>
           Host Grotesk Italic
         </Text>
@@ -160,7 +176,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HostGrotesk_500Medium_Italic',
+            fontFamily:
+              'HostGrotesk_500Medium_Italic',
           }}>
           Host Grotesk Medium Italic
         </Text>
@@ -170,7 +187,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HostGrotesk_600SemiBold_Italic',
+            fontFamily:
+              'HostGrotesk_600SemiBold_Italic',
           }}>
           Host Grotesk Semi Bold Italic
         </Text>
@@ -180,7 +198,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HostGrotesk_700Bold_Italic',
+            fontFamily:
+              'HostGrotesk_700Bold_Italic',
           }}>
           Host Grotesk Bold Italic
         </Text>
@@ -190,7 +209,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'HostGrotesk_800ExtraBold_Italic',
+            fontFamily:
+              'HostGrotesk_800ExtraBold_Italic',
           }}>
           Host Grotesk Extra Bold Italic
         </Text>

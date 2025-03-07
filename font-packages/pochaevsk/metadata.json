@@ -1,7 +1,11 @@
 {
   "family": "Pochaevsk",
   "variants": ["regular"],
-  "subsets": ["cyrillic", "cyrillic-ext", "latin"],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin"
+  ],
   "version": "v5",
   "lastModified": "2025-03-03",
   "files": {

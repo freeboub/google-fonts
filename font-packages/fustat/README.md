@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-fustat/useFonts';
 import { Fustat_200ExtraLight } from 'expo-google-fonts-fustat/200ExtraLight';
 import { Fustat_300Light } from 'expo-google-fonts-fustat/300Light';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fustat_200ExtraLight',
+            fontFamily:
+              'Fustat_200ExtraLight',
           }}>
           Fustat Extra Light
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fustat_300Light',
+            fontFamily:
+              'Fustat_300Light',
           }}>
           Fustat Light
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fustat_400Regular',
+            fontFamily:
+              'Fustat_400Regular',
           }}>
           Fustat Regular
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fustat_500Medium',
+            fontFamily:
+              'Fustat_500Medium',
           }}>
           Fustat Medium
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fustat_600SemiBold',
+            fontFamily:
+              'Fustat_600SemiBold',
           }}>
           Fustat Semi Bold
         </Text>
@@ -115,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fustat_700Bold',
+            fontFamily:
+              'Fustat_700Bold',
           }}>
           Fustat Bold
         </Text>
@@ -125,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Fustat_800ExtraBold',
+            fontFamily:
+              'Fustat_800ExtraBold',
           }}>
           Fustat Extra Bold
         </Text>

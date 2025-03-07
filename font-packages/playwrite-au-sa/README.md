@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playwrite-au-sa/useFonts';
 import { PlaywriteAUSA_100Thin } from 'expo-google-fonts-playwrite-au-sa/100Thin';
 import { PlaywriteAUSA_200ExtraLight } from 'expo-google-fonts-playwrite-au-sa/200ExtraLight';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteAUSA_100Thin',
+            fontFamily:
+              'PlaywriteAUSA_100Thin',
           }}>
           Playwrite AU SA Thin
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteAUSA_200ExtraLight',
+            fontFamily:
+              'PlaywriteAUSA_200ExtraLight',
           }}>
           Playwrite AU SA Extra Light
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteAUSA_300Light',
+            fontFamily:
+              'PlaywriteAUSA_300Light',
           }}>
           Playwrite AU SA Light
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteAUSA_400Regular',
+            fontFamily:
+              'PlaywriteAUSA_400Regular',
           }}>
           Playwrite AU SA Regular
         </Text>

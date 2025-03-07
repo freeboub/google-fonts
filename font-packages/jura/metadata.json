@@ -1,6 +1,12 @@
 {
   "family": "Jura",
-  "variants": ["300", "regular", "500", "600", "700"],
+  "variants": [
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
   "subsets": [
     "cyrillic",
     "cyrillic-ext",

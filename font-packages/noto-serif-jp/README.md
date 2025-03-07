@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-serif-jp/useFonts';
 import { NotoSerifJP_200ExtraLight } from 'expo-google-fonts-noto-serif-jp/200ExtraLight';
 import { NotoSerifJP_300Light } from 'expo-google-fonts-noto-serif-jp/300Light';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifJP_200ExtraLight',
+            fontFamily:
+              'NotoSerifJP_200ExtraLight',
           }}>
           Noto Serif JP Extra Light
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifJP_300Light',
+            fontFamily:
+              'NotoSerifJP_300Light',
           }}>
           Noto Serif JP Light
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifJP_400Regular',
+            fontFamily:
+              'NotoSerifJP_400Regular',
           }}>
           Noto Serif JP Regular
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifJP_500Medium',
+            fontFamily:
+              'NotoSerifJP_500Medium',
           }}>
           Noto Serif JP Medium
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifJP_600SemiBold',
+            fontFamily:
+              'NotoSerifJP_600SemiBold',
           }}>
           Noto Serif JP Semi Bold
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifJP_700Bold',
+            fontFamily:
+              'NotoSerifJP_700Bold',
           }}>
           Noto Serif JP Bold
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifJP_800ExtraBold',
+            fontFamily:
+              'NotoSerifJP_800ExtraBold',
           }}>
           Noto Serif JP Extra Bold
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifJP_900Black',
+            fontFamily:
+              'NotoSerifJP_900Black',
           }}>
           Noto Serif JP Black
         </Text>

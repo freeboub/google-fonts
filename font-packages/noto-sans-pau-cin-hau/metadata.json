@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Pau Cin Hau",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "pau-cin-hau"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "pau-cin-hau"
+  ],
   "version": "v20",
   "lastModified": "2023-05-02",
   "files": {

@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Phoenician",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "phoenician"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "phoenician"
+  ],
   "version": "v17",
   "lastModified": "2023-07-24",
   "files": {

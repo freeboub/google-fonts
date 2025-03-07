@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playwrite-pl/useFonts';
 import { PlaywritePL_100Thin } from 'expo-google-fonts-playwrite-pl/100Thin';
 import { PlaywritePL_200ExtraLight } from 'expo-google-fonts-playwrite-pl/200ExtraLight';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywritePL_100Thin',
+            fontFamily:
+              'PlaywritePL_100Thin',
           }}>
           Playwrite PL Thin
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywritePL_200ExtraLight',
+            fontFamily:
+              'PlaywritePL_200ExtraLight',
           }}>
           Playwrite PL Extra Light
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywritePL_300Light',
+            fontFamily:
+              'PlaywritePL_300Light',
           }}>
           Playwrite PL Light
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywritePL_400Regular',
+            fontFamily:
+              'PlaywritePL_400Regular',
           }}>
           Playwrite PL Regular
         </Text>

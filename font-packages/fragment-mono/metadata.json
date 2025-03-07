@@ -1,7 +1,11 @@
 {
   "family": "Fragment Mono",
   "variants": ["regular", "italic"],
-  "subsets": ["cyrillic-ext", "latin", "latin-ext"],
+  "subsets": [
+    "cyrillic-ext",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v4",
   "lastModified": "2024-09-04",
   "files": {

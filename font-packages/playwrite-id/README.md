@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playwrite-id/useFonts';
 import { PlaywriteID_100Thin } from 'expo-google-fonts-playwrite-id/100Thin';
 import { PlaywriteID_200ExtraLight } from 'expo-google-fonts-playwrite-id/200ExtraLight';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteID_100Thin',
+            fontFamily:
+              'PlaywriteID_100Thin',
           }}>
           Playwrite ID Thin
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteID_200ExtraLight',
+            fontFamily:
+              'PlaywriteID_200ExtraLight',
           }}>
           Playwrite ID Extra Light
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteID_300Light',
+            fontFamily:
+              'PlaywriteID_300Light',
           }}>
           Playwrite ID Light
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteID_400Regular',
+            fontFamily:
+              'PlaywriteID_400Regular',
           }}>
           Playwrite ID Regular
         </Text>

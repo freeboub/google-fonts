@@ -1,7 +1,11 @@
 {
   "family": "Akaya Telivigala",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "telugu"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "telugu"
+  ],
   "version": "v27",
   "lastModified": "2024-11-20",
   "files": {

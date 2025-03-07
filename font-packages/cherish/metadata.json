@@ -1,10 +1,16 @@
 {
   "family": "Cherish",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v8",
   "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/cherish/v8/ll88K2mXUyqsDsTN5iDCI6IJjg8.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/cherish/v8/ll88K2mXUyqsDsTN5iDCI6IJjg8.ttf"
+  },
   "category": "handwriting",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/cherish/v8/ll88K2mXUyqsDsTN1iHIJw.ttf"

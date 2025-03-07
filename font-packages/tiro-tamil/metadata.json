@@ -1,7 +1,11 @@
 {
   "family": "Tiro Tamil",
   "variants": ["regular", "italic"],
-  "subsets": ["latin", "latin-ext", "tamil"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "tamil"
+  ],
   "version": "v10",
   "lastModified": "2024-09-04",
   "files": {

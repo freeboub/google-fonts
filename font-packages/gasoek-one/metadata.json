@@ -1,7 +1,11 @@
 {
   "family": "Gasoek One",
   "variants": ["regular"],
-  "subsets": ["korean", "latin", "latin-ext"],
+  "subsets": [
+    "korean",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v3",
   "lastModified": "2024-08-12",
   "files": {

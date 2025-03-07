@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-serif-kr/useFonts';
 import { NotoSerifKR_200ExtraLight } from 'expo-google-fonts-noto-serif-kr/200ExtraLight';
 import { NotoSerifKR_300Light } from 'expo-google-fonts-noto-serif-kr/300Light';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifKR_200ExtraLight',
+            fontFamily:
+              'NotoSerifKR_200ExtraLight',
           }}>
           Noto Serif KR Extra Light
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifKR_300Light',
+            fontFamily:
+              'NotoSerifKR_300Light',
           }}>
           Noto Serif KR Light
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifKR_400Regular',
+            fontFamily:
+              'NotoSerifKR_400Regular',
           }}>
           Noto Serif KR Regular
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifKR_500Medium',
+            fontFamily:
+              'NotoSerifKR_500Medium',
           }}>
           Noto Serif KR Medium
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifKR_600SemiBold',
+            fontFamily:
+              'NotoSerifKR_600SemiBold',
           }}>
           Noto Serif KR Semi Bold
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifKR_700Bold',
+            fontFamily:
+              'NotoSerifKR_700Bold',
           }}>
           Noto Serif KR Bold
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifKR_800ExtraBold',
+            fontFamily:
+              'NotoSerifKR_800ExtraBold',
           }}>
           Noto Serif KR Extra Bold
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifKR_900Black',
+            fontFamily:
+              'NotoSerifKR_900Black',
           }}>
           Noto Serif KR Black
         </Text>

@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-georgian/useFonts';
 import { NotoSansGeorgian_100Thin } from 'expo-google-fonts-noto-sans-georgian/100Thin';
 import { NotoSansGeorgian_200ExtraLight } from 'expo-google-fonts-noto-sans-georgian/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGeorgian_100Thin',
+            fontFamily:
+              'NotoSansGeorgian_100Thin',
           }}>
           Noto Sans Georgian Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGeorgian_200ExtraLight',
+            fontFamily:
+              'NotoSansGeorgian_200ExtraLight',
           }}>
           Noto Sans Georgian Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGeorgian_300Light',
+            fontFamily:
+              'NotoSansGeorgian_300Light',
           }}>
           Noto Sans Georgian Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGeorgian_400Regular',
+            fontFamily:
+              'NotoSansGeorgian_400Regular',
           }}>
           Noto Sans Georgian Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGeorgian_500Medium',
+            fontFamily:
+              'NotoSansGeorgian_500Medium',
           }}>
           Noto Sans Georgian Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGeorgian_600SemiBold',
+            fontFamily:
+              'NotoSansGeorgian_600SemiBold',
           }}>
           Noto Sans Georgian Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGeorgian_700Bold',
+            fontFamily:
+              'NotoSansGeorgian_700Bold',
           }}>
           Noto Sans Georgian Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGeorgian_800ExtraBold',
+            fontFamily:
+              'NotoSansGeorgian_800ExtraBold',
           }}>
           Noto Sans Georgian Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansGeorgian_900Black',
+            fontFamily:
+              'NotoSansGeorgian_900Black',
           }}>
           Noto Sans Georgian Black
         </Text>

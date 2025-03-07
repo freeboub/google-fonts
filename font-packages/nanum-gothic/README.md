@@ -27,7 +27,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-nanum-gothic/useFonts';
 import { NanumGothic_400Regular } from 'expo-google-fonts-nanum-gothic/400Regular';
 import { NanumGothic_700Bold } from 'expo-google-fonts-nanum-gothic/700Bold';
@@ -47,13 +50,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NanumGothic_400Regular',
+            fontFamily:
+              'NanumGothic_400Regular',
           }}>
           Nanum Gothic Regular
         </Text>
@@ -63,7 +72,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NanumGothic_700Bold',
+            fontFamily:
+              'NanumGothic_700Bold',
           }}>
           Nanum Gothic Bold
         </Text>
@@ -73,7 +83,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NanumGothic_800ExtraBold',
+            fontFamily:
+              'NanumGothic_800ExtraBold',
           }}>
           Nanum Gothic Extra Bold
         </Text>

@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-zen-kaku-gothic-antique/useFonts';
 import { ZenKakuGothicAntique_300Light } from 'expo-google-fonts-zen-kaku-gothic-antique/300Light';
 import { ZenKakuGothicAntique_400Regular } from 'expo-google-fonts-zen-kaku-gothic-antique/400Regular';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ZenKakuGothicAntique_300Light',
+            fontFamily:
+              'ZenKakuGothicAntique_300Light',
           }}>
           Zen Kaku Gothic Antique Light
         </Text>
@@ -69,9 +78,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ZenKakuGothicAntique_400Regular',
+            fontFamily:
+              'ZenKakuGothicAntique_400Regular',
           }}>
-          Zen Kaku Gothic Antique Regular
+          Zen Kaku Gothic Antique
+          Regular
         </Text>
 
         <Text
@@ -79,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ZenKakuGothicAntique_500Medium',
+            fontFamily:
+              'ZenKakuGothicAntique_500Medium',
           }}>
           Zen Kaku Gothic Antique Medium
         </Text>
@@ -89,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ZenKakuGothicAntique_700Bold',
+            fontFamily:
+              'ZenKakuGothicAntique_700Bold',
           }}>
           Zen Kaku Gothic Antique Bold
         </Text>
@@ -99,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ZenKakuGothicAntique_900Black',
+            fontFamily:
+              'ZenKakuGothicAntique_900Black',
           }}>
           Zen Kaku Gothic Antique Black
         </Text>

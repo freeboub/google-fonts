@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-signika-negative/useFonts';
 import { SignikaNegative_300Light } from 'expo-google-fonts-signika-negative/300Light';
 import { SignikaNegative_400Regular } from 'expo-google-fonts-signika-negative/400Regular';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SignikaNegative_300Light',
+            fontFamily:
+              'SignikaNegative_300Light',
           }}>
           Signika Negative Light
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SignikaNegative_400Regular',
+            fontFamily:
+              'SignikaNegative_400Regular',
           }}>
           Signika Negative Regular
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SignikaNegative_500Medium',
+            fontFamily:
+              'SignikaNegative_500Medium',
           }}>
           Signika Negative Medium
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SignikaNegative_600SemiBold',
+            fontFamily:
+              'SignikaNegative_600SemiBold',
           }}>
           Signika Negative Semi Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SignikaNegative_700Bold',
+            fontFamily:
+              'SignikaNegative_700Bold',
           }}>
           Signika Negative Bold
         </Text>

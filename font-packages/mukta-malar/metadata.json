@@ -1,7 +1,19 @@
 {
   "family": "Mukta Malar",
-  "variants": ["200", "300", "regular", "500", "600", "700", "800"],
-  "subsets": ["latin", "latin-ext", "tamil"],
+  "variants": [
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "tamil"
+  ],
   "version": "v12",
   "lastModified": "2024-09-04",
   "files": {

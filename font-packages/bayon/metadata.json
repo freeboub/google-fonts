@@ -4,7 +4,9 @@
   "subsets": ["khmer", "latin"],
   "version": "v34",
   "lastModified": "2024-08-12",
-  "files": { "regular": "https://fonts.gstatic.com/s/bayon/v34/9XUrlJNmn0LPFl-pOhYEd2NJ.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/bayon/v34/9XUrlJNmn0LPFl-pOhYEd2NJ.ttf"
+  },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/bayon/v34/9XUrlJNmn0LPFm-oMBI.ttf"

@@ -1,7 +1,20 @@
 {
   "family": "Archivo Narrow",
-  "variants": ["regular", "500", "600", "700", "italic", "500italic", "600italic", "700italic"],
-  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700",
+    "italic",
+    "500italic",
+    "600italic",
+    "700italic"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v30",
   "lastModified": "2024-09-04",
   "files": {

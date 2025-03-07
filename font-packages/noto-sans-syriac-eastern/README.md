@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-syriac-eastern/useFonts';
 import { NotoSansSyriacEastern_100Thin } from 'expo-google-fonts-noto-sans-syriac-eastern/100Thin';
 import { NotoSansSyriacEastern_200ExtraLight } from 'expo-google-fonts-noto-sans-syriac-eastern/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSyriacEastern_100Thin',
+            fontFamily:
+              'NotoSansSyriacEastern_100Thin',
           }}>
           Noto Sans Syriac Eastern Thin
         </Text>
@@ -81,9 +90,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSyriacEastern_200ExtraLight',
+            fontFamily:
+              'NotoSansSyriacEastern_200ExtraLight',
           }}>
-          Noto Sans Syriac Eastern Extra Light
+          Noto Sans Syriac Eastern Extra
+          Light
         </Text>
 
         <Text
@@ -91,7 +102,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSyriacEastern_300Light',
+            fontFamily:
+              'NotoSansSyriacEastern_300Light',
           }}>
           Noto Sans Syriac Eastern Light
         </Text>
@@ -101,9 +113,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSyriacEastern_400Regular',
+            fontFamily:
+              'NotoSansSyriacEastern_400Regular',
           }}>
-          Noto Sans Syriac Eastern Regular
+          Noto Sans Syriac Eastern
+          Regular
         </Text>
 
         <Text
@@ -111,9 +125,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSyriacEastern_500Medium',
+            fontFamily:
+              'NotoSansSyriacEastern_500Medium',
           }}>
-          Noto Sans Syriac Eastern Medium
+          Noto Sans Syriac Eastern
+          Medium
         </Text>
 
         <Text
@@ -121,9 +137,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSyriacEastern_600SemiBold',
+            fontFamily:
+              'NotoSansSyriacEastern_600SemiBold',
           }}>
-          Noto Sans Syriac Eastern Semi Bold
+          Noto Sans Syriac Eastern Semi
+          Bold
         </Text>
 
         <Text
@@ -131,7 +149,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSyriacEastern_700Bold',
+            fontFamily:
+              'NotoSansSyriacEastern_700Bold',
           }}>
           Noto Sans Syriac Eastern Bold
         </Text>
@@ -141,9 +160,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSyriacEastern_800ExtraBold',
+            fontFamily:
+              'NotoSansSyriacEastern_800ExtraBold',
           }}>
-          Noto Sans Syriac Eastern Extra Bold
+          Noto Sans Syriac Eastern Extra
+          Bold
         </Text>
 
         <Text
@@ -151,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSyriacEastern_900Black',
+            fontFamily:
+              'NotoSansSyriacEastern_900Black',
           }}>
           Noto Sans Syriac Eastern Black
         </Text>

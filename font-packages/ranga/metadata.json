@@ -1,7 +1,11 @@
 {
   "family": "Ranga",
   "variants": ["regular", "700"],
-  "subsets": ["devanagari", "latin", "latin-ext"],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v21",
   "lastModified": "2024-09-04",
   "files": {

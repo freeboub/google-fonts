@@ -1,7 +1,17 @@
 {
   "family": "Anonymous Pro",
-  "variants": ["regular", "italic", "700", "700italic"],
-  "subsets": ["cyrillic", "greek", "latin", "latin-ext"],
+  "variants": [
+    "regular",
+    "italic",
+    "700",
+    "700italic"
+  ],
+  "subsets": [
+    "cyrillic",
+    "greek",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v21",
   "lastModified": "2024-09-04",
   "files": {

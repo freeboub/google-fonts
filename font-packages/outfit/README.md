@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-outfit/useFonts';
 import { Outfit_100Thin } from 'expo-google-fonts-outfit/100Thin';
 import { Outfit_200ExtraLight } from 'expo-google-fonts-outfit/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Outfit_100Thin',
+            fontFamily:
+              'Outfit_100Thin',
           }}>
           Outfit Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Outfit_200ExtraLight',
+            fontFamily:
+              'Outfit_200ExtraLight',
           }}>
           Outfit Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Outfit_300Light',
+            fontFamily:
+              'Outfit_300Light',
           }}>
           Outfit Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Outfit_400Regular',
+            fontFamily:
+              'Outfit_400Regular',
           }}>
           Outfit Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Outfit_500Medium',
+            fontFamily:
+              'Outfit_500Medium',
           }}>
           Outfit Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Outfit_600SemiBold',
+            fontFamily:
+              'Outfit_600SemiBold',
           }}>
           Outfit Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Outfit_700Bold',
+            fontFamily:
+              'Outfit_700Bold',
           }}>
           Outfit Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Outfit_800ExtraBold',
+            fontFamily:
+              'Outfit_800ExtraBold',
           }}>
           Outfit Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Outfit_900Black',
+            fontFamily:
+              'Outfit_900Black',
           }}>
           Outfit Black
         </Text>

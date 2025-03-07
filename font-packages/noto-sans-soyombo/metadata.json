@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Soyombo",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "soyombo"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "soyombo"
+  ],
   "version": "v17",
   "lastModified": "2023-07-24",
   "files": {

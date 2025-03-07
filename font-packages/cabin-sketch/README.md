@@ -26,7 +26,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-cabin-sketch/useFonts';
 import { CabinSketch_400Regular } from 'expo-google-fonts-cabin-sketch/400Regular';
 import { CabinSketch_700Bold } from 'expo-google-fonts-cabin-sketch/700Bold';
@@ -44,13 +47,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CabinSketch_400Regular',
+            fontFamily:
+              'CabinSketch_400Regular',
           }}>
           Cabin Sketch Regular
         </Text>
@@ -60,7 +69,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CabinSketch_700Bold',
+            fontFamily:
+              'CabinSketch_700Bold',
           }}>
           Cabin Sketch Bold
         </Text>

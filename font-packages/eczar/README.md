@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-eczar/useFonts';
 import { Eczar_400Regular } from 'expo-google-fonts-eczar/400Regular';
 import { Eczar_500Medium } from 'expo-google-fonts-eczar/500Medium';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Eczar_400Regular',
+            fontFamily:
+              'Eczar_400Regular',
           }}>
           Eczar Regular
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Eczar_500Medium',
+            fontFamily:
+              'Eczar_500Medium',
           }}>
           Eczar Medium
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Eczar_600SemiBold',
+            fontFamily:
+              'Eczar_600SemiBold',
           }}>
           Eczar Semi Bold
         </Text>
@@ -99,7 +110,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Eczar_800ExtraBold',
+            fontFamily:
+              'Eczar_800ExtraBold',
           }}>
           Eczar Extra Bold
         </Text>

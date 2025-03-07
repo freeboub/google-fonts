@@ -1,7 +1,16 @@
 {
   "family": "Noto Sans Kawi",
-  "variants": ["regular", "500", "600", "700"],
-  "subsets": ["kawi", "latin", "latin-ext"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "kawi",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v3",
   "lastModified": "2023-10-25",
   "files": {

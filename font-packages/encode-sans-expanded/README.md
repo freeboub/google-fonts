@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-encode-sans-expanded/useFonts';
 import { EncodeSansExpanded_100Thin } from 'expo-google-fonts-encode-sans-expanded/100Thin';
 import { EncodeSansExpanded_200ExtraLight } from 'expo-google-fonts-encode-sans-expanded/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansExpanded_100Thin',
+            fontFamily:
+              'EncodeSansExpanded_100Thin',
           }}>
           Encode Sans Expanded Thin
         </Text>
@@ -81,9 +90,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansExpanded_200ExtraLight',
+            fontFamily:
+              'EncodeSansExpanded_200ExtraLight',
           }}>
-          Encode Sans Expanded Extra Light
+          Encode Sans Expanded Extra
+          Light
         </Text>
 
         <Text
@@ -91,7 +102,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansExpanded_300Light',
+            fontFamily:
+              'EncodeSansExpanded_300Light',
           }}>
           Encode Sans Expanded Light
         </Text>
@@ -101,7 +113,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansExpanded_400Regular',
+            fontFamily:
+              'EncodeSansExpanded_400Regular',
           }}>
           Encode Sans Expanded Regular
         </Text>
@@ -111,7 +124,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansExpanded_500Medium',
+            fontFamily:
+              'EncodeSansExpanded_500Medium',
           }}>
           Encode Sans Expanded Medium
         </Text>
@@ -121,7 +135,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansExpanded_600SemiBold',
+            fontFamily:
+              'EncodeSansExpanded_600SemiBold',
           }}>
           Encode Sans Expanded Semi Bold
         </Text>
@@ -131,7 +146,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansExpanded_700Bold',
+            fontFamily:
+              'EncodeSansExpanded_700Bold',
           }}>
           Encode Sans Expanded Bold
         </Text>
@@ -141,9 +157,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansExpanded_800ExtraBold',
+            fontFamily:
+              'EncodeSansExpanded_800ExtraBold',
           }}>
-          Encode Sans Expanded Extra Bold
+          Encode Sans Expanded Extra
+          Bold
         </Text>
 
         <Text
@@ -151,7 +169,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSansExpanded_900Black',
+            fontFamily:
+              'EncodeSansExpanded_900Black',
           }}>
           Encode Sans Expanded Black
         </Text>

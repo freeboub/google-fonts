@@ -1,7 +1,19 @@
 {
   "family": "Montagu Slab",
-  "variants": ["100", "200", "300", "regular", "500", "600", "700"],
-  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v16",
   "lastModified": "2025-03-03",
   "files": {

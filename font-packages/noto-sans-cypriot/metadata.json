@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Cypriot",
   "variants": ["regular"],
-  "subsets": ["cypriot", "latin", "latin-ext"],
+  "subsets": [
+    "cypriot",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v19",
   "lastModified": "2023-11-09",
   "files": {

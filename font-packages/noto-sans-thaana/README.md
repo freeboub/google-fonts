@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-thaana/useFonts';
 import { NotoSansThaana_100Thin } from 'expo-google-fonts-noto-sans-thaana/100Thin';
 import { NotoSansThaana_200ExtraLight } from 'expo-google-fonts-noto-sans-thaana/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansThaana_100Thin',
+            fontFamily:
+              'NotoSansThaana_100Thin',
           }}>
           Noto Sans Thaana Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansThaana_200ExtraLight',
+            fontFamily:
+              'NotoSansThaana_200ExtraLight',
           }}>
           Noto Sans Thaana Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansThaana_300Light',
+            fontFamily:
+              'NotoSansThaana_300Light',
           }}>
           Noto Sans Thaana Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansThaana_400Regular',
+            fontFamily:
+              'NotoSansThaana_400Regular',
           }}>
           Noto Sans Thaana Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansThaana_500Medium',
+            fontFamily:
+              'NotoSansThaana_500Medium',
           }}>
           Noto Sans Thaana Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansThaana_600SemiBold',
+            fontFamily:
+              'NotoSansThaana_600SemiBold',
           }}>
           Noto Sans Thaana Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansThaana_700Bold',
+            fontFamily:
+              'NotoSansThaana_700Bold',
           }}>
           Noto Sans Thaana Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansThaana_800ExtraBold',
+            fontFamily:
+              'NotoSansThaana_800ExtraBold',
           }}>
           Noto Sans Thaana Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansThaana_900Black',
+            fontFamily:
+              'NotoSansThaana_900Black',
           }}>
           Noto Sans Thaana Black
         </Text>

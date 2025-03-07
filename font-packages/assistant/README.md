@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-assistant/useFonts';
 import { Assistant_200ExtraLight } from 'expo-google-fonts-assistant/200ExtraLight';
 import { Assistant_300Light } from 'expo-google-fonts-assistant/300Light';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Assistant_200ExtraLight',
+            fontFamily:
+              'Assistant_200ExtraLight',
           }}>
           Assistant Extra Light
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Assistant_300Light',
+            fontFamily:
+              'Assistant_300Light',
           }}>
           Assistant Light
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Assistant_400Regular',
+            fontFamily:
+              'Assistant_400Regular',
           }}>
           Assistant Regular
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Assistant_500Medium',
+            fontFamily:
+              'Assistant_500Medium',
           }}>
           Assistant Medium
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Assistant_600SemiBold',
+            fontFamily:
+              'Assistant_600SemiBold',
           }}>
           Assistant Semi Bold
         </Text>
@@ -115,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Assistant_700Bold',
+            fontFamily:
+              'Assistant_700Bold',
           }}>
           Assistant Bold
         </Text>
@@ -125,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Assistant_800ExtraBold',
+            fontFamily:
+              'Assistant_800ExtraBold',
           }}>
           Assistant Extra Bold
         </Text>

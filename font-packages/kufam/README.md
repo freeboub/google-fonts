@@ -36,7 +36,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-kufam/useFonts';
 import { Kufam_400Regular } from 'expo-google-fonts-kufam/400Regular';
 import { Kufam_500Medium } from 'expo-google-fonts-kufam/500Medium';
@@ -74,13 +77,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kufam_400Regular',
+            fontFamily:
+              'Kufam_400Regular',
           }}>
           Kufam Regular
         </Text>
@@ -90,7 +99,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kufam_500Medium',
+            fontFamily:
+              'Kufam_500Medium',
           }}>
           Kufam Medium
         </Text>
@@ -100,7 +110,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kufam_600SemiBold',
+            fontFamily:
+              'Kufam_600SemiBold',
           }}>
           Kufam Semi Bold
         </Text>
@@ -120,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kufam_800ExtraBold',
+            fontFamily:
+              'Kufam_800ExtraBold',
           }}>
           Kufam Extra Bold
         </Text>
@@ -130,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kufam_900Black',
+            fontFamily:
+              'Kufam_900Black',
           }}>
           Kufam Black
         </Text>
@@ -140,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kufam_400Regular_Italic',
+            fontFamily:
+              'Kufam_400Regular_Italic',
           }}>
           Kufam Italic
         </Text>
@@ -150,7 +164,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kufam_500Medium_Italic',
+            fontFamily:
+              'Kufam_500Medium_Italic',
           }}>
           Kufam Medium Italic
         </Text>
@@ -160,7 +175,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kufam_600SemiBold_Italic',
+            fontFamily:
+              'Kufam_600SemiBold_Italic',
           }}>
           Kufam Semi Bold Italic
         </Text>
@@ -170,7 +186,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kufam_700Bold_Italic',
+            fontFamily:
+              'Kufam_700Bold_Italic',
           }}>
           Kufam Bold Italic
         </Text>
@@ -180,7 +197,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kufam_800ExtraBold_Italic',
+            fontFamily:
+              'Kufam_800ExtraBold_Italic',
           }}>
           Kufam Extra Bold Italic
         </Text>
@@ -190,7 +208,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kufam_900Black_Italic',
+            fontFamily:
+              'Kufam_900Black_Italic',
           }}>
           Kufam Black Italic
         </Text>

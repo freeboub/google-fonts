@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-serif-armenian/useFonts';
 import { NotoSerifArmenian_100Thin } from 'expo-google-fonts-noto-serif-armenian/100Thin';
 import { NotoSerifArmenian_200ExtraLight } from 'expo-google-fonts-noto-serif-armenian/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifArmenian_100Thin',
+            fontFamily:
+              'NotoSerifArmenian_100Thin',
           }}>
           Noto Serif Armenian Thin
         </Text>
@@ -81,9 +90,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifArmenian_200ExtraLight',
+            fontFamily:
+              'NotoSerifArmenian_200ExtraLight',
           }}>
-          Noto Serif Armenian Extra Light
+          Noto Serif Armenian Extra
+          Light
         </Text>
 
         <Text
@@ -91,7 +102,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifArmenian_300Light',
+            fontFamily:
+              'NotoSerifArmenian_300Light',
           }}>
           Noto Serif Armenian Light
         </Text>
@@ -101,7 +113,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifArmenian_400Regular',
+            fontFamily:
+              'NotoSerifArmenian_400Regular',
           }}>
           Noto Serif Armenian Regular
         </Text>
@@ -111,7 +124,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifArmenian_500Medium',
+            fontFamily:
+              'NotoSerifArmenian_500Medium',
           }}>
           Noto Serif Armenian Medium
         </Text>
@@ -121,7 +135,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifArmenian_600SemiBold',
+            fontFamily:
+              'NotoSerifArmenian_600SemiBold',
           }}>
           Noto Serif Armenian Semi Bold
         </Text>
@@ -131,7 +146,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifArmenian_700Bold',
+            fontFamily:
+              'NotoSerifArmenian_700Bold',
           }}>
           Noto Serif Armenian Bold
         </Text>
@@ -141,7 +157,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifArmenian_800ExtraBold',
+            fontFamily:
+              'NotoSerifArmenian_800ExtraBold',
           }}>
           Noto Serif Armenian Extra Bold
         </Text>
@@ -151,7 +168,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifArmenian_900Black',
+            fontFamily:
+              'NotoSerifArmenian_900Black',
           }}>
           Noto Serif Armenian Black
         </Text>

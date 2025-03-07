@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playwrite-de-grund/useFonts';
 import { PlaywriteDEGrund_100Thin } from 'expo-google-fonts-playwrite-de-grund/100Thin';
 import { PlaywriteDEGrund_200ExtraLight } from 'expo-google-fonts-playwrite-de-grund/200ExtraLight';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteDEGrund_100Thin',
+            fontFamily:
+              'PlaywriteDEGrund_100Thin',
           }}>
           Playwrite DE Grund Thin
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteDEGrund_200ExtraLight',
+            fontFamily:
+              'PlaywriteDEGrund_200ExtraLight',
           }}>
           Playwrite DE Grund Extra Light
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteDEGrund_300Light',
+            fontFamily:
+              'PlaywriteDEGrund_300Light',
           }}>
           Playwrite DE Grund Light
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteDEGrund_400Regular',
+            fontFamily:
+              'PlaywriteDEGrund_400Regular',
           }}>
           Playwrite DE Grund Regular
         </Text>

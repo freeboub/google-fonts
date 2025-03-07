@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-lexend-exa/useFonts';
 import { LexendExa_100Thin } from 'expo-google-fonts-lexend-exa/100Thin';
 import { LexendExa_200ExtraLight } from 'expo-google-fonts-lexend-exa/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendExa_100Thin',
+            fontFamily:
+              'LexendExa_100Thin',
           }}>
           Lexend Exa Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendExa_200ExtraLight',
+            fontFamily:
+              'LexendExa_200ExtraLight',
           }}>
           Lexend Exa Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendExa_300Light',
+            fontFamily:
+              'LexendExa_300Light',
           }}>
           Lexend Exa Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendExa_400Regular',
+            fontFamily:
+              'LexendExa_400Regular',
           }}>
           Lexend Exa Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendExa_500Medium',
+            fontFamily:
+              'LexendExa_500Medium',
           }}>
           Lexend Exa Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendExa_600SemiBold',
+            fontFamily:
+              'LexendExa_600SemiBold',
           }}>
           Lexend Exa Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendExa_700Bold',
+            fontFamily:
+              'LexendExa_700Bold',
           }}>
           Lexend Exa Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendExa_800ExtraBold',
+            fontFamily:
+              'LexendExa_800ExtraBold',
           }}>
           Lexend Exa Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendExa_900Black',
+            fontFamily:
+              'LexendExa_900Black',
           }}>
           Lexend Exa Black
         </Text>

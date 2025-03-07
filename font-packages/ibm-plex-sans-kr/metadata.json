@@ -1,7 +1,19 @@
 {
   "family": "IBM Plex Sans KR",
-  "variants": ["100", "200", "300", "regular", "500", "600", "700"],
-  "subsets": ["korean", "latin", "latin-ext"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "korean",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v10",
   "lastModified": "2024-08-12",
   "files": {

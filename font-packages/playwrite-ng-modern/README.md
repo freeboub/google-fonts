@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playwrite-ng-modern/useFonts';
 import { PlaywriteNGModern_100Thin } from 'expo-google-fonts-playwrite-ng-modern/100Thin';
 import { PlaywriteNGModern_200ExtraLight } from 'expo-google-fonts-playwrite-ng-modern/200ExtraLight';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteNGModern_100Thin',
+            fontFamily:
+              'PlaywriteNGModern_100Thin',
           }}>
           Playwrite NG Modern Thin
         </Text>
@@ -66,9 +75,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteNGModern_200ExtraLight',
+            fontFamily:
+              'PlaywriteNGModern_200ExtraLight',
           }}>
-          Playwrite NG Modern Extra Light
+          Playwrite NG Modern Extra
+          Light
         </Text>
 
         <Text
@@ -76,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteNGModern_300Light',
+            fontFamily:
+              'PlaywriteNGModern_300Light',
           }}>
           Playwrite NG Modern Light
         </Text>
@@ -86,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteNGModern_400Regular',
+            fontFamily:
+              'PlaywriteNGModern_400Regular',
           }}>
           Playwrite NG Modern Regular
         </Text>

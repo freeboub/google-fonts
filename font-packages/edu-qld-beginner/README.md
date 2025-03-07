@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-edu-qld-beginner/useFonts';
 import { EduQLDBeginner_400Regular } from 'expo-google-fonts-edu-qld-beginner/400Regular';
 import { EduQLDBeginner_500Medium } from 'expo-google-fonts-edu-qld-beginner/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EduQLDBeginner_400Regular',
+            fontFamily:
+              'EduQLDBeginner_400Regular',
           }}>
           Edu QLD Beginner Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EduQLDBeginner_500Medium',
+            fontFamily:
+              'EduQLDBeginner_500Medium',
           }}>
           Edu QLD Beginner Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EduQLDBeginner_600SemiBold',
+            fontFamily:
+              'EduQLDBeginner_600SemiBold',
           }}>
           Edu QLD Beginner Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EduQLDBeginner_700Bold',
+            fontFamily:
+              'EduQLDBeginner_700Bold',
           }}>
           Edu QLD Beginner Bold
         </Text>

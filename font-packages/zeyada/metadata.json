@@ -4,7 +4,9 @@
   "subsets": ["latin", "latin-ext"],
   "version": "v20",
   "lastModified": "2024-11-20",
-  "files": { "regular": "https://fonts.gstatic.com/s/zeyada/v20/11hAGpPTxVPUbgZDNGatWKaZ3g.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/zeyada/v20/11hAGpPTxVPUbgZDNGatWKaZ3g.ttf"
+  },
   "category": "handwriting",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/zeyada/v20/11hAGpPTxVPUbgZzNWyp.ttf"

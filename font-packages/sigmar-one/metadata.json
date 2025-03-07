@@ -1,7 +1,11 @@
 {
   "family": "Sigmar One",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v18",
   "lastModified": "2024-09-04",
   "files": {

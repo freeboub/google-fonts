@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-arabic/useFonts';
 import { NotoSansArabic_100Thin } from 'expo-google-fonts-noto-sans-arabic/100Thin';
 import { NotoSansArabic_200ExtraLight } from 'expo-google-fonts-noto-sans-arabic/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansArabic_100Thin',
+            fontFamily:
+              'NotoSansArabic_100Thin',
           }}>
           Noto Sans Arabic Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansArabic_200ExtraLight',
+            fontFamily:
+              'NotoSansArabic_200ExtraLight',
           }}>
           Noto Sans Arabic Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansArabic_300Light',
+            fontFamily:
+              'NotoSansArabic_300Light',
           }}>
           Noto Sans Arabic Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansArabic_400Regular',
+            fontFamily:
+              'NotoSansArabic_400Regular',
           }}>
           Noto Sans Arabic Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansArabic_500Medium',
+            fontFamily:
+              'NotoSansArabic_500Medium',
           }}>
           Noto Sans Arabic Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansArabic_600SemiBold',
+            fontFamily:
+              'NotoSansArabic_600SemiBold',
           }}>
           Noto Sans Arabic Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansArabic_700Bold',
+            fontFamily:
+              'NotoSansArabic_700Bold',
           }}>
           Noto Sans Arabic Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansArabic_800ExtraBold',
+            fontFamily:
+              'NotoSansArabic_800ExtraBold',
           }}>
           Noto Sans Arabic Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansArabic_900Black',
+            fontFamily:
+              'NotoSansArabic_900Black',
           }}>
           Noto Sans Arabic Black
         </Text>

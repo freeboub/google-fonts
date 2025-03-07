@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-reem-kufi/useFonts';
 import { ReemKufi_400Regular } from 'expo-google-fonts-reem-kufi/400Regular';
 import { ReemKufi_500Medium } from 'expo-google-fonts-reem-kufi/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ReemKufi_400Regular',
+            fontFamily:
+              'ReemKufi_400Regular',
           }}>
           Reem Kufi Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ReemKufi_500Medium',
+            fontFamily:
+              'ReemKufi_500Medium',
           }}>
           Reem Kufi Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ReemKufi_600SemiBold',
+            fontFamily:
+              'ReemKufi_600SemiBold',
           }}>
           Reem Kufi Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ReemKufi_700Bold',
+            fontFamily:
+              'ReemKufi_700Bold',
           }}>
           Reem Kufi Bold
         </Text>

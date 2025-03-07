@@ -1,7 +1,11 @@
 {
   "family": "Rhodium Libre",
   "variants": ["regular"],
-  "subsets": ["devanagari", "latin", "latin-ext"],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v19",
   "lastModified": "2024-08-12",
   "files": {

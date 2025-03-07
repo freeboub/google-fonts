@@ -1,7 +1,19 @@
 {
   "family": "Biryani",
-  "variants": ["200", "300", "regular", "600", "700", "800", "900"],
-  "subsets": ["devanagari", "latin", "latin-ext"],
+  "variants": [
+    "200",
+    "300",
+    "regular",
+    "600",
+    "700",
+    "800",
+    "900"
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v13",
   "lastModified": "2024-09-04",
   "files": {

@@ -36,7 +36,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-koho/useFonts';
 import { KoHo_200ExtraLight } from 'expo-google-fonts-koho/200ExtraLight';
 import { KoHo_200ExtraLight_Italic } from 'expo-google-fonts-koho/200ExtraLight_Italic';
@@ -74,13 +77,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KoHo_200ExtraLight',
+            fontFamily:
+              'KoHo_200ExtraLight',
           }}>
           KoHo Extra Light
         </Text>
@@ -90,7 +99,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KoHo_200ExtraLight_Italic',
+            fontFamily:
+              'KoHo_200ExtraLight_Italic',
           }}>
           KoHo Extra Light Italic
         </Text>
@@ -110,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KoHo_300Light_Italic',
+            fontFamily:
+              'KoHo_300Light_Italic',
           }}>
           KoHo Light Italic
         </Text>
@@ -120,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KoHo_400Regular',
+            fontFamily:
+              'KoHo_400Regular',
           }}>
           KoHo Regular
         </Text>
@@ -130,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KoHo_400Regular_Italic',
+            fontFamily:
+              'KoHo_400Regular_Italic',
           }}>
           KoHo Italic
         </Text>
@@ -140,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KoHo_500Medium',
+            fontFamily:
+              'KoHo_500Medium',
           }}>
           KoHo Medium
         </Text>
@@ -150,7 +164,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KoHo_500Medium_Italic',
+            fontFamily:
+              'KoHo_500Medium_Italic',
           }}>
           KoHo Medium Italic
         </Text>
@@ -160,7 +175,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KoHo_600SemiBold',
+            fontFamily:
+              'KoHo_600SemiBold',
           }}>
           KoHo Semi Bold
         </Text>
@@ -170,7 +186,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KoHo_600SemiBold_Italic',
+            fontFamily:
+              'KoHo_600SemiBold_Italic',
           }}>
           KoHo Semi Bold Italic
         </Text>
@@ -190,7 +207,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KoHo_700Bold_Italic',
+            fontFamily:
+              'KoHo_700Bold_Italic',
           }}>
           KoHo Bold Italic
         </Text>

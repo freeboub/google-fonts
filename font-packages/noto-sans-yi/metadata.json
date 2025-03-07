@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Yi",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "yi"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "yi"
+  ],
   "version": "v19",
   "lastModified": "2023-05-02",
   "files": {

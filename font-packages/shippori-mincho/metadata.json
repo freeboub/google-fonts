@@ -1,7 +1,17 @@
 {
   "family": "Shippori Mincho",
-  "variants": ["regular", "500", "600", "700", "800"],
-  "subsets": ["japanese", "latin", "latin-ext"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800"
+  ],
+  "subsets": [
+    "japanese",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v15",
   "lastModified": "2024-09-04",
   "files": {

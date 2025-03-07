@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-lemonada/useFonts';
 import { Lemonada_300Light } from 'expo-google-fonts-lemonada/300Light';
 import { Lemonada_400Regular } from 'expo-google-fonts-lemonada/400Regular';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Lemonada_300Light',
+            fontFamily:
+              'Lemonada_300Light',
           }}>
           Lemonada Light
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Lemonada_400Regular',
+            fontFamily:
+              'Lemonada_400Regular',
           }}>
           Lemonada Regular
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Lemonada_500Medium',
+            fontFamily:
+              'Lemonada_500Medium',
           }}>
           Lemonada Medium
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Lemonada_600SemiBold',
+            fontFamily:
+              'Lemonada_600SemiBold',
           }}>
           Lemonada Semi Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Lemonada_700Bold',
+            fontFamily:
+              'Lemonada_700Bold',
           }}>
           Lemonada Bold
         </Text>

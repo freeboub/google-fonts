@@ -1,6 +1,13 @@
 {
   "family": "Averia Sans Libre",
-  "variants": ["300", "300italic", "regular", "italic", "700", "700italic"],
+  "variants": [
+    "300",
+    "300italic",
+    "regular",
+    "italic",
+    "700",
+    "700italic"
+  ],
   "subsets": ["latin"],
   "version": "v19",
   "lastModified": "2024-09-04",

@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-beiruti/useFonts';
 import { Beiruti_200ExtraLight } from 'expo-google-fonts-beiruti/200ExtraLight';
 import { Beiruti_300Light } from 'expo-google-fonts-beiruti/300Light';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Beiruti_200ExtraLight',
+            fontFamily:
+              'Beiruti_200ExtraLight',
           }}>
           Beiruti Extra Light
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Beiruti_300Light',
+            fontFamily:
+              'Beiruti_300Light',
           }}>
           Beiruti Light
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Beiruti_400Regular',
+            fontFamily:
+              'Beiruti_400Regular',
           }}>
           Beiruti Regular
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Beiruti_500Medium',
+            fontFamily:
+              'Beiruti_500Medium',
           }}>
           Beiruti Medium
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Beiruti_600SemiBold',
+            fontFamily:
+              'Beiruti_600SemiBold',
           }}>
           Beiruti Semi Bold
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Beiruti_700Bold',
+            fontFamily:
+              'Beiruti_700Bold',
           }}>
           Beiruti Bold
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Beiruti_800ExtraBold',
+            fontFamily:
+              'Beiruti_800ExtraBold',
           }}>
           Beiruti Extra Bold
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Beiruti_900Black',
+            fontFamily:
+              'Beiruti_900Black',
           }}>
           Beiruti Black
         </Text>

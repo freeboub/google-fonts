@@ -1,7 +1,17 @@
 {
   "family": "Abhaya Libre",
-  "variants": ["regular", "500", "600", "700", "800"],
-  "subsets": ["latin", "latin-ext", "sinhala"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "sinhala"
+  ],
   "version": "v17",
   "lastModified": "2024-09-04",
   "files": {

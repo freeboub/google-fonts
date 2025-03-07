@@ -1,7 +1,17 @@
 {
   "family": "Hind",
-  "variants": ["300", "regular", "500", "600", "700"],
-  "subsets": ["devanagari", "latin", "latin-ext"],
+  "variants": [
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v17",
   "lastModified": "2024-12-04",
   "files": {

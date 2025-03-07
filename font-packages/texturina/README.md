@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-texturina/useFonts';
 import { Texturina_100Thin } from 'expo-google-fonts-texturina/100Thin';
 import { Texturina_200ExtraLight } from 'expo-google-fonts-texturina/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_100Thin',
+            fontFamily:
+              'Texturina_100Thin',
           }}>
           Texturina Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_200ExtraLight',
+            fontFamily:
+              'Texturina_200ExtraLight',
           }}>
           Texturina Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_300Light',
+            fontFamily:
+              'Texturina_300Light',
           }}>
           Texturina Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_400Regular',
+            fontFamily:
+              'Texturina_400Regular',
           }}>
           Texturina Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_500Medium',
+            fontFamily:
+              'Texturina_500Medium',
           }}>
           Texturina Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_600SemiBold',
+            fontFamily:
+              'Texturina_600SemiBold',
           }}>
           Texturina Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_700Bold',
+            fontFamily:
+              'Texturina_700Bold',
           }}>
           Texturina Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_800ExtraBold',
+            fontFamily:
+              'Texturina_800ExtraBold',
           }}>
           Texturina Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_900Black',
+            fontFamily:
+              'Texturina_900Black',
           }}>
           Texturina Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_100Thin_Italic',
+            fontFamily:
+              'Texturina_100Thin_Italic',
           }}>
           Texturina Thin Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_200ExtraLight_Italic',
+            fontFamily:
+              'Texturina_200ExtraLight_Italic',
           }}>
           Texturina Extra Light Italic
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_300Light_Italic',
+            fontFamily:
+              'Texturina_300Light_Italic',
           }}>
           Texturina Light Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_400Regular_Italic',
+            fontFamily:
+              'Texturina_400Regular_Italic',
           }}>
           Texturina Italic
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_500Medium_Italic',
+            fontFamily:
+              'Texturina_500Medium_Italic',
           }}>
           Texturina Medium Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_600SemiBold_Italic',
+            fontFamily:
+              'Texturina_600SemiBold_Italic',
           }}>
           Texturina Semi Bold Italic
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_700Bold_Italic',
+            fontFamily:
+              'Texturina_700Bold_Italic',
           }}>
           Texturina Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_800ExtraBold_Italic',
+            fontFamily:
+              'Texturina_800ExtraBold_Italic',
           }}>
           Texturina Extra Bold Italic
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Texturina_900Black_Italic',
+            fontFamily:
+              'Texturina_900Black_Italic',
           }}>
           Texturina Black Italic
         </Text>

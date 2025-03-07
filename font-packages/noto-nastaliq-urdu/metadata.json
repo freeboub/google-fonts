@@ -1,7 +1,16 @@
 {
   "family": "Noto Nastaliq Urdu",
-  "variants": ["regular", "500", "600", "700"],
-  "subsets": ["arabic", "latin", "latin-ext"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v20",
   "lastModified": "2023-03-21",
   "files": {

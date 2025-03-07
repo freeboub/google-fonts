@@ -27,7 +27,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-kaisei-harunoumi/useFonts';
 import { KaiseiHarunoUmi_400Regular } from 'expo-google-fonts-kaisei-harunoumi/400Regular';
 import { KaiseiHarunoUmi_500Medium } from 'expo-google-fonts-kaisei-harunoumi/500Medium';
@@ -47,13 +50,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KaiseiHarunoUmi_400Regular',
+            fontFamily:
+              'KaiseiHarunoUmi_400Regular',
           }}>
           Kaisei HarunoUmi Regular
         </Text>
@@ -63,7 +72,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KaiseiHarunoUmi_500Medium',
+            fontFamily:
+              'KaiseiHarunoUmi_500Medium',
           }}>
           Kaisei HarunoUmi Medium
         </Text>
@@ -73,7 +83,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KaiseiHarunoUmi_700Bold',
+            fontFamily:
+              'KaiseiHarunoUmi_700Bold',
           }}>
           Kaisei HarunoUmi Bold
         </Text>

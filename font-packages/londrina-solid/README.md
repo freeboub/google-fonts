@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-londrina-solid/useFonts';
 import { LondrinaSolid_100Thin } from 'expo-google-fonts-londrina-solid/100Thin';
 import { LondrinaSolid_300Light } from 'expo-google-fonts-londrina-solid/300Light';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LondrinaSolid_100Thin',
+            fontFamily:
+              'LondrinaSolid_100Thin',
           }}>
           Londrina Solid Thin
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LondrinaSolid_300Light',
+            fontFamily:
+              'LondrinaSolid_300Light',
           }}>
           Londrina Solid Light
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LondrinaSolid_400Regular',
+            fontFamily:
+              'LondrinaSolid_400Regular',
           }}>
           Londrina Solid Regular
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LondrinaSolid_900Black',
+            fontFamily:
+              'LondrinaSolid_900Black',
           }}>
           Londrina Solid Black
         </Text>

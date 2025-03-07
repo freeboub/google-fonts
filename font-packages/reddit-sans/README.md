@@ -40,7 +40,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-reddit-sans/useFonts';
 import { RedditSans_200ExtraLight } from 'expo-google-fonts-reddit-sans/200ExtraLight';
 import { RedditSans_300Light } from 'expo-google-fonts-reddit-sans/300Light';
@@ -86,13 +89,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditSans_200ExtraLight',
+            fontFamily:
+              'RedditSans_200ExtraLight',
           }}>
           Reddit Sans Extra Light
         </Text>
@@ -102,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditSans_300Light',
+            fontFamily:
+              'RedditSans_300Light',
           }}>
           Reddit Sans Light
         </Text>
@@ -112,7 +122,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditSans_400Regular',
+            fontFamily:
+              'RedditSans_400Regular',
           }}>
           Reddit Sans Regular
         </Text>
@@ -122,7 +133,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditSans_500Medium',
+            fontFamily:
+              'RedditSans_500Medium',
           }}>
           Reddit Sans Medium
         </Text>
@@ -132,7 +144,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditSans_600SemiBold',
+            fontFamily:
+              'RedditSans_600SemiBold',
           }}>
           Reddit Sans Semi Bold
         </Text>
@@ -142,7 +155,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditSans_700Bold',
+            fontFamily:
+              'RedditSans_700Bold',
           }}>
           Reddit Sans Bold
         </Text>
@@ -152,7 +166,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditSans_800ExtraBold',
+            fontFamily:
+              'RedditSans_800ExtraBold',
           }}>
           Reddit Sans Extra Bold
         </Text>
@@ -162,7 +177,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditSans_900Black',
+            fontFamily:
+              'RedditSans_900Black',
           }}>
           Reddit Sans Black
         </Text>
@@ -172,7 +188,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditSans_200ExtraLight_Italic',
+            fontFamily:
+              'RedditSans_200ExtraLight_Italic',
           }}>
           Reddit Sans Extra Light Italic
         </Text>
@@ -182,7 +199,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditSans_300Light_Italic',
+            fontFamily:
+              'RedditSans_300Light_Italic',
           }}>
           Reddit Sans Light Italic
         </Text>
@@ -192,7 +210,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditSans_400Regular_Italic',
+            fontFamily:
+              'RedditSans_400Regular_Italic',
           }}>
           Reddit Sans Italic
         </Text>
@@ -202,7 +221,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditSans_500Medium_Italic',
+            fontFamily:
+              'RedditSans_500Medium_Italic',
           }}>
           Reddit Sans Medium Italic
         </Text>
@@ -212,7 +232,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditSans_600SemiBold_Italic',
+            fontFamily:
+              'RedditSans_600SemiBold_Italic',
           }}>
           Reddit Sans Semi Bold Italic
         </Text>
@@ -222,7 +243,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditSans_700Bold_Italic',
+            fontFamily:
+              'RedditSans_700Bold_Italic',
           }}>
           Reddit Sans Bold Italic
         </Text>
@@ -232,7 +254,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditSans_800ExtraBold_Italic',
+            fontFamily:
+              'RedditSans_800ExtraBold_Italic',
           }}>
           Reddit Sans Extra Bold Italic
         </Text>
@@ -242,7 +265,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedditSans_900Black_Italic',
+            fontFamily:
+              'RedditSans_900Black_Italic',
           }}>
           Reddit Sans Black Italic
         </Text>

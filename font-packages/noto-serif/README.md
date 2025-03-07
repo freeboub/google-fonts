@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-serif/useFonts';
 import { NotoSerif_100Thin } from 'expo-google-fonts-noto-serif/100Thin';
 import { NotoSerif_200ExtraLight } from 'expo-google-fonts-noto-serif/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerif_100Thin',
+            fontFamily:
+              'NotoSerif_100Thin',
           }}>
           Noto Serif Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerif_200ExtraLight',
+            fontFamily:
+              'NotoSerif_200ExtraLight',
           }}>
           Noto Serif Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerif_300Light',
+            fontFamily:
+              'NotoSerif_300Light',
           }}>
           Noto Serif Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerif_400Regular',
+            fontFamily:
+              'NotoSerif_400Regular',
           }}>
           Noto Serif Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerif_500Medium',
+            fontFamily:
+              'NotoSerif_500Medium',
           }}>
           Noto Serif Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerif_600SemiBold',
+            fontFamily:
+              'NotoSerif_600SemiBold',
           }}>
           Noto Serif Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerif_700Bold',
+            fontFamily:
+              'NotoSerif_700Bold',
           }}>
           Noto Serif Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerif_800ExtraBold',
+            fontFamily:
+              'NotoSerif_800ExtraBold',
           }}>
           Noto Serif Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerif_900Black',
+            fontFamily:
+              'NotoSerif_900Black',
           }}>
           Noto Serif Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerif_100Thin_Italic',
+            fontFamily:
+              'NotoSerif_100Thin_Italic',
           }}>
           Noto Serif Thin Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerif_200ExtraLight_Italic',
+            fontFamily:
+              'NotoSerif_200ExtraLight_Italic',
           }}>
           Noto Serif Extra Light Italic
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerif_300Light_Italic',
+            fontFamily:
+              'NotoSerif_300Light_Italic',
           }}>
           Noto Serif Light Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerif_400Regular_Italic',
+            fontFamily:
+              'NotoSerif_400Regular_Italic',
           }}>
           Noto Serif Italic
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerif_500Medium_Italic',
+            fontFamily:
+              'NotoSerif_500Medium_Italic',
           }}>
           Noto Serif Medium Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerif_600SemiBold_Italic',
+            fontFamily:
+              'NotoSerif_600SemiBold_Italic',
           }}>
           Noto Serif Semi Bold Italic
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerif_700Bold_Italic',
+            fontFamily:
+              'NotoSerif_700Bold_Italic',
           }}>
           Noto Serif Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerif_800ExtraBold_Italic',
+            fontFamily:
+              'NotoSerif_800ExtraBold_Italic',
           }}>
           Noto Serif Extra Bold Italic
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerif_900Black_Italic',
+            fontFamily:
+              'NotoSerif_900Black_Italic',
           }}>
           Noto Serif Black Italic
         </Text>

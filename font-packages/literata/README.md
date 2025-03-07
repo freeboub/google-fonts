@@ -40,7 +40,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-literata/useFonts';
 import { Literata_200ExtraLight } from 'expo-google-fonts-literata/200ExtraLight';
 import { Literata_300Light } from 'expo-google-fonts-literata/300Light';
@@ -86,13 +89,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Literata_200ExtraLight',
+            fontFamily:
+              'Literata_200ExtraLight',
           }}>
           Literata Extra Light
         </Text>
@@ -102,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Literata_300Light',
+            fontFamily:
+              'Literata_300Light',
           }}>
           Literata Light
         </Text>
@@ -112,7 +122,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Literata_400Regular',
+            fontFamily:
+              'Literata_400Regular',
           }}>
           Literata Regular
         </Text>
@@ -122,7 +133,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Literata_500Medium',
+            fontFamily:
+              'Literata_500Medium',
           }}>
           Literata Medium
         </Text>
@@ -132,7 +144,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Literata_600SemiBold',
+            fontFamily:
+              'Literata_600SemiBold',
           }}>
           Literata Semi Bold
         </Text>
@@ -142,7 +155,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Literata_700Bold',
+            fontFamily:
+              'Literata_700Bold',
           }}>
           Literata Bold
         </Text>
@@ -152,7 +166,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Literata_800ExtraBold',
+            fontFamily:
+              'Literata_800ExtraBold',
           }}>
           Literata Extra Bold
         </Text>
@@ -162,7 +177,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Literata_900Black',
+            fontFamily:
+              'Literata_900Black',
           }}>
           Literata Black
         </Text>
@@ -172,7 +188,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Literata_200ExtraLight_Italic',
+            fontFamily:
+              'Literata_200ExtraLight_Italic',
           }}>
           Literata Extra Light Italic
         </Text>
@@ -182,7 +199,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Literata_300Light_Italic',
+            fontFamily:
+              'Literata_300Light_Italic',
           }}>
           Literata Light Italic
         </Text>
@@ -192,7 +210,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Literata_400Regular_Italic',
+            fontFamily:
+              'Literata_400Regular_Italic',
           }}>
           Literata Italic
         </Text>
@@ -202,7 +221,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Literata_500Medium_Italic',
+            fontFamily:
+              'Literata_500Medium_Italic',
           }}>
           Literata Medium Italic
         </Text>
@@ -212,7 +232,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Literata_600SemiBold_Italic',
+            fontFamily:
+              'Literata_600SemiBold_Italic',
           }}>
           Literata Semi Bold Italic
         </Text>
@@ -222,7 +243,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Literata_700Bold_Italic',
+            fontFamily:
+              'Literata_700Bold_Italic',
           }}>
           Literata Bold Italic
         </Text>
@@ -232,7 +254,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Literata_800ExtraBold_Italic',
+            fontFamily:
+              'Literata_800ExtraBold_Italic',
           }}>
           Literata Extra Bold Italic
         </Text>
@@ -242,7 +265,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Literata_900Black_Italic',
+            fontFamily:
+              'Literata_900Black_Italic',
           }}>
           Literata Black Italic
         </Text>

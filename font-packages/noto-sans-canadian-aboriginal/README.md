@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-canadian-aboriginal/useFonts';
 import { NotoSansCanadianAboriginal_100Thin } from 'expo-google-fonts-noto-sans-canadian-aboriginal/100Thin';
 import { NotoSansCanadianAboriginal_200ExtraLight } from 'expo-google-fonts-noto-sans-canadian-aboriginal/200ExtraLight';
@@ -65,15 +68,22 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansCanadianAboriginal_100Thin',
+            fontFamily:
+              'NotoSansCanadianAboriginal_100Thin',
           }}>
-          Noto Sans Canadian Aboriginal Thin
+          Noto Sans Canadian Aboriginal
+          Thin
         </Text>
 
         <Text
@@ -81,9 +91,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansCanadianAboriginal_200ExtraLight',
+            fontFamily:
+              'NotoSansCanadianAboriginal_200ExtraLight',
           }}>
-          Noto Sans Canadian Aboriginal Extra Light
+          Noto Sans Canadian Aboriginal
+          Extra Light
         </Text>
 
         <Text
@@ -91,9 +103,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansCanadianAboriginal_300Light',
+            fontFamily:
+              'NotoSansCanadianAboriginal_300Light',
           }}>
-          Noto Sans Canadian Aboriginal Light
+          Noto Sans Canadian Aboriginal
+          Light
         </Text>
 
         <Text
@@ -101,9 +115,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansCanadianAboriginal_400Regular',
+            fontFamily:
+              'NotoSansCanadianAboriginal_400Regular',
           }}>
-          Noto Sans Canadian Aboriginal Regular
+          Noto Sans Canadian Aboriginal
+          Regular
         </Text>
 
         <Text
@@ -111,9 +127,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansCanadianAboriginal_500Medium',
+            fontFamily:
+              'NotoSansCanadianAboriginal_500Medium',
           }}>
-          Noto Sans Canadian Aboriginal Medium
+          Noto Sans Canadian Aboriginal
+          Medium
         </Text>
 
         <Text
@@ -121,9 +139,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansCanadianAboriginal_600SemiBold',
+            fontFamily:
+              'NotoSansCanadianAboriginal_600SemiBold',
           }}>
-          Noto Sans Canadian Aboriginal Semi Bold
+          Noto Sans Canadian Aboriginal
+          Semi Bold
         </Text>
 
         <Text
@@ -131,9 +151,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansCanadianAboriginal_700Bold',
+            fontFamily:
+              'NotoSansCanadianAboriginal_700Bold',
           }}>
-          Noto Sans Canadian Aboriginal Bold
+          Noto Sans Canadian Aboriginal
+          Bold
         </Text>
 
         <Text
@@ -141,9 +163,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansCanadianAboriginal_800ExtraBold',
+            fontFamily:
+              'NotoSansCanadianAboriginal_800ExtraBold',
           }}>
-          Noto Sans Canadian Aboriginal Extra Bold
+          Noto Sans Canadian Aboriginal
+          Extra Bold
         </Text>
 
         <Text
@@ -151,9 +175,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansCanadianAboriginal_900Black',
+            fontFamily:
+              'NotoSansCanadianAboriginal_900Black',
           }}>
-          Noto Sans Canadian Aboriginal Black
+          Noto Sans Canadian Aboriginal
+          Black
         </Text>
       </View>
     );

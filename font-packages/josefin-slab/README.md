@@ -38,7 +38,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-josefin-slab/useFonts';
 import { JosefinSlab_100Thin } from 'expo-google-fonts-josefin-slab/100Thin';
 import { JosefinSlab_200ExtraLight } from 'expo-google-fonts-josefin-slab/200ExtraLight';
@@ -80,13 +83,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSlab_100Thin',
+            fontFamily:
+              'JosefinSlab_100Thin',
           }}>
           Josefin Slab Thin
         </Text>
@@ -96,7 +105,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSlab_200ExtraLight',
+            fontFamily:
+              'JosefinSlab_200ExtraLight',
           }}>
           Josefin Slab Extra Light
         </Text>
@@ -106,7 +116,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSlab_300Light',
+            fontFamily:
+              'JosefinSlab_300Light',
           }}>
           Josefin Slab Light
         </Text>
@@ -116,7 +127,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSlab_400Regular',
+            fontFamily:
+              'JosefinSlab_400Regular',
           }}>
           Josefin Slab Regular
         </Text>
@@ -126,7 +138,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSlab_500Medium',
+            fontFamily:
+              'JosefinSlab_500Medium',
           }}>
           Josefin Slab Medium
         </Text>
@@ -136,7 +149,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSlab_600SemiBold',
+            fontFamily:
+              'JosefinSlab_600SemiBold',
           }}>
           Josefin Slab Semi Bold
         </Text>
@@ -146,7 +160,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSlab_700Bold',
+            fontFamily:
+              'JosefinSlab_700Bold',
           }}>
           Josefin Slab Bold
         </Text>
@@ -156,7 +171,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSlab_100Thin_Italic',
+            fontFamily:
+              'JosefinSlab_100Thin_Italic',
           }}>
           Josefin Slab Thin Italic
         </Text>
@@ -166,9 +182,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSlab_200ExtraLight_Italic',
+            fontFamily:
+              'JosefinSlab_200ExtraLight_Italic',
           }}>
-          Josefin Slab Extra Light Italic
+          Josefin Slab Extra Light
+          Italic
         </Text>
 
         <Text
@@ -176,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSlab_300Light_Italic',
+            fontFamily:
+              'JosefinSlab_300Light_Italic',
           }}>
           Josefin Slab Light Italic
         </Text>
@@ -186,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSlab_400Regular_Italic',
+            fontFamily:
+              'JosefinSlab_400Regular_Italic',
           }}>
           Josefin Slab Italic
         </Text>
@@ -196,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSlab_500Medium_Italic',
+            fontFamily:
+              'JosefinSlab_500Medium_Italic',
           }}>
           Josefin Slab Medium Italic
         </Text>
@@ -206,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSlab_600SemiBold_Italic',
+            fontFamily:
+              'JosefinSlab_600SemiBold_Italic',
           }}>
           Josefin Slab Semi Bold Italic
         </Text>
@@ -216,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JosefinSlab_700Bold_Italic',
+            fontFamily:
+              'JosefinSlab_700Bold_Italic',
           }}>
           Josefin Slab Bold Italic
         </Text>

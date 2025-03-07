@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-ubuntu/useFonts';
 import { Ubuntu_300Light } from 'expo-google-fonts-ubuntu/300Light';
 import { Ubuntu_300Light_Italic } from 'expo-google-fonts-ubuntu/300Light_Italic';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Ubuntu_300Light',
+            fontFamily:
+              'Ubuntu_300Light',
           }}>
           Ubuntu Light
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Ubuntu_300Light_Italic',
+            fontFamily:
+              'Ubuntu_300Light_Italic',
           }}>
           Ubuntu Light Italic
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Ubuntu_400Regular',
+            fontFamily:
+              'Ubuntu_400Regular',
           }}>
           Ubuntu Regular
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Ubuntu_400Regular_Italic',
+            fontFamily:
+              'Ubuntu_400Regular_Italic',
           }}>
           Ubuntu Italic
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Ubuntu_500Medium',
+            fontFamily:
+              'Ubuntu_500Medium',
           }}>
           Ubuntu Medium
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Ubuntu_500Medium_Italic',
+            fontFamily:
+              'Ubuntu_500Medium_Italic',
           }}>
           Ubuntu Medium Italic
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Ubuntu_700Bold',
+            fontFamily:
+              'Ubuntu_700Bold',
           }}>
           Ubuntu Bold
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Ubuntu_700Bold_Italic',
+            fontFamily:
+              'Ubuntu_700Bold_Italic',
           }}>
           Ubuntu Bold Italic
         </Text>

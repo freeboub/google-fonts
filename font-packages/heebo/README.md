@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-heebo/useFonts';
 import { Heebo_100Thin } from 'expo-google-fonts-heebo/100Thin';
 import { Heebo_200ExtraLight } from 'expo-google-fonts-heebo/200ExtraLight';
@@ -65,7 +68,12 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
@@ -81,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Heebo_200ExtraLight',
+            fontFamily:
+              'Heebo_200ExtraLight',
           }}>
           Heebo Extra Light
         </Text>
@@ -91,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Heebo_300Light',
+            fontFamily:
+              'Heebo_300Light',
           }}>
           Heebo Light
         </Text>
@@ -101,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Heebo_400Regular',
+            fontFamily:
+              'Heebo_400Regular',
           }}>
           Heebo Regular
         </Text>
@@ -111,7 +122,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Heebo_500Medium',
+            fontFamily:
+              'Heebo_500Medium',
           }}>
           Heebo Medium
         </Text>
@@ -121,7 +133,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Heebo_600SemiBold',
+            fontFamily:
+              'Heebo_600SemiBold',
           }}>
           Heebo Semi Bold
         </Text>
@@ -141,7 +154,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Heebo_800ExtraBold',
+            fontFamily:
+              'Heebo_800ExtraBold',
           }}>
           Heebo Extra Bold
         </Text>
@@ -151,7 +165,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Heebo_900Black',
+            fontFamily:
+              'Heebo_900Black',
           }}>
           Heebo Black
         </Text>

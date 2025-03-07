@@ -14,7 +14,12 @@
     "800italic",
     "900italic"
   ],
-  "subsets": ["latin", "latin-ext", "math", "symbols"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols"
+  ],
   "version": "v25",
   "lastModified": "2024-09-04",
   "files": {

@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-solway/useFonts';
 import { Solway_300Light } from 'expo-google-fonts-solway/300Light';
 import { Solway_400Regular } from 'expo-google-fonts-solway/400Regular';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Solway_300Light',
+            fontFamily:
+              'Solway_300Light',
           }}>
           Solway Light
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Solway_400Regular',
+            fontFamily:
+              'Solway_400Regular',
           }}>
           Solway Regular
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Solway_500Medium',
+            fontFamily:
+              'Solway_500Medium',
           }}>
           Solway Medium
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Solway_700Bold',
+            fontFamily:
+              'Solway_700Bold',
           }}>
           Solway Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Solway_800ExtraBold',
+            fontFamily:
+              'Solway_800ExtraBold',
           }}>
           Solway Extra Bold
         </Text>

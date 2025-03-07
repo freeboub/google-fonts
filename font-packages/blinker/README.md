@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-blinker/useFonts';
 import { Blinker_100Thin } from 'expo-google-fonts-blinker/100Thin';
 import { Blinker_200ExtraLight } from 'expo-google-fonts-blinker/200ExtraLight';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Blinker_100Thin',
+            fontFamily:
+              'Blinker_100Thin',
           }}>
           Blinker Thin
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Blinker_200ExtraLight',
+            fontFamily:
+              'Blinker_200ExtraLight',
           }}>
           Blinker Extra Light
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Blinker_300Light',
+            fontFamily:
+              'Blinker_300Light',
           }}>
           Blinker Light
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Blinker_400Regular',
+            fontFamily:
+              'Blinker_400Regular',
           }}>
           Blinker Regular
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Blinker_600SemiBold',
+            fontFamily:
+              'Blinker_600SemiBold',
           }}>
           Blinker Semi Bold
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Blinker_700Bold',
+            fontFamily:
+              'Blinker_700Bold',
           }}>
           Blinker Bold
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Blinker_800ExtraBold',
+            fontFamily:
+              'Blinker_800ExtraBold',
           }}>
           Blinker Extra Bold
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Blinker_900Black',
+            fontFamily:
+              'Blinker_900Black',
           }}>
           Blinker Black
         </Text>

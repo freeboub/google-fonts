@@ -1,7 +1,11 @@
 {
   "family": "Bungee Tint",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v3",
   "lastModified": "2025-03-03",
   "files": {

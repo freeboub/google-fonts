@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Cypro Minoan",
   "variants": ["regular"],
-  "subsets": ["cypro-minoan", "latin", "latin-ext"],
+  "subsets": [
+    "cypro-minoan",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v1",
   "lastModified": "2024-09-04",
   "files": {

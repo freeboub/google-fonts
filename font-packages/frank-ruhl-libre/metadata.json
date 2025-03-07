@@ -1,7 +1,19 @@
 {
   "family": "Frank Ruhl Libre",
-  "variants": ["300", "regular", "500", "600", "700", "800", "900"],
-  "subsets": ["hebrew", "latin", "latin-ext"],
+  "variants": [
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900"
+  ],
+  "subsets": [
+    "hebrew",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v21",
   "lastModified": "2024-09-04",
   "files": {

@@ -1,7 +1,19 @@
 {
   "family": "Merienda",
-  "variants": ["300", "regular", "500", "600", "700", "800", "900"],
-  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "variants": [
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v19",
   "lastModified": "2024-09-04",
   "files": {

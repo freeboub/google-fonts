@@ -1,7 +1,17 @@
 {
   "family": "Marhey",
-  "variants": ["300", "regular", "500", "600", "700"],
-  "subsets": ["arabic", "latin", "latin-ext"],
+  "variants": [
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v6",
   "lastModified": "2024-09-04",
   "files": {

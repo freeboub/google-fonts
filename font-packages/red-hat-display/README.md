@@ -38,7 +38,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-red-hat-display/useFonts';
 import { RedHatDisplay_300Light } from 'expo-google-fonts-red-hat-display/300Light';
 import { RedHatDisplay_400Regular } from 'expo-google-fonts-red-hat-display/400Regular';
@@ -80,13 +83,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedHatDisplay_300Light',
+            fontFamily:
+              'RedHatDisplay_300Light',
           }}>
           Red Hat Display Light
         </Text>
@@ -96,7 +105,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedHatDisplay_400Regular',
+            fontFamily:
+              'RedHatDisplay_400Regular',
           }}>
           Red Hat Display Regular
         </Text>
@@ -106,7 +116,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedHatDisplay_500Medium',
+            fontFamily:
+              'RedHatDisplay_500Medium',
           }}>
           Red Hat Display Medium
         </Text>
@@ -116,7 +127,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedHatDisplay_600SemiBold',
+            fontFamily:
+              'RedHatDisplay_600SemiBold',
           }}>
           Red Hat Display Semi Bold
         </Text>
@@ -126,7 +138,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedHatDisplay_700Bold',
+            fontFamily:
+              'RedHatDisplay_700Bold',
           }}>
           Red Hat Display Bold
         </Text>
@@ -136,7 +149,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedHatDisplay_800ExtraBold',
+            fontFamily:
+              'RedHatDisplay_800ExtraBold',
           }}>
           Red Hat Display Extra Bold
         </Text>
@@ -146,7 +160,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedHatDisplay_900Black',
+            fontFamily:
+              'RedHatDisplay_900Black',
           }}>
           Red Hat Display Black
         </Text>
@@ -156,7 +171,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedHatDisplay_300Light_Italic',
+            fontFamily:
+              'RedHatDisplay_300Light_Italic',
           }}>
           Red Hat Display Light Italic
         </Text>
@@ -166,7 +182,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedHatDisplay_400Regular_Italic',
+            fontFamily:
+              'RedHatDisplay_400Regular_Italic',
           }}>
           Red Hat Display Italic
         </Text>
@@ -176,7 +193,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedHatDisplay_500Medium_Italic',
+            fontFamily:
+              'RedHatDisplay_500Medium_Italic',
           }}>
           Red Hat Display Medium Italic
         </Text>
@@ -186,9 +204,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedHatDisplay_600SemiBold_Italic',
+            fontFamily:
+              'RedHatDisplay_600SemiBold_Italic',
           }}>
-          Red Hat Display Semi Bold Italic
+          Red Hat Display Semi Bold
+          Italic
         </Text>
 
         <Text
@@ -196,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedHatDisplay_700Bold_Italic',
+            fontFamily:
+              'RedHatDisplay_700Bold_Italic',
           }}>
           Red Hat Display Bold Italic
         </Text>
@@ -206,9 +227,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedHatDisplay_800ExtraBold_Italic',
+            fontFamily:
+              'RedHatDisplay_800ExtraBold_Italic',
           }}>
-          Red Hat Display Extra Bold Italic
+          Red Hat Display Extra Bold
+          Italic
         </Text>
 
         <Text
@@ -216,7 +239,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RedHatDisplay_900Black_Italic',
+            fontFamily:
+              'RedHatDisplay_900Black_Italic',
           }}>
           Red Hat Display Black Italic
         </Text>

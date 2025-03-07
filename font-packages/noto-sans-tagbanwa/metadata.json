@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Tagbanwa",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "tagbanwa"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "tagbanwa"
+  ],
   "version": "v18",
   "lastModified": "2023-05-02",
   "files": {

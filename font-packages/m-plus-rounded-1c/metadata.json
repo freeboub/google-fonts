@@ -1,6 +1,14 @@
 {
   "family": "M PLUS Rounded 1c",
-  "variants": ["100", "300", "regular", "500", "700", "800", "900"],
+  "variants": [
+    "100",
+    "300",
+    "regular",
+    "500",
+    "700",
+    "800",
+    "900"
+  ],
   "subsets": [
     "cyrillic",
     "cyrillic-ext",

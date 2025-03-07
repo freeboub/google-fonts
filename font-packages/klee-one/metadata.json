@@ -1,7 +1,13 @@
 {
   "family": "Klee One",
   "variants": ["regular", "600"],
-  "subsets": ["cyrillic", "greek-ext", "japanese", "latin", "latin-ext"],
+  "subsets": [
+    "cyrillic",
+    "greek-ext",
+    "japanese",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v12",
   "lastModified": "2024-11-20",
   "files": {

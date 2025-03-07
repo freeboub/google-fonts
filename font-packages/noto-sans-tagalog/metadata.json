@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Tagalog",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "tagalog"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "tagalog"
+  ],
   "version": "v22",
   "lastModified": "2023-09-27",
   "files": {

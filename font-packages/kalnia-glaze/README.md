@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-kalnia-glaze/useFonts';
 import { KalniaGlaze_100Thin } from 'expo-google-fonts-kalnia-glaze/100Thin';
 import { KalniaGlaze_200ExtraLight } from 'expo-google-fonts-kalnia-glaze/200ExtraLight';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KalniaGlaze_100Thin',
+            fontFamily:
+              'KalniaGlaze_100Thin',
           }}>
           Kalnia Glaze Thin
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KalniaGlaze_200ExtraLight',
+            fontFamily:
+              'KalniaGlaze_200ExtraLight',
           }}>
           Kalnia Glaze Extra Light
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KalniaGlaze_300Light',
+            fontFamily:
+              'KalniaGlaze_300Light',
           }}>
           Kalnia Glaze Light
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KalniaGlaze_400Regular',
+            fontFamily:
+              'KalniaGlaze_400Regular',
           }}>
           Kalnia Glaze Regular
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KalniaGlaze_500Medium',
+            fontFamily:
+              'KalniaGlaze_500Medium',
           }}>
           Kalnia Glaze Medium
         </Text>
@@ -115,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KalniaGlaze_600SemiBold',
+            fontFamily:
+              'KalniaGlaze_600SemiBold',
           }}>
           Kalnia Glaze Semi Bold
         </Text>
@@ -125,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KalniaGlaze_700Bold',
+            fontFamily:
+              'KalniaGlaze_700Bold',
           }}>
           Kalnia Glaze Bold
         </Text>

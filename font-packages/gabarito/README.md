@@ -30,7 +30,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-gabarito/useFonts';
 import { Gabarito_400Regular } from 'expo-google-fonts-gabarito/400Regular';
 import { Gabarito_500Medium } from 'expo-google-fonts-gabarito/500Medium';
@@ -56,13 +59,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gabarito_400Regular',
+            fontFamily:
+              'Gabarito_400Regular',
           }}>
           Gabarito Regular
         </Text>
@@ -72,7 +81,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gabarito_500Medium',
+            fontFamily:
+              'Gabarito_500Medium',
           }}>
           Gabarito Medium
         </Text>
@@ -82,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gabarito_600SemiBold',
+            fontFamily:
+              'Gabarito_600SemiBold',
           }}>
           Gabarito Semi Bold
         </Text>
@@ -92,7 +103,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gabarito_700Bold',
+            fontFamily:
+              'Gabarito_700Bold',
           }}>
           Gabarito Bold
         </Text>
@@ -102,7 +114,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gabarito_800ExtraBold',
+            fontFamily:
+              'Gabarito_800ExtraBold',
           }}>
           Gabarito Extra Bold
         </Text>
@@ -112,7 +125,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gabarito_900Black',
+            fontFamily:
+              'Gabarito_900Black',
           }}>
           Gabarito Black
         </Text>

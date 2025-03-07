@@ -1,7 +1,16 @@
 {
   "family": "Kay Pho Du",
-  "variants": ["regular", "500", "600", "700"],
-  "subsets": ["kayah-li", "latin", "latin-ext"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "kayah-li",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v2",
   "lastModified": "2024-09-04",
   "files": {

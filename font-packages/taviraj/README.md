@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-taviraj/useFonts';
 import { Taviraj_100Thin } from 'expo-google-fonts-taviraj/100Thin';
 import { Taviraj_100Thin_Italic } from 'expo-google-fonts-taviraj/100Thin_Italic';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Taviraj_100Thin',
+            fontFamily:
+              'Taviraj_100Thin',
           }}>
           Taviraj Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Taviraj_100Thin_Italic',
+            fontFamily:
+              'Taviraj_100Thin_Italic',
           }}>
           Taviraj Thin Italic
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Taviraj_200ExtraLight',
+            fontFamily:
+              'Taviraj_200ExtraLight',
           }}>
           Taviraj Extra Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Taviraj_200ExtraLight_Italic',
+            fontFamily:
+              'Taviraj_200ExtraLight_Italic',
           }}>
           Taviraj Extra Light Italic
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Taviraj_300Light',
+            fontFamily:
+              'Taviraj_300Light',
           }}>
           Taviraj Light
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Taviraj_300Light_Italic',
+            fontFamily:
+              'Taviraj_300Light_Italic',
           }}>
           Taviraj Light Italic
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Taviraj_400Regular',
+            fontFamily:
+              'Taviraj_400Regular',
           }}>
           Taviraj Regular
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Taviraj_400Regular_Italic',
+            fontFamily:
+              'Taviraj_400Regular_Italic',
           }}>
           Taviraj Italic
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Taviraj_500Medium',
+            fontFamily:
+              'Taviraj_500Medium',
           }}>
           Taviraj Medium
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Taviraj_500Medium_Italic',
+            fontFamily:
+              'Taviraj_500Medium_Italic',
           }}>
           Taviraj Medium Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Taviraj_600SemiBold',
+            fontFamily:
+              'Taviraj_600SemiBold',
           }}>
           Taviraj Semi Bold
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Taviraj_600SemiBold_Italic',
+            fontFamily:
+              'Taviraj_600SemiBold_Italic',
           }}>
           Taviraj Semi Bold Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Taviraj_700Bold',
+            fontFamily:
+              'Taviraj_700Bold',
           }}>
           Taviraj Bold
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Taviraj_700Bold_Italic',
+            fontFamily:
+              'Taviraj_700Bold_Italic',
           }}>
           Taviraj Bold Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Taviraj_800ExtraBold',
+            fontFamily:
+              'Taviraj_800ExtraBold',
           }}>
           Taviraj Extra Bold
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Taviraj_800ExtraBold_Italic',
+            fontFamily:
+              'Taviraj_800ExtraBold_Italic',
           }}>
           Taviraj Extra Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Taviraj_900Black',
+            fontFamily:
+              'Taviraj_900Black',
           }}>
           Taviraj Black
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Taviraj_900Black_Italic',
+            fontFamily:
+              'Taviraj_900Black_Italic',
           }}>
           Taviraj Black Italic
         </Text>

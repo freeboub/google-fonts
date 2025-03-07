@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-anek-kannada/useFonts';
 import { AnekKannada_100Thin } from 'expo-google-fonts-anek-kannada/100Thin';
 import { AnekKannada_200ExtraLight } from 'expo-google-fonts-anek-kannada/200ExtraLight';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekKannada_100Thin',
+            fontFamily:
+              'AnekKannada_100Thin',
           }}>
           Anek Kannada Thin
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekKannada_200ExtraLight',
+            fontFamily:
+              'AnekKannada_200ExtraLight',
           }}>
           Anek Kannada Extra Light
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekKannada_300Light',
+            fontFamily:
+              'AnekKannada_300Light',
           }}>
           Anek Kannada Light
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekKannada_400Regular',
+            fontFamily:
+              'AnekKannada_400Regular',
           }}>
           Anek Kannada Regular
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekKannada_500Medium',
+            fontFamily:
+              'AnekKannada_500Medium',
           }}>
           Anek Kannada Medium
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekKannada_600SemiBold',
+            fontFamily:
+              'AnekKannada_600SemiBold',
           }}>
           Anek Kannada Semi Bold
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekKannada_700Bold',
+            fontFamily:
+              'AnekKannada_700Bold',
           }}>
           Anek Kannada Bold
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekKannada_800ExtraBold',
+            fontFamily:
+              'AnekKannada_800ExtraBold',
           }}>
           Anek Kannada Extra Bold
         </Text>

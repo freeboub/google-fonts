@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-gantari/useFonts';
 import { Gantari_100Thin } from 'expo-google-fonts-gantari/100Thin';
 import { Gantari_200ExtraLight } from 'expo-google-fonts-gantari/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_100Thin',
+            fontFamily:
+              'Gantari_100Thin',
           }}>
           Gantari Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_200ExtraLight',
+            fontFamily:
+              'Gantari_200ExtraLight',
           }}>
           Gantari Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_300Light',
+            fontFamily:
+              'Gantari_300Light',
           }}>
           Gantari Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_400Regular',
+            fontFamily:
+              'Gantari_400Regular',
           }}>
           Gantari Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_500Medium',
+            fontFamily:
+              'Gantari_500Medium',
           }}>
           Gantari Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_600SemiBold',
+            fontFamily:
+              'Gantari_600SemiBold',
           }}>
           Gantari Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_700Bold',
+            fontFamily:
+              'Gantari_700Bold',
           }}>
           Gantari Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_800ExtraBold',
+            fontFamily:
+              'Gantari_800ExtraBold',
           }}>
           Gantari Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_900Black',
+            fontFamily:
+              'Gantari_900Black',
           }}>
           Gantari Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_100Thin_Italic',
+            fontFamily:
+              'Gantari_100Thin_Italic',
           }}>
           Gantari Thin Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_200ExtraLight_Italic',
+            fontFamily:
+              'Gantari_200ExtraLight_Italic',
           }}>
           Gantari Extra Light Italic
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_300Light_Italic',
+            fontFamily:
+              'Gantari_300Light_Italic',
           }}>
           Gantari Light Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_400Regular_Italic',
+            fontFamily:
+              'Gantari_400Regular_Italic',
           }}>
           Gantari Italic
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_500Medium_Italic',
+            fontFamily:
+              'Gantari_500Medium_Italic',
           }}>
           Gantari Medium Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_600SemiBold_Italic',
+            fontFamily:
+              'Gantari_600SemiBold_Italic',
           }}>
           Gantari Semi Bold Italic
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_700Bold_Italic',
+            fontFamily:
+              'Gantari_700Bold_Italic',
           }}>
           Gantari Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_800ExtraBold_Italic',
+            fontFamily:
+              'Gantari_800ExtraBold_Italic',
           }}>
           Gantari Extra Bold Italic
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Gantari_900Black_Italic',
+            fontFamily:
+              'Gantari_900Black_Italic',
           }}>
           Gantari Black Italic
         </Text>

@@ -1,7 +1,15 @@
 {
   "family": "Noto Serif NP Hmong",
-  "variants": ["regular", "500", "600", "700"],
-  "subsets": ["latin", "nyiakeng-puachue-hmong"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "latin",
+    "nyiakeng-puachue-hmong"
+  ],
   "version": "v1",
   "lastModified": "2022-12-08",
   "files": {

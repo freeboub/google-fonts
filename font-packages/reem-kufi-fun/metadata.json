@@ -1,7 +1,17 @@
 {
   "family": "Reem Kufi Fun",
-  "variants": ["regular", "500", "600", "700"],
-  "subsets": ["arabic", "latin", "latin-ext", "vietnamese"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v11",
   "lastModified": "2025-03-03",
   "files": {

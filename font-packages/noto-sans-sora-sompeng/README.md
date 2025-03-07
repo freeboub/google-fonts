@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-sora-sompeng/useFonts';
 import { NotoSansSoraSompeng_400Regular } from 'expo-google-fonts-noto-sans-sora-sompeng/400Regular';
 import { NotoSansSoraSompeng_500Medium } from 'expo-google-fonts-noto-sans-sora-sompeng/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSoraSompeng_400Regular',
+            fontFamily:
+              'NotoSansSoraSompeng_400Regular',
           }}>
           Noto Sans Sora Sompeng Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSoraSompeng_500Medium',
+            fontFamily:
+              'NotoSansSoraSompeng_500Medium',
           }}>
           Noto Sans Sora Sompeng Medium
         </Text>
@@ -76,9 +86,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSoraSompeng_600SemiBold',
+            fontFamily:
+              'NotoSansSoraSompeng_600SemiBold',
           }}>
-          Noto Sans Sora Sompeng Semi Bold
+          Noto Sans Sora Sompeng Semi
+          Bold
         </Text>
 
         <Text
@@ -86,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSoraSompeng_700Bold',
+            fontFamily:
+              'NotoSansSoraSompeng_700Bold',
           }}>
           Noto Sans Sora Sompeng Bold
         </Text>

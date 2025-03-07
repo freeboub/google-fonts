@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-alexandria/useFonts';
 import { Alexandria_100Thin } from 'expo-google-fonts-alexandria/100Thin';
 import { Alexandria_200ExtraLight } from 'expo-google-fonts-alexandria/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Alexandria_100Thin',
+            fontFamily:
+              'Alexandria_100Thin',
           }}>
           Alexandria Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Alexandria_200ExtraLight',
+            fontFamily:
+              'Alexandria_200ExtraLight',
           }}>
           Alexandria Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Alexandria_300Light',
+            fontFamily:
+              'Alexandria_300Light',
           }}>
           Alexandria Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Alexandria_400Regular',
+            fontFamily:
+              'Alexandria_400Regular',
           }}>
           Alexandria Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Alexandria_500Medium',
+            fontFamily:
+              'Alexandria_500Medium',
           }}>
           Alexandria Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Alexandria_600SemiBold',
+            fontFamily:
+              'Alexandria_600SemiBold',
           }}>
           Alexandria Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Alexandria_700Bold',
+            fontFamily:
+              'Alexandria_700Bold',
           }}>
           Alexandria Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Alexandria_800ExtraBold',
+            fontFamily:
+              'Alexandria_800ExtraBold',
           }}>
           Alexandria Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Alexandria_900Black',
+            fontFamily:
+              'Alexandria_900Black',
           }}>
           Alexandria Black
         </Text>

@@ -1,7 +1,11 @@
 {
   "family": "Tiro Telugu",
   "variants": ["regular", "italic"],
-  "subsets": ["latin", "latin-ext", "telugu"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "telugu"
+  ],
   "version": "v7",
   "lastModified": "2024-09-04",
   "files": {

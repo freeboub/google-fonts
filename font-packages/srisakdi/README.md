@@ -26,7 +26,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-srisakdi/useFonts';
 import { Srisakdi_400Regular } from 'expo-google-fonts-srisakdi/400Regular';
 import { Srisakdi_700Bold } from 'expo-google-fonts-srisakdi/700Bold';
@@ -44,13 +47,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Srisakdi_400Regular',
+            fontFamily:
+              'Srisakdi_400Regular',
           }}>
           Srisakdi Regular
         </Text>
@@ -60,7 +69,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Srisakdi_700Bold',
+            fontFamily:
+              'Srisakdi_700Bold',
           }}>
           Srisakdi Bold
         </Text>

@@ -20,7 +20,13 @@
     "800italic",
     "900italic"
   ],
-  "subsets": ["cyrillic", "cyrillic-ext", "greek", "latin", "latin-ext"],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v28",
   "lastModified": "2024-09-04",
   "files": {

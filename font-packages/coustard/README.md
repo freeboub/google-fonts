@@ -26,7 +26,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-coustard/useFonts';
 import { Coustard_400Regular } from 'expo-google-fonts-coustard/400Regular';
 import { Coustard_900Black } from 'expo-google-fonts-coustard/900Black';
@@ -44,13 +47,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Coustard_400Regular',
+            fontFamily:
+              'Coustard_400Regular',
           }}>
           Coustard Regular
         </Text>
@@ -60,7 +69,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Coustard_900Black',
+            fontFamily:
+              'Coustard_900Black',
           }}>
           Coustard Black
         </Text>

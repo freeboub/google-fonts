@@ -34,7 +34,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-rasa/useFonts';
 import { Rasa_300Light } from 'expo-google-fonts-rasa/300Light';
 import { Rasa_400Regular } from 'expo-google-fonts-rasa/400Regular';
@@ -68,7 +71,12 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
@@ -84,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rasa_400Regular',
+            fontFamily:
+              'Rasa_400Regular',
           }}>
           Rasa Regular
         </Text>
@@ -94,7 +103,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rasa_500Medium',
+            fontFamily:
+              'Rasa_500Medium',
           }}>
           Rasa Medium
         </Text>
@@ -104,7 +114,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rasa_600SemiBold',
+            fontFamily:
+              'Rasa_600SemiBold',
           }}>
           Rasa Semi Bold
         </Text>
@@ -124,7 +135,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rasa_300Light_Italic',
+            fontFamily:
+              'Rasa_300Light_Italic',
           }}>
           Rasa Light Italic
         </Text>
@@ -134,7 +146,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rasa_400Regular_Italic',
+            fontFamily:
+              'Rasa_400Regular_Italic',
           }}>
           Rasa Italic
         </Text>
@@ -144,7 +157,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rasa_500Medium_Italic',
+            fontFamily:
+              'Rasa_500Medium_Italic',
           }}>
           Rasa Medium Italic
         </Text>
@@ -154,7 +168,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rasa_600SemiBold_Italic',
+            fontFamily:
+              'Rasa_600SemiBold_Italic',
           }}>
           Rasa Semi Bold Italic
         </Text>
@@ -164,7 +179,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Rasa_700Bold_Italic',
+            fontFamily:
+              'Rasa_700Bold_Italic',
           }}>
           Rasa Bold Italic
         </Text>

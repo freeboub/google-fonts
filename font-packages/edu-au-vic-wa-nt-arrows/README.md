@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-edu-au-vic-wa-nt-arrows/useFonts';
 import { EduAUVICWANTArrows_400Regular } from 'expo-google-fonts-edu-au-vic-wa-nt-arrows/400Regular';
 import { EduAUVICWANTArrows_500Medium } from 'expo-google-fonts-edu-au-vic-wa-nt-arrows/500Medium';
@@ -50,15 +53,22 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EduAUVICWANTArrows_400Regular',
+            fontFamily:
+              'EduAUVICWANTArrows_400Regular',
           }}>
-          Edu AU VIC WA NT Arrows Regular
+          Edu AU VIC WA NT Arrows
+          Regular
         </Text>
 
         <Text
@@ -66,7 +76,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EduAUVICWANTArrows_500Medium',
+            fontFamily:
+              'EduAUVICWANTArrows_500Medium',
           }}>
           Edu AU VIC WA NT Arrows Medium
         </Text>
@@ -76,9 +87,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EduAUVICWANTArrows_600SemiBold',
+            fontFamily:
+              'EduAUVICWANTArrows_600SemiBold',
           }}>
-          Edu AU VIC WA NT Arrows Semi Bold
+          Edu AU VIC WA NT Arrows Semi
+          Bold
         </Text>
 
         <Text
@@ -86,7 +99,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EduAUVICWANTArrows_700Bold',
+            fontFamily:
+              'EduAUVICWANTArrows_700Bold',
           }}>
           Edu AU VIC WA NT Arrows Bold
         </Text>

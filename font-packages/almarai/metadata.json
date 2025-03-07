@@ -1,6 +1,11 @@
 {
   "family": "Almarai",
-  "variants": ["300", "regular", "700", "800"],
+  "variants": [
+    "300",
+    "regular",
+    "700",
+    "800"
+  ],
   "subsets": ["arabic", "latin"],
   "version": "v18",
   "lastModified": "2024-11-20",

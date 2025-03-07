@@ -34,7 +34,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-teachers/useFonts';
 import { Teachers_400Regular } from 'expo-google-fonts-teachers/400Regular';
 import { Teachers_500Medium } from 'expo-google-fonts-teachers/500Medium';
@@ -68,13 +71,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Teachers_400Regular',
+            fontFamily:
+              'Teachers_400Regular',
           }}>
           Teachers Regular
         </Text>
@@ -84,7 +93,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Teachers_500Medium',
+            fontFamily:
+              'Teachers_500Medium',
           }}>
           Teachers Medium
         </Text>
@@ -94,7 +104,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Teachers_600SemiBold',
+            fontFamily:
+              'Teachers_600SemiBold',
           }}>
           Teachers Semi Bold
         </Text>
@@ -104,7 +115,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Teachers_700Bold',
+            fontFamily:
+              'Teachers_700Bold',
           }}>
           Teachers Bold
         </Text>
@@ -114,7 +126,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Teachers_800ExtraBold',
+            fontFamily:
+              'Teachers_800ExtraBold',
           }}>
           Teachers Extra Bold
         </Text>
@@ -124,7 +137,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Teachers_400Regular_Italic',
+            fontFamily:
+              'Teachers_400Regular_Italic',
           }}>
           Teachers Italic
         </Text>
@@ -134,7 +148,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Teachers_500Medium_Italic',
+            fontFamily:
+              'Teachers_500Medium_Italic',
           }}>
           Teachers Medium Italic
         </Text>
@@ -144,7 +159,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Teachers_600SemiBold_Italic',
+            fontFamily:
+              'Teachers_600SemiBold_Italic',
           }}>
           Teachers Semi Bold Italic
         </Text>
@@ -154,7 +170,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Teachers_700Bold_Italic',
+            fontFamily:
+              'Teachers_700Bold_Italic',
           }}>
           Teachers Bold Italic
         </Text>
@@ -164,7 +181,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Teachers_800ExtraBold_Italic',
+            fontFamily:
+              'Teachers_800ExtraBold_Italic',
           }}>
           Teachers Extra Bold Italic
         </Text>

@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-shippori-mincho-b1/useFonts';
 import { ShipporiMinchoB1_400Regular } from 'expo-google-fonts-shippori-mincho-b1/400Regular';
 import { ShipporiMinchoB1_500Medium } from 'expo-google-fonts-shippori-mincho-b1/500Medium';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ShipporiMinchoB1_400Regular',
+            fontFamily:
+              'ShipporiMinchoB1_400Regular',
           }}>
           Shippori Mincho B1 Regular
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ShipporiMinchoB1_500Medium',
+            fontFamily:
+              'ShipporiMinchoB1_500Medium',
           }}>
           Shippori Mincho B1 Medium
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ShipporiMinchoB1_600SemiBold',
+            fontFamily:
+              'ShipporiMinchoB1_600SemiBold',
           }}>
           Shippori Mincho B1 Semi Bold
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ShipporiMinchoB1_700Bold',
+            fontFamily:
+              'ShipporiMinchoB1_700Bold',
           }}>
           Shippori Mincho B1 Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ShipporiMinchoB1_800ExtraBold',
+            fontFamily:
+              'ShipporiMinchoB1_800ExtraBold',
           }}>
           Shippori Mincho B1 Extra Bold
         </Text>

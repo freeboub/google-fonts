@@ -1,7 +1,11 @@
 {
   "family": "Noto Serif Makasar",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "makasar"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "makasar"
+  ],
   "version": "v1",
   "lastModified": "2023-06-30",
   "files": {

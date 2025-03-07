@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Coptic",
   "variants": ["regular"],
-  "subsets": ["coptic", "latin", "latin-ext"],
+  "subsets": [
+    "coptic",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v21",
   "lastModified": "2023-12-14",
   "files": {

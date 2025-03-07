@@ -38,7 +38,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-ibm-plex-mono/useFonts';
 import { IBMPlexMono_100Thin } from 'expo-google-fonts-ibm-plex-mono/100Thin';
 import { IBMPlexMono_100Thin_Italic } from 'expo-google-fonts-ibm-plex-mono/100Thin_Italic';
@@ -80,13 +83,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexMono_100Thin',
+            fontFamily:
+              'IBMPlexMono_100Thin',
           }}>
           IBM Plex Mono Thin
         </Text>
@@ -96,7 +105,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexMono_100Thin_Italic',
+            fontFamily:
+              'IBMPlexMono_100Thin_Italic',
           }}>
           IBM Plex Mono Thin Italic
         </Text>
@@ -106,7 +116,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexMono_200ExtraLight',
+            fontFamily:
+              'IBMPlexMono_200ExtraLight',
           }}>
           IBM Plex Mono Extra Light
         </Text>
@@ -116,9 +127,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexMono_200ExtraLight_Italic',
+            fontFamily:
+              'IBMPlexMono_200ExtraLight_Italic',
           }}>
-          IBM Plex Mono Extra Light Italic
+          IBM Plex Mono Extra Light
+          Italic
         </Text>
 
         <Text
@@ -126,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexMono_300Light',
+            fontFamily:
+              'IBMPlexMono_300Light',
           }}>
           IBM Plex Mono Light
         </Text>
@@ -136,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexMono_300Light_Italic',
+            fontFamily:
+              'IBMPlexMono_300Light_Italic',
           }}>
           IBM Plex Mono Light Italic
         </Text>
@@ -146,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexMono_400Regular',
+            fontFamily:
+              'IBMPlexMono_400Regular',
           }}>
           IBM Plex Mono Regular
         </Text>
@@ -156,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexMono_400Regular_Italic',
+            fontFamily:
+              'IBMPlexMono_400Regular_Italic',
           }}>
           IBM Plex Mono Italic
         </Text>
@@ -166,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexMono_500Medium',
+            fontFamily:
+              'IBMPlexMono_500Medium',
           }}>
           IBM Plex Mono Medium
         </Text>
@@ -176,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexMono_500Medium_Italic',
+            fontFamily:
+              'IBMPlexMono_500Medium_Italic',
           }}>
           IBM Plex Mono Medium Italic
         </Text>
@@ -186,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexMono_600SemiBold',
+            fontFamily:
+              'IBMPlexMono_600SemiBold',
           }}>
           IBM Plex Mono Semi Bold
         </Text>
@@ -196,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexMono_600SemiBold_Italic',
+            fontFamily:
+              'IBMPlexMono_600SemiBold_Italic',
           }}>
           IBM Plex Mono Semi Bold Italic
         </Text>
@@ -206,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexMono_700Bold',
+            fontFamily:
+              'IBMPlexMono_700Bold',
           }}>
           IBM Plex Mono Bold
         </Text>
@@ -216,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexMono_700Bold_Italic',
+            fontFamily:
+              'IBMPlexMono_700Bold_Italic',
           }}>
           IBM Plex Mono Bold Italic
         </Text>

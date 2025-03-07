@@ -1,7 +1,21 @@
 {
   "family": "Noto Sans Malayalam",
-  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
-  "subsets": ["latin", "latin-ext", "malayalam"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "malayalam"
+  ],
   "version": "v26",
   "lastModified": "2023-04-27",
   "files": {

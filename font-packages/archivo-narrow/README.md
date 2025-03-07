@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-archivo-narrow/useFonts';
 import { ArchivoNarrow_400Regular } from 'expo-google-fonts-archivo-narrow/400Regular';
 import { ArchivoNarrow_500Medium } from 'expo-google-fonts-archivo-narrow/500Medium';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ArchivoNarrow_400Regular',
+            fontFamily:
+              'ArchivoNarrow_400Regular',
           }}>
           Archivo Narrow Regular
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ArchivoNarrow_500Medium',
+            fontFamily:
+              'ArchivoNarrow_500Medium',
           }}>
           Archivo Narrow Medium
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ArchivoNarrow_600SemiBold',
+            fontFamily:
+              'ArchivoNarrow_600SemiBold',
           }}>
           Archivo Narrow Semi Bold
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ArchivoNarrow_700Bold',
+            fontFamily:
+              'ArchivoNarrow_700Bold',
           }}>
           Archivo Narrow Bold
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ArchivoNarrow_400Regular_Italic',
+            fontFamily:
+              'ArchivoNarrow_400Regular_Italic',
           }}>
           Archivo Narrow Italic
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ArchivoNarrow_500Medium_Italic',
+            fontFamily:
+              'ArchivoNarrow_500Medium_Italic',
           }}>
           Archivo Narrow Medium Italic
         </Text>
@@ -128,9 +142,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ArchivoNarrow_600SemiBold_Italic',
+            fontFamily:
+              'ArchivoNarrow_600SemiBold_Italic',
           }}>
-          Archivo Narrow Semi Bold Italic
+          Archivo Narrow Semi Bold
+          Italic
         </Text>
 
         <Text
@@ -138,7 +154,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ArchivoNarrow_700Bold_Italic',
+            fontFamily:
+              'ArchivoNarrow_700Bold_Italic',
           }}>
           Archivo Narrow Bold Italic
         </Text>

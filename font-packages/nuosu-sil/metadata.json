@@ -1,7 +1,11 @@
 {
   "family": "Nuosu SIL",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "yi"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "yi"
+  ],
   "version": "v10",
   "lastModified": "2024-09-04",
   "files": {

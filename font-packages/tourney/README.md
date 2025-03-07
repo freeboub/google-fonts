@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-tourney/useFonts';
 import { Tourney_100Thin } from 'expo-google-fonts-tourney/100Thin';
 import { Tourney_200ExtraLight } from 'expo-google-fonts-tourney/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tourney_100Thin',
+            fontFamily:
+              'Tourney_100Thin',
           }}>
           Tourney Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tourney_200ExtraLight',
+            fontFamily:
+              'Tourney_200ExtraLight',
           }}>
           Tourney Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tourney_300Light',
+            fontFamily:
+              'Tourney_300Light',
           }}>
           Tourney Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tourney_400Regular',
+            fontFamily:
+              'Tourney_400Regular',
           }}>
           Tourney Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tourney_500Medium',
+            fontFamily:
+              'Tourney_500Medium',
           }}>
           Tourney Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tourney_600SemiBold',
+            fontFamily:
+              'Tourney_600SemiBold',
           }}>
           Tourney Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tourney_700Bold',
+            fontFamily:
+              'Tourney_700Bold',
           }}>
           Tourney Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tourney_800ExtraBold',
+            fontFamily:
+              'Tourney_800ExtraBold',
           }}>
           Tourney Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tourney_900Black',
+            fontFamily:
+              'Tourney_900Black',
           }}>
           Tourney Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tourney_100Thin_Italic',
+            fontFamily:
+              'Tourney_100Thin_Italic',
           }}>
           Tourney Thin Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tourney_200ExtraLight_Italic',
+            fontFamily:
+              'Tourney_200ExtraLight_Italic',
           }}>
           Tourney Extra Light Italic
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tourney_300Light_Italic',
+            fontFamily:
+              'Tourney_300Light_Italic',
           }}>
           Tourney Light Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tourney_400Regular_Italic',
+            fontFamily:
+              'Tourney_400Regular_Italic',
           }}>
           Tourney Italic
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tourney_500Medium_Italic',
+            fontFamily:
+              'Tourney_500Medium_Italic',
           }}>
           Tourney Medium Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tourney_600SemiBold_Italic',
+            fontFamily:
+              'Tourney_600SemiBold_Italic',
           }}>
           Tourney Semi Bold Italic
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tourney_700Bold_Italic',
+            fontFamily:
+              'Tourney_700Bold_Italic',
           }}>
           Tourney Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tourney_800ExtraBold_Italic',
+            fontFamily:
+              'Tourney_800ExtraBold_Italic',
           }}>
           Tourney Extra Bold Italic
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tourney_900Black_Italic',
+            fontFamily:
+              'Tourney_900Black_Italic',
           }}>
           Tourney Black Italic
         </Text>

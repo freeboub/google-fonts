@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-serif-toto/useFonts';
 import { NotoSerifToto_400Regular } from 'expo-google-fonts-noto-serif-toto/400Regular';
 import { NotoSerifToto_500Medium } from 'expo-google-fonts-noto-serif-toto/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifToto_400Regular',
+            fontFamily:
+              'NotoSerifToto_400Regular',
           }}>
           Noto Serif Toto Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifToto_500Medium',
+            fontFamily:
+              'NotoSerifToto_500Medium',
           }}>
           Noto Serif Toto Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifToto_600SemiBold',
+            fontFamily:
+              'NotoSerifToto_600SemiBold',
           }}>
           Noto Serif Toto Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifToto_700Bold',
+            fontFamily:
+              'NotoSerifToto_700Bold',
           }}>
           Noto Serif Toto Bold
         </Text>

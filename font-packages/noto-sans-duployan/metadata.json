@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Duployan",
   "variants": ["regular", "700"],
-  "subsets": ["duployan", "latin", "latin-ext"],
+  "subsets": [
+    "duployan",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v18",
   "lastModified": "2024-07-01",
   "files": {

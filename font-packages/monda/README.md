@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-monda/useFonts';
 import { Monda_400Regular } from 'expo-google-fonts-monda/400Regular';
 import { Monda_500Medium } from 'expo-google-fonts-monda/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Monda_400Regular',
+            fontFamily:
+              'Monda_400Regular',
           }}>
           Monda Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Monda_500Medium',
+            fontFamily:
+              'Monda_500Medium',
           }}>
           Monda Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Monda_600SemiBold',
+            fontFamily:
+              'Monda_600SemiBold',
           }}>
           Monda Semi Bold
         </Text>

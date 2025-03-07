@@ -1,7 +1,12 @@
 {
   "family": "PT Serif Caption",
   "variants": ["regular", "italic"],
-  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext"],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v17",
   "lastModified": "2024-08-12",
   "files": {

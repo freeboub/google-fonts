@@ -1,7 +1,13 @@
 {
   "family": "Ruslan Display",
   "variants": ["regular"],
-  "subsets": ["cyrillic", "latin", "latin-ext", "math", "symbols"],
+  "subsets": [
+    "cyrillic",
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols"
+  ],
   "version": "v26",
   "lastModified": "2024-09-04",
   "files": {

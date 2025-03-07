@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-javanese/useFonts';
 import { NotoSansJavanese_400Regular } from 'expo-google-fonts-noto-sans-javanese/400Regular';
 import { NotoSansJavanese_500Medium } from 'expo-google-fonts-noto-sans-javanese/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansJavanese_400Regular',
+            fontFamily:
+              'NotoSansJavanese_400Regular',
           }}>
           Noto Sans Javanese Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansJavanese_500Medium',
+            fontFamily:
+              'NotoSansJavanese_500Medium',
           }}>
           Noto Sans Javanese Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansJavanese_600SemiBold',
+            fontFamily:
+              'NotoSansJavanese_600SemiBold',
           }}>
           Noto Sans Javanese Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansJavanese_700Bold',
+            fontFamily:
+              'NotoSansJavanese_700Bold',
           }}>
           Noto Sans Javanese Bold
         </Text>

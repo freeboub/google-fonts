@@ -1,6 +1,16 @@
 {
   "family": "Noto Sans Myanmar",
-  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900"
+  ],
   "subsets": ["myanmar"],
   "version": "v20",
   "lastModified": "2022-09-28",

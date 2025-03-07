@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-kannada/useFonts';
 import { NotoSansKannada_100Thin } from 'expo-google-fonts-noto-sans-kannada/100Thin';
 import { NotoSansKannada_200ExtraLight } from 'expo-google-fonts-noto-sans-kannada/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansKannada_100Thin',
+            fontFamily:
+              'NotoSansKannada_100Thin',
           }}>
           Noto Sans Kannada Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansKannada_200ExtraLight',
+            fontFamily:
+              'NotoSansKannada_200ExtraLight',
           }}>
           Noto Sans Kannada Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansKannada_300Light',
+            fontFamily:
+              'NotoSansKannada_300Light',
           }}>
           Noto Sans Kannada Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansKannada_400Regular',
+            fontFamily:
+              'NotoSansKannada_400Regular',
           }}>
           Noto Sans Kannada Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansKannada_500Medium',
+            fontFamily:
+              'NotoSansKannada_500Medium',
           }}>
           Noto Sans Kannada Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansKannada_600SemiBold',
+            fontFamily:
+              'NotoSansKannada_600SemiBold',
           }}>
           Noto Sans Kannada Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansKannada_700Bold',
+            fontFamily:
+              'NotoSansKannada_700Bold',
           }}>
           Noto Sans Kannada Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansKannada_800ExtraBold',
+            fontFamily:
+              'NotoSansKannada_800ExtraBold',
           }}>
           Noto Sans Kannada Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansKannada_900Black',
+            fontFamily:
+              'NotoSansKannada_900Black',
           }}>
           Noto Sans Kannada Black
         </Text>

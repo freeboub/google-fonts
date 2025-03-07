@@ -36,7 +36,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-open-sans/useFonts';
 import { OpenSans_300Light } from 'expo-google-fonts-open-sans/300Light';
 import { OpenSans_400Regular } from 'expo-google-fonts-open-sans/400Regular';
@@ -74,13 +77,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'OpenSans_300Light',
+            fontFamily:
+              'OpenSans_300Light',
           }}>
           Open Sans Light
         </Text>
@@ -90,7 +99,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'OpenSans_400Regular',
+            fontFamily:
+              'OpenSans_400Regular',
           }}>
           Open Sans Regular
         </Text>
@@ -100,7 +110,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'OpenSans_500Medium',
+            fontFamily:
+              'OpenSans_500Medium',
           }}>
           Open Sans Medium
         </Text>
@@ -110,7 +121,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'OpenSans_600SemiBold',
+            fontFamily:
+              'OpenSans_600SemiBold',
           }}>
           Open Sans Semi Bold
         </Text>
@@ -120,7 +132,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'OpenSans_700Bold',
+            fontFamily:
+              'OpenSans_700Bold',
           }}>
           Open Sans Bold
         </Text>
@@ -130,7 +143,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'OpenSans_800ExtraBold',
+            fontFamily:
+              'OpenSans_800ExtraBold',
           }}>
           Open Sans Extra Bold
         </Text>
@@ -140,7 +154,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'OpenSans_300Light_Italic',
+            fontFamily:
+              'OpenSans_300Light_Italic',
           }}>
           Open Sans Light Italic
         </Text>
@@ -150,7 +165,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'OpenSans_400Regular_Italic',
+            fontFamily:
+              'OpenSans_400Regular_Italic',
           }}>
           Open Sans Italic
         </Text>
@@ -160,7 +176,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'OpenSans_500Medium_Italic',
+            fontFamily:
+              'OpenSans_500Medium_Italic',
           }}>
           Open Sans Medium Italic
         </Text>
@@ -170,7 +187,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'OpenSans_600SemiBold_Italic',
+            fontFamily:
+              'OpenSans_600SemiBold_Italic',
           }}>
           Open Sans Semi Bold Italic
         </Text>
@@ -180,7 +198,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'OpenSans_700Bold_Italic',
+            fontFamily:
+              'OpenSans_700Bold_Italic',
           }}>
           Open Sans Bold Italic
         </Text>
@@ -190,7 +209,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'OpenSans_800ExtraBold_Italic',
+            fontFamily:
+              'OpenSans_800ExtraBold_Italic',
           }}>
           Open Sans Extra Bold Italic
         </Text>

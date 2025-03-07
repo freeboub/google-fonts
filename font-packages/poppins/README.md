@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-poppins/useFonts';
 import { Poppins_100Thin } from 'expo-google-fonts-poppins/100Thin';
 import { Poppins_100Thin_Italic } from 'expo-google-fonts-poppins/100Thin_Italic';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Poppins_100Thin',
+            fontFamily:
+              'Poppins_100Thin',
           }}>
           Poppins Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Poppins_100Thin_Italic',
+            fontFamily:
+              'Poppins_100Thin_Italic',
           }}>
           Poppins Thin Italic
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Poppins_200ExtraLight',
+            fontFamily:
+              'Poppins_200ExtraLight',
           }}>
           Poppins Extra Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Poppins_200ExtraLight_Italic',
+            fontFamily:
+              'Poppins_200ExtraLight_Italic',
           }}>
           Poppins Extra Light Italic
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Poppins_300Light',
+            fontFamily:
+              'Poppins_300Light',
           }}>
           Poppins Light
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Poppins_300Light_Italic',
+            fontFamily:
+              'Poppins_300Light_Italic',
           }}>
           Poppins Light Italic
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Poppins_400Regular',
+            fontFamily:
+              'Poppins_400Regular',
           }}>
           Poppins Regular
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Poppins_400Regular_Italic',
+            fontFamily:
+              'Poppins_400Regular_Italic',
           }}>
           Poppins Italic
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Poppins_500Medium',
+            fontFamily:
+              'Poppins_500Medium',
           }}>
           Poppins Medium
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Poppins_500Medium_Italic',
+            fontFamily:
+              'Poppins_500Medium_Italic',
           }}>
           Poppins Medium Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Poppins_600SemiBold',
+            fontFamily:
+              'Poppins_600SemiBold',
           }}>
           Poppins Semi Bold
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Poppins_600SemiBold_Italic',
+            fontFamily:
+              'Poppins_600SemiBold_Italic',
           }}>
           Poppins Semi Bold Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Poppins_700Bold',
+            fontFamily:
+              'Poppins_700Bold',
           }}>
           Poppins Bold
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Poppins_700Bold_Italic',
+            fontFamily:
+              'Poppins_700Bold_Italic',
           }}>
           Poppins Bold Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Poppins_800ExtraBold',
+            fontFamily:
+              'Poppins_800ExtraBold',
           }}>
           Poppins Extra Bold
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Poppins_800ExtraBold_Italic',
+            fontFamily:
+              'Poppins_800ExtraBold_Italic',
           }}>
           Poppins Extra Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Poppins_900Black',
+            fontFamily:
+              'Poppins_900Black',
           }}>
           Poppins Black
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Poppins_900Black_Italic',
+            fontFamily:
+              'Poppins_900Black_Italic',
           }}>
           Poppins Black Italic
         </Text>

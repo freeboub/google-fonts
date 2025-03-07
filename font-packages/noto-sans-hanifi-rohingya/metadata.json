@@ -1,7 +1,16 @@
 {
   "family": "Noto Sans Hanifi Rohingya",
-  "variants": ["regular", "500", "600", "700"],
-  "subsets": ["hanifi-rohingya", "latin", "latin-ext"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "hanifi-rohingya",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v28",
   "lastModified": "2023-09-27",
   "files": {

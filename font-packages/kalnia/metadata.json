@@ -1,7 +1,19 @@
 {
   "family": "Kalnia",
-  "variants": ["100", "200", "300", "regular", "500", "600", "700"],
-  "subsets": ["latin", "latin-ext", "math"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "math"
+  ],
   "version": "v5",
   "lastModified": "2025-03-03",
   "files": {

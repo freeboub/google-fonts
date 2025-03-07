@@ -1,7 +1,18 @@
 {
   "family": "Alkatra",
-  "variants": ["regular", "500", "600", "700"],
-  "subsets": ["bengali", "devanagari", "latin", "latin-ext", "oriya"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "bengali",
+    "devanagari",
+    "latin",
+    "latin-ext",
+    "oriya"
+  ],
   "version": "v3",
   "lastModified": "2024-09-04",
   "files": {

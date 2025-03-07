@@ -36,7 +36,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-bodoni-moda/useFonts';
 import { BodoniModa_400Regular } from 'expo-google-fonts-bodoni-moda/400Regular';
 import { BodoniModa_500Medium } from 'expo-google-fonts-bodoni-moda/500Medium';
@@ -74,13 +77,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BodoniModa_400Regular',
+            fontFamily:
+              'BodoniModa_400Regular',
           }}>
           Bodoni Moda Regular
         </Text>
@@ -90,7 +99,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BodoniModa_500Medium',
+            fontFamily:
+              'BodoniModa_500Medium',
           }}>
           Bodoni Moda Medium
         </Text>
@@ -100,7 +110,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BodoniModa_600SemiBold',
+            fontFamily:
+              'BodoniModa_600SemiBold',
           }}>
           Bodoni Moda Semi Bold
         </Text>
@@ -110,7 +121,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BodoniModa_700Bold',
+            fontFamily:
+              'BodoniModa_700Bold',
           }}>
           Bodoni Moda Bold
         </Text>
@@ -120,7 +132,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BodoniModa_800ExtraBold',
+            fontFamily:
+              'BodoniModa_800ExtraBold',
           }}>
           Bodoni Moda Extra Bold
         </Text>
@@ -130,7 +143,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BodoniModa_900Black',
+            fontFamily:
+              'BodoniModa_900Black',
           }}>
           Bodoni Moda Black
         </Text>
@@ -140,7 +154,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BodoniModa_400Regular_Italic',
+            fontFamily:
+              'BodoniModa_400Regular_Italic',
           }}>
           Bodoni Moda Italic
         </Text>
@@ -150,7 +165,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BodoniModa_500Medium_Italic',
+            fontFamily:
+              'BodoniModa_500Medium_Italic',
           }}>
           Bodoni Moda Medium Italic
         </Text>
@@ -160,7 +176,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BodoniModa_600SemiBold_Italic',
+            fontFamily:
+              'BodoniModa_600SemiBold_Italic',
           }}>
           Bodoni Moda Semi Bold Italic
         </Text>
@@ -170,7 +187,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BodoniModa_700Bold_Italic',
+            fontFamily:
+              'BodoniModa_700Bold_Italic',
           }}>
           Bodoni Moda Bold Italic
         </Text>
@@ -180,7 +198,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BodoniModa_800ExtraBold_Italic',
+            fontFamily:
+              'BodoniModa_800ExtraBold_Italic',
           }}>
           Bodoni Moda Extra Bold Italic
         </Text>
@@ -190,7 +209,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BodoniModa_900Black_Italic',
+            fontFamily:
+              'BodoniModa_900Black_Italic',
           }}>
           Bodoni Moda Black Italic
         </Text>

@@ -30,7 +30,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-font42dot-sans/useFonts';
 import { font42dotSans_300Light } from 'expo-google-fonts-font42dot-sans/300Light';
 import { font42dotSans_400Regular } from 'expo-google-fonts-font42dot-sans/400Regular';
@@ -56,13 +59,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'font42dotSans_300Light',
+            fontFamily:
+              'font42dotSans_300Light',
           }}>
           42dot Sans Light
         </Text>
@@ -72,7 +81,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'font42dotSans_400Regular',
+            fontFamily:
+              'font42dotSans_400Regular',
           }}>
           42dot Sans Regular
         </Text>
@@ -82,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'font42dotSans_500Medium',
+            fontFamily:
+              'font42dotSans_500Medium',
           }}>
           42dot Sans Medium
         </Text>
@@ -92,7 +103,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'font42dotSans_600SemiBold',
+            fontFamily:
+              'font42dotSans_600SemiBold',
           }}>
           42dot Sans Semi Bold
         </Text>
@@ -102,7 +114,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'font42dotSans_700Bold',
+            fontFamily:
+              'font42dotSans_700Bold',
           }}>
           42dot Sans Bold
         </Text>
@@ -112,7 +125,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'font42dotSans_800ExtraBold',
+            fontFamily:
+              'font42dotSans_800ExtraBold',
           }}>
           42dot Sans Extra Bold
         </Text>

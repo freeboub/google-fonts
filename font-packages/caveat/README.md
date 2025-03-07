@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-caveat/useFonts';
 import { Caveat_400Regular } from 'expo-google-fonts-caveat/400Regular';
 import { Caveat_500Medium } from 'expo-google-fonts-caveat/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Caveat_400Regular',
+            fontFamily:
+              'Caveat_400Regular',
           }}>
           Caveat Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Caveat_500Medium',
+            fontFamily:
+              'Caveat_500Medium',
           }}>
           Caveat Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Caveat_600SemiBold',
+            fontFamily:
+              'Caveat_600SemiBold',
           }}>
           Caveat Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Caveat_700Bold',
+            fontFamily:
+              'Caveat_700Bold',
           }}>
           Caveat Bold
         </Text>

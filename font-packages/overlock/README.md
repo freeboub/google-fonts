@@ -30,7 +30,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-overlock/useFonts';
 import { Overlock_400Regular } from 'expo-google-fonts-overlock/400Regular';
 import { Overlock_400Regular_Italic } from 'expo-google-fonts-overlock/400Regular_Italic';
@@ -56,13 +59,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Overlock_400Regular',
+            fontFamily:
+              'Overlock_400Regular',
           }}>
           Overlock Regular
         </Text>
@@ -72,7 +81,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Overlock_400Regular_Italic',
+            fontFamily:
+              'Overlock_400Regular_Italic',
           }}>
           Overlock Italic
         </Text>
@@ -82,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Overlock_700Bold',
+            fontFamily:
+              'Overlock_700Bold',
           }}>
           Overlock Bold
         </Text>
@@ -92,7 +103,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Overlock_700Bold_Italic',
+            fontFamily:
+              'Overlock_700Bold_Italic',
           }}>
           Overlock Bold Italic
         </Text>
@@ -102,7 +114,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Overlock_900Black',
+            fontFamily:
+              'Overlock_900Black',
           }}>
           Overlock Black
         </Text>
@@ -112,7 +125,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Overlock_900Black_Italic',
+            fontFamily:
+              'Overlock_900Black_Italic',
           }}>
           Overlock Black Italic
         </Text>

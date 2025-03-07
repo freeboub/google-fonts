@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playwrite-ie/useFonts';
 import { PlaywriteIE_100Thin } from 'expo-google-fonts-playwrite-ie/100Thin';
 import { PlaywriteIE_200ExtraLight } from 'expo-google-fonts-playwrite-ie/200ExtraLight';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteIE_100Thin',
+            fontFamily:
+              'PlaywriteIE_100Thin',
           }}>
           Playwrite IE Thin
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteIE_200ExtraLight',
+            fontFamily:
+              'PlaywriteIE_200ExtraLight',
           }}>
           Playwrite IE Extra Light
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteIE_300Light',
+            fontFamily:
+              'PlaywriteIE_300Light',
           }}>
           Playwrite IE Light
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteIE_400Regular',
+            fontFamily:
+              'PlaywriteIE_400Regular',
           }}>
           Playwrite IE Regular
         </Text>

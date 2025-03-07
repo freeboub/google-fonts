@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-kaisei-tokumin/useFonts';
 import { KaiseiTokumin_400Regular } from 'expo-google-fonts-kaisei-tokumin/400Regular';
 import { KaiseiTokumin_500Medium } from 'expo-google-fonts-kaisei-tokumin/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KaiseiTokumin_400Regular',
+            fontFamily:
+              'KaiseiTokumin_400Regular',
           }}>
           Kaisei Tokumin Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KaiseiTokumin_500Medium',
+            fontFamily:
+              'KaiseiTokumin_500Medium',
           }}>
           Kaisei Tokumin Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KaiseiTokumin_700Bold',
+            fontFamily:
+              'KaiseiTokumin_700Bold',
           }}>
           Kaisei Tokumin Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KaiseiTokumin_800ExtraBold',
+            fontFamily:
+              'KaiseiTokumin_800ExtraBold',
           }}>
           Kaisei Tokumin Extra Bold
         </Text>

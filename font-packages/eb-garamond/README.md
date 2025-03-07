@@ -34,7 +34,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-eb-garamond/useFonts';
 import { EBGaramond_400Regular } from 'expo-google-fonts-eb-garamond/400Regular';
 import { EBGaramond_500Medium } from 'expo-google-fonts-eb-garamond/500Medium';
@@ -68,13 +71,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EBGaramond_400Regular',
+            fontFamily:
+              'EBGaramond_400Regular',
           }}>
           EB Garamond Regular
         </Text>
@@ -84,7 +93,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EBGaramond_500Medium',
+            fontFamily:
+              'EBGaramond_500Medium',
           }}>
           EB Garamond Medium
         </Text>
@@ -94,7 +104,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EBGaramond_600SemiBold',
+            fontFamily:
+              'EBGaramond_600SemiBold',
           }}>
           EB Garamond Semi Bold
         </Text>
@@ -104,7 +115,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EBGaramond_700Bold',
+            fontFamily:
+              'EBGaramond_700Bold',
           }}>
           EB Garamond Bold
         </Text>
@@ -114,7 +126,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EBGaramond_800ExtraBold',
+            fontFamily:
+              'EBGaramond_800ExtraBold',
           }}>
           EB Garamond Extra Bold
         </Text>
@@ -124,7 +137,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EBGaramond_400Regular_Italic',
+            fontFamily:
+              'EBGaramond_400Regular_Italic',
           }}>
           EB Garamond Italic
         </Text>
@@ -134,7 +148,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EBGaramond_500Medium_Italic',
+            fontFamily:
+              'EBGaramond_500Medium_Italic',
           }}>
           EB Garamond Medium Italic
         </Text>
@@ -144,7 +159,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EBGaramond_600SemiBold_Italic',
+            fontFamily:
+              'EBGaramond_600SemiBold_Italic',
           }}>
           EB Garamond Semi Bold Italic
         </Text>
@@ -154,7 +170,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EBGaramond_700Bold_Italic',
+            fontFamily:
+              'EBGaramond_700Bold_Italic',
           }}>
           EB Garamond Bold Italic
         </Text>
@@ -164,7 +181,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EBGaramond_800ExtraBold_Italic',
+            fontFamily:
+              'EBGaramond_800ExtraBold_Italic',
           }}>
           EB Garamond Extra Bold Italic
         </Text>

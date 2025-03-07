@@ -36,7 +36,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-faustina/useFonts';
 import { Faustina_300Light } from 'expo-google-fonts-faustina/300Light';
 import { Faustina_400Regular } from 'expo-google-fonts-faustina/400Regular';
@@ -74,13 +77,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Faustina_300Light',
+            fontFamily:
+              'Faustina_300Light',
           }}>
           Faustina Light
         </Text>
@@ -90,7 +99,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Faustina_400Regular',
+            fontFamily:
+              'Faustina_400Regular',
           }}>
           Faustina Regular
         </Text>
@@ -100,7 +110,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Faustina_500Medium',
+            fontFamily:
+              'Faustina_500Medium',
           }}>
           Faustina Medium
         </Text>
@@ -110,7 +121,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Faustina_600SemiBold',
+            fontFamily:
+              'Faustina_600SemiBold',
           }}>
           Faustina Semi Bold
         </Text>
@@ -120,7 +132,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Faustina_700Bold',
+            fontFamily:
+              'Faustina_700Bold',
           }}>
           Faustina Bold
         </Text>
@@ -130,7 +143,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Faustina_800ExtraBold',
+            fontFamily:
+              'Faustina_800ExtraBold',
           }}>
           Faustina Extra Bold
         </Text>
@@ -140,7 +154,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Faustina_300Light_Italic',
+            fontFamily:
+              'Faustina_300Light_Italic',
           }}>
           Faustina Light Italic
         </Text>
@@ -150,7 +165,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Faustina_400Regular_Italic',
+            fontFamily:
+              'Faustina_400Regular_Italic',
           }}>
           Faustina Italic
         </Text>
@@ -160,7 +176,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Faustina_500Medium_Italic',
+            fontFamily:
+              'Faustina_500Medium_Italic',
           }}>
           Faustina Medium Italic
         </Text>
@@ -170,7 +187,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Faustina_600SemiBold_Italic',
+            fontFamily:
+              'Faustina_600SemiBold_Italic',
           }}>
           Faustina Semi Bold Italic
         </Text>
@@ -180,7 +198,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Faustina_700Bold_Italic',
+            fontFamily:
+              'Faustina_700Bold_Italic',
           }}>
           Faustina Bold Italic
         </Text>
@@ -190,7 +209,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Faustina_800ExtraBold_Italic',
+            fontFamily:
+              'Faustina_800ExtraBold_Italic',
           }}>
           Faustina Extra Bold Italic
         </Text>

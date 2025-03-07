@@ -1,7 +1,12 @@
 {
   "family": "Comforter Brush",
   "variants": ["regular"],
-  "subsets": ["cyrillic", "latin", "latin-ext", "vietnamese"],
+  "subsets": [
+    "cyrillic",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v7",
   "lastModified": "2024-09-04",
   "files": {

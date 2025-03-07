@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playwrite-be-vlg/useFonts';
 import { PlaywriteBEVLG_100Thin } from 'expo-google-fonts-playwrite-be-vlg/100Thin';
 import { PlaywriteBEVLG_200ExtraLight } from 'expo-google-fonts-playwrite-be-vlg/200ExtraLight';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteBEVLG_100Thin',
+            fontFamily:
+              'PlaywriteBEVLG_100Thin',
           }}>
           Playwrite BE VLG Thin
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteBEVLG_200ExtraLight',
+            fontFamily:
+              'PlaywriteBEVLG_200ExtraLight',
           }}>
           Playwrite BE VLG Extra Light
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteBEVLG_300Light',
+            fontFamily:
+              'PlaywriteBEVLG_300Light',
           }}>
           Playwrite BE VLG Light
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteBEVLG_400Regular',
+            fontFamily:
+              'PlaywriteBEVLG_400Regular',
           }}>
           Playwrite BE VLG Regular
         </Text>

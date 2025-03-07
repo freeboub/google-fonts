@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-azeret-mono/useFonts';
 import { AzeretMono_100Thin } from 'expo-google-fonts-azeret-mono/100Thin';
 import { AzeretMono_200ExtraLight } from 'expo-google-fonts-azeret-mono/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AzeretMono_100Thin',
+            fontFamily:
+              'AzeretMono_100Thin',
           }}>
           Azeret Mono Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AzeretMono_200ExtraLight',
+            fontFamily:
+              'AzeretMono_200ExtraLight',
           }}>
           Azeret Mono Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AzeretMono_300Light',
+            fontFamily:
+              'AzeretMono_300Light',
           }}>
           Azeret Mono Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AzeretMono_400Regular',
+            fontFamily:
+              'AzeretMono_400Regular',
           }}>
           Azeret Mono Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AzeretMono_500Medium',
+            fontFamily:
+              'AzeretMono_500Medium',
           }}>
           Azeret Mono Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AzeretMono_600SemiBold',
+            fontFamily:
+              'AzeretMono_600SemiBold',
           }}>
           Azeret Mono Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AzeretMono_700Bold',
+            fontFamily:
+              'AzeretMono_700Bold',
           }}>
           Azeret Mono Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AzeretMono_800ExtraBold',
+            fontFamily:
+              'AzeretMono_800ExtraBold',
           }}>
           Azeret Mono Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AzeretMono_900Black',
+            fontFamily:
+              'AzeretMono_900Black',
           }}>
           Azeret Mono Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AzeretMono_100Thin_Italic',
+            fontFamily:
+              'AzeretMono_100Thin_Italic',
           }}>
           Azeret Mono Thin Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AzeretMono_200ExtraLight_Italic',
+            fontFamily:
+              'AzeretMono_200ExtraLight_Italic',
           }}>
           Azeret Mono Extra Light Italic
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AzeretMono_300Light_Italic',
+            fontFamily:
+              'AzeretMono_300Light_Italic',
           }}>
           Azeret Mono Light Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AzeretMono_400Regular_Italic',
+            fontFamily:
+              'AzeretMono_400Regular_Italic',
           }}>
           Azeret Mono Italic
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AzeretMono_500Medium_Italic',
+            fontFamily:
+              'AzeretMono_500Medium_Italic',
           }}>
           Azeret Mono Medium Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AzeretMono_600SemiBold_Italic',
+            fontFamily:
+              'AzeretMono_600SemiBold_Italic',
           }}>
           Azeret Mono Semi Bold Italic
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AzeretMono_700Bold_Italic',
+            fontFamily:
+              'AzeretMono_700Bold_Italic',
           }}>
           Azeret Mono Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AzeretMono_800ExtraBold_Italic',
+            fontFamily:
+              'AzeretMono_800ExtraBold_Italic',
           }}>
           Azeret Mono Extra Bold Italic
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AzeretMono_900Black_Italic',
+            fontFamily:
+              'AzeretMono_900Black_Italic',
           }}>
           Azeret Mono Black Italic
         </Text>

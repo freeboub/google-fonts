@@ -1,6 +1,15 @@
 {
   "family": "Zain",
-  "variants": ["200", "300", "300italic", "regular", "italic", "700", "800", "900"],
+  "variants": [
+    "200",
+    "300",
+    "300italic",
+    "regular",
+    "italic",
+    "700",
+    "800",
+    "900"
+  ],
   "subsets": ["arabic", "latin"],
   "version": "v3",
   "lastModified": "2024-11-20",

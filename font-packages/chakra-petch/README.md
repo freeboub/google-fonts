@@ -34,7 +34,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-chakra-petch/useFonts';
 import { ChakraPetch_300Light } from 'expo-google-fonts-chakra-petch/300Light';
 import { ChakraPetch_300Light_Italic } from 'expo-google-fonts-chakra-petch/300Light_Italic';
@@ -68,13 +71,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ChakraPetch_300Light',
+            fontFamily:
+              'ChakraPetch_300Light',
           }}>
           Chakra Petch Light
         </Text>
@@ -84,7 +93,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ChakraPetch_300Light_Italic',
+            fontFamily:
+              'ChakraPetch_300Light_Italic',
           }}>
           Chakra Petch Light Italic
         </Text>
@@ -94,7 +104,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ChakraPetch_400Regular',
+            fontFamily:
+              'ChakraPetch_400Regular',
           }}>
           Chakra Petch Regular
         </Text>
@@ -104,7 +115,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ChakraPetch_400Regular_Italic',
+            fontFamily:
+              'ChakraPetch_400Regular_Italic',
           }}>
           Chakra Petch Italic
         </Text>
@@ -114,7 +126,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ChakraPetch_500Medium',
+            fontFamily:
+              'ChakraPetch_500Medium',
           }}>
           Chakra Petch Medium
         </Text>
@@ -124,7 +137,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ChakraPetch_500Medium_Italic',
+            fontFamily:
+              'ChakraPetch_500Medium_Italic',
           }}>
           Chakra Petch Medium Italic
         </Text>
@@ -134,7 +148,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ChakraPetch_600SemiBold',
+            fontFamily:
+              'ChakraPetch_600SemiBold',
           }}>
           Chakra Petch Semi Bold
         </Text>
@@ -144,7 +159,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ChakraPetch_600SemiBold_Italic',
+            fontFamily:
+              'ChakraPetch_600SemiBold_Italic',
           }}>
           Chakra Petch Semi Bold Italic
         </Text>
@@ -154,7 +170,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ChakraPetch_700Bold',
+            fontFamily:
+              'ChakraPetch_700Bold',
           }}>
           Chakra Petch Bold
         </Text>
@@ -164,7 +181,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ChakraPetch_700Bold_Italic',
+            fontFamily:
+              'ChakraPetch_700Bold_Italic',
           }}>
           Chakra Petch Bold Italic
         </Text>

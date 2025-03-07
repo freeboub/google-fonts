@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Mende Kikakui",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "mende-kikakui"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "mende-kikakui"
+  ],
   "version": "v28",
   "lastModified": "2022-11-09",
   "files": {

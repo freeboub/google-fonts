@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-serif-yezidi/useFonts';
 import { NotoSerifYezidi_400Regular } from 'expo-google-fonts-noto-serif-yezidi/400Regular';
 import { NotoSerifYezidi_500Medium } from 'expo-google-fonts-noto-serif-yezidi/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifYezidi_400Regular',
+            fontFamily:
+              'NotoSerifYezidi_400Regular',
           }}>
           Noto Serif Yezidi Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifYezidi_500Medium',
+            fontFamily:
+              'NotoSerifYezidi_500Medium',
           }}>
           Noto Serif Yezidi Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifYezidi_600SemiBold',
+            fontFamily:
+              'NotoSerifYezidi_600SemiBold',
           }}>
           Noto Serif Yezidi Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifYezidi_700Bold',
+            fontFamily:
+              'NotoSerifYezidi_700Bold',
           }}>
           Noto Serif Yezidi Bold
         </Text>

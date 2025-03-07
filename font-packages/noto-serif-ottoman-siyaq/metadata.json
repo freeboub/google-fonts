@@ -1,7 +1,11 @@
 {
   "family": "Noto Serif Ottoman Siyaq",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "ottoman-siyaq-numbers"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "ottoman-siyaq-numbers"
+  ],
   "version": "v2",
   "lastModified": "2024-09-04",
   "files": {

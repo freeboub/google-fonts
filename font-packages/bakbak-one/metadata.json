@@ -1,7 +1,11 @@
 {
   "family": "Bakbak One",
   "variants": ["regular"],
-  "subsets": ["devanagari", "latin", "latin-ext"],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v9",
   "lastModified": "2024-12-04",
   "files": {

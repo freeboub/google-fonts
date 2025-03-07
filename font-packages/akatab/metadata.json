@@ -1,7 +1,18 @@
 {
   "family": "Akatab",
-  "variants": ["regular", "500", "600", "700", "800", "900"],
-  "subsets": ["latin", "latin-ext", "tifinagh"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "tifinagh"
+  ],
   "version": "v7",
   "lastModified": "2024-09-04",
   "files": {

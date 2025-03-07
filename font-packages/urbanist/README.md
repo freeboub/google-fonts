@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-urbanist/useFonts';
 import { Urbanist_100Thin } from 'expo-google-fonts-urbanist/100Thin';
 import { Urbanist_200ExtraLight } from 'expo-google-fonts-urbanist/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_100Thin',
+            fontFamily:
+              'Urbanist_100Thin',
           }}>
           Urbanist Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_200ExtraLight',
+            fontFamily:
+              'Urbanist_200ExtraLight',
           }}>
           Urbanist Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_300Light',
+            fontFamily:
+              'Urbanist_300Light',
           }}>
           Urbanist Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_400Regular',
+            fontFamily:
+              'Urbanist_400Regular',
           }}>
           Urbanist Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_500Medium',
+            fontFamily:
+              'Urbanist_500Medium',
           }}>
           Urbanist Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_600SemiBold',
+            fontFamily:
+              'Urbanist_600SemiBold',
           }}>
           Urbanist Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_700Bold',
+            fontFamily:
+              'Urbanist_700Bold',
           }}>
           Urbanist Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_800ExtraBold',
+            fontFamily:
+              'Urbanist_800ExtraBold',
           }}>
           Urbanist Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_900Black',
+            fontFamily:
+              'Urbanist_900Black',
           }}>
           Urbanist Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_100Thin_Italic',
+            fontFamily:
+              'Urbanist_100Thin_Italic',
           }}>
           Urbanist Thin Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_200ExtraLight_Italic',
+            fontFamily:
+              'Urbanist_200ExtraLight_Italic',
           }}>
           Urbanist Extra Light Italic
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_300Light_Italic',
+            fontFamily:
+              'Urbanist_300Light_Italic',
           }}>
           Urbanist Light Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_400Regular_Italic',
+            fontFamily:
+              'Urbanist_400Regular_Italic',
           }}>
           Urbanist Italic
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_500Medium_Italic',
+            fontFamily:
+              'Urbanist_500Medium_Italic',
           }}>
           Urbanist Medium Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_600SemiBold_Italic',
+            fontFamily:
+              'Urbanist_600SemiBold_Italic',
           }}>
           Urbanist Semi Bold Italic
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_700Bold_Italic',
+            fontFamily:
+              'Urbanist_700Bold_Italic',
           }}>
           Urbanist Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_800ExtraBold_Italic',
+            fontFamily:
+              'Urbanist_800ExtraBold_Italic',
           }}>
           Urbanist Extra Bold Italic
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Urbanist_900Black_Italic',
+            fontFamily:
+              'Urbanist_900Black_Italic',
           }}>
           Urbanist Black Italic
         </Text>

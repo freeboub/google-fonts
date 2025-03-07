@@ -38,7 +38,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-kantumruy-pro/useFonts';
 import { KantumruyPro_100Thin } from 'expo-google-fonts-kantumruy-pro/100Thin';
 import { KantumruyPro_200ExtraLight } from 'expo-google-fonts-kantumruy-pro/200ExtraLight';
@@ -80,13 +83,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KantumruyPro_100Thin',
+            fontFamily:
+              'KantumruyPro_100Thin',
           }}>
           Kantumruy Pro Thin
         </Text>
@@ -96,7 +105,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KantumruyPro_200ExtraLight',
+            fontFamily:
+              'KantumruyPro_200ExtraLight',
           }}>
           Kantumruy Pro Extra Light
         </Text>
@@ -106,7 +116,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KantumruyPro_300Light',
+            fontFamily:
+              'KantumruyPro_300Light',
           }}>
           Kantumruy Pro Light
         </Text>
@@ -116,7 +127,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KantumruyPro_400Regular',
+            fontFamily:
+              'KantumruyPro_400Regular',
           }}>
           Kantumruy Pro Regular
         </Text>
@@ -126,7 +138,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KantumruyPro_500Medium',
+            fontFamily:
+              'KantumruyPro_500Medium',
           }}>
           Kantumruy Pro Medium
         </Text>
@@ -136,7 +149,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KantumruyPro_600SemiBold',
+            fontFamily:
+              'KantumruyPro_600SemiBold',
           }}>
           Kantumruy Pro Semi Bold
         </Text>
@@ -146,7 +160,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KantumruyPro_700Bold',
+            fontFamily:
+              'KantumruyPro_700Bold',
           }}>
           Kantumruy Pro Bold
         </Text>
@@ -156,7 +171,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KantumruyPro_100Thin_Italic',
+            fontFamily:
+              'KantumruyPro_100Thin_Italic',
           }}>
           Kantumruy Pro Thin Italic
         </Text>
@@ -166,9 +182,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KantumruyPro_200ExtraLight_Italic',
+            fontFamily:
+              'KantumruyPro_200ExtraLight_Italic',
           }}>
-          Kantumruy Pro Extra Light Italic
+          Kantumruy Pro Extra Light
+          Italic
         </Text>
 
         <Text
@@ -176,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KantumruyPro_300Light_Italic',
+            fontFamily:
+              'KantumruyPro_300Light_Italic',
           }}>
           Kantumruy Pro Light Italic
         </Text>
@@ -186,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KantumruyPro_400Regular_Italic',
+            fontFamily:
+              'KantumruyPro_400Regular_Italic',
           }}>
           Kantumruy Pro Italic
         </Text>
@@ -196,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KantumruyPro_500Medium_Italic',
+            fontFamily:
+              'KantumruyPro_500Medium_Italic',
           }}>
           Kantumruy Pro Medium Italic
         </Text>
@@ -206,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KantumruyPro_600SemiBold_Italic',
+            fontFamily:
+              'KantumruyPro_600SemiBold_Italic',
           }}>
           Kantumruy Pro Semi Bold Italic
         </Text>
@@ -216,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KantumruyPro_700Bold_Italic',
+            fontFamily:
+              'KantumruyPro_700Bold_Italic',
           }}>
           Kantumruy Pro Bold Italic
         </Text>

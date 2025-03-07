@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-space-grotesk/useFonts';
 import { SpaceGrotesk_300Light } from 'expo-google-fonts-space-grotesk/300Light';
 import { SpaceGrotesk_400Regular } from 'expo-google-fonts-space-grotesk/400Regular';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SpaceGrotesk_300Light',
+            fontFamily:
+              'SpaceGrotesk_300Light',
           }}>
           Space Grotesk Light
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SpaceGrotesk_400Regular',
+            fontFamily:
+              'SpaceGrotesk_400Regular',
           }}>
           Space Grotesk Regular
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SpaceGrotesk_500Medium',
+            fontFamily:
+              'SpaceGrotesk_500Medium',
           }}>
           Space Grotesk Medium
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SpaceGrotesk_600SemiBold',
+            fontFamily:
+              'SpaceGrotesk_600SemiBold',
           }}>
           Space Grotesk Semi Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SpaceGrotesk_700Bold',
+            fontFamily:
+              'SpaceGrotesk_700Bold',
           }}>
           Space Grotesk Bold
         </Text>

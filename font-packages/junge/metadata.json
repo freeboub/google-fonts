@@ -4,7 +4,9 @@
   "subsets": ["latin"],
   "version": "v24",
   "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/junge/v24/gokgH670Gl1lUqAdvhB7SnKm.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/junge/v24/gokgH670Gl1lUqAdvhB7SnKm.ttf"
+  },
   "category": "serif",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/junge/v24/gokgH670Gl1lUpActBQ.ttf"

@@ -1,7 +1,20 @@
 {
   "family": "Anek Odia",
-  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
-  "subsets": ["latin", "latin-ext", "oriya"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "oriya"
+  ],
   "version": "v16",
   "lastModified": "2024-12-04",
   "files": {

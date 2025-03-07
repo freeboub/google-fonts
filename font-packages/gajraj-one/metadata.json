@@ -1,7 +1,11 @@
 {
   "family": "Gajraj One",
   "variants": ["regular"],
-  "subsets": ["devanagari", "latin", "latin-ext"],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v5",
   "lastModified": "2024-09-04",
   "files": {

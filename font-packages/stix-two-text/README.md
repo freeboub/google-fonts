@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-stix-two-text/useFonts';
 import { STIXTwoText_400Regular } from 'expo-google-fonts-stix-two-text/400Regular';
 import { STIXTwoText_500Medium } from 'expo-google-fonts-stix-two-text/500Medium';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'STIXTwoText_400Regular',
+            fontFamily:
+              'STIXTwoText_400Regular',
           }}>
           STIX Two Text Regular
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'STIXTwoText_500Medium',
+            fontFamily:
+              'STIXTwoText_500Medium',
           }}>
           STIX Two Text Medium
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'STIXTwoText_600SemiBold',
+            fontFamily:
+              'STIXTwoText_600SemiBold',
           }}>
           STIX Two Text Semi Bold
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'STIXTwoText_700Bold',
+            fontFamily:
+              'STIXTwoText_700Bold',
           }}>
           STIX Two Text Bold
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'STIXTwoText_400Regular_Italic',
+            fontFamily:
+              'STIXTwoText_400Regular_Italic',
           }}>
           STIX Two Text Italic
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'STIXTwoText_500Medium_Italic',
+            fontFamily:
+              'STIXTwoText_500Medium_Italic',
           }}>
           STIX Two Text Medium Italic
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'STIXTwoText_600SemiBold_Italic',
+            fontFamily:
+              'STIXTwoText_600SemiBold_Italic',
           }}>
           STIX Two Text Semi Bold Italic
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'STIXTwoText_700Bold_Italic',
+            fontFamily:
+              'STIXTwoText_700Bold_Italic',
           }}>
           STIX Two Text Bold Italic
         </Text>

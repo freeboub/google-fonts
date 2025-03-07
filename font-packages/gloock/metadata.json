@@ -1,10 +1,16 @@
 {
   "family": "Gloock",
   "variants": ["regular"],
-  "subsets": ["cyrillic-ext", "latin", "latin-ext"],
+  "subsets": [
+    "cyrillic-ext",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v6",
   "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/gloock/v6/Iurb6YFw84WUY4N5jxylBrdRjQ.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/gloock/v6/Iurb6YFw84WUY4N5jxylBrdRjQ.ttf"
+  },
   "category": "serif",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/gloock/v6/Iurb6YFw84WUY4NJjhah.ttf"

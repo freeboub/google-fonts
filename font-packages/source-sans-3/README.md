@@ -40,7 +40,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-source-sans-3/useFonts';
 import { SourceSans3_200ExtraLight } from 'expo-google-fonts-source-sans-3/200ExtraLight';
 import { SourceSans3_300Light } from 'expo-google-fonts-source-sans-3/300Light';
@@ -86,13 +89,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSans3_200ExtraLight',
+            fontFamily:
+              'SourceSans3_200ExtraLight',
           }}>
           Source Sans 3 Extra Light
         </Text>
@@ -102,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSans3_300Light',
+            fontFamily:
+              'SourceSans3_300Light',
           }}>
           Source Sans 3 Light
         </Text>
@@ -112,7 +122,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSans3_400Regular',
+            fontFamily:
+              'SourceSans3_400Regular',
           }}>
           Source Sans 3 Regular
         </Text>
@@ -122,7 +133,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSans3_500Medium',
+            fontFamily:
+              'SourceSans3_500Medium',
           }}>
           Source Sans 3 Medium
         </Text>
@@ -132,7 +144,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSans3_600SemiBold',
+            fontFamily:
+              'SourceSans3_600SemiBold',
           }}>
           Source Sans 3 Semi Bold
         </Text>
@@ -142,7 +155,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSans3_700Bold',
+            fontFamily:
+              'SourceSans3_700Bold',
           }}>
           Source Sans 3 Bold
         </Text>
@@ -152,7 +166,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSans3_800ExtraBold',
+            fontFamily:
+              'SourceSans3_800ExtraBold',
           }}>
           Source Sans 3 Extra Bold
         </Text>
@@ -162,7 +177,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSans3_900Black',
+            fontFamily:
+              'SourceSans3_900Black',
           }}>
           Source Sans 3 Black
         </Text>
@@ -172,9 +188,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSans3_200ExtraLight_Italic',
+            fontFamily:
+              'SourceSans3_200ExtraLight_Italic',
           }}>
-          Source Sans 3 Extra Light Italic
+          Source Sans 3 Extra Light
+          Italic
         </Text>
 
         <Text
@@ -182,7 +200,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSans3_300Light_Italic',
+            fontFamily:
+              'SourceSans3_300Light_Italic',
           }}>
           Source Sans 3 Light Italic
         </Text>
@@ -192,7 +211,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSans3_400Regular_Italic',
+            fontFamily:
+              'SourceSans3_400Regular_Italic',
           }}>
           Source Sans 3 Italic
         </Text>
@@ -202,7 +222,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSans3_500Medium_Italic',
+            fontFamily:
+              'SourceSans3_500Medium_Italic',
           }}>
           Source Sans 3 Medium Italic
         </Text>
@@ -212,7 +233,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSans3_600SemiBold_Italic',
+            fontFamily:
+              'SourceSans3_600SemiBold_Italic',
           }}>
           Source Sans 3 Semi Bold Italic
         </Text>
@@ -222,7 +244,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSans3_700Bold_Italic',
+            fontFamily:
+              'SourceSans3_700Bold_Italic',
           }}>
           Source Sans 3 Bold Italic
         </Text>
@@ -232,9 +255,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSans3_800ExtraBold_Italic',
+            fontFamily:
+              'SourceSans3_800ExtraBold_Italic',
           }}>
-          Source Sans 3 Extra Bold Italic
+          Source Sans 3 Extra Bold
+          Italic
         </Text>
 
         <Text
@@ -242,7 +267,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSans3_900Black_Italic',
+            fontFamily:
+              'SourceSans3_900Black_Italic',
           }}>
           Source Sans 3 Black Italic
         </Text>

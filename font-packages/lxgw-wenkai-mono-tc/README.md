@@ -27,7 +27,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-lxgw-wenkai-mono-tc/useFonts';
 import { LXGWWenKaiMonoTC_300Light } from 'expo-google-fonts-lxgw-wenkai-mono-tc/300Light';
 import { LXGWWenKaiMonoTC_400Regular } from 'expo-google-fonts-lxgw-wenkai-mono-tc/400Regular';
@@ -47,13 +50,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LXGWWenKaiMonoTC_300Light',
+            fontFamily:
+              'LXGWWenKaiMonoTC_300Light',
           }}>
           LXGW WenKai Mono TC Light
         </Text>
@@ -63,7 +72,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LXGWWenKaiMonoTC_400Regular',
+            fontFamily:
+              'LXGWWenKaiMonoTC_400Regular',
           }}>
           LXGW WenKai Mono TC Regular
         </Text>
@@ -73,7 +83,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LXGWWenKaiMonoTC_700Bold',
+            fontFamily:
+              'LXGWWenKaiMonoTC_700Bold',
           }}>
           LXGW WenKai Mono TC Bold
         </Text>

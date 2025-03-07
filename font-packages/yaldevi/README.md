@@ -30,7 +30,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-yaldevi/useFonts';
 import { Yaldevi_200ExtraLight } from 'expo-google-fonts-yaldevi/200ExtraLight';
 import { Yaldevi_300Light } from 'expo-google-fonts-yaldevi/300Light';
@@ -56,13 +59,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Yaldevi_200ExtraLight',
+            fontFamily:
+              'Yaldevi_200ExtraLight',
           }}>
           Yaldevi Extra Light
         </Text>
@@ -72,7 +81,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Yaldevi_300Light',
+            fontFamily:
+              'Yaldevi_300Light',
           }}>
           Yaldevi Light
         </Text>
@@ -82,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Yaldevi_400Regular',
+            fontFamily:
+              'Yaldevi_400Regular',
           }}>
           Yaldevi Regular
         </Text>
@@ -92,7 +103,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Yaldevi_500Medium',
+            fontFamily:
+              'Yaldevi_500Medium',
           }}>
           Yaldevi Medium
         </Text>
@@ -102,7 +114,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Yaldevi_600SemiBold',
+            fontFamily:
+              'Yaldevi_600SemiBold',
           }}>
           Yaldevi Semi Bold
         </Text>
@@ -112,7 +125,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Yaldevi_700Bold',
+            fontFamily:
+              'Yaldevi_700Bold',
           }}>
           Yaldevi Bold
         </Text>

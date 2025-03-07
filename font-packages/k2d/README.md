@@ -40,7 +40,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-k2d/useFonts';
 import { K2D_100Thin } from 'expo-google-fonts-k2d/100Thin';
 import { K2D_100Thin_Italic } from 'expo-google-fonts-k2d/100Thin_Italic';
@@ -86,7 +89,12 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
@@ -102,7 +110,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'K2D_100Thin_Italic',
+            fontFamily:
+              'K2D_100Thin_Italic',
           }}>
           K2D Thin Italic
         </Text>
@@ -112,7 +121,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'K2D_200ExtraLight',
+            fontFamily:
+              'K2D_200ExtraLight',
           }}>
           K2D Extra Light
         </Text>
@@ -122,7 +132,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'K2D_200ExtraLight_Italic',
+            fontFamily:
+              'K2D_200ExtraLight_Italic',
           }}>
           K2D Extra Light Italic
         </Text>
@@ -142,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'K2D_300Light_Italic',
+            fontFamily:
+              'K2D_300Light_Italic',
           }}>
           K2D Light Italic
         </Text>
@@ -152,7 +164,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'K2D_400Regular',
+            fontFamily:
+              'K2D_400Regular',
           }}>
           K2D Regular
         </Text>
@@ -162,7 +175,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'K2D_400Regular_Italic',
+            fontFamily:
+              'K2D_400Regular_Italic',
           }}>
           K2D Italic
         </Text>
@@ -182,7 +196,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'K2D_500Medium_Italic',
+            fontFamily:
+              'K2D_500Medium_Italic',
           }}>
           K2D Medium Italic
         </Text>
@@ -192,7 +207,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'K2D_600SemiBold',
+            fontFamily:
+              'K2D_600SemiBold',
           }}>
           K2D Semi Bold
         </Text>
@@ -202,7 +218,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'K2D_600SemiBold_Italic',
+            fontFamily:
+              'K2D_600SemiBold_Italic',
           }}>
           K2D Semi Bold Italic
         </Text>
@@ -222,7 +239,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'K2D_700Bold_Italic',
+            fontFamily:
+              'K2D_700Bold_Italic',
           }}>
           K2D Bold Italic
         </Text>
@@ -232,7 +250,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'K2D_800ExtraBold',
+            fontFamily:
+              'K2D_800ExtraBold',
           }}>
           K2D Extra Bold
         </Text>
@@ -242,7 +261,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'K2D_800ExtraBold_Italic',
+            fontFamily:
+              'K2D_800ExtraBold_Italic',
           }}>
           K2D Extra Bold Italic
         </Text>

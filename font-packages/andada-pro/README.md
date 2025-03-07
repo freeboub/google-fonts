@@ -34,7 +34,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-andada-pro/useFonts';
 import { AndadaPro_400Regular } from 'expo-google-fonts-andada-pro/400Regular';
 import { AndadaPro_500Medium } from 'expo-google-fonts-andada-pro/500Medium';
@@ -68,13 +71,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AndadaPro_400Regular',
+            fontFamily:
+              'AndadaPro_400Regular',
           }}>
           Andada Pro Regular
         </Text>
@@ -84,7 +93,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AndadaPro_500Medium',
+            fontFamily:
+              'AndadaPro_500Medium',
           }}>
           Andada Pro Medium
         </Text>
@@ -94,7 +104,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AndadaPro_600SemiBold',
+            fontFamily:
+              'AndadaPro_600SemiBold',
           }}>
           Andada Pro Semi Bold
         </Text>
@@ -104,7 +115,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AndadaPro_700Bold',
+            fontFamily:
+              'AndadaPro_700Bold',
           }}>
           Andada Pro Bold
         </Text>
@@ -114,7 +126,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AndadaPro_800ExtraBold',
+            fontFamily:
+              'AndadaPro_800ExtraBold',
           }}>
           Andada Pro Extra Bold
         </Text>
@@ -124,7 +137,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AndadaPro_400Regular_Italic',
+            fontFamily:
+              'AndadaPro_400Regular_Italic',
           }}>
           Andada Pro Italic
         </Text>
@@ -134,7 +148,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AndadaPro_500Medium_Italic',
+            fontFamily:
+              'AndadaPro_500Medium_Italic',
           }}>
           Andada Pro Medium Italic
         </Text>
@@ -144,7 +159,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AndadaPro_600SemiBold_Italic',
+            fontFamily:
+              'AndadaPro_600SemiBold_Italic',
           }}>
           Andada Pro Semi Bold Italic
         </Text>
@@ -154,7 +170,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AndadaPro_700Bold_Italic',
+            fontFamily:
+              'AndadaPro_700Bold_Italic',
           }}>
           Andada Pro Bold Italic
         </Text>
@@ -164,7 +181,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AndadaPro_800ExtraBold_Italic',
+            fontFamily:
+              'AndadaPro_800ExtraBold_Italic',
           }}>
           Andada Pro Extra Bold Italic
         </Text>

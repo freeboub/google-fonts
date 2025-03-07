@@ -1,7 +1,24 @@
 {
   "family": "Murecho",
-  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
-  "subsets": ["cyrillic", "cyrillic-ext", "greek", "japanese", "latin", "latin-ext"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900"
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "japanese",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v12",
   "lastModified": "2024-08-07",
   "files": {

@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-inter-tight/useFonts';
 import { InterTight_100Thin } from 'expo-google-fonts-inter-tight/100Thin';
 import { InterTight_200ExtraLight } from 'expo-google-fonts-inter-tight/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InterTight_100Thin',
+            fontFamily:
+              'InterTight_100Thin',
           }}>
           Inter Tight Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InterTight_200ExtraLight',
+            fontFamily:
+              'InterTight_200ExtraLight',
           }}>
           Inter Tight Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InterTight_300Light',
+            fontFamily:
+              'InterTight_300Light',
           }}>
           Inter Tight Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InterTight_400Regular',
+            fontFamily:
+              'InterTight_400Regular',
           }}>
           Inter Tight Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InterTight_500Medium',
+            fontFamily:
+              'InterTight_500Medium',
           }}>
           Inter Tight Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InterTight_600SemiBold',
+            fontFamily:
+              'InterTight_600SemiBold',
           }}>
           Inter Tight Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InterTight_700Bold',
+            fontFamily:
+              'InterTight_700Bold',
           }}>
           Inter Tight Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InterTight_800ExtraBold',
+            fontFamily:
+              'InterTight_800ExtraBold',
           }}>
           Inter Tight Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InterTight_900Black',
+            fontFamily:
+              'InterTight_900Black',
           }}>
           Inter Tight Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InterTight_100Thin_Italic',
+            fontFamily:
+              'InterTight_100Thin_Italic',
           }}>
           Inter Tight Thin Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InterTight_200ExtraLight_Italic',
+            fontFamily:
+              'InterTight_200ExtraLight_Italic',
           }}>
           Inter Tight Extra Light Italic
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InterTight_300Light_Italic',
+            fontFamily:
+              'InterTight_300Light_Italic',
           }}>
           Inter Tight Light Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InterTight_400Regular_Italic',
+            fontFamily:
+              'InterTight_400Regular_Italic',
           }}>
           Inter Tight Italic
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InterTight_500Medium_Italic',
+            fontFamily:
+              'InterTight_500Medium_Italic',
           }}>
           Inter Tight Medium Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InterTight_600SemiBold_Italic',
+            fontFamily:
+              'InterTight_600SemiBold_Italic',
           }}>
           Inter Tight Semi Bold Italic
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InterTight_700Bold_Italic',
+            fontFamily:
+              'InterTight_700Bold_Italic',
           }}>
           Inter Tight Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InterTight_800ExtraBold_Italic',
+            fontFamily:
+              'InterTight_800ExtraBold_Italic',
           }}>
           Inter Tight Extra Bold Italic
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InterTight_900Black_Italic',
+            fontFamily:
+              'InterTight_900Black_Italic',
           }}>
           Inter Tight Black Italic
         </Text>

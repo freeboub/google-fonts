@@ -1,7 +1,11 @@
 {
   "family": "Yarndings 12",
   "variants": ["regular"],
-  "subsets": ["latin", "math", "symbols"],
+  "subsets": [
+    "latin",
+    "math",
+    "symbols"
+  ],
   "version": "v3",
   "lastModified": "2025-01-28",
   "files": {

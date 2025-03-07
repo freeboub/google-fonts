@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-jost/useFonts';
 import { Jost_100Thin } from 'expo-google-fonts-jost/100Thin';
 import { Jost_200ExtraLight } from 'expo-google-fonts-jost/200ExtraLight';
@@ -92,7 +95,12 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
@@ -108,7 +116,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Jost_200ExtraLight',
+            fontFamily:
+              'Jost_200ExtraLight',
           }}>
           Jost Extra Light
         </Text>
@@ -128,7 +137,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Jost_400Regular',
+            fontFamily:
+              'Jost_400Regular',
           }}>
           Jost Regular
         </Text>
@@ -138,7 +148,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Jost_500Medium',
+            fontFamily:
+              'Jost_500Medium',
           }}>
           Jost Medium
         </Text>
@@ -148,7 +159,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Jost_600SemiBold',
+            fontFamily:
+              'Jost_600SemiBold',
           }}>
           Jost Semi Bold
         </Text>
@@ -168,7 +180,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Jost_800ExtraBold',
+            fontFamily:
+              'Jost_800ExtraBold',
           }}>
           Jost Extra Bold
         </Text>
@@ -188,7 +201,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Jost_100Thin_Italic',
+            fontFamily:
+              'Jost_100Thin_Italic',
           }}>
           Jost Thin Italic
         </Text>
@@ -198,7 +212,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Jost_200ExtraLight_Italic',
+            fontFamily:
+              'Jost_200ExtraLight_Italic',
           }}>
           Jost Extra Light Italic
         </Text>
@@ -208,7 +223,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Jost_300Light_Italic',
+            fontFamily:
+              'Jost_300Light_Italic',
           }}>
           Jost Light Italic
         </Text>
@@ -218,7 +234,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Jost_400Regular_Italic',
+            fontFamily:
+              'Jost_400Regular_Italic',
           }}>
           Jost Italic
         </Text>
@@ -228,7 +245,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Jost_500Medium_Italic',
+            fontFamily:
+              'Jost_500Medium_Italic',
           }}>
           Jost Medium Italic
         </Text>
@@ -238,7 +256,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Jost_600SemiBold_Italic',
+            fontFamily:
+              'Jost_600SemiBold_Italic',
           }}>
           Jost Semi Bold Italic
         </Text>
@@ -248,7 +267,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Jost_700Bold_Italic',
+            fontFamily:
+              'Jost_700Bold_Italic',
           }}>
           Jost Bold Italic
         </Text>
@@ -258,7 +278,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Jost_800ExtraBold_Italic',
+            fontFamily:
+              'Jost_800ExtraBold_Italic',
           }}>
           Jost Extra Bold Italic
         </Text>
@@ -268,7 +289,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Jost_900Black_Italic',
+            fontFamily:
+              'Jost_900Black_Italic',
           }}>
           Jost Black Italic
         </Text>

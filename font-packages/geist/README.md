@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-geist/useFonts';
 import { Geist_100Thin } from 'expo-google-fonts-geist/100Thin';
 import { Geist_200ExtraLight } from 'expo-google-fonts-geist/200ExtraLight';
@@ -65,7 +68,12 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
@@ -81,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Geist_200ExtraLight',
+            fontFamily:
+              'Geist_200ExtraLight',
           }}>
           Geist Extra Light
         </Text>
@@ -91,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Geist_300Light',
+            fontFamily:
+              'Geist_300Light',
           }}>
           Geist Light
         </Text>
@@ -101,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Geist_400Regular',
+            fontFamily:
+              'Geist_400Regular',
           }}>
           Geist Regular
         </Text>
@@ -111,7 +122,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Geist_500Medium',
+            fontFamily:
+              'Geist_500Medium',
           }}>
           Geist Medium
         </Text>
@@ -121,7 +133,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Geist_600SemiBold',
+            fontFamily:
+              'Geist_600SemiBold',
           }}>
           Geist Semi Bold
         </Text>
@@ -141,7 +154,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Geist_800ExtraBold',
+            fontFamily:
+              'Geist_800ExtraBold',
           }}>
           Geist Extra Bold
         </Text>
@@ -151,7 +165,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Geist_900Black',
+            fontFamily:
+              'Geist_900Black',
           }}>
           Geist Black
         </Text>

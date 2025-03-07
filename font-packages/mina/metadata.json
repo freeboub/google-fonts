@@ -1,7 +1,11 @@
 {
   "family": "Mina",
   "variants": ["regular", "700"],
-  "subsets": ["bengali", "latin", "latin-ext"],
+  "subsets": [
+    "bengali",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v11",
   "lastModified": "2024-09-04",
   "files": {

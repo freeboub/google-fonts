@@ -1,7 +1,11 @@
 {
   "family": "BhuTuka Expanded One",
   "variants": ["regular"],
-  "subsets": ["gurmukhi", "latin", "latin-ext"],
+  "subsets": [
+    "gurmukhi",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v7",
   "lastModified": "2024-09-04",
   "files": {

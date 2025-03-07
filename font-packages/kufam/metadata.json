@@ -14,7 +14,12 @@
     "800italic",
     "900italic"
   ],
-  "subsets": ["arabic", "latin", "latin-ext", "vietnamese"],
+  "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v21",
   "lastModified": "2024-09-04",
   "files": {

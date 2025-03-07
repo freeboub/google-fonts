@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-vazirmatn/useFonts';
 import { Vazirmatn_100Thin } from 'expo-google-fonts-vazirmatn/100Thin';
 import { Vazirmatn_200ExtraLight } from 'expo-google-fonts-vazirmatn/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Vazirmatn_100Thin',
+            fontFamily:
+              'Vazirmatn_100Thin',
           }}>
           Vazirmatn Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Vazirmatn_200ExtraLight',
+            fontFamily:
+              'Vazirmatn_200ExtraLight',
           }}>
           Vazirmatn Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Vazirmatn_300Light',
+            fontFamily:
+              'Vazirmatn_300Light',
           }}>
           Vazirmatn Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Vazirmatn_400Regular',
+            fontFamily:
+              'Vazirmatn_400Regular',
           }}>
           Vazirmatn Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Vazirmatn_500Medium',
+            fontFamily:
+              'Vazirmatn_500Medium',
           }}>
           Vazirmatn Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Vazirmatn_600SemiBold',
+            fontFamily:
+              'Vazirmatn_600SemiBold',
           }}>
           Vazirmatn Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Vazirmatn_700Bold',
+            fontFamily:
+              'Vazirmatn_700Bold',
           }}>
           Vazirmatn Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Vazirmatn_800ExtraBold',
+            fontFamily:
+              'Vazirmatn_800ExtraBold',
           }}>
           Vazirmatn Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Vazirmatn_900Black',
+            fontFamily:
+              'Vazirmatn_900Black',
           }}>
           Vazirmatn Black
         </Text>

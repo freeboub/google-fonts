@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-sono/useFonts';
 import { Sono_200ExtraLight } from 'expo-google-fonts-sono/200ExtraLight';
 import { Sono_300Light } from 'expo-google-fonts-sono/300Light';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sono_200ExtraLight',
+            fontFamily:
+              'Sono_200ExtraLight',
           }}>
           Sono Extra Light
         </Text>
@@ -85,7 +94,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sono_400Regular',
+            fontFamily:
+              'Sono_400Regular',
           }}>
           Sono Regular
         </Text>
@@ -95,7 +105,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sono_500Medium',
+            fontFamily:
+              'Sono_500Medium',
           }}>
           Sono Medium
         </Text>
@@ -105,7 +116,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sono_600SemiBold',
+            fontFamily:
+              'Sono_600SemiBold',
           }}>
           Sono Semi Bold
         </Text>
@@ -125,7 +137,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sono_800ExtraBold',
+            fontFamily:
+              'Sono_800ExtraBold',
           }}>
           Sono Extra Bold
         </Text>

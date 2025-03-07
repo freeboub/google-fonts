@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-narnoor/useFonts';
 import { Narnoor_400Regular } from 'expo-google-fonts-narnoor/400Regular';
 import { Narnoor_500Medium } from 'expo-google-fonts-narnoor/500Medium';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Narnoor_400Regular',
+            fontFamily:
+              'Narnoor_400Regular',
           }}>
           Narnoor Regular
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Narnoor_500Medium',
+            fontFamily:
+              'Narnoor_500Medium',
           }}>
           Narnoor Medium
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Narnoor_600SemiBold',
+            fontFamily:
+              'Narnoor_600SemiBold',
           }}>
           Narnoor Semi Bold
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Narnoor_700Bold',
+            fontFamily:
+              'Narnoor_700Bold',
           }}>
           Narnoor Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Narnoor_800ExtraBold',
+            fontFamily:
+              'Narnoor_800ExtraBold',
           }}>
           Narnoor Extra Bold
         </Text>

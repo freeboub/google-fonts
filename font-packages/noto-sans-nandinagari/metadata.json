@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Nandinagari",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "nandinagari"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "nandinagari"
+  ],
   "version": "v4",
   "lastModified": "2023-10-25",
   "files": {

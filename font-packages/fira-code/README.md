@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-fira-code/useFonts';
 import { FiraCode_300Light } from 'expo-google-fonts-fira-code/300Light';
 import { FiraCode_400Regular } from 'expo-google-fonts-fira-code/400Regular';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FiraCode_300Light',
+            fontFamily:
+              'FiraCode_300Light',
           }}>
           Fira Code Light
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FiraCode_400Regular',
+            fontFamily:
+              'FiraCode_400Regular',
           }}>
           Fira Code Regular
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FiraCode_500Medium',
+            fontFamily:
+              'FiraCode_500Medium',
           }}>
           Fira Code Medium
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FiraCode_600SemiBold',
+            fontFamily:
+              'FiraCode_600SemiBold',
           }}>
           Fira Code Semi Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'FiraCode_700Bold',
+            fontFamily:
+              'FiraCode_700Bold',
           }}>
           Fira Code Bold
         </Text>

@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-rashi-hebrew/useFonts';
 import { NotoRashiHebrew_100Thin } from 'expo-google-fonts-noto-rashi-hebrew/100Thin';
 import { NotoRashiHebrew_200ExtraLight } from 'expo-google-fonts-noto-rashi-hebrew/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoRashiHebrew_100Thin',
+            fontFamily:
+              'NotoRashiHebrew_100Thin',
           }}>
           Noto Rashi Hebrew Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoRashiHebrew_200ExtraLight',
+            fontFamily:
+              'NotoRashiHebrew_200ExtraLight',
           }}>
           Noto Rashi Hebrew Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoRashiHebrew_300Light',
+            fontFamily:
+              'NotoRashiHebrew_300Light',
           }}>
           Noto Rashi Hebrew Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoRashiHebrew_400Regular',
+            fontFamily:
+              'NotoRashiHebrew_400Regular',
           }}>
           Noto Rashi Hebrew Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoRashiHebrew_500Medium',
+            fontFamily:
+              'NotoRashiHebrew_500Medium',
           }}>
           Noto Rashi Hebrew Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoRashiHebrew_600SemiBold',
+            fontFamily:
+              'NotoRashiHebrew_600SemiBold',
           }}>
           Noto Rashi Hebrew Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoRashiHebrew_700Bold',
+            fontFamily:
+              'NotoRashiHebrew_700Bold',
           }}>
           Noto Rashi Hebrew Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoRashiHebrew_800ExtraBold',
+            fontFamily:
+              'NotoRashiHebrew_800ExtraBold',
           }}>
           Noto Rashi Hebrew Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoRashiHebrew_900Black',
+            fontFamily:
+              'NotoRashiHebrew_900Black',
           }}>
           Noto Rashi Hebrew Black
         </Text>

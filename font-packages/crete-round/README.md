@@ -26,7 +26,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-crete-round/useFonts';
 import { CreteRound_400Regular } from 'expo-google-fonts-crete-round/400Regular';
 import { CreteRound_400Regular_Italic } from 'expo-google-fonts-crete-round/400Regular_Italic';
@@ -44,13 +47,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CreteRound_400Regular',
+            fontFamily:
+              'CreteRound_400Regular',
           }}>
           Crete Round Regular
         </Text>
@@ -60,7 +69,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CreteRound_400Regular_Italic',
+            fontFamily:
+              'CreteRound_400Regular_Italic',
           }}>
           Crete Round Italic
         </Text>

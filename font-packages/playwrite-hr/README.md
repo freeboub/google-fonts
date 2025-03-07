@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playwrite-hr/useFonts';
 import { PlaywriteHR_100Thin } from 'expo-google-fonts-playwrite-hr/100Thin';
 import { PlaywriteHR_200ExtraLight } from 'expo-google-fonts-playwrite-hr/200ExtraLight';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteHR_100Thin',
+            fontFamily:
+              'PlaywriteHR_100Thin',
           }}>
           Playwrite HR Thin
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteHR_200ExtraLight',
+            fontFamily:
+              'PlaywriteHR_200ExtraLight',
           }}>
           Playwrite HR Extra Light
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteHR_300Light',
+            fontFamily:
+              'PlaywriteHR_300Light',
           }}>
           Playwrite HR Light
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteHR_400Regular',
+            fontFamily:
+              'PlaywriteHR_400Regular',
           }}>
           Playwrite HR Regular
         </Text>

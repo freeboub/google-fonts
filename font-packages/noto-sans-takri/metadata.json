@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Takri",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "takri"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "takri"
+  ],
   "version": "v24",
   "lastModified": "2023-10-25",
   "files": {

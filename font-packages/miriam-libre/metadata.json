@@ -1,7 +1,16 @@
 {
   "family": "Miriam Libre",
-  "variants": ["regular", "500", "600", "700"],
-  "subsets": ["hebrew", "latin", "latin-ext"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "hebrew",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v16",
   "lastModified": "2024-10-29",
   "files": {

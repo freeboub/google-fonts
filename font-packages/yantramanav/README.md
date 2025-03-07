@@ -30,7 +30,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-yantramanav/useFonts';
 import { Yantramanav_100Thin } from 'expo-google-fonts-yantramanav/100Thin';
 import { Yantramanav_300Light } from 'expo-google-fonts-yantramanav/300Light';
@@ -56,13 +59,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Yantramanav_100Thin',
+            fontFamily:
+              'Yantramanav_100Thin',
           }}>
           Yantramanav Thin
         </Text>
@@ -72,7 +81,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Yantramanav_300Light',
+            fontFamily:
+              'Yantramanav_300Light',
           }}>
           Yantramanav Light
         </Text>
@@ -82,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Yantramanav_400Regular',
+            fontFamily:
+              'Yantramanav_400Regular',
           }}>
           Yantramanav Regular
         </Text>
@@ -92,7 +103,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Yantramanav_500Medium',
+            fontFamily:
+              'Yantramanav_500Medium',
           }}>
           Yantramanav Medium
         </Text>
@@ -102,7 +114,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Yantramanav_700Bold',
+            fontFamily:
+              'Yantramanav_700Bold',
           }}>
           Yantramanav Bold
         </Text>
@@ -112,7 +125,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Yantramanav_900Black',
+            fontFamily:
+              'Yantramanav_900Black',
           }}>
           Yantramanav Black
         </Text>

@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-anek-bangla/useFonts';
 import { AnekBangla_100Thin } from 'expo-google-fonts-anek-bangla/100Thin';
 import { AnekBangla_200ExtraLight } from 'expo-google-fonts-anek-bangla/200ExtraLight';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekBangla_100Thin',
+            fontFamily:
+              'AnekBangla_100Thin',
           }}>
           Anek Bangla Thin
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekBangla_200ExtraLight',
+            fontFamily:
+              'AnekBangla_200ExtraLight',
           }}>
           Anek Bangla Extra Light
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekBangla_300Light',
+            fontFamily:
+              'AnekBangla_300Light',
           }}>
           Anek Bangla Light
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekBangla_400Regular',
+            fontFamily:
+              'AnekBangla_400Regular',
           }}>
           Anek Bangla Regular
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekBangla_500Medium',
+            fontFamily:
+              'AnekBangla_500Medium',
           }}>
           Anek Bangla Medium
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekBangla_600SemiBold',
+            fontFamily:
+              'AnekBangla_600SemiBold',
           }}>
           Anek Bangla Semi Bold
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekBangla_700Bold',
+            fontFamily:
+              'AnekBangla_700Bold',
           }}>
           Anek Bangla Bold
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekBangla_800ExtraBold',
+            fontFamily:
+              'AnekBangla_800ExtraBold',
           }}>
           Anek Bangla Extra Bold
         </Text>

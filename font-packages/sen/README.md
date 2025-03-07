@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-sen/useFonts';
 import { Sen_400Regular } from 'expo-google-fonts-sen/400Regular';
 import { Sen_500Medium } from 'expo-google-fonts-sen/500Medium';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sen_400Regular',
+            fontFamily:
+              'Sen_400Regular',
           }}>
           Sen Regular
         </Text>
@@ -79,7 +88,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sen_600SemiBold',
+            fontFamily:
+              'Sen_600SemiBold',
           }}>
           Sen Semi Bold
         </Text>
@@ -99,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sen_800ExtraBold',
+            fontFamily:
+              'Sen_800ExtraBold',
           }}>
           Sen Extra Bold
         </Text>

@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-puritan/useFonts';
 import { Puritan_400Regular } from 'expo-google-fonts-puritan/400Regular';
 import { Puritan_400Regular_Italic } from 'expo-google-fonts-puritan/400Regular_Italic';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Puritan_400Regular',
+            fontFamily:
+              'Puritan_400Regular',
           }}>
           Puritan Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Puritan_400Regular_Italic',
+            fontFamily:
+              'Puritan_400Regular_Italic',
           }}>
           Puritan Italic
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Puritan_700Bold',
+            fontFamily:
+              'Puritan_700Bold',
           }}>
           Puritan Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Puritan_700Bold_Italic',
+            fontFamily:
+              'Puritan_700Bold_Italic',
           }}>
           Puritan Bold Italic
         </Text>

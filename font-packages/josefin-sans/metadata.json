@@ -16,7 +16,11 @@
     "600italic",
     "700italic"
   ],
-  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v32",
   "lastModified": "2024-09-04",
   "files": {

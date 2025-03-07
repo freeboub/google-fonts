@@ -1,7 +1,16 @@
 {
   "family": "Noto Serif Oriya",
-  "variants": ["regular", "500", "600", "700"],
-  "subsets": ["latin", "latin-ext", "oriya"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "oriya"
+  ],
   "version": "v4",
   "lastModified": "2023-03-09",
   "files": {

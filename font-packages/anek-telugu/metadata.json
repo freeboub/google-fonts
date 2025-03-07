@@ -1,7 +1,20 @@
 {
   "family": "Anek Telugu",
-  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
-  "subsets": ["latin", "latin-ext", "telugu"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "telugu"
+  ],
   "version": "v10",
   "lastModified": "2024-12-04",
   "files": {

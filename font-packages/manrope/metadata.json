@@ -1,7 +1,22 @@
 {
   "family": "Manrope",
-  "variants": ["200", "300", "regular", "500", "600", "700", "800"],
-  "subsets": ["cyrillic", "cyrillic-ext", "greek", "latin", "latin-ext", "vietnamese"],
+  "variants": [
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800"
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v15",
   "lastModified": "2024-08-12",
   "files": {

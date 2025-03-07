@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-koh-santepheap/useFonts';
 import { KohSantepheap_100Thin } from 'expo-google-fonts-koh-santepheap/100Thin';
 import { KohSantepheap_300Light } from 'expo-google-fonts-koh-santepheap/300Light';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KohSantepheap_100Thin',
+            fontFamily:
+              'KohSantepheap_100Thin',
           }}>
           Koh Santepheap Thin
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KohSantepheap_300Light',
+            fontFamily:
+              'KohSantepheap_300Light',
           }}>
           Koh Santepheap Light
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KohSantepheap_400Regular',
+            fontFamily:
+              'KohSantepheap_400Regular',
           }}>
           Koh Santepheap Regular
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KohSantepheap_700Bold',
+            fontFamily:
+              'KohSantepheap_700Bold',
           }}>
           Koh Santepheap Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KohSantepheap_900Black',
+            fontFamily:
+              'KohSantepheap_900Black',
           }}>
           Koh Santepheap Black
         </Text>

@@ -30,7 +30,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-comic-neue/useFonts';
 import { ComicNeue_300Light } from 'expo-google-fonts-comic-neue/300Light';
 import { ComicNeue_300Light_Italic } from 'expo-google-fonts-comic-neue/300Light_Italic';
@@ -56,13 +59,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ComicNeue_300Light',
+            fontFamily:
+              'ComicNeue_300Light',
           }}>
           Comic Neue Light
         </Text>
@@ -72,7 +81,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ComicNeue_300Light_Italic',
+            fontFamily:
+              'ComicNeue_300Light_Italic',
           }}>
           Comic Neue Light Italic
         </Text>
@@ -82,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ComicNeue_400Regular',
+            fontFamily:
+              'ComicNeue_400Regular',
           }}>
           Comic Neue Regular
         </Text>
@@ -92,7 +103,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ComicNeue_400Regular_Italic',
+            fontFamily:
+              'ComicNeue_400Regular_Italic',
           }}>
           Comic Neue Italic
         </Text>
@@ -102,7 +114,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ComicNeue_700Bold',
+            fontFamily:
+              'ComicNeue_700Bold',
           }}>
           Comic Neue Bold
         </Text>
@@ -112,7 +125,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ComicNeue_700Bold_Italic',
+            fontFamily:
+              'ComicNeue_700Bold_Italic',
           }}>
           Comic Neue Bold Italic
         </Text>

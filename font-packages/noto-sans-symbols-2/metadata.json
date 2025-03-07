@@ -1,7 +1,14 @@
 {
   "family": "Noto Sans Symbols 2",
   "variants": ["regular"],
-  "subsets": ["braille", "latin", "latin-ext", "math", "mayan-numerals", "symbols"],
+  "subsets": [
+    "braille",
+    "latin",
+    "latin-ext",
+    "math",
+    "mayan-numerals",
+    "symbols"
+  ],
   "version": "v24",
   "lastModified": "2024-09-30",
   "files": {

@@ -4,7 +4,9 @@
   "subsets": ["latin", "latin-ext"],
   "version": "v16",
   "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/molengo/v16/I_uuMpWeuBzZNBtQbbRQkiCvs5Y.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/molengo/v16/I_uuMpWeuBzZNBtQbbRQkiCvs5Y.ttf"
+  },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/molengo/v16/I_uuMpWeuBzZNBtQXbValg.ttf"

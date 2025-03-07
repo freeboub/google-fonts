@@ -4,7 +4,9 @@
   "subsets": ["latin", "latin-ext"],
   "version": "v19",
   "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/mako/v19/H4coBX6Mmc_Z0ST09g478Lo.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/mako/v19/H4coBX6Mmc_Z0ST09g478Lo.ttf"
+  },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/mako/v19/H4coBX6Mmc_Z4SX-8g.ttf"

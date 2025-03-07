@@ -1,7 +1,20 @@
 {
   "family": "Anek Gurmukhi",
-  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800"],
-  "subsets": ["gurmukhi", "latin", "latin-ext"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800"
+  ],
+  "subsets": [
+    "gurmukhi",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v8",
   "lastModified": "2024-09-04",
   "files": {

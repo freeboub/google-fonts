@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-mirza/useFonts';
 import { Mirza_400Regular } from 'expo-google-fonts-mirza/400Regular';
 import { Mirza_500Medium } from 'expo-google-fonts-mirza/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mirza_400Regular',
+            fontFamily:
+              'Mirza_400Regular',
           }}>
           Mirza Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mirza_500Medium',
+            fontFamily:
+              'Mirza_500Medium',
           }}>
           Mirza Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mirza_600SemiBold',
+            fontFamily:
+              'Mirza_600SemiBold',
           }}>
           Mirza Semi Bold
         </Text>

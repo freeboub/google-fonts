@@ -4,7 +4,9 @@
   "subsets": ["latin"],
   "version": "v21",
   "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/salsa/v21/gNMKW3FiRpKj-imY8ncKEZez.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/salsa/v21/gNMKW3FiRpKj-imY8ncKEZez.ttf"
+  },
   "category": "display",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/salsa/v21/gNMKW3FiRpKj-hmZ-HM.ttf"

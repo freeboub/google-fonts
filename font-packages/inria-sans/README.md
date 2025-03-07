@@ -30,7 +30,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-inria-sans/useFonts';
 import { InriaSans_300Light } from 'expo-google-fonts-inria-sans/300Light';
 import { InriaSans_300Light_Italic } from 'expo-google-fonts-inria-sans/300Light_Italic';
@@ -56,13 +59,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InriaSans_300Light',
+            fontFamily:
+              'InriaSans_300Light',
           }}>
           Inria Sans Light
         </Text>
@@ -72,7 +81,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InriaSans_300Light_Italic',
+            fontFamily:
+              'InriaSans_300Light_Italic',
           }}>
           Inria Sans Light Italic
         </Text>
@@ -82,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InriaSans_400Regular',
+            fontFamily:
+              'InriaSans_400Regular',
           }}>
           Inria Sans Regular
         </Text>
@@ -92,7 +103,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InriaSans_400Regular_Italic',
+            fontFamily:
+              'InriaSans_400Regular_Italic',
           }}>
           Inria Sans Italic
         </Text>
@@ -102,7 +114,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InriaSans_700Bold',
+            fontFamily:
+              'InriaSans_700Bold',
           }}>
           Inria Sans Bold
         </Text>
@@ -112,7 +125,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'InriaSans_700Bold_Italic',
+            fontFamily:
+              'InriaSans_700Bold_Italic',
           }}>
           Inria Sans Bold Italic
         </Text>

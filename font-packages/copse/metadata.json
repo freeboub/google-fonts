@@ -4,7 +4,9 @@
   "subsets": ["latin"],
   "version": "v15",
   "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/copse/v15/11hPGpDKz1rGb0djHkihUb-A.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/copse/v15/11hPGpDKz1rGb0djHkihUb-A.ttf"
+  },
   "category": "serif",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/copse/v15/11hPGpDKz1rGb3diFEw.ttf"

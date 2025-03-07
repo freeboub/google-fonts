@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-kumbh-sans/useFonts';
 import { KumbhSans_100Thin } from 'expo-google-fonts-kumbh-sans/100Thin';
 import { KumbhSans_200ExtraLight } from 'expo-google-fonts-kumbh-sans/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KumbhSans_100Thin',
+            fontFamily:
+              'KumbhSans_100Thin',
           }}>
           Kumbh Sans Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KumbhSans_200ExtraLight',
+            fontFamily:
+              'KumbhSans_200ExtraLight',
           }}>
           Kumbh Sans Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KumbhSans_300Light',
+            fontFamily:
+              'KumbhSans_300Light',
           }}>
           Kumbh Sans Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KumbhSans_400Regular',
+            fontFamily:
+              'KumbhSans_400Regular',
           }}>
           Kumbh Sans Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KumbhSans_500Medium',
+            fontFamily:
+              'KumbhSans_500Medium',
           }}>
           Kumbh Sans Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KumbhSans_600SemiBold',
+            fontFamily:
+              'KumbhSans_600SemiBold',
           }}>
           Kumbh Sans Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KumbhSans_700Bold',
+            fontFamily:
+              'KumbhSans_700Bold',
           }}>
           Kumbh Sans Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KumbhSans_800ExtraBold',
+            fontFamily:
+              'KumbhSans_800ExtraBold',
           }}>
           Kumbh Sans Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KumbhSans_900Black',
+            fontFamily:
+              'KumbhSans_900Black',
           }}>
           Kumbh Sans Black
         </Text>

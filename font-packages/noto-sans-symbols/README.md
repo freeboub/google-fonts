@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-symbols/useFonts';
 import { NotoSansSymbols_100Thin } from 'expo-google-fonts-noto-sans-symbols/100Thin';
 import { NotoSansSymbols_200ExtraLight } from 'expo-google-fonts-noto-sans-symbols/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSymbols_100Thin',
+            fontFamily:
+              'NotoSansSymbols_100Thin',
           }}>
           Noto Sans Symbols Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSymbols_200ExtraLight',
+            fontFamily:
+              'NotoSansSymbols_200ExtraLight',
           }}>
           Noto Sans Symbols Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSymbols_300Light',
+            fontFamily:
+              'NotoSansSymbols_300Light',
           }}>
           Noto Sans Symbols Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSymbols_400Regular',
+            fontFamily:
+              'NotoSansSymbols_400Regular',
           }}>
           Noto Sans Symbols Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSymbols_500Medium',
+            fontFamily:
+              'NotoSansSymbols_500Medium',
           }}>
           Noto Sans Symbols Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSymbols_600SemiBold',
+            fontFamily:
+              'NotoSansSymbols_600SemiBold',
           }}>
           Noto Sans Symbols Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSymbols_700Bold',
+            fontFamily:
+              'NotoSansSymbols_700Bold',
           }}>
           Noto Sans Symbols Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSymbols_800ExtraBold',
+            fontFamily:
+              'NotoSansSymbols_800ExtraBold',
           }}>
           Noto Sans Symbols Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansSymbols_900Black',
+            fontFamily:
+              'NotoSansSymbols_900Black',
           }}>
           Noto Sans Symbols Black
         </Text>

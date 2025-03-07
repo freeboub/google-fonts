@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-battambang/useFonts';
 import { Battambang_100Thin } from 'expo-google-fonts-battambang/100Thin';
 import { Battambang_300Light } from 'expo-google-fonts-battambang/300Light';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Battambang_100Thin',
+            fontFamily:
+              'Battambang_100Thin',
           }}>
           Battambang Thin
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Battambang_300Light',
+            fontFamily:
+              'Battambang_300Light',
           }}>
           Battambang Light
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Battambang_400Regular',
+            fontFamily:
+              'Battambang_400Regular',
           }}>
           Battambang Regular
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Battambang_700Bold',
+            fontFamily:
+              'Battambang_700Bold',
           }}>
           Battambang Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Battambang_900Black',
+            fontFamily:
+              'Battambang_900Black',
           }}>
           Battambang Black
         </Text>

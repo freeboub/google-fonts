@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-jp/useFonts';
 import { NotoSansJP_100Thin } from 'expo-google-fonts-noto-sans-jp/100Thin';
 import { NotoSansJP_200ExtraLight } from 'expo-google-fonts-noto-sans-jp/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansJP_100Thin',
+            fontFamily:
+              'NotoSansJP_100Thin',
           }}>
           Noto Sans JP Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansJP_200ExtraLight',
+            fontFamily:
+              'NotoSansJP_200ExtraLight',
           }}>
           Noto Sans JP Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansJP_300Light',
+            fontFamily:
+              'NotoSansJP_300Light',
           }}>
           Noto Sans JP Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansJP_400Regular',
+            fontFamily:
+              'NotoSansJP_400Regular',
           }}>
           Noto Sans JP Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansJP_500Medium',
+            fontFamily:
+              'NotoSansJP_500Medium',
           }}>
           Noto Sans JP Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansJP_600SemiBold',
+            fontFamily:
+              'NotoSansJP_600SemiBold',
           }}>
           Noto Sans JP Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansJP_700Bold',
+            fontFamily:
+              'NotoSansJP_700Bold',
           }}>
           Noto Sans JP Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansJP_800ExtraBold',
+            fontFamily:
+              'NotoSansJP_800ExtraBold',
           }}>
           Noto Sans JP Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansJP_900Black',
+            fontFamily:
+              'NotoSansJP_900Black',
           }}>
           Noto Sans JP Black
         </Text>

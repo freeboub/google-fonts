@@ -38,7 +38,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-karla/useFonts';
 import { Karla_200ExtraLight } from 'expo-google-fonts-karla/200ExtraLight';
 import { Karla_300Light } from 'expo-google-fonts-karla/300Light';
@@ -80,13 +83,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Karla_200ExtraLight',
+            fontFamily:
+              'Karla_200ExtraLight',
           }}>
           Karla Extra Light
         </Text>
@@ -96,7 +105,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Karla_300Light',
+            fontFamily:
+              'Karla_300Light',
           }}>
           Karla Light
         </Text>
@@ -106,7 +116,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Karla_400Regular',
+            fontFamily:
+              'Karla_400Regular',
           }}>
           Karla Regular
         </Text>
@@ -116,7 +127,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Karla_500Medium',
+            fontFamily:
+              'Karla_500Medium',
           }}>
           Karla Medium
         </Text>
@@ -126,7 +138,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Karla_600SemiBold',
+            fontFamily:
+              'Karla_600SemiBold',
           }}>
           Karla Semi Bold
         </Text>
@@ -146,7 +159,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Karla_800ExtraBold',
+            fontFamily:
+              'Karla_800ExtraBold',
           }}>
           Karla Extra Bold
         </Text>
@@ -156,7 +170,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Karla_200ExtraLight_Italic',
+            fontFamily:
+              'Karla_200ExtraLight_Italic',
           }}>
           Karla Extra Light Italic
         </Text>
@@ -166,7 +181,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Karla_300Light_Italic',
+            fontFamily:
+              'Karla_300Light_Italic',
           }}>
           Karla Light Italic
         </Text>
@@ -176,7 +192,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Karla_400Regular_Italic',
+            fontFamily:
+              'Karla_400Regular_Italic',
           }}>
           Karla Italic
         </Text>
@@ -186,7 +203,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Karla_500Medium_Italic',
+            fontFamily:
+              'Karla_500Medium_Italic',
           }}>
           Karla Medium Italic
         </Text>
@@ -196,7 +214,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Karla_600SemiBold_Italic',
+            fontFamily:
+              'Karla_600SemiBold_Italic',
           }}>
           Karla Semi Bold Italic
         </Text>
@@ -206,7 +225,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Karla_700Bold_Italic',
+            fontFamily:
+              'Karla_700Bold_Italic',
           }}>
           Karla Bold Italic
         </Text>
@@ -216,7 +236,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Karla_800ExtraBold_Italic',
+            fontFamily:
+              'Karla_800ExtraBold_Italic',
           }}>
           Karla Extra Bold Italic
         </Text>

@@ -1,10 +1,17 @@
 {
   "family": "Kosugi",
   "variants": ["regular"],
-  "subsets": ["cyrillic", "japanese", "latin", "latin-ext"],
+  "subsets": [
+    "cyrillic",
+    "japanese",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v15",
   "lastModified": "2024-08-12",
-  "files": { "regular": "https://fonts.gstatic.com/s/kosugi/v15/pxiFyp4_v8FCjlI4NLr6f1pdEQ.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/kosugi/v15/pxiFyp4_v8FCjlI4NLr6f1pdEQ.ttf"
+  },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/kosugi/v15/pxiFyp4_v8FCjlIINbD-.ttf"

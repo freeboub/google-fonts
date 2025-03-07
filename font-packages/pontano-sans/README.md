@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-pontano-sans/useFonts';
 import { PontanoSans_300Light } from 'expo-google-fonts-pontano-sans/300Light';
 import { PontanoSans_400Regular } from 'expo-google-fonts-pontano-sans/400Regular';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PontanoSans_300Light',
+            fontFamily:
+              'PontanoSans_300Light',
           }}>
           Pontano Sans Light
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PontanoSans_400Regular',
+            fontFamily:
+              'PontanoSans_400Regular',
           }}>
           Pontano Sans Regular
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PontanoSans_500Medium',
+            fontFamily:
+              'PontanoSans_500Medium',
           }}>
           Pontano Sans Medium
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PontanoSans_600SemiBold',
+            fontFamily:
+              'PontanoSans_600SemiBold',
           }}>
           Pontano Sans Semi Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PontanoSans_700Bold',
+            fontFamily:
+              'PontanoSans_700Bold',
           }}>
           Pontano Sans Bold
         </Text>

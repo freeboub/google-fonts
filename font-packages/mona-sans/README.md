@@ -40,7 +40,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-mona-sans/useFonts';
 import { MonaSans_200ExtraLight } from 'expo-google-fonts-mona-sans/200ExtraLight';
 import { MonaSans_300Light } from 'expo-google-fonts-mona-sans/300Light';
@@ -86,13 +89,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MonaSans_200ExtraLight',
+            fontFamily:
+              'MonaSans_200ExtraLight',
           }}>
           Mona Sans Extra Light
         </Text>
@@ -102,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MonaSans_300Light',
+            fontFamily:
+              'MonaSans_300Light',
           }}>
           Mona Sans Light
         </Text>
@@ -112,7 +122,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MonaSans_400Regular',
+            fontFamily:
+              'MonaSans_400Regular',
           }}>
           Mona Sans Regular
         </Text>
@@ -122,7 +133,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MonaSans_500Medium',
+            fontFamily:
+              'MonaSans_500Medium',
           }}>
           Mona Sans Medium
         </Text>
@@ -132,7 +144,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MonaSans_600SemiBold',
+            fontFamily:
+              'MonaSans_600SemiBold',
           }}>
           Mona Sans Semi Bold
         </Text>
@@ -142,7 +155,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MonaSans_700Bold',
+            fontFamily:
+              'MonaSans_700Bold',
           }}>
           Mona Sans Bold
         </Text>
@@ -152,7 +166,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MonaSans_800ExtraBold',
+            fontFamily:
+              'MonaSans_800ExtraBold',
           }}>
           Mona Sans Extra Bold
         </Text>
@@ -162,7 +177,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MonaSans_900Black',
+            fontFamily:
+              'MonaSans_900Black',
           }}>
           Mona Sans Black
         </Text>
@@ -172,7 +188,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MonaSans_200ExtraLight_Italic',
+            fontFamily:
+              'MonaSans_200ExtraLight_Italic',
           }}>
           Mona Sans Extra Light Italic
         </Text>
@@ -182,7 +199,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MonaSans_300Light_Italic',
+            fontFamily:
+              'MonaSans_300Light_Italic',
           }}>
           Mona Sans Light Italic
         </Text>
@@ -192,7 +210,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MonaSans_400Regular_Italic',
+            fontFamily:
+              'MonaSans_400Regular_Italic',
           }}>
           Mona Sans Italic
         </Text>
@@ -202,7 +221,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MonaSans_500Medium_Italic',
+            fontFamily:
+              'MonaSans_500Medium_Italic',
           }}>
           Mona Sans Medium Italic
         </Text>
@@ -212,7 +232,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MonaSans_600SemiBold_Italic',
+            fontFamily:
+              'MonaSans_600SemiBold_Italic',
           }}>
           Mona Sans Semi Bold Italic
         </Text>
@@ -222,7 +243,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MonaSans_700Bold_Italic',
+            fontFamily:
+              'MonaSans_700Bold_Italic',
           }}>
           Mona Sans Bold Italic
         </Text>
@@ -232,7 +254,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MonaSans_800ExtraBold_Italic',
+            fontFamily:
+              'MonaSans_800ExtraBold_Italic',
           }}>
           Mona Sans Extra Bold Italic
         </Text>
@@ -242,7 +265,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MonaSans_900Black_Italic',
+            fontFamily:
+              'MonaSans_900Black_Italic',
           }}>
           Mona Sans Black Italic
         </Text>

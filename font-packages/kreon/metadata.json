@@ -1,6 +1,12 @@
 {
   "family": "Kreon",
-  "variants": ["300", "regular", "500", "600", "700"],
+  "variants": [
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
   "subsets": ["latin", "latin-ext"],
   "version": "v37",
   "lastModified": "2024-09-04",

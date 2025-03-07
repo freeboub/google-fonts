@@ -34,7 +34,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-lato/useFonts';
 import { Lato_100Thin } from 'expo-google-fonts-lato/100Thin';
 import { Lato_100Thin_Italic } from 'expo-google-fonts-lato/100Thin_Italic';
@@ -68,7 +71,12 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
@@ -84,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Lato_100Thin_Italic',
+            fontFamily:
+              'Lato_100Thin_Italic',
           }}>
           Lato Thin Italic
         </Text>
@@ -104,7 +113,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Lato_300Light_Italic',
+            fontFamily:
+              'Lato_300Light_Italic',
           }}>
           Lato Light Italic
         </Text>
@@ -114,7 +124,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Lato_400Regular',
+            fontFamily:
+              'Lato_400Regular',
           }}>
           Lato Regular
         </Text>
@@ -124,7 +135,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Lato_400Regular_Italic',
+            fontFamily:
+              'Lato_400Regular_Italic',
           }}>
           Lato Italic
         </Text>
@@ -144,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Lato_700Bold_Italic',
+            fontFamily:
+              'Lato_700Bold_Italic',
           }}>
           Lato Bold Italic
         </Text>
@@ -164,7 +177,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Lato_900Black_Italic',
+            fontFamily:
+              'Lato_900Black_Italic',
           }}>
           Lato Black Italic
         </Text>

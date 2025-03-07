@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-oxanium/useFonts';
 import { Oxanium_200ExtraLight } from 'expo-google-fonts-oxanium/200ExtraLight';
 import { Oxanium_300Light } from 'expo-google-fonts-oxanium/300Light';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Oxanium_200ExtraLight',
+            fontFamily:
+              'Oxanium_200ExtraLight',
           }}>
           Oxanium Extra Light
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Oxanium_300Light',
+            fontFamily:
+              'Oxanium_300Light',
           }}>
           Oxanium Light
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Oxanium_400Regular',
+            fontFamily:
+              'Oxanium_400Regular',
           }}>
           Oxanium Regular
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Oxanium_500Medium',
+            fontFamily:
+              'Oxanium_500Medium',
           }}>
           Oxanium Medium
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Oxanium_600SemiBold',
+            fontFamily:
+              'Oxanium_600SemiBold',
           }}>
           Oxanium Semi Bold
         </Text>
@@ -115,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Oxanium_700Bold',
+            fontFamily:
+              'Oxanium_700Bold',
           }}>
           Oxanium Bold
         </Text>
@@ -125,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Oxanium_800ExtraBold',
+            fontFamily:
+              'Oxanium_800ExtraBold',
           }}>
           Oxanium Extra Bold
         </Text>

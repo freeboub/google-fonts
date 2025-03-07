@@ -30,7 +30,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-readex-pro/useFonts';
 import { ReadexPro_200ExtraLight } from 'expo-google-fonts-readex-pro/200ExtraLight';
 import { ReadexPro_300Light } from 'expo-google-fonts-readex-pro/300Light';
@@ -56,13 +59,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ReadexPro_200ExtraLight',
+            fontFamily:
+              'ReadexPro_200ExtraLight',
           }}>
           Readex Pro Extra Light
         </Text>
@@ -72,7 +81,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ReadexPro_300Light',
+            fontFamily:
+              'ReadexPro_300Light',
           }}>
           Readex Pro Light
         </Text>
@@ -82,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ReadexPro_400Regular',
+            fontFamily:
+              'ReadexPro_400Regular',
           }}>
           Readex Pro Regular
         </Text>
@@ -92,7 +103,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ReadexPro_500Medium',
+            fontFamily:
+              'ReadexPro_500Medium',
           }}>
           Readex Pro Medium
         </Text>
@@ -102,7 +114,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ReadexPro_600SemiBold',
+            fontFamily:
+              'ReadexPro_600SemiBold',
           }}>
           Readex Pro Semi Bold
         </Text>
@@ -112,7 +125,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ReadexPro_700Bold',
+            fontFamily:
+              'ReadexPro_700Bold',
           }}>
           Readex Pro Bold
         </Text>

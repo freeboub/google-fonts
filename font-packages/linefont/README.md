@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-linefont/useFonts';
 import { Linefont_100Thin } from 'expo-google-fonts-linefont/100Thin';
 import { Linefont_200ExtraLight } from 'expo-google-fonts-linefont/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Linefont_100Thin',
+            fontFamily:
+              'Linefont_100Thin',
           }}>
           Linefont Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Linefont_200ExtraLight',
+            fontFamily:
+              'Linefont_200ExtraLight',
           }}>
           Linefont Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Linefont_300Light',
+            fontFamily:
+              'Linefont_300Light',
           }}>
           Linefont Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Linefont_400Regular',
+            fontFamily:
+              'Linefont_400Regular',
           }}>
           Linefont Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Linefont_500Medium',
+            fontFamily:
+              'Linefont_500Medium',
           }}>
           Linefont Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Linefont_600SemiBold',
+            fontFamily:
+              'Linefont_600SemiBold',
           }}>
           Linefont Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Linefont_700Bold',
+            fontFamily:
+              'Linefont_700Bold',
           }}>
           Linefont Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Linefont_800ExtraBold',
+            fontFamily:
+              'Linefont_800ExtraBold',
           }}>
           Linefont Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Linefont_900Black',
+            fontFamily:
+              'Linefont_900Black',
           }}>
           Linefont Black
         </Text>

@@ -1,6 +1,11 @@
 {
   "family": "Edu TAS Beginner",
-  "variants": ["regular", "500", "600", "700"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
   "subsets": ["latin"],
   "version": "v3",
   "lastModified": "2024-08-12",

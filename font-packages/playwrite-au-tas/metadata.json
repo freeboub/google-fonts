@@ -1,6 +1,11 @@
 {
   "family": "Playwrite AU TAS",
-  "variants": ["100", "200", "300", "regular"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular"
+  ],
   "subsets": ["latin"],
   "version": "v10",
   "lastModified": "2025-03-03",

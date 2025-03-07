@@ -1,7 +1,16 @@
 {
   "family": "Amiri",
-  "variants": ["regular", "italic", "700", "700italic"],
-  "subsets": ["arabic", "latin", "latin-ext"],
+  "variants": [
+    "regular",
+    "italic",
+    "700",
+    "700italic"
+  ],
+  "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v27",
   "lastModified": "2024-09-04",
   "files": {

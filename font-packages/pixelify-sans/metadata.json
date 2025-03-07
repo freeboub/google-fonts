@@ -1,7 +1,16 @@
 {
   "family": "Pixelify Sans",
-  "variants": ["regular", "500", "600", "700"],
-  "subsets": ["cyrillic", "latin", "latin-ext"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "cyrillic",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v1",
   "lastModified": "2024-09-04",
   "files": {

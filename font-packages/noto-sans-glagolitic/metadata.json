@@ -1,7 +1,14 @@
 {
   "family": "Noto Sans Glagolitic",
   "variants": ["regular"],
-  "subsets": ["cyrillic-ext", "glagolitic", "latin", "latin-ext", "math", "symbols"],
+  "subsets": [
+    "cyrillic-ext",
+    "glagolitic",
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols"
+  ],
   "version": "v18",
   "lastModified": "2024-01-26",
   "files": {

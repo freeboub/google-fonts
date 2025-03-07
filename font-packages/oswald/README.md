@@ -30,7 +30,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-oswald/useFonts';
 import { Oswald_200ExtraLight } from 'expo-google-fonts-oswald/200ExtraLight';
 import { Oswald_300Light } from 'expo-google-fonts-oswald/300Light';
@@ -56,13 +59,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Oswald_200ExtraLight',
+            fontFamily:
+              'Oswald_200ExtraLight',
           }}>
           Oswald Extra Light
         </Text>
@@ -72,7 +81,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Oswald_300Light',
+            fontFamily:
+              'Oswald_300Light',
           }}>
           Oswald Light
         </Text>
@@ -82,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Oswald_400Regular',
+            fontFamily:
+              'Oswald_400Regular',
           }}>
           Oswald Regular
         </Text>
@@ -92,7 +103,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Oswald_500Medium',
+            fontFamily:
+              'Oswald_500Medium',
           }}>
           Oswald Medium
         </Text>
@@ -102,7 +114,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Oswald_600SemiBold',
+            fontFamily:
+              'Oswald_600SemiBold',
           }}>
           Oswald Semi Bold
         </Text>
@@ -112,7 +125,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Oswald_700Bold',
+            fontFamily:
+              'Oswald_700Bold',
           }}>
           Oswald Bold
         </Text>

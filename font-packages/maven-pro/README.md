@@ -30,7 +30,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-maven-pro/useFonts';
 import { MavenPro_400Regular } from 'expo-google-fonts-maven-pro/400Regular';
 import { MavenPro_500Medium } from 'expo-google-fonts-maven-pro/500Medium';
@@ -56,13 +59,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MavenPro_400Regular',
+            fontFamily:
+              'MavenPro_400Regular',
           }}>
           Maven Pro Regular
         </Text>
@@ -72,7 +81,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MavenPro_500Medium',
+            fontFamily:
+              'MavenPro_500Medium',
           }}>
           Maven Pro Medium
         </Text>
@@ -82,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MavenPro_600SemiBold',
+            fontFamily:
+              'MavenPro_600SemiBold',
           }}>
           Maven Pro Semi Bold
         </Text>
@@ -92,7 +103,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MavenPro_700Bold',
+            fontFamily:
+              'MavenPro_700Bold',
           }}>
           Maven Pro Bold
         </Text>
@@ -102,7 +114,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MavenPro_800ExtraBold',
+            fontFamily:
+              'MavenPro_800ExtraBold',
           }}>
           Maven Pro Extra Bold
         </Text>
@@ -112,7 +125,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MavenPro_900Black',
+            fontFamily:
+              'MavenPro_900Black',
           }}>
           Maven Pro Black
         </Text>

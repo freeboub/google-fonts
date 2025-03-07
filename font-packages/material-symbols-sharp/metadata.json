@@ -1,6 +1,14 @@
 {
   "family": "Material Symbols Sharp",
-  "variants": ["100", "200", "300", "regular", "500", "600", "700"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
   "subsets": ["latin"],
   "version": "v224",
   "lastModified": "2025-03-03",

@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-commissioner/useFonts';
 import { Commissioner_100Thin } from 'expo-google-fonts-commissioner/100Thin';
 import { Commissioner_200ExtraLight } from 'expo-google-fonts-commissioner/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Commissioner_100Thin',
+            fontFamily:
+              'Commissioner_100Thin',
           }}>
           Commissioner Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Commissioner_200ExtraLight',
+            fontFamily:
+              'Commissioner_200ExtraLight',
           }}>
           Commissioner Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Commissioner_300Light',
+            fontFamily:
+              'Commissioner_300Light',
           }}>
           Commissioner Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Commissioner_400Regular',
+            fontFamily:
+              'Commissioner_400Regular',
           }}>
           Commissioner Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Commissioner_500Medium',
+            fontFamily:
+              'Commissioner_500Medium',
           }}>
           Commissioner Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Commissioner_600SemiBold',
+            fontFamily:
+              'Commissioner_600SemiBold',
           }}>
           Commissioner Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Commissioner_700Bold',
+            fontFamily:
+              'Commissioner_700Bold',
           }}>
           Commissioner Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Commissioner_800ExtraBold',
+            fontFamily:
+              'Commissioner_800ExtraBold',
           }}>
           Commissioner Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Commissioner_900Black',
+            fontFamily:
+              'Commissioner_900Black',
           }}>
           Commissioner Black
         </Text>

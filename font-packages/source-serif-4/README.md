@@ -40,7 +40,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-source-serif-4/useFonts';
 import { SourceSerif4_200ExtraLight } from 'expo-google-fonts-source-serif-4/200ExtraLight';
 import { SourceSerif4_300Light } from 'expo-google-fonts-source-serif-4/300Light';
@@ -86,13 +89,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSerif4_200ExtraLight',
+            fontFamily:
+              'SourceSerif4_200ExtraLight',
           }}>
           Source Serif 4 Extra Light
         </Text>
@@ -102,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSerif4_300Light',
+            fontFamily:
+              'SourceSerif4_300Light',
           }}>
           Source Serif 4 Light
         </Text>
@@ -112,7 +122,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSerif4_400Regular',
+            fontFamily:
+              'SourceSerif4_400Regular',
           }}>
           Source Serif 4 Regular
         </Text>
@@ -122,7 +133,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSerif4_500Medium',
+            fontFamily:
+              'SourceSerif4_500Medium',
           }}>
           Source Serif 4 Medium
         </Text>
@@ -132,7 +144,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSerif4_600SemiBold',
+            fontFamily:
+              'SourceSerif4_600SemiBold',
           }}>
           Source Serif 4 Semi Bold
         </Text>
@@ -142,7 +155,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSerif4_700Bold',
+            fontFamily:
+              'SourceSerif4_700Bold',
           }}>
           Source Serif 4 Bold
         </Text>
@@ -152,7 +166,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSerif4_800ExtraBold',
+            fontFamily:
+              'SourceSerif4_800ExtraBold',
           }}>
           Source Serif 4 Extra Bold
         </Text>
@@ -162,7 +177,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSerif4_900Black',
+            fontFamily:
+              'SourceSerif4_900Black',
           }}>
           Source Serif 4 Black
         </Text>
@@ -172,9 +188,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSerif4_200ExtraLight_Italic',
+            fontFamily:
+              'SourceSerif4_200ExtraLight_Italic',
           }}>
-          Source Serif 4 Extra Light Italic
+          Source Serif 4 Extra Light
+          Italic
         </Text>
 
         <Text
@@ -182,7 +200,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSerif4_300Light_Italic',
+            fontFamily:
+              'SourceSerif4_300Light_Italic',
           }}>
           Source Serif 4 Light Italic
         </Text>
@@ -192,7 +211,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSerif4_400Regular_Italic',
+            fontFamily:
+              'SourceSerif4_400Regular_Italic',
           }}>
           Source Serif 4 Italic
         </Text>
@@ -202,7 +222,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSerif4_500Medium_Italic',
+            fontFamily:
+              'SourceSerif4_500Medium_Italic',
           }}>
           Source Serif 4 Medium Italic
         </Text>
@@ -212,9 +233,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSerif4_600SemiBold_Italic',
+            fontFamily:
+              'SourceSerif4_600SemiBold_Italic',
           }}>
-          Source Serif 4 Semi Bold Italic
+          Source Serif 4 Semi Bold
+          Italic
         </Text>
 
         <Text
@@ -222,7 +245,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSerif4_700Bold_Italic',
+            fontFamily:
+              'SourceSerif4_700Bold_Italic',
           }}>
           Source Serif 4 Bold Italic
         </Text>
@@ -232,9 +256,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSerif4_800ExtraBold_Italic',
+            fontFamily:
+              'SourceSerif4_800ExtraBold_Italic',
           }}>
-          Source Serif 4 Extra Bold Italic
+          Source Serif 4 Extra Bold
+          Italic
         </Text>
 
         <Text
@@ -242,7 +268,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'SourceSerif4_900Black_Italic',
+            fontFamily:
+              'SourceSerif4_900Black_Italic',
           }}>
           Source Serif 4 Black Italic
         </Text>

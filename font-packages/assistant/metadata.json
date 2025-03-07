@@ -1,7 +1,19 @@
 {
   "family": "Assistant",
-  "variants": ["200", "300", "regular", "500", "600", "700", "800"],
-  "subsets": ["hebrew", "latin", "latin-ext"],
+  "variants": [
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800"
+  ],
+  "subsets": [
+    "hebrew",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v19",
   "lastModified": "2024-09-04",
   "files": {

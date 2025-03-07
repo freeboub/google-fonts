@@ -4,7 +4,9 @@
   "subsets": ["latin", "tibetan"],
   "version": "v9",
   "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/uchen/v9/nKKZ-GokGZ1baIaSEQGodLxA.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/uchen/v9/nKKZ-GokGZ1baIaSEQGodLxA.ttf"
+  },
   "category": "serif",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/uchen/v9/nKKZ-GokGZ1baLaTGwU.ttf"

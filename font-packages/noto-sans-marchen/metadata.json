@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Marchen",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "marchen"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "marchen"
+  ],
   "version": "v20",
   "lastModified": "2024-07-30",
   "files": {

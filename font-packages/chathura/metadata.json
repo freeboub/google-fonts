@@ -1,6 +1,12 @@
 {
   "family": "Chathura",
-  "variants": ["100", "300", "regular", "700", "800"],
+  "variants": [
+    "100",
+    "300",
+    "regular",
+    "700",
+    "800"
+  ],
   "subsets": ["latin", "telugu"],
   "version": "v21",
   "lastModified": "2024-12-04",

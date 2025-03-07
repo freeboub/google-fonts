@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-lora/useFonts';
 import { Lora_400Regular } from 'expo-google-fonts-lora/400Regular';
 import { Lora_500Medium } from 'expo-google-fonts-lora/500Medium';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Lora_400Regular',
+            fontFamily:
+              'Lora_400Regular',
           }}>
           Lora Regular
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Lora_500Medium',
+            fontFamily:
+              'Lora_500Medium',
           }}>
           Lora Medium
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Lora_600SemiBold',
+            fontFamily:
+              'Lora_600SemiBold',
           }}>
           Lora Semi Bold
         </Text>
@@ -108,7 +119,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Lora_400Regular_Italic',
+            fontFamily:
+              'Lora_400Regular_Italic',
           }}>
           Lora Italic
         </Text>
@@ -118,7 +130,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Lora_500Medium_Italic',
+            fontFamily:
+              'Lora_500Medium_Italic',
           }}>
           Lora Medium Italic
         </Text>
@@ -128,7 +141,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Lora_600SemiBold_Italic',
+            fontFamily:
+              'Lora_600SemiBold_Italic',
           }}>
           Lora Semi Bold Italic
         </Text>
@@ -138,7 +152,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Lora_700Bold_Italic',
+            fontFamily:
+              'Lora_700Bold_Italic',
           }}>
           Lora Bold Italic
         </Text>

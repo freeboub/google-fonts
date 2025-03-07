@@ -1,7 +1,17 @@
 {
   "family": "Tillana",
-  "variants": ["regular", "500", "600", "700", "800"],
-  "subsets": ["devanagari", "latin", "latin-ext"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800"
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v13",
   "lastModified": "2024-09-04",
   "files": {

@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-chathura/useFonts';
 import { Chathura_100Thin } from 'expo-google-fonts-chathura/100Thin';
 import { Chathura_300Light } from 'expo-google-fonts-chathura/300Light';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Chathura_100Thin',
+            fontFamily:
+              'Chathura_100Thin',
           }}>
           Chathura Thin
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Chathura_300Light',
+            fontFamily:
+              'Chathura_300Light',
           }}>
           Chathura Light
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Chathura_400Regular',
+            fontFamily:
+              'Chathura_400Regular',
           }}>
           Chathura Regular
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Chathura_700Bold',
+            fontFamily:
+              'Chathura_700Bold',
           }}>
           Chathura Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Chathura_800ExtraBold',
+            fontFamily:
+              'Chathura_800ExtraBold',
           }}>
           Chathura Extra Bold
         </Text>

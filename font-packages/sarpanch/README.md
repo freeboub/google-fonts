@@ -30,7 +30,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-sarpanch/useFonts';
 import { Sarpanch_400Regular } from 'expo-google-fonts-sarpanch/400Regular';
 import { Sarpanch_500Medium } from 'expo-google-fonts-sarpanch/500Medium';
@@ -56,13 +59,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sarpanch_400Regular',
+            fontFamily:
+              'Sarpanch_400Regular',
           }}>
           Sarpanch Regular
         </Text>
@@ -72,7 +81,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sarpanch_500Medium',
+            fontFamily:
+              'Sarpanch_500Medium',
           }}>
           Sarpanch Medium
         </Text>
@@ -82,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sarpanch_600SemiBold',
+            fontFamily:
+              'Sarpanch_600SemiBold',
           }}>
           Sarpanch Semi Bold
         </Text>
@@ -92,7 +103,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sarpanch_700Bold',
+            fontFamily:
+              'Sarpanch_700Bold',
           }}>
           Sarpanch Bold
         </Text>
@@ -102,7 +114,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sarpanch_800ExtraBold',
+            fontFamily:
+              'Sarpanch_800ExtraBold',
           }}>
           Sarpanch Extra Bold
         </Text>
@@ -112,7 +125,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Sarpanch_900Black',
+            fontFamily:
+              'Sarpanch_900Black',
           }}>
           Sarpanch Black
         </Text>

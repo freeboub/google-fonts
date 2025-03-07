@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-amaranth/useFonts';
 import { Amaranth_400Regular } from 'expo-google-fonts-amaranth/400Regular';
 import { Amaranth_400Regular_Italic } from 'expo-google-fonts-amaranth/400Regular_Italic';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Amaranth_400Regular',
+            fontFamily:
+              'Amaranth_400Regular',
           }}>
           Amaranth Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Amaranth_400Regular_Italic',
+            fontFamily:
+              'Amaranth_400Regular_Italic',
           }}>
           Amaranth Italic
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Amaranth_700Bold',
+            fontFamily:
+              'Amaranth_700Bold',
           }}>
           Amaranth Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Amaranth_700Bold_Italic',
+            fontFamily:
+              'Amaranth_700Bold_Italic',
           }}>
           Amaranth Bold Italic
         </Text>

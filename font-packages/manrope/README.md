@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-manrope/useFonts';
 import { Manrope_200ExtraLight } from 'expo-google-fonts-manrope/200ExtraLight';
 import { Manrope_300Light } from 'expo-google-fonts-manrope/300Light';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Manrope_200ExtraLight',
+            fontFamily:
+              'Manrope_200ExtraLight',
           }}>
           Manrope Extra Light
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Manrope_300Light',
+            fontFamily:
+              'Manrope_300Light',
           }}>
           Manrope Light
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Manrope_400Regular',
+            fontFamily:
+              'Manrope_400Regular',
           }}>
           Manrope Regular
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Manrope_500Medium',
+            fontFamily:
+              'Manrope_500Medium',
           }}>
           Manrope Medium
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Manrope_600SemiBold',
+            fontFamily:
+              'Manrope_600SemiBold',
           }}>
           Manrope Semi Bold
         </Text>
@@ -115,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Manrope_700Bold',
+            fontFamily:
+              'Manrope_700Bold',
           }}>
           Manrope Bold
         </Text>
@@ -125,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Manrope_800ExtraBold',
+            fontFamily:
+              'Manrope_800ExtraBold',
           }}>
           Manrope Extra Bold
         </Text>

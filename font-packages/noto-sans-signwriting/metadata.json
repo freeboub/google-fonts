@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans SignWriting",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "signwriting"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "signwriting"
+  ],
   "version": "v4",
   "lastModified": "2024-09-04",
   "files": {

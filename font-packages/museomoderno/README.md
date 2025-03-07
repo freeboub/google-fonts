@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-museomoderno/useFonts';
 import { MuseoModerno_100Thin } from 'expo-google-fonts-museomoderno/100Thin';
 import { MuseoModerno_200ExtraLight } from 'expo-google-fonts-museomoderno/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_100Thin',
+            fontFamily:
+              'MuseoModerno_100Thin',
           }}>
           MuseoModerno Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_200ExtraLight',
+            fontFamily:
+              'MuseoModerno_200ExtraLight',
           }}>
           MuseoModerno Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_300Light',
+            fontFamily:
+              'MuseoModerno_300Light',
           }}>
           MuseoModerno Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_400Regular',
+            fontFamily:
+              'MuseoModerno_400Regular',
           }}>
           MuseoModerno Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_500Medium',
+            fontFamily:
+              'MuseoModerno_500Medium',
           }}>
           MuseoModerno Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_600SemiBold',
+            fontFamily:
+              'MuseoModerno_600SemiBold',
           }}>
           MuseoModerno Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_700Bold',
+            fontFamily:
+              'MuseoModerno_700Bold',
           }}>
           MuseoModerno Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_800ExtraBold',
+            fontFamily:
+              'MuseoModerno_800ExtraBold',
           }}>
           MuseoModerno Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_900Black',
+            fontFamily:
+              'MuseoModerno_900Black',
           }}>
           MuseoModerno Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_100Thin_Italic',
+            fontFamily:
+              'MuseoModerno_100Thin_Italic',
           }}>
           MuseoModerno Thin Italic
         </Text>
@@ -198,9 +216,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_200ExtraLight_Italic',
+            fontFamily:
+              'MuseoModerno_200ExtraLight_Italic',
           }}>
-          MuseoModerno Extra Light Italic
+          MuseoModerno Extra Light
+          Italic
         </Text>
 
         <Text
@@ -208,7 +228,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_300Light_Italic',
+            fontFamily:
+              'MuseoModerno_300Light_Italic',
           }}>
           MuseoModerno Light Italic
         </Text>
@@ -218,7 +239,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_400Regular_Italic',
+            fontFamily:
+              'MuseoModerno_400Regular_Italic',
           }}>
           MuseoModerno Italic
         </Text>
@@ -228,7 +250,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_500Medium_Italic',
+            fontFamily:
+              'MuseoModerno_500Medium_Italic',
           }}>
           MuseoModerno Medium Italic
         </Text>
@@ -238,7 +261,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_600SemiBold_Italic',
+            fontFamily:
+              'MuseoModerno_600SemiBold_Italic',
           }}>
           MuseoModerno Semi Bold Italic
         </Text>
@@ -248,7 +272,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_700Bold_Italic',
+            fontFamily:
+              'MuseoModerno_700Bold_Italic',
           }}>
           MuseoModerno Bold Italic
         </Text>
@@ -258,7 +283,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_800ExtraBold_Italic',
+            fontFamily:
+              'MuseoModerno_800ExtraBold_Italic',
           }}>
           MuseoModerno Extra Bold Italic
         </Text>
@@ -268,7 +294,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MuseoModerno_900Black_Italic',
+            fontFamily:
+              'MuseoModerno_900Black_Italic',
           }}>
           MuseoModerno Black Italic
         </Text>

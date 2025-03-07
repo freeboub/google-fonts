@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-lexend-giga/useFonts';
 import { LexendGiga_100Thin } from 'expo-google-fonts-lexend-giga/100Thin';
 import { LexendGiga_200ExtraLight } from 'expo-google-fonts-lexend-giga/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendGiga_100Thin',
+            fontFamily:
+              'LexendGiga_100Thin',
           }}>
           Lexend Giga Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendGiga_200ExtraLight',
+            fontFamily:
+              'LexendGiga_200ExtraLight',
           }}>
           Lexend Giga Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendGiga_300Light',
+            fontFamily:
+              'LexendGiga_300Light',
           }}>
           Lexend Giga Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendGiga_400Regular',
+            fontFamily:
+              'LexendGiga_400Regular',
           }}>
           Lexend Giga Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendGiga_500Medium',
+            fontFamily:
+              'LexendGiga_500Medium',
           }}>
           Lexend Giga Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendGiga_600SemiBold',
+            fontFamily:
+              'LexendGiga_600SemiBold',
           }}>
           Lexend Giga Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendGiga_700Bold',
+            fontFamily:
+              'LexendGiga_700Bold',
           }}>
           Lexend Giga Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendGiga_800ExtraBold',
+            fontFamily:
+              'LexendGiga_800ExtraBold',
           }}>
           Lexend Giga Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendGiga_900Black',
+            fontFamily:
+              'LexendGiga_900Black',
           }}>
           Lexend Giga Black
         </Text>

@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Mro",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "mro"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "mro"
+  ],
   "version": "v18",
   "lastModified": "2022-12-08",
   "files": {

@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Runic",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "runic"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "runic"
+  ],
   "version": "v17",
   "lastModified": "2023-07-24",
   "files": {

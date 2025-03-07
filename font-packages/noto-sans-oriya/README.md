@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-oriya/useFonts';
 import { NotoSansOriya_100Thin } from 'expo-google-fonts-noto-sans-oriya/100Thin';
 import { NotoSansOriya_200ExtraLight } from 'expo-google-fonts-noto-sans-oriya/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansOriya_100Thin',
+            fontFamily:
+              'NotoSansOriya_100Thin',
           }}>
           Noto Sans Oriya Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansOriya_200ExtraLight',
+            fontFamily:
+              'NotoSansOriya_200ExtraLight',
           }}>
           Noto Sans Oriya Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansOriya_300Light',
+            fontFamily:
+              'NotoSansOriya_300Light',
           }}>
           Noto Sans Oriya Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansOriya_400Regular',
+            fontFamily:
+              'NotoSansOriya_400Regular',
           }}>
           Noto Sans Oriya Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansOriya_500Medium',
+            fontFamily:
+              'NotoSansOriya_500Medium',
           }}>
           Noto Sans Oriya Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansOriya_600SemiBold',
+            fontFamily:
+              'NotoSansOriya_600SemiBold',
           }}>
           Noto Sans Oriya Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansOriya_700Bold',
+            fontFamily:
+              'NotoSansOriya_700Bold',
           }}>
           Noto Sans Oriya Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansOriya_800ExtraBold',
+            fontFamily:
+              'NotoSansOriya_800ExtraBold',
           }}>
           Noto Sans Oriya Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansOriya_900Black',
+            fontFamily:
+              'NotoSansOriya_900Black',
           }}>
           Noto Sans Oriya Black
         </Text>

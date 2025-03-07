@@ -40,7 +40,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-glory/useFonts';
 import { Glory_100Thin } from 'expo-google-fonts-glory/100Thin';
 import { Glory_200ExtraLight } from 'expo-google-fonts-glory/200ExtraLight';
@@ -86,7 +89,12 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
@@ -102,7 +110,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Glory_200ExtraLight',
+            fontFamily:
+              'Glory_200ExtraLight',
           }}>
           Glory Extra Light
         </Text>
@@ -112,7 +121,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Glory_300Light',
+            fontFamily:
+              'Glory_300Light',
           }}>
           Glory Light
         </Text>
@@ -122,7 +132,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Glory_400Regular',
+            fontFamily:
+              'Glory_400Regular',
           }}>
           Glory Regular
         </Text>
@@ -132,7 +143,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Glory_500Medium',
+            fontFamily:
+              'Glory_500Medium',
           }}>
           Glory Medium
         </Text>
@@ -142,7 +154,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Glory_600SemiBold',
+            fontFamily:
+              'Glory_600SemiBold',
           }}>
           Glory Semi Bold
         </Text>
@@ -162,7 +175,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Glory_800ExtraBold',
+            fontFamily:
+              'Glory_800ExtraBold',
           }}>
           Glory Extra Bold
         </Text>
@@ -172,7 +186,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Glory_100Thin_Italic',
+            fontFamily:
+              'Glory_100Thin_Italic',
           }}>
           Glory Thin Italic
         </Text>
@@ -182,7 +197,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Glory_200ExtraLight_Italic',
+            fontFamily:
+              'Glory_200ExtraLight_Italic',
           }}>
           Glory Extra Light Italic
         </Text>
@@ -192,7 +208,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Glory_300Light_Italic',
+            fontFamily:
+              'Glory_300Light_Italic',
           }}>
           Glory Light Italic
         </Text>
@@ -202,7 +219,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Glory_400Regular_Italic',
+            fontFamily:
+              'Glory_400Regular_Italic',
           }}>
           Glory Italic
         </Text>
@@ -212,7 +230,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Glory_500Medium_Italic',
+            fontFamily:
+              'Glory_500Medium_Italic',
           }}>
           Glory Medium Italic
         </Text>
@@ -222,7 +241,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Glory_600SemiBold_Italic',
+            fontFamily:
+              'Glory_600SemiBold_Italic',
           }}>
           Glory Semi Bold Italic
         </Text>
@@ -232,7 +252,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Glory_700Bold_Italic',
+            fontFamily:
+              'Glory_700Bold_Italic',
           }}>
           Glory Bold Italic
         </Text>
@@ -242,7 +263,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Glory_800ExtraBold_Italic',
+            fontFamily:
+              'Glory_800ExtraBold_Italic',
           }}>
           Glory Extra Bold Italic
         </Text>

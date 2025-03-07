@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playwrite-fr-moderne/useFonts';
 import { PlaywriteFRModerne_100Thin } from 'expo-google-fonts-playwrite-fr-moderne/100Thin';
 import { PlaywriteFRModerne_200ExtraLight } from 'expo-google-fonts-playwrite-fr-moderne/200ExtraLight';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteFRModerne_100Thin',
+            fontFamily:
+              'PlaywriteFRModerne_100Thin',
           }}>
           Playwrite FR Moderne Thin
         </Text>
@@ -66,9 +75,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteFRModerne_200ExtraLight',
+            fontFamily:
+              'PlaywriteFRModerne_200ExtraLight',
           }}>
-          Playwrite FR Moderne Extra Light
+          Playwrite FR Moderne Extra
+          Light
         </Text>
 
         <Text
@@ -76,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteFRModerne_300Light',
+            fontFamily:
+              'PlaywriteFRModerne_300Light',
           }}>
           Playwrite FR Moderne Light
         </Text>
@@ -86,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteFRModerne_400Regular',
+            fontFamily:
+              'PlaywriteFRModerne_400Regular',
           }}>
           Playwrite FR Moderne Regular
         </Text>

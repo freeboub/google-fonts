@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-grenze/useFonts';
 import { Grenze_100Thin } from 'expo-google-fonts-grenze/100Thin';
 import { Grenze_100Thin_Italic } from 'expo-google-fonts-grenze/100Thin_Italic';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_100Thin',
+            fontFamily:
+              'Grenze_100Thin',
           }}>
           Grenze Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_100Thin_Italic',
+            fontFamily:
+              'Grenze_100Thin_Italic',
           }}>
           Grenze Thin Italic
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_200ExtraLight',
+            fontFamily:
+              'Grenze_200ExtraLight',
           }}>
           Grenze Extra Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_200ExtraLight_Italic',
+            fontFamily:
+              'Grenze_200ExtraLight_Italic',
           }}>
           Grenze Extra Light Italic
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_300Light',
+            fontFamily:
+              'Grenze_300Light',
           }}>
           Grenze Light
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_300Light_Italic',
+            fontFamily:
+              'Grenze_300Light_Italic',
           }}>
           Grenze Light Italic
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_400Regular',
+            fontFamily:
+              'Grenze_400Regular',
           }}>
           Grenze Regular
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_400Regular_Italic',
+            fontFamily:
+              'Grenze_400Regular_Italic',
           }}>
           Grenze Italic
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_500Medium',
+            fontFamily:
+              'Grenze_500Medium',
           }}>
           Grenze Medium
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_500Medium_Italic',
+            fontFamily:
+              'Grenze_500Medium_Italic',
           }}>
           Grenze Medium Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_600SemiBold',
+            fontFamily:
+              'Grenze_600SemiBold',
           }}>
           Grenze Semi Bold
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_600SemiBold_Italic',
+            fontFamily:
+              'Grenze_600SemiBold_Italic',
           }}>
           Grenze Semi Bold Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_700Bold',
+            fontFamily:
+              'Grenze_700Bold',
           }}>
           Grenze Bold
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_700Bold_Italic',
+            fontFamily:
+              'Grenze_700Bold_Italic',
           }}>
           Grenze Bold Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_800ExtraBold',
+            fontFamily:
+              'Grenze_800ExtraBold',
           }}>
           Grenze Extra Bold
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_800ExtraBold_Italic',
+            fontFamily:
+              'Grenze_800ExtraBold_Italic',
           }}>
           Grenze Extra Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_900Black',
+            fontFamily:
+              'Grenze_900Black',
           }}>
           Grenze Black
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Grenze_900Black_Italic',
+            fontFamily:
+              'Grenze_900Black_Italic',
           }}>
           Grenze Black Italic
         </Text>

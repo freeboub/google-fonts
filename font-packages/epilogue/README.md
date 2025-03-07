@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-epilogue/useFonts';
 import { Epilogue_100Thin } from 'expo-google-fonts-epilogue/100Thin';
 import { Epilogue_200ExtraLight } from 'expo-google-fonts-epilogue/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_100Thin',
+            fontFamily:
+              'Epilogue_100Thin',
           }}>
           Epilogue Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_200ExtraLight',
+            fontFamily:
+              'Epilogue_200ExtraLight',
           }}>
           Epilogue Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_300Light',
+            fontFamily:
+              'Epilogue_300Light',
           }}>
           Epilogue Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_400Regular',
+            fontFamily:
+              'Epilogue_400Regular',
           }}>
           Epilogue Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_500Medium',
+            fontFamily:
+              'Epilogue_500Medium',
           }}>
           Epilogue Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_600SemiBold',
+            fontFamily:
+              'Epilogue_600SemiBold',
           }}>
           Epilogue Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_700Bold',
+            fontFamily:
+              'Epilogue_700Bold',
           }}>
           Epilogue Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_800ExtraBold',
+            fontFamily:
+              'Epilogue_800ExtraBold',
           }}>
           Epilogue Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_900Black',
+            fontFamily:
+              'Epilogue_900Black',
           }}>
           Epilogue Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_100Thin_Italic',
+            fontFamily:
+              'Epilogue_100Thin_Italic',
           }}>
           Epilogue Thin Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_200ExtraLight_Italic',
+            fontFamily:
+              'Epilogue_200ExtraLight_Italic',
           }}>
           Epilogue Extra Light Italic
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_300Light_Italic',
+            fontFamily:
+              'Epilogue_300Light_Italic',
           }}>
           Epilogue Light Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_400Regular_Italic',
+            fontFamily:
+              'Epilogue_400Regular_Italic',
           }}>
           Epilogue Italic
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_500Medium_Italic',
+            fontFamily:
+              'Epilogue_500Medium_Italic',
           }}>
           Epilogue Medium Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_600SemiBold_Italic',
+            fontFamily:
+              'Epilogue_600SemiBold_Italic',
           }}>
           Epilogue Semi Bold Italic
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_700Bold_Italic',
+            fontFamily:
+              'Epilogue_700Bold_Italic',
           }}>
           Epilogue Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_800ExtraBold_Italic',
+            fontFamily:
+              'Epilogue_800ExtraBold_Italic',
           }}>
           Epilogue Extra Bold Italic
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Epilogue_900Black_Italic',
+            fontFamily:
+              'Epilogue_900Black_Italic',
           }}>
           Epilogue Black Italic
         </Text>

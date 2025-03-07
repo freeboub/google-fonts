@@ -1,6 +1,13 @@
 {
   "family": "Cinzel",
-  "variants": ["regular", "500", "600", "700", "800", "900"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900"
+  ],
   "subsets": ["latin", "latin-ext"],
   "version": "v23",
   "lastModified": "2024-09-04",

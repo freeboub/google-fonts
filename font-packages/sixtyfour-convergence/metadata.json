@@ -1,7 +1,12 @@
 {
   "family": "Sixtyfour Convergence",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "math", "symbols"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols"
+  ],
   "version": "v4",
   "lastModified": "2025-03-03",
   "files": {

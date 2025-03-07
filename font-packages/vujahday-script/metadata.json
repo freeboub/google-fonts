@@ -1,7 +1,11 @@
 {
   "family": "Vujahday Script",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "vietnamese"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v8",
   "lastModified": "2024-09-04",
   "files": {

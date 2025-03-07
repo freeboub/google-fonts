@@ -1,7 +1,16 @@
 {
   "family": "Noto Sans New Tai Lue",
-  "variants": ["regular", "500", "600", "700"],
-  "subsets": ["latin", "latin-ext", "new-tai-lue"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "new-tai-lue"
+  ],
   "version": "v22",
   "lastModified": "2023-09-27",
   "files": {

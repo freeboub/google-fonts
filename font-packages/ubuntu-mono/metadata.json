@@ -1,7 +1,19 @@
 {
   "family": "Ubuntu Mono",
-  "variants": ["regular", "italic", "700", "700italic"],
-  "subsets": ["cyrillic", "cyrillic-ext", "greek", "greek-ext", "latin", "latin-ext"],
+  "variants": [
+    "regular",
+    "italic",
+    "700",
+    "700italic"
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v17",
   "lastModified": "2024-09-04",
   "files": {

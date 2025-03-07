@@ -40,7 +40,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-nunito-sans/useFonts';
 import { NunitoSans_200ExtraLight } from 'expo-google-fonts-nunito-sans/200ExtraLight';
 import { NunitoSans_300Light } from 'expo-google-fonts-nunito-sans/300Light';
@@ -86,13 +89,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NunitoSans_200ExtraLight',
+            fontFamily:
+              'NunitoSans_200ExtraLight',
           }}>
           Nunito Sans Extra Light
         </Text>
@@ -102,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NunitoSans_300Light',
+            fontFamily:
+              'NunitoSans_300Light',
           }}>
           Nunito Sans Light
         </Text>
@@ -112,7 +122,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NunitoSans_400Regular',
+            fontFamily:
+              'NunitoSans_400Regular',
           }}>
           Nunito Sans Regular
         </Text>
@@ -122,7 +133,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NunitoSans_500Medium',
+            fontFamily:
+              'NunitoSans_500Medium',
           }}>
           Nunito Sans Medium
         </Text>
@@ -132,7 +144,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NunitoSans_600SemiBold',
+            fontFamily:
+              'NunitoSans_600SemiBold',
           }}>
           Nunito Sans Semi Bold
         </Text>
@@ -142,7 +155,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NunitoSans_700Bold',
+            fontFamily:
+              'NunitoSans_700Bold',
           }}>
           Nunito Sans Bold
         </Text>
@@ -152,7 +166,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NunitoSans_800ExtraBold',
+            fontFamily:
+              'NunitoSans_800ExtraBold',
           }}>
           Nunito Sans Extra Bold
         </Text>
@@ -162,7 +177,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NunitoSans_900Black',
+            fontFamily:
+              'NunitoSans_900Black',
           }}>
           Nunito Sans Black
         </Text>
@@ -172,7 +188,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NunitoSans_200ExtraLight_Italic',
+            fontFamily:
+              'NunitoSans_200ExtraLight_Italic',
           }}>
           Nunito Sans Extra Light Italic
         </Text>
@@ -182,7 +199,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NunitoSans_300Light_Italic',
+            fontFamily:
+              'NunitoSans_300Light_Italic',
           }}>
           Nunito Sans Light Italic
         </Text>
@@ -192,7 +210,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NunitoSans_400Regular_Italic',
+            fontFamily:
+              'NunitoSans_400Regular_Italic',
           }}>
           Nunito Sans Italic
         </Text>
@@ -202,7 +221,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NunitoSans_500Medium_Italic',
+            fontFamily:
+              'NunitoSans_500Medium_Italic',
           }}>
           Nunito Sans Medium Italic
         </Text>
@@ -212,7 +232,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NunitoSans_600SemiBold_Italic',
+            fontFamily:
+              'NunitoSans_600SemiBold_Italic',
           }}>
           Nunito Sans Semi Bold Italic
         </Text>
@@ -222,7 +243,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NunitoSans_700Bold_Italic',
+            fontFamily:
+              'NunitoSans_700Bold_Italic',
           }}>
           Nunito Sans Bold Italic
         </Text>
@@ -232,7 +254,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NunitoSans_800ExtraBold_Italic',
+            fontFamily:
+              'NunitoSans_800ExtraBold_Italic',
           }}>
           Nunito Sans Extra Bold Italic
         </Text>
@@ -242,7 +265,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NunitoSans_900Black_Italic',
+            fontFamily:
+              'NunitoSans_900Black_Italic',
           }}>
           Nunito Sans Black Italic
         </Text>

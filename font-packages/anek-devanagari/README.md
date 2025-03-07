@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-anek-devanagari/useFonts';
 import { AnekDevanagari_100Thin } from 'expo-google-fonts-anek-devanagari/100Thin';
 import { AnekDevanagari_200ExtraLight } from 'expo-google-fonts-anek-devanagari/200ExtraLight';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekDevanagari_100Thin',
+            fontFamily:
+              'AnekDevanagari_100Thin',
           }}>
           Anek Devanagari Thin
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekDevanagari_200ExtraLight',
+            fontFamily:
+              'AnekDevanagari_200ExtraLight',
           }}>
           Anek Devanagari Extra Light
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekDevanagari_300Light',
+            fontFamily:
+              'AnekDevanagari_300Light',
           }}>
           Anek Devanagari Light
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekDevanagari_400Regular',
+            fontFamily:
+              'AnekDevanagari_400Regular',
           }}>
           Anek Devanagari Regular
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekDevanagari_500Medium',
+            fontFamily:
+              'AnekDevanagari_500Medium',
           }}>
           Anek Devanagari Medium
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekDevanagari_600SemiBold',
+            fontFamily:
+              'AnekDevanagari_600SemiBold',
           }}>
           Anek Devanagari Semi Bold
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekDevanagari_700Bold',
+            fontFamily:
+              'AnekDevanagari_700Bold',
           }}>
           Anek Devanagari Bold
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AnekDevanagari_800ExtraBold',
+            fontFamily:
+              'AnekDevanagari_800ExtraBold',
           }}>
           Anek Devanagari Extra Bold
         </Text>

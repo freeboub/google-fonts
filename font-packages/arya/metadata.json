@@ -1,7 +1,11 @@
 {
   "family": "Arya",
   "variants": ["regular", "700"],
-  "subsets": ["devanagari", "latin", "latin-ext"],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v19",
   "lastModified": "2024-09-04",
   "files": {

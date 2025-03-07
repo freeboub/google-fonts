@@ -1,7 +1,11 @@
 {
   "family": "Padauk",
   "variants": ["regular", "700"],
-  "subsets": ["latin", "latin-ext", "myanmar"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "myanmar"
+  ],
   "version": "v16",
   "lastModified": "2024-09-04",
   "files": {

@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-khmer/useFonts';
 import { NotoSansKhmer_100Thin } from 'expo-google-fonts-noto-sans-khmer/100Thin';
 import { NotoSansKhmer_200ExtraLight } from 'expo-google-fonts-noto-sans-khmer/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansKhmer_100Thin',
+            fontFamily:
+              'NotoSansKhmer_100Thin',
           }}>
           Noto Sans Khmer Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansKhmer_200ExtraLight',
+            fontFamily:
+              'NotoSansKhmer_200ExtraLight',
           }}>
           Noto Sans Khmer Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansKhmer_300Light',
+            fontFamily:
+              'NotoSansKhmer_300Light',
           }}>
           Noto Sans Khmer Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansKhmer_400Regular',
+            fontFamily:
+              'NotoSansKhmer_400Regular',
           }}>
           Noto Sans Khmer Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansKhmer_500Medium',
+            fontFamily:
+              'NotoSansKhmer_500Medium',
           }}>
           Noto Sans Khmer Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansKhmer_600SemiBold',
+            fontFamily:
+              'NotoSansKhmer_600SemiBold',
           }}>
           Noto Sans Khmer Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansKhmer_700Bold',
+            fontFamily:
+              'NotoSansKhmer_700Bold',
           }}>
           Noto Sans Khmer Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansKhmer_800ExtraBold',
+            fontFamily:
+              'NotoSansKhmer_800ExtraBold',
           }}>
           Noto Sans Khmer Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansKhmer_900Black',
+            fontFamily:
+              'NotoSansKhmer_900Black',
           }}>
           Noto Sans Khmer Black
         </Text>

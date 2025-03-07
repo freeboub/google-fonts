@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-serif-hebrew/useFonts';
 import { NotoSerifHebrew_100Thin } from 'expo-google-fonts-noto-serif-hebrew/100Thin';
 import { NotoSerifHebrew_200ExtraLight } from 'expo-google-fonts-noto-serif-hebrew/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifHebrew_100Thin',
+            fontFamily:
+              'NotoSerifHebrew_100Thin',
           }}>
           Noto Serif Hebrew Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifHebrew_200ExtraLight',
+            fontFamily:
+              'NotoSerifHebrew_200ExtraLight',
           }}>
           Noto Serif Hebrew Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifHebrew_300Light',
+            fontFamily:
+              'NotoSerifHebrew_300Light',
           }}>
           Noto Serif Hebrew Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifHebrew_400Regular',
+            fontFamily:
+              'NotoSerifHebrew_400Regular',
           }}>
           Noto Serif Hebrew Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifHebrew_500Medium',
+            fontFamily:
+              'NotoSerifHebrew_500Medium',
           }}>
           Noto Serif Hebrew Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifHebrew_600SemiBold',
+            fontFamily:
+              'NotoSerifHebrew_600SemiBold',
           }}>
           Noto Serif Hebrew Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifHebrew_700Bold',
+            fontFamily:
+              'NotoSerifHebrew_700Bold',
           }}>
           Noto Serif Hebrew Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifHebrew_800ExtraBold',
+            fontFamily:
+              'NotoSerifHebrew_800ExtraBold',
           }}>
           Noto Serif Hebrew Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifHebrew_900Black',
+            fontFamily:
+              'NotoSerifHebrew_900Black',
           }}>
           Noto Serif Hebrew Black
         </Text>

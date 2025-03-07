@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-edu-au-vic-wa-nt-pre/useFonts';
 import { EduAUVICWANTPre_400Regular } from 'expo-google-fonts-edu-au-vic-wa-nt-pre/400Regular';
 import { EduAUVICWANTPre_500Medium } from 'expo-google-fonts-edu-au-vic-wa-nt-pre/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EduAUVICWANTPre_400Regular',
+            fontFamily:
+              'EduAUVICWANTPre_400Regular',
           }}>
           Edu AU VIC WA NT Pre Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EduAUVICWANTPre_500Medium',
+            fontFamily:
+              'EduAUVICWANTPre_500Medium',
           }}>
           Edu AU VIC WA NT Pre Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EduAUVICWANTPre_600SemiBold',
+            fontFamily:
+              'EduAUVICWANTPre_600SemiBold',
           }}>
           Edu AU VIC WA NT Pre Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EduAUVICWANTPre_700Bold',
+            fontFamily:
+              'EduAUVICWANTPre_700Bold',
           }}>
           Edu AU VIC WA NT Pre Bold
         </Text>

@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-murecho/useFonts';
 import { Murecho_100Thin } from 'expo-google-fonts-murecho/100Thin';
 import { Murecho_200ExtraLight } from 'expo-google-fonts-murecho/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Murecho_100Thin',
+            fontFamily:
+              'Murecho_100Thin',
           }}>
           Murecho Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Murecho_200ExtraLight',
+            fontFamily:
+              'Murecho_200ExtraLight',
           }}>
           Murecho Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Murecho_300Light',
+            fontFamily:
+              'Murecho_300Light',
           }}>
           Murecho Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Murecho_400Regular',
+            fontFamily:
+              'Murecho_400Regular',
           }}>
           Murecho Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Murecho_500Medium',
+            fontFamily:
+              'Murecho_500Medium',
           }}>
           Murecho Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Murecho_600SemiBold',
+            fontFamily:
+              'Murecho_600SemiBold',
           }}>
           Murecho Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Murecho_700Bold',
+            fontFamily:
+              'Murecho_700Bold',
           }}>
           Murecho Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Murecho_800ExtraBold',
+            fontFamily:
+              'Murecho_800ExtraBold',
           }}>
           Murecho Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Murecho_900Black',
+            fontFamily:
+              'Murecho_900Black',
           }}>
           Murecho Black
         </Text>

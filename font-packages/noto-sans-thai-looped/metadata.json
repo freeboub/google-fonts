@@ -1,7 +1,21 @@
 {
   "family": "Noto Sans Thai Looped",
-  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
-  "subsets": ["latin", "latin-ext", "thai"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "thai"
+  ],
   "version": "v14",
   "lastModified": "2023-04-27",
   "files": {

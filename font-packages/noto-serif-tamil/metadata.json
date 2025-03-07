@@ -20,7 +20,11 @@
     "800italic",
     "900italic"
   ],
-  "subsets": ["latin", "latin-ext", "tamil"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "tamil"
+  ],
   "version": "v28",
   "lastModified": "2023-04-27",
   "files": {

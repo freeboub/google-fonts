@@ -1,7 +1,16 @@
 {
   "family": "Noto Sans Kayah Li",
-  "variants": ["regular", "500", "600", "700"],
-  "subsets": ["kayah-li", "latin", "latin-ext"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "kayah-li",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v21",
   "lastModified": "2023-09-14",
   "files": {

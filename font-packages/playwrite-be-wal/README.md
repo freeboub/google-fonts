@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playwrite-be-wal/useFonts';
 import { PlaywriteBEWAL_100Thin } from 'expo-google-fonts-playwrite-be-wal/100Thin';
 import { PlaywriteBEWAL_200ExtraLight } from 'expo-google-fonts-playwrite-be-wal/200ExtraLight';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteBEWAL_100Thin',
+            fontFamily:
+              'PlaywriteBEWAL_100Thin',
           }}>
           Playwrite BE WAL Thin
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteBEWAL_200ExtraLight',
+            fontFamily:
+              'PlaywriteBEWAL_200ExtraLight',
           }}>
           Playwrite BE WAL Extra Light
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteBEWAL_300Light',
+            fontFamily:
+              'PlaywriteBEWAL_300Light',
           }}>
           Playwrite BE WAL Light
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlaywriteBEWAL_400Regular',
+            fontFamily:
+              'PlaywriteBEWAL_400Regular',
           }}>
           Playwrite BE WAL Regular
         </Text>

@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-aleo/useFonts';
 import { Aleo_100Thin } from 'expo-google-fonts-aleo/100Thin';
 import { Aleo_200ExtraLight } from 'expo-google-fonts-aleo/200ExtraLight';
@@ -92,7 +95,12 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
@@ -108,7 +116,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_200ExtraLight',
+            fontFamily:
+              'Aleo_200ExtraLight',
           }}>
           Aleo Extra Light
         </Text>
@@ -128,7 +137,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_400Regular',
+            fontFamily:
+              'Aleo_400Regular',
           }}>
           Aleo Regular
         </Text>
@@ -138,7 +148,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_500Medium',
+            fontFamily:
+              'Aleo_500Medium',
           }}>
           Aleo Medium
         </Text>
@@ -148,7 +159,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_600SemiBold',
+            fontFamily:
+              'Aleo_600SemiBold',
           }}>
           Aleo Semi Bold
         </Text>
@@ -168,7 +180,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_800ExtraBold',
+            fontFamily:
+              'Aleo_800ExtraBold',
           }}>
           Aleo Extra Bold
         </Text>
@@ -188,7 +201,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_100Thin_Italic',
+            fontFamily:
+              'Aleo_100Thin_Italic',
           }}>
           Aleo Thin Italic
         </Text>
@@ -198,7 +212,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_200ExtraLight_Italic',
+            fontFamily:
+              'Aleo_200ExtraLight_Italic',
           }}>
           Aleo Extra Light Italic
         </Text>
@@ -208,7 +223,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_300Light_Italic',
+            fontFamily:
+              'Aleo_300Light_Italic',
           }}>
           Aleo Light Italic
         </Text>
@@ -218,7 +234,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_400Regular_Italic',
+            fontFamily:
+              'Aleo_400Regular_Italic',
           }}>
           Aleo Italic
         </Text>
@@ -228,7 +245,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_500Medium_Italic',
+            fontFamily:
+              'Aleo_500Medium_Italic',
           }}>
           Aleo Medium Italic
         </Text>
@@ -238,7 +256,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_600SemiBold_Italic',
+            fontFamily:
+              'Aleo_600SemiBold_Italic',
           }}>
           Aleo Semi Bold Italic
         </Text>
@@ -248,7 +267,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_700Bold_Italic',
+            fontFamily:
+              'Aleo_700Bold_Italic',
           }}>
           Aleo Bold Italic
         </Text>
@@ -258,7 +278,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_800ExtraBold_Italic',
+            fontFamily:
+              'Aleo_800ExtraBold_Italic',
           }}>
           Aleo Extra Bold Italic
         </Text>
@@ -268,7 +289,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Aleo_900Black_Italic',
+            fontFamily:
+              'Aleo_900Black_Italic',
           }}>
           Aleo Black Italic
         </Text>

@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-encode-sans/useFonts';
 import { EncodeSans_100Thin } from 'expo-google-fonts-encode-sans/100Thin';
 import { EncodeSans_200ExtraLight } from 'expo-google-fonts-encode-sans/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSans_100Thin',
+            fontFamily:
+              'EncodeSans_100Thin',
           }}>
           Encode Sans Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSans_200ExtraLight',
+            fontFamily:
+              'EncodeSans_200ExtraLight',
           }}>
           Encode Sans Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSans_300Light',
+            fontFamily:
+              'EncodeSans_300Light',
           }}>
           Encode Sans Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSans_400Regular',
+            fontFamily:
+              'EncodeSans_400Regular',
           }}>
           Encode Sans Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSans_500Medium',
+            fontFamily:
+              'EncodeSans_500Medium',
           }}>
           Encode Sans Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSans_600SemiBold',
+            fontFamily:
+              'EncodeSans_600SemiBold',
           }}>
           Encode Sans Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSans_700Bold',
+            fontFamily:
+              'EncodeSans_700Bold',
           }}>
           Encode Sans Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSans_800ExtraBold',
+            fontFamily:
+              'EncodeSans_800ExtraBold',
           }}>
           Encode Sans Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'EncodeSans_900Black',
+            fontFamily:
+              'EncodeSans_900Black',
           }}>
           Encode Sans Black
         </Text>

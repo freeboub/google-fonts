@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-roboto-condensed/useFonts';
 import { RobotoCondensed_100Thin } from 'expo-google-fonts-roboto-condensed/100Thin';
 import { RobotoCondensed_200ExtraLight } from 'expo-google-fonts-roboto-condensed/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoCondensed_100Thin',
+            fontFamily:
+              'RobotoCondensed_100Thin',
           }}>
           Roboto Condensed Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoCondensed_200ExtraLight',
+            fontFamily:
+              'RobotoCondensed_200ExtraLight',
           }}>
           Roboto Condensed Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoCondensed_300Light',
+            fontFamily:
+              'RobotoCondensed_300Light',
           }}>
           Roboto Condensed Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoCondensed_400Regular',
+            fontFamily:
+              'RobotoCondensed_400Regular',
           }}>
           Roboto Condensed Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoCondensed_500Medium',
+            fontFamily:
+              'RobotoCondensed_500Medium',
           }}>
           Roboto Condensed Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoCondensed_600SemiBold',
+            fontFamily:
+              'RobotoCondensed_600SemiBold',
           }}>
           Roboto Condensed Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoCondensed_700Bold',
+            fontFamily:
+              'RobotoCondensed_700Bold',
           }}>
           Roboto Condensed Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoCondensed_800ExtraBold',
+            fontFamily:
+              'RobotoCondensed_800ExtraBold',
           }}>
           Roboto Condensed Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoCondensed_900Black',
+            fontFamily:
+              'RobotoCondensed_900Black',
           }}>
           Roboto Condensed Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoCondensed_100Thin_Italic',
+            fontFamily:
+              'RobotoCondensed_100Thin_Italic',
           }}>
           Roboto Condensed Thin Italic
         </Text>
@@ -198,9 +216,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoCondensed_200ExtraLight_Italic',
+            fontFamily:
+              'RobotoCondensed_200ExtraLight_Italic',
           }}>
-          Roboto Condensed Extra Light Italic
+          Roboto Condensed Extra Light
+          Italic
         </Text>
 
         <Text
@@ -208,7 +228,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoCondensed_300Light_Italic',
+            fontFamily:
+              'RobotoCondensed_300Light_Italic',
           }}>
           Roboto Condensed Light Italic
         </Text>
@@ -218,7 +239,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoCondensed_400Regular_Italic',
+            fontFamily:
+              'RobotoCondensed_400Regular_Italic',
           }}>
           Roboto Condensed Italic
         </Text>
@@ -228,7 +250,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoCondensed_500Medium_Italic',
+            fontFamily:
+              'RobotoCondensed_500Medium_Italic',
           }}>
           Roboto Condensed Medium Italic
         </Text>
@@ -238,9 +261,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoCondensed_600SemiBold_Italic',
+            fontFamily:
+              'RobotoCondensed_600SemiBold_Italic',
           }}>
-          Roboto Condensed Semi Bold Italic
+          Roboto Condensed Semi Bold
+          Italic
         </Text>
 
         <Text
@@ -248,7 +273,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoCondensed_700Bold_Italic',
+            fontFamily:
+              'RobotoCondensed_700Bold_Italic',
           }}>
           Roboto Condensed Bold Italic
         </Text>
@@ -258,9 +284,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoCondensed_800ExtraBold_Italic',
+            fontFamily:
+              'RobotoCondensed_800ExtraBold_Italic',
           }}>
-          Roboto Condensed Extra Bold Italic
+          Roboto Condensed Extra Bold
+          Italic
         </Text>
 
         <Text
@@ -268,7 +296,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'RobotoCondensed_900Black_Italic',
+            fontFamily:
+              'RobotoCondensed_900Black_Italic',
           }}>
           Roboto Condensed Black Italic
         </Text>

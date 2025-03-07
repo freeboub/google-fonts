@@ -40,7 +40,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-ubuntu-sans/useFonts';
 import { UbuntuSans_100Thin } from 'expo-google-fonts-ubuntu-sans/100Thin';
 import { UbuntuSans_200ExtraLight } from 'expo-google-fonts-ubuntu-sans/200ExtraLight';
@@ -86,13 +89,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSans_100Thin',
+            fontFamily:
+              'UbuntuSans_100Thin',
           }}>
           Ubuntu Sans Thin
         </Text>
@@ -102,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSans_200ExtraLight',
+            fontFamily:
+              'UbuntuSans_200ExtraLight',
           }}>
           Ubuntu Sans Extra Light
         </Text>
@@ -112,7 +122,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSans_300Light',
+            fontFamily:
+              'UbuntuSans_300Light',
           }}>
           Ubuntu Sans Light
         </Text>
@@ -122,7 +133,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSans_400Regular',
+            fontFamily:
+              'UbuntuSans_400Regular',
           }}>
           Ubuntu Sans Regular
         </Text>
@@ -132,7 +144,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSans_500Medium',
+            fontFamily:
+              'UbuntuSans_500Medium',
           }}>
           Ubuntu Sans Medium
         </Text>
@@ -142,7 +155,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSans_600SemiBold',
+            fontFamily:
+              'UbuntuSans_600SemiBold',
           }}>
           Ubuntu Sans Semi Bold
         </Text>
@@ -152,7 +166,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSans_700Bold',
+            fontFamily:
+              'UbuntuSans_700Bold',
           }}>
           Ubuntu Sans Bold
         </Text>
@@ -162,7 +177,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSans_800ExtraBold',
+            fontFamily:
+              'UbuntuSans_800ExtraBold',
           }}>
           Ubuntu Sans Extra Bold
         </Text>
@@ -172,7 +188,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSans_100Thin_Italic',
+            fontFamily:
+              'UbuntuSans_100Thin_Italic',
           }}>
           Ubuntu Sans Thin Italic
         </Text>
@@ -182,7 +199,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSans_200ExtraLight_Italic',
+            fontFamily:
+              'UbuntuSans_200ExtraLight_Italic',
           }}>
           Ubuntu Sans Extra Light Italic
         </Text>
@@ -192,7 +210,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSans_300Light_Italic',
+            fontFamily:
+              'UbuntuSans_300Light_Italic',
           }}>
           Ubuntu Sans Light Italic
         </Text>
@@ -202,7 +221,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSans_400Regular_Italic',
+            fontFamily:
+              'UbuntuSans_400Regular_Italic',
           }}>
           Ubuntu Sans Italic
         </Text>
@@ -212,7 +232,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSans_500Medium_Italic',
+            fontFamily:
+              'UbuntuSans_500Medium_Italic',
           }}>
           Ubuntu Sans Medium Italic
         </Text>
@@ -222,7 +243,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSans_600SemiBold_Italic',
+            fontFamily:
+              'UbuntuSans_600SemiBold_Italic',
           }}>
           Ubuntu Sans Semi Bold Italic
         </Text>
@@ -232,7 +254,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSans_700Bold_Italic',
+            fontFamily:
+              'UbuntuSans_700Bold_Italic',
           }}>
           Ubuntu Sans Bold Italic
         </Text>
@@ -242,7 +265,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'UbuntuSans_800ExtraBold_Italic',
+            fontFamily:
+              'UbuntuSans_800ExtraBold_Italic',
           }}>
           Ubuntu Sans Extra Bold Italic
         </Text>

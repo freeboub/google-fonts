@@ -1,7 +1,20 @@
 {
   "family": "Oswald",
-  "variants": ["200", "300", "regular", "500", "600", "700"],
-  "subsets": ["cyrillic", "cyrillic-ext", "latin", "latin-ext", "vietnamese"],
+  "variants": [
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v53",
   "lastModified": "2024-09-04",
   "files": {

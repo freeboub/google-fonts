@@ -1,6 +1,12 @@
 {
   "family": "Suwannaphum",
-  "variants": ["100", "300", "regular", "700", "900"],
+  "variants": [
+    "100",
+    "300",
+    "regular",
+    "700",
+    "900"
+  ],
   "subsets": ["khmer", "latin"],
   "version": "v31",
   "lastModified": "2024-08-12",

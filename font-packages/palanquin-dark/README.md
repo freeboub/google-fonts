@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-palanquin-dark/useFonts';
 import { PalanquinDark_400Regular } from 'expo-google-fonts-palanquin-dark/400Regular';
 import { PalanquinDark_500Medium } from 'expo-google-fonts-palanquin-dark/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PalanquinDark_400Regular',
+            fontFamily:
+              'PalanquinDark_400Regular',
           }}>
           Palanquin Dark Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PalanquinDark_500Medium',
+            fontFamily:
+              'PalanquinDark_500Medium',
           }}>
           Palanquin Dark Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PalanquinDark_600SemiBold',
+            fontFamily:
+              'PalanquinDark_600SemiBold',
           }}>
           Palanquin Dark Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PalanquinDark_700Bold',
+            fontFamily:
+              'PalanquinDark_700Bold',
           }}>
           Palanquin Dark Bold
         </Text>

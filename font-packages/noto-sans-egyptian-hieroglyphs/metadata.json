@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Egyptian Hieroglyphs",
   "variants": ["regular"],
-  "subsets": ["egyptian-hieroglyphs", "latin", "latin-ext"],
+  "subsets": [
+    "egyptian-hieroglyphs",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v29",
   "lastModified": "2024-05-02",
   "files": {

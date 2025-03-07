@@ -1,7 +1,11 @@
 {
   "family": "Tenor Sans",
   "variants": ["regular"],
-  "subsets": ["cyrillic", "latin", "latin-ext"],
+  "subsets": [
+    "cyrillic",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v19",
   "lastModified": "2024-09-04",
   "files": {

@@ -35,7 +35,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-titillium-web/useFonts';
 import { TitilliumWeb_200ExtraLight } from 'expo-google-fonts-titillium-web/200ExtraLight';
 import { TitilliumWeb_200ExtraLight_Italic } from 'expo-google-fonts-titillium-web/200ExtraLight_Italic';
@@ -71,13 +74,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'TitilliumWeb_200ExtraLight',
+            fontFamily:
+              'TitilliumWeb_200ExtraLight',
           }}>
           Titillium Web Extra Light
         </Text>
@@ -87,9 +96,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'TitilliumWeb_200ExtraLight_Italic',
+            fontFamily:
+              'TitilliumWeb_200ExtraLight_Italic',
           }}>
-          Titillium Web Extra Light Italic
+          Titillium Web Extra Light
+          Italic
         </Text>
 
         <Text
@@ -97,7 +108,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'TitilliumWeb_300Light',
+            fontFamily:
+              'TitilliumWeb_300Light',
           }}>
           Titillium Web Light
         </Text>
@@ -107,7 +119,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'TitilliumWeb_300Light_Italic',
+            fontFamily:
+              'TitilliumWeb_300Light_Italic',
           }}>
           Titillium Web Light Italic
         </Text>
@@ -117,7 +130,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'TitilliumWeb_400Regular',
+            fontFamily:
+              'TitilliumWeb_400Regular',
           }}>
           Titillium Web Regular
         </Text>
@@ -127,7 +141,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'TitilliumWeb_400Regular_Italic',
+            fontFamily:
+              'TitilliumWeb_400Regular_Italic',
           }}>
           Titillium Web Italic
         </Text>
@@ -137,7 +152,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'TitilliumWeb_600SemiBold',
+            fontFamily:
+              'TitilliumWeb_600SemiBold',
           }}>
           Titillium Web Semi Bold
         </Text>
@@ -147,7 +163,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'TitilliumWeb_600SemiBold_Italic',
+            fontFamily:
+              'TitilliumWeb_600SemiBold_Italic',
           }}>
           Titillium Web Semi Bold Italic
         </Text>
@@ -157,7 +174,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'TitilliumWeb_700Bold',
+            fontFamily:
+              'TitilliumWeb_700Bold',
           }}>
           Titillium Web Bold
         </Text>
@@ -167,7 +185,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'TitilliumWeb_700Bold_Italic',
+            fontFamily:
+              'TitilliumWeb_700Bold_Italic',
           }}>
           Titillium Web Bold Italic
         </Text>
@@ -177,7 +196,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'TitilliumWeb_900Black',
+            fontFamily:
+              'TitilliumWeb_900Black',
           }}>
           Titillium Web Black
         </Text>

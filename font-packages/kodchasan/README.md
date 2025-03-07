@@ -36,7 +36,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-kodchasan/useFonts';
 import { Kodchasan_200ExtraLight } from 'expo-google-fonts-kodchasan/200ExtraLight';
 import { Kodchasan_200ExtraLight_Italic } from 'expo-google-fonts-kodchasan/200ExtraLight_Italic';
@@ -74,13 +77,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kodchasan_200ExtraLight',
+            fontFamily:
+              'Kodchasan_200ExtraLight',
           }}>
           Kodchasan Extra Light
         </Text>
@@ -90,7 +99,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kodchasan_200ExtraLight_Italic',
+            fontFamily:
+              'Kodchasan_200ExtraLight_Italic',
           }}>
           Kodchasan Extra Light Italic
         </Text>
@@ -100,7 +110,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kodchasan_300Light',
+            fontFamily:
+              'Kodchasan_300Light',
           }}>
           Kodchasan Light
         </Text>
@@ -110,7 +121,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kodchasan_300Light_Italic',
+            fontFamily:
+              'Kodchasan_300Light_Italic',
           }}>
           Kodchasan Light Italic
         </Text>
@@ -120,7 +132,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kodchasan_400Regular',
+            fontFamily:
+              'Kodchasan_400Regular',
           }}>
           Kodchasan Regular
         </Text>
@@ -130,7 +143,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kodchasan_400Regular_Italic',
+            fontFamily:
+              'Kodchasan_400Regular_Italic',
           }}>
           Kodchasan Italic
         </Text>
@@ -140,7 +154,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kodchasan_500Medium',
+            fontFamily:
+              'Kodchasan_500Medium',
           }}>
           Kodchasan Medium
         </Text>
@@ -150,7 +165,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kodchasan_500Medium_Italic',
+            fontFamily:
+              'Kodchasan_500Medium_Italic',
           }}>
           Kodchasan Medium Italic
         </Text>
@@ -160,7 +176,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kodchasan_600SemiBold',
+            fontFamily:
+              'Kodchasan_600SemiBold',
           }}>
           Kodchasan Semi Bold
         </Text>
@@ -170,7 +187,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kodchasan_600SemiBold_Italic',
+            fontFamily:
+              'Kodchasan_600SemiBold_Italic',
           }}>
           Kodchasan Semi Bold Italic
         </Text>
@@ -180,7 +198,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kodchasan_700Bold',
+            fontFamily:
+              'Kodchasan_700Bold',
           }}>
           Kodchasan Bold
         </Text>
@@ -190,7 +209,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Kodchasan_700Bold_Italic',
+            fontFamily:
+              'Kodchasan_700Bold_Italic',
           }}>
           Kodchasan Bold Italic
         </Text>

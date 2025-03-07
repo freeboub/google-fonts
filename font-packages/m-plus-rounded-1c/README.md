@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-m-plus-rounded-1c/useFonts';
 import { MPLUSRounded1c_100Thin } from 'expo-google-fonts-m-plus-rounded-1c/100Thin';
 import { MPLUSRounded1c_300Light } from 'expo-google-fonts-m-plus-rounded-1c/300Light';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUSRounded1c_100Thin',
+            fontFamily:
+              'MPLUSRounded1c_100Thin',
           }}>
           M PLUS Rounded 1c Thin
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUSRounded1c_300Light',
+            fontFamily:
+              'MPLUSRounded1c_300Light',
           }}>
           M PLUS Rounded 1c Light
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUSRounded1c_400Regular',
+            fontFamily:
+              'MPLUSRounded1c_400Regular',
           }}>
           M PLUS Rounded 1c Regular
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUSRounded1c_500Medium',
+            fontFamily:
+              'MPLUSRounded1c_500Medium',
           }}>
           M PLUS Rounded 1c Medium
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUSRounded1c_700Bold',
+            fontFamily:
+              'MPLUSRounded1c_700Bold',
           }}>
           M PLUS Rounded 1c Bold
         </Text>
@@ -115,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUSRounded1c_800ExtraBold',
+            fontFamily:
+              'MPLUSRounded1c_800ExtraBold',
           }}>
           M PLUS Rounded 1c Extra Bold
         </Text>
@@ -125,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MPLUSRounded1c_900Black',
+            fontFamily:
+              'MPLUSRounded1c_900Black',
           }}>
           M PLUS Rounded 1c Black
         </Text>

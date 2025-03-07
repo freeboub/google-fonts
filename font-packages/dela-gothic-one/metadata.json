@@ -1,7 +1,14 @@
 {
   "family": "Dela Gothic One",
   "variants": ["regular"],
-  "subsets": ["cyrillic", "greek", "japanese", "latin", "latin-ext", "vietnamese"],
+  "subsets": [
+    "cyrillic",
+    "greek",
+    "japanese",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v17",
   "lastModified": "2024-12-04",
   "files": {

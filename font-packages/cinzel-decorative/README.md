@@ -27,7 +27,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-cinzel-decorative/useFonts';
 import { CinzelDecorative_400Regular } from 'expo-google-fonts-cinzel-decorative/400Regular';
 import { CinzelDecorative_700Bold } from 'expo-google-fonts-cinzel-decorative/700Bold';
@@ -47,13 +50,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CinzelDecorative_400Regular',
+            fontFamily:
+              'CinzelDecorative_400Regular',
           }}>
           Cinzel Decorative Regular
         </Text>
@@ -63,7 +72,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CinzelDecorative_700Bold',
+            fontFamily:
+              'CinzelDecorative_700Bold',
           }}>
           Cinzel Decorative Bold
         </Text>
@@ -73,7 +83,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CinzelDecorative_900Black',
+            fontFamily:
+              'CinzelDecorative_900Black',
           }}>
           Cinzel Decorative Black
         </Text>

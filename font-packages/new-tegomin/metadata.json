@@ -1,7 +1,11 @@
 {
   "family": "New Tegomin",
   "variants": ["regular"],
-  "subsets": ["japanese", "latin", "latin-ext"],
+  "subsets": [
+    "japanese",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v12",
   "lastModified": "2024-12-04",
   "files": {

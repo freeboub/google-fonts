@@ -1,7 +1,19 @@
 {
   "family": "Lateef",
-  "variants": ["200", "300", "regular", "500", "600", "700", "800"],
-  "subsets": ["arabic", "latin", "latin-ext"],
+  "variants": [
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800"
+  ],
+  "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v32",
   "lastModified": "2024-12-04",
   "files": {

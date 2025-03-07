@@ -1,7 +1,11 @@
 {
   "family": "Kalam",
   "variants": ["300", "regular", "700"],
-  "subsets": ["devanagari", "latin", "latin-ext"],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v17",
   "lastModified": "2024-10-29",
   "files": {

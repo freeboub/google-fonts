@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Ogham",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "ogham"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "ogham"
+  ],
   "version": "v17",
   "lastModified": "2023-07-24",
   "files": {

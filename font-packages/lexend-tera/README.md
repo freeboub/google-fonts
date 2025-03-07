@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-lexend-tera/useFonts';
 import { LexendTera_100Thin } from 'expo-google-fonts-lexend-tera/100Thin';
 import { LexendTera_200ExtraLight } from 'expo-google-fonts-lexend-tera/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendTera_100Thin',
+            fontFamily:
+              'LexendTera_100Thin',
           }}>
           Lexend Tera Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendTera_200ExtraLight',
+            fontFamily:
+              'LexendTera_200ExtraLight',
           }}>
           Lexend Tera Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendTera_300Light',
+            fontFamily:
+              'LexendTera_300Light',
           }}>
           Lexend Tera Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendTera_400Regular',
+            fontFamily:
+              'LexendTera_400Regular',
           }}>
           Lexend Tera Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendTera_500Medium',
+            fontFamily:
+              'LexendTera_500Medium',
           }}>
           Lexend Tera Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendTera_600SemiBold',
+            fontFamily:
+              'LexendTera_600SemiBold',
           }}>
           Lexend Tera Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendTera_700Bold',
+            fontFamily:
+              'LexendTera_700Bold',
           }}>
           Lexend Tera Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendTera_800ExtraBold',
+            fontFamily:
+              'LexendTera_800ExtraBold',
           }}>
           Lexend Tera Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LexendTera_900Black',
+            fontFamily:
+              'LexendTera_900Black',
           }}>
           Lexend Tera Black
         </Text>

@@ -40,7 +40,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-jetbrains-mono/useFonts';
 import { JetBrainsMono_100Thin } from 'expo-google-fonts-jetbrains-mono/100Thin';
 import { JetBrainsMono_200ExtraLight } from 'expo-google-fonts-jetbrains-mono/200ExtraLight';
@@ -86,13 +89,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JetBrainsMono_100Thin',
+            fontFamily:
+              'JetBrainsMono_100Thin',
           }}>
           JetBrains Mono Thin
         </Text>
@@ -102,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JetBrainsMono_200ExtraLight',
+            fontFamily:
+              'JetBrainsMono_200ExtraLight',
           }}>
           JetBrains Mono Extra Light
         </Text>
@@ -112,7 +122,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JetBrainsMono_300Light',
+            fontFamily:
+              'JetBrainsMono_300Light',
           }}>
           JetBrains Mono Light
         </Text>
@@ -122,7 +133,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JetBrainsMono_400Regular',
+            fontFamily:
+              'JetBrainsMono_400Regular',
           }}>
           JetBrains Mono Regular
         </Text>
@@ -132,7 +144,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JetBrainsMono_500Medium',
+            fontFamily:
+              'JetBrainsMono_500Medium',
           }}>
           JetBrains Mono Medium
         </Text>
@@ -142,7 +155,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JetBrainsMono_600SemiBold',
+            fontFamily:
+              'JetBrainsMono_600SemiBold',
           }}>
           JetBrains Mono Semi Bold
         </Text>
@@ -152,7 +166,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JetBrainsMono_700Bold',
+            fontFamily:
+              'JetBrainsMono_700Bold',
           }}>
           JetBrains Mono Bold
         </Text>
@@ -162,7 +177,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JetBrainsMono_800ExtraBold',
+            fontFamily:
+              'JetBrainsMono_800ExtraBold',
           }}>
           JetBrains Mono Extra Bold
         </Text>
@@ -172,7 +188,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JetBrainsMono_100Thin_Italic',
+            fontFamily:
+              'JetBrainsMono_100Thin_Italic',
           }}>
           JetBrains Mono Thin Italic
         </Text>
@@ -182,9 +199,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JetBrainsMono_200ExtraLight_Italic',
+            fontFamily:
+              'JetBrainsMono_200ExtraLight_Italic',
           }}>
-          JetBrains Mono Extra Light Italic
+          JetBrains Mono Extra Light
+          Italic
         </Text>
 
         <Text
@@ -192,7 +211,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JetBrainsMono_300Light_Italic',
+            fontFamily:
+              'JetBrainsMono_300Light_Italic',
           }}>
           JetBrains Mono Light Italic
         </Text>
@@ -202,7 +222,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JetBrainsMono_400Regular_Italic',
+            fontFamily:
+              'JetBrainsMono_400Regular_Italic',
           }}>
           JetBrains Mono Italic
         </Text>
@@ -212,7 +233,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JetBrainsMono_500Medium_Italic',
+            fontFamily:
+              'JetBrainsMono_500Medium_Italic',
           }}>
           JetBrains Mono Medium Italic
         </Text>
@@ -222,9 +244,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JetBrainsMono_600SemiBold_Italic',
+            fontFamily:
+              'JetBrainsMono_600SemiBold_Italic',
           }}>
-          JetBrains Mono Semi Bold Italic
+          JetBrains Mono Semi Bold
+          Italic
         </Text>
 
         <Text
@@ -232,7 +256,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JetBrainsMono_700Bold_Italic',
+            fontFamily:
+              'JetBrainsMono_700Bold_Italic',
           }}>
           JetBrains Mono Bold Italic
         </Text>
@@ -242,9 +267,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'JetBrainsMono_800ExtraBold_Italic',
+            fontFamily:
+              'JetBrainsMono_800ExtraBold_Italic',
           }}>
-          JetBrains Mono Extra Bold Italic
+          JetBrains Mono Extra Bold
+          Italic
         </Text>
       </View>
     );

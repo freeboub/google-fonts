@@ -14,7 +14,12 @@
     "700",
     "700italic"
   ],
-  "subsets": ["latin", "latin-ext", "thai", "vietnamese"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "thai",
+    "vietnamese"
+  ],
   "version": "v9",
   "lastModified": "2024-09-04",
   "files": {

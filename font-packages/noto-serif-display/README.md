@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-serif-display/useFonts';
 import { NotoSerifDisplay_100Thin } from 'expo-google-fonts-noto-serif-display/100Thin';
 import { NotoSerifDisplay_200ExtraLight } from 'expo-google-fonts-noto-serif-display/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifDisplay_100Thin',
+            fontFamily:
+              'NotoSerifDisplay_100Thin',
           }}>
           Noto Serif Display Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifDisplay_200ExtraLight',
+            fontFamily:
+              'NotoSerifDisplay_200ExtraLight',
           }}>
           Noto Serif Display Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifDisplay_300Light',
+            fontFamily:
+              'NotoSerifDisplay_300Light',
           }}>
           Noto Serif Display Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifDisplay_400Regular',
+            fontFamily:
+              'NotoSerifDisplay_400Regular',
           }}>
           Noto Serif Display Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifDisplay_500Medium',
+            fontFamily:
+              'NotoSerifDisplay_500Medium',
           }}>
           Noto Serif Display Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifDisplay_600SemiBold',
+            fontFamily:
+              'NotoSerifDisplay_600SemiBold',
           }}>
           Noto Serif Display Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifDisplay_700Bold',
+            fontFamily:
+              'NotoSerifDisplay_700Bold',
           }}>
           Noto Serif Display Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifDisplay_800ExtraBold',
+            fontFamily:
+              'NotoSerifDisplay_800ExtraBold',
           }}>
           Noto Serif Display Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifDisplay_900Black',
+            fontFamily:
+              'NotoSerifDisplay_900Black',
           }}>
           Noto Serif Display Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifDisplay_100Thin_Italic',
+            fontFamily:
+              'NotoSerifDisplay_100Thin_Italic',
           }}>
           Noto Serif Display Thin Italic
         </Text>
@@ -198,9 +216,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifDisplay_200ExtraLight_Italic',
+            fontFamily:
+              'NotoSerifDisplay_200ExtraLight_Italic',
           }}>
-          Noto Serif Display Extra Light Italic
+          Noto Serif Display Extra Light
+          Italic
         </Text>
 
         <Text
@@ -208,9 +228,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifDisplay_300Light_Italic',
+            fontFamily:
+              'NotoSerifDisplay_300Light_Italic',
           }}>
-          Noto Serif Display Light Italic
+          Noto Serif Display Light
+          Italic
         </Text>
 
         <Text
@@ -218,7 +240,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifDisplay_400Regular_Italic',
+            fontFamily:
+              'NotoSerifDisplay_400Regular_Italic',
           }}>
           Noto Serif Display Italic
         </Text>
@@ -228,9 +251,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifDisplay_500Medium_Italic',
+            fontFamily:
+              'NotoSerifDisplay_500Medium_Italic',
           }}>
-          Noto Serif Display Medium Italic
+          Noto Serif Display Medium
+          Italic
         </Text>
 
         <Text
@@ -238,9 +263,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifDisplay_600SemiBold_Italic',
+            fontFamily:
+              'NotoSerifDisplay_600SemiBold_Italic',
           }}>
-          Noto Serif Display Semi Bold Italic
+          Noto Serif Display Semi Bold
+          Italic
         </Text>
 
         <Text
@@ -248,7 +275,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifDisplay_700Bold_Italic',
+            fontFamily:
+              'NotoSerifDisplay_700Bold_Italic',
           }}>
           Noto Serif Display Bold Italic
         </Text>
@@ -258,9 +286,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifDisplay_800ExtraBold_Italic',
+            fontFamily:
+              'NotoSerifDisplay_800ExtraBold_Italic',
           }}>
-          Noto Serif Display Extra Bold Italic
+          Noto Serif Display Extra Bold
+          Italic
         </Text>
 
         <Text
@@ -268,9 +298,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifDisplay_900Black_Italic',
+            fontFamily:
+              'NotoSerifDisplay_900Black_Italic',
           }}>
-          Noto Serif Display Black Italic
+          Noto Serif Display Black
+          Italic
         </Text>
       </View>
     );

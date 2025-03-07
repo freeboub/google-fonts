@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Limbu",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "limbu"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "limbu"
+  ],
   "version": "v24",
   "lastModified": "2024-07-30",
   "files": {

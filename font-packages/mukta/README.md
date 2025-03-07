@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-mukta/useFonts';
 import { Mukta_200ExtraLight } from 'expo-google-fonts-mukta/200ExtraLight';
 import { Mukta_300Light } from 'expo-google-fonts-mukta/300Light';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mukta_200ExtraLight',
+            fontFamily:
+              'Mukta_200ExtraLight',
           }}>
           Mukta Extra Light
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mukta_300Light',
+            fontFamily:
+              'Mukta_300Light',
           }}>
           Mukta Light
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mukta_400Regular',
+            fontFamily:
+              'Mukta_400Regular',
           }}>
           Mukta Regular
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mukta_500Medium',
+            fontFamily:
+              'Mukta_500Medium',
           }}>
           Mukta Medium
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mukta_600SemiBold',
+            fontFamily:
+              'Mukta_600SemiBold',
           }}>
           Mukta Semi Bold
         </Text>
@@ -125,7 +138,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Mukta_800ExtraBold',
+            fontFamily:
+              'Mukta_800ExtraBold',
           }}>
           Mukta Extra Bold
         </Text>

@@ -1,7 +1,21 @@
 {
   "family": "Noto Serif Thai",
-  "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
-  "subsets": ["latin", "latin-ext", "thai"],
+  "variants": [
+    "100",
+    "200",
+    "300",
+    "regular",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "thai"
+  ],
   "version": "v24",
   "lastModified": "2023-10-25",
   "files": {

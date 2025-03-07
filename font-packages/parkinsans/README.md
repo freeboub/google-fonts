@@ -30,7 +30,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-parkinsans/useFonts';
 import { Parkinsans_300Light } from 'expo-google-fonts-parkinsans/300Light';
 import { Parkinsans_400Regular } from 'expo-google-fonts-parkinsans/400Regular';
@@ -56,13 +59,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Parkinsans_300Light',
+            fontFamily:
+              'Parkinsans_300Light',
           }}>
           Parkinsans Light
         </Text>
@@ -72,7 +81,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Parkinsans_400Regular',
+            fontFamily:
+              'Parkinsans_400Regular',
           }}>
           Parkinsans Regular
         </Text>
@@ -82,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Parkinsans_500Medium',
+            fontFamily:
+              'Parkinsans_500Medium',
           }}>
           Parkinsans Medium
         </Text>
@@ -92,7 +103,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Parkinsans_600SemiBold',
+            fontFamily:
+              'Parkinsans_600SemiBold',
           }}>
           Parkinsans Semi Bold
         </Text>
@@ -102,7 +114,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Parkinsans_700Bold',
+            fontFamily:
+              'Parkinsans_700Bold',
           }}>
           Parkinsans Bold
         </Text>
@@ -112,7 +125,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Parkinsans_800ExtraBold',
+            fontFamily:
+              'Parkinsans_800ExtraBold',
           }}>
           Parkinsans Extra Bold
         </Text>

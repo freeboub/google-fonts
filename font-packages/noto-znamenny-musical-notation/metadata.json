@@ -1,7 +1,13 @@
 {
   "family": "Noto Znamenny Musical Notation",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "math", "symbols", "znamenny"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols",
+    "znamenny"
+  ],
   "version": "v4",
   "lastModified": "2025-03-03",
   "files": {

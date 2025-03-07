@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Elymaic",
   "variants": ["regular"],
-  "subsets": ["elymaic", "latin", "latin-ext"],
+  "subsets": [
+    "elymaic",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v17",
   "lastModified": "2023-10-25",
   "files": {

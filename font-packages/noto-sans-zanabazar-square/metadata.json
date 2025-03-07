@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Zanabazar Square",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "zanabazar-square"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "zanabazar-square"
+  ],
   "version": "v19",
   "lastModified": "2023-09-27",
   "files": {

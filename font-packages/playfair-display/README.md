@@ -36,7 +36,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-playfair-display/useFonts';
 import { PlayfairDisplay_400Regular } from 'expo-google-fonts-playfair-display/400Regular';
 import { PlayfairDisplay_500Medium } from 'expo-google-fonts-playfair-display/500Medium';
@@ -74,13 +77,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlayfairDisplay_400Regular',
+            fontFamily:
+              'PlayfairDisplay_400Regular',
           }}>
           Playfair Display Regular
         </Text>
@@ -90,7 +99,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlayfairDisplay_500Medium',
+            fontFamily:
+              'PlayfairDisplay_500Medium',
           }}>
           Playfair Display Medium
         </Text>
@@ -100,7 +110,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlayfairDisplay_600SemiBold',
+            fontFamily:
+              'PlayfairDisplay_600SemiBold',
           }}>
           Playfair Display Semi Bold
         </Text>
@@ -110,7 +121,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlayfairDisplay_700Bold',
+            fontFamily:
+              'PlayfairDisplay_700Bold',
           }}>
           Playfair Display Bold
         </Text>
@@ -120,7 +132,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlayfairDisplay_800ExtraBold',
+            fontFamily:
+              'PlayfairDisplay_800ExtraBold',
           }}>
           Playfair Display Extra Bold
         </Text>
@@ -130,7 +143,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlayfairDisplay_900Black',
+            fontFamily:
+              'PlayfairDisplay_900Black',
           }}>
           Playfair Display Black
         </Text>
@@ -140,7 +154,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlayfairDisplay_400Regular_Italic',
+            fontFamily:
+              'PlayfairDisplay_400Regular_Italic',
           }}>
           Playfair Display Italic
         </Text>
@@ -150,7 +165,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlayfairDisplay_500Medium_Italic',
+            fontFamily:
+              'PlayfairDisplay_500Medium_Italic',
           }}>
           Playfair Display Medium Italic
         </Text>
@@ -160,9 +176,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlayfairDisplay_600SemiBold_Italic',
+            fontFamily:
+              'PlayfairDisplay_600SemiBold_Italic',
           }}>
-          Playfair Display Semi Bold Italic
+          Playfair Display Semi Bold
+          Italic
         </Text>
 
         <Text
@@ -170,7 +188,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlayfairDisplay_700Bold_Italic',
+            fontFamily:
+              'PlayfairDisplay_700Bold_Italic',
           }}>
           Playfair Display Bold Italic
         </Text>
@@ -180,9 +199,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlayfairDisplay_800ExtraBold_Italic',
+            fontFamily:
+              'PlayfairDisplay_800ExtraBold_Italic',
           }}>
-          Playfair Display Extra Bold Italic
+          Playfair Display Extra Bold
+          Italic
         </Text>
 
         <Text
@@ -190,7 +211,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'PlayfairDisplay_900Black_Italic',
+            fontFamily:
+              'PlayfairDisplay_900Black_Italic',
           }}>
           Playfair Display Black Italic
         </Text>

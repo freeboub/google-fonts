@@ -1,7 +1,12 @@
 {
   "family": "Braah One",
   "variants": ["regular"],
-  "subsets": ["gurmukhi", "latin", "latin-ext", "vietnamese"],
+  "subsets": [
+    "gurmukhi",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+  ],
   "version": "v6",
   "lastModified": "2024-09-04",
   "files": {

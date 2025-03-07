@@ -1,7 +1,11 @@
 {
   "family": "Aref Ruqaa",
   "variants": ["regular", "700"],
-  "subsets": ["arabic", "latin", "latin-ext"],
+  "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v25",
   "lastModified": "2024-09-04",
   "files": {

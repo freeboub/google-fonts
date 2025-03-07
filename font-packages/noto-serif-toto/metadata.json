@@ -1,7 +1,16 @@
 {
   "family": "Noto Serif Toto",
-  "variants": ["regular", "500", "600", "700"],
-  "subsets": ["latin", "latin-ext", "toto"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "toto"
+  ],
   "version": "v5",
   "lastModified": "2024-07-16",
   "files": {

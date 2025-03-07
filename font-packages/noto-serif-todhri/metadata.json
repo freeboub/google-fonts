@@ -1,7 +1,11 @@
 {
   "family": "Noto Serif Todhri",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "todhri"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "todhri"
+  ],
   "version": "v3",
   "lastModified": "2025-01-23",
   "files": {

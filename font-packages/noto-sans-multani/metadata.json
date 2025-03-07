@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Multani",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "multani"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "multani"
+  ],
   "version": "v20",
   "lastModified": "2022-11-09",
   "files": {

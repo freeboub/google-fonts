@@ -1,6 +1,12 @@
 {
   "family": "Koh Santepheap",
-  "variants": ["100", "300", "regular", "700", "900"],
+  "variants": [
+    "100",
+    "300",
+    "regular",
+    "700",
+    "900"
+  ],
   "subsets": ["khmer", "latin"],
   "version": "v14",
   "lastModified": "2024-11-20",

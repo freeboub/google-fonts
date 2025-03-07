@@ -27,7 +27,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-kaisei-decol/useFonts';
 import { KaiseiDecol_400Regular } from 'expo-google-fonts-kaisei-decol/400Regular';
 import { KaiseiDecol_500Medium } from 'expo-google-fonts-kaisei-decol/500Medium';
@@ -47,13 +50,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KaiseiDecol_400Regular',
+            fontFamily:
+              'KaiseiDecol_400Regular',
           }}>
           Kaisei Decol Regular
         </Text>
@@ -63,7 +72,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KaiseiDecol_500Medium',
+            fontFamily:
+              'KaiseiDecol_500Medium',
           }}>
           Kaisei Decol Medium
         </Text>
@@ -73,7 +83,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'KaiseiDecol_700Bold',
+            fontFamily:
+              'KaiseiDecol_700Bold',
           }}>
           Kaisei Decol Bold
         </Text>

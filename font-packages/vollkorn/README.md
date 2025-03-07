@@ -36,7 +36,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-vollkorn/useFonts';
 import { Vollkorn_400Regular } from 'expo-google-fonts-vollkorn/400Regular';
 import { Vollkorn_500Medium } from 'expo-google-fonts-vollkorn/500Medium';
@@ -74,13 +77,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Vollkorn_400Regular',
+            fontFamily:
+              'Vollkorn_400Regular',
           }}>
           Vollkorn Regular
         </Text>
@@ -90,7 +99,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Vollkorn_500Medium',
+            fontFamily:
+              'Vollkorn_500Medium',
           }}>
           Vollkorn Medium
         </Text>
@@ -100,7 +110,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Vollkorn_600SemiBold',
+            fontFamily:
+              'Vollkorn_600SemiBold',
           }}>
           Vollkorn Semi Bold
         </Text>
@@ -110,7 +121,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Vollkorn_700Bold',
+            fontFamily:
+              'Vollkorn_700Bold',
           }}>
           Vollkorn Bold
         </Text>
@@ -120,7 +132,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Vollkorn_800ExtraBold',
+            fontFamily:
+              'Vollkorn_800ExtraBold',
           }}>
           Vollkorn Extra Bold
         </Text>
@@ -130,7 +143,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Vollkorn_900Black',
+            fontFamily:
+              'Vollkorn_900Black',
           }}>
           Vollkorn Black
         </Text>
@@ -140,7 +154,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Vollkorn_400Regular_Italic',
+            fontFamily:
+              'Vollkorn_400Regular_Italic',
           }}>
           Vollkorn Italic
         </Text>
@@ -150,7 +165,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Vollkorn_500Medium_Italic',
+            fontFamily:
+              'Vollkorn_500Medium_Italic',
           }}>
           Vollkorn Medium Italic
         </Text>
@@ -160,7 +176,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Vollkorn_600SemiBold_Italic',
+            fontFamily:
+              'Vollkorn_600SemiBold_Italic',
           }}>
           Vollkorn Semi Bold Italic
         </Text>
@@ -170,7 +187,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Vollkorn_700Bold_Italic',
+            fontFamily:
+              'Vollkorn_700Bold_Italic',
           }}>
           Vollkorn Bold Italic
         </Text>
@@ -180,7 +198,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Vollkorn_800ExtraBold_Italic',
+            fontFamily:
+              'Vollkorn_800ExtraBold_Italic',
           }}>
           Vollkorn Extra Bold Italic
         </Text>
@@ -190,7 +209,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Vollkorn_900Black_Italic',
+            fontFamily:
+              'Vollkorn_900Black_Italic',
           }}>
           Vollkorn Black Italic
         </Text>

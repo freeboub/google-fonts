@@ -30,7 +30,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-yanone-kaffeesatz/useFonts';
 import { YanoneKaffeesatz_200ExtraLight } from 'expo-google-fonts-yanone-kaffeesatz/200ExtraLight';
 import { YanoneKaffeesatz_300Light } from 'expo-google-fonts-yanone-kaffeesatz/300Light';
@@ -56,13 +59,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YanoneKaffeesatz_200ExtraLight',
+            fontFamily:
+              'YanoneKaffeesatz_200ExtraLight',
           }}>
           Yanone Kaffeesatz Extra Light
         </Text>
@@ -72,7 +81,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YanoneKaffeesatz_300Light',
+            fontFamily:
+              'YanoneKaffeesatz_300Light',
           }}>
           Yanone Kaffeesatz Light
         </Text>
@@ -82,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YanoneKaffeesatz_400Regular',
+            fontFamily:
+              'YanoneKaffeesatz_400Regular',
           }}>
           Yanone Kaffeesatz Regular
         </Text>
@@ -92,7 +103,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YanoneKaffeesatz_500Medium',
+            fontFamily:
+              'YanoneKaffeesatz_500Medium',
           }}>
           Yanone Kaffeesatz Medium
         </Text>
@@ -102,7 +114,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YanoneKaffeesatz_600SemiBold',
+            fontFamily:
+              'YanoneKaffeesatz_600SemiBold',
           }}>
           Yanone Kaffeesatz Semi Bold
         </Text>
@@ -112,7 +125,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'YanoneKaffeesatz_700Bold',
+            fontFamily:
+              'YanoneKaffeesatz_700Bold',
           }}>
           Yanone Kaffeesatz Bold
         </Text>

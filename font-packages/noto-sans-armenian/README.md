@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-armenian/useFonts';
 import { NotoSansArmenian_100Thin } from 'expo-google-fonts-noto-sans-armenian/100Thin';
 import { NotoSansArmenian_200ExtraLight } from 'expo-google-fonts-noto-sans-armenian/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansArmenian_100Thin',
+            fontFamily:
+              'NotoSansArmenian_100Thin',
           }}>
           Noto Sans Armenian Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansArmenian_200ExtraLight',
+            fontFamily:
+              'NotoSansArmenian_200ExtraLight',
           }}>
           Noto Sans Armenian Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansArmenian_300Light',
+            fontFamily:
+              'NotoSansArmenian_300Light',
           }}>
           Noto Sans Armenian Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansArmenian_400Regular',
+            fontFamily:
+              'NotoSansArmenian_400Regular',
           }}>
           Noto Sans Armenian Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansArmenian_500Medium',
+            fontFamily:
+              'NotoSansArmenian_500Medium',
           }}>
           Noto Sans Armenian Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansArmenian_600SemiBold',
+            fontFamily:
+              'NotoSansArmenian_600SemiBold',
           }}>
           Noto Sans Armenian Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansArmenian_700Bold',
+            fontFamily:
+              'NotoSansArmenian_700Bold',
           }}>
           Noto Sans Armenian Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansArmenian_800ExtraBold',
+            fontFamily:
+              'NotoSansArmenian_800ExtraBold',
           }}>
           Noto Sans Armenian Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansArmenian_900Black',
+            fontFamily:
+              'NotoSansArmenian_900Black',
           }}>
           Noto Sans Armenian Black
         </Text>

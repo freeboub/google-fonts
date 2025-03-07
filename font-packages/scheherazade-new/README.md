@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-scheherazade-new/useFonts';
 import { ScheherazadeNew_400Regular } from 'expo-google-fonts-scheherazade-new/400Regular';
 import { ScheherazadeNew_500Medium } from 'expo-google-fonts-scheherazade-new/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ScheherazadeNew_400Regular',
+            fontFamily:
+              'ScheherazadeNew_400Regular',
           }}>
           Scheherazade New Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ScheherazadeNew_500Medium',
+            fontFamily:
+              'ScheherazadeNew_500Medium',
           }}>
           Scheherazade New Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ScheherazadeNew_600SemiBold',
+            fontFamily:
+              'ScheherazadeNew_600SemiBold',
           }}>
           Scheherazade New Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ScheherazadeNew_700Bold',
+            fontFamily:
+              'ScheherazadeNew_700Bold',
           }}>
           Scheherazade New Bold
         </Text>

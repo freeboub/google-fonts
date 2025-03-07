@@ -16,7 +16,14 @@
     "800italic",
     "900italic"
   ],
-  "subsets": ["arabic", "cyrillic", "cyrillic-ext", "hebrew", "latin", "latin-ext"],
+  "subsets": [
+    "arabic",
+    "cyrillic",
+    "cyrillic-ext",
+    "hebrew",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v28",
   "lastModified": "2024-09-04",
   "files": {

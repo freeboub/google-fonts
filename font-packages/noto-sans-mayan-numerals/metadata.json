@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Mayan Numerals",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "mayan-numerals"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "mayan-numerals"
+  ],
   "version": "v16",
   "lastModified": "2024-09-04",
   "files": {

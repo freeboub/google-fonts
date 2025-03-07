@@ -34,7 +34,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-zilla-slab/useFonts';
 import { ZillaSlab_300Light } from 'expo-google-fonts-zilla-slab/300Light';
 import { ZillaSlab_300Light_Italic } from 'expo-google-fonts-zilla-slab/300Light_Italic';
@@ -68,13 +71,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ZillaSlab_300Light',
+            fontFamily:
+              'ZillaSlab_300Light',
           }}>
           Zilla Slab Light
         </Text>
@@ -84,7 +93,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ZillaSlab_300Light_Italic',
+            fontFamily:
+              'ZillaSlab_300Light_Italic',
           }}>
           Zilla Slab Light Italic
         </Text>
@@ -94,7 +104,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ZillaSlab_400Regular',
+            fontFamily:
+              'ZillaSlab_400Regular',
           }}>
           Zilla Slab Regular
         </Text>
@@ -104,7 +115,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ZillaSlab_400Regular_Italic',
+            fontFamily:
+              'ZillaSlab_400Regular_Italic',
           }}>
           Zilla Slab Italic
         </Text>
@@ -114,7 +126,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ZillaSlab_500Medium',
+            fontFamily:
+              'ZillaSlab_500Medium',
           }}>
           Zilla Slab Medium
         </Text>
@@ -124,7 +137,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ZillaSlab_500Medium_Italic',
+            fontFamily:
+              'ZillaSlab_500Medium_Italic',
           }}>
           Zilla Slab Medium Italic
         </Text>
@@ -134,7 +148,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ZillaSlab_600SemiBold',
+            fontFamily:
+              'ZillaSlab_600SemiBold',
           }}>
           Zilla Slab Semi Bold
         </Text>
@@ -144,7 +159,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ZillaSlab_600SemiBold_Italic',
+            fontFamily:
+              'ZillaSlab_600SemiBold_Italic',
           }}>
           Zilla Slab Semi Bold Italic
         </Text>
@@ -154,7 +170,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ZillaSlab_700Bold',
+            fontFamily:
+              'ZillaSlab_700Bold',
           }}>
           Zilla Slab Bold
         </Text>
@@ -164,7 +181,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ZillaSlab_700Bold_Italic',
+            fontFamily:
+              'ZillaSlab_700Bold_Italic',
           }}>
           Zilla Slab Bold Italic
         </Text>

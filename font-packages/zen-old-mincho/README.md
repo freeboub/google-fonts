@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-zen-old-mincho/useFonts';
 import { ZenOldMincho_400Regular } from 'expo-google-fonts-zen-old-mincho/400Regular';
 import { ZenOldMincho_500Medium } from 'expo-google-fonts-zen-old-mincho/500Medium';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ZenOldMincho_400Regular',
+            fontFamily:
+              'ZenOldMincho_400Regular',
           }}>
           Zen Old Mincho Regular
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ZenOldMincho_500Medium',
+            fontFamily:
+              'ZenOldMincho_500Medium',
           }}>
           Zen Old Mincho Medium
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ZenOldMincho_600SemiBold',
+            fontFamily:
+              'ZenOldMincho_600SemiBold',
           }}>
           Zen Old Mincho Semi Bold
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ZenOldMincho_700Bold',
+            fontFamily:
+              'ZenOldMincho_700Bold',
           }}>
           Zen Old Mincho Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'ZenOldMincho_900Black',
+            fontFamily:
+              'ZenOldMincho_900Black',
           }}>
           Zen Old Mincho Black
         </Text>

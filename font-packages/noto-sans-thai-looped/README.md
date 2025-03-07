@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-thai-looped/useFonts';
 import { NotoSansThaiLooped_100Thin } from 'expo-google-fonts-noto-sans-thai-looped/100Thin';
 import { NotoSansThaiLooped_200ExtraLight } from 'expo-google-fonts-noto-sans-thai-looped/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansThaiLooped_100Thin',
+            fontFamily:
+              'NotoSansThaiLooped_100Thin',
           }}>
           Noto Sans Thai Looped Thin
         </Text>
@@ -81,9 +90,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansThaiLooped_200ExtraLight',
+            fontFamily:
+              'NotoSansThaiLooped_200ExtraLight',
           }}>
-          Noto Sans Thai Looped Extra Light
+          Noto Sans Thai Looped Extra
+          Light
         </Text>
 
         <Text
@@ -91,7 +102,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansThaiLooped_300Light',
+            fontFamily:
+              'NotoSansThaiLooped_300Light',
           }}>
           Noto Sans Thai Looped Light
         </Text>
@@ -101,7 +113,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansThaiLooped_400Regular',
+            fontFamily:
+              'NotoSansThaiLooped_400Regular',
           }}>
           Noto Sans Thai Looped Regular
         </Text>
@@ -111,7 +124,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansThaiLooped_500Medium',
+            fontFamily:
+              'NotoSansThaiLooped_500Medium',
           }}>
           Noto Sans Thai Looped Medium
         </Text>
@@ -121,9 +135,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansThaiLooped_600SemiBold',
+            fontFamily:
+              'NotoSansThaiLooped_600SemiBold',
           }}>
-          Noto Sans Thai Looped Semi Bold
+          Noto Sans Thai Looped Semi
+          Bold
         </Text>
 
         <Text
@@ -131,7 +147,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansThaiLooped_700Bold',
+            fontFamily:
+              'NotoSansThaiLooped_700Bold',
           }}>
           Noto Sans Thai Looped Bold
         </Text>
@@ -141,9 +158,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansThaiLooped_800ExtraBold',
+            fontFamily:
+              'NotoSansThaiLooped_800ExtraBold',
           }}>
-          Noto Sans Thai Looped Extra Bold
+          Noto Sans Thai Looped Extra
+          Bold
         </Text>
 
         <Text
@@ -151,7 +170,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansThaiLooped_900Black',
+            fontFamily:
+              'NotoSansThaiLooped_900Black',
           }}>
           Noto Sans Thai Looped Black
         </Text>

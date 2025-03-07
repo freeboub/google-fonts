@@ -1,7 +1,16 @@
 {
   "family": "Noto Sans Balinese",
-  "variants": ["regular", "500", "600", "700"],
-  "subsets": ["balinese", "latin", "latin-ext"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "balinese",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v24",
   "lastModified": "2023-05-02",
   "files": {

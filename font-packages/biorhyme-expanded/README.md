@@ -29,7 +29,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-biorhyme-expanded/useFonts';
 import { BioRhymeExpanded_200ExtraLight } from 'expo-google-fonts-biorhyme-expanded/200ExtraLight';
 import { BioRhymeExpanded_300Light } from 'expo-google-fonts-biorhyme-expanded/300Light';
@@ -53,13 +56,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BioRhymeExpanded_200ExtraLight',
+            fontFamily:
+              'BioRhymeExpanded_200ExtraLight',
           }}>
           BioRhyme Expanded Extra Light
         </Text>
@@ -69,7 +78,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BioRhymeExpanded_300Light',
+            fontFamily:
+              'BioRhymeExpanded_300Light',
           }}>
           BioRhyme Expanded Light
         </Text>
@@ -79,7 +89,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BioRhymeExpanded_400Regular',
+            fontFamily:
+              'BioRhymeExpanded_400Regular',
           }}>
           BioRhyme Expanded Regular
         </Text>
@@ -89,7 +100,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BioRhymeExpanded_700Bold',
+            fontFamily:
+              'BioRhymeExpanded_700Bold',
           }}>
           BioRhyme Expanded Bold
         </Text>
@@ -99,7 +111,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'BioRhymeExpanded_800ExtraBold',
+            fontFamily:
+              'BioRhymeExpanded_800ExtraBold',
           }}>
           BioRhyme Expanded Extra Bold
         </Text>

@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-palanquin/useFonts';
 import { Palanquin_100Thin } from 'expo-google-fonts-palanquin/100Thin';
 import { Palanquin_200ExtraLight } from 'expo-google-fonts-palanquin/200ExtraLight';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Palanquin_100Thin',
+            fontFamily:
+              'Palanquin_100Thin',
           }}>
           Palanquin Thin
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Palanquin_200ExtraLight',
+            fontFamily:
+              'Palanquin_200ExtraLight',
           }}>
           Palanquin Extra Light
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Palanquin_300Light',
+            fontFamily:
+              'Palanquin_300Light',
           }}>
           Palanquin Light
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Palanquin_400Regular',
+            fontFamily:
+              'Palanquin_400Regular',
           }}>
           Palanquin Regular
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Palanquin_500Medium',
+            fontFamily:
+              'Palanquin_500Medium',
           }}>
           Palanquin Medium
         </Text>
@@ -115,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Palanquin_600SemiBold',
+            fontFamily:
+              'Palanquin_600SemiBold',
           }}>
           Palanquin Semi Bold
         </Text>
@@ -125,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Palanquin_700Bold',
+            fontFamily:
+              'Palanquin_700Bold',
           }}>
           Palanquin Bold
         </Text>

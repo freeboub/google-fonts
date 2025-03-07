@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-montserrat-underline/useFonts';
 import { MontserratUnderline_100Thin } from 'expo-google-fonts-montserrat-underline/100Thin';
 import { MontserratUnderline_200ExtraLight } from 'expo-google-fonts-montserrat-underline/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MontserratUnderline_100Thin',
+            fontFamily:
+              'MontserratUnderline_100Thin',
           }}>
           Montserrat Underline Thin
         </Text>
@@ -108,9 +117,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MontserratUnderline_200ExtraLight',
+            fontFamily:
+              'MontserratUnderline_200ExtraLight',
           }}>
-          Montserrat Underline Extra Light
+          Montserrat Underline Extra
+          Light
         </Text>
 
         <Text
@@ -118,7 +129,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MontserratUnderline_300Light',
+            fontFamily:
+              'MontserratUnderline_300Light',
           }}>
           Montserrat Underline Light
         </Text>
@@ -128,7 +140,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MontserratUnderline_400Regular',
+            fontFamily:
+              'MontserratUnderline_400Regular',
           }}>
           Montserrat Underline Regular
         </Text>
@@ -138,7 +151,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MontserratUnderline_500Medium',
+            fontFamily:
+              'MontserratUnderline_500Medium',
           }}>
           Montserrat Underline Medium
         </Text>
@@ -148,7 +162,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MontserratUnderline_600SemiBold',
+            fontFamily:
+              'MontserratUnderline_600SemiBold',
           }}>
           Montserrat Underline Semi Bold
         </Text>
@@ -158,7 +173,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MontserratUnderline_700Bold',
+            fontFamily:
+              'MontserratUnderline_700Bold',
           }}>
           Montserrat Underline Bold
         </Text>
@@ -168,9 +184,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MontserratUnderline_800ExtraBold',
+            fontFamily:
+              'MontserratUnderline_800ExtraBold',
           }}>
-          Montserrat Underline Extra Bold
+          Montserrat Underline Extra
+          Bold
         </Text>
 
         <Text
@@ -178,7 +196,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MontserratUnderline_900Black',
+            fontFamily:
+              'MontserratUnderline_900Black',
           }}>
           Montserrat Underline Black
         </Text>
@@ -188,9 +207,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MontserratUnderline_100Thin_Italic',
+            fontFamily:
+              'MontserratUnderline_100Thin_Italic',
           }}>
-          Montserrat Underline Thin Italic
+          Montserrat Underline Thin
+          Italic
         </Text>
 
         <Text
@@ -198,9 +219,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MontserratUnderline_200ExtraLight_Italic',
+            fontFamily:
+              'MontserratUnderline_200ExtraLight_Italic',
           }}>
-          Montserrat Underline Extra Light Italic
+          Montserrat Underline Extra
+          Light Italic
         </Text>
 
         <Text
@@ -208,9 +231,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MontserratUnderline_300Light_Italic',
+            fontFamily:
+              'MontserratUnderline_300Light_Italic',
           }}>
-          Montserrat Underline Light Italic
+          Montserrat Underline Light
+          Italic
         </Text>
 
         <Text
@@ -218,7 +243,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MontserratUnderline_400Regular_Italic',
+            fontFamily:
+              'MontserratUnderline_400Regular_Italic',
           }}>
           Montserrat Underline Italic
         </Text>
@@ -228,9 +254,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MontserratUnderline_500Medium_Italic',
+            fontFamily:
+              'MontserratUnderline_500Medium_Italic',
           }}>
-          Montserrat Underline Medium Italic
+          Montserrat Underline Medium
+          Italic
         </Text>
 
         <Text
@@ -238,9 +266,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MontserratUnderline_600SemiBold_Italic',
+            fontFamily:
+              'MontserratUnderline_600SemiBold_Italic',
           }}>
-          Montserrat Underline Semi Bold Italic
+          Montserrat Underline Semi Bold
+          Italic
         </Text>
 
         <Text
@@ -248,9 +278,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MontserratUnderline_700Bold_Italic',
+            fontFamily:
+              'MontserratUnderline_700Bold_Italic',
           }}>
-          Montserrat Underline Bold Italic
+          Montserrat Underline Bold
+          Italic
         </Text>
 
         <Text
@@ -258,9 +290,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MontserratUnderline_800ExtraBold_Italic',
+            fontFamily:
+              'MontserratUnderline_800ExtraBold_Italic',
           }}>
-          Montserrat Underline Extra Bold Italic
+          Montserrat Underline Extra
+          Bold Italic
         </Text>
 
         <Text
@@ -268,9 +302,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'MontserratUnderline_900Black_Italic',
+            fontFamily:
+              'MontserratUnderline_900Black_Italic',
           }}>
-          Montserrat Underline Black Italic
+          Montserrat Underline Black
+          Italic
         </Text>
       </View>
     );

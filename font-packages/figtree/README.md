@@ -38,7 +38,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-figtree/useFonts';
 import { Figtree_300Light } from 'expo-google-fonts-figtree/300Light';
 import { Figtree_400Regular } from 'expo-google-fonts-figtree/400Regular';
@@ -80,13 +83,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Figtree_300Light',
+            fontFamily:
+              'Figtree_300Light',
           }}>
           Figtree Light
         </Text>
@@ -96,7 +105,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Figtree_400Regular',
+            fontFamily:
+              'Figtree_400Regular',
           }}>
           Figtree Regular
         </Text>
@@ -106,7 +116,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Figtree_500Medium',
+            fontFamily:
+              'Figtree_500Medium',
           }}>
           Figtree Medium
         </Text>
@@ -116,7 +127,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Figtree_600SemiBold',
+            fontFamily:
+              'Figtree_600SemiBold',
           }}>
           Figtree Semi Bold
         </Text>
@@ -126,7 +138,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Figtree_700Bold',
+            fontFamily:
+              'Figtree_700Bold',
           }}>
           Figtree Bold
         </Text>
@@ -136,7 +149,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Figtree_800ExtraBold',
+            fontFamily:
+              'Figtree_800ExtraBold',
           }}>
           Figtree Extra Bold
         </Text>
@@ -146,7 +160,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Figtree_900Black',
+            fontFamily:
+              'Figtree_900Black',
           }}>
           Figtree Black
         </Text>
@@ -156,7 +171,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Figtree_300Light_Italic',
+            fontFamily:
+              'Figtree_300Light_Italic',
           }}>
           Figtree Light Italic
         </Text>
@@ -166,7 +182,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Figtree_400Regular_Italic',
+            fontFamily:
+              'Figtree_400Regular_Italic',
           }}>
           Figtree Italic
         </Text>
@@ -176,7 +193,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Figtree_500Medium_Italic',
+            fontFamily:
+              'Figtree_500Medium_Italic',
           }}>
           Figtree Medium Italic
         </Text>
@@ -186,7 +204,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Figtree_600SemiBold_Italic',
+            fontFamily:
+              'Figtree_600SemiBold_Italic',
           }}>
           Figtree Semi Bold Italic
         </Text>
@@ -196,7 +215,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Figtree_700Bold_Italic',
+            fontFamily:
+              'Figtree_700Bold_Italic',
           }}>
           Figtree Bold Italic
         </Text>
@@ -206,7 +226,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Figtree_800ExtraBold_Italic',
+            fontFamily:
+              'Figtree_800ExtraBold_Italic',
           }}>
           Figtree Extra Bold Italic
         </Text>
@@ -216,7 +237,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Figtree_900Black_Italic',
+            fontFamily:
+              'Figtree_900Black_Italic',
           }}>
           Figtree Black Italic
         </Text>

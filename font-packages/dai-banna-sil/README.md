@@ -34,7 +34,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-dai-banna-sil/useFonts';
 import { DaiBannaSIL_300Light } from 'expo-google-fonts-dai-banna-sil/300Light';
 import { DaiBannaSIL_300Light_Italic } from 'expo-google-fonts-dai-banna-sil/300Light_Italic';
@@ -68,13 +71,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DaiBannaSIL_300Light',
+            fontFamily:
+              'DaiBannaSIL_300Light',
           }}>
           Dai Banna SIL Light
         </Text>
@@ -84,7 +93,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DaiBannaSIL_300Light_Italic',
+            fontFamily:
+              'DaiBannaSIL_300Light_Italic',
           }}>
           Dai Banna SIL Light Italic
         </Text>
@@ -94,7 +104,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DaiBannaSIL_400Regular',
+            fontFamily:
+              'DaiBannaSIL_400Regular',
           }}>
           Dai Banna SIL Regular
         </Text>
@@ -104,7 +115,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DaiBannaSIL_400Regular_Italic',
+            fontFamily:
+              'DaiBannaSIL_400Regular_Italic',
           }}>
           Dai Banna SIL Italic
         </Text>
@@ -114,7 +126,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DaiBannaSIL_500Medium',
+            fontFamily:
+              'DaiBannaSIL_500Medium',
           }}>
           Dai Banna SIL Medium
         </Text>
@@ -124,7 +137,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DaiBannaSIL_500Medium_Italic',
+            fontFamily:
+              'DaiBannaSIL_500Medium_Italic',
           }}>
           Dai Banna SIL Medium Italic
         </Text>
@@ -134,7 +148,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DaiBannaSIL_600SemiBold',
+            fontFamily:
+              'DaiBannaSIL_600SemiBold',
           }}>
           Dai Banna SIL Semi Bold
         </Text>
@@ -144,7 +159,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DaiBannaSIL_600SemiBold_Italic',
+            fontFamily:
+              'DaiBannaSIL_600SemiBold_Italic',
           }}>
           Dai Banna SIL Semi Bold Italic
         </Text>
@@ -154,7 +170,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DaiBannaSIL_700Bold',
+            fontFamily:
+              'DaiBannaSIL_700Bold',
           }}>
           Dai Banna SIL Bold
         </Text>
@@ -164,7 +181,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'DaiBannaSIL_700Bold_Italic',
+            fontFamily:
+              'DaiBannaSIL_700Bold_Italic',
           }}>
           Dai Banna SIL Bold Italic
         </Text>

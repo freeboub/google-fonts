@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-libre-bodoni/useFonts';
 import { LibreBodoni_400Regular } from 'expo-google-fonts-libre-bodoni/400Regular';
 import { LibreBodoni_500Medium } from 'expo-google-fonts-libre-bodoni/500Medium';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreBodoni_400Regular',
+            fontFamily:
+              'LibreBodoni_400Regular',
           }}>
           Libre Bodoni Regular
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreBodoni_500Medium',
+            fontFamily:
+              'LibreBodoni_500Medium',
           }}>
           Libre Bodoni Medium
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreBodoni_600SemiBold',
+            fontFamily:
+              'LibreBodoni_600SemiBold',
           }}>
           Libre Bodoni Semi Bold
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreBodoni_700Bold',
+            fontFamily:
+              'LibreBodoni_700Bold',
           }}>
           Libre Bodoni Bold
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreBodoni_400Regular_Italic',
+            fontFamily:
+              'LibreBodoni_400Regular_Italic',
           }}>
           Libre Bodoni Italic
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreBodoni_500Medium_Italic',
+            fontFamily:
+              'LibreBodoni_500Medium_Italic',
           }}>
           Libre Bodoni Medium Italic
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreBodoni_600SemiBold_Italic',
+            fontFamily:
+              'LibreBodoni_600SemiBold_Italic',
           }}>
           Libre Bodoni Semi Bold Italic
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreBodoni_700Bold_Italic',
+            fontFamily:
+              'LibreBodoni_700Bold_Italic',
           }}>
           Libre Bodoni Bold Italic
         </Text>

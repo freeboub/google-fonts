@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Siddham",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "siddham"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "siddham"
+  ],
   "version": "v20",
   "lastModified": "2023-09-27",
   "files": {

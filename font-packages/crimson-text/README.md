@@ -30,7 +30,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-crimson-text/useFonts';
 import { CrimsonText_400Regular } from 'expo-google-fonts-crimson-text/400Regular';
 import { CrimsonText_400Regular_Italic } from 'expo-google-fonts-crimson-text/400Regular_Italic';
@@ -56,13 +59,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CrimsonText_400Regular',
+            fontFamily:
+              'CrimsonText_400Regular',
           }}>
           Crimson Text Regular
         </Text>
@@ -72,7 +81,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CrimsonText_400Regular_Italic',
+            fontFamily:
+              'CrimsonText_400Regular_Italic',
           }}>
           Crimson Text Italic
         </Text>
@@ -82,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CrimsonText_600SemiBold',
+            fontFamily:
+              'CrimsonText_600SemiBold',
           }}>
           Crimson Text Semi Bold
         </Text>
@@ -92,7 +103,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CrimsonText_600SemiBold_Italic',
+            fontFamily:
+              'CrimsonText_600SemiBold_Italic',
           }}>
           Crimson Text Semi Bold Italic
         </Text>
@@ -102,7 +114,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CrimsonText_700Bold',
+            fontFamily:
+              'CrimsonText_700Bold',
           }}>
           Crimson Text Bold
         </Text>
@@ -112,7 +125,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'CrimsonText_700Bold_Italic',
+            fontFamily:
+              'CrimsonText_700Bold_Italic',
           }}>
           Crimson Text Bold Italic
         </Text>

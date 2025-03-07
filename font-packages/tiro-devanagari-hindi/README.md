@@ -26,7 +26,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-tiro-devanagari-hindi/useFonts';
 import { TiroDevanagariHindi_400Regular } from 'expo-google-fonts-tiro-devanagari-hindi/400Regular';
 import { TiroDevanagariHindi_400Regular_Italic } from 'expo-google-fonts-tiro-devanagari-hindi/400Regular_Italic';
@@ -44,13 +47,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'TiroDevanagariHindi_400Regular',
+            fontFamily:
+              'TiroDevanagariHindi_400Regular',
           }}>
           Tiro Devanagari Hindi Regular
         </Text>
@@ -60,7 +69,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'TiroDevanagariHindi_400Regular_Italic',
+            fontFamily:
+              'TiroDevanagariHindi_400Regular_Italic',
           }}>
           Tiro Devanagari Hindi Italic
         </Text>

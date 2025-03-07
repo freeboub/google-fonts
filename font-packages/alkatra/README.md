@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-alkatra/useFonts';
 import { Alkatra_400Regular } from 'expo-google-fonts-alkatra/400Regular';
 import { Alkatra_500Medium } from 'expo-google-fonts-alkatra/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Alkatra_400Regular',
+            fontFamily:
+              'Alkatra_400Regular',
           }}>
           Alkatra Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Alkatra_500Medium',
+            fontFamily:
+              'Alkatra_500Medium',
           }}>
           Alkatra Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Alkatra_600SemiBold',
+            fontFamily:
+              'Alkatra_600SemiBold',
           }}>
           Alkatra Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Alkatra_700Bold',
+            fontFamily:
+              'Alkatra_700Bold',
           }}>
           Alkatra Bold
         </Text>

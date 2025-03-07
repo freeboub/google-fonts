@@ -28,7 +28,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-sans-tangsa/useFonts';
 import { NotoSansTangsa_400Regular } from 'expo-google-fonts-noto-sans-tangsa/400Regular';
 import { NotoSansTangsa_500Medium } from 'expo-google-fonts-noto-sans-tangsa/500Medium';
@@ -50,13 +53,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTangsa_400Regular',
+            fontFamily:
+              'NotoSansTangsa_400Regular',
           }}>
           Noto Sans Tangsa Regular
         </Text>
@@ -66,7 +75,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTangsa_500Medium',
+            fontFamily:
+              'NotoSansTangsa_500Medium',
           }}>
           Noto Sans Tangsa Medium
         </Text>
@@ -76,7 +86,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTangsa_600SemiBold',
+            fontFamily:
+              'NotoSansTangsa_600SemiBold',
           }}>
           Noto Sans Tangsa Semi Bold
         </Text>
@@ -86,7 +97,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSansTangsa_700Bold',
+            fontFamily:
+              'NotoSansTangsa_700Bold',
           }}>
           Noto Sans Tangsa Bold
         </Text>

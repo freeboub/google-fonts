@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-libre-franklin/useFonts';
 import { LibreFranklin_100Thin } from 'expo-google-fonts-libre-franklin/100Thin';
 import { LibreFranklin_200ExtraLight } from 'expo-google-fonts-libre-franklin/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_100Thin',
+            fontFamily:
+              'LibreFranklin_100Thin',
           }}>
           Libre Franklin Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_200ExtraLight',
+            fontFamily:
+              'LibreFranklin_200ExtraLight',
           }}>
           Libre Franklin Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_300Light',
+            fontFamily:
+              'LibreFranklin_300Light',
           }}>
           Libre Franklin Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_400Regular',
+            fontFamily:
+              'LibreFranklin_400Regular',
           }}>
           Libre Franklin Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_500Medium',
+            fontFamily:
+              'LibreFranklin_500Medium',
           }}>
           Libre Franklin Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_600SemiBold',
+            fontFamily:
+              'LibreFranklin_600SemiBold',
           }}>
           Libre Franklin Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_700Bold',
+            fontFamily:
+              'LibreFranklin_700Bold',
           }}>
           Libre Franklin Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_800ExtraBold',
+            fontFamily:
+              'LibreFranklin_800ExtraBold',
           }}>
           Libre Franklin Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_900Black',
+            fontFamily:
+              'LibreFranklin_900Black',
           }}>
           Libre Franklin Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_100Thin_Italic',
+            fontFamily:
+              'LibreFranklin_100Thin_Italic',
           }}>
           Libre Franklin Thin Italic
         </Text>
@@ -198,9 +216,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_200ExtraLight_Italic',
+            fontFamily:
+              'LibreFranklin_200ExtraLight_Italic',
           }}>
-          Libre Franklin Extra Light Italic
+          Libre Franklin Extra Light
+          Italic
         </Text>
 
         <Text
@@ -208,7 +228,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_300Light_Italic',
+            fontFamily:
+              'LibreFranklin_300Light_Italic',
           }}>
           Libre Franklin Light Italic
         </Text>
@@ -218,7 +239,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_400Regular_Italic',
+            fontFamily:
+              'LibreFranklin_400Regular_Italic',
           }}>
           Libre Franklin Italic
         </Text>
@@ -228,7 +250,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_500Medium_Italic',
+            fontFamily:
+              'LibreFranklin_500Medium_Italic',
           }}>
           Libre Franklin Medium Italic
         </Text>
@@ -238,9 +261,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_600SemiBold_Italic',
+            fontFamily:
+              'LibreFranklin_600SemiBold_Italic',
           }}>
-          Libre Franklin Semi Bold Italic
+          Libre Franklin Semi Bold
+          Italic
         </Text>
 
         <Text
@@ -248,7 +273,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_700Bold_Italic',
+            fontFamily:
+              'LibreFranklin_700Bold_Italic',
           }}>
           Libre Franklin Bold Italic
         </Text>
@@ -258,9 +284,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_800ExtraBold_Italic',
+            fontFamily:
+              'LibreFranklin_800ExtraBold_Italic',
           }}>
-          Libre Franklin Extra Bold Italic
+          Libre Franklin Extra Bold
+          Italic
         </Text>
 
         <Text
@@ -268,7 +296,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LibreFranklin_900Black_Italic',
+            fontFamily:
+              'LibreFranklin_900Black_Italic',
           }}>
           Libre Franklin Black Italic
         </Text>

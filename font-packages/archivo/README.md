@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-archivo/useFonts';
 import { Archivo_100Thin } from 'expo-google-fonts-archivo/100Thin';
 import { Archivo_200ExtraLight } from 'expo-google-fonts-archivo/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Archivo_100Thin',
+            fontFamily:
+              'Archivo_100Thin',
           }}>
           Archivo Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Archivo_200ExtraLight',
+            fontFamily:
+              'Archivo_200ExtraLight',
           }}>
           Archivo Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Archivo_300Light',
+            fontFamily:
+              'Archivo_300Light',
           }}>
           Archivo Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Archivo_400Regular',
+            fontFamily:
+              'Archivo_400Regular',
           }}>
           Archivo Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Archivo_500Medium',
+            fontFamily:
+              'Archivo_500Medium',
           }}>
           Archivo Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Archivo_600SemiBold',
+            fontFamily:
+              'Archivo_600SemiBold',
           }}>
           Archivo Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Archivo_700Bold',
+            fontFamily:
+              'Archivo_700Bold',
           }}>
           Archivo Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Archivo_800ExtraBold',
+            fontFamily:
+              'Archivo_800ExtraBold',
           }}>
           Archivo Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Archivo_900Black',
+            fontFamily:
+              'Archivo_900Black',
           }}>
           Archivo Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Archivo_100Thin_Italic',
+            fontFamily:
+              'Archivo_100Thin_Italic',
           }}>
           Archivo Thin Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Archivo_200ExtraLight_Italic',
+            fontFamily:
+              'Archivo_200ExtraLight_Italic',
           }}>
           Archivo Extra Light Italic
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Archivo_300Light_Italic',
+            fontFamily:
+              'Archivo_300Light_Italic',
           }}>
           Archivo Light Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Archivo_400Regular_Italic',
+            fontFamily:
+              'Archivo_400Regular_Italic',
           }}>
           Archivo Italic
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Archivo_500Medium_Italic',
+            fontFamily:
+              'Archivo_500Medium_Italic',
           }}>
           Archivo Medium Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Archivo_600SemiBold_Italic',
+            fontFamily:
+              'Archivo_600SemiBold_Italic',
           }}>
           Archivo Semi Bold Italic
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Archivo_700Bold_Italic',
+            fontFamily:
+              'Archivo_700Bold_Italic',
           }}>
           Archivo Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Archivo_800ExtraBold_Italic',
+            fontFamily:
+              'Archivo_800ExtraBold_Italic',
           }}>
           Archivo Extra Bold Italic
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Archivo_900Black_Italic',
+            fontFamily:
+              'Archivo_900Black_Italic',
           }}>
           Archivo Black Italic
         </Text>

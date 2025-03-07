@@ -42,7 +42,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-montserrat/useFonts';
 import { Montserrat_100Thin } from 'expo-google-fonts-montserrat/100Thin';
 import { Montserrat_200ExtraLight } from 'expo-google-fonts-montserrat/200ExtraLight';
@@ -92,13 +95,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Montserrat_100Thin',
+            fontFamily:
+              'Montserrat_100Thin',
           }}>
           Montserrat Thin
         </Text>
@@ -108,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Montserrat_200ExtraLight',
+            fontFamily:
+              'Montserrat_200ExtraLight',
           }}>
           Montserrat Extra Light
         </Text>
@@ -118,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Montserrat_300Light',
+            fontFamily:
+              'Montserrat_300Light',
           }}>
           Montserrat Light
         </Text>
@@ -128,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Montserrat_400Regular',
+            fontFamily:
+              'Montserrat_400Regular',
           }}>
           Montserrat Regular
         </Text>
@@ -138,7 +150,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Montserrat_500Medium',
+            fontFamily:
+              'Montserrat_500Medium',
           }}>
           Montserrat Medium
         </Text>
@@ -148,7 +161,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Montserrat_600SemiBold',
+            fontFamily:
+              'Montserrat_600SemiBold',
           }}>
           Montserrat Semi Bold
         </Text>
@@ -158,7 +172,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Montserrat_700Bold',
+            fontFamily:
+              'Montserrat_700Bold',
           }}>
           Montserrat Bold
         </Text>
@@ -168,7 +183,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Montserrat_800ExtraBold',
+            fontFamily:
+              'Montserrat_800ExtraBold',
           }}>
           Montserrat Extra Bold
         </Text>
@@ -178,7 +194,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Montserrat_900Black',
+            fontFamily:
+              'Montserrat_900Black',
           }}>
           Montserrat Black
         </Text>
@@ -188,7 +205,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Montserrat_100Thin_Italic',
+            fontFamily:
+              'Montserrat_100Thin_Italic',
           }}>
           Montserrat Thin Italic
         </Text>
@@ -198,7 +216,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Montserrat_200ExtraLight_Italic',
+            fontFamily:
+              'Montserrat_200ExtraLight_Italic',
           }}>
           Montserrat Extra Light Italic
         </Text>
@@ -208,7 +227,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Montserrat_300Light_Italic',
+            fontFamily:
+              'Montserrat_300Light_Italic',
           }}>
           Montserrat Light Italic
         </Text>
@@ -218,7 +238,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Montserrat_400Regular_Italic',
+            fontFamily:
+              'Montserrat_400Regular_Italic',
           }}>
           Montserrat Italic
         </Text>
@@ -228,7 +249,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Montserrat_500Medium_Italic',
+            fontFamily:
+              'Montserrat_500Medium_Italic',
           }}>
           Montserrat Medium Italic
         </Text>
@@ -238,7 +260,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Montserrat_600SemiBold_Italic',
+            fontFamily:
+              'Montserrat_600SemiBold_Italic',
           }}>
           Montserrat Semi Bold Italic
         </Text>
@@ -248,7 +271,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Montserrat_700Bold_Italic',
+            fontFamily:
+              'Montserrat_700Bold_Italic',
           }}>
           Montserrat Bold Italic
         </Text>
@@ -258,7 +282,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Montserrat_800ExtraBold_Italic',
+            fontFamily:
+              'Montserrat_800ExtraBold_Italic',
           }}>
           Montserrat Extra Bold Italic
         </Text>
@@ -268,7 +293,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Montserrat_900Black_Italic',
+            fontFamily:
+              'Montserrat_900Black_Italic',
           }}>
           Montserrat Black Italic
         </Text>

@@ -26,7 +26,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-amatic-sc/useFonts';
 import { AmaticSC_400Regular } from 'expo-google-fonts-amatic-sc/400Regular';
 import { AmaticSC_700Bold } from 'expo-google-fonts-amatic-sc/700Bold';
@@ -44,13 +47,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AmaticSC_400Regular',
+            fontFamily:
+              'AmaticSC_400Regular',
           }}>
           Amatic SC Regular
         </Text>
@@ -60,7 +69,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'AmaticSC_700Bold',
+            fontFamily:
+              'AmaticSC_700Bold',
           }}>
           Amatic SC Bold
         </Text>

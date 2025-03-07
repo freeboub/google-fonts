@@ -32,7 +32,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-brygada-1918/useFonts';
 import { Brygada1918_400Regular } from 'expo-google-fonts-brygada-1918/400Regular';
 import { Brygada1918_500Medium } from 'expo-google-fonts-brygada-1918/500Medium';
@@ -62,13 +65,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Brygada1918_400Regular',
+            fontFamily:
+              'Brygada1918_400Regular',
           }}>
           Brygada 1918 Regular
         </Text>
@@ -78,7 +87,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Brygada1918_500Medium',
+            fontFamily:
+              'Brygada1918_500Medium',
           }}>
           Brygada 1918 Medium
         </Text>
@@ -88,7 +98,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Brygada1918_600SemiBold',
+            fontFamily:
+              'Brygada1918_600SemiBold',
           }}>
           Brygada 1918 Semi Bold
         </Text>
@@ -98,7 +109,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Brygada1918_700Bold',
+            fontFamily:
+              'Brygada1918_700Bold',
           }}>
           Brygada 1918 Bold
         </Text>
@@ -108,7 +120,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Brygada1918_400Regular_Italic',
+            fontFamily:
+              'Brygada1918_400Regular_Italic',
           }}>
           Brygada 1918 Italic
         </Text>
@@ -118,7 +131,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Brygada1918_500Medium_Italic',
+            fontFamily:
+              'Brygada1918_500Medium_Italic',
           }}>
           Brygada 1918 Medium Italic
         </Text>
@@ -128,7 +142,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Brygada1918_600SemiBold_Italic',
+            fontFamily:
+              'Brygada1918_600SemiBold_Italic',
           }}>
           Brygada 1918 Semi Bold Italic
         </Text>
@@ -138,7 +153,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Brygada1918_700Bold_Italic',
+            fontFamily:
+              'Brygada1918_700Bold_Italic',
           }}>
           Brygada 1918 Bold Italic
         </Text>

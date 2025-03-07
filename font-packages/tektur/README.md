@@ -30,7 +30,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-tektur/useFonts';
 import { Tektur_400Regular } from 'expo-google-fonts-tektur/400Regular';
 import { Tektur_500Medium } from 'expo-google-fonts-tektur/500Medium';
@@ -56,13 +59,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tektur_400Regular',
+            fontFamily:
+              'Tektur_400Regular',
           }}>
           Tektur Regular
         </Text>
@@ -72,7 +81,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tektur_500Medium',
+            fontFamily:
+              'Tektur_500Medium',
           }}>
           Tektur Medium
         </Text>
@@ -82,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tektur_600SemiBold',
+            fontFamily:
+              'Tektur_600SemiBold',
           }}>
           Tektur Semi Bold
         </Text>
@@ -92,7 +103,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tektur_700Bold',
+            fontFamily:
+              'Tektur_700Bold',
           }}>
           Tektur Bold
         </Text>
@@ -102,7 +114,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tektur_800ExtraBold',
+            fontFamily:
+              'Tektur_800ExtraBold',
           }}>
           Tektur Extra Bold
         </Text>
@@ -112,7 +125,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Tektur_900Black',
+            fontFamily:
+              'Tektur_900Black',
           }}>
           Tektur Black
         </Text>

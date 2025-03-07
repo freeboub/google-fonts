@@ -26,7 +26,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-qwitcher-grypen/useFonts';
 import { QwitcherGrypen_400Regular } from 'expo-google-fonts-qwitcher-grypen/400Regular';
 import { QwitcherGrypen_700Bold } from 'expo-google-fonts-qwitcher-grypen/700Bold';
@@ -44,13 +47,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'QwitcherGrypen_400Regular',
+            fontFamily:
+              'QwitcherGrypen_400Regular',
           }}>
           Qwitcher Grypen Regular
         </Text>
@@ -60,7 +69,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'QwitcherGrypen_700Bold',
+            fontFamily:
+              'QwitcherGrypen_700Bold',
           }}>
           Qwitcher Grypen Bold
         </Text>

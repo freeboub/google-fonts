@@ -30,7 +30,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-cinzel/useFonts';
 import { Cinzel_400Regular } from 'expo-google-fonts-cinzel/400Regular';
 import { Cinzel_500Medium } from 'expo-google-fonts-cinzel/500Medium';
@@ -56,13 +59,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cinzel_400Regular',
+            fontFamily:
+              'Cinzel_400Regular',
           }}>
           Cinzel Regular
         </Text>
@@ -72,7 +81,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cinzel_500Medium',
+            fontFamily:
+              'Cinzel_500Medium',
           }}>
           Cinzel Medium
         </Text>
@@ -82,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cinzel_600SemiBold',
+            fontFamily:
+              'Cinzel_600SemiBold',
           }}>
           Cinzel Semi Bold
         </Text>
@@ -92,7 +103,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cinzel_700Bold',
+            fontFamily:
+              'Cinzel_700Bold',
           }}>
           Cinzel Bold
         </Text>
@@ -102,7 +114,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cinzel_800ExtraBold',
+            fontFamily:
+              'Cinzel_800ExtraBold',
           }}>
           Cinzel Extra Bold
         </Text>
@@ -112,7 +125,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Cinzel_900Black',
+            fontFamily:
+              'Cinzel_900Black',
           }}>
           Cinzel Black
         </Text>

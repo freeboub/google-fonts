@@ -1,7 +1,16 @@
 {
   "family": "Noto Serif Khojki",
-  "variants": ["regular", "500", "600", "700"],
-  "subsets": ["khojki", "latin", "latin-ext"],
+  "variants": [
+    "regular",
+    "500",
+    "600",
+    "700"
+  ],
+  "subsets": [
+    "khojki",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v11",
   "lastModified": "2024-02-02",
   "files": {

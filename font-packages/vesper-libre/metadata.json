@@ -1,7 +1,16 @@
 {
   "family": "Vesper Libre",
-  "variants": ["regular", "500", "700", "900"],
-  "subsets": ["devanagari", "latin", "latin-ext"],
+  "variants": [
+    "regular",
+    "500",
+    "700",
+    "900"
+  ],
+  "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+  ],
   "version": "v19",
   "lastModified": "2024-09-04",
   "files": {

@@ -1,7 +1,11 @@
 {
   "family": "Noto Sans Tai Viet",
   "variants": ["regular"],
-  "subsets": ["latin", "latin-ext", "tai-viet"],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "tai-viet"
+  ],
   "version": "v19",
   "lastModified": "2023-09-27",
   "files": {

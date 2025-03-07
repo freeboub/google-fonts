@@ -31,7 +31,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-ibm-plex-sans-kr/useFonts';
 import { IBMPlexSansKR_100Thin } from 'expo-google-fonts-ibm-plex-sans-kr/100Thin';
 import { IBMPlexSansKR_200ExtraLight } from 'expo-google-fonts-ibm-plex-sans-kr/200ExtraLight';
@@ -59,13 +62,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansKR_100Thin',
+            fontFamily:
+              'IBMPlexSansKR_100Thin',
           }}>
           IBM Plex Sans KR Thin
         </Text>
@@ -75,7 +84,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansKR_200ExtraLight',
+            fontFamily:
+              'IBMPlexSansKR_200ExtraLight',
           }}>
           IBM Plex Sans KR Extra Light
         </Text>
@@ -85,7 +95,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansKR_300Light',
+            fontFamily:
+              'IBMPlexSansKR_300Light',
           }}>
           IBM Plex Sans KR Light
         </Text>
@@ -95,7 +106,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansKR_400Regular',
+            fontFamily:
+              'IBMPlexSansKR_400Regular',
           }}>
           IBM Plex Sans KR Regular
         </Text>
@@ -105,7 +117,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansKR_500Medium',
+            fontFamily:
+              'IBMPlexSansKR_500Medium',
           }}>
           IBM Plex Sans KR Medium
         </Text>
@@ -115,7 +128,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansKR_600SemiBold',
+            fontFamily:
+              'IBMPlexSansKR_600SemiBold',
           }}>
           IBM Plex Sans KR Semi Bold
         </Text>
@@ -125,7 +139,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'IBMPlexSansKR_700Bold',
+            fontFamily:
+              'IBMPlexSansKR_700Bold',
           }}>
           IBM Plex Sans KR Bold
         </Text>

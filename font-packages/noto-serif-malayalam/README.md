@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-noto-serif-malayalam/useFonts';
 import { NotoSerifMalayalam_100Thin } from 'expo-google-fonts-noto-serif-malayalam/100Thin';
 import { NotoSerifMalayalam_200ExtraLight } from 'expo-google-fonts-noto-serif-malayalam/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMalayalam_100Thin',
+            fontFamily:
+              'NotoSerifMalayalam_100Thin',
           }}>
           Noto Serif Malayalam Thin
         </Text>
@@ -81,9 +90,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMalayalam_200ExtraLight',
+            fontFamily:
+              'NotoSerifMalayalam_200ExtraLight',
           }}>
-          Noto Serif Malayalam Extra Light
+          Noto Serif Malayalam Extra
+          Light
         </Text>
 
         <Text
@@ -91,7 +102,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMalayalam_300Light',
+            fontFamily:
+              'NotoSerifMalayalam_300Light',
           }}>
           Noto Serif Malayalam Light
         </Text>
@@ -101,7 +113,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMalayalam_400Regular',
+            fontFamily:
+              'NotoSerifMalayalam_400Regular',
           }}>
           Noto Serif Malayalam Regular
         </Text>
@@ -111,7 +124,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMalayalam_500Medium',
+            fontFamily:
+              'NotoSerifMalayalam_500Medium',
           }}>
           Noto Serif Malayalam Medium
         </Text>
@@ -121,7 +135,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMalayalam_600SemiBold',
+            fontFamily:
+              'NotoSerifMalayalam_600SemiBold',
           }}>
           Noto Serif Malayalam Semi Bold
         </Text>
@@ -131,7 +146,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMalayalam_700Bold',
+            fontFamily:
+              'NotoSerifMalayalam_700Bold',
           }}>
           Noto Serif Malayalam Bold
         </Text>
@@ -141,9 +157,11 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMalayalam_800ExtraBold',
+            fontFamily:
+              'NotoSerifMalayalam_800ExtraBold',
           }}>
-          Noto Serif Malayalam Extra Bold
+          Noto Serif Malayalam Extra
+          Bold
         </Text>
 
         <Text
@@ -151,7 +169,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'NotoSerifMalayalam_900Black',
+            fontFamily:
+              'NotoSerifMalayalam_900Black',
           }}>
           Noto Serif Malayalam Black
         </Text>

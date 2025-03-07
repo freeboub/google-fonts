@@ -33,7 +33,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-league-spartan/useFonts';
 import { LeagueSpartan_100Thin } from 'expo-google-fonts-league-spartan/100Thin';
 import { LeagueSpartan_200ExtraLight } from 'expo-google-fonts-league-spartan/200ExtraLight';
@@ -65,13 +68,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LeagueSpartan_100Thin',
+            fontFamily:
+              'LeagueSpartan_100Thin',
           }}>
           League Spartan Thin
         </Text>
@@ -81,7 +90,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LeagueSpartan_200ExtraLight',
+            fontFamily:
+              'LeagueSpartan_200ExtraLight',
           }}>
           League Spartan Extra Light
         </Text>
@@ -91,7 +101,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LeagueSpartan_300Light',
+            fontFamily:
+              'LeagueSpartan_300Light',
           }}>
           League Spartan Light
         </Text>
@@ -101,7 +112,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LeagueSpartan_400Regular',
+            fontFamily:
+              'LeagueSpartan_400Regular',
           }}>
           League Spartan Regular
         </Text>
@@ -111,7 +123,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LeagueSpartan_500Medium',
+            fontFamily:
+              'LeagueSpartan_500Medium',
           }}>
           League Spartan Medium
         </Text>
@@ -121,7 +134,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LeagueSpartan_600SemiBold',
+            fontFamily:
+              'LeagueSpartan_600SemiBold',
           }}>
           League Spartan Semi Bold
         </Text>
@@ -131,7 +145,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LeagueSpartan_700Bold',
+            fontFamily:
+              'LeagueSpartan_700Bold',
           }}>
           League Spartan Bold
         </Text>
@@ -141,7 +156,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LeagueSpartan_800ExtraBold',
+            fontFamily:
+              'LeagueSpartan_800ExtraBold',
           }}>
           League Spartan Extra Bold
         </Text>
@@ -151,7 +167,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'LeagueSpartan_900Black',
+            fontFamily:
+              'LeagueSpartan_900Black',
           }}>
           League Spartan Black
         </Text>

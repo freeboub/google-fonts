@@ -4,7 +4,9 @@
   "subsets": ["latin"],
   "version": "v19",
   "lastModified": "2024-09-04",
-  "files": { "regular": "https://fonts.gstatic.com/s/federo/v19/iJWFBX-cbD_ETsbmjVOe2WTG7Q.ttf" },
+  "files": {
+    "regular": "https://fonts.gstatic.com/s/federo/v19/iJWFBX-cbD_ETsbmjVOe2WTG7Q.ttf"
+  },
   "category": "sans-serif",
   "kind": "webfonts#webfont",
   "menu": "https://fonts.gstatic.com/s/federo/v19/iJWFBX-cbD_ETsbWjFma.ttf"

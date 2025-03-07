@@ -30,7 +30,10 @@ Now add code like this to your project
 ```js
 import React from 'react';
 
-import { Text, View } from 'react-native';
+import {
+  Text,
+  View,
+} from 'react-native';
 import { useFonts } from 'expo-google-fonts-moderustic/useFonts';
 import { Moderustic_300Light } from 'expo-google-fonts-moderustic/300Light';
 import { Moderustic_400Regular } from 'expo-google-fonts-moderustic/400Regular';
@@ -56,13 +59,19 @@ export default () => {
     return undefined;
   } else {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <View
+        style={{
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
         <Text
           style={{
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Moderustic_300Light',
+            fontFamily:
+              'Moderustic_300Light',
           }}>
           Moderustic Light
         </Text>
@@ -72,7 +81,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Moderustic_400Regular',
+            fontFamily:
+              'Moderustic_400Regular',
           }}>
           Moderustic Regular
         </Text>
@@ -82,7 +92,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Moderustic_500Medium',
+            fontFamily:
+              'Moderustic_500Medium',
           }}>
           Moderustic Medium
         </Text>
@@ -92,7 +103,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Moderustic_600SemiBold',
+            fontFamily:
+              'Moderustic_600SemiBold',
           }}>
           Moderustic Semi Bold
         </Text>
@@ -102,7 +114,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Moderustic_700Bold',
+            fontFamily:
+              'Moderustic_700Bold',
           }}>
           Moderustic Bold
         </Text>
@@ -112,7 +125,8 @@ export default () => {
             fontSize,
             paddingVertical,
             // Note the quoting of the value for `fontFamily` here; it expects a string!
-            fontFamily: 'Moderustic_800ExtraBold',
+            fontFamily:
+              'Moderustic_800ExtraBold',
           }}>
           Moderustic Extra Bold
         </Text>
