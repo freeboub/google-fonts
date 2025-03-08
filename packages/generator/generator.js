@@ -378,7 +378,7 @@ async function generateFontPackage(webfont) {
         main: 'index.js',
         repository: {
           type: 'git',
-          url: `${PackageGithubUrl}/google-fonts.git`,
+          url: `${PackageGithubUrl}.git`,
         },
         homepage: `${PackageGithubUrl}/tree/master/font-packages/${packageName}#readme`,
         author: PackageAuthor,
