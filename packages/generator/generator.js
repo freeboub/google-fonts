@@ -548,10 +548,9 @@ export default () => {
 `;
   let md = `# @expo-google-fonts/${packageName}
 
-![npm version](https://flat.badgen.net/npm/v/@expo-google-fonts/${packageName})
+![npm version](https://flat.badgen.net/npm/v/${PackageScope}${packageName})
 ![license](https://flat.badgen.net/github/license/expo/google-fonts)
-![publish size](https://flat.badgen.net/packagephobia/install/@expo-google-fonts/${packageName})
-![publish size](https://flat.badgen.net/packagephobia/publish/@expo-google-fonts/${packageName})
+![publish size](https://flat.badgen.net/packagephobia/install/${PackageScope}${packageName})
 
 This package lets you use the [**${
     webfont.family
